@@ -1,0 +1,14 @@
+sudo: required
+language: python
+services:
+- docker
+python:
+- '3.6'
+before_install:
+- chmod +x mkdocs-build.sh
+script:
+- ./mkdocs-build.sh ; echo "Completed deploying documentation" 
+notifications:
+  email: false
+cache:
+  pip: true
