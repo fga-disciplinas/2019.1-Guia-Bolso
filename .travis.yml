@@ -7,7 +7,8 @@ python:
 before_install:
 - chmod +x mkdocs-build.sh
 script:
-- ./mkdocs-build.sh ; echo "Completed deploying documentation" 
+- if [ "$TRAVIS_BRANCH" == "master" ] ; then if [ $TRAVIS_PULL_REQUEST == 'false' ];  then
+  ./mkdocs-build.sh ; echo "Completed deploying documentation" ;  fi; else echo 'Skipping Deploy step'; fi
 notifications:
   email: false
 cache:
