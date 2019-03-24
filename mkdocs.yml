@@ -1,0 +1,13 @@
+ 
+
+site_name: Guia Bolso
+site_description: Repositório da disciplina de Requisitos 2019.1
+repo_url: https://github.com/rafaelmakaha/2019.1-Guia-Bolso
+site_dir: site
+copyright: Copyright &copy; 2018, <a href="https://github.com/rafaelmakaha/2019.1-Guia-Bolso">Requisitos 2019.1</a>.
+dev_addr: ‘0.0.0.0:8000
+theme:
+  name: 'material'
+
+pages:
+  - Index: 'index.md'
