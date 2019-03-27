@@ -11,3 +11,4 @@ theme:
 
 pages:
   - Index: 'index.md'
+  - Teste: 'teste.md'
