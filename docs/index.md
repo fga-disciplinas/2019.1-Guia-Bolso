@@ -1,6 +1,16 @@
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla turpis ligula, mattis convallis arcu dapibus sit amet. Maecenas cursus pharetra nisi, vitae tempor nibh ornare eget. In quam lectus, gravida ac tempor eget, interdum imperdiet ligula. Donec eu hendrerit odio, vitae congue metus. Nullam imperdiet augue eu nisl rhoncus dignissim eu mollis ante. Vestibulum sed est nibh. Quisque sit amet aliquet turpis.
+![Screenshot](img/logo.png)
 
-Ut viverra ipsum urna, ac bibendum tortor convallis viverra. Nunc eu arcu iaculis, dignissim neque vitae, vulputate magna. Ut sit amet risus id justo consectetur vehicula in at quam. Maecenas pellentesque quam sed sagittis laoreet. Integer mattis euismod ipsum dapibus fermentum. Nullam vestibulum mauris justo, in pretium massa vestibulum nec. Praesent vel leo nisi. Sed bibendum nisi non tempus vulputate. Aenean venenatis semper nibh eget tempus. Vivamus feugiat tincidunt accumsan.
+Repositório da disciplina de Requisitos de Software 2019.1 realizado sobre o aplicativo GuiaBolso.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu suscipit urna. Pellentesque non pretium est, vel mollis sem. In vitae erat malesuada tortor imperdiet pretium eu non eros. In blandit erat quis ipsum malesuada aliquet. Mauris quam dui, porta et diam at, sagittis luctus orci. Praesent dapibus sapien ut sodales mattis. Duis varius massa nec auctor consequat. Sed quis venenatis felis. Pellentesque et nunc venenatis, commodo mi et, semper lorem. Phasellus molestie sapien tortor, at bibendum nulla varius vitae. Donec a luctus enim.
+## Equipe
+
+| Nome | GitHub|
+|--|--|
+| Elias Bernardo | [@ebmm01](https://github.com/ebmm01) |
+| Leo Santos | [@leossb36](https://github.com/leossb36) |
+| Sara Silva | [@silvasara](https://github.com/silvasara) |
+| Alan Lima | [@alanrslima](https://github.com/alanrslima) |
+| Lucas Machado | [@lmmLucasMachado](https://github.com/lmmLucasMachado) |
+| Shayane Alcântara| [@shayanealcantara](https://github.com/shayanealcantara) |
+| Marcelo Araújo| [@santosm46](https://github.com/santosm46) |
+| Rafael Makaha | [@rafaelmakaha](https://github.com/rafaelmakaha) |
