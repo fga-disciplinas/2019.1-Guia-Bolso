@@ -4,11 +4,19 @@ site_name: Guia Bolso
 site_description: Repositório da disciplina de Requisitos 2019.1
 repo_url: https://github.com/rafaelmakaha/2019.1-Guia-Bolso
 site_dir: site
-copyright: Copyright &copy; 2018, <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/">Requisitos 2019.1</a>.
+copyright: Copyright &copy; 2019, <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/">Requisitos 2019.1</a>.
 dev_addr: ‘0.0.0.0:8000
 theme:
   name: 'material'
+  palette:
+    primary: 'white'
+  logo: 'favicon.png'
 
-pages:
-  - Index: 'index.md'
-  - Teste: 'teste.md'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/fga-disciplinas/2019.1-Guia-Bolso'
+
+plugins:
+  - search
+  - awesome-pages

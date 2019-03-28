@@ -3,9 +3,10 @@ ARG BASE_IMAGE=alpine
 FROM python:$BASE_IMAGE
 
 # Set up workspace and install mkdocs and dependencies.
-COPY . /data
-WORKDIR /data
-RUN pip install -r requirements.txt && rm -rf $HOME/.cache/pip
+COPY requirements.txt /opt/app/requirements.txt
+WORKDIR /opt/app
+RUN pip install -r requirements.txt
+COPY . /opt/app
 
 # Set mkdocs as the entrypoint for convenience.
 ENTRYPOINT ["mkdocs"]
