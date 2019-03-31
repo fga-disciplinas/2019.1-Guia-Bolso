@@ -5,7 +5,7 @@
 |--|--|--|--| 
 | 30/03/2019 | 1.0 | Adição do RichPicture de preocupações do usuários - RP01| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 | 30/03/2019 | 1.0 | Adição do RichPicture de Empréstimos - RP02| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
-| 31/03/2019 | 1.1 | Adição do RichPicture - Macro - Atores (RP03) & Finanças (RP04)| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
+| 31/03/2019 | 1.1 | Adição dos RichPictures - Macro - Atores (RP03) & Finanças (RP04)| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
 
 ## **Introdução**
 Os RichPictures são artefatos usados na fase de pré-rastreabilidade de Requisitos de Software, são desenhos que expressam ideias que ajudam na representação de subsistemas de um sistema maior. Neste trabalho, os RichPictures foram feitos em cima de pontos relevantes para o levantamento de requisitos do aplicativo Guiabolso.
