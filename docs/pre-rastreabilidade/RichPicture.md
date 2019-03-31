@@ -1,12 +1,13 @@
 
-## Versionamento 
+## Versionamento
 
 | Data | Versão | Descrição | Autor |
-|--|--|--|--| 
+|--|--|--|--|
 | 30/03/2019 | 1.0 | Adição do RichPicture de preocupações do usuários - RP01| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 | 30/03/2019 | 1.0 | Adição do RichPicture de Empréstimos - RP02| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 | 31/03/2019 | 1.1 | Adição dos RichPictures - Macro - Atores (RP03) & Finanças (RP04)| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
-| 31/03/2019 | 1.0 | Adição do RichPicture da aba Guia - RP05| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
+| 31/03/2019 | 1.2 | Adição dos RichPictures - Macro (RP06) & Finanças do app (RP05)| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
+| 31/03/2019 | 1.0 | Adição do RichPicture da aba Guia - RP07| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 
 ## **Introdução**
 Os RichPictures são artefatos usados na fase de pré-rastreabilidade de Requisitos de Software, são desenhos que expressam ideias que ajudam na representação de subsistemas de um sistema maior. Neste trabalho, os RichPictures foram feitos em cima de pontos relevantes para o levantamento de requisitos do aplicativo Guiabolso.
@@ -17,7 +18,7 @@ Este RichPicture ilustra as principais preocupações do úsuario do Guiabolso, 
 Versão 1.0
 [ ![RP01](./../img/rich_picture_preocupacoes.png) ](./../img/rich_picture_preocupacoes.png)
 
-## **RP02 - Empréstimo** 
+## **RP02 - Empréstimo**
 Este RichPicture ilustra como é feito um empréstimo intermediado pelo Guiabolso, na aba do aplicativo chamada "Empréstimo".
 
 Versão 1.0
@@ -35,8 +36,22 @@ Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interaç�
 Versão 1.0
 [ ![RP04](./../img/rich_picture_financas.png) ](./../img/rich_picture_financas.png)
 
-## **RP05 - Aba Guia**
+## **RP05 - Finanças do app**
+Este RichPicture ilustra as formas com que o Guiabolso obtem lucro.
+
+Versão 1.0
+[ ![RP04](./../img/rich_picture_financas_do_app.png) ](./../img/rich_picture_financas_do_app.png)
+
+## **RP06 - Macro**
+Este RichPicture ilustra a primeira tentativa de entender o funcionamento do aplicativo.
+
+Versão 1.0
+[ ![RP07](./../img/rich_picture_macro_02.jpg) ](./../img/rich_picture_macro_02.jpg)
+
+[ ![RP06](./../img/rich_picture_macro_01.jpg) ](./../img/rich_picture_macro_01.jpg)
+
+## **RP07 - Aba Guia**
 Este RichPicture ilustra a aba de guia do aplicativo e interações com usuário e outros agentes externos.
 
 Versão 1.0
-[ ![RP05](./../img/rich_picture_guia.png) ](./../img/rich_picture_guia.png)
+[ ![RP07](./../img/rich_picture_guia.png) ](./../img/rich_picture_guia.png)
