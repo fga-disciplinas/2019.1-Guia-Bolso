@@ -59,4 +59,4 @@ Versão 1.0
 Esta argumentação simula uma conversa entre um usuário com o agente Serasa.
 
 Versão 1.0
-[ ![ARG08](./../img/argumentacao_serasa.jpg)](./../img/argumentacao_serasa.jpg)
+[ ![ARG08](./../img/argumentacao_serasa.png)](./../img/argumentacao_serasa.png)
