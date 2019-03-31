@@ -37,7 +37,7 @@ Versão 1.0
 [ ![ARG04](./../img/argumentacao_fluxo_de_dinheiro.jpeg)](./../img/argumentacao_fluxo_de_dinheiro.jpeg)
 
 ## **ARG05 - Dicas para o usuário**
-Esta argumentação simula o uma discução do usuario e o Guiabolso.
+Esta argumentação simula o uma discução do usuário e o Guiabolso.
 
 Versão 1.0
 [ ![ARG05](./../img/argumentacao_dicas.png)](./../img/argumentacao_dicas.png)
@@ -47,3 +47,15 @@ Esta argumentação simula uma conversa entre os desenvolvedores sobre anúncios
 
 Versão 1.0
 [ ![ARG06](./../img/argumentacao_anuncios.png)](./../img/argumentacao_anuncios.png)
+
+## **ARG07 - Emprestimo** 
+Esta argumentação simula uma solicitação de emprestimo pessoal por parte de um usuário da plataforma Guia Bolso.
+
+Versão 1.0
+[ ![ARG07](./../img/argumentacao_emprestimo.jpg)](./../img/argumentacao_emprestimo.jpg)
+
+## **ARG08 - Serasa** 
+Esta argumentação simula uma conversa entre um usuário com o agente Serasa.
+
+Versão 1.0
+[ ![ARG08](./../img/argumentacao_serasa.jpg)](./../img/argumentacao_serasa.jpg)
