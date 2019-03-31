@@ -5,6 +5,7 @@
 | 30/03/2019 | 1.0 | Adição da argumentação de privacidade do usuário - ARG01| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 | 30/03/2019 | 1.0 | Adição da argumentação de Extrato - ARG02| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 | 31/03/2019 | 1.1 | Adição das Argumentações - Instituições reguladoras e Leis (ARG03) & Fluxo de dinheiro do aplicativo (ARG04) | [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
+| 31/03/2019 | 1.2 | Adição do argumento Dicas para o usuario - ARG05| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo](https://github.com/santosm46) |
 
 ## **Introdução**
 A argumentação é uma técnica usada na pré-rastreabilidade de Requisitos de Software e tem como objetivo principal ajudar na resolução de conflitos entre vários argumentos. Neste trabalho, argumentações foram feitas para servirem de artefatos no levantamento de requisitos do aplicativo Guiabolso.
