@@ -39,3 +39,12 @@ Este RichPicture ilustra as formas com que o Guiabolso obtem lucro.
 
 Versão 1.0
 [ ![RP04](./../img/rich_picture_financas_do_app.png) ](./../img/rich_picture_financas_do_app.png)
+
+
+## **RP06 - Macro**
+Este RichPicture ilustra a primeira tentativa de entender o funcionamento do aplicativo.
+
+Versão 1.0
+[ ![RP07](./../img/rich_picture_macro_02.jpg) ](./../img/rich_picture_macro_02.jpg)
+
+[ ![RP06](./../img/rich_picture_macro_01.jpg) ](./../img/rich_picture_macro_01.jpg)
