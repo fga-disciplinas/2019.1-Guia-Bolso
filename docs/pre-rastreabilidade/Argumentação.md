@@ -6,7 +6,8 @@
 | 30/03/2019 | 1.0 | Adição da argumentação de Extrato - ARG02| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 | 31/03/2019 | 1.1 | Adição das Argumentações - Instituições reguladoras e Leis (ARG03) & Fluxo de dinheiro do aplicativo (ARG04) | [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
 | 31/03/2019 | 1.2 | Adição do argumento Dicas para o usuario - ARG05| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo](https://github.com/santosm46) |
-| 31/03/2019 | 1.0 | Adição das Argumentações de Anúncios no app - ARG06| [Marcelo Araújo](https://github.com/santosm46)|
+| 31/03/2019 | 1.3 | Adição das Argumentações de Anúncios no app - ARG06| [Marcelo Araújo](https://github.com/santosm46)|
+| 31/03/2019 | 1.4 | Adição dos argumentos - Empréstimo (ARG07) & Serasa (ARG08)| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 
 ## **Introdução**
 A argumentação é uma técnica usada na pré-rastreabilidade de Requisitos de Software e tem como objetivo principal ajudar na resolução de conflitos entre vários argumentos. Neste trabalho, argumentações foram feitas para servirem de artefatos no levantamento de requisitos do aplicativo Guiabolso.
@@ -48,7 +49,7 @@ Esta argumentação simula uma conversa entre os desenvolvedores sobre anúncios
 Versão 1.0
 [ ![ARG06](./../img/argumentacao_anuncios.png)](./../img/argumentacao_anuncios.png)
 
-## **ARG07 - Emprestimo** 
+## **ARG07 - Empréstimo** 
 Esta argumentação simula uma solicitação de emprestimo pessoal por parte de um usuário da plataforma Guia Bolso.
 
 Versão 1.0
