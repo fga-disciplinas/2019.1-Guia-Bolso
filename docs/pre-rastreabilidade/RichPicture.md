@@ -9,7 +9,9 @@
 | 31/03/2019 | 1.2 | Adição dos RichPictures - Macros (RP00) & Finanças do app (RP03)| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
 | 31/03/2019 | 1.3 | Adição do RichPicture da aba Guia - RP06| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 | 31/03/2019 | 1.4 | Adição dos RichPictures - Configurações (RP07) & Radar CPF (RP08)| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
-| 01/04/2019 | 1.5 | Revisão de decumento| [Leonardo dos Santos](https://github.com/leossb36) |
+| 01/04/2019 | 1.5 | Revisão de documento| [Leonardo dos Santos](https://github.com/leossb36) |
+| 01/04/2019 | 1.5.1 | Ajuste no RichPicture de usabilidade | [Alan Lima](https://github.com/alanrslima) |
+
 
 ## **Introdução**
 <p align="justify">Os RichPictures são artefatos usados na fase de pré-rastreabilidade de Requisitos de Software, são desenhos que expressam ideias que ajudam na representação de subsistemas de um sistema maior. Neste trabalho, os RichPictures foram feitos em cima de pontos relevantes para o levantamento de requisitos do aplicativo Guiabolso.
@@ -32,7 +34,7 @@ Versão 1.0
 <p align="justify">Este RichPicture ilustra a usabilidade da plataforma Guiabolso, a interações com usuário e interações com agentes externos.
 
 Versão 1.0
-[ ![RP02](./../img/rich_picture_usabilidade.jpg) ](./../img/rich_picture_usabilidade.jpg)
+[ ![RP02](./../img/rich_picture_usabilidade.png) ](./../img/rich_picture_usabilidade.png)
 
 ## **RP03 - Preocupações do usuário**
 <p align="justify">Este RichPicture ilustra as principais preocupações do úsuario do Guiabolso, ou seja, os motivos pelos quais faz o uso do aplicativo.
