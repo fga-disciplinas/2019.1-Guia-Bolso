@@ -23,20 +23,20 @@ Versão 1.0
 <p align="justify">Esta argumentação simula uma conversa entre usuários cujo assunto são as funcionalidade da página de Extrato.
 
 Versão 1.0
-[ ![ARG02](./../img/argumentacao_privacidade.png)](./../img/argumentacao_extrato.png)
+[ ![ARG02](./../img/argumentacao_extrato.png)](./../img/argumentacao_extrato.png)
 
 
 ## **ARG03 - Instituições reguladoras e Leis**
 <p align="justify">Esta argumentação simula as preocupações do aplicativo com as leis e normas de instituições reguladoras.
 
 Versão 1.0
-[ ![ARG03](./../img/argumentacao_instituicoes.jpeg)](./../img/argumentacao_instituicoes.jpeg)
+[ ![ARG03](./../img/argumentacao_instituicoes.jpg)](./../img/argumentacao_instituicoes.jpeg)
 
 ## **ARG04 - Fluxo de dinheiro do aplicativo**
 <p align="justify">Esta argumentação simula o fluxo de dinheiro do aplicativo.
 
 Versão 1.0
-[ ![ARG04](./../img/argumentacao_fluxo_de_dinheiro.jpeg)](./../img/argumentacao_fluxo_de_dinheiro.jpeg)
+[ ![ARG04](./../img/argumentacao_fluxo_dinheiro.jpg)](./../img/argumentacao_fluxo_de_dinheiro.jpeg)
 
 ## **ARG05 - Dicas para o usuário**
 <p align="justify">Esta argumentação simula o uma discução do usuário e o Guiabolso.
