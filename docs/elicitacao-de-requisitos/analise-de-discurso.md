@@ -11,7 +11,7 @@ O brainstorming (em português "tempestade cerebral") ou tempestade de ideias, m
 
 A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.
 
-Dessa forma o grupo optou por realizar um brainstorm a fim de discutir sobre o aplicativo Guiabolso e elicitar seus requisitos. A reunião foi feita via _hangouts_. 
+Dessa forma o grupo optou por realizar um brainstorm a fim de discutir sobre o aplicativo Guiabolso e elicitar seus requisitos. A reunião foi feita via _hangouts_.
 
 ## Transcrição da discussão
 
@@ -27,7 +27,7 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 
 **Elias Bernardo:** Já na parte relacionada ao Serasa, apesar de o aplicativo  exibir uma classificação baseada em letras (_de **A** a **E**_), não é disponibilizado o valor numérico (_que é usado pelo mercado na prática_). Essa informação poderia ser disponibilizada aos usuários.
 
-**Léo Santos:** (_Contrapondo a fala acima_) Isso não acontece porque faria o Guiabolso como um concorrente do Serasa, tirando o foco de uso da aplicação. Porém a classificação de score feita pelo aplicativo poderia ser "transferida" para a aba _Radar CPF_, visto que essa última é uma aba que exibe apenas se o nome do usuário está limpo ou não, havendo pouco incentivo para que o usuário retorne nela futuramente (_vale salientar que a aba também exibe quem verificou o cpf do usuário_). 
+**Léo Santos:** (_Contrapondo a fala acima_) Isso não acontece porque faria o Guiabolso como um concorrente do Serasa, tirando o foco de uso da aplicação. Porém a classificação de score feita pelo aplicativo poderia ser "transferida" para a aba _Radar CPF_, visto que essa última é uma aba que exibe apenas se o nome do usuário está limpo ou não, havendo pouco incentivo para que o usuário retorne nela futuramente (_vale salientar que a aba também exibe quem verificou o cpf do usuário_).
 
 **Shayane:** Por que exibir a aba empréstimos se não aparece nenhum lá? A aba poderia exibir dicas de como obter ofertas de empréstimos (_caso o aplicativo não encontre um empréstimo que se encaixe no perfil do usuário, a aba **Empréstimos** fica praticamente vazia_).
 
@@ -55,6 +55,8 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 
 **Sara:** Algumas categorias de gastos são redundantes, e a versão web do Guiabolso não tem a aba **Guia**.
 
+**Lucas:** O aplicativo deveria altomatizar a renovação da chave de segurança pra que não seja necessario colocar a chave contantemente no app.
+
 ## Requisitos elicitados
 
 | Código | Descrição | Prioridade |
@@ -67,9 +69,10 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 | AD06 | Padronizar a identidade visual do aplicativo entre as diversas plataformas | Would have |
 | AD07 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário | Could have |
 | AD08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) | Must have |
-| AD09 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | Should have | 
-| AD10 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação | Should have | 
+| AD09 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | Should have |
+| AD10 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação | Should have |
 | AD11 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ | Should have |
+| AD12 | O app deve automatizar a conexão com o banco e não depender da chave de segurança | Must have |
 
 ## Referências
 
