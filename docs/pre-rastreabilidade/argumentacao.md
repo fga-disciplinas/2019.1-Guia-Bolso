@@ -27,7 +27,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula as preocupações do aplicativo com as leis e normas de instituições reguladoras.
 
 Versão 1.0
-[ ![ARG03](./../img/argumentacao_instituicoes.jpg)](./../img/argumentacao_instituicoes.jpeg)
+[ ![ARG03](./../img/argumentacao_instituicoes.png)](./../img/argumentacao_instituicoes.jpeg)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -37,7 +37,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula o fluxo de dinheiro do aplicativo.
 
 Versão 1.0
-[ ![ARG04](./../img/argumentacao_fluxo_dinheiro.jpg)](./../img/argumentacao_fluxo_de_dinheiro.jpeg)
+[ ![ARG04](./../img/argumentacao_fluxo_dinheiro.png)](./../img/argumentacao_fluxo_de_dinheiro.jpeg)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
