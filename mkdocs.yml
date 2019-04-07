@@ -11,12 +11,14 @@ theme:
   palette:
     primary: 'white'
   logo: 'favicon.png'
+  favicon: 'favicon.png'
 
 extra:
   social:
     - type: 'github'
       link: 'https://github.com/fga-disciplinas/2019.1-Guia-Bolso'
-
+extra_css:
+  - 'stylesheets/extra.css'
 plugins:
   - search
   - awesome-pages
