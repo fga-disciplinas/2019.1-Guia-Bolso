@@ -38,26 +38,27 @@ Foi possível observar que o aplicativo tem um nível de dificuldade mediano, vi
 
 |Código|Descrição do Requisito|Prioridade|
 |:------:|----------------------|:----------:|
-|R1|O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|Must|
-|R2|A aplicação deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|Must|
-|R2|O Guiabolso permite adicionar renda na "Carteira".|Should|
-|R4|O Guiabolso permite adicionar a renda do mês.|Must|
-|R5|O Guiabolso disponibiliza um planejamento de escolha do usuário para seus gastos.|Must|
-|R6|O Guiabolso permite a visualização dos meses anteriores e futuros para eventuais simulações de economia.|Should|
-|R7|Ao adicionar planejamento de gastos, o usuário pode categorizá-los por meio de categorias pré-estabelecidas.|Should|
-|R8|O Guiabolso permite que caso o usuário sinta necessidade, de criar novas categorias.|Should|
-|R9|O Guiabolso permite que o usuário adicione uma transação manual tanto de entrada quanto saída.|Must|
-|R10|Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|Must|
-|R11|A visualização do extrato das movimentações do usuário podem ser por meio de gráficos intuitivos.|Should|
-|R12|O Guiabolso permite a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.|Must|
-|R13|O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.|Must|
-|R14|O Guiabolso deve ter um design elegante e intuito.|Must|
-|R15|O aplicativo permite a adição de mais de uma conta bancária.|Should|
-|R16|O Guiabolso permite adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.|Must|
+|AP1|O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|Must|
+|AP2|O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|Must|
+|AP3|O Guiabolso deve permitir adicionar a renda do mês.|Must|
+|AP4|O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.|Must|
+|AP5|O Guiabolso deve permitir que o usuário adicione uma transação manual tanto de entrada quanto saída.|Must|
+|AP6|O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.|Must|
+|AP7|O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma. (NF)|Must|
+|AP8|O Guiabolso deve ter um design elegante e intuito. (NF)|Must|
+|AP9|Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|Must|
+|AP10|O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.|Must|
+|AP11|A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro. (NF)|Must|
+|AP12|O aplicativo deverá ter um tutorial automático para novos usuários e deve ficar claramente disposto na tela para eventuais dúvidas.|Must|
+|AP13|O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.|Should|
+|AP14|Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|Should|
+|AP15|O Guiabolso deve permitir que caso o usuário sinta necessidade, de criar novas categorias.|Should|
+|AP16|A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|Should|
+|AP17|O aplicativo deve permitir a adição de mais de uma conta bancária.|Should|
+|AP18|O Guiabolso deve permitir adicionar renda na "Carteira".|Could|
+|AP19|O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.|Would|
 
+## Referências Bibliográficas
+Demoiselle Process. Diretriz: Orientações para a Elicitação de Requisitos. Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>. Acesso em: 06 de abril de 2019.
 
-
-## Referências
-Demoiselle Process - Diretriz: Orientações para a Elicitação de Requisitos.
-Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>
-Acesso em: 06 de abril de 2019.
+Frederico Aranha - Site Campus. Técnica MoSCoW na Priorização dos Requisitos. Disponível em: <https://sitecampus.com.br/tecnica-moscow-na-priorizacao-dos-requisitos/>. Acesso em 07 de abril de 2019.
