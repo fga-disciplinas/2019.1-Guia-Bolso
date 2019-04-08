@@ -365,6 +365,30 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -504,7 +528,7 @@
 <h3 id="brainstorm">Brainstorm</h3>
 <p>O brainstorming (em português "tempestade cerebral") ou tempestade de ideias, mais que uma técnica de dinâmica de grupo, é uma atividade desenvolvida para explorar a potencialidade criativa de um indivíduo ou de um grupo - criatividade em equipe - colocando-a a serviço de objetivos pré-determinados.</p>
 <p>A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.</p>
-<p>Dessa forma o grupo optou por realizar um brainstorm a fim de discutir sobre o aplicativo Guiabolso e elicitar seus requisitos. A reunião foi feita via <em>hangouts</em>. </p>
+<p>Dessa forma o grupo optou por realizar um brainstorm a fim de discutir sobre o aplicativo Guiabolso e elicitar seus requisitos. A reunião foi feita via <em>hangouts</em>.</p>
 <h2 id="transcricao-da-discussao">Transcrição da discussão</h2>
 <p>Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).</p>
 <p><strong>Léo Santos:</strong> O aplicativo facilita a gerência de múltiplas contas  bancárias, juntando todas num só lugar. Além disso ele já pré configura uma série de "burocracias" automaticamente, já entregando tudo pronto e usável ao usuário.</p>
@@ -512,7 +536,7 @@
 <p><strong>Léo Santos:</strong> O aplicativo poderia melhorar a parte de extrato, detalhando mais as operações e planejamento (<em>sugeriu permitir o planejamento de forma individual por conta bancária</em>).</p>
 <p><strong>Sara:</strong> O aplicativo também poderia ter um tutorial no primeiro uso, ensinando a utilização de suas principais funções (<em>não existe um tutorial de primeiro uso atualmente</em>).</p>
 <p><strong>Elias Bernardo:</strong> Já na parte relacionada ao Serasa, apesar de o aplicativo  exibir uma classificação baseada em letras (<em>de <strong>A</strong> a <strong>E</strong></em>), não é disponibilizado o valor numérico (<em>que é usado pelo mercado na prática</em>). Essa informação poderia ser disponibilizada aos usuários.</p>
-<p><strong>Léo Santos:</strong> (<em>Contrapondo a fala acima</em>) Isso não acontece porque faria o Guiabolso como um concorrente do Serasa, tirando o foco de uso da aplicação. Porém a classificação de score feita pelo aplicativo poderia ser "transferida" para a aba <em>Radar CPF</em>, visto que essa última é uma aba que exibe apenas se o nome do usuário está limpo ou não, havendo pouco incentivo para que o usuário retorne nela futuramente (<em>vale salientar que a aba também exibe quem verificou o cpf do usuário</em>). </p>
+<p><strong>Léo Santos:</strong> (<em>Contrapondo a fala acima</em>) Isso não acontece porque faria o Guiabolso como um concorrente do Serasa, tirando o foco de uso da aplicação. Porém a classificação de score feita pelo aplicativo poderia ser "transferida" para a aba <em>Radar CPF</em>, visto que essa última é uma aba que exibe apenas se o nome do usuário está limpo ou não, havendo pouco incentivo para que o usuário retorne nela futuramente (<em>vale salientar que a aba também exibe quem verificou o cpf do usuário</em>).</p>
 <p><strong>Shayane:</strong> Por que exibir a aba empréstimos se não aparece nenhum lá? A aba poderia exibir dicas de como obter ofertas de empréstimos (<em>caso o aplicativo não encontre um empréstimo que se encaixe no perfil do usuário, a aba <strong>Empréstimos</strong> fica praticamente vazia</em>).</p>
 <p><strong>Leo:</strong> A parte de configurações do aplicativo poderia ser categorizada, visto que as opções são praticamente "jogadas" para o usuário.</p>
 <p><strong>Elias Bernardo:</strong> O site do Guiabolso tem timeout (<em>desloga o usuário após alguns minutos</em>) e 2 layouts disponíveis. Porém a versão web é bem diferente da versão android.</p>
@@ -526,6 +550,7 @@
 <p><strong>Shayane:</strong> A aba <strong>Guia</strong> tem muitas informações desnecessárias, como quantas vezes você entrou no aplicativo.</p>
 <p><strong>Elias Bernardo:</strong> De fato a aba <strong>Guia</strong> é confusa. Seria uma boa categorizar os artigos e remover alguns de lá, visto que alguns levam à aba <strong>Radar CPF</strong> (<em>logo por que não estar lá de uma vez?</em>).</p>
 <p><strong>Sara:</strong> Algumas categorias de gastos são redundantes, e a versão web do Guiabolso não tem a aba <strong>Guia</strong>.</p>
+<p><strong>Lucas:</strong> O aplicativo deveria altomatizar a renovação da chave de segurança pra que não seja necessario colocar a chave contantemente no app.</p>
 <h2 id="requisitos-elicitados">Requisitos elicitados</h2>
 <table>
 <thead>
@@ -590,6 +615,11 @@
 <td>AD11</td>
 <td>Categorizar os artigos da aba <em>Guia</em> e aplicar maior ênfase na opção <em>"essa informação foi útil?"</em></td>
 <td>Should have</td>
+</tr>
+<tr>
+<td>AD12</td>
+<td>O app deve automatizar a conexão com o banco e não depender da chave de segurança</td>
+<td>Must have</td>
 </tr>
 </tbody>
 </table>
