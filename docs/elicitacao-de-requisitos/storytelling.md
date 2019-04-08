@@ -38,8 +38,33 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 
 ## Requisitos Elicitados
 
-| Código | Descição | Prioridade |
+| Código | Descrição | Prioridade |
 | -- | -- | -- |
 | ST2.1 | O app deve oferecer cupons baseado na geolocalização do usuario | could have |
 | ST2.2 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | could have |
 | ST2.3 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | could have |
+
+## Sorytelling 3 - Utilizando conta manual
+
+### Rastreabilidade
+
+| Nome | papel | Observação |
+|--|--|--|
+| Lucas Machado | Narração | Usuário app / membro |
+| Marcelo | Relatório | Membro da equipe |
+| Demais membros | Ouvinte | Membro da equipe |
+
+## Resumo da Narração
+
+<p aling= "justify"> O usuário optou por, além de usar seu cartão com o app, também fazer o uso
+da opção de conta manual, pois faz compras com dinheiro regularmente. Depois de usar por alguns dias, observou que ao adicionar uma transação manual e salvar,
+ao tentar depois editar o valor da transação de negativo para positivo, não havia como, e também
+tentou alterar a data da transação e não conseguiu.
+Outra dificuldade foi ao escolher a categoria, pois tendo feito uma compra de um alimento, procurou a categoria comida e não acho, e acabou categorizando como Mercado.</p>
+
+## Requisitos Elicitados
+
+| Código | Descrição | Prioridade |
+| -- | -- | -- |
+| ST3.1 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
+| ST3.2 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
