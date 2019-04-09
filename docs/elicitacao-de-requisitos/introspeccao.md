@@ -37,7 +37,7 @@ As User Storys foram elaboradas através de uma persona, ou seja, a simulação 
 |--|--|--|
 | US01 |  O aplictivo permitir o cadastro com redes sociais | Would have |
 | US02 |  Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos | Would have |
-| US03 |  de acessar o aplicativo em diferentes plataformas | Could have |
+| US03 |  O aplicativo deve permitir o acesso em diferentes plataformas | Could have |
 | US04 |  Disponibilizar opções e informações sobre plataformas de investimento | Could have |
 | US05 |  Sistema de conquistas para me incentivar o u usuário usar aplicativo e poupar dinheiro | Could have |
 | US06 |  Disponibilização de  informações sobre o cadastro positivo no serasa | Would have |
@@ -45,3 +45,18 @@ As User Storys foram elaboradas através de uma persona, ou seja, a simulação 
 | US08 |  Mais opções de visualização nos gráficos de rendas e gastos | Could have |
 | US09 |  Possibilidade de remover os cards da aba _Guia_. | Should have |
 | US10 |  Disponibilização de um tema escuro na versão Android/Ios. | Would have |
+
+### First Things First
+
+| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
+|--|--|--|--|--|--|--|--|--|--|
+| US01 | 3 | 2 | 8 | % | 1 | % | 1 | % | |
+| US02 | 1 | 1 | 3 | % | 2 | % | 1 | % | |
+| US03 | 2 | 1 | 5 | % | 9 | % | 9 | % | |
+| US04 | 4 | 1 | 9 | % | 5 | % | 1 | % | |
+| US05 | 2 | 1 | 5 | % | 1 | % | 1 | % | |
+| US06 | 4 | 2 | 10 | % | 1 | % | 1 | % | |
+| US07 | 1 | 1 | 3 | % | 7 | % | 4 | % | |
+| US08 | 7 | 5 | 19 | % | 2 | % | 1 | % | |
+| US09 | 2 | 1 | 5 | % | 1 | % | 1 | % | |
+| US10 | 1 | 1 | 3 | % | 1 | % | 1 | % | |

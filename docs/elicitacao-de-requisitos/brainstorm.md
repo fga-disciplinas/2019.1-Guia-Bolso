@@ -63,9 +63,11 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 
 ## Requisitos elicitados
 
+### MoSCoW
+
 | Código | Descrição | Prioridade |
 |--|--|--|
-| AD01 | O aplicativo deve permitir a das contas/cartões de forma individual | Must have |
+| AD01 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual | Must have |
 | AD02 | O aplicativo deve disponibilizar o score numérico do Serasa (e não somente em classificação de __A__ a __E__) | Could have |
 | AD03 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | Would have |
 | AD04 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | Cold have |
@@ -76,7 +78,24 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 | AD09 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | Should have |
 | AD10 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação | Should have |
 | AD11 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ | Should have |
-| AD12 | O app deve automatizar a conexão com o banco e não depender da chave de segurança | Must have |
+| AD12 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) | Must have |
+
+### First Things First
+
+| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
+|--|--|--|--|--|--|--|--|--|--|
+| AD01 | 8 | 3 | 19 | % | 8 | % | 3 | % | |
+| AD02 | 1 | 1 | 3 | % | 2 | % | 1 | % | |
+| AD03 | 1 | 1 | 3 | % | 1 | % | 1 | % | |
+| AD04 | 4 | 5 | 13 | % | 2 | % | 1 | % | |
+| AD05 | 1 | 1 | 3 | % | 1 | % | 1 | % | |
+| AD06 | 6 | 2 | 14 | % | 9 | % | 3 | % | |
+| AD07 | 7 | 3 | 17 | % | 9 | % | 7 | % | |
+| AD08 | 6 | 3 | 15 | % | 3 | % | 1 | % | |
+| AD09 | 5 | 1 | 11 | % | 1 | % | 1 | % | |
+| AD10 | 3 | 6 | 12 | % | 2 | % | 1 | % | |
+| AD11 | 4 | 2 | 10 | % | 1 | % | 1 | % | |
+| AD12 | 1 | 1 | 3 | % | 9 | % | 9 | % | |
 
 ## Referências
 
