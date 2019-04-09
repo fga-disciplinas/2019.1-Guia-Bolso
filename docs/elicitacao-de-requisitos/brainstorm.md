@@ -1,19 +1,23 @@
 ## Introdução
 
-Análise do Discurso é tida como uma prática de análise do estudo lingüístico, existente no campo da comunicação. Ela consiste na análise da estrutura de um dado texto, seja ele verbal ou não-verbal, e suas respectivas preocupações.
-
-Para a análise do discurso o grupo optou por se reunir, _via hangouts_, e fazer um _brainstorm_. A partir disso foram elicitados e posteriormente priorizados os requisitos.
-
-
-### Brainstorm
-
 O brainstorming (em português "tempestade cerebral") ou tempestade de ideias, mais que uma técnica de dinâmica de grupo, é uma atividade desenvolvida para explorar a potencialidade criativa de um indivíduo ou de um grupo - criatividade em equipe - colocando-a a serviço de objetivos pré-determinados.
 
 A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.
 
-Dessa forma o grupo optou por realizar um brainstorm a fim de discutir sobre o aplicativo Guiabolso e elicitar seus requisitos. A reunião foi feita via _hangouts_.
 
-## Transcrição da discussão
+## Processo de brainstorm
+
+Para a realização do brainstorm o grupo optou por se reunir, via _hangouts_, às 20:00 do dia 05/04 (sexta feira). O intuito era abordar a aplicação a partir de disversos pontos de vista. Cada membro poderia, livremente, fazer uma crítica, elogio e/ou sugestão de melhoria (não necessariamente nessa ordem). Por ser mais informal não foi estabelecido tempo de fala ou mesmo ordem. Contudo houve certo cuidado para que o foco do brainstorm não saísse do aplicativo (Guiabolso).
+
+Membros participantes:
+
+- Léo Santos;
+- Shayane Alcântara
+- Sara Silva;
+- Elias Bernardo;
+- Alan Lima;
+- Rafael Makaha;
+- Marcelo Araújo
 
 Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).
 
