@@ -1,6 +1,6 @@
 ## Introdução
 
-<p align="justify"> Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecimento por meio de histórias sejam elas contadas por um grupo de pessoas ou até mesmo uma organização. A equipe realizou um storytelling com um pai de um dos membros da equipe que recentemente começou a utilizar o app Guiabolso. Este conta como está sendo a sua experiência com o app enquanto os outros membros escutavam e anotavam. Abaixo esta um relatório da narrativa.</p>
+<p align="justify"> Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecimento por meio de histórias sejam elas contadas por um grupo de pessoas ou até mesmo uma organização. A equipe realizou alguns storytellings sendo um com um pai de um dos membros da equipe que recentemente começou a utilizar o app Guiabolso e os outros com membros da equipe. Todos abordam experiências de utilização do app. Abaixo esta um relatório das narrativas.</p>
 
 ## Storytelling 1 - Interesse do usuario
 
@@ -34,7 +34,7 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 
 ## Resumo da Narração
 
-<p aling= "justify"> O usuário achou interessante a aba guia e foi em busca de novas funcionalidade dentre elas acabou encontrando a uma que lhe pareceu interessante que onde lhe sugeria bares e restaurantes onde pelo proprio app era possível adquirir descontos, para ir em determinados locais, porem ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes.</p>
+<p aling= "justify"> O usuário achou interessante a ideia que lhe foi passada do app, depois de utilizar um tempo foi em busca de novas funcionalidade dentre elas acabou encontrando na aba guia uma que lhe pareceu interessante, a parte onde encontrava sugestões de bares e restaurantes que pelo proprio app era possível adquirir descontos, porem ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes. Ele descobriu um local onde podia colocar a cidade de onde iria receber sugestões e la também não existia a sua cidade como opção.</p>
 
 ## Requisitos Elicitados
 
