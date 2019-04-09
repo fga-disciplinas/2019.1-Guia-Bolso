@@ -27,7 +27,7 @@ Versão 1.0
 <p align="justify">Este RichPicture ilustra a usabilidade da plataforma Guiabolso, a interações com usuário e interações com agentes externos.
 
 Versão 1.0
-[ ![RP02](./../img/rich_picture_usabilidade.png) ](./../img/rich_picture_usabilidade.png)
+[ ![RP02](./../img/rich_picture_usabilidade.jpg) ](./../img/rich_picture_usabilidade.jpg)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
