@@ -21,4 +21,14 @@ extra_css:
   - 'stylesheets/extra.css'
 plugins:
   - search
-  - awesome-pages
+pages:
+  - Home: 'index.md'
+  - Pré rastreabilidade: 
+    - Richpicture: 'pre-rastreabilidade/richpicture.md'
+    - Argumentação: 'pre-rastreabilidade/argumentacao.md'
+  - Elicitação de requisitos:
+    - Análise de protocolo: 'elicitacao-de-requisitos/analise-de-protocolo.md'
+    - Brainstorm: 'elicitacao-de-requisitos/brainstorm.md'
+    - Instrospecção: 'elicitacao-de-requisitos/introspeccao.md'
+    - Questionário: 'elicitacao-de-requisitos/questionario.md'
+    - Storytelling: 'elicitacao-de-requisitos/storytelling.md'

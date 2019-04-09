@@ -1,19 +1,23 @@
 ## Introdução
 
-Análise do Discurso é tida como uma prática de análise do estudo lingüístico, existente no campo da comunicação. Ela consiste na análise da estrutura de um dado texto, seja ele verbal ou não-verbal, e suas respectivas preocupações.
-
-Para a análise do discurso o grupo optou por se reunir, _via hangouts_, e fazer um _brainstorm_. A partir disso foram elicitados e posteriormente priorizados os requisitos.
-
-
-### Brainstorm
-
 O brainstorming (em português "tempestade cerebral") ou tempestade de ideias, mais que uma técnica de dinâmica de grupo, é uma atividade desenvolvida para explorar a potencialidade criativa de um indivíduo ou de um grupo - criatividade em equipe - colocando-a a serviço de objetivos pré-determinados.
 
 A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.
 
-Dessa forma o grupo optou por realizar um brainstorm a fim de discutir sobre o aplicativo Guiabolso e elicitar seus requisitos. A reunião foi feita via _hangouts_.
 
-## Transcrição da discussão
+## Processo de brainstorm
+
+Para a realização do brainstorm o grupo optou por se reunir, via _hangouts_, às 20:00 do dia 05/04 (sexta feira). O intuito era abordar a aplicação a partir de disversos pontos de vista. Cada membro poderia, livremente, fazer uma crítica, elogio e/ou sugestão de melhoria (não necessariamente nessa ordem). Por ser mais informal não foi estabelecido tempo de fala ou mesmo ordem. Contudo houve certo cuidado para que o foco do brainstorm não saísse do aplicativo (Guiabolso).
+
+Membros participantes:
+
+- Léo Santos;
+- Shayane Alcântara
+- Sara Silva;
+- Elias Bernardo;
+- Alan Lima;
+- Rafael Makaha;
+- Marcelo Araújo
 
 Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).
 
@@ -59,9 +63,11 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 
 ## Requisitos elicitados
 
+### MoSCoW
+
 | Código | Descrição | Prioridade |
 |--|--|--|
-| AD01 | O aplicativo deve permitir a das contas/cartões de forma individual | Must have |
+| AD01 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual | Must have |
 | AD02 | O aplicativo deve disponibilizar o score numérico do Serasa (e não somente em classificação de __A__ a __E__) | Could have |
 | AD03 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | Would have |
 | AD04 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | Cold have |
@@ -72,7 +78,25 @@ Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reu
 | AD09 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | Should have |
 | AD10 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação | Should have |
 | AD11 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ | Should have |
-| AD12 | O app deve automatizar a conexão com o banco e não depender da chave de segurança | Must have |
+| AD12 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) | Must have |
+
+### First Things First
+
+| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
+|--|--|--|--|--|--|--|--|--|--|
+| AD01 | 8 | 3 | 19 | 15.4% | 8 | 16.6% | 3 | 10% | 0.403 |
+| AD02 | 1 | 1 | 3 | 2.4% | 2 | 4.1% | 1 | 3.3% | 0.243 |
+| AD03 | 1 | 1 | 3 | 2.4% | 1 | 2% | 1 | 3.3% | 0.424 |
+| AD04 | 4 | 5 | 13 | 10.5% | 2 | 4.1% | 1 | 3.3% | 1.065 |
+| AD05 | 1 | 1 | 3 | 2.4% | 1 | 2% | 1 | 3.3% | 0.424 |
+| AD06 | 6 | 2 | 14 | 11.3% | 9 | 18.7% | 3 | 10% | 0.266 |
+| AD07 | 7 | 3 | 17 | 13.8% | 9 | 18.7% | 7 | 23.3% | 0.281 |
+| AD08 | 6 | 3 | 15 | 12.1% | 3 | 6.2% | 1 | 3.3% | 0.861 |
+| AD09 | 5 | 1 | 11 | 8.9% | 1 | 2% | 1 | 3.3% | 1.575 |
+| AD10 | 3 | 6 | 12 | 9.7% | 2 | 4.1% | 1 | 3.3% | 0.877 |
+| AD11 | 4 | 2 | 10 | 8.1% | 1 | 2% | 1 | 3.3% | 1.433 |
+| AD12 | 1 | 1 | 3 | 2.4% | 9 | 18.7% | 9 | 30% | 0.045 |
+| Totais | 47 | 29 | 123 | 100 | 48 | 100 | 30 | 100 |  |
 
 ## Referências
 

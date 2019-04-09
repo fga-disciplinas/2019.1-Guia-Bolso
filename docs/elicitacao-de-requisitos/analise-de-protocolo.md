@@ -2,7 +2,13 @@
 Análise de Protocolo é uma técnica para elicitar requisitos, em que há a verbalização de ações e pensamentos enquanto o usuário executa a tarefa, possibilitando uma maior quantidade de detalhes.
 
 ## Análise de Protocolo
+
+### Metodologia
 Para aplicar a técnica, foi escolhida uma pessoa que nunca havia acessado o aplicativo Guiabolso, com o objetivo de obter detalhes das operações realizadas e assim, poder documentar os requisitos das abas Finanças e Radar CPF.
+
+A princípio foi introduzida a proposta para a usuária por meio de uma breve explicação do que o aplicativo busca atingir. Foi apresentada também orientações básicas sobre a Análise de protocolo, como a verbalização dos seus atos no aplicativo. Em seguida foi entregue o dispositivo móvel para primeiro acesso. 
+
+Os observadores da análise tentaram ao máximo não intervir na tomada de ações referentes ao uso do aplicativo. Como registro, a participante permitiu ser gravada por áudio a todo momento que estivesse explicando o aplicativo.
 
 ### Verbalização do usuário
 |Operação|Observação|
@@ -32,7 +38,8 @@ Para aplicar a técnica, foi escolhida uma pessoa que nunca havia acessado o apl
 |Adicionar conta|Ao escolher a opção Banco do Brasil, foi pedido uma senha do internet banking, porém ela não fez/não lembra de ter feito uma senha para este fim. Por não ter essa senha, foi impossível prosseguir com a operação.|
 
 ### Análise das observações
-Foi possível observar que o aplicativo tem um nível de dificuldade mediano, visto que não há um tutorial para novos usuários. O tempo gasto na aba Finanças foi consideravelmente alto, com registro de 30 minutos. Apesar disto, deve-se considerar que a usuária teve que adicionar as transações manualmente, influenciando no tempo total.
+Por meio da Análise de protocolo, foi possível observar que o aplicativo tem um nível de dificuldade mediano, visto que não há um tutorial para novos usuários. Consequentemente, pode-se notar um tempo gasto na aba Finanças consideravelmente alto, com registro de aproximadamente 30 minutos. 
+Entretanto, deve-se considerar que a usuária teve que adicionar as transações manualmente, influenciando no tempo total. Sua verbalização foi clara a ponto de poder notar que o processo de inserção de dados manualmente era um processo cansativo.
 
 ## Requisitos elicitados
 
@@ -45,16 +52,16 @@ Foi possível observar que o aplicativo tem um nível de dificuldade mediano, vi
 |AP5|O Guiabolso deve permitir que o usuário adicione uma transação manual tanto de entrada quanto saída.|Must|
 |AP6|O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.|Must|
 |AP7|O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma. (NF)|Must|
-|AP8|O Guiabolso deve ter um design elegante e intuito. (NF)|Must|
+|AP8|O Guiabolso deve ter um design elegante e intuitivo. (NF)|Must|
 |AP9|Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|Must|
 |AP10|O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.|Must|
-|AP11|A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro. (NF)|Must|
-|AP12|O aplicativo deverá ter um tutorial automático para novos usuários e deve ficar claramente disposto na tela para eventuais dúvidas.|Must|
+|AP11|O aplicativo deverá ter um tutorial automático para novos usuários e deve ficar claramente disposto na tela para eventuais dúvidas.|Must|
+|AP12|A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro. (NF)|Should|
 |AP13|O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.|Should|
 |AP14|Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|Should|
-|AP15|O Guiabolso deve permitir que caso o usuário sinta necessidade, de criar novas categorias.|Should|
-|AP16|A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|Should|
-|AP17|O aplicativo deve permitir a adição de mais de uma conta bancária.|Should|
+|AP15|A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|Should|
+|AP16|O aplicativo deve permitir a adição de mais de uma conta bancária.|Should|
+|AP17|O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.|Could|
 |AP18|O Guiabolso deve permitir adicionar renda na "Carteira".|Could|
 |AP19|O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.|Would|
 
