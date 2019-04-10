@@ -27,6 +27,7 @@ pages:
     - Richpicture: 'pre-rastreabilidade/richpicture.md'
     - Argumentação: 'pre-rastreabilidade/argumentacao.md'
   - Elicitação de requisitos:
+    - Prototipação: 'elicitacao-de-requisitos/prototipacao.md'
     - Análise de protocolo: 'elicitacao-de-requisitos/analise-de-protocolo.md'
     - Questionário: 'elicitacao-de-requisitos/questionario.md'
     - Brainstorm: 'elicitacao-de-requisitos/brainstorm.md'
