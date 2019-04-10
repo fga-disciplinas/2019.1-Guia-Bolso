@@ -5,7 +5,7 @@ Questionário é uma técnica inflexível de elicitação de requisitos, pois im
 ## Questionário
 
 O questionário faz a classificação de dois grupos: participantes que não são usuários do Guiabolso e participantes que são usuários. Para o primeiro grupo, que é o maior entre os dois, as perguntas foram feitas com o objetivo de identificar os hábitos financeiros dos participantes para avaliar se o Guiabolso atende esses hábitos. Para o segundo grupo as perguntas foram feitas com objetivo de avaliar a utilidade das funcionalidades do aplicativo e também sua eficiência.
-O questionário foi divulgado em grupos da faculdade e de familiares dos integrantes do grupo, até o momento, 51 pessoas responderam. 
+O questionário foi divulgado em grupos da faculdade e de familiares dos integrantes do grupo, até o momento, 51 pessoas responderam.
 
 [ ![P01](./../img/pergunta_1.png) ](./../img/pergunta_1.png)
 
@@ -41,7 +41,7 @@ A próximas perguntas foram direcionadas aos não usuários do Guiabolso
 
 ## Análise
 
-Com os resultados do questionário pode-se tirar algumas conclusões, como que a funcionalidade do aplicativo de contratação de empréstimo não é usada pela maioria dos usuários e provavelmente não seria muito usada também pelos não usuários, já que a maioria nunca realizou um empréstimo. Então, vale repensar se é necessário uma aba de dedicação exclusiva para empréstimo, poderia ser adicionada outra funcionalidade nela como, por exemplo, 
+Com os resultados do questionário pode-se tirar algumas conclusões, como que a funcionalidade do aplicativo de contratação de empréstimo não é usada pela maioria dos usuários e provavelmente não seria muito usada também pelos não usuários, já que a maioria nunca realizou um empréstimo. Então, vale repensar se é necessário uma aba de dedicação exclusiva para empréstimo, poderia ser adicionada outra funcionalidade nela como, por exemplo,
 a visualização da avaliação de crédito, que é de interesse da maioria dos participantes, ou a consulta da situação do CPF ou sugestões para investimentos.
 
 O aplicativo também deve oferecer uma visualização de extrato melhor que as que os aplicativos dos bancos oferecem que geralmente não é categorizado nem dispõe de gráficos.  
@@ -75,7 +75,7 @@ Além disso, pode-se concluir também que algumas funcionalidades devem ser mant
 | Q19 | Notificar quando o gasto for excedido | Should have |
 | Q20 | Ter um tutorial de primeiro uso | Should have |
 
-### First Things First 
+### First Things First
 
 | Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Priorida    de |
 |--|--|--|--|--|--|--|--|--|--|
