@@ -1,3 +1,9 @@
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 09/04/2019 | 1.0 | Adicionado informações iniciais | Leonardo dos Santos |
+| 09/04/2019 | 1.1 | Adicionado prototipos | Alan Lima |
+| 10/04/2019 | 1.2 | Atualizado descrições dos protótipos | Alan Lima |
+
 ## Introdução
     
 O processo de prototipação tem o objetivo de facilitar o entendimento dos requisitos, apresentando conceitos e funcionalidades do aplicativo. Fazendo novas proposta para então solucionar problemas na qual o usuário pode se encontrar garantindo o alinhamento entre equipe e usuário.
