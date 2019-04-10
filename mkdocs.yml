@@ -8,8 +8,6 @@ copyright: Copyright &copy; 2019, <a href="https://fga-disciplinas.github.io/201
 dev_addr: ‘0.0.0.0:8000
 theme:
   name: 'material'
-  palette:
-    primary: 'white'
   logo: 'favicon.png'
   favicon: 'favicon.png'
 
