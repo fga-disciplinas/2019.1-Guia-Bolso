@@ -42,6 +42,7 @@ Por meio da Análise de protocolo, foi possível observar que o aplicativo tem u
 Entretanto, deve-se considerar que a usuária teve que adicionar as transações manualmente, influenciando no tempo total. Sua verbalização foi clara a ponto de poder notar que o processo de inserção de dados manualmente era um processo cansativo.
 
 ## Requisitos elicitados
+### MoSCoW
 
 |Código|Descrição do Requisito|Prioridade|
 |:------:|----------------------|:----------:|
@@ -65,7 +66,33 @@ Entretanto, deve-se considerar que a usuária teve que adicionar as transações
 |AP18|O Guiabolso deve permitir adicionar renda na "Carteira".|Could|
 |AP19|O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.|Would|
 
+### First Things First
+| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor %| Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| AP01 | 7 | 5 | 19 | 6.6% | 3 | 2.9% | 1 | 1.7% | 1.434 |
+| AP02 | 8 | 5 | 21 | 7.3% | 4 | 3.9% | 1 | 1.7% | 1.303 |
+| AP09 | 7 | 8 | 22 | 7.6% | 3 | 2.9% | 1 | 1.7% | 1.175 |
+| AP18 | 1 | 1 | 3 | 1.0% | 4 | 3.9% | 1 | 1.7% | 1.105 |
+| AP10 | 8 | 6 | 22 | 7.6% | 7 | 6.9% | 2 | 3.3% | 0.963 |
+| AP08 | 5 | 5 | 15 | 5.2% | 8 | 7.9% | 2 | 3.3% | 0.861 |
+| AP17 | 1 | 1 | 3 | 1.0% | 5 | 4.9% | 4 | 6.7% | 0.735 |
+| AP03 | 8 | 7 | 23 | 7.9% | 3 | 2.9% | 1 | 1.7% | 0.717 |
+| AP16 | 7 | 3 | 17 | 5.9% | 8 | 7.9% | 3 | 5.0% | 0.517 |
+| AP05 | 8 | 7 | 23 | 7.9% | 5 | 4.9% | 1 | 1.7% | 0.424 |
+| AP11 | 8 | 8 | 24 | 8.3% | 3 | 2.9% | 2 | 3.3% | 0.410 |
+| AP07 | 9 | 9 | 27 | 9.3% | 9 | 8.9% | 9 | 15.2% | 0.385 |
+| AP19 | 2 | 1 | 5 | 1.7% | 8 | 7.9% | 9 | 15.2% | 0.357 |
+| AP04 | 6 | 4 | 16 | 5.5% | 6 | 5.9% | 6 | 10.1% | 0.343 |
+| AP15 | 4 | 1 | 9 | 3.1% | 6 | 5.9% | 6 | 10.1% | 0.335 |
+| AP14 | 4 | 1 | 9 | 3.1% | 5 | 4.9% | 3 | 5.0% | 0.325 |
+| AP06 | 4 | 3 | 11 | 3.8% | 6 | 5.9% | 3 | 5.0% | 0.266 |
+| AP12 | 5 | 2 | 12 | 4.1% | 4 | 3.9% | 3 | 5.0% | 0.152 |
+| AP13 | 3 | 1 | 7 | 2.4% | 4 | 3.9% | 1 | 1.7% | 0.141 |
+| Totais | 105 | 77 | 288 | 100 | 101 | 100 | 59 | 100 |  
+
 ## Referências Bibliográficas
 Demoiselle Process. Diretriz: Orientações para a Elicitação de Requisitos. Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>. Acesso em: 06 de abril de 2019.
 
 Frederico Aranha - Site Campus. Técnica MoSCoW na Priorização dos Requisitos. Disponível em: <https://sitecampus.com.br/tecnica-moscow-na-priorizacao-dos-requisitos/>. Acesso em 07 de abril de 2019.
+
+SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
