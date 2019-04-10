@@ -28,8 +28,7 @@ Uma ótima ferramenta para desenvolvimento de protótipos de alta fidelidade.
 
 [ ![](./../img/prototipo/prototipo_notificacao.png) ](./../img/prototipo/prototipo_notificacao.png)
 
-- Um dos pontos que foi observado ao analisar o aplicativo do Guiabolso foi sua pouca comunicação com
-o usuário por meio de notificações. E está prática é de fundamental importância para manter o engajamento dos usuários com o app. Pensando nisso foram desenvolvidas algumas notificações para o Guiabolso enviar em diferentes situações.
+> Um dos pontos que foi observado ao analisar o aplicativo do Guiabolso foi sua pouca comunicação com o usuário por meio de notificações. E está prática é de fundamental importância para manter o engajamento dos usuários com o app. Pensando nisso foram desenvolvidas algumas notificações para o Guiabolso enviar em diferentes situações.
 
 --- 
 
@@ -37,19 +36,23 @@ o usuário por meio de notificações. E está prática é de fundamental import
 
 [ ![](./../img/prototipo/prototipo_faturas.png) ](./../img/prototipo/prototipo_faturas.png)
 
-- Uma aba que se encontra ausente no app é a de Faturas. Portanto foi sugerido adicioná-la ao protótipo como uma melhoria para facilitar e tornar mais prático para o usuário acessar todas as faturas de suas contas cadastradas de uma só vez, de maneira simples e objetiva. A tela contêm as faturas do mês atual, além da data de vencimento de cada uma, e o total de todas. Dessa forma, fica fácil para o usuário saber quanto terá que desembolçar para manter suas contas em dia.
+> Uma aba que se encontra ausente no app é a de Faturas. Portanto foi sugerido adicioná-la ao protótipo como uma melhoria para facilitar e tornar mais prático para o usuário acessar todas as faturas de suas contas cadastradas de uma só vez, de maneira simples e objetiva. A tela contêm as faturas do mês atual, além da data de vencimento de cada uma, e o total de todas. Dessa forma, fica fácil para o usuário saber quanto terá que desembolçar para manter suas contas em dia.
+
+---
 
 ### Radar CPF
 
 [ ![](./../img/prototipo/prototipo_radar_cpf.png) ](./../img/prototipo/prototipo_radar_cpf.png)
 
-- O app ja possui uma sessão destinada a consultar o CPF da pessoa caso seja autorizado. Porém, foi pensado em complementos para estas telas. O primeiro deles foi o Score, que faz menção a pontuação de crédito do usuário. Esta pontuação é usada como marcador de perfil da pessoa, indicando a porcentagem de risco de atraso de pagamento em um conta num período de 12 meses. Foi criada uma tela, baseada no Serasa para explicar este item como maiores detalhes. Outra atualização diz respeito aos maiores detalhes das instituições financeiras que sujaram o nome do usuário (caso seu nome esteja sujo). Desta forma lhe seram disponibilizados informações de telefone e endereço para facilitar a comunicação da pessoa com estes estabelecimentos.
+> O app ja possui uma sessão destinada a consultar o CPF da pessoa caso seja autorizado. Porém, foi pensado em complementos para estas telas. O primeiro deles foi o Score, que faz menção a pontuação de crédito do usuário. Esta pontuação é usada como marcador de perfil da pessoa, indicando a porcentagem de risco de atraso de pagamento em um conta num período de 12 meses. Foi criada uma tela, baseada no Serasa para explicar este item como maiores detalhes. Outra atualização diz respeito aos maiores detalhes das instituições financeiras que sujaram o nome do usuário (caso seu nome esteja sujo). Desta forma lhe seram disponibilizados informações de telefone e endereço para facilitar a comunicação da pessoa com estes estabelecimentos.
+
+---
 
 ### Guias
 
 [ ![](./../img/prototipo/prototipo_guia.png) ](./../img/prototipo/prototipo_guia.png)
 
-- Por último, mas não menos importante, a aba de guias. Esta sessão ja está presente no Guiabolso, porém todas as suas informações se encontram em um so lugar, sem separação por categorias. Portanto, a marcação de categorias foi sugerida nesta parte do protótipo, afim de filtrar as informações que o usuário realmente quer saber no momento.
+> Por último, mas não menos importante, a aba de guias. Esta sessão ja está presente no Guiabolso, porém todas as suas informações se encontram em um so lugar, sem separação por categorias. Portanto, a marcação de categorias foi sugerida nesta parte do protótipo, afim de filtrar as informações que o usuário realmente quer saber no momento.
 
 ## Referências
 

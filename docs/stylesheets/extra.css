@@ -1,3 +1,42 @@
- p {
-     text-align: justify;
+/* config css para tags html */
+body {
+    font-family:  "Open Sans",sans-serif;
+}
+p {
+    text-align: justify;
+}
+
+li {
+    color:#4ec2eb;
+}
+
+
+.md-typeset h1 {
+    color: rgba(0, 0, 0, 0.73);
+    font-weight: bold;
+}
+thead:first-child {
+    background-color: #250048;
+}
+
+/* config css para classes */
+.md-header {
+    background-color: #ed3d68;
+    color: white;
+}
+
+.md-nav__link:active, 
+.md-nav__link:hover, 
+.md-nav__link--active {
+ color: #1b1b1dcc
+}
+
+.md-logo {
+    width: 20px;
+    height: 20px;  
+}
+
+.md-header-nav__button.md-logo * {
+    width: 30px;
+    height: 30px;
 }
