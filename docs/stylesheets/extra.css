@@ -7,7 +7,7 @@ p {
 }
 
 li {
-    color:rgb(249, 56, 106);
+    color:#4ec2eb;
 }
 
 
@@ -21,8 +21,8 @@ thead:first-child {
 
 /* config css para classes */
 .md-header {
-    background-color: white;
-    color: #250048;
+    background-color: #ed3d68;
+    color: white;
 }
 
 .md-nav__link:active, 
