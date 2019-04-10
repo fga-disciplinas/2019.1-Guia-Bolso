@@ -65,12 +65,12 @@ MoSCOW
 
 | Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Priorida    de |
 |--|--|--|--|--|--|--|--|--|--|
-| ENT4 | 5 | 5 | 10 | 34.4.5% | 5 | 4.1% | 5 | 3.3% | 1.065 |
-| ENT1 | 3 | 2 | 5 | 17.2% | 4 | 16.6% | 2 | 10% | 0.403 |
-| ENT2 | 5 | 4 | 9 | 31.0% | 2 | 4.1% | 5 | 3.3% | 0.243 |
-| ENT3 | 3 | 5 | 8 | 27.6% | 1 | 2% | 4 | 3.3% | 0.424 |
-| ENT5 | 1 | 1 | 2 | 6.9% | 1 | 2% | 5 | 3.3% | 0.424 |
-| Totais | 17 | 11 | 29 | 100 | 13 | 100 | 30 | 100 |  
+| ENT4 | 5 | 5 | 10 | 34.4.5% | 5 | 4.1% | 5 | 23.8% | 1.065 |
+| ENT1 | 3 | 2 | 5 | 17.2% | 4 | 16.6% | 2 | 9.5% | 0.403 |
+| ENT2 | 5 | 4 | 9 | 31.0% | 2 | 4.1% | 5 | 23.8% | 0.243 |
+| ENT3 | 3 | 5 | 8 | 27.6% | 1 | 2% | 4 | 19.0% | 0.424 |
+| ENT5 | 1 | 1 | 2 | 6.9% | 1 | 2% | 5 | 23.8% | 0.424 |
+| Totais | 17 | 11 | 29 | 100 | 13 | 100 | 21 | 100 |  
 
 ## Referências
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

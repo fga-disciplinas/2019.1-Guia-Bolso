@@ -75,3 +75,6 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 | ST3.1 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
 | ST3.2 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
 | ST3.3 | As informações das finanças manuais e finanças com cartão poderem ser vistas separadamente | could have |
+
+## Referências
+SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
