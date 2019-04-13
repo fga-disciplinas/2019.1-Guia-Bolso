@@ -17,7 +17,8 @@ Membros participantes:
 - Elias Bernardo;
 - Alan Lima;
 - Rafael Makaha;
-- Marcelo Araújo
+- Marcelo Araújo;
+- Lucas Machado;
 
 Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).
 
