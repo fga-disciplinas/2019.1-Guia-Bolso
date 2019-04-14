@@ -51,7 +51,7 @@ Versão 1.0
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 31/03/2019 | 1.2 | Adição do RichPicture Finanças do app (RP04)| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
+| 31/03/2019 | 1.1 | Adição do RichPicture Finanças do app (RP04)| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
 
 ## RP05 - Empréstimo
 <p align="justify">Este RichPicture ilustra como é feito um empréstimo intermediado pelo Guiabolso, na aba do aplicativo chamada "Empréstimo".
@@ -71,7 +71,7 @@ Versão 1.0
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 31/03/2019 | 1.1 | Adição do RichPicture - Financeiro (aba) (RP06)| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
+| 31/03/2019 | 1.0 | Adição do RichPicture - Financeiro (aba) (RP06)| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
 
 ## RP07 - Aba Guia
 <p align="justify">Este RichPicture ilustra a aba de guia do aplicativo e interações com usuário e outros agentes externos.
@@ -81,7 +81,7 @@ Versão 1.0
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 31/03/2019 | 1.3 | Adição do RichPicture da aba Guia - RP06| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
+| 31/03/2019 | 1.0 | Adição do RichPicture da aba Guia - RP06| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 
 ## RP08 - Configurações
 <p align="justify">Este RichPicture ilustra a aba de configurações e interações com usuário.
@@ -91,12 +91,7 @@ Versão 1.0
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 31/03/2019 | 1.4 | Adição do RichPicture - Configurações (RP08) | [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
-| 30/03/2019 | 1.0 | Adição do RichPicture de preocupações do usuário - RP02| [Sara Silva](https://github.com/silvasara) e[Shayane Alcântara](https://github.com/shayanealcantara) |
-| 30/03/2019 | 1.0 | Adição do RichPicture de Empréstimo - RP04| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
-| 31/03/2019 | 1.1 | Adição dos RichPictures - Macro - Atores (RP02) & Financeiro (aba) (RP05)| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) |
-| 31/03/2019 | 1.2 | Adição dos RichPictures - Macros (RP00) & Finanças do app (RP03)| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
-| 31/03/2019 | 1.3 | Adição do RichPicture da aba Guia - RP06| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
+| 31/03/2019 | 1.0 | Adição do RichPicture - Configurações (RP08) | [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 
 ## RP09 - Radar CPF
 <p align="justify">Este RichPicture ilustra a aba de Radar CPF, a interações com usuário, e principalmente interações com agente Serasa, sendo fundamental para a funcionalidade desta aba.
@@ -106,4 +101,4 @@ Versão 1.0
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 31/03/2019 | 1.4 | Adição do RichPicture - Radar CPF (RP08)| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
+| 31/03/2019 | 1.0| Adição do RichPicture - Radar CPF (RP08)| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |

@@ -2,34 +2,26 @@
 
 Introspecção é uma técnica muito rica e profunda. Consiste em entender quais propriedades o sistema deve possuir para que seja um sucesso. Demanda o Engenheiro de Requisitos imaginar o que ele gostaria, se ele estivesse que desempenhar uma dada tarefa, com os equipamentos disponíveis e demais recursos.
 
-## User Story
 
-User Story ou “história de usuário” é uma descrição concisa de uma necessidade do usuário do produto (ou seja, de um “requisito”) sob o ponto de vista desse usuário. A User Story busca descrever essa necessidade de uma forma simples e leve. Dessa forma optamos por utilizar o US como forma de instrospecção para a elicitação dos requisitos e posterior priorização.
+## Personas
 
-### Persona
+Para tentarmos tornar a introspeção menos subjetiva e mais direcionada, o grupo optou por criar algumas personas, criando uma história de fundo para cada uma delas. Consequentemente, cada persona para a ser uma pessoa com algum tipo de envolvimento com o Guiabolso, direto ou não. Dessa forma, os requisitos elicitados estarão dentro de um contexto de cada persona, não sendo somente pontos subjetivos elaboradas pelos membros da equipe.
 
-As User Storys foram elaboradas através de uma persona, ou seja, a simulação de um usuário. Nesse caso, um usuário do aplicativo que já conhece bem o Guiabolso e todos os seus fluxos, e que imagina algumas coisas que gostaria de ver no app ou coisas que já existem mas que poderiam ser aperfeiçoadas.
+### Persona 1
 
+__Nome:__ FGAnderson  
 
-- Eu, como usuário, quero me cadastrar com as minhas redes sociais.
+__Profissão:__ Estudante de Engenharia de Software  
 
-- Eu, como usuário, gostaria de um sistema de login que funcione com o leitor de digitais do meu aparelho.
+__Escolaridade:__ Superior cursando  
 
-- Eu, como usuário, gostaria de acessar o aplicativo em diferentes plataformas.
+__Nível de conhecimento sobre o app:__ Conhece praticamente todas as funcionalidades da versão android, apesar de não usar todas elas 
 
-- Eu, como usuário, gostaria de opções e informações sobre plataformas de investimento.
+__Intenção ao usar o aplicativo:__ Visualizar os dados bancários num app só e controle financeiro  
 
-- Eu, como usuário, gostaria um sistema de conquistas para me incentivar a usar o aplicativo e poupar dinheiro.
+__História e contexto:__ FGAnderson gostou bastante de aplicativo por permitir que ele visse o saldo da sua conta universitária do Banco do Brasil, do seu cartão Nubank e da sua conta virtual do Banco Inter. Ele achou as dicas do aplicativo bem legais, até o momento em que percebeu a bagunça que era aquela aba: os _cards_ são fixos, sem qualquer possibilidade de ordená-los ou mesmo removê-los. E, como bom amante de gráficos, sentiu muita falta de poder trocar a visualização padrão dos graficos (e poder ver um gráfico de pizza, por exemplo).  
 
-- Eu, como usuário, gostaria que fosse disponibilizadas mais informações sobre o cadastro positivo no serasa.
-
-- Eu, como usuário, gostaria que o aplicativo disponibilizasse descontos ou cupons de desconto nos mais diversos produtos e serviços.  
-  
-- Eu, como usuário, gostaria de mais opções de visualização nos gráficos de rendas e gastos (ex.: gráfico de pizza).
-
-- Eu, como usuário, gostaria de poder remover os cards da aba _Guia_.
-
-- Eu, como usuário, gostaria que fosse disponibilizado a opção de um tema escuro na versão Android/Ios.
+__O que ele acha que poderia mudar:__ FGAnderson gostaria de poder organizar melhor a aba Guia, podendo alterar a ordem de exibibição dos cards, ver por tags ou mesmo removê-los. Na opinião dele, o ideal seria a existência de abas de categorização dos cards na aba guia. Além disso, ele gostaria de poder customizar o tipo de visualização dos gráficos dentro do aplicativo  
 
 ## Requisitos elicitados
 
@@ -61,3 +53,10 @@ As User Storys foram elaboradas através de uma persona, ou seja, a simulação 
 | US09 | 2 | 1 | 5 | 7.1% | 1 | 3,3% | 1 | 4,7% | 0.793 |
 | US10 | 1 | 1 | 3 | 4.3% | 1 | 3,3% | 1 | 4,7% | 0.480 |
 | Totais | 27 | 16 | 70 | 100 | 30 | 100 | 21 | 100 |  |
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 13/04/2019 | 2.0 | Refatoração e e adição das personas | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
+| 06/04/2019 | [1.0](/historico/introspeccao-v1) | Adição da introspeção - User Histories | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |

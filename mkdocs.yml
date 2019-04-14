@@ -32,4 +32,6 @@ pages:
     - Instrospecção: 'elicitacao-de-requisitos/introspeccao.md'
     - Entrevista: 'elicitacao-de-requisitos/entrevista.md'
     - Storytelling: 'elicitacao-de-requisitos/storytelling.md'
+  - Histórico:
+    - Introspecção-v1: 'historico/introspeccao-v1.md'
     
