@@ -11,6 +11,10 @@
 | Adailton Martins | Narração | Usuário app |
 | Lucas Machado | Relatorio | Membro da equipe |
 
+Data: 07/04/2019
+
+Esse storytelling foi feito para observar como um usuário novo interage com o app, e suas dificuldades.
+
 ## Resumo da Narração
 
 O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um colega te-lo recomendado para poder melhor observar como o seu dinheiro esta sendo gasto, logo no primeiro mês escavando o app viu uma frase que lhe chamou atenção, a frase era "Você tem na poupança X valor. Mas será que esse é o melhor lugar pra esse dinheiro?", rapidamente ele clicou nessa frase e foi guiado a uma aba que lhe permitiu ter uma ideia melhor de como a poupança funciona e como seu dinheiro estava sendo mau investido. No fim disto o usuário foi convencido de que deveria tirar parte do seu dinheiro deste local, porem sentiu falta de alguma sugestão por parte do app.
@@ -32,6 +36,11 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 |--|--|--|
 | Lucas Machado | Narração | Usuário app / membro |
 | Marcelo | Relatorio | Membro da equipe |
+
+Data: 09/04/2019
+Descrição do participante: Lucas Machado, estudante, é usuário do Guiabolso há algumas semanas, e busca economizar com as compras com alimento.
+
+Esse storytelling foi feito para saber a experiência de um usuário com a aba guia do aplicativo, e assim, levantar requisitos.
 
 ## Resumo da Narração
 
@@ -58,6 +67,11 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 | Lucas Machado | Relatório | Membro da equipe |
 | Demais membros | Ouvinte | Membro da equipe |
 
+Data: 10/04/2019
+Descrição do participante: Marcelo, estudante, é usuário do Guiabolso há cerca de 3 semanas, e usa diariamente para registrar os gastos.
+
+Esse storytelling foi feito para saber mais sobre o controle das finanças manuais de um usuário, e assim, levantar requisitos com base nisso.
+
 ## Resumo da Narração
 
 <p aling= "justify"> O usuário optou por, além de usar seu cartão com o app, também fazer o uso
@@ -74,7 +88,6 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 | -- | -- | -- |
 | ST3.1 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
 | ST3.2 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
-| ST3.3 | As informações das finanças manuais e finanças com cartão poderem ser vistas separadamente | could have |
 
 ## Referências
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
