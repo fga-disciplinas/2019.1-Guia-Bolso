@@ -6,7 +6,7 @@ p {
     text-align: justify;
 }
 
-li {
+.md-nav__item {
     color:#4ec2eb;
 }
 
