@@ -89,19 +89,19 @@ __O que ela acha que poderia mudar:__ Paula gostaria que o app exibisse o score 
 
 Pelo fato de os requisitos terem sido elaborados com base em personas, sua não implementação não seria tão prejudicial ao Guiabolso, visto que as personas já usam (em teoria) o aplicativo. Já o contrário, a implementação deles, tornaria o aplicativo muito mais interessante, tendo assim um benefício relativo superior à penalidade relativa. Dessa forma, para o FTF, o **benefício relativo** terá peso 2, enquanto a **penalidade relativa** peso 1.
 
-| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
+| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor  | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
 |--|--|--|--|--|--|--|--|--|--|
-| IS01 | 3 | 2 | 8 | % | 1 | % | 1 | % | |
-| IS02 | 3 | 1 | 7 | % | 1 | % | 1 | % | |
-| IS03 | 4 | 1 | 9 | % | 1 | % | 1 | % | |
-| IS04 | 1 | 1 | 3 | % | 1 | % | 1 | % | |
-| IS05 | 1 | 1 | 3 | % | 1 | % | 4 | % | |
-| IS06 | 4 | 2 | 10 | % | 2 | % | 2 | % | |
-| IS07 | 3 | 1 | 7 | % | 4 | % | 4 | % | |
-| IS08 | 6 | 2 | 14 | % | 1 | % | 3 | % | |
-| IS09 | 2 | 1 | 5 | % | 1 | % | 1 | % | |
-| IS10 | 9 | 1 | 19 | % | 8 | % | 5 | % | |
-| Totais |  |  |  |  |  |  |  |  |  |
+| IS01 | 3 | 2 | 8 | 9.4 | 1 | 5 | 1 | 4.3 | 0.773 |
+| IS02 | 3 | 1 | 7 | 8.2 | 1 | 5 | 1 | 4.3 | 0.674 |
+| IS03 | 4 | 1 | 9 | 10.5 | 1 | 5 | 1 | 4.3 | 0.864 |
+| IS04 | 1 | 1 | 3 | 3.5 | 1 | 5 | 1 | 4.3 | 0.288 |
+| IS05 | 1 | 1 | 3 | 3.5 | 1 | 5 | 4 | 17.3 | 0.187 |
+| IS06 | 4 | 2 | 10 | 11.7 | 2 | 10 | 2 | 8.6 | 0.481 |
+| IS07 | 3 | 1 | 7 | 8.2 | 4 | 20 | 4 | 17.3 | 0.168 |
+| IS08 | 6 | 2 | 14 | 16.4 | 1 | 5 | 3 | 13 | 0.993 |
+| IS09 | 2 | 1 | 5 | 5.8 | 1 | 5 | 1 | 4.3 | 0.477 |
+| IS10 | 9 | 1 | 19 | 22.3 | 8 | 40 | 5 | 21.7 | 0.245 |
+| Totais | 36 | 13 | 85 | 100 | 20 | 100 | 23 | 100 |  |
 
 ## Versionamento
 

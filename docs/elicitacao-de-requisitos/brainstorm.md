@@ -17,10 +17,9 @@ Membros participantes:
 - Elias Bernardo;
 - Alan Lima;
 - Rafael Makaha;
-- Marcelo Araújo;
-- Lucas Machado;
+- Marcelo Araújo
 
-Para facilitar no entendimento do Brainstorm, foi feito uma transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).
+Para facilitar no entendimento do Brainstorm, foi feito a transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).
 
 **Léo Santos:** O aplicativo facilita a gerência de múltiplas contas  bancárias, juntando todas num só lugar. Além disso ele já pré configura uma série de "burocracias" automaticamente, já entregando tudo pronto e usável ao usuário.
 
