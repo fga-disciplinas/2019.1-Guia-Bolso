@@ -93,6 +93,11 @@ Houve uma intervenção por parte da equipe ouvinte em uma das ações de explor
 | AP19 | 2 | 1 | 5 | 1.7% | 8 | 7.9% | 9 | 15.2% | 0.014 |
 | Totais | 105 | 77 | 288 | 100 | 101 | 100 | 59 | 100 |  
 
+### Conclusão
+Com a técnica Análise de protocolo, foi possível  elicitar diversos requisitos presentes no aplicativo Guiabolso, além de elicitar novos pela necessidade do usuário. Para administrar estes requisitos, utilizou-se duas técnicas de elicitação: Moscow e First Things First. 
+A técnica Moscow mostrou-se muito subjetiva em relação à prioridade. Já a First Things First mostrou-se mais embasada para um desenvolvimento mais eficiente. 
+Para definir a prioridade oficial, deve-se discutir com o cliente a fim de realizar alguns ajustes e entrar em consenso, para assim, iniciar o desenvolvimento, por exemplo, alguns requisitos elicitados, como o AP07, cujo valor é de confiabilidade para o usuário do aplicativo, não ficou entre os primeiros na tabela de prioridade pelo método First Things First, pelo seu alto risco e valor, porém é de consenso entre o desenvolvedor e o cliente que este requisito é essencial e prioritário para um bom funcionamento do aplicativo, portanto, terá prioridade alta.
+
 ## Referências Bibliográficas
 Demoiselle Process. Diretriz: Orientações para a Elicitação de Requisitos. Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>. Acesso em: 06 de abril de 2019.
 
