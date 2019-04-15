@@ -6,6 +6,8 @@ Análise de Protocolo é uma técnica para elicitar requisitos, em que há a ver
 ### Metodologia
 Para aplicar a técnica, foi escolhida uma pessoa que nunca havia acessado o aplicativo Guiabolso, com o objetivo de obter detalhes das operações realizadas e assim, poder documentar os requisitos das abas Finanças e Radar CPF.
 
+O encontro presencial foi realizada na residência da usuária, domingo à tarde e buscou-se realizar esta abordagem neste dia principalmente por ser um dia que a pessoa estaria com mais tempo disponível. 
+
 A princípio foi introduzida a proposta para a usuária por meio de uma breve explicação do que o aplicativo busca atingir. Foi apresentada também orientações básicas sobre a Análise de protocolo, como a verbalização dos seus atos no aplicativo. Em seguida foi entregue o dispositivo móvel para primeiro acesso. 
 
 Os observadores da análise tentaram ao máximo não intervir na tomada de ações referentes ao uso do aplicativo. Como registro, a participante permitiu ser gravada por áudio a todo momento que estivesse explicando o aplicativo.
@@ -40,6 +42,7 @@ Os observadores da análise tentaram ao máximo não intervir na tomada de açõ
 ### Análise das observações
 Por meio da Análise de protocolo, foi possível observar que o aplicativo tem um nível de dificuldade mediano, visto que não há um tutorial para novos usuários. Consequentemente, pode-se notar um tempo gasto na aba Finanças consideravelmente alto, com registro de aproximadamente 30 minutos. 
 Entretanto, deve-se considerar que a usuária teve que adicionar as transações manualmente, influenciando no tempo total. Sua verbalização foi clara a ponto de poder notar que o processo de inserção de dados manualmente era um processo cansativo.
+Houve uma intervenção por parte da equipe ouvinte em uma das ações de exploração ao aplicativo: Adicionar uma transação manual, pois a usuária não estava conseguindo manter o fluxo que esperava por questões de usabilidade, questão esta abordada nas observações.
 
 ## Requisitos elicitados
 ### MoSCoW
@@ -69,25 +72,25 @@ Entretanto, deve-se considerar que a usuária teve que adicionar as transações
 ### First Things First
 | Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor %| Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| AP01 | 7 | 5 | 19 | 6.6% | 3 | 2.9% | 1 | 1.7% | 1.434 |
-| AP02 | 8 | 5 | 21 | 7.3% | 4 | 3.9% | 1 | 1.7% | 1.303 |
-| AP09 | 7 | 8 | 22 | 7.6% | 3 | 2.9% | 1 | 1.7% | 1.175 |
-| AP18 | 1 | 1 | 3 | 1.0% | 4 | 3.9% | 1 | 1.7% | 1.105 |
-| AP10 | 8 | 6 | 22 | 7.6% | 7 | 6.9% | 2 | 3.3% | 0.963 |
-| AP08 | 5 | 5 | 15 | 5.2% | 8 | 7.9% | 2 | 3.3% | 0.861 |
-| AP17 | 1 | 1 | 3 | 1.0% | 5 | 4.9% | 4 | 6.7% | 0.735 |
-| AP03 | 8 | 7 | 23 | 7.9% | 3 | 2.9% | 1 | 1.7% | 0.717 |
-| AP16 | 7 | 3 | 17 | 5.9% | 8 | 7.9% | 3 | 5.0% | 0.517 |
-| AP05 | 8 | 7 | 23 | 7.9% | 5 | 4.9% | 1 | 1.7% | 0.424 |
-| AP11 | 8 | 8 | 24 | 8.3% | 3 | 2.9% | 2 | 3.3% | 0.410 |
-| AP07 | 9 | 9 | 27 | 9.3% | 9 | 8.9% | 9 | 15.2% | 0.385 |
-| AP19 | 2 | 1 | 5 | 1.7% | 8 | 7.9% | 9 | 15.2% | 0.357 |
-| AP04 | 6 | 4 | 16 | 5.5% | 6 | 5.9% | 6 | 10.1% | 0.343 |
-| AP15 | 4 | 1 | 9 | 3.1% | 6 | 5.9% | 6 | 10.1% | 0.335 |
-| AP14 | 4 | 1 | 9 | 3.1% | 5 | 4.9% | 3 | 5.0% | 0.325 |
-| AP06 | 4 | 3 | 11 | 3.8% | 6 | 5.9% | 3 | 5.0% | 0.266 |
-| AP12 | 5 | 2 | 12 | 4.1% | 4 | 3.9% | 3 | 5.0% | 0.152 |
-| AP13 | 3 | 1 | 7 | 2.4% | 4 | 3.9% | 1 | 1.7% | 0.141 |
+| AP03 | 8 | 7 | 23 | 7.9% | 3 | 2.9% | 1 | 1.7% | 1.602 |
+| AP09 | 7 | 8 | 22 | 7.6% | 3 | 2.9% | 1 | 1.7% | 1.541 |
+| AP01 | 7 | 5 | 19 | 6.6% | 3 | 2.9% | 1 | 1.7% | 1.338 |
+| AP18 | 1 | 1 | 3 | 1.0% | 4 | 3.9% | 1 | 1.7% | 1.150 |
+| AP02 | 8 | 5 | 21 | 7.3% | 4 | 3.9% | 1 | 1.7% | 1.101 |
+| AP05 | 8 | 7 | 23 | 7.9% | 5 | 4.9% | 1 | 1.7% | 0.948 |
+| AP11 | 8 | 8 | 24 | 8.3% | 3 | 2.9% | 2 | 3.3% | 0.867 |
+| AP13 | 3 | 1 | 7 | 2.4% | 4 | 3.9% | 1 | 1.7% | 0.361 |
+| AP10 | 8 | 6 | 22 | 7.6% | 7 | 6.9% | 2 | 3.3% | 0.333 |
+| AP12 | 5 | 2 | 12 | 4.1% | 4 | 3.9% | 3 | 5.0% | 0.210 |
+| AP08 | 5 | 5 | 15 | 5.2% | 8 | 7.9% | 2 | 3.3% | 0.199 |
+| AP16 | 7 | 3 | 17 | 5.9% | 8 | 7.9% | 3 | 5.0% | 0.149 |
+| AP06 | 4 | 3 | 11 | 3.8% | 6 | 5.9% | 3 | 5.0% | 0.128 |
+| AP14 | 4 | 1 | 9 | 3.1% | 5 | 4.9% | 3 | 5.0% | 0.126 |
+| AP04 | 6 | 4 | 16 | 5.5% | 6 | 5.9% | 6 | 10.1% | 0.092 |
+| AP07 | 9 | 9 | 27 | 9.3% | 9 | 8.9% | 9 | 15.2% | 0.068 |
+| AP15 | 4 | 1 | 9 | 3.1% | 6 | 5.9% | 6 | 10.1% | 0.052 |
+| AP17 | 1 | 1 | 3 | 1.0% | 5 | 4.9% | 4 | 6.7% | 0.030 |
+| AP19 | 2 | 1 | 5 | 1.7% | 8 | 7.9% | 9 | 15.2% | 0.014 |
 | Totais | 105 | 77 | 288 | 100 | 101 | 100 | 59 | 100 |  
 
 ## Referências Bibliográficas
