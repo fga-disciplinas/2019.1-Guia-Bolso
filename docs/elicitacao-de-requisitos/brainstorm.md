@@ -7,7 +7,10 @@ A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos 
 
 ## Processo de brainstorm
 
-Para a realização do brainstorm o grupo optou por se reunir, via _hangouts_, às 20:00 do dia 05/04 (sexta feira). O intuito era abordar a aplicação a partir de disversos pontos de vista. Cada membro poderia, livremente, fazer uma crítica, elogio e/ou sugestão de melhoria (não necessariamente nessa ordem). Por ser mais informal não foi estabelecido tempo de fala ou mesmo ordem. Contudo houve certo cuidado para que o foco do brainstorm não saísse do aplicativo (Guiabolso).
+
+| Data | Local | Descrição |
+|--|--|--|
+| 05/04 às 20h | Hangouts | Este Brainsotrm possui o intuito de elaborar a aplicação a partir de diversos pontos de vista. Não fora delimitado tempo para a fala de cada membro. Os membros presentes estavam livres para dar suas palavras - relacionadas a críticas, elogios ou sugestões - a qualquer momento. <br><br/> O Brainstorm fora transcrito em um resumo dos principais tópicos abordados na discussão, sumilando o diálogo entre as partes para que houvesse uma facilidade no entendimento de futuros interessados nos processos do grupo. |
 
 Membros participantes:
 
@@ -19,7 +22,6 @@ Membros participantes:
 - Rafael Makaha;
 - Marcelo Araújo
 
-Para facilitar no entendimento do Brainstorm, foi feito a transcrição da reunião com o resumo dos principais tópicos de discussão abordados. A transcrição foi feita de forma a simular um diálogo entre as partes, facilitando o entendimento para terceiros, visto que o Brainstorm pode parecer um pouco confuso se for transcrito exatamente como ocorreu (alguns temas podem ser simplesmente "jogados na mesa", sem necessáriamente ter vínculo com o que foi dito anteriormente).
 
 **Léo Santos:** O aplicativo facilita a gerência de múltiplas contas  bancárias, juntando todas num só lugar. Além disso ele já pré configura uma série de "burocracias" automaticamente, já entregando tudo pronto e usável ao usuário.
 
