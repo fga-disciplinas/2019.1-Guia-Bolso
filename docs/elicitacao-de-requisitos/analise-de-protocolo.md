@@ -6,11 +6,11 @@ Análise de Protocolo é uma técnica para elicitar requisitos, em que há a ver
 ### Metodologia
 Para aplicar a técnica, foi escolhida uma pessoa que nunca havia acessado o aplicativo Guiabolso, com o objetivo de obter detalhes das operações realizadas e assim, poder documentar os requisitos das abas Finanças e Radar CPF.
 
-O encontro presencial foi realizada na residência da usuária, domingo à tarde e buscou-se realizar esta abordagem neste dia principalmente por ser um dia que a pessoa estaria com mais tempo disponível. 
+O encontro presencial foi realizado na residência da usuária, domingo à tarde e buscou-se realizar esta abordagem neste dia principalmente por ser um dia que a pessoa estaria com mais tempo disponível e sem muitas interrupções. 
 
 A princípio foi introduzida a proposta para a usuária por meio de uma breve explicação do que o aplicativo busca atingir. Foi apresentada também orientações básicas sobre a Análise de protocolo, como a verbalização dos seus atos no aplicativo. Em seguida foi entregue o dispositivo móvel para primeiro acesso. 
 
-Os observadores da análise tentaram ao máximo não intervir na tomada de ações referentes ao uso do aplicativo. Como registro, a participante permitiu ser gravada por áudio a todo momento que estivesse explicando o aplicativo.
+A observadora da análise tentou ao máximo não intervir na tomada de ações referentes ao uso do aplicativo. Como registro, a participante permitiu ser gravada por áudio a todo momento que estivesse explicando o aplicativo. Toda a dinâmica durou cerca de 50 minutos.
 
 ### Verbalização do usuário
 |Operação|Observação|
@@ -42,7 +42,7 @@ Os observadores da análise tentaram ao máximo não intervir na tomada de açõ
 ### Análise das observações
 Por meio da Análise de protocolo, foi possível observar que o aplicativo tem um nível de dificuldade mediano, visto que não há um tutorial para novos usuários. Consequentemente, pode-se notar um tempo gasto na aba Finanças consideravelmente alto, com registro de aproximadamente 30 minutos. 
 Entretanto, deve-se considerar que a usuária teve que adicionar as transações manualmente, influenciando no tempo total. Sua verbalização foi clara a ponto de poder notar que o processo de inserção de dados manualmente era um processo cansativo.
-Houve uma intervenção por parte da equipe ouvinte em uma das ações de exploração ao aplicativo: Adicionar uma transação manual, pois a usuária não estava conseguindo manter o fluxo que esperava por questões de usabilidade, questão esta abordada nas observações.
+Houve uma intervenção por parte da equipe ouvinte em uma das ações de exploração ao aplicativo: Adicionar uma transação manual, pois a usuária não estava conseguindo manter o fluxo que esperava por questões de usabilidade, questão esta abordada nas observações, gerando o requisito AP11.
 
 ## Requisitos elicitados
 ### MoSCoW
@@ -97,6 +97,9 @@ Houve uma intervenção por parte da equipe ouvinte em uma das ações de explor
 Com a técnica Análise de protocolo, foi possível  elicitar diversos requisitos presentes no aplicativo Guiabolso, além de elicitar novos pela necessidade do usuário. Para administrar estes requisitos, utilizou-se duas técnicas de elicitação: Moscow e First Things First. 
 A técnica Moscow mostrou-se muito subjetiva em relação à prioridade. Já a First Things First mostrou-se mais embasada para um desenvolvimento mais eficiente. 
 Para definir a prioridade oficial, deve-se discutir com o cliente a fim de realizar alguns ajustes e entrar em consenso, para assim, iniciar o desenvolvimento, por exemplo, alguns requisitos elicitados, como o AP07, cujo valor é de confiabilidade para o usuário do aplicativo, não ficou entre os primeiros na tabela de prioridade pelo método First Things First, pelo seu alto risco e valor, porém é de consenso entre o desenvolvedor e o cliente que este requisito é essencial e prioritário para um bom funcionamento do aplicativo, portanto, terá prioridade alta.
+
+O resultado do experimento foi satisfatório, pois para um usuário iniciante do aplicativo Guiabolso, foi possível absorver uma variedade de requisitos importantes do aplicativo.
+
 
 ## Referências Bibliográficas
 Demoiselle Process. Diretriz: Orientações para a Elicitação de Requisitos. Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>. Acesso em: 06 de abril de 2019.
