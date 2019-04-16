@@ -47,11 +47,17 @@ Versão 1.0
 <p align="justify">Este RichPicture ilustra as formas com que o Guiabolso obtem lucro.
 
 Versão 1.0
+
 [ ![RP04](./../img/rich_picture_financas_do_app.png) ](./../img/rich_picture_financas_do_app.png)
+
+Versão 2.0
+
+[ ![RP04](./../img/rich_picture_financas_do_app_2.png) ](./../img/rich_picture_financas_do_app.png)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 31/03/2019 | 1.1 | Adição do RichPicture Finanças do app (RP04)| [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
+| 31/03/2019 | 1.1 | Adição do RichPicture Finanças do app (RP04)| [Lucas Machado](https://github.com/lmmLucasMachado)  e [Marcelo Araújo](https://github.com/santosm46) |
+| 16/04/2019 | 1.2 | Alteração do RichPicture Finanças do app (RP04)| [Lucas Machado](https://github.com/lmmLucasMachado)|
 
 ## RP05 - Empréstimo
 <p align="justify">Este RichPicture ilustra como é feito um empréstimo intermediado pelo Guiabolso, na aba do aplicativo chamada "Empréstimo".
