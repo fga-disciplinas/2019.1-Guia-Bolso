@@ -1,8 +1,9 @@
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 09/04/2019 | 1.0 | Adicionado informações iniciais | Leonardo dos Santos |
+| 09/04/2019 | 1.0 | Adicionado observações | Leonardo dos Santos |
 | 09/04/2019 | 1.1 | Adicionado prototipos | Alan Lima |
 | 10/04/2019 | 1.2 | Atualizado descrições dos protótipos | Alan Lima |
+| 16/04/2019 | 1.3 | Melhorando descrições de observações | Leonardo dos Santos |
 
 ## Introdução
     
@@ -16,7 +17,10 @@ Através de aplicações de técnicas foram levantadas requisitos que estão atu
     
 #### Visão do usuário
     
-Enquanto estava navegando pelo aplicativo o usuário sentiu a necessidade de visualização das faturas do cartão de crédito, pois desta forma seria mais adequado para poder fazer o planejamento de metas. Portanto com esta funcionalidade o usuário poderá ter mais controle de suas finanças.
+Enquanto estava navegando pelo aplicativo um dos usuário sentiu a necessidade de visualização das faturas do cartão de crédito, pois desta forma seria mais adequado para poder fazer o planejamento de metas. Portanto com esta funcionalidade o usuário poderá ter mais controle de suas finanças.
+Também conclui-se que o aplicativo apresenta uma grande variedade de funcionalidades, nas quais boa parte o usuário teve de acessar para conhecer. Portanto, em primeira visão, os usuários sentiram dificuldades para compreender quais são as principais funções do aplicativo.
+Devido existir diferença entre o aplicativo no sistema Android e no IOS, não foi houve um padrão das dificuldades apresentadas pelos usuários. Entretanto, para o usuário Android foram apresentadas uma maior dificuldade para concluir o fluxo das principais funcionalidades do aplicativo. Portanto, concluímos que o aplicativo no sistema IOS é o mais adequado para o usuário, por tornar as informações mais evidentes para o usuário.
+Concluímos também, que adultos entre 18 e 40 anos de idade têm mais facilidade em utilizar o aplicativo. devido ao hábito de utilizar o aparelho telefônico com o objeto de controle financeiro e afins, diferentemente do restante do público, que está mais habituado a resolver quaisquer problema financeiro pessoalmente em suas agências bancárias ou propriamente estabelecendo planejamentos de forma manual. Menores de 18 anos, apesar de ter facilidade em utilizar tecnologia, não são considerados um público ativo para a pesquisa, pois não possuem renda e autonomia, portanto, sendo estes dependentes.
 
 #### Visão da equipe
     
