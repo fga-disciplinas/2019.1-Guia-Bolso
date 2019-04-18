@@ -4,13 +4,39 @@ O brainstorming (em português "tempestade cerebral") ou tempestade de ideias, m
 
 A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.
 
+## Brainstorm 2 - Levantamento de palvras-chave dentro do contexto do Guiabolso
 
-## Processo de brainstorm
+
+| -- | --  |
+|--|--|
+| **Data** | 15/04 às 20h | 
+| **Local** | Hangouts |
+| **Objetivo** | Levantar palavras chaves dentro do contexto do app de forma a auxiliar nos léxicos e cenários | 
+| **Descrição** | Todos os membros destrincharam a aplicação de forma a encontrar quaisquer palavras ou termos que pudessem resultar num léxico ou num cenário. Não foi delimitado tempo ou vez, pois o objetivo era que qualquer um compartilhasse o que achasse válido. O grupo participou ativamente, resultado numa série de palvras chaves que serão listadas numa tabela abaixo. |
+| **Rastro**| [ Arquivo de aúdio ](https://drive.google.com/open?id=17FceS6Eppur6BkVvgWSQe7HmmmbTxmr5)|
+
+| Palvras chaves | --|--|--|
+|--|--|--|--|
+|Extrato|Saúde Financeira|Radar CPF|Guia|
+|Avaliação de crédito|Status|Meta|Meses Futuros|
+|Gastos essenciais (categoria)|Estilo de vida (categoria)|Nome limpo|Quitar empréstimo|
+|Driblou a taxinha|Contas residênciais|Pausar cartão|Conta manual|
+|Cadastro positivo|Nome sujo|Consultar CPF|Empréstimo pré-aprovado|
+|Comprometimento de renda|Simulação|Transações ignoradas|Crediário|
+|Linha de crédito|Dívida ativa|Serasa|Score no serasa|
 
 
-| Data | Local | Descrição |
-|--|--|--|
-| 05/04 às 20h | Hangouts | Este Brainsotrm possui o intuito de elaborar a aplicação a partir de diversos pontos de vista. Não fora delimitado tempo para a fala de cada membro. Os membros presentes estavam livres para dar suas palavras - relacionadas a críticas, elogios ou sugestões - a qualquer momento. <br><br/> O Brainstorm fora transcrito em um resumo dos principais tópicos abordados na discussão, sumilando o diálogo entre as partes para que houvesse uma facilidade no entendimento de futuros interessados nos processos do grupo. |
+
+## Brainstorm 1 - Elicitação de Requisitos
+
+
+| -- | --  |
+|--|--|
+| **Data** | 05/04 às 20h | 
+| **Local** | Hangouts |
+| **Objetivo** | Elicitar requisitos e destrinchar a aplicação a partir de diversos pontos de vista | 
+| **Descrição** | Não fora delimitado tempo para a fala de cada membro. Os membros presentes estavam livres para dar suas palavras - relacionadas a críticas, elogios ou sugestões - a qualquer momento. <br> O Brainstorm fora transcrito em um resumo dos principais tópicos abordados na discussão, simulando o diálogo entre as partes para que houvesse uma facilidade no entendimento de futuros interessados nos processos do grupo. |
+| **Rastro**| O brainstorm não foi gravado, contudo foi feita uma transcrição integral dele logo abaixo. |
 
 Membros participantes:
 
@@ -63,9 +89,9 @@ Membros participantes:
 
 **Lucas:** O aplicativo deveria altomatizar a renovação da chave de segurança pra que não seja necessario colocar a chave contantemente no app.
 
-## Requisitos elicitados
+### Requisitos elicitados
 
-### MoSCoW
+#### MoSCoW
 
 | Código | Descrição | Prioridade |
 |--|--|--|
@@ -82,7 +108,7 @@ Membros participantes:
 | AD11 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ | Should have |
 | AD12 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) | Must have |
 
-### First Things First
+#### First Things First
 
 | Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
 |--|--|--|--|--|--|--|--|--|--|
@@ -99,6 +125,13 @@ Membros participantes:
 | AD11 | 4 | 2 | 10 | 8.1% | 1 | 2% | 1 | 3.3% | 1.433 |
 | AD12 | 1 | 1 | 3 | 2.4% | 9 | 18.7% | 9 | 30% | 0.045 |
 | Totais | 47 | 29 | 123 | 100 | 48 | 100 | 30 | 100 |  |
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 17/04/2019 | 2.0 | Adição do Brainstorm 2 | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
+| 06/04/2019 | 1.0 | Adição do Brainstorm 1 | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
 
 ## Referências
 
