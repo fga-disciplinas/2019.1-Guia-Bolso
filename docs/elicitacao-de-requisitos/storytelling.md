@@ -23,9 +23,9 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
-| ST1.1 | O app na parte de guia deve exibir os cards pela ordem de relevância  | could have |
-| ST1.2 | O app sugerir formas para melhor gerir o seu dinheiro | must have |
-| ST1.3 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | could have |
+| ST01 | O app na parte de guia deve exibir os cards pela ordem de relevância  | could have |
+| ST02 | O app sugerir formas para melhor gerir o seu dinheiro | must have |
+| ST03 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | could have |
 
 
 ## Storytelling 2 - Utilizando a aba Guia
@@ -52,9 +52,9 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
-| ST2.1 | O app deve oferecer cupons baseado na geolocalização do usuario | could have |
-| ST2.2 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | could have |
-| ST2.3 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | could have |
+| ST04 | O app deve oferecer cupons baseado na geolocalização do usuario | could have |
+| ST05 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | could have |
+| ST06 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | could have |
 
 
 ## Sorytelling 3 - Utilizando conta manual
@@ -86,8 +86,23 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
-| ST3.1 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
-| ST3.2 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
+| ST07 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
+| ST08 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
+
+## First Things First
+
+
+| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
+|--|--|--|--|--|--|--|--|--|--|
+| ST01 | 6 | 1 | 13 | 15.5 | 1 | 8.3 | 1 | 5.9 | 1,001 |
+| ST02 | 6 | 2 | 14 | 16.7 | 3 | 25.1 | 3 | 17.6 | 1,003 |
+| ST03 | 4 | 2 | 10 | 11.9 | 1 | 8.3 | 2 | 11.8 | 1,004 |
+| ST04 | 3 | 1 | 7 | 8.3 | 2 | 16.7 | 4 | 23.5 | 0.996 |
+| ST05 | 4 | 2 | 10 | 11.9 | 2 | 16.7 | 3 | 17.6 | 1,001 |
+| ST06 | 5 | 1 | 11 | 13.1 | 1 | 8.3 | 2 | 11.8 | 0.998 |
+| ST07 | 5 | 2 | 12 | 14.3 | 1 | 8.3 | 1 | 5.9 | 1,000 |
+| ST08 | 3 | 1 | 7 | 8.3 | 1 | 8.3 | 1 | 5.9 | 0.999 |
+| Totais | 36 | 12 | 84 | 100 | 12 | 100 | 17 | 100 |  |
 
 ## Referências
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
