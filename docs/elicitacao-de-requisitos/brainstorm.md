@@ -4,7 +4,9 @@ O brainstorming (em português "tempestade cerebral") ou tempestade de ideias, m
 
 A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos e experiências para gerar soluções inovadoras, sugerindo qualquer pensamento ou ideia que vier à mente a respeito do tema tratado. Com isso, espera-se reunir o maior número possível de ideias, visões, propostas e possibilidades que levem a um denominador comum e eficaz para solucionar problemas e entraves que impedem um projeto de seguir adiante.
 
-## Brainstorm 2 - Levantamento de palvras-chave dentro do contexto do Guiabolso
+<a name="BS2"></a>
+
+## Brainstorm 2 - Levantamento de palvras-chave dentro do contexto do Guiabolso 
 
 
 | -- | --  |
