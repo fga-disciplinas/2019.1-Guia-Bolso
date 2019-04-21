@@ -148,6 +148,19 @@
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falha no suporte da empresa; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > [Usuário] acessa o aba Ajustes e clica em "Dúvidas"; <br> > [Usuário] clica no ícone de mensagens no canto superior direito; <br> > [Usuário] descreve qual ajuda precisa ou uma dúvida;  <br> > O robô do Guiabolso ou um funcionário responde. |
 
+### C12 - Ir para extrato
+
+| **C12** | **Ir para extrato**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como ir para o extrato |
+| **Contexto** |**O que?** <br> > Ir nos extratos para ver os gastos e rendas; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma transação; <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de transações; <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
+| **Recursos** | > Transações financeiras; <br> > Guiabolso.|
+| **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > [Usuário] deseja ver como está seu extrato; <br> > [Usuário] entra na aba finanças <br> > Na parte de Últimas transações, [usuário] seleciona Ir para extrato; <br> >[Usuário] visualiza extrato do mês corrente|
+
 ## Versões anteriores
 
 ### C1 - Categorizar gasto como Contas residenciais
