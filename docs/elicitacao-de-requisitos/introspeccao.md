@@ -108,4 +108,4 @@ Pelo fato de os requisitos terem sido elaborados com base em personas, sua não 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 13/04/2019 | 2.0 | Refatoração e e adição das personas | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
-| 06/04/2019 | [1.0](/../../historico/introspeccao-v1) | Adição da introspeção - User Histories | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
+| 06/04/2019 | [1.0](../../historico/introspeccao-v1) | Adição da introspeção - User Histories | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |

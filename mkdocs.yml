@@ -33,8 +33,8 @@ pages:
     - Entrevista: 'elicitacao-de-requisitos/entrevista.md'
     - Storytelling: 'elicitacao-de-requisitos/storytelling.md'
   - Modelagem:
-    - Léxicos: 'modelagem/lexicos.md'
     - Cenários: 'modelagem/cenarios.md'
+    - Léxicos: 'modelagem/lexicos.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
   
