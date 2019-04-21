@@ -2,7 +2,7 @@
 
 Trata-se de uma técnica que procura descrever os símbolos de uma linguagem. O principal objetivo a ser perseguido pelos Engenheiros de Requisitos é a identificação de palavras ou frases peculiares ao meio social e da aplicação sob estudo.
 
-Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstorm](../../elicitacao-de-requisitos/brainstorm/#BS2). A partir daí, e dos próprios léxicos foram aparecendo outros termos que o grupo julgou interessante serem modelados.
+Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstorm](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso). A partir daí, e dos próprios léxicos foram aparecendo outros termos que o grupo julgou interessante serem modelados.
 
 ## Léxicos
 
@@ -12,7 +12,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Quando uma pessoa possui nome sujo no serasa <br> > O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> > Status da pessoa que não honra com suas dívidas | 
-| **Impacto** | > O usuário com o nome sujo não faz empréstimos <br> > O usuário com o nome sujo não consegue contratar alguns serviços <br> > Operadoras de cobrança ligam constantemente para o usuário com o nome sujo |
+| **Impacto** | > O [usuário](../lexicos/#l13-usuario) com o nome sujo não faz empréstimos <br> > O [usuário](../lexicos/#l13-usuario) com o nome sujo não consegue contratar alguns serviços <br> > Operadoras de cobrança ligam constantemente para o [usuário](../lexicos/#l13-usuario) com o nome sujo |
 
 ### L2 - Cadastro positivo
 
@@ -20,14 +20,14 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Quando uma pessoa não possui dívidas <br> > Pessoa no cadastro de "Bom pagador" | 
-| **Impacto** | > O usuário que está no cadastro positivo tem maior facilidade de fzer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
+| **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fzer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
 
 ### L3 - Consultar CPF
 
 | **L3** | **Consultar CPF**  |
 |--|--|
 | **Versão**| 1.0 | 
-| **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC <br> > Verificar se o usuário está com o nome sujo ou o nome limpo | 
+| **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC <br> > Verificar se o [usuário](../lexicos/#l13-usuario) está com o nome sujo ou o nome limpo | 
 | **Impacto** | > Ao consultar o cpf, um indivíduo com o nome sujo pode saber quais são suas dívidas <br> > Ao consultar o cpf, um indivíduo pode saber se está no cadastro positivo <br> > Ao consultar o cpf, um indivíduo passar a saber seu score do Serasa |
 
 ### L4 - Score do Serasa
@@ -44,7 +44,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Inserção do nome de um indivíduo com o status de nome sujo no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o nome sujo | 
-| **Impacto** | > Um usuário que está na dívida ativa tem seu score do serasa reduzido <br> > Um usuário que está na dívida ativa tem uma redução de linhas de crédito |
+| **Impacto** | > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem seu score do serasa reduzido <br> > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem uma redução de linhas de crédito |
 
 ### L6 - Crédito Pré-aprovado
 
@@ -75,8 +75,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L9** | **Contas residenciais**  |
 |--|--|
 | **Versão**| 1.0 | 
-| **Noção** | > Categoria pertencente ao grupo de gastos essenciais do usuário do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o usuário que deseja categorizar seus gastos para planejá-los nos meses seguintes | 
-| **Impacto** | > Usuário registra uma conta residencial e a categoriza, de modo que ele possa visualizar seus gráficos de gastos de forma mais organizada e assim, facilitar seu planejamento <br> > A categoria de Contas Residenciais consta no planejamento de renda <br> > Gastos com estabelecimento que tenham nomes intuitivos podem ser relacionados à categoria de Contas Residenciais automaticamente, por exemplo: Companhia Energética de Brasília |
+| **Noção** | > Categoria pertencente ao grupo de gastos essenciais do [usuário](../lexicos/#l13-usuario) do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o [usuário](../lexicos/#l13-usuario) que deseja categorizar seus gastos para planejá-los nos meses seguintes | 
+| **Impacto** | > [usuário](../lexicos/#l13-usuario) registra uma conta residencial e a categoriza, de modo que ele possa visualizar seus gráficos de gastos de forma mais organizada e assim, facilitar seu planejamento <br> > A categoria de Contas Residenciais consta no planejamento de renda <br> > Gastos com estabelecimento que tenham nomes intuitivos podem ser relacionados à categoria de Contas Residenciais automaticamente, por exemplo: Companhia Energética de Brasília |
 
 ### L10 - Pausar cartão
 
@@ -84,23 +84,23 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente | 
-| **Impacto** | > Ao pausar um cartão, o usuário não terá mais uma gerência de gastos dele |
+| **Impacto** | > Ao pausar um cartão, o [usuário](../lexicos/#l13-usuario) não terá mais uma gerência de gastos dele |
 
 ### L11 - Conta manual
 
 | **L11** | **Conta manual**  |
 |--|--|
 | **Versão**| 1.0 | 
-| **Noção** | > Opção de escolha com o intuito de como a conta do usuário será registrada <br> > Tipo de conta em que o usuário não insere seus dados bancários no aplicativo <br> > Tipo de conta em que o usuário deseja adicionar transações manualmente <br> > Alternativa à Conta Automática | 
-| **Impacto** | > A conta manual não sofre sincronização automática <br> > O usuário adiciona manualmente as transações de sua escolha |
+| **Noção** | > Opção de escolha com o intuito de como a conta do [usuário](../lexicos/#l13-usuario) será registrada <br> > Tipo de conta em que o [usuário](../lexicos/#l13-usuario) não insere seus dados bancários no aplicativo <br> > Tipo de conta em que o [usuário](../lexicos/#l13-usuario) deseja adicionar transações manualmente <br> > Alternativa à Conta Automática | 
+| **Impacto** | > A conta manual não sofre sincronização automática <br> > O [usuário](../lexicos/#l13-usuario) adiciona manualmente as transações de sua escolha |
 
 ### L12 - Conta automática
 
 | **L12** | **Conta automárica**  |
 |--|--|
 | **Versão**| 1.0 | 
-| **Noção** | > Meio de registrar transações de forma automática com a conta bancária <br> > Usuário insere seus dados bancários no aplicativo para importação de dados | 
-| **Impacto** | > O extrato do usuário é constantemente atualizado para seu acompanhamento, tornando-o fiél <br> > Permite um acompanhamento prático das transações financeiras |
+| **Noção** | > Meio de registrar transações de forma automática com a conta bancária <br> > [usuário](../lexicos/#l13-usuario) insere seus dados bancários no aplicativo para importação de dados | 
+| **Impacto** | > O extrato do [usuário](../lexicos/#l13-usuario) é constantemente atualizado para seu acompanhamento, tornando-o fiél <br> > Permite um acompanhamento prático das transações financeiras |
 
 ### L13 - Usuário
 

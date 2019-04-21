@@ -14,8 +14,7 @@
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
 | **Restrição** | > Não existir uma transação; <br> > Usuário não ter conta no aplicativo;  |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do usuário. |
-| **Episódios** | > **Se o usuário tem uma conta automática:** <br>  -- Usuário faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> -- Usuário pode visualizar esta transação no seu extrato; <br> -- Usuário seleciona a transação de escolha e a adiciona uma categoria já preexistente ou (adiciona uma categoria);  <br> -- Transação é agrupada na categoria selecionada ou adicionada. <br> > **Caso contrário, uma conta manual:**  <br>  -- Usuário (adiciona uma transação com a conta manual);  <br> -- Usuário seleciona a transação de escolha e a adiciona uma categoria já preexistente ou (adiciona uma categoria); <br> -- Transação é agrupada na categoria selecionada ou adicionada;|
-
+| **Episódios** | > **Se o usuário tem uma conta automática:** <br>  -- Usuário faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> -- Usuário pode visualizar esta transação no seu extrato; <br> -- Usuário seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria);  <br> -- Transação é agrupada na categoria selecionada ou adicionada. <br><br> > **Caso contrário, uma conta manual:**  <br>  -- Usuário (adiciona uma transação com a conta manual);  <br> -- Usuário seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria)); <br> -- Transação é agrupada na categoria selecionada ou adicionada;|
 
 ### C2 - Adicionar transação com Conta manual
 
@@ -53,7 +52,7 @@
 | **Contexto** |**O que?** <br> > Tentativa de melhorar nome no mercado financeiro; <br> <br> **Onde?** <br>> Na aba “Radar CPF” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento que o usuário sentir necessidade; <br><br> **Por quê?** <br> > Usuário quer melhorar seu crédito no mercado, pois quer aumentar seu limite no cartão de crédito; <br> > Usuário quer contratar financiamento; <br> > Usuário quer menores taxas de juros nas suas parcelas.|
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> >  Instituição BoaVista SCPC.|
 | **Recursos** | > Formulário de abertura de serviço; <br> > Integração com empresa BoaVista; <br> > Guiabolso.|
-| **Restrição** | > Estar com o (nome sujo)  <br> > Usuário não ter conta no aplicativo;  |
+| **Restrição** | > Estar com o [nome sujo](../lexicos/#l1-nome-sujo)  <br> > Usuário não ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes ou inválidos; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do usuário. |
 | **Episódios** | > Usuário quer melhorar crédito de mercado no seu CPF; <br> > Usuário opta por CADASTRAR CPF; <br> > Usuário se cadastra no serviço de Cadastro Positivo; <br> > Usuário preenche o formulário de cadastro com dados válidos; <br> > Usuário visualiza feedback de participação no programa de Cadastro Positivo.|
 
@@ -63,12 +62,12 @@
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-nome-sujo) |
 | **Metas/Objetivos** | Retirar o status de [nome sujo](../lexicos/#l1-nome-sujo) do usuário |
-| **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do usuário; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Quando?**  <br>> No momento mais viável para o usuário consumidor;<br> <br> **Por quê?** <br> > Usuário está com pendências no SPC/SCPC/Serasa; <br> > Usuário está limitado à diversas transações financeiras.|
+| **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do usuário; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Qu	1.0ando?**  <br>> No momento mais viável para o usuário consumidor;<br> <br> **Por quê?** <br> > Usuário está com pendências no SPC/SCPC/Serasa; <br> > Usuário está limitado à diversas transações financeiras.|
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> >  Instituições bancárias. <br> > Serviços de proteção ao crédito|
 | **Recursos** | > Pendências em faturas; <br> > Centrais de atendimento das instituições de pagamento.|
 | **Restrição** | > Não ter dinheiro para pagar a dívida|
 | **Exceção** | > Ausência de acordos; <br> > Internet indisponível; <br> > Falha no aplicativo. |
-| **Episódios** | > Usuário está com nome sujo; <br> > Usuário solicita acordos com a instituição bancária; <br> > Usuário aceita acordo proposto e paga suas pendências; <br> > Usuário encontra-se com o nome limpo|
+| **Episódios** | > Usuário está com [nome sujo](../lexicos/#l1-nome-sujo); <br> > Usuário solicita acordos com a instituição bancária; <br> > Usuário aceita acordo proposto e paga suas pendências; <br> > Usuário encontra-se com o nome limpo|
 
 ### C6 - Consultar CPF
 
@@ -81,7 +80,7 @@
 | **Recursos** | > Integração com BoaVista; <br> > Formulário com dados pessoais; <br> > Guiabolso.|
 | **Restrição** | > Não ter CPF <br> > Não ter conta no aplicativo|
 | **Exceção** | > Falta de dados sensíveis; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição BoaVista; <br> > Ausência do celular do usuário.|
-| **Episódios** | > Usuário preenche formulário para consulta de seu CPF; <br> > Usuário visualiza o estado do seu nome no mercado, como (nome limpo) ou  (nome sujo) e as empresas que consultaram seu CPF; <br> > Usuário pode visualizar quantidade de seu (score do Serasa) na aba Guia.|
+| **Episódios** | > Usuário preenche formulário para consulta de seu CPF; <br> > Usuário visualiza o estado do seu nome no mercado, como (nome limpo) ou  [nome sujo](../lexicos/#l1-nome-sujo) e as empresas que consultaram seu CPF; <br> > Usuário pode visualizar quantidade de seu (score do Serasa) na aba Guia.|
 
 
 ### C7 - Ignorar transação
@@ -109,8 +108,19 @@
 | **Exceção** | > Score do usuário ser baixo; <br> > O usuário não ter crédito pré-aprovado; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição financeira; <br> > Ausência ou quebra do celular do usuário.|
 | **Episódios** | > O usuário instala o Guiabolso; <br> > O usuário navega até a aba “Empréstimos” do aplicativo; <br> > O usuário insere os dados solicitados (CPF, valor pretendido, tempo que pretende pagar, etc); <br> > O aplicativo procura um empréstimo de acordo com as necessidades do usuário; <br> > Se disponível, o usuário visualiza o(s) empréstimo(s) disponíveis e opta por fazer ou não o empréstimo; <br> > Caso contrário o aplicativo não exibirá nenhum empréstimo disponível.|
 
+### C9 - Criar categoria
 
-## Versionamento
+| **C9** | **Criar categoria**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Permitir ao usuário adicionar novas categorias para categorizar as suas transações |
+| **Contexto** |**O que?**  <br>> Criar nova categoria que não existe; <br><br> **Onde?** <br>> Ao adicionar transação, no campo "categorias"; <br><br> **Quando?** <br>> A qualquer momento dentro do aplicativo; <br> <br>**Por quê?** <br> > Para permitir que o usuário adicione categorias ao seu gosto e/ou preferências <br> > Para permitir que o usuáriio organize suas finanças de forma mais eficiente.|
+|**Ator(es)** | > Usuário; <br> > Guiabolso;|
+| **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Crédito pré-aprovado. <br> > O nome da nova categoria|
+| **Exceção** | > Categoria já existir <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição financeira; <br> > Ausência ou quebra do celular do usuário.|
+| **Episódios** | > O usuário instala o Guiabolso; <br> > O usuário adiciona nova transação e clica em categoria ou o usuário clica numa transação já existente <br> > Usuário clica em "Criar nova categoria"; <br> > Usuário nomeia a nova categoria e coloca ela dentro de um grupo; <br> > A nova categoria é criada.|
+
+## Versões anteriores
 
 ### C1 - Categorizar gasto como Contas residenciais
 
@@ -171,7 +181,7 @@
 | **Ator(es)** | > Usuário, Instituições bancárias|
 | **Recursos** | > Faturas|
 | **Exceção** | > Acordos |
-| **Episódios** | > Usuário está com nome sujo. *Restrição*: usuário não pode efetuar nenhuma transação a crédito; <br> > Usuário pode solicitar acordos com a instituição bancária. *Restrição*: o acordo deve ser satisfatório e possível nas atuais condições do usuário; <br> > Usuário preenche o formulário de cadastro. *Restrição*: Os dados devem ser válidos; <br> > Usuário aceita acordo proposto e paga suas pendências. *Restrição*: o usuário deve cumprir com o acordo para não prorrogar sua situação de nome sujo.|
+| **Episódios** | > Usuário está com [nome sujo](../lexicos/#l1-nome-sujo). *Restrição*: usuário não pode efetuar nenhuma transação a crédito; <br> > Usuário pode solicitar acordos com a instituição bancária. *Restrição*: o acordo deve ser satisfatório e possível nas atuais condições do usuário; <br> > Usuário preenche o formulário de cadastro. *Restrição*: Os dados devem ser válidos; <br> > Usuário aceita acordo proposto e paga suas pendências. *Restrição*: o usuário deve cumprir com o acordo para não prorrogar sua situação de [nome sujo](../lexicos/#l1-nome-sujo).|
 
 ### C5 - Consultar CPF
 
