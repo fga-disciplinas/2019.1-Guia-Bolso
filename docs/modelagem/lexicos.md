@@ -109,3 +109,27 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| 1.0 | 
 | **Noção** | > Indivíduo que utiliza o aplicativo Guiabolso | 
 | **Impacto** | > O usuário instala o Guiabolso <br> > O usuário tem maior controle financeiro <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
+
+### L14 - Transações ignoradas 
+
+| **L14** | **Transações ignoradas**  |
+|--|--|
+| **Versão**| 1.0 | 
+| **Noção** | > Movimentações na conta que o [usuário](../lexicos/#l13-usuario) deseja ignorar. | 
+| **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](../lexicos/#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](../lexicos/#l13-usuario)pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
+
+### L15 - Crediário
+
+| **L15** | **Crediário**  |
+|--|--|
+| **Versão**| 1.0 | 
+| **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
+| **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer comprometimento de renda a longo prazo. | 
+
+### L16 - Internet Banking 
+
+| **L16** | **Internet Banking**  |
+|--|--|
+| **Versão**| 1.0 | 
+| **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos bancos; <br> > Acesso ao serviços bancários pelo computador/navegador. | 
+| **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
