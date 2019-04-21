@@ -2,7 +2,7 @@
 
 Trata-se de uma técnica que procura descrever os símbolos de uma linguagem. O principal objetivo a ser perseguido pelos Engenheiros de Requisitos é a identificação de palavras ou frases peculiares ao meio social e da aplicação sob estudo.
 
-Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstorm](/../../elicitacao-de-requisitos/brainstorm/#BS2). A partir daí, e dos próprios léxicos foram aparecendo outros termos que o grupo julgou interessante serem modelados.
+Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstorm](../../elicitacao-de-requisitos/brainstorm/#BS2). A partir daí, e dos próprios léxicos foram aparecendo outros termos que o grupo julgou interessante serem modelados.
 
 ## Léxicos
 
