@@ -62,7 +62,7 @@
 | **C5** | **Limpar o nome**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-nome-sujo) |
-| **Metas/Objetivos** | Retirar o status de (nome sujo) do usuário |
+| **Metas/Objetivos** | Retirar o status de [nome sujo](../lexicos/#l1-nome-sujo) do usuário |
 | **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do usuário; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Quando?**  <br>> No momento mais viável para o usuário consumidor;<br> <br> **Por quê?** <br> > Usuário está com pendências no SPC/SCPC/Serasa; <br> > Usuário está limitado à diversas transações financeiras.|
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> >  Instituições bancárias. <br> > Serviços de proteção ao crédito|
 | **Recursos** | > Pendências em faturas; <br> > Centrais de atendimento das instituições de pagamento.|
