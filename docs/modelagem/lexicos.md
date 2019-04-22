@@ -170,7 +170,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L21** | **Extrato**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#L21-extrato_1) |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l21-extrato_1) |
 | **Noção** | > Aba contida nas finanças do Guiabolso.<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](../lexicos/#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
 | **Impacto** | > O [usuário](../lexicos/#l13-usuario) recebe o feedback do fluxo de dinheiro de suas contas já registradas no GuiaBolso. <br> > Extrato é atualizado pelo Guiabolso com dados do banco ou do [usuário](../lexicos/#l13-usuario). <br> > Os meses futuros do extrato podem ser alterados pelo [usuário](../lexicos/#l13-usuario) <br> > Através do extrato, auxilía o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros|
 
@@ -203,8 +203,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L25** | **Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l25-credito_1) |
-| **Noção** | > O [usuário](../lexicos/#l13-usuario) necessita de dinheiro. <br> > O Guiabolso diposnibiliza emprestimos com base na sua [avaliação](../lexicos/#l#-avaliacao-de-credito). |
-| **Impacto** | > O crédito será disponibilizado com base na [avaliação](../lexicos/#l#-avaliacao-de-credito) de crédito do [usuário](../lexicos/#l13-usuario). <br> > Crédito possui uma quantidade de juros de acordo com a quantidade que foi solicitada. <br> > Porcentagem de juros de crédito é com base na [avaliação](../lexicos/#l#-avaliacao-de-credito) do [usuário](../lexicos/#l13-usuario). |
+| **Noção** | > O [usuário](../lexicos/#l13-usuario) necessita de dinheiro. <br> > O Guiabolso diposnibiliza emprestimos com base na sua [avaliação](../lexicos/#l22-avaliacao-de-credito). |
+| **Impacto** | > O crédito será disponibilizado com base na [avaliação](../lexicos/#l22-avaliacao-de-credito) de crédito do [usuário](../lexicos/#l13-usuario). <br> > Crédito possui uma quantidade de juros de acordo com a quantidade que foi solicitada. <br> > Porcentagem de juros de crédito é com base na [avaliação](../lexicos/#l22-avaliacao-de-credito) do [usuário](../lexicos/#l13-usuario). |
 
 ### L26 - Chave de Segurança
 
