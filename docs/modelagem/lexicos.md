@@ -150,6 +150,14 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](../lexicos/#l13-usuario)<br> > Auxilia o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
+### L19 - Saúde financeira
+
+| **L19** | **Saúde financeira**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](../lexicos/#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](../lexicos/#l13-usuario) está conseguindo controlar suas finanças como planejado.|
+| **Impacto** | > A saúde financeira permite ao [usuário](../lexicos/#l13-usuario) visualizar e tomar decisões financeiras com mais segurança das consequências.<br> > A saúde financeira é atualizada conforme a movimentação das contas do [usuário](../lexicos/#l13-usuario).|
+
 ### L# - Radar CPF
 
 | **L#** | **Radar CPF**  |
@@ -216,13 +224,6 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Mostra planejamento de rendas e gastos totais de cada mês <br> > Mostra rendas e gastos que estão  planejados para os meses seguintes|
 | **Impacto** | > É atualizado pelo Guiabolso junto com o banco dos cartões <br> > pode ser adicionado rendas e gastos pelo [usuário](../lexicos/#l13-usuario)<br> > pode ser alterado pelo [usuário](../lexicos/#l13-usuario)|
 
-### L19 - Saúde financeira
-
-| **L19** | **Saúde financeira**  |
-|--|--|
-| **Versão**| 1.0 |
-| **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](../lexicos/#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](../lexicos/#l13-usuario) está conseguindo controlar suas finanças como planejado.|
-| **Impacto** | > A saúde financeira permite ao [usuário](../lexicos/#l13-usuario) visualizar e tomar decisões financeiras com mais segurança das consequências.<br> > A saúde financeira é atualizada conforme a movimentação das contas do [usuário](../lexicos/#l13-usuario).|
 
 ### L# - Extrato
 
