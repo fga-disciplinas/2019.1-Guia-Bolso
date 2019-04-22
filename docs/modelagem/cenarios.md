@@ -27,7 +27,7 @@
 | **Recursos** | > Transações financeiras; <br> > Guiabolso.|
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] adiciona uma [conta manual] <br> > [Usuário] adiciona transação preenchendo um formulário e a categoriza; <br> >O [usuário] adiciona qual é o tipo de movimentação a ser registrada: de entrada ou saída de capital; <br> > Transação é adicionada ao [extrato].|
+| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] adiciona uma [conta manual] <br> > [Usuário] adiciona transação preenchendo um formulário e a [categoriza](#c1-categorizar-transacao); <br> >O [usuário] adiciona qual é o tipo de movimentação a ser registrada: de entrada ou saída de capital; <br> > Transação é adicionada ao [extrato].|
 
 ### C3 - Criar planejamento
 
@@ -35,12 +35,12 @@
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Descrever como criar planejamento financeiro |
-| **Contexto** |**O que?** <br>> Planejar gastos do mês; <br> <br> **Onde?** <br> > Na aba de “Finanças” do aplicativo; <br><br> **Quando?**  <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] busca uma forma prática de registrar um planejamento de gastos; <br> > O [usuário] não tem conhecimento de como criar planejamento em sua conta.|
+| **Contexto** |**O que?** <br>> Planejar gastos do mês; <br> <br> **Onde?** <br> > Na aba de “Finanças” do aplicativo; <br><br> **Quando?**  <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] busca uma forma prática de registrar um planejamento de gastos; <br> > O [usuário] não tem conhecimento de como [criar planejamento](#c3-criar-planejamento) em sua conta.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Transações financeiras; <br> > Guiabolso.|
 | **Restrição** | > Ter uma [meta]  <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] registra sua renda mensal; <br> > [Usuário] adiciona planejamento de gastos visível na aba de Finanças; <br> > [Usuário] adiciona gastos previstos por meio das categorias do aplicativo, ou (cria uma nova categoria); <br> > Gráficos de relação entre gastos e rendas do mês são dispostos no Resumo, juntamente com os gastos por categoria. |
+| **Episódios** | > [Usuário] registra sua renda mensal; <br> > [Usuário] adiciona [planejamento de gastos](#c3-criar-planejamento) visível na aba de Finanças; <br> > [Usuário] adiciona gastos previstos por meio das categorias do aplicativo, ou ([cria uma nova categoria](#c9-criar-categoria)); <br> > Gráficos de relação entre gastos e rendas do mês são dispostos no Resumo, juntamente com os gastos por categoria. |
 
 
 ### C4 - Realizar abertura do [Cadastro Positivo]
@@ -49,12 +49,12 @@
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-cadastro-positivo) (16/04) |
 | **Metas/Objetivos** | [Usuário] quer mostrar que é um bom pagador por meio de seu histórico de pagamentos |
-| **Contexto** |**O que?** <br> > Tentativa de melhorar nome no mercado financeiro; <br> <br> **Onde?** <br>> Na aba “[Radar CPF]” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento que o [usuário] sentir necessidade; <br><br> **Por quê?** <br> > [Usuário] quer melhorar seu crédito no mercado, pois quer aumentar seu limite no cartão de crédito; <br> > [Usuário] quer contratar financiamento; <br> > [Usuário] quer menores taxas de juros nas suas parcelas.|
+| **Contexto** |**O que?** <br> > Tentativa de melhorar nome no mercado financeiro; <br> <br> **Onde?** <br>> Na aba [Radar CPF](../lexicos/#l20-radar-cpf) do aplicativo; <br><br> **Quando?** <br>> A qualquer momento que o [usuário] sentir necessidade; <br><br> **Por quê?** <br> > [Usuário] quer melhorar seu [crédito no mercado](../lexicos/#l22-avaliacao-de-credito), pois quer aumentar seu limite no cartão de crédito; <br> > [Usuário] quer contratar financiamento; <br> > [Usuário] quer menores taxas de juros nas suas parcelas.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituição BoaVista SCPC.|
 | **Recursos** | > Formulário de abertura de serviço; <br> > Integração com empresa BoaVista; <br> > Guiabolso.|
 | **Restrição** | > Não estar com o [nome sujo](../lexicos/#l1-nome-sujo)  <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes ou inválidos; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] quer melhorar crédito de mercado no seu CPF; <br> > [Usuário] opta por CADASTRAR CPF; <br> > [Usuário] se cadastra no serviço de [Cadastro Positivo]; <br> > [Usuário] preenche o formulário de cadastro com dados válidos; <br> > [Usuário] visualiza feedback de participação no programa de [Cadastro Positivo].|
+| **Episódios** | > [Usuário] quer melhorar [crédito de mercado](../lexicos/#l22-avaliacao-de-mercado) no seu CPF; <br> > [Usuário] opta por [consultar CPF](#c6-consultar-cpf); <br> > [Usuário] se cadastra no serviço de [Cadastro Positivo]; <br> > [Usuário] preenche o formulário de cadastro com dados válidos; <br> > [Usuário] visualiza feedback de participação no programa de [Cadastro Positivo].|
 
 ### C5 - Limpar o nome
 
