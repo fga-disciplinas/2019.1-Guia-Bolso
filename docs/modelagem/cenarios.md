@@ -304,6 +304,20 @@
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário].|
 | **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] acessa a aba Finanças; <br> > [Usuário] clica no ícone de mais e seleciona "Adicionar na Agenda"; <br> > [Usuário] escolhe uma categoria de conta; <br> > [Usuário] Coloca o valor do pagamento; <br> > [Usuário] Seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado. |
 
+### C24 - Adicionar conta manual
+
+| **C24** | **Adicionar conta manual**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Metas/Objetivos** | Adicionar uma conta de forma manual, sem sincronização automática; |
+| **Contexto** |**O que?** <br> > Criar uma conta manual; <br><br> **Onde?** <br> *Para IOS* <br> > Na aba ajustes, ao clicar em "Contas e cartões", seguido por um clique no botão de "+" no canto superior direito, e por final em "Conta manual"; <br><br> *Para Android* <br> > Na aba finanças, ao clicar no botão de "+" no canto inferior direito, seguido por um clique no botão "adicionar conta". Por fim, em "Conta manual"; <br><br> **Quando?** <br> > A qualquer momento, que o usuário desejar adicionar uma nova conta manual; <br><br> **Por quê?** <br> > Para organizar de forma manual seus gastos, adicionando somente os gastos e ganhos que desejar;|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
+| **Recursos** | > Conta no Guiabolso; <br> > Internet; |
+| **Restrição** | > Criar uma conta manual com nome; <br> > Criar uma conta manual com tipo; <br> > Ter conta no aplicativo; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > Usuário cria uma conta no Guiabolso; <br> > Usuário deseja criar uma conta, porém seu banco não está entre os listados pelo Guiabolso, lhe resta adicionar esta conta de forma manual; <br> > Usuário deseja criar uma conta para controlar o dinheiro da sua carteira e segue o fluxo de adicionar uma conta manual; <br> > Usuário insere um nome para conta, além de um tipo e o saldo desta conta, que pode ser positivo, ou negativo; <br> > Usuário compra um lanche na lanchonete e registra quanto gastou no Guiabolso em sua conta de carteira <br> > Todos os gastos e receitas que foram adicionados pelo usuário serão agrupados em suas contas manuais.|
+
+
 ## Versões anteriores
 
 ### C1 - Categorizar gasto como Contas residenciais
@@ -378,6 +392,8 @@
 | **Recursos** | > Integração com BoaVista e dados pessoais|
 | **Exceção** | > Falta de dados sensíveis |
 | **Episódios** | > [Usuário] preenche formulário para consulta de seu CPF. *Restrição*: É obrigatório os dados do formulário serem condizentes com o CPF do [usuário]; <br> > [Usuário] visualiza o estado do seu nome no mercado, como limpo ou sujo; <br> > [Usuário] visualiza a quantidade de seu [score].|
+
+
 
 [usuário]: ../lexicos/#l13-usuario
 [usuários]: ../lexicos/#l13-usuario
