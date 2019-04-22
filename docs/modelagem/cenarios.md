@@ -14,7 +14,7 @@
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  -- [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria);  <br> -- Transação é agrupada na categoria selecionada ou adicionada. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  -- [Usuário] (adiciona uma transação com a [conta manual]);  <br> -- [Usuário] seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria)); <br> -- Transação é agrupada na categoria selecionada ou adicionada;|
+| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br> > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria);  <br> > Transação é agrupada na categoria selecionada ou adicionada. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]);  <br> > [Usuário] seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria)); <br> > Transação é agrupada na categoria selecionada ou adicionada;|
 
 ### C2 - Adicionar transação com [Conta manual]
 
@@ -237,7 +237,20 @@
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  -- [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha; <br> -- [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "Ignorar transação"; <br> -- [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  -- [Usuário] (adiciona uma transação com a [conta manual]); <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha; <br> -- [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> -- [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações.|
+| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "Ignorar transação"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]); <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações.|
+
+### C# - Cadastrar Banco
+
+| **C#** | **Cadastrar Banco**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como cadastrar um banco no Guiabolso. |
+| **Contexto** |**O que?** <br> > Cadastrar novo banco <br><br> **Onde?** <br> > No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> **Quando?** <br> > A qualquer momento após se cadastrar no Guiabolso. <br><br> **Por quê?** <br> > O [usuário] pode ter mais de uma conta bancaria. <br> > O [usuário] pode ingressar em um novo banco. |
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso, Instituições bancarias. |
+| **Recursos** | > Guiabolso. <br> > dados bancarios do [usuário]. <br> > Internet |
+| **Restrição** | > [Usuário] não ter conta no aplicativo Guiabolso; <br> > A instituição bancaria não estar cadastrada no Guiabolso. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falta da chave de segurança do banco(se necessário) <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > **Através da aba de finanças:** O [usuário] acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> > O usuário seleciona o banco desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> > **Caso o [usuário] deseje realizar pelos ajustes:** O [usuário] acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> > O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias **caso sejam contas automatica**, **se for conta manual** não é realizada sincronização automática dos dados, logo o [usuário] terá de fazer sincronia manualmente. |
 
 ### C# - Alterar senha
 
