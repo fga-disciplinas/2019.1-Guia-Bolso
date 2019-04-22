@@ -294,7 +294,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L26** | **Chave de Segurança**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
-| **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
+| **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeira; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
 | **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 
 
