@@ -193,7 +193,7 @@
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Descrever como o [usuário] pode avaliar uma dica da aba "Guia" do aplicativo |
-| **Contexto** |**O que?** <br> > O [usuário] avalia uma dica; <br><br> **Onde?** <br>> Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> Sempre que o usuário visualizar uma dica ; <br><br> **Por quê?** <br> > Para melhorar as dicas exibidas para o [usuário] e ser uma forma de feedback para o Guiabolso; |
+| **Contexto** |**O que?** <br> > O [usuário] avalia uma dica; <br><br> **Onde?** <br>> Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> Sempre que o [usuário] visualizar uma dica ; <br><br> **Por quê?** <br> > Para melhorar as dicas exibidas para o [usuário] e ser uma forma de feedback para o Guiabolso; |
 |**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso.|
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo |
 | **Restrição** | > O [usuário] não ter uma conta automática; |
@@ -206,7 +206,7 @@
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Descrever como o [usuário] pode adicionar um código de segurança no aplicativo |
-| **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informaçoes do usuário ; |
+| **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informaçoes do [usuário] ; |
 |**Ator(es)** | > [Usuário];  <br> > Guiabolso.|
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo|
 | **Restrição** | > O indíviduo não possuir uma conta no Guiabolso; |
@@ -237,7 +237,7 @@
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "Ignorar transação"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]); <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações.|
+| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "[Ignorar transação]"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]); <br> > [Usuário] pode visualizar esta transação no seu extrato; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações.|
 
 ### C19 - Cadastrar Banco
 
@@ -249,8 +249,8 @@
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso, Instituições bancarias. |
 | **Recursos** | > Guiabolso. <br> > dados bancarios do [usuário]. <br> > Internet |
 | **Restrição** | > [Usuário] não ter conta no aplicativo Guiabolso; <br> > A instituição bancaria não estar cadastrada no Guiabolso. |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falta da chave de segurança do banco(se necessário) <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > **Através da aba de finanças:** O [usuário] acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> > O usuário seleciona o banco desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> > **Caso o [usuário] deseje realizar pelos ajustes:** O [usuário] acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> > O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias **caso sejam contas automatica**, **se for conta manual** não é realizada sincronização automática dos dados, logo o [usuário] terá de fazer sincronia manualmente. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falta da [chave de segurança] do banco(se necessário) <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > **Através da aba de finanças:** O [usuário] acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> > O [usuário] seleciona o banco desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> > **Caso o [usuário] deseje realizar pelos ajustes:** O [usuário] acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> > O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias **caso sejam contas automatica**, **se for [conta manual]** não é realizada sincronização automática dos dados, logo o [usuário] terá de fazer sincronia manualmente. |
 
 ### C20 - Alterar senha
 
@@ -258,7 +258,7 @@
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
 | **Metas/Objetivos** | Descrever como alterar a senha |
-| **Contexto** |**O que?** <br> > Alterar a senha; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O usuário quer uma senha mais segura; <br> > Alguém descobriu a senha do usuário;|
+| **Contexto** |**O que?** <br> > Alterar a senha; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] quer uma senha mais segura; <br> > Alguém descobriu a senha do [usuário];|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Guiabolso.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Senha ter pelo menos 8 caracteres, uma letra e um número; |
@@ -276,7 +276,7 @@
 | **Recursos** | > Guiabolso; <br> > Internet. |
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> Usuario ter conta ou cartão bancário cadastrado no aplicativo. |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]|
-| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] cadastra conta bancária no Guiabolso; <br> > [Usuário] sente necessidade de altualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo d    o banco corresponde para obter a chave de segurança; <br> > [Usuário] insere a chave de segurança no campo correspondente no Guiabolso. |
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] sente necessidade de altualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo d    o banco corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
 
 ### C22 - Contratar empréstimo 
 
@@ -284,12 +284,12 @@
 |--|--|
 | **Versão** | Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Realizar um empréstimo |
-| **Contexto** |**O que?** <br> > Empréstimo; <br><br> **Onde?** <br>> Na aba de “Empréstimo” do aplicativo; <br><br> **Quando?** <br> > Após fazer a simulação de empréstimo; <br><br> **Por quê?** <br> > Porque o [usuário] tem alguma necessidade financeira;|
+| **Contexto** |**O que?** <br> > Empréstimo; <br><br> **Onde?** <br>> Na aba de “Empréstimo” do aplicativo; <br><br> **Quando?** <br> > Após fazer a [simulação de empréstimo]; <br><br> **Por quê?** <br> > Porque o [usuário] tem alguma necessidade financeira;|
 |Ator(es) | > [Usuário]; <br> > Guiabolso; <br> > Instituições Financeiras|
 | **Recursos** | > Guiabolso; <br> > Internet.|
-| **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Ter CPF; <br> > Não ter o nome sujo. |
+| **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Ter CPF; <br> > Não ter o [nome sujo]. |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]; <br> > Falha na comunicação com a Instituição Financeira.|
-| **Episódios** | > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma simulação de empréstimo; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua conta bancária. |
+| **Episódios** | > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua conta bancária. |
 
 ### C23 - Adicionar na Agenda 
 
@@ -302,7 +302,7 @@
 | **Recursos** | > Guiabolso; <br> > Internet.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário].|
-| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] acessa a aba Finanças; <br> > [Usuário] clica no ícone de mais e seleciona "Adicionar na Agenda"; <br> > [Usuário] escolhe uma categoria de conta; <br> > [Usuário] Coloca o valor do pagamento; <br> > [Usuário] Seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado. |
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] acessa a aba Finanças; <br> > [Usuário] clica no ícone de mais e seleciona "Adicionar na Agenda"; <br> > [Usuário] escolhe uma categoria de conta; <br> > [Usuário] Coloca o valor do pagamento; <br> > [Usuário] Seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado. |
 
 ## Versões anteriores
 
@@ -355,9 +355,9 @@
 | **Exceção** | > Dados insuficientes ou inválidos e não pagar as faturas |
 | **Episódios** | > [Usuário] quer mais crédito de mercado no seu CPF; <br> > [Usuário] opta por se cadastrar no serviço de Cadastro Positivo; <br> > [Usuário] preenche o formulário de cadastro. *Restrição*: Os dados devem ser válidos; <br> > [Usuário] pode melhorar seu crédito no mercado. *Restrição*: o [usuário] deve buscar pagar suas contas em dia ou até mesmo antecipar faturas.|
 
-### C4 - Nome sujo
+### C4 - [Nome sujo]
 
-| **C4** | **Nome sujo**  |
+| **C4** | **[Nome sujo]**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Metas/Objetivos** | > “Limpar” o nome do [usuário] |
@@ -396,7 +396,26 @@
 
 [score]: ../lexicos/#l4-[score]-do-serasa
 
-[score]: ../lexicos/#l4-score-do-serasa
+[score]: ../lexicos/#l4-[score]-do-serasa
 
 [crédito pré-aprovado]: ../lexicos/#l6-credito-pre-aprovado
 [Crédito pré-aprovado]: ../lexicos/#l6-credito-pre-aprovado
+
+[usuário]: ../lexicos/#l13-usuario
+[usuários]: ../lexicos/#l13-usuario
+[Usuários]: ../lexicos/#l13-usuario
+[Usuário]: ../lexicos/#l13-usuario
+
+[nome sujo]: ../lexicos/#l1-nome-sujo
+
+[Ignorar transação]: ../lexicos/#l14-transacoes-ignoradas
+[ignorar a transação]: ../lexicos/#l14-transacoes-ignoradas
+
+[Conta manual]: ../lexicos/#l11-conta-manual
+[conta manual]: ../lexicos/#l11-conta-manual
+
+[score]: ../lexicos/#l4-score-do-serasa
+
+[chave de segurança]: ../lexicos/#l26-chave-de-seguranca
+
+[simulação de empréstimo]: ../cenarios/#c8-simular-um-emprestimo

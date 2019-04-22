@@ -108,7 +108,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Indivíduo que utiliza o aplicativo Guiabolso |
-| **Impacto** | > O[usuário](../lexicos/#l13-usuario)instala o Guiabolso <br> > O[usuário](../lexicos/#l13-usuario)tem maior controle financeiro <br> > O[usuário](../lexicos/#l13-usuario)tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
+| **Impacto** | > O usuário instala o Guiabolso <br> > O usuário tem maior controle financeiro <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
 
 ### L14 - Transações ignoradas
 
@@ -116,7 +116,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Movimentações na conta que o [usuário](../lexicos/#l13-usuario) deseja ignorar. |
-| **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](../lexicos/#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](../lexicos/#l13-usuario)pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
+| **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](../lexicos/#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](../lexicos/#l13-usuario) pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
 
 ### L15 - Crediário
 
@@ -124,7 +124,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
-| **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer comprometimento de renda a longo prazo. |
+| **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer [comprometimento de renda](../lexicos/#l7-comprometimento-de-renda) a longo prazo. |
 
 ### L16 - Internet Banking
 
@@ -132,7 +132,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos bancos; <br> > Acesso ao serviços bancários pelo computador/navegador. |
-| **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado <br> > O[usuário](../lexicos/#l13-usuario)tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
+| **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado. |
 
 ### L17 - Status
 
@@ -140,7 +140,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l17-status) |
 | **Noção** | > Mostra a situação da conta do(s) cartão(ões) <br> > Informa se as informações sobre transações do cartão estão atualizadas|
-| **Impacto** | > O status permite o [usuário](../lexicos/#l13-usuario)saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
+| **Impacto** | > O status permite o [usuário](../lexicos/#l13-usuario) saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
 
 ### L18 - Meses futuros
 
@@ -148,7 +148,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l18-meses-futuros) |
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
-| **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](../lexicos/#l13-usuario)<br> > Auxilia o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros |
+| **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](../lexicos/#l13-usuario) <br> > Auxilia o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
 ### L19 - Saúde financeira
 
@@ -158,53 +158,61 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](../lexicos/#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](../lexicos/#l13-usuario) está conseguindo controlar suas finanças como planejado.|
 | **Impacto** | > A saúde financeira permite ao [usuário](../lexicos/#l13-usuario) visualizar e tomar decisões financeiras com mais segurança das consequências.<br> > A saúde financeira é atualizada conforme a movimentação das contas do [usuário](../lexicos/#l13-usuario).|
 
-### L# - Radar CPF
+### L20 - Radar CPF
 
-| **L#** | **Radar CPF**  |
+| **L20** | **Radar CPF**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Funcionalidade presente na barra inferior do Guiabolso com fácil acesso <br> > Busca informações de um determinado local e retorna um feedback para o [usuário](../lexicos/#l13-usuario)|
 | **Impacto** | > Responsável por mostrar ao [usuário](../lexicos/#l13-usuario) informações relacionadas ao seu estado no Serasa <br> > Diz de forma simples e objetiva se o [usuário](../lexicos/#l13-usuario) possui pendências financeiras ou não|
 
-### L# - Extrato
+### L21 - Extrato
 
-| **L#** | **Extrato**  |
+| **L21** | **Extrato**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#L21-Extrato) |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#L21-extrato_1) |
 | **Noção** | > Aba contida nas finanças do Guiabolso.<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](../lexicos/#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
 | **Impacto** | > O [usuário](../lexicos/#l13-usuario) recebe o feedback do fluxo de dinheiro de suas contas já registradas no GuiaBolso. <br> > Extrato é atualizado pelo Guiabolso com dados do banco ou do [usuário](../lexicos/#l13-usuario). <br> > Os meses futuros do extrato podem ser alterados pelo [usuário](../lexicos/#l13-usuario) <br> > Através do extrato, auxilía o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros|
 
-### L# - Avaliação de Crédito
+### L22 - Avaliação de Crédito
 
-| **L#** | **Avaliação de Crédito**  |
+| **L22** | **Avaliação de Crédito**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l#-avaliacao-credito) |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l22-avaliacao-credito_1) |
 | **Noção** | > Funcionalidade que mostra a pontuação do [usuário](../lexicos/#l13-usuario). <br> > Informando se o [usuário](../lexicos/#l13-usuario) tem pontuação boa ou ruim. <br> > Informação disponibilizada por instituições financeiras externas. |
 | **Impacto** | > Através da avaliação de crédito, o [usuário](../lexicos/#l13-usuario) Guiabolso disponibiliza recomendações de empréstimo de acordo com a avaliação disponibilizada.<br> > A avaliação de crédito depende de agentes externos para realizar avaliação do [usuário](../lexicos/#l13-usuario). |
 
-### L# - Meta
+### L23 - Meta
 
-| **L#** | **Meta**  |
+| **L23** | **Meta**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Um objetivo que se busca alcançar. <br> > A quantidade de dinheiro maxima que se quer economizar/gastar. |
 | **Impacto** | > Metas são estabelecidas a fim de ter um controle de gastos para planejamentos futuros. |
 
-### L# - Nome Limpo
+### L24 - Nome Limpo
 
-| **L#** | **Nome Limpo**  |
+| **L24** | **Nome Limpo**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > O [usuário](../lexicos/#l13-usuario) não deve a nenhuma empresa. <br> > O [usuário](../lexicos/#l13-usuario) não  possui cadastro em alguma instituição de proteção ao crédito. |
 | **Impacto** | > [Usuário](../lexicos/#l13-usuario) com o nome limpo possui maior confiança para adquirir crédito. |
 
-### L# - Crédito
+### L25 - Crédito
 
-| **L#** | **Crédito**  |
+| **L25** | **Crédito**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l#-credito) |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l25-credito_1) |
 | **Noção** | > O [usuário](../lexicos/#l13-usuario) necessita de dinheiro. <br> > O Guiabolso diposnibiliza emprestimos com base na sua [avaliação](../lexicos/#l#-avaliacao-de-credito). |
 | **Impacto** | > O crédito será disponibilizado com base na [avaliação](../lexicos/#l#-avaliacao-de-credito) de crédito do [usuário](../lexicos/#l13-usuario). <br> > Crédito possui uma quantidade de juros de acordo com a quantidade que foi solicitada. <br> > Porcentagem de juros de crédito é com base na [avaliação](../lexicos/#l#-avaliacao-de-credito) do [usuário](../lexicos/#l13-usuario). |
+
+### L26 - Chave de Segurança
+
+| **L26** | **Chave de Segurança**  |
+|--|--|
+| **Versão**| Atual: 1.0 |
+| **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 
 ## Versões anteriores
 
@@ -225,27 +233,32 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Impacto** | > É atualizado pelo Guiabolso junto com o banco dos cartões <br> > pode ser adicionado rendas e gastos pelo [usuário](../lexicos/#l13-usuario)<br> > pode ser alterado pelo [usuário](../lexicos/#l13-usuario)|
 
 
-### L# - Extrato
+### L21 - Extrato
 
-| **L#** | **Extrato**  |
+| **L21 ** | **Extrato**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Aba contida nas finanças do Guiabolso;<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](../lexicos/#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
 | **Impacto** | > O [usuário](../lexicos/#l13-usuario) recebe o feedback do fluxo de dinheiro de suas contas já registradas no GuiaBolso;|
 
-### L# - Avaliação de Crédito
+### L22 - Avaliação de Crédito
 
-| **L#** | **Avaliação de Crédito**  |
+| **L22** | **Avaliação de Crédito**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Funcionalidade que mostra a pontuação do [usuário](../lexicos/#l13-usuario) em relação aos dados no SERASA, informando se o [usuário](../lexicos/#l13-usuario) tem pontuação boa ou ruim.|
 | **Impacto** | > Mostra o resultado da avaliação do [usuário](../lexicos/#l13-usuario) para ou não realizar um empréstimo, seja através do Guiabolso ou em agência bancária. |
 
-### L# - Crédito
+### L25 - Crédito
 
-| **L#** | **Crédito**  |
+| **L25** | **Crédito**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > O [usuário](../lexicos/#l13-usuario) necessita de dinheiro. <br> > Com base em uma confiança e emprestado alguma quantidade de dinheiro. |
 | **Impacto** | >A pessoa recebe a quantidade de dinheiro que solicitou. |
 
+
+[usuário]: ../lexicos/#l13-usuario
+[usuários]: ../lexicos/#l13-usuario
+[Usuários]: ../lexicos/#l13-usuario
+[Usuário]: ../lexicos/#l13-usuario
