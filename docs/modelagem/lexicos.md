@@ -114,7 +114,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L14** | **Transações ignoradas**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l14-transacoes-ignoradas_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Gastos ignorados |
 | **Noção** | > Movimentações na conta que o [usuário](../lexicos/#l13-usuario) deseja ignorar. |
 | **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](../lexicos/#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](../lexicos/#l13-usuario) pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
 
@@ -122,7 +124,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L15** | **Crediário**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l15-crediario_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Carnê |
 | **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
 | **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer [comprometimento de renda](../lexicos/#l7-comprometimento-de-renda) a longo prazo. |
 
@@ -130,7 +134,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L16** | **Internet Banking**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l16-internet-banking_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Site do Banco |
 | **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos bancos; <br> > Acesso ao serviços bancários pelo computador/navegador. |
 | **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado. |
 
@@ -208,13 +214,39 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 ### L26 - Chave de Segurança
 
-| **L26** | **Chave de Segurança**  |
+| **L26** | **Chave de Segurança** |
 |--|--|
-| **Versão**| Atual: 1.0 |
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l26-chave-de-seguranca_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Token |
 | **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
 | **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 
 ## Versões anteriores
+
+### L14 - Transações ignoradas
+
+| **L14** | **Transações ignoradas**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Movimentações na conta que o [usuário](../lexicos/#l13-usuario) deseja ignorar. |
+| **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](../lexicos/#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](../lexicos/#l13-usuario) pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
+
+### L15 - Crediário
+
+| **L15** | **Crediário**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
+| **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer [comprometimento de renda](../lexicos/#l7-comprometimento-de-renda) a longo prazo. |
+
+### L16 - Internet Banking
+
+| **L16** | **Internet Banking**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos bancos; <br> > Acesso ao serviços bancários pelo computador/navegador. |
+| **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado. |
 
 ### L17 - Status
 
@@ -256,6 +288,14 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| 1.0 |
 | **Noção** | > O [usuário](../lexicos/#l13-usuario) necessita de dinheiro. <br> > Com base em uma confiança e emprestado alguma quantidade de dinheiro. |
 | **Impacto** | >A pessoa recebe a quantidade de dinheiro que solicitou. |
+
+### L26 - Chave de Segurança
+
+| **L26** | **Chave de Segurança**  |
+|--|--|
+| **Versão**| Atual: 1.0 |
+| **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 
 
 [usuário]: ../lexicos/#l13-usuario
