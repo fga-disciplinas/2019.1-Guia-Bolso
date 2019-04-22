@@ -37,7 +37,7 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 | Lucas Machado | Narração | Usuário app / membro |
 | Marcelo | Relatorio | Membro da equipe |
 
-Data: 09/04/2019
+Data: 09/04/2019 </br>
 Descrição do participante: Lucas Machado, estudante, é usuário do Guiabolso há algumas semanas, e busca economizar com as compras com alimento.
 
 Esse storytelling foi feito para saber a experiência de um usuário com a aba guia do aplicativo, e assim, levantar requisitos.
@@ -67,7 +67,7 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 | Lucas Machado | Relatório | Membro da equipe |
 | Demais membros | Ouvinte | Membro da equipe |
 
-Data: 10/04/2019
+Data: 10/04/2019 </br>
 Descrição do participante: Marcelo, estudante, é usuário do Guiabolso há cerca de 3 semanas, e usa diariamente para registrar os gastos.
 
 Esse storytelling foi feito para saber mais sobre o controle das finanças manuais de um usuário, e assim, levantar requisitos com base nisso.
@@ -88,6 +88,9 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 | -- | -- | -- |
 | ST07 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
 | ST08 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
+
+Foi montado um storyboard sobre conta manual com base no storytelling 3
+![](../img/storyboard/storyboard_conta_manual.png)
 
 ## First Things First
 
