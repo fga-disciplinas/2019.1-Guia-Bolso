@@ -239,6 +239,19 @@
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  -- [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha; <br> -- [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "Ignorar transação"; <br> -- [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  -- [Usuário] (adiciona uma transação com a [conta manual]); <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha; <br> -- [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> -- [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações.|
 
+### C# - Alterar senha
+
+| **C#** | **Alterar senha**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Metas/Objetivos** | Descrever como alterar a senha |
+| **Contexto** |**O que?** <br> > Alterar a senha; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O usuário quer uma senha mais segura; <br> > Alguém descobriu a senha do usuário;|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
+| **Recursos** | > Guiabolso.|
+| **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Senha ter pelo menos 8 caracteres, uma letra e um número; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] sente necessidade de alterar senha <br> > [Usuário] entra na aba Ajustes e seleciona Alterar senha <br> > [Usuário] digita a senha atual e a nova senha, e confirma|
+
 ## Versões anteriores
 
 ### C1 - Categorizar gasto como Contas residenciais
