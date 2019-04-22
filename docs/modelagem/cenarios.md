@@ -226,6 +226,19 @@
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro na transação |
 | **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na guia "Finanças"; <br> > O [usuário] escolhe uma transação; <br> O [usuário] adiciona um comentário na transação escolhida ou na transação inserida manualmente |
 
+### C# - Editar transação
+
+| **C#** | **Editar transação**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Metas/Objetivos** | Fazer alterações em uma transação|
+| **Contexto** |**O que?** <br> > Alterar dados referentes à uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em alguma transação existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
+| **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
+| **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > **Se o [usuário] tem uma conta automática:** <br>  -- [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha; <br> -- [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "Ignorar transação"; <br> -- [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  -- [Usuário] (adiciona uma transação com a [conta manual]); <br> -- [Usuário] pode visualizar esta transação no seu extrato; <br> -- [Usuário] seleciona a transação de escolha; <br> -- [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> -- [Usuário] salva as alterações; <br> > Transação pode ser visualizada no extrato com as novas alterações.|
+
 ## Versões anteriores
 
 ### C1 - Categorizar gasto como Contas residenciais
