@@ -590,6 +590,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#c-cadastrar-banco" title="C# - Cadastrar Banco" class="md-nav__link">
+    C# - Cadastrar Banco
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -869,6 +876,13 @@
           <li class="md-nav__item">
   <a href="#c-editar-transacao" title="C# - Editar transação" class="md-nav__link">
     C# - Editar transação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-cadastrar-banco" title="C# - Cadastrar Banco" class="md-nav__link">
+    C# - Cadastrar Banco
   </a>
   
 </li>
@@ -1723,6 +1737,49 @@
 <tr>
 <td><strong>Episódios</strong></td>
 <td>&gt; <strong>Se o <a href="../lexicos/#l13-usuario">usuário</a> tem uma conta automática:</strong> <br>  &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar esta transação no seu extrato; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a transação de escolha; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "Ignorar transação"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> salva as alterações; <br> &gt; Transação pode ser visualizada no extrato com as novas alterações. <br><br> &gt; <strong>Caso contrário, uma <a href="../lexicos/#l11-conta-manual">conta manual</a>:</strong>  <br>  &gt; <a href="../lexicos/#l13-usuario">Usuário</a> (adiciona uma transação com a <a href="../lexicos/#l11-conta-manual">conta manual</a>); <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar esta transação no seu extrato; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a transação de escolha; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> opta por editar "Nome da transação", "Valor" e "Categoria"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> salva as alterações; <br> &gt; Transação pode ser visualizada no extrato com as novas alterações.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="c-cadastrar-banco">C# - Cadastrar Banco</h3>
+<table>
+<thead>
+<tr>
+<th><strong>C#</strong></th>
+<th><strong>Cadastrar Banco</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Descrever como cadastrar um banco no Guiabolso.</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td><strong>O que?</strong> <br> &gt; Cadastrar novo banco <br><br> <strong>Onde?</strong> <br> &gt; No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento após se cadastrar no Guiabolso. <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> pode ter mais de uma conta bancaria. <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> pode ingressar em um novo banco.</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso, Instituições bancarias.</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>&gt; Guiabolso. <br> &gt; dados bancarios do <a href="../lexicos/#l13-usuario">usuário</a>. <br> &gt; Internet</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> não ter conta no aplicativo Guiabolso; <br> &gt; A instituição bancaria não estar cadastrada no Guiabolso.</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Falta da chave de segurança do banco(se necessário) <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>&gt; <strong>Através da aba de finanças:</strong> O <a href="../lexicos/#l13-usuario">usuário</a> acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> &gt; O usuário seleciona o banco desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> &gt; <strong>Caso o <a href="../lexicos/#l13-usuario">usuário</a> deseje realizar pelos ajustes:</strong> O <a href="../lexicos/#l13-usuario">usuário</a> acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> &gt; O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias <strong>caso sejam contas automatica</strong>, <strong>se for conta manual</strong> não é realizada sincronização automática dos dados, logo o <a href="../lexicos/#l13-usuario">usuário</a> terá de fazer sincronia manualmente.</td>
 </tr>
 </tbody>
 </table>
