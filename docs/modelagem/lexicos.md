@@ -108,7 +108,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Indivíduo que utiliza o aplicativo Guiabolso | 
-| **Impacto** | > O usuário instala o Guiabolso <br> > O usuário tem maior controle financeiro <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
+| **Impacto** | > O[usuário](../lexicos/#l13-usuario)instala o Guiabolso <br> > O[usuário](../lexicos/#l13-usuario)tem maior controle financeiro <br> > O[usuário](../lexicos/#l13-usuario)tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
 
 ### L14 - Transações ignoradas 
 
@@ -132,23 +132,23 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos bancos; <br> > Acesso ao serviços bancários pelo computador/navegador. | 
-| **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
+| **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado <br> > O[usuário](../lexicos/#l13-usuario)tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
 
 ### L17 - Status 
 
 | **L17** | **Status**  |
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#L17-status) |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l17-status) |
 | **Noção** | > Mostra a situação da conta do(s) cartão(ões) <br> > Informa se as informações sobre transações do cartão estão atualizadas| 
-| **Impacto** | > O status permite o usuário saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
+| **Impacto** | > O status permite o [usuário](../lexicos/#l13-usuario)saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
 
 ### L18 - Meses futuros
 
 | **L18** | **Meses futuros**  |
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#L18-meses-futuros) |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l18-meses-futuros) |
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro| 
-| **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo usuário <br> > Auxilia o usuário a planejar-se financeiramente para os meses futuros |
+| **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](../lexicos/#l13-usuario)<br> > Auxilia o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
 ## Versões anteriores
 
@@ -166,4 +166,4 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Mostra planejamento de rendas e gastos totais de cada mês <br> > Mostra rendas e gastos que estão  planejados para os meses seguintes| 
-| **Impacto** | > É atualizado pelo Guiabolso junto com o banco dos cartões <br> > pode ser adicionado rendas e gastos pelo usuário <br> > pode ser alterado pelo usuário |
+| **Impacto** | > É atualizado pelo Guiabolso junto com o banco dos cartões <br> > pode ser adicionado rendas e gastos pelo [usuário](../lexicos/#l13-usuario)<br> > pode ser alterado pelo [usuário](../lexicos/#l13-usuario)|
