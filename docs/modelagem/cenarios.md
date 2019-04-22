@@ -92,7 +92,7 @@
 | **Contexto** |**O que?**<br> > Ignorar uma transação do interesse do [usuário]; <br><br> **Onde?** <br>> No [extrato], em detalhes da transação; <br><br> **Quando?** <br>> A qualquer momento, desde que haja o registro de uma transação; <br><br> **Por quê?** <br>> Motivos particulares do [usuário].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Transação; <br> > Guiabolso.|
-| **Restrição** | > Ter conta no aplicativo; <br> > Ter conta do tipo automárica. |
+| **Restrição** | > Ter conta no aplicativo; <br> > Ter [conta do tipo automárica](../lexicos/#l12-conta-automatica). |
 | **Exceção** | > Falta de dados sensíveis; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição BoaVista; <br> > Ausência do celular do [usuário].|
 | **Episódios** | > [Usuário] realiza uma transação; <br> > [Usuário] visualiza esta transação em seu [extrato]; <br> > [Usuário] não quer que esta transação apareça nos gráficos e/ou planejamento; <br> > [Usuário] clica na transação desejada e visualiza opção para [ignorar transação]; <br> > Transação é retirada dos gráficos e do planejamento.|
 
@@ -115,8 +115,8 @@
 | **C9** | **Criar categoria**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Metas/Objetivos** | Permitir ao [usuário] adicionar novas categorias para categorizar as suas transações |
-| **Contexto** |**O que?**  <br>> Criar nova categoria que não existe; <br><br> **Onde?** <br>> Ao adicionar transação, no campo "categorias"; <br><br> **Quando?** <br>> A qualquer momento dentro do aplicativo; <br> <br>**Por quê?** <br> > Para permitir que o [usuário] adicione categorias ao seu gosto e/ou preferências <br> > Para permitir que o usuáriio organize suas finanças de forma mais eficiente.|
+| **Metas/Objetivos** | Permitir ao [usuário] adicionar novas categorias para [categorizar as suas transações](#c1-categorizar-transacao) |
+| **Contexto** |**O que?**  <br>> Criar nova categoria que não existe; <br><br> **Onde?** <br>> Ao adicionar transação, no campo "categorias"; <br><br> **Quando?** <br>> A qualquer momento dentro do aplicativo; <br> <br>**Por quê?** <br> > Para permitir que o [usuário] adicione categorias ao seu gosto e/ou preferências <br> > Para permitir que o usuário organize suas finanças de forma mais eficiente.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso;|
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > [Crédito pré-aprovado]. <br> > O nome da nova categoria|
 | **Exceção** | > Categoria já existir <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição financeira; <br> > Ausência ou quebra do celular do [usuário].|
@@ -198,7 +198,7 @@
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo |
 | **Restrição** | > O [usuário] não ter uma [conta automática]; |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo;  |
-| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na aba "Guia" e visualiza uma dica; <br> > O [usuário] avalia a dica como útil ou não |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na aba "Guia" e visualiza uma dica; <br> > O [usuário] [avalia a dica](../lexicos/#c15-avaliar-dicas) como útil ou não. |
 
 ### C16 - Adicionar código de segurança
 
