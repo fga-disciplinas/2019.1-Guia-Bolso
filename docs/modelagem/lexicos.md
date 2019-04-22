@@ -150,6 +150,14 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro| 
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](../lexicos/#l13-usuario)<br> > Auxilia o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
+### L* - Radar CPF
+
+| **L_** | **Radar CPF**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Funcionalidade presente na barra inferior do Guiabolso com fácil acesso <br> > Busca informações de um determinado local e retorna um feedback para o [usuário](../lexicos/#l13-usuario)| 
+| **Impacto** | > Responsável por mostrar ao [usuário](../lexicos/#l13-usuario) informações relacionadas ao seu estado no Serasa <br> > Diz de forma simples e objetiva se o [usuário](../lexicos/#l13-usuario) possui pendências financeiras ou não|
+
 ## Versões anteriores
 
 ### L17 - Status 
