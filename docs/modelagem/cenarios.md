@@ -174,6 +174,19 @@
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro ao importar os dados bancários |
 | **Episódios** | > indivíduo deseja utilizar o Guiabolso; <br> > indivíduo instala o Guiabolso <br> > O indivíduo preenche todos os dados necessários para o cadastro; <br> >[O indivíduo se torna um Usuário] da aplicação |
 
+### C# - Verificar dicas
+
+| **C#** | **Verificar dicas**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como o [usuário] Verifica as dicas disponibilizadas pelo Guiabolso |
+| **Contexto** |**O que?** <br> > O [usuário] Verificar uma dica; <br><br> **Onde?** <br> > Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para conferir benefícios e desvantagens em como o [usuário] pode melhorar seus rendimentos |
+|**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso <br> Informações externas - Internet.|
+| **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Internet. |
+| **Restrição** | > O [usuário] não ter uma conta automática; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Browser desatualizado |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na aba "Guia" e visualiza uma dica; <br> > O [usuário] pode ser encaminhado para um dado selecionado pelo Guiabolso que está disponivel em um terceiro, via internet ou também pode está disponível no próprio aplicativo |
+
 ### C# - Avaliar dicas
 
 | **C#** | **Avaliar dicas**|
