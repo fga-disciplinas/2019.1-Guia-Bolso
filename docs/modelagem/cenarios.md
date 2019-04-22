@@ -7,7 +7,7 @@
 
 | **C1** | **Categorizar transação**|
 |--|--|
-| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c1-contas-residenciais) (16/04)|
 | **Metas/Objetivos** | Adicionar uma categoria à uma transação nova ou já existente |
 | **Contexto** |**O que?** <br> > Categorizar uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em “Adicionar transação manual” ou ao editar uma transação já existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -20,7 +20,7 @@
 
 | **C2** | **Adicionar transação com [Conta manual]**|
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c2-conta-manual) |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c2-conta-manual) (16/04) |
 | **Metas/Objetivos** | Descrever como adicionar transação em uma [conta manual] |
 | **Contexto** |**O que?** <br> > Adicionar transação com uma [conta manual]; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> > Ao tentar adicionar conta automática, seu banco não consta na lista pré-determinada; <br> > O [usuário] não tem conhecimento de como adicionar transação na sua [conta manual].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -47,7 +47,7 @@
 
 | **C4** | **Realizar abertura do Cadastro Positivo**|
 |--|--|
-| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-cadastro-positivo) (16/04) |
 | **Metas/Objetivos** | [Usuário] quer mostrar que é um bom pagador por meio de seu histórico de pagamentos |
 | **Contexto** |**O que?** <br> > Tentativa de melhorar nome no mercado financeiro; <br> <br> **Onde?** <br>> Na aba “Radar CPF” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento que o [usuário] sentir necessidade; <br><br> **Por quê?** <br> > [Usuário] quer melhorar seu crédito no mercado, pois quer aumentar seu limite no cartão de crédito; <br> > [Usuário] quer contratar financiamento; <br> > [Usuário] quer menores taxas de juros nas suas parcelas.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituição BoaVista SCPC.|
@@ -60,7 +60,7 @@
 
 | **C5** | **Limpar o nome**|
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-nome-sujo) |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c5-nome-sujo) (16/04) |
 | **Metas/Objetivos** | Retirar o status de [nome sujo](../lexicos/#l1-nome-sujo) do [usuário] |
 | **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do [usuário]; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Qu	1.0ando?**  <br>> No momento mais viável para o [usuário] consumidor;<br> <br> **Por quê?** <br> > [Usuário] está com pendências no SPC/SCPC/Serasa; <br> > [Usuário] está limitado à diversas transações financeiras.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições bancárias. <br> > Serviços de proteção ao crédito|
@@ -73,7 +73,7 @@
 
 | **C6** | **Consultar CPF**|
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br>  Anterior: [1.0](#c5-consultar-cpf)|
+| **Versão**| Atual: 1.1 (21/04) <br>  Anterior: [1.0](#c6-consultar-cpf) (16/04)|
 | **Metas/Objetivos** | Descrever como consultar CPF pelo Guiabolso |
 | **Contexto** |**O que?** <br> > Forma de consultar situação do CPF do [usuário]; <br><br> **Onde?** <br>> Na aba “Radar CPF” do aplicativo; <br> <br>**Quando?** <br>> A qualquer momento; <br><br> **Por quê?**<br> >[Usuário] não tem conhecimento sobre a atual situação do CPF no mercado financeiro, ou seja, com o nome limpo ou sujo.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições BoaVista.|
@@ -320,11 +320,11 @@
 
 ## Versões anteriores
 
-### C1 - Categorizar gasto como Contas residenciais
+### Categorizar gasto como Contas residenciais
 
 | **C1** | **Categorizar gasto como Contas residenciais**  |
 |--|--|
-| **Versão**| 1.1 |
+| **Versão**| 1.0 |
 | **Metas/Objetivos** | > Agrupar gastos por categoria condizentes com Contas residenciais |
 | **Contexto** | **O que?**<br> > Categorizar uma transação de interesse do [usuário] para o tipo Contas Residenciais; <br> **Onde?** <br>> No extrato, em detalhes da transação; <br> **Quando?** <br> > A qualquer momento, desde que haja o registro de uma transação; <br> **Por quê?** <br>> [Usuário] não possui planejamento organizado.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -345,9 +345,9 @@
 | **Exceção** | > Internet indisponível |
 | **Episódios** | > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua sessão do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu extrato. *Restrições*: Só é possível se o [usuário] estiver movimentando uma conta automática. Se o [usuário] tem uma [conta manual], ele terá que adicionar a transação manualmente para ela constar no extrato.|
 
-### C2 - [Conta manual]
+### C2 - Conta manual
 
-| **C2** | **[Conta manual]**  |
+| **C2** | **Conta manual**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Metas/Objetivos** | > Descrever como adicionar e usar uma [conta manual] |
@@ -357,9 +357,9 @@
 | **Exceção** | > Dados insuficientes |
 | **Episódios** | > [Usuário] busca organização financeira. ; <br> > [Usuário] opta por criar uma [conta manual]. *Restrições*: Se o [usuário] opta por criar uma [conta manual], deve adicionar manualmente todas as transações que quiser para manter o extrato fiél; <br> > O [usuário] deve adicionar qual é o tipo de movimentação: de entrada ou saída de capital.|
 
-### C3 - Cadastro Positivo
+### C4 - Cadastro Positivo
 
-| **C3** | **Cadastro Positivo**  |
+| **C3** | **Cadastro Positivo** |
 |--|--|
 | **Versão**| 1.0 |
 | **Metas/Objetivos** | > [Usuário] quer mostrar que é um bom pagador |
@@ -369,9 +369,9 @@
 | **Exceção** | > Dados insuficientes ou inválidos e não pagar as faturas |
 | **Episódios** | > [Usuário] quer mais crédito de mercado no seu CPF; <br> > [Usuário] opta por se cadastrar no serviço de Cadastro Positivo; <br> > [Usuário] preenche o formulário de cadastro. *Restrição*: Os dados devem ser válidos; <br> > [Usuário] pode melhorar seu crédito no mercado. *Restrição*: o [usuário] deve buscar pagar suas contas em dia ou até mesmo antecipar faturas.|
 
-### C4 - [Nome sujo]
+### C5 - Nome sujo
 
-| **C4** | **[Nome sujo]**  |
+| **C4** | **Nome sujo**  |
 |--|--|
 | **Versão**| 1.0 |
 | **Metas/Objetivos** | > “Limpar” o nome do [usuário] |
@@ -381,7 +381,7 @@
 | **Exceção** | > Acordos |
 | **Episódios** | > [Usuário] está com [nome sujo](../lexicos/#l1-nome-sujo). *Restrição*: [usuário] não pode efetuar nenhuma transação a crédito; <br> > [Usuário] pode solicitar acordos com a instituição bancária. *Restrição*: o acordo deve ser satisfatório e possível nas atuais condições do [usuário]; <br> > [Usuário] preenche o formulário de cadastro. *Restrição*: Os dados devem ser válidos; <br> > [Usuário] aceita acordo proposto e paga suas pendências. *Restrição*: o [usuário] deve cumprir com o acordo para não prorrogar sua situação de [nome sujo](../lexicos/#l1-nome-sujo).|
 
-### C5 - Consultar CPF
+### C6 - Consultar CPF
 
 | **C5** | **Consultar CPF**  |
 |--|--|
