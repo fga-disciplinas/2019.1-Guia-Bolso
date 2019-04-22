@@ -9,7 +9,7 @@
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c1-contas-residenciais) (16/04)|
 | **Metas/Objetivos** | Adicionar uma categoria à uma transação nova ou já existente |
-| **Contexto** |**O que?** <br> > Categorizar uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em “Adicionar transação manual” ou ao editar uma transação já existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
+| **Contexto** |**O que?** <br> > Categorizar uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em [Adicionar transação manual](#c2-adicionar-transacao-com-conta-manual) ou ao editar uma transação já existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
