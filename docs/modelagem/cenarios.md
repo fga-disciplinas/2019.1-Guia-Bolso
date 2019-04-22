@@ -206,7 +206,7 @@
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Descrever como o [usuário] pode adicionar um código de segurança no aplicativo |
-| **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informaçoes do [usuário] ; |
+| **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informações do [usuário] ; |
 |**Ator(es)** | > [Usuário];  <br> > Guiabolso.|
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo|
 | **Restrição** | > O indíviduo não possuir uma conta no Guiabolso; |
