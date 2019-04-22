@@ -1,5 +1,6 @@
 ## Introdução
 
+Esta técnica descreve os requisitos numa linguagem fácil de entender e validar para todas as pessoas relacionadas com o projecto, motivando-as a discutir e participar, obtendo assim um maior feedback sobre o que se está a fazer.
 
 ## Cenários
 
