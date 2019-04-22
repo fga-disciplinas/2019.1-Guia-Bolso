@@ -161,6 +161,58 @@
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > [Usuário] deseja ver como está seu extrato; <br> > [Usuário] entra na aba finanças <br> > Na parte de Últimas transações, [usuário] seleciona Ir para extrato; <br> >[Usuário] visualiza extrato do mês corrente|
 
+### C# - Criar uma conta
+
+| **C#** | **Criar uma conta**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como o [usuário] cria uma conta no aplicativo do Guiabolso |
+| **Contexto** |**O que?** <br> > [usuário] criar uma nova conta; <br><br> **Onde?** <br>> No aplicativo Guiabolso; <br><br> **Quando?** <br>> A qualquer momento; <br><br> **Por quê?** <br> > Para o [usuário] desfrutar de todas as funcionalidades do Guiabolso; |
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
+| **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo |
+| **Restrição** | > O indíviduo não possuir um dispositivo capaz de acessar  Guiabolso; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro ao importar os dados bancários |
+| **Episódios** | > indivíduo deseja utilizar o Guiabolso; <br> > indivíduo instala o Guiabolso <br> > O indivíduo preenche todos os dados necessários para o cadastro; <br> >[O indivíduo se torna um Usuário] da aplicação |
+
+### C# - Avaliar dicas
+
+| **C#** | **Avaliar dicas**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como o [usuário] pode avaliar uma dica da aba "Guia" do aplicativo |
+| **Contexto** |**O que?** <br> > O [usuário] avalia uma dica; <br><br> **Onde?** <br>> Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> Sempre que o usuário visualizar uma dica ; <br><br> **Por quê?** <br> > Para melhorar as dicas exibidas para o [usuário] e ser uma forma de feedback para o Guiabolso; |
+|**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso.|
+| **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo |
+| **Restrição** | > O [usuário] não ter uma conta automática; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo;  |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na aba "Guia" e visualiza uma dica; <br> > O [usuário] avalia a dica como útil ou não |
+
+### C# - Adicionar código de segurança
+
+| **C#** | **Adicionar código de segurança**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como o [usuário] pode adicionar um código de segurança no aplicativo |
+| **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informaçoes do usuário ; |
+|**Ator(es)** | > [Usuário];  <br> > Guiabolso.|
+| **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo|
+| **Restrição** | > O indíviduo não possuir uma conta no Guiabolso; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Senha pouco segura |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra nas configurações e clica em "Código de segurança"; <br> > O [usuário] insere o PIN desejado; <br> O [usuário] passa a usar o Guiabolso somente se inserir o PIN |
+
+### C# - Adicionar comentário numa transação
+
+| **C#** | **Adicionar comentário numa transação**|
+|--|--|
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Metas/Objetivos** | Descrever como o [usuário] adiciona um comentário numa transação bancária |
+| **Contexto** |**O que?** <br> > O [usuário] adiciona um comentário numa transação; <br><br> **Onde?** <br> > Numa transação existente ou uma transação manual; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para adicionar mais informações a respeito da transação ; |
+|**Ator(es)** | > [Usuário]; <br> > Transação <br> > Guiabolso.|
+| **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Transação |
+| **Restrição** | > Não existir uma transação; |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro na transação |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na guia "Finanças"; <br> > O [usuário] escolhe uma transação; <br> O [usuário] adiciona um comentário na transação escolhida ou na transação inserida manualmente |
+
 ## Versões anteriores
 
 ### C1 - Categorizar gasto como Contas residenciais
