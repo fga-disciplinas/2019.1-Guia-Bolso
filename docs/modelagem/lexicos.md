@@ -222,6 +222,39 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
 | **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 
+### L27 - Débito 
+
+| **L27** | **Débito** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Despesa, À vista |
+| **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito à vista usando cartão, geralmente de um banco; |
+| **Impacto** | > Ao comprar no débito o ;;indivíduo;; sabe o valor gasto na hora; <br> > Ao se comprar no débito, o valor da ;;transação;; é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo não pode parcelar uma compra feita no débito; <br> Ao comprar no débito o indivíduo passa a ter mais controle dos seus gastos; <br> > Ao comprar no débito o usuário pode ter um histórico de compras, a depender da ;;instituição financeira;; do cartão | 
+| **Rastro**| Não possui (elicitado ao se fazer cenários) | 
+
+### L28 - Crédito 
+
+| **L28** | **Crédito** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | À prazo, crediário |
+| **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito usando o cartão, que terá seu valor debitado *à posteriori*; |
+| **Impacto** | > Ao comprar no crédito o ;;indivíduo;; pode parcelar ou não a compra; <br> > Ao se comprar no crédito, o valor da ;;transação;; não é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo pode parcelar uma compra feita no débito; <br> > Ao comprar no crédito o indivíduo pode acabar tendo um descontrole financeiro; <br> > Ao comprar no crédito o indivíduo pode pagar a compra em valores menores, permitindo a compra de um produto mais caro de forma suave | 
+| **Rastro**| Não possui (elicitado ao se fazer cenários) | 
+
+### L29 - Desconto 
+
+| **L29** | **Desconto** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Corte, dedução, pechincha |
+| **Noção** | > Redução no preço de um produto ou serviço; |
+| **Impacto** | > O indivíduo que consegue um desconto paga preços menores em certos produtos; <br> > O desconto em contas permite que o usuário tenha uma maior ;;;saúde financeira;; <br> > Compras com desconto permitem um menor ;;comprometimento de renda;; de um indivíduo; <br> > O desconto pode incentivar um indivíduo a gastar mais do que pode pagar, obrigando-o a reccorer à um ;;empréstimo;; | 
+| **Rastro**| Não possui (elicitado ao se fazer cenários) | 
+
 ## Versões anteriores
 
 ### L14 - Transações ignoradas
