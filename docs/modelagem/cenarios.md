@@ -23,7 +23,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c2-conta-manual) (16/04) |
 | **Metas/Objetivos** | Descrever como adicionar transação em uma [conta manual] |
-| **Contexto** |**O que?** <br> > Adicionar transação com uma [conta manual]; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> > Ao tentar adicionar [conta automática], seu banco não consta na lista pré-determinada; <br> > O [usuário] não tem conhecimento de como adicionar transação na sua [conta manual].|
+| **Contexto** |**O que?** <br> > Adicionar transação com uma [conta manual]; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> > Ao tentar adicionar [conta automática], seu [banco] não consta na lista pré-determinada; <br> > O [usuário] não tem conhecimento de como adicionar transação na sua [conta manual].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Transações financeiras; <br> > Guiabolso.|
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
@@ -105,10 +105,10 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Permitir ao [usuário] conhecer as condições e prazos de um empréstimo antes de ele fazer um |
 | **Contexto** |**O que?**  <br>> O [usuário] simula um empréstimo; <br><br> **Onde?** <br>> Na aba “Empréstimos” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento, desde que haja um empréstimo disponível; <br> <br>**Por quê?** <br>> Para verificar se vale a pena ou não a realização do empréstimo.|
-|**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Instituições financeiras; <br> Serviços de proteção ao crédito.|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > [Instituições financeiras]; <br> Serviços de proteção ao crédito.|
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > [Crédito pré-aprovado].|
 | **Restrição** | > Ter CPF; <br> > Não ter o noome sujo; <br> > Ter conta no aplicativo. |
-| **Exceção** | > [Score] do [usuário] ser baixo; <br> > O [usuário] não ter [crédito pré-aprovado]; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição financeira; <br> > Ausência ou quebra do celular do [usuário].|
+| **Exceção** | > [Score] do [usuário] ser baixo; <br> > O [usuário] não ter [crédito pré-aprovado]; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a [Instituição financeira]; <br> > Ausência ou quebra do celular do [usuário].|
 | **Episódios** | > O [usuário] instala o Guiabolso; <br> > O [usuário] navega até a aba “Empréstimos” do aplicativo; <br> > O [usuário] insere os dados solicitados (CPF, valor pretendido, tempo que pretende pagar, etc); <br> > O aplicativo procura um empréstimo de acordo com as necessidades do [usuário]; <br> > Se disponível, o [usuário] visualiza o(s) empréstimo(s) disponíveis e opta por fazer ou não o empréstimo; <br> > Caso contrário o aplicativo não exibirá nenhum empréstimo disponível.|
 
 ### C9 - Criar categoria
@@ -120,7 +120,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Contexto** |**O que?**  <br>> Criar nova categoria que não existe; <br><br> **Onde?** <br>> Ao adicionar transação, no campo "categorias"; <br><br> **Quando?** <br>> A qualquer momento dentro do aplicativo; <br> <br>**Por quê?** <br> > Para permitir que o [usuário] adicione categorias ao seu gosto e/ou preferências <br> > Para permitir que o usuário organize suas finanças de forma mais eficiente.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso;|
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > [Crédito pré-aprovado]. <br> > O nome da nova categoria|
-| **Exceção** | > Categoria já existir <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição financeira; <br> > Ausência ou quebra do celular do [usuário].|
+| **Exceção** | > Categoria já existir <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a [Instituição financeira]; <br> > Ausência ou quebra do celular do [usuário].|
 | **Episódios** | > O [usuário] instala o Guiabolso; <br> > O [usuário] adiciona nova transação e clica em categoria ou o [usuário] clica numa transação já existente <br> > [Usuário] clica em "Criar nova categoria"; <br> > [Usuário] nomeia a nova categoria e coloca ela dentro de um grupo; <br> > A nova categoria é criada.|
 
 ### C10 - Solicitar [crédito pré-aprovado]
@@ -130,10 +130,10 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Conseguir [crédito](../lexicos/#l25-credito) rapidamente, sem burocracia |
 | **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> Caixa eletrônico, aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
-|**Ator(es)** | > Indivíduo; <br> > Instituições financeiras; <br> > Serviços de proteção ao crédito.|
+|**Ator(es)** | > Indivíduo; <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
 | **Recursos** | > Internet; |
 | **Restrição** | > Ter CPF; <br> > Não ter o [nome sujo](../lexicos/#l1-nome-sujo); <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito).|
-| **Exceção** | > [Score] do [usuário] ser baixo; <br> > Internet indisponível; <br> > Falha no aplicativo no meio que está sendo utilizado; <br> > Falha na comunicação com a Instituição financeira; |
+| **Exceção** | > [Score] do [usuário] ser baixo; <br> > Internet indisponível; <br> > Falha no aplicativo no meio que está sendo utilizado; <br> > Falha na comunicação com a [Instituição financeira]; |
 | **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por caixa eletrônico, aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
 
 ### C11 - Solicitar suporte
@@ -240,18 +240,18 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > **Se o [usuário] tem uma [conta automática]:** <br>  > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu [extrato]; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "[Ignorar transação]"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no [extrato] com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]); <br> > [Usuário] pode visualizar esta transação no seu [extrato]; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no [extrato] com as novas alterações.|
 
-### C19 - Cadastrar Banco
+### C19 - Cadastrar [Banco]
 
-| **C19** | **Cadastrar Banco**|
+| **C19** | **Cadastrar [Banco]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Metas/Objetivos** | Descrever como cadastrar um banco no Guiabolso. |
-| **Contexto** |**O que?** <br> > Cadastrar novo banco <br><br> **Onde?** <br> > No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> **Quando?** <br> > A qualquer momento após se cadastrar no Guiabolso. <br><br> **Por quê?** <br> > O [usuário] pode ter mais de uma conta bancaria. <br> > O [usuário] pode ingressar em um novo banco. |
+| **Metas/Objetivos** | Descrever como cadastrar um [banco] no Guiabolso. |
+| **Contexto** |**O que?** <br> > Cadastrar novo [banco] <br><br> **Onde?** <br> > No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> **Quando?** <br> > A qualquer momento após se cadastrar no Guiabolso. <br><br> **Por quê?** <br> > O [usuário] pode ter mais de uma conta bancaria. <br> > O [usuário] pode ingressar em um novo [banco]. |
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso, Instituições bancarias. |
 | **Recursos** | > Guiabolso. <br> > dados bancarios do [usuário]. <br> > Internet |
 | **Restrição** | > [Usuário] não ter conta no aplicativo Guiabolso; <br> > A instituição bancaria não estar cadastrada no Guiabolso. |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falta da [chave de segurança] do banco(se necessário) <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > **Através da aba de finanças:** O [usuário] acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> > O [usuário] seleciona o banco desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> > **Caso o [usuário] deseje realizar pelos ajustes:** O [usuário] acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> > O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias **caso sejam contas automatica**, **se for [conta manual]** não é realizada sincronização automática dos dados, logo o [usuário] terá de fazer sincronia manualmente. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falta da [chave de segurança] do [banco](se necessário) <br> > Ausência do celular do [usuário]. |
+| **Episódios** | > **Através da aba de finanças:** O [usuário] acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> > O [usuário] seleciona o [banco] desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> > **Caso o [usuário] deseje realizar pelos ajustes:** O [usuário] acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> > O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias **caso sejam contas automatica**, **se for [conta manual]** não é realizada sincronização automática dos dados, logo o [usuário] terá de fazer sincronia manualmente. |
 
 ### C20 - Alterar senha
 
@@ -273,11 +273,11 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Manter as contas e os cartões atualizados |
 | **Contexto** |**O que?** <br> > Atualizar Contas e Cartões; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>    > A qualquer momento; <br><br> **Por quê?** <br> > Para o [extrato] ficar sempre atualizado;|
-| **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Aplicativo do banco; |
+| **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Aplicativo do [banco]; |
 | **Recursos** | > Guiabolso; <br> > Internet. |
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> Usuario ter conta ou cartão bancário cadastrado no aplicativo. |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] sente necessidade de atualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo d    o banco corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-[banco]); <br> > [Usuário] sente necessidade de atualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo d    o [banco] corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
 
 ### C22 - Contratar empréstimo 
 
@@ -289,8 +289,8 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |Ator(es) | > [Usuário]; <br> > Guiabolso; <br> > Instituições Financeiras|
 | **Recursos** | > Guiabolso; <br> > Internet.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Ter CPF; <br> > Não ter o [nome sujo]; <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito). |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]; <br> > Falha na comunicação com a Instituição Financeira.|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua conta bancária. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]; <br> > Falha na comunicação com a [Instituição Financeira].|
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-[banco]); <br> > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua conta bancária. |
 
 ### C23 - Adicionar na Agenda 
 
@@ -316,7 +316,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Recursos** | > Conta no Guiabolso; <br> > Internet; |
 | **Restrição** | > Criar uma [conta manual] com nome; <br> > Criar uma [conta manual] com tipo; <br> > Ter conta no aplicativo; |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] deseja criar uma conta, porém seu banco não está entre os listados pelo Guiabolso, lhe resta adicionar esta conta de forma manual; <br> > [Usuário] deseja criar uma conta para controlar o dinheiro da sua carteira e segue o fluxo de adicionar uma [conta manual]; <br> > [Usuário] insere um nome para conta, além de um tipo e o saldo desta conta, que pode ser positivo, ou negativo; <br> > [Usuário] compra um lanche na lanchonete e registra quanto gastou no Guiabolso em sua conta de carteira <br> > Todos os gastos e receitas que foram adicionados pelo [usuário] serão agrupados em suas contas manuais.|
+| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] deseja criar uma conta, porém seu [banco] não está entre os listados pelo Guiabolso, lhe resta adicionar esta conta de forma manual; <br> > [Usuário] deseja criar uma conta para controlar o dinheiro da sua carteira e segue o fluxo de adicionar uma [conta manual]; <br> > [Usuário] insere um nome para conta, além de um tipo e o saldo desta conta, que pode ser positivo, ou negativo; <br> > [Usuário] compra um lanche na lanchonete e registra quanto gastou no Guiabolso em sua conta de carteira <br> > Todos os gastos e receitas que foram adicionados pelo [usuário] serão agrupados em suas contas manuais.|
 
 
 ## Versões anteriores
@@ -429,3 +429,10 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 [Meta]: ../lexicos/#l23-meta
 
 [nome limpo]: ../lexicos/#l24-nome-limpo
+
+[instituição financeira]: ../lexicos/#l31-instituicao-financeira
+[Instituição Financeira]: ../lexicos/#l31-instituicao-financeira
+[Instituições Financeiras]: ../lexicos/#l31-instituicao-financeira
+[instituições financeiras]: ../lexicos/#l31-instituicao-financeira
+[banco]: ../lexicos/#l31-instituicao-financeira
+[bancos]: ../lexicos/#l31-instituicao-financeira

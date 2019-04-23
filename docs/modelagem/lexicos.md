@@ -119,6 +119,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Sinônimos** | Gastos ignorados |
 | **Noção** | > Movimentações na conta que o [usuário](../lexicos/#l13-usuario) deseja ignorar. |
 | **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](../lexicos/#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](../lexicos/#l13-usuario) pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
+| **Rastro** | [Cenário 7](../cenarios/#c7-ignorar-transacao) |
 
 ### L15 - Crediário
 
@@ -129,6 +130,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Sinônimos** | Carnê |
 | **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
 | **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer [comprometimento de renda](../lexicos/#l7-comprometimento-de-renda) a longo prazo. |
+| **Rastro** | Não possui |
 
 ### L16 - Internet Banking
 
@@ -139,6 +141,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Sinônimos** | Site do Banco |
 | **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos bancos; <br> > Acesso ao serviços bancários pelo computador/navegador. |
 | **Impacto** | > O Internet Banking evita o descolocamento até agência bancária ou caixa eletrônico <br> > Por vezes, é necessária a instalação de plugins de segurança para que o Internet Banking seja usado. |
+| **Rastro** | [Cenário 10](../cenarios/#c10-solicitar-credito-pre-aprovado) |
 
 ### L17 - Status
 
@@ -218,9 +221,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l26-chave-de-seguranca_1) |
 | **Classificação** | Objeto |
-| **Sinônimos** | Token |
+| **Sinônimos** | Token, senha |
 | **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
-| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
+| **Rastro** | [Cenário 21](../cenarios/#c21-atualizar-contas-e-cartoes) |
 
 ### L27 - Débito 
 
@@ -254,6 +258,28 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Redução no preço de um produto ou serviço; |
 | **Impacto** | > O indivíduo que consegue um desconto paga preços menores em certos produtos; <br> > O desconto em contas permite que o usuário tenha uma maior ;;;saúde financeira;; <br> > Compras com desconto permitem um menor ;;comprometimento de renda;; de um indivíduo; <br> > O desconto pode incentivar um indivíduo a gastar mais do que pode pagar, obrigando-o a reccorer à um ;;empréstimo;; | 
 | **Rastro**| Não possui (elicitado ao se fazer cenários) | 
+
+### L30 - Transação bancária 
+
+| **L30** | **Transações bancárias** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Movimentação bancária, transferência |
+| **Noção** | > Transferência de recursos fincanceiros de uma conta bancária a outra entre pessoas físicas ou jurídicas; <br> > Troca de recursos financeiros em ambientes bancários(caixa eletônico, [Internet Bankink](../lexicos/#l16-internet-banking) |
+| **Impacto** | > Para realizar uma transação bancária, não é preciso movimentar dinheiro em espécie, sendo mais segura; <br> > Se a transação bancária ocorrer entre bancos distintos, há uma taxa a ser paga pela realização do procedimento; <br> > Uma transação bancária pode sair mais cara do que uma movimentação em espécie. | 
+| **Rastro**| Não possui | 
+
+### L31 - Instituição financeira 
+
+| **L31** | **Instituição financeira** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | banco, financeira, corretora de valores |
+| **Noção** | > Intermediária entre um indivíduo e algum tipo de serviço financeiro; <br> > Organização que otimiza a alocação de capitais financeiros; |
+| **Impacto** | > Para uma instituição financeira cuidar do seu capital, é preciso deixá-lo a disposição dela; <br> > Instituição financeira pode financiar compra de bens; <br> > Para obter serviços ofericidos por uma instituição financeira é preciso pagar taxas; <br> > Instituições financeiras podem oferecer empréstimos ou [crédito](../lexico/l25credito); <br> > Instituição financeira pode itermediar investimentos. |
+| **Rastro**| [Cenário 22](../cenarios/#c22-contratar-emprestimo) | 
 
 ## Versões anteriores
 
@@ -328,7 +354,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.0 |
 | **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeira; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
-| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária. | A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br>> A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 
 
 [usuário]: ../lexicos/#l13-usuario
