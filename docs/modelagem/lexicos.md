@@ -10,9 +10,12 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L1** | **Nome Sujo**  |
 |--|--|
-| **Versão**| 1.0 | 
+| **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l1-nome-sujo_1) |
+| **Classificação** | Estado |
+| **Sinônimos** | Devedor, caloteiro |
 | **Noção** | > Quando uma pessoa possui nome sujo no serasa <br> > O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> > Status da pessoa que não honra com suas dívidas | 
 | **Impacto** | > O [usuário](../lexicos/#l13-usuario) com o nome sujo não faz empréstimos <br> > O [usuário](../lexicos/#l13-usuario) com o nome sujo não consegue contratar alguns serviços <br> > Operadoras de cobrança ligam constantemente para o [usuário](../lexicos/#l13-usuario) com o nome sujo |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L2 - Cadastro positivo
 
@@ -34,41 +37,59 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L4** | **Score do Serasa**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l4-score-do-serasa_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Pontuação |
 | **Noção** | > Pontuação numérica que classifica economicamente uma pessoa <br> > Chance percentual de um indivíduo não pagar uma conta | 
 | **Impacto** | > Um indivíduo com o score do serasa alto tem o cadastro positivo aceito <br> > Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o nome sujo <br> > Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um crédito pré-aprovado |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L5 - Dívida ativa
 
 | **L5** | **Dívida Ativa**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l5-divida-ativa_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Negativado, cadastro devedor |
 | **Noção** | > Inserção do nome de um indivíduo com o status de nome sujo no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o nome sujo | 
 | **Impacto** | > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem seu score do serasa reduzido <br> > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem uma redução de linhas de crédito |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
 
 ### L6 - Crédito Pré-aprovado
 
 | **L6** | **Crédito Pré-aprovado**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l6-credito-pre-aprovado_1) |
+| **Classificação** | Objeto |
+| **Sinônimos** | Crediário, cheque-especial, limite |
 | **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
 | **Impacto** | > Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> > Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e score do serasa |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L7 - Comprometimento de renda
 
 | **L7** | **Comprometimento de renda**  |
 |--|--|
-| **Versão**| 1.0 |
+| **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l7-comprometimento-de-renda_1) |
+| **Classificação** | Estado |
+| **Sinônimos** | Salário líquido, impedimento |
 | **Noção** | > Quando um indivíduo tem parte do seu dinheiro já destinado à algum gasto <br> > Indivíduo com uma dívida que reduz seu salário bruto | 
 | **Impacto** | > Um indivíduo com a renda comprometida tem dificuldades em gerenciar seu dinheiro <br> > Um indivíduo com a renda comprometida não possui um bom crédito pré-aprovado <br> > Um indivíduo com a renda comprometida pode não conseguir um empréstimo |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
 
 ### L8 - Simulação
 
 | **L8** | **Simulação**  |
 |--|--|
-| **Versão**| 1.0 | 
+| **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l8-simulacao_1) |
+| **Classificação** | Verbo |
+| **Sinônimos** | Fingir |
 | **Noção** | > Fazer um empréstimo fantasioso <br> > Fingir fazer um empréstimo para saber as condições e consequências |
 | **Impacto** | > Um indivíduo faz uma simulação, conhecendo valores e prazos de um empréstimo <br> > Após fazer a simulação  indivíduo pode optar por contratar ou não o seu crédito pré-aprovado <br> > Fazendo um empréstimo após uma simulação, um indivíduo passar a ter parte da sua renda comprometida |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
 
 ### L9 - Contas residenciais
 
@@ -226,9 +247,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 | **Rastro** | [Cenário 21](../cenarios/#c21-atualizar-contas-e-cartoes) |
 
-### L27 - Débito 
+### L27 - Cartão de débito 
 
-| **L27** | **Débito** |
+| **L27** | **Cartão de débito** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
 | **Classificação** | Objeto |
@@ -237,9 +258,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Impacto** | > Ao comprar no débito o ;;indivíduo;; sabe o valor gasto na hora; <br> > Ao se comprar no débito, o valor da ;;transação;; é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo não pode parcelar uma compra feita no débito; <br> Ao comprar no débito o indivíduo passa a ter mais controle dos seus gastos; <br> > Ao comprar no débito o usuário pode ter um histórico de compras, a depender da ;;instituição financeira;; do cartão | 
 | **Rastro**| Não possui (elicitado ao se fazer cenários) | 
 
-### L28 - Crédito 
+### L28 - Cartão de crédito
 
-| **L28** | **Crédito** |
+| **L28** | **Cartão de crédito** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
 | **Classificação** | Objeto |
@@ -282,6 +303,54 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Rastro**| [Cenário 22](../cenarios/#c22-contratar-emprestimo) | 
 
 ## Versões anteriores
+
+### L1 - Nome Sujo
+
+| **L1** | **Nome Sujo**  |
+|--|--|
+| **Versão**| 1.0 | 
+| **Noção** | > Quando uma pessoa possui nome sujo no serasa <br> > O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> > Status da pessoa que não honra com suas dívidas | 
+| **Impacto** | > O [usuário](../lexicos/#l13-usuario) com o nome sujo não faz empréstimos <br> > O [usuário](../lexicos/#l13-usuario) com o nome sujo não consegue contratar alguns serviços <br> > Operadoras de cobrança ligam constantemente para o [usuário](../lexicos/#l13-usuario) com o nome sujo |
+
+### L4 - Score do Serasa
+
+| **L4** | **Score do Serasa**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Pontuação numérica que classifica economicamente uma pessoa <br> > Chance percentual de um indivíduo não pagar uma conta | 
+| **Impacto** | > Um indivíduo com o score do serasa alto tem o cadastro positivo aceito <br> > Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o nome sujo <br> > Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um crédito pré-aprovado |
+
+### L5 - Dívida ativa
+
+| **L5** | **Dívida Ativa**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Inserção do nome de um indivíduo com o status de nome sujo no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o nome sujo | 
+| **Impacto** | > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem seu score do serasa reduzido <br> > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem uma redução de linhas de crédito |
+
+### L6 - Crédito Pré-aprovado
+
+| **L6** | **Crédito Pré-aprovado**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
+| **Impacto** | > Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> > Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e score do serasa |
+
+### L7 - Comprometimento de renda
+
+| **L7** | **Comprometimento de renda**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Quando um indivíduo tem parte do seu dinheiro já destinado à algum gasto <br> > Indivíduo com uma dívida que reduz seu salário bruto | 
+| **Impacto** | > Um indivíduo com a renda comprometida tem dificuldades em gerenciar seu dinheiro <br> > Um indivíduo com a renda comprometida não possui um bom crédito pré-aprovado <br> > Um indivíduo com a renda comprometida pode não conseguir um empréstimo |
+
+### L8 - Simulação
+
+| **L8** | **Simulação**  |
+|--|--|
+| **Versão**| 1.0 | 
+| **Noção** | > Fazer um empréstimo fantasioso <br> > Fingir fazer um empréstimo para saber as condições e consequências |
+| **Impacto** | > Um indivíduo faz uma simulação, conhecendo valores e prazos de um empréstimo <br> > Após fazer a simulação  indivíduo pode optar por contratar ou não o seu crédito pré-aprovado <br> > Fazendo um empréstimo após uma simulação, um indivíduo passar a ter parte da sua renda comprometida |
 
 ### L14 - Transações ignoradas
 
