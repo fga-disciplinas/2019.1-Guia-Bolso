@@ -302,6 +302,17 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Impacto** | > Para uma instituição financeira cuidar do seu capital, é preciso deixá-lo a disposição dela; <br> > Instituição financeira pode financiar compra de bens; <br> > Para obter serviços ofericidos por uma instituição financeira é preciso pagar taxas; <br> > Instituições financeiras podem oferecer empréstimos ou [crédito](../lexico/l25credito); <br> > Instituição financeira pode itermediar investimentos. |
 | **Rastro**| [Cenário 22](../cenarios/#c22-contratar-emprestimo) | 
 
+### L# - Guia
+
+| **L#** | **Guia** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Aba guia |
+| **Noção** | > Onde é mostrado conselhos financeiros, anúncios de patrocinadores e publicações de sites de patrocinadores; <br> > Tem informações sobre a situação financeira do [usuário], como por exemplo, comparação do gasto do mês atual com o anterior. |
+| **Impacto** | > Aba guia informa o [usuário] sobre comparações e informações de suas finanças; <br> > Guiabolso recebe dinheiro por publicar na aba guia anúncios de patrocinadores.|
+| **Rastro**| [Rich picture guia](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) | 
+
 ## Versões anteriores
 
 ### L1 - Nome Sujo

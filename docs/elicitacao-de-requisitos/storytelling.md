@@ -9,7 +9,7 @@
 | Nome | papel | Observação |
 |--|--|--|
 | Adailton Martins | Narração | Usuário app |
-| Lucas Machado | Relatorio | Membro da equipe |
+| Lucas Machado | Relatório | Membro da equipe |
 
 Data: 07/04/2019
 
@@ -35,7 +35,7 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 | Nome | papel | Observação |
 |--|--|--|
 | Lucas Machado | Narração | Usuário app / membro |
-| Marcelo | Relatorio | Membro da equipe |
+| Marcelo | Relatório | Membro da equipe |
 
 Data: 09/04/2019 </br>
 Descrição do participante: Lucas Machado, estudante, é usuário do Guiabolso há algumas semanas, e busca economizar com as compras com alimento.
@@ -44,7 +44,7 @@ Esse storytelling foi feito para saber a experiência de um usuário com a aba g
 
 ## Resumo da Narração
 
-<p aling= "justify"> O usuário achou interessante a ideia que lhe foi passada do app, depois de utilizar um tempo foi em busca de novas funcionalidade dentre elas acabou encontrando na aba guia uma que lhe pareceu interessante, a parte onde encontrava sugestões de bares e restaurantes que pelo proprio app era possível adquirir descontos, porem ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes. Ele descobriu um local onde podia colocar a cidade de onde iria receber sugestões e la também não existia a sua cidade como opção.</p>
+<p aling= "justify"> O usuário achou interessante a ideia que lhe foi passada do app, depois de utilizar um tempo foi em busca de novas funcionalidade dentre elas acabou encontrando na aba guia uma que lhe pareceu interessante, a parte onde encontrava sugestões de bares e restaurantes que pelo próprio app era possível adquirir descontos, porém ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes. Ele descobriu um local onde podia colocar a cidade de onde iria receber sugestões e lá também não existia a sua cidade como opção.</p>
 
 O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/mp3/wpXGMcP7da/guia_bolso_storytelling_02.html).
 
