@@ -10,6 +10,10 @@ Este documento tem por finalidade definir os requisitos não funcionais do aplic
 
 Esta especificação define os requisitos não-funcionais associados a usabilidade, confiabilidade, desempenho e suportabilidade, interfaces do sistema, restrições de design, requisitos de licenciamento, observações legais e padrões aplicáveis da aplicação móvel do Guiabolso.
 
+## Funcionalidades 
+
+As funcionalidades já elicitadas podem ser encontradas por toda a [documentação](https://fga-disciplinas.github.io/2019.1-Guia-Bolso/) feita pelo grupo.
+
 ## Usabilidade
 
 Este tópico específica os requisitos relacionados a qualidade da interação do usuário com o aplicativo.
@@ -31,7 +35,7 @@ O usuário executa ações críticas em no máximo 5 clicks.
 ### RU04: Padrões Visuais
 
 A interface deve utilizar padrões visuais de informação com cores e ícones intuitivos que ajude na identificação de itens e de funcionalidades.
-<br> Rastro: [Questionário](../elicitacao-de-requisitos/questionario.md) e [Brainstorm](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos)
+<br> Rastro: [Questionário](../elicitacao-de-requisitos/questionario.md) e [Brainstorm 1](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos)
 
 ### RU05: Conhecimentos prévios 
 
@@ -41,7 +45,7 @@ A aplicação exigirá do usuário que ele saiba usar sistema móveis Androids o
 ### RU06: Agilidade
 
 O aplicativo deve oferecer agilidade no momento em que o usuário executa funcionalidades básicas e principais.
-<br> Rastro: [Questionário](../elicitacao-de-requisitos/questionario.md) e [Brainstorm](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos)
+<br> Rastro: [Questionário](../elicitacao-de-requisitos/questionario.md) e [Brainstorm 1](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos)
 
 ### RU07: *Feedbacks*
 
@@ -93,5 +97,34 @@ As requisições devem ser respondidas em no máximo 08 segundos, principalmente
 
 ### RD03: Armazenamento 
 
-O aplicativo precisa de 31MB(*megabyte*) de armazenamento em sistemas Android e 55,6MB em sistemas IOS.
-<br> Rastro: O próprio aplicativo 
+O aplicativo precisa de 31MB(*megabyte*) de armazenamento em sistemas Android e 55,6MB em sistemas iOS.
+<br> Rastro: [Guiabolso na Play Store](https://play.google.com/store/apps/details?id=br.com.guiabolso&hl=pt_BR) e [Guiabolso na Apple Store](https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8) 
+
+### RD04: Localização 
+
+Para o aplicativo desempenhar cada vez melhor o oferecimento de dicas da aba Guia e para levantar estatísticas dos usuários, ele precisa de permissão de acesso à localização do dispositivo.
+<br> Rastro: [Argumentação 1](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)
+
+## Suportabilidade
+
+Este tópico descreve o quão portável deve ser o Guiabolso e em quais plataformas ele oferece suporte.
+
+### RP01: Internet
+
+O Guiabolso tem suporte apenas em dispositivos que podem ter acesso à internet.
+<br> Rastro: Não possui
+
+### RP02: Dispositivos Apple 
+
+O aplicativo deve suportar dispositivos móveis com sistema iOS 9.0 ou posterior e ser compatível com iPhone, iPad e iPod touch.
+<br> Rastro: [Guiabolso na Apple Store](https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8)
+
+### RP03: Dispositivos Android 
+
+O aplicativo deve suportar dispositivos móveis com sistemas Android 4.1 e versões superiores.
+<br> Rastro: [Guiabolso na Play Store](https://play.google.com/store/apps/details?id=br.com.guiabolso&hl=pt_BR)
+
+### RP04: Permanência de dados 
+
+A aplicação deve suportar acesso por meio de navegadores web e diferentes plataformas mobiles, com a permanência de dados e de preferências de uso do mesmo usuário.
+<br> Rastro: Não possui
