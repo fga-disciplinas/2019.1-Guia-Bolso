@@ -48,7 +48,50 @@ O aplicativo deve oferecer agilidade no momento em que o usuário executa funcio
 O sistema deve dar *feedbacks* ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.
 <br> Rastro: Não possui.
 
+## Confiabilidade
 
+Os requisitos de confiabilidade demonstram a capacidade da aplicação de manter, em situação hostis, o funcionamento e segurança que foram acordados.
 
+### RC01: Disponibilidade 
 
+Os servidores do  aplicativo devem mantê-lo disponível o maior tempo possível enquanto instalado no celular do usuário. Se houver indisponibildade por motivos de manutenção ou atualização, o usuário deve ser previamente avisado.
+<br> Rastro: Não possui
 
+### RC02: Integridade dos Dados
+
+Os dados exibidos na aplicação devem ser condizentes com o que está no banco de dados e devem sempre estar atualizados, mesmo após uma falha.
+<br> Rastro: Não possui
+
+### RC03: Privacide dos Dados
+
+Em caso de ataques ou vazamento de informações, o aplicativo deve passar a confiança para o usuário de que seus dados não serão usados ou acessadospor terceiros que não forma citados na Política de Privacidade.
+<br> Rastro: [Argumentação 1](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)
+
+### RC04: Transparência 
+
+O sistema deve ser transparente quanto as informações que são coletadas do usuário, esclarecendo quais são e como vão ser usadas.
+<br> Rastro: [Argumentação 1](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)
+
+### RC05: Suporte a falhas 
+
+No caso de falhas, o aplicativo deve dar segurança ao usuário de que a falha vai ser corrigida e não haverá consequências negativas aos dados sensíveis do usuário.
+<br> Rastro: Não possui
+
+## Desempenho
+
+Especificação da rapidez de resposta e redenrização que o aplicativo deve oferecer
+
+### RD01: Acessos simultâneos
+
+A aplicação deve ter uma lógica de balanceamento de carga de requisições ao servidor, para ser capaz de atender acessos simultâneos de diferentes usuários, cada um em sua devida conta.
+<br> Rastro: Não possui
+
+### RD02: Rapidez de resposta
+
+As requisições devem ser respondidas em no máximo 08 segundos, principalmente nas funcionalidades mais utilizadas, para que a experiência do usuário não seja cansativa e para não deixá-lo impaciente.
+<br> Rastro: [Questionário](../elicitacao-de-requisitos/questionario.md)
+
+### RD03: Armazenamento 
+
+O aplicativo precisa de 31MB(*megabyte*) de armazenamento em sistemas Android e 55,6MB em sistemas IOS.
+<br> Rastro: O próprio aplicativo 
