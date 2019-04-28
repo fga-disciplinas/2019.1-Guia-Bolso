@@ -86,18 +86,34 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC16 - Categorizar um gasto
 
-[ ![UC10](./../img/casos_de_uso/UC16.png)](./../img/UC16.png)
+[ ![UC10](./../img/casos_de_uso/UC16.png)](./../img/casos_de_uso/UC16.png)
 
-| **UC10** | **Adicionar planejamento**|
+| **UC16** | **Categorizar um gasto**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar uma categoria em um gasto |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | > Usuário possuir alguma transação |
 | **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona a seção de "Extrato"; <br>  > Usuário clica em uma transação já existente; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; |
-| **Fluxos alternativos** | **FA1 - Aba Guia:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia"; <br> > Usuário visualiza e seleciona algum card relacionado as suas transações; <br>  > Usuário visualiza suas transações; <br> > Usuário seleciona uma transação específica; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; <br><br> **FA2 - Ao visualizar gráficos:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças; <br> > Usuário seleciona a seção "Gráficos"; <br>  > Usuário clica em uma transação já existente; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; <br><br> **FA3 - Ao adicionar transação manual** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuárop seleciona seção de "Extrato"; <br> > Usuário clica no botão "+"para adicionar uma transação manual; <br> >Usuário clica no item "Qual a categoria?" relecionado a criação de uma nova transação; <br> > Usuário escolhe uma categoria já existente ou cria um nova;|
+| **Fluxos alternativos** | **FA1 - Aba Guia:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia"; <br> > Usuário visualiza e seleciona algum card relacionado as suas transações; <br>  > Usuário visualiza suas transações; <br> > Usuário seleciona uma transação específica; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; <br><br> **FA2 - Ao visualizar gráficos:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças; <br> > Usuário seleciona a seção "Gráficos"; <br>  > Usuário clica em uma transação já existente; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; <br><br> **FA3 - Ao adicionar transação manual** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona seção de "Extrato"; <br> > Usuário clica no botão "+"para adicionar uma transação manual; <br> >Usuário clica no item "Qual a categoria?" relecionado a criação de uma nova transação; <br> > Usuário escolhe uma categoria já existente ou cria um nova;|
 | **Fluxos de exceção** | **FE1 - Nenhuma categoria escolhida:** <br> > O sistema apresenta uma mensagem dizendo que é obrigatório categorizar um gasto no ato de criar uma transação manual |
 | **Pós condições** | > A categoria é relacionada a transação; <br> > A nova categoria é adicionada a lista de categorias; |
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao) &  Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
+
+
+### UC17 - Solicitar suporte
+
+[ ![UC17](./../img/casos_de_uso/UC17.png)](./../img/casos_de_uso/UC17.png)
+
+| **UC17** | **Solicitar suporte**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode solicitar suporte |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Chatbot |
+| **Pré condições** | Não há |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona o ítem "Dúvidas"; <br>  > Usuário clica no ítem que contém a sua dúvida; <br> > Usuário seleciona a dúvida; <br> > Caso a dúvida não esteja listada, usuário aperta em "Contato"; <br> Usuário inicia conversa com chatbot para por fim a sua dúvida |
+| **Fluxos de exceção** | Não há |
+| **Pós condições** | Não há |
+| **Rastreabilidade** | Cenário [C18](../cenarios/#c11-solicitar-suporte) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|
 
 ## Versões anteriores
