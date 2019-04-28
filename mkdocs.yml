@@ -36,6 +36,7 @@ pages:
     - Cenários: 'modelagem/cenarios.md'
     - Léxicos: 'modelagem/lexicos.md'
     - Especificação Suplementar: 'modelagem/especificacao.md'
+    - Casos de uso: 'modelagem/casos_de_uso.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
   
