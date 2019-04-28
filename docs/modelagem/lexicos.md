@@ -168,7 +168,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L17** | **Status**  |
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l17-status) |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l17-status_1) |
 | **Noção** | > Mostra a situação da conta do(s) cartão(ões) <br> > Informa se as informações sobre transações do cartão estão atualizadas|
 | **Impacto** | > O status permite o [usuário](../lexicos/#l13-usuario) saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
 
@@ -176,7 +176,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L18** | **Meses futuros**  |
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l18-meses-futuros) |
+| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l18-meses-futuros_1) |
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](../lexicos/#l13-usuario) <br> > Auxilia o [usuário](../lexicos/#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
