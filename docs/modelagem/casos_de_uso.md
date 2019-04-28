@@ -84,4 +84,20 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | > O planejamento de gastos é adicionando; <br> > O planejamento de rendas é adicionado; |
 | **Rastreabilidade** | Cenário [C24](../cenarios/#c3-criar-planejamento) &  Richpictures [RP00](../../pre-rastreabilidade/richpicture/#rp00-macros) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
+### UC16 - Categorizar um gasto
+
+[ ![UC10](./../img/casos_de_uso/UC16.png)](./../img/UC16.png)
+
+| **UC10** | **Adicionar planejamento**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode adicionar uma categoria em um gasto |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; |
+| **Pré condições** | > Usuário possuir alguma transação |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona a seção de "Extrato"; <br>  > Usuário clica em uma transação já existente; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; |
+| **Fluxos alternativos** | **FA1 - Aba Guia:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia"; <br> > Usuário visualiza e seleciona algum card relacionado as suas transações; <br>  > Usuário visualiza suas transações; <br> > Usuário seleciona uma transação específica; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; <br><br> **FA2 - Ao visualizar gráficos:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças; <br> > Usuário seleciona a seção "Gráficos"; <br>  > Usuário clica em uma transação já existente; <br> > Usuário seleciona a opção de "Categoria"; <br> > Usuário escolhe uma categoria já existente ou cria um nova; <br><br> **FA3 - Ao adicionar transação manual** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuárop seleciona seção de "Extrato"; <br> > Usuário clica no botão "+"para adicionar uma transação manual; <br> >Usuário clica no item "Qual a categoria?" relecionado a criação de uma nova transação; <br> > Usuário escolhe uma categoria já existente ou cria um nova;|
+| **Fluxos de exceção** | **FE1 - Nenhuma categoria escolhida:** <br> > O sistema apresenta uma mensagem dizendo que é obrigatório categorizar um gasto no ato de criar uma transação manual |
+| **Pós condições** | > A categoria é relacionada a transação; <br> > A nova categoria é adicionada a lista de categorias; |
+| **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao) &  Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
+
 ## Versões anteriores
