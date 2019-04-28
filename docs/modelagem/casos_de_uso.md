@@ -116,4 +116,20 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c11-solicitar-suporte) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|
 
+### UC18 - Visualizar status do nome (Limpo ou sujo)
+
+[ ![UC18](./../img/casos_de_uso/UC18.png)](./../img/casos_de_uso/UC18.png)
+
+| **UC18** | **Visualizar status do nome (Limpo ou sujo)**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode visualizar o status do nome (Limpo ou sujo) |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições finaceiras; <br> > Boa Vista (SCPC) |
+| **Pré condições** | > Usuário possuir CPF; <br> > Usuário liberar acesso aos seus dados de CPF; <br> > SCPC liberar dados financeiros |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Radar CPF"; <br> > Usuário libera acesso a seus dados financeiros do SCPC (Apenas uma vez); <br> > Usuário visualiza se seu nome esta limpo ou sujo; <br> > Caso exista, usuário visualiza instituições financeiras que consultaram seu CPF; <br> > Caso exista, usuário visualiza as instituições financeiras que está em débito <br> |
+| **Fluxos alternativos** | **FA1 - Aba Guia:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia"; <br> > Usuário visualiza e seleciona algum card relacionado ao Radar CPF; <br> > Usuário libera acesso a seus dados financeiros do SCPC (Apenas uma vez); <br> > Usuário visualiza se seu nome esta limpo ou sujo; <br> > Caso exista, usuário visualiza instituições financeiras que consultaram seu CPF; <br> > Caso exista, usuário visualiza as instituições financeiras que está em débito <br> ||
+| **Fluxos de exceção** | **FE1 - Conexão com o SCPC:** <br> > Não é possível visualizar o status do nome caso exista algum erro de conexão com o SCPC |
+| **Pós condições** | Não há |
+| **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
+
 ## Versões anteriores
