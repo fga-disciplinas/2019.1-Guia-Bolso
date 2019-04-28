@@ -299,10 +299,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Objeto |
 | **Sinônimos** | banco, financeira, corretora de valores |
 | **Noção** | > Intermediária entre um indivíduo e algum tipo de serviço financeiro; <br> > Organização que otimiza a alocação de capitais financeiros; |
-| **Impacto** | > Para uma instituição financeira cuidar do seu capital, é preciso deixá-lo a disposição dela; <br> > Instituição financeira pode financiar compra de bens; <br> > Para obter serviços ofericidos por uma instituição financeira é preciso pagar taxas; <br> > Instituições financeiras podem oferecer empréstimos ou [crédito](../lexico/l25credito); <br> > Instituição financeira pode itermediar investimentos. |
+| **Impacto** | > Para uma instituição financeira cuidar do seu capital, é preciso deixá-lo a disposição dela; <br> > Instituição financeira pode financiar compra de bens; <br> > Para obter serviços ofericidos por uma instituição financeira é preciso pagar taxas; <br> > Instituições financeiras podem oferecer empréstimos ou [crédito](../lexicos/#l25-credito); <br> > Instituição financeira pode itermediar investimentos. |
 | **Rastro**| [Cenário 22](../cenarios/#c22-contratar-emprestimo) | 
 
-### L# - Guia
+### L32 - Guia
 
 | **L#** | **Guia** |
 |--|--|
@@ -311,7 +311,18 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Sinônimos** | Aba guia |
 | **Noção** | > Onde é mostrado conselhos financeiros, anúncios de patrocinadores e publicações de sites de patrocinadores; <br> > Tem informações sobre a situação financeira do [usuário], como por exemplo, comparação do gasto do mês atual com o anterior. |
 | **Impacto** | > Aba guia informa o [usuário] sobre comparações e informações de suas finanças; <br> > Guiabolso recebe dinheiro por publicar na aba guia anúncios de patrocinadores.|
-| **Rastro**| [Rich picture guia](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) | 
+| **Rastro**| [Rich picture guia](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
+
+### L33 - Conta bancária
+
+| **L#** | **Conta bancária** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Conta de banco |
+| **Noção** | > Cadastro de um banco que foi conectado ao Guiabolso pelo [usuário]; <br> > Contém informações da conta bancária. |
+| **Impacto** | > Conta bancária é atualizada pelo Guiabolso com o banco do cartão; <br> > Conta bancária fornece ao [usuário] feedback de seu [extrato](../lexicos/#l21-extrato) e situação no banco.|
+| **Rastro**| [Rich picture Aba de finanças](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 ## Versões anteriores
 
