@@ -40,9 +40,6 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 [ ![UC8](./../img/UC8.png)](./../img/UC8.png)
 
-
-<a class="100%"></a>
-
 | **UC8** | **Editar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
@@ -54,5 +51,21 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Fluxos de exceção** | Não há|
 | **Pós condições** | > A transação é editada; <br> > A transação passa a ser ignorada ou não; <br> > A transação passa a ser dividida em 2 ou mais categorias (ou não); <br> > A transação passa a ter um comentário ou não. |
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao) |
+
+### UC9 - Adicionar conta (bancária e manual)
+
+[ ![UC9](./../img/UC9.png)](./../img/UC9.png)
+
+| **UC9** | **Adicionar conta (bancária e manual)**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode adicionar uma conta bancária e/ou uma conta manual (carteira, por exemplo) |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras & bancos |
+| **Pré condições** | > Usuário possuir uma conta bancária e/ou cartão de crédito; |
+| **Fluxo principal** | > Indivíduo se cadastra no Guiabolso; <br> > Indivíduo entra com seus dados pessoais e depois insere uma conta bancária que ele possui; <br> > Indivíduo preenche os dados da conta bancária escolhida; <br>  > Indivíduo autoriza o Guiabolso a acessar os dados bancários em modo leitura; <br> > indivíduo se torna um usuário do Guiabolso com uma conta bancária inserida. |
+| **Fluxos alternativos** | **FA1 - Indivíduo com conta manual:** <br>  > Indivíduo se cadastra no Guiabolso; <br> > Indivíduo entra com seus dados pessoais e depois insere uma conta bancária; <br> > Como o indivíduo não possui uma conta bancária ou não quer inserir uma por motivo adversos, ele escolhe a opção "Adicionar conta manual"; <br>  > Indivíduo insere os dados solicitados (nome da conta, tipo, etc); <br> > indivíduo se torna um usuário do Guiabolso com uma conta manual inserida. <br><br> **FA2 - Aba Finanças:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois em "Adicionar conta";<br> > Usuário seleciona um banco/insittuição financeira ou escolhe inserir uma conta manual; <br> > Caso tenha optado por inserir uma conta bancária, o usuário insere corretamente os dados solicitados da conta e clica em "Sincronizar". Do contrário, ao optar por uma conta manual, o usuário insere como deseja que a conta manual seja criada e clica em "Criar conta manual". <br><br> **FA3 - Ajustes - Contas e cartões:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona a opção "Contas e cartões" <br> > Usuário clica no botão "+" e depois em "Adicionar conta";<br> > Usuário seleciona um banco/insittuição financeira ou escolhe inserir uma conta manual; <br> > Caso tenha optado por inserir uma conta bancária, o usuário insere corretamente os dados solicitados da conta e clica em "Sincronizar". Do contrário, ao optar por uma conta manual, o usuário insere como deseja que a conta manual seja criada e clica em "Criar conta manual"; <br><br> **FA4 - Extrato:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário visualiza seu extrato (por meio de diversas outras possibilidades)"; <br> > Usuário clica no botão "+" e depois em "Adicionar transação manual";<br> > Usuário seleciona a opção conta e depois clica no "+" no canto supeior direito; <br> > O usuário insere como deseja que a conta manual seja criada e clica em "Criar conta manual";|
+| **Fluxos de exceção** | **FE1 - CPF inválido:** <br> > Sistema apresenta mensagem de erro pedindo para o usuário inserir um CPF válido; <br><br> **FE2 - Dados bancários errôneos:** <br> > Sistema apresenta mensagem de erro pedindo para o usuario corrigir os dados bancários da conta que está a ser inserida <br><br> **FE3 - Senha do internet Banking incorreta:** <br> > Sistema apresenta mensagem de erro pedindo para o usuário inserir uma senha válida, pois não conseguiu contatar o banco com a senha do internet Banking; <br> <br> **FE4 - Usuário não autorizar o Guiabolso a acessar os dados financeiros em modo de visualização:** <br> > Sistema apresenta mensagem de erro pedindo para que o usuário autorize o Guiabolso, pois sem a autorização ele não pode fazer nenhuma sincronização; <br> <br> **FE5 - Nome da conta manual não inserido:** <br> > Sistema apresenta mensagem de erro pedindo para que o usuário insira o nome da conta manual que ele deseja criar; <br> <br> **FE6 - Tipo de conta manual não selecionado:** <br> > Sistema exibe mensagem de erro dizendo ao usuário para inserir o tipo de conta manual; <br> <br> **FE7 - Sistema do banco indisponível:** <br> > Sistema exibe mensagem de erro dizendo que não foi possível entrar em contato com a instituição financeira selecionada na hora de cadastrar uma nova conta.|
+| **Pós condições** | > A conta bancária é adicionada; <br> > A Conta manual é adicionada; |
+| **Rastreabilidade** | Cenário [C24](../cenarios/#c24-adicionar-conta-manual) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 ## Versões anteriores
