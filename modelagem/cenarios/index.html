@@ -715,6 +715,30 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../casos_de_uso/" title="Casos de uso" class="md-nav__link">
+      Casos de uso
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -1103,7 +1127,7 @@
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Adicionar transação com uma <a href="../lexicos/#l11-conta-manual">conta manual</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> &gt; Ao tentar adicionar <a href="../lexicos/#l12-conta-automatica">conta automática</a>, seu banco não consta na lista pré-determinada; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não tem conhecimento de como adicionar transação na sua <a href="../lexicos/#l11-conta-manual">conta manual</a>.</td>
+<td><strong>O que?</strong> <br> &gt; Adicionar transação com uma <a href="../lexicos/#l11-conta-manual">conta manual</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> &gt; Ao tentar adicionar <a href="../lexicos/#l12-conta-automatica">conta automática</a>, seu <a href="../lexicos/#l31-instituicao-financeira">banco</a> não consta na lista pré-determinada; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não tem conhecimento de como adicionar transação na sua <a href="../lexicos/#l11-conta-manual">conta manual</a>.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -1365,7 +1389,7 @@
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt; Instituições financeiras; <br> Serviços de proteção ao crédito.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt; <a href="../lexicos/#l31-instituicao-financeira">Instituições financeiras</a>; <br> Serviços de proteção ao crédito.</td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
@@ -1377,7 +1401,7 @@
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; <a href="../lexicos/#l4-[score]-do-serasa">Score</a> do <a href="../lexicos/#l13-usuario">usuário</a> ser baixo; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não ter <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a Instituição financeira; <br> &gt; Ausência ou quebra do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+<td>&gt; <a href="../lexicos/#l4-[score]-do-serasa">Score</a> do <a href="../lexicos/#l13-usuario">usuário</a> ser baixo; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não ter <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a <a href="../lexicos/#l31-instituicao-financeira">Instituição financeira</a>; <br> &gt; Ausência ou quebra do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
@@ -1416,7 +1440,7 @@
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; Categoria já existir <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a Instituição financeira; <br> &gt; Ausência ou quebra do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+<td>&gt; Categoria já existir <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a <a href="../lexicos/#l31-instituicao-financeira">Instituição financeira</a>; <br> &gt; Ausência ou quebra do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
@@ -1439,15 +1463,15 @@
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Conseguir crédito rapidamente, sem burocracia</td>
+<td>Conseguir <a href="../lexicos/#l25-credito">crédito</a> rapidamente, sem burocracia</td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong>  <br>&gt; <a href="../lexicos/#l6-credito-pre-aprovado">Crédito pré-aprovado</a>; <br><br> <strong>Onde?</strong> <br>&gt; Caixa eletrônico, aplicativo ou <a href="../lexicos/#l16-internet-banking">internet banking</a>; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento; <br> <br><strong>Por quê?</strong> <br>&gt; Porque o indivíduo tem um objetivo e para alcança-lo precisa de crédito rápido.</td>
+<td><strong>O que?</strong>  <br>&gt; <a href="../lexicos/#l6-credito-pre-aprovado">Crédito pré-aprovado</a>; <br><br> <strong>Onde?</strong> <br>&gt; Caixa eletrônico, aplicativo ou <a href="../lexicos/#l16-internet-banking">internet banking</a>; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento; <br> <br><strong>Por quê?</strong> <br>&gt; Porque o indivíduo tem um objetivo e para alcançá-lo precisa de <a href="../lexicos/#l25-credito">crédito</a> rápido.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; Indivíduo; <br> &gt; Instituições financeiras; <br> &gt; Serviços de proteção ao crédito.</td>
+<td>&gt; Indivíduo; <br> &gt; <a href="../lexicos/#l31-instituicao-financeira">Instituições financeiras</a>; <br> &gt; Serviços de proteção ao crédito.</td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
@@ -1455,15 +1479,15 @@
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
-<td>&gt; Ter CPF; <br> &gt; Não ter o <a href="../lexicos/#l1-nome-sujo">nome sujo</a>.</td>
+<td>&gt; Ter CPF; <br> &gt; Não ter o <a href="../lexicos/#l1-nome-sujo">nome sujo</a>; <br> &gt; Ter uma boa <a href="../lexicos/#l22-avaliacao-de-credito">avaliação de crédito</a>.</td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; <a href="../lexicos/#l4-[score]-do-serasa">Score</a> do <a href="../lexicos/#l13-usuario">usuário</a> ser baixo; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo no meio que está sendo utilizado; <br> &gt; Falha na comunicação com a Instituição financeira;</td>
+<td>&gt; <a href="../lexicos/#l4-[score]-do-serasa">Score</a> do <a href="../lexicos/#l13-usuario">usuário</a> ser baixo; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo no meio que está sendo utilizado; <br> &gt; Falha na comunicação com a <a href="../lexicos/#l31-instituicao-financeira">Instituição financeira</a>;</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; A instituição faz uma análise de crédito do indivíduo; <br> &gt; Se o indíviduo tiver um bom <a href="../lexicos/#l4-[score]-do-serasa">score</a> de crédito, a instituição deixa disponível a ele um crédito já aprovado, mesmo que não tenha sido solicitado; <br> &gt; O indivíduo entra em contato com a institiuição (por caixa eletrônico, aplicativo, etc); <br> &gt; O indivíduo solicita o <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>; <br> &gt; Se disponível, o crédito entrará na conta do indivíduo;</td>
+<td>&gt; A instituição faz uma <a href="../lexicos/#l22-avaliacao-de-credito">análise de crédito</a> do indivíduo; <br> &gt; Se o indíviduo tiver um bom <a href="../lexicos/#l4-[score]-do-serasa">score</a> de crédito, a instituição deixa disponível a ele um <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>, mesmo que não tenha sido solicitado; <br> &gt; O indivíduo entra em contato com a institiuição (por caixa eletrônico, aplicativo, etc); <br> &gt; O indivíduo solicita o <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>; <br> &gt; Se disponível, o crédito entrará na conta do indivíduo;</td>
 </tr>
 </tbody>
 </table>
@@ -1506,7 +1530,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa o aba Ajustes e clica em "Dúvidas"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica no ícone de mensagens no canto superior direito; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> descreve qual ajuda precisa ou uma dúvida;  <br> &gt; O robô do Guiabolso ou um funcionário responde.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa o aba Ajustes e clica em "Dúvidas"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica no ícone de mensagens no canto superior direito; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> descreve qual ajuda precisa ou uma dúvida;  <br> &gt; O robô do Guiabolso ou um funcionário responde.</td>
 </tr>
 </tbody>
 </table>
@@ -1592,7 +1616,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; indivíduo deseja utilizar o Guiabolso; <br> &gt; indivíduo instala o Guiabolso <br> &gt; O indivíduo preenche todos os dados necessários para o cadastro; <br> &gt;[O indivíduo se torna um Usuário] da aplicação</td>
+<td>&gt; indivíduo deseja utilizar o Guiabolso; <br> &gt; indivíduo instala o Guiabolso <br> &gt; O indivíduo preenche todos os dados necessários para o cadastro; <br> &gt;O indivíduo se torna um <a href="../lexicos/#l13-usuario">Usuário</a> da aplicação</td>
 </tr>
 </tbody>
 </table>
@@ -1811,12 +1835,12 @@
 </tr>
 </tbody>
 </table>
-<h3 id="c19-cadastrar-banco">C19 - Cadastrar Banco</h3>
+<h3 id="c19-cadastrar-banco">C19 - Cadastrar <a href="../lexicos/#l31-instituicao-financeira">Banco</a></h3>
 <table>
 <thead>
 <tr>
 <th><strong>C19</strong></th>
-<th><strong>Cadastrar Banco</strong></th>
+<th><strong>Cadastrar <a href="../lexicos/#l31-instituicao-financeira">Banco</a></strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1826,11 +1850,11 @@
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Descrever como cadastrar um banco no Guiabolso.</td>
+<td>Descrever como cadastrar um <a href="../lexicos/#l31-instituicao-financeira">banco</a> no Guiabolso.</td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Cadastrar novo banco <br><br> <strong>Onde?</strong> <br> &gt; No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento após se cadastrar no Guiabolso. <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> pode ter mais de uma conta bancaria. <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> pode ingressar em um novo banco.</td>
+<td><strong>O que?</strong> <br> &gt; Cadastrar novo <a href="../lexicos/#l31-instituicao-financeira">banco</a> <br><br> <strong>Onde?</strong> <br> &gt; No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento após se cadastrar no Guiabolso. <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> pode ter mais de uma conta bancaria. <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> pode ingressar em um novo <a href="../lexicos/#l31-instituicao-financeira">banco</a>.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -1846,11 +1870,11 @@
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Falta da <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a> do banco(se necessário) <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Falta da <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a> do <a href="se necessário">banco</a> <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <strong>Através da aba de finanças:</strong> O <a href="../lexicos/#l13-usuario">usuário</a> acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> seleciona o banco desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> &gt; <strong>Caso o <a href="../lexicos/#l13-usuario">usuário</a> deseje realizar pelos ajustes:</strong> O <a href="../lexicos/#l13-usuario">usuário</a> acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> &gt; O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias <strong>caso sejam contas automatica</strong>, <strong>se for <a href="../lexicos/#l11-conta-manual">conta manual</a></strong> não é realizada sincronização automática dos dados, logo o <a href="../lexicos/#l13-usuario">usuário</a> terá de fazer sincronia manualmente.</td>
+<td>&gt; <strong>Através da aba de finanças:</strong> O <a href="../lexicos/#l13-usuario">usuário</a> acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> seleciona o <a href="../lexicos/#l31-instituicao-financeira">banco</a> desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> &gt; <strong>Caso o <a href="../lexicos/#l13-usuario">usuário</a> deseje realizar pelos ajustes:</strong> O <a href="../lexicos/#l13-usuario">usuário</a> acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> &gt; O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias <strong>caso sejam contas automatica</strong>, <strong>se for <a href="../lexicos/#l11-conta-manual">conta manual</a></strong> não é realizada sincronização automática dos dados, logo o <a href="../lexicos/#l13-usuario">usuário</a> terá de fazer sincronia manualmente.</td>
 </tr>
 </tbody>
 </table>
@@ -1920,7 +1944,7 @@
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt; Aplicativo do banco;</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt; Aplicativo do <a href="../lexicos/#l31-instituicao-financeira">banco</a>;</td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
@@ -1936,7 +1960,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-banco">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> sente necessidade de altualizar as contas e cartões cadastrados; <br> &gt;     <a href="../lexicos/#l13-usuario">Usuário</a> entra na aba Ajustes e seleciona "Contas e Cartões"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica em "Atualizar Conta"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> Acessa o aplicativo d    o banco corresponde para obter a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> insere a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a> no campo correspondente no Guiabolso.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-[banco]">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> sente necessidade de atualizar as contas e cartões cadastrados; <br> &gt;     <a href="../lexicos/#l13-usuario">Usuário</a> entra na aba Ajustes e seleciona "Contas e Cartões"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica em "Atualizar Conta"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> Acessa o aplicativo d    o <a href="../lexicos/#l31-instituicao-financeira">banco</a> corresponde para obter a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> insere a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a> no campo correspondente no Guiabolso.</td>
 </tr>
 </tbody>
 </table>
@@ -1971,15 +1995,15 @@
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo; <br> &gt; Ter CPF; <br> &gt; Não ter o <a href="../lexicos/#l1-nome-sujo">nome sujo</a>.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo; <br> &gt; Ter CPF; <br> &gt; Não ter o <a href="../lexicos/#l1-nome-sujo">nome sujo</a>; <br> &gt; Ter uma boa <a href="../lexicos/#l22-avaliacao-de-credito">avaliação de crédito</a>.</td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>; <br> &gt; Falha na conta bancária do <a href="../lexicos/#l13-usuario">usuário</a>; <br> &gt; Falha na comunicação com a Instituição Financeira.</td>
+<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>; <br> &gt; Falha na conta bancária do <a href="../lexicos/#l13-usuario">usuário</a>; <br> &gt; Falha na comunicação com a <a href="../lexicos/#l31-instituicao-financeira">Instituição Financeira</a>.</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa o Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma <a href="../cenarios/#c8-simular-um-emprestimo">simulação de empréstimo</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> contrata o empréstimo que mais lhe agrada; <br> &gt; A instituição aprova ou rejeita o empréstimo; <br> &gt; Se aprovado, o <a href="../lexicos/#l13-usuario">usuário</a> recebe o dinheiro ou crédito correspondente na sua conta bancária.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-[banco]">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa o Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma <a href="../cenarios/#c8-simular-um-emprestimo">simulação de empréstimo</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> contrata o empréstimo que mais lhe agrada; <br> &gt; A instituição aprova ou rejeita o empréstimo; <br> &gt; Se aprovado, o <a href="../lexicos/#l13-usuario">usuário</a> recebe o dinheiro ou crédito correspondente na sua conta bancária.</td>
 </tr>
 </tbody>
 </table>
@@ -2022,7 +2046,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa a aba Finanças; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica no ícone de mais e seleciona "Adicionar na Agenda"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> escolhe uma categoria de conta; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> Coloca o valor do pagamento; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> Seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa a aba Finanças; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica no ícone de "+" e seleciona "Adicionar na Agenda"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> escolhe uma categoria de conta; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> coloca o valor do pagamento; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado.</td>
 </tr>
 </tbody>
 </table>
@@ -2065,7 +2089,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> cria uma conta no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> deseja criar uma conta, porém seu banco não está entre os listados pelo Guiabolso, lhe resta adicionar esta conta de forma manual; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> deseja criar uma conta para controlar o dinheiro da sua carteira e segue o fluxo de adicionar uma <a href="../lexicos/#l11-conta-manual">conta manual</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> insere um nome para conta, além de um tipo e o saldo desta conta, que pode ser positivo, ou negativo; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> compra um lanche na lanchonete e registra quanto gastou no Guiabolso em sua conta de carteira <br> &gt; Todos os gastos e receitas que foram adicionados pelo <a href="../lexicos/#l13-usuario">usuário</a> serão agrupados em suas contas manuais.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> cria uma conta no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> deseja criar uma conta, porém seu <a href="../lexicos/#l31-instituicao-financeira">banco</a> não está entre os listados pelo Guiabolso, lhe resta adicionar esta conta de forma manual; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> deseja criar uma conta para controlar o dinheiro da sua carteira e segue o fluxo de adicionar uma <a href="../lexicos/#l11-conta-manual">conta manual</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> insere um nome para conta, além de um tipo e o saldo desta conta, que pode ser positivo, ou negativo; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> compra um lanche na lanchonete e registra quanto gastou no Guiabolso em sua conta de carteira <br> &gt; Todos os gastos e receitas que foram adicionados pelo <a href="../lexicos/#l13-usuario">usuário</a> serão agrupados em suas contas manuais.</td>
 </tr>
 </tbody>
 </table>
