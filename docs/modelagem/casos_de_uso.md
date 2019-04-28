@@ -68,4 +68,20 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | > A conta bancária é adicionada; <br> > A Conta manual é adicionada; |
 | **Rastreabilidade** | Cenário [C24](../cenarios/#c24-adicionar-conta-manual) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
+### UC10 - Adicionar planejamento
+
+[ ![UC10](./../img/UC10.png)](./../img/UC10.png)
+
+| **UC10** | **Adicionar planejamento**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode adicionar um planejamento de rendas ou gastos |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; |
+| **Pré condições** | Não há |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois em "Planejar"; <br>  > Usuário escolhe se deseja adicionar uma renda ou um gasto (por padrão será um gasto); <br> > Usuário insere o valor do planejamento e, opcionalmente, sua categoria; |
+| **Fluxos alternativos** | **FA1 - Ao visualizar extrato:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia; <br> > Usuário visualiza e seleciona algum card de comparação de gastos; <br>  > Usuário visualizar seu extrato; <br> > Usuário clica no botão "+" e depois em "Planejar"; <br>  > Usuário escolhe se deseja adicionar uma renda ou um gasto (por padrão será um gasto); <br> > Usuário insere o valor do planejamento e, opcionalmente, sua categoria; <br><br> **FA2 - Aba Ajustes:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes; <br> > Usuário seleciona a opção "Contas e cartões"; <br> > Usuário escolhe uma conta ou cartão de preferência <br>  > Usuário visualizar o extrato da conta slecionada anteriormente; <br> > Usuário clica no botão "+" e depois em "Planejar"; <br>  > Usuário escolhe se deseja adicionar uma renda ou um gasto (por padrão será um gasto); <br> > Usuário insere o valor do planejamento e, opcionalmente, sua categoria;|
+| **Fluxos de exceção** | **FE1 - Nenhum valor inserido:** <br> > O sistema não apresenta erro algum, porém o planejamento simplesmente não será salvo; |
+| **Pós condições** | > O planejamento de gastos é adicionando; <br> > O planejamento de rendas é adicionado; |
+| **Rastreabilidade** | Cenário [C24](../cenarios/#c3-criar-planejamento) &  Richpictures [RP00](../../pre-rastreabilidade/richpicture/#rp00-macros) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+
 ## Versões anteriores
