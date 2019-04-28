@@ -41,7 +41,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Objeto |
 | **Sinônimos** | Pontuação |
 | **Noção** | > Pontuação numérica que classifica economicamente uma pessoa <br> > Chance percentual de um indivíduo não pagar uma conta | 
-| **Impacto** | > Um indivíduo com o score do serasa alto tem o cadastro positivo aceito <br> > Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o nome sujo <br> > Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um crédito pré-aprovado |
+| **Impacto** | > Um indivíduo com o score do serasa alto tem o [cadastro positivo](#l2-cadastro-positivo) aceito <br> > Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o [nome sujo](#l1-nome-sujo) <br> > Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um [crédito pré-aprovado](#l6-credito-pre-aprovado) |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L5 - Dívida ativa
@@ -51,8 +51,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l5-divida-ativa_1) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Negativado, cadastro devedor |
-| **Noção** | > Inserção do nome de um indivíduo com o status de nome sujo no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o nome sujo | 
-| **Impacto** | > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem seu score do serasa reduzido <br> > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem uma redução de linhas de crédito |
+| **Noção** | > Inserção do nome de um indivíduo com o status de [nome sujo](#l1-nome-sujo) no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o [nome sujo](#l1-nome-sujo) | 
+| **Impacto** | > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem seu [score do serasa](#l4-score-do-serasa) reduzido <br> > Um [usuário](../lexicos/#l13-usuario) que está na dívida ativa tem uma redução de linhas de crédito |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
@@ -64,7 +64,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Objeto |
 | **Sinônimos** | Crediário, cheque-especial, limite |
 | **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
-| **Impacto** | > Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> > Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e score do serasa |
+| **Impacto** | > Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> > Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e [score do serasa](#l4-score-do-serasa) |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L7 - Comprometimento de renda
@@ -75,7 +75,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Estado |
 | **Sinônimos** | Salário líquido, impedimento |
 | **Noção** | > Quando um indivíduo tem parte do seu dinheiro já destinado à algum gasto <br> > Indivíduo com uma dívida que reduz seu salário bruto | 
-| **Impacto** | > Um indivíduo com a renda comprometida tem dificuldades em gerenciar seu dinheiro <br> > Um indivíduo com a renda comprometida não possui um bom crédito pré-aprovado <br> > Um indivíduo com a renda comprometida pode não conseguir um empréstimo |
+| **Impacto** | > Um indivíduo com a renda comprometida tem dificuldades em gerenciar seu dinheiro <br> > Um indivíduo com a renda comprometida não possui um bom [crédito pré-aprovado](#l6-credito-pre-aprovado) <br> > Um indivíduo com a renda comprometida pode não conseguir um empréstimo |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
@@ -87,7 +87,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Verbo |
 | **Sinônimos** | Fingir |
 | **Noção** | > Fazer um empréstimo fantasioso <br> > Fingir fazer um empréstimo para saber as condições e consequências |
-| **Impacto** | > Um indivíduo faz uma simulação, conhecendo valores e prazos de um empréstimo <br> > Após fazer a simulação  indivíduo pode optar por contratar ou não o seu crédito pré-aprovado <br> > Fazendo um empréstimo após uma simulação, um indivíduo passar a ter parte da sua renda comprometida |
+| **Impacto** | > Um indivíduo faz uma simulação, conhecendo valores e prazos de um empréstimo <br> > Após fazer a simulação  indivíduo pode optar por contratar ou não o seu [crédito pré-aprovado](#l6-credito-pre-aprovado) <br> > Fazendo um empréstimo após uma simulação, um indivíduo passar a ter parte da sua [renda comprometida](#l7-comprometimento-de-renda) |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
@@ -255,7 +255,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Objeto |
 | **Sinônimos** | Despesa, À vista |
 | **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito à vista usando cartão, geralmente de um banco; |
-| **Impacto** | > Ao comprar no débito o ;;indivíduo;; sabe o valor gasto na hora; <br> > Ao se comprar no débito, o valor da ;;transação;; é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo não pode parcelar uma compra feita no débito; <br> Ao comprar no débito o indivíduo passa a ter mais controle dos seus gastos; <br> > Ao comprar no débito o usuário pode ter um histórico de compras, a depender da ;;instituição financeira;; do cartão | 
+| **Impacto** | > Ao comprar no débito o indivíduo sabe o valor gasto na hora; <br> > Ao se comprar no débito, o valor da [transação](#l30-transacao-bancaria) é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo não pode parcelar uma compra feita no débito; <br> Ao comprar no débito o indivíduo passa a ter mais controle dos seus gastos; <br> > Ao comprar no débito o usuário pode ter um histórico de compras, a depender da [instituição financeira](#l31-instituicao-financeira) do cartão | 
 | **Rastro**| Não possui (elicitado ao se fazer cenários) | 
 
 ### L28 - Cartão de crédito
@@ -266,7 +266,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Objeto |
 | **Sinônimos** | À prazo, crediário |
 | **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito usando o cartão, que terá seu valor debitado *à posteriori*; |
-| **Impacto** | > Ao comprar no crédito o ;;indivíduo;; pode parcelar ou não a compra; <br> > Ao se comprar no crédito, o valor da ;;transação;; não é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo pode parcelar uma compra feita no débito; <br> > Ao comprar no crédito o indivíduo pode acabar tendo um descontrole financeiro; <br> > Ao comprar no crédito o indivíduo pode pagar a compra em valores menores, permitindo a compra de um produto mais caro de forma suave | 
+| **Impacto** | > Ao comprar no crédito o indivíduo pode parcelar ou não a compra; <br> > Ao se comprar no crédito, o valor da [transação](#l30-transacao-bancaria) não é descontado imediatamente do dinheiro do indivíduo; <br> > O indivíduo pode parcelar uma compra feita no débito; <br> > Ao comprar no crédito o indivíduo pode acabar tendo um descontrole financeiro; <br> > Ao comprar no crédito o indivíduo pode pagar a compra em valores menores, permitindo a compra de um produto mais caro de forma suave | 
 | **Rastro**| Não possui (elicitado ao se fazer cenários) | 
 
 ### L29 - Desconto 
@@ -277,7 +277,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Classificação** | Objeto |
 | **Sinônimos** | Corte, dedução, pechincha |
 | **Noção** | > Redução no preço de um produto ou serviço; |
-| **Impacto** | > O indivíduo que consegue um desconto paga preços menores em certos produtos; <br> > O desconto em contas permite que o usuário tenha uma maior ;;;saúde financeira;; <br> > Compras com desconto permitem um menor ;;comprometimento de renda;; de um indivíduo; <br> > O desconto pode incentivar um indivíduo a gastar mais do que pode pagar, obrigando-o a reccorer à um ;;empréstimo;; | 
+| **Impacto** | > O indivíduo que consegue um desconto paga preços menores em certos produtos; <br> > O desconto em contas permite que o usuário tenha uma maior ;[saúde financeira](#l19-saude-financeira) <br> > Compras com desconto permitem um menor [comprometimento de renda](#l7-comprometimento-de-renda) de um indivíduo; <br> > O desconto pode incentivar um indivíduo a gastar mais do que pode pagar, obrigando-o a reccorer à um empréstimo; | 
 | **Rastro**| Não possui (elicitado ao se fazer cenários) | 
 
 ### L30 - Transação bancária 
