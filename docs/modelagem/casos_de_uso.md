@@ -212,4 +212,85 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
 
+### UC21 - Adicionar código de segurança
+
+[ ![UC21](./../img/casos_de_uso/UC21.png)](./../img/casos_de_uso/UC21.png)
+
+| **UC21** | **Adicionar código de segurança**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode colocar um codigo de segurança para usar o aplicativo GuiaBolso |
+|**Ator(es)** | > Usuário; <br> > Guiabolso;  |
+| **Pré condições** | > Usuário ter instalado o GuiaBolso |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário acessa "Codigo de segurança; <br> > Usuário seleciona "ativar codigo de segurança";<br> > Usuário cria codigo de segurança;<br> |
+| **Fluxos de exceção** | **FE1 - Ja existir de um código:** <br> > Para criar ou renovar o codigo e necessáro saber o anterior|
+| **Pós condições** | Não há |
+| **Rastreabilidade** | Cenário [C16](../cenarios/#c16-consultar-cpf) &  Richpictures [RP08](../../pre-rastreabilidade/richpicture/#rp08-usabilidade) |
+
+### UC22 - Ignorar transação 
+
+[ ![UC22](./../img/casos_de_uso/UC22.png)](./../img/casos_de_uso/UC22.png)
+
+| **UC22** | ** Ignorar transação**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode escolher ignorar uma transação |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Bancos e instituições financeiras;|
+| **Pré condições** | Não há |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois no gráfico; <br>  > Usuário escolhe a transação que deseja ignorar; <br> > Usuário seleciona a transação;<br> > Usuário marca a opção ignorar transação; |
+| **Fluxos alternativos** | **FA1 - Ao visualizar extrato:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia; <br> > Usuário clica no gráfico; <br>> Usuário escolhe a transação que deseja ignorar; <br> > Usuário seleciona a transação;<br> > Usuário marca a opção ignorar transação;<br><br> **FA2 - Aba Ajustes:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes; <br> > Usuário seleciona a opção "Contas e cartões"; <br> > Usuário escolhe uma conta ou cartão de preferência <br>  > Usuário visualizar o extrato da conta slecionada anteriormente; <br> > Usuário clica no botão "+" e depois no gráfico; <br>  > Usuário escolhe a transação que deseja ignorar; <br> > Usuário seleciona a transação;<br> > Usuário marca a opção ignorar transação;<br><br> **FA3 - Ao criar uma transação:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois no gráfico; <br>  > Usuário seleciona adicionar transação; <br> > Usuário cria a transação ;<br> > Usuário marca a opção ignorar transação; |
+| **Fluxos de exceção** | **FE1 - Finalizar antes de todos os passos:** <br> > O sistema não apresenta erro algum, porém ao sair antes de finalizar todos os passos a transação não sera ignorada com sucesso;|
+| **Pós condições** | > Não há |
+| **Rastreabilidade** | Cenário [C07](../cenarios/#c7-criar-planejamento) |
+
+### UC23 - Comentar transação 
+
+[ ![UC23](./../img/casos_de_uso/UC23.png)](./../img/casos_de_uso/UC23.png)
+
+| **UC23** | ** Comentar transação**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode escolher ignorar uma transação |
+|**Ator(es)** | > Usuário; <br> > Guiabolso;<br> > Bancos e instituições financeiras;|
+| **Pré condições** | Não há |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois no gráfico; <br>  > Usuário escolhe a transação que deseja ignorar; <br> > Usuário seleciona a transação;<br> > Usuário escrev.e seu comentário no campo "comenário"; |
+| **Fluxos alternativos** | **FA1 - Ao visualizar extrato:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia; <br> > Usuário clica no gráfico; <br>> Usuário escolhe a transação que deseja ignorar; <br> > Usuário seleciona a transação;<br> > Usuário escreve seu comentário no campo "comenário";<br><br> **FA2 - Aba Ajustes:** <br>  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes; <br> > Usuário seleciona a opção "Contas e cartões"; <br> > Usuário escolhe uma conta ou cartão de preferência <br>  > Usuário visualizar o extrato da conta slecionada anteriormente; <br> > Usuário clica no botão "+" e depois no gráfico; <br>  > Usuário escolhe a transação que deseja ignorar; <br> > Usuário seleciona a transação;<br> > Usuário escreve seu comentário no campo "comenário";<br><br> **FA3 - Ao criar uma transação:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois no gráfico; <br>  > Usuário seleciona adicionar transação; <br>  > Usuário escreve seu comentário no campo "comenário"; |
+| **Fluxos de exceção** | **FE1 - Finalizar antes de todos os passos:** <br> > O sistema não apresenta erro algum, porém ao sair antes de finalizar todos os passos a transação o comentário não será adicionado com sucesso;|
+| **Pós condições** | > Não há |
+| **Rastreabilidade** | Cenário [C17](../cenarios/#c17-criar-planejamento) |
+
+### UC24 - Adicionar na agenda 
+
+[ ![UC24](./../img/casos_de_uso/UC24.png)](./../img/casos_de_uso/UC24.png)
+
+| **UC24** | ** Adicionar na agenda**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode adicionar na agenda |
+|**Ator(es)** | > Usuário; <br> > Guiabolso;|
+| **Pré condições** | Não há |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois seleciona "Adicionar na agenda"; <br>  > Usuário adiciona os dados do que será agendado; <br>  > Usuário adiciona os dados do que será agendado; <br> > Usuário clica em "Adicionar"; |
+| **Fluxos alternativos** | **FA1 - Ao ir direto na agenda:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na agenda; <br> > Usuário clica no botão "+" e depois seleciona "Adicionar na agenda"; <br>  > Usuário adiciona os dados do que será agendado; <br> > Usuário clica em "Adicionar"; |
+| **Fluxos de exceção** | **FE1 - Finalizar antes de todos os passos:** <br> > O sistema não apresenta erro algum, porém ao sair antes de clicar em "Adicionar" não será adcionado com sucesso;|
+| **Pós condições** | > Não há |
+| **Rastreabilidade** | (Função adicionada recentemente, não elicitada ainda) |
+
+
+### UC25 -Visualizar dicas externas
+
+[ ![UC25](./../img/casos_de_uso/UC25.png)](./../img/casos_de_uso/UC25.png)
+
+| **UC25** | ** Adicionar na agenda**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode adicionar na agenda |
+|**Ator(es)** | > Usuário; <br> > Guiabolso;<br> > Sites sugeridos pelo app;|
+| **Pré condições** | Não há |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão "+" e depois seleciona "Adicionar na agenda"; <br>  > Usuário adiciona os dados do que será agendado; <br>  > Usuário adiciona os dados do que será agendado; <br> > Usuário clica em "Adicionar"; |
+| **Fluxos alternativos** | Não há |
+| **Fluxos de exceção** | **FE1 - Sistema fora do ar:** <br> > O site sugerido estar fora do ar no momento desejado|
+| **Pós condições** |  Não há |
+| **Rastreabilidade** | Cenário [C14](../cenarios/#c3-criar-planejamento) &  Richpictures [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+
+
 ## Versões anteriores
