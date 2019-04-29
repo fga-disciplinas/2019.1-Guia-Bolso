@@ -15,11 +15,26 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 |**Ator(es)** | > Usuário; <br> > Guiabolso |
 | **Pré condições** | > Usuário estar deslogado no aplicativo Guiabolso;|
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário clica na opção "Já sou cadastrado"; <br> > Usuário insere os dados de e-mail e senha e clica no botão "Partiu".  <br> > Os dados de login são autentificados. |
-| **Fluxos alternativos** | **FA1 - Cadastro:** <br> > Usuário acessa o Guiabolso; <br> > Usuário seleciona "Cadastre-se agora" ou em "Já sou cadastrado" em seguida "Cadastre-se"; <br> > Usuário segue os passos para realizar o cadastro[fix colocar link]; <br> > Usuário é logado automaticamente ao criar cadastro.|
+| **Fluxos alternativos** | **FA1 - Cadastro:** <br> > Usuário acessa o Guiabolso; <br> > Usuário seleciona "Cadastre-se agora" ou em "Já sou cadastrado" em seguida "Cadastre-se"; <br> > Usuário segue os passos para realizar o [cadastro](./#uc2-cadastrar-usuario); <br> > Usuário é logado automaticamente ao criar cadastro.|
 | **Fluxos de exceção** | **FE1 - Dados de login inválido:** <br> > Sistema apresenta mensagem de erro pedindo para o usuário conferir se o e-mail ou senha estão errados, e preencher novamente; <br><br> **FE2 - Usuário esqueceu a senha:** <br> > Usuário seleciona "Recuperar senha"; <br> > Usuário inseri e-mail de recuperação de senha; <br> > E-mail é validado; <br> > É enviado e-mail de escolha de nova senha, e o usuário cadastra nova senha;|
-| **Pós condições** | Usuário fica logado no Guiabolso, e fica na aba finanças|
+| **Pós condições** | Usuário fica logado no Guiabolso, e é direcionado para aba finanças|
 | **Rastreabilidade** | -- |
 
+### UC2 - Cadastrar usuário
+
+[ ![UC2](./../img/casos_de_uso/UC2.png)](./../img/casos_de_uso/UC2.png)
+
+| **UC2** | **Cadastrar usuário**|
+|--|--|
+| **Versão**| Atual: 1.0 (26/04) <br> Anterior: --|
+| **Descrição** | Criar um cadastro para um usuário |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
+| **Pré condições** | Usuário estar deslogado no aplicativo Guiabolso; |
+| **Fluxo principal** | > Usuário seleciona opção "Cadastre-se agora"; <br> > Usuário preenche os dados de cadastro (e-mail, celular, nova senha, confirmar que aceita os termos de uso e política de privacidade); <br> > Usuário seleciona botão "Cadastrar"; <br> > Os dados de cadastro são autentificados; <br> > Usuário adiciona uma conta bancária, ou uma conta manual;|
+| **Fluxos alternativos** | **FA1 - Botão Cadastre-se em "Já sou cadastrado":** <br> > Usuário acessa o Guiabolso; <br> > Usuário seleciona opção "Já sou cadastrado"; <br> > Usuário seleciona botão "Cadastre-se"; <br> > Usuário preenche os dados de cadastro (e-mail, celular, nova senha, confirmar que aceita os termos de uso e política de privacidade); <br> > Usuário seleciona botão "Cadastrar"; <br> > Os dados de cadastro são autentificados; <br> > Usuário adiciona uma conta bancária, ou uma conta manual;|
+| **Fluxos de exceção** | **FE1 - E-mail inválido ou já cadastrado:** <br> > Sistema apresenta mensagem de erro pedindo para o usuário preencher um e-mail existente, e que nunca foi cadastrado; <br><br> **FE2 - Telefone inserido inválido** <br> > Sistema apresenta mensagem de erro pedindo para o usuário inserir um número existente; <br> <br> **FE3 - Senha inserida inválida** <br> > Sistema apresenta mensagem de erro pedindo para o usuário inserir senha com pelo menos uma letra, um número e 8 caracteres; <br><br>  **FE4 - Termos de uso não aceito:** <br> > O sistema apresenta uma mensagem de erro pedindo para que o usuário aceite os termos de uso; |
+| **Pós condições** | Usuário fica logado no Guiabolso, e é direcionado para aba finanças |
+| **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) & Introspecção [IS06](../../elicitacao-de-requisitos/introspeccao/#persona-2-joao) |
 
 ### UC6 - Adicionar transação manual
 
