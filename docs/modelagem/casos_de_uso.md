@@ -324,5 +324,66 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** |  Não há |
 | **Rastreabilidade** | Cenário [C14](../cenarios/#c3-criar-planejamento) &  Richpictures [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
+### UC26- Avaliar dicas
 
-## Versões anteriores
+[ ![UC26](./../img/casos_de_uso/UC26.png)](./../img/casos_de_uso/UC26.png)
+
+| **UC26** | **Avaliar dicas**|
+|--|--|
+| **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Descrição** | Avaliar dicas |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Parceiros. |
+| **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |
+| **Fluxo principal** | > Usuário entra na aba "Guia"; <br> > Usuário escolhe uma dica; <br> > Clica no ícone que simboliza "Gostei" ou "Não gostei". |
+| **Fluxos alternativos** | - |
+| **Fluxos de exceção** | **FE1 - Internet indisponível:** <br> > Sistema apresenta mensagem de erro na conexão com um botão para o usuário tentar novamente. |
+| **Pós condições** | A dica é avaliada positiva ou negativamente, enviando este feedback para o Guiabolso analisar estes dados. |
+| **Rastreabilidade** | Cenário [C15](../cenarios/#c15-avaliar-dicas) & Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
+
+### UC27 - Visualizar avaliação de crédito
+
+[ ![UC27](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC27.png)
+
+| **UC27** | **Visualizar avaliação de crédito**|
+|--|--|
+| **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Descrição** | Visualizar qual é a avaliação de crédito do usuário.|
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituição BoaVista |
+| **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; Usuário ter realizado a consulta da situação do seu CPF pelo formulário disposto pelo Guiabolso. |
+| **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Guia"; <br> > Usuário navega na tela na procura do card que indica sua avaliação de crédito; <br> > Usuário visualiza sua avaliação de crédito. |
+| **Fluxos alternativos** | **FA1 - Fornecer feedback ao Guiabolso:** <br> > Usuário opta por adicionar feedback adicional. <br> **FA2 - Ler dicas de como melhorar a avaliação de crédito** <br> > Usuário acessa o card que dispõe da avaliação de crédito; <br> > Usuário lê o texto informativo de como melhorar sua avaliação de crédito.|
+| **Fluxos de exceção** | **FE1 - Internet indisponível:** <br> > Sistema apresenta mensagem de erro na conexão com um botão para o usuário tentar novamente. <br> **FE2 - Usuário não ter consultado seu CPF** <br> > Card para Visualizar avaliação de crédito não pode ser visualizado.|
+| **Pós condições** | A transação é inserida no extrato do usuário |
+| **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) & Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+
+### UC28 - Visualizar comparação de gastos
+
+[ ![UC28](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC28.png)
+
+| **UC28** |**Visualizar comparação de gastos**|
+|--|--|
+| **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Descrição** | Visualizar comparação de gastos.|
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituição BoaVista |
+| **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; Usuário ter uma conta cadastrada. |
+| **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário visualiza gráficos comparativos de seus gastos.|
+| **Fluxos alternativos** | **FA1 - Fornecer feedback ao Guiabolso:** <br> > Usuário opta por adicionar feedback adicional. <br> **FA2 - Ler dicas de como melhorar a avaliação de crédito** <br> > Usuário acessa o card que dispõe da avaliação de crédito; <br> > Usuário lê o texto informativo de como melhorar sua avaliação de crédito.|
+| **Fluxos de exceção** | **FE1 - Internet indisponível:** <br> > Sistema apresenta mensagem de erro na conexão com um botão para o usuário tentar novamente. <br> **FE2 - Usuário não ter adicionado uma conta** <br> > O usuário é direcionado a adicionar uma conta.|
+| **Pós condições** |RP Os gráficos de comparação são dispostos na tela de Finanças. |
+| **Rastreabilidade** | Richpicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) e RichPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|
+
+### UC29 - Realizar abertura do Cadastro Positivo
+
+[ ![UC29](./../img/casos_de_uso/UC29.png)](./../img/casos_de_uso/UC29.png)
+
+| **UC29** |**Realizar abertura do Cadastro Positivo**|
+|--|--|
+| **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Descrição** | Realizar abertura do Cadastro Positivo.|
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituição BoaVista. |
+| **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito. |
+| **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Radar CPF"; <br> Usuário opta por consultar a condição de seu CPF; <br> > Usuário opta por realizar abertura do cadastro positivo, mediante aceite de termos.|
+| **Fluxos alternativos** | - |
+| **Fluxos de exceção** | **FE1 - Internet indisponível:** <br> > Sistema apresenta mensagem de erro na conexão com um botão para o usuário tentar novamente.|
+| **Pós condições** | > Usuário pode visualizar consulta do CPF e participar do Cadastro Positivo. |
+| **Rastreabilidade** | Cenário [C04](../cenarios/#c4-realizar-abertura-do-cadastro-positivo) & Richpicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
