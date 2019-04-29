@@ -129,24 +129,24 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Conseguir [crédito](../lexicos/#l25-credito) rapidamente, sem burocracia |
-| **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> [Caixa eletrônico](../cenarios/#l34-caixa-eletronico), aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
+| **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> [Caixa eletrônico](../lexicos/#l34-caixa-eletronico), aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
 |**Ator(es)** | > Indivíduo; <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
 | **Recursos** | > Internet; |
 | **Restrição** | > Ter CPF; <br> > Não ter o [nome sujo](../lexicos/#l1-nome-sujo); <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito).|
 | **Exceção** | > [Score] do [usuário] ser baixo; <br> > Internet indisponível; <br> > Falha no aplicativo no meio que está sendo utilizado; <br> > Falha na comunicação com a [Instituição financeira]; |
-| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por [caixa eletrônico](../cenarios/#l34-caixa-eletronico), aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
+| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por [caixa eletrônico](../lexicos/#l34-caixa-eletronico), aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
 
-### C11 - Solicitar [suporte](../lexicos/l35-suporte)
+### C11 - Solicitar [suporte](../lexicos/#l35-suporte)
 
 | **C11** | **Solicitar suporte**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Solucionar algum problema com o Guiabolso |
-| **Contexto** |**O que?** <br> > Solicitar [suporte](../lexicos/l35-suporte);  <br><br> **Onde?** <br> > Na aba Ajustes, ao clicar em “Dúvidas"; <br> > **Quando?** Quando o [usuário] tem alguma dúvida ou problema ao usar o aplicativo; <br><br> **Por quê?** <br> > Porque o [usuário] quer ajuda pra resolver seu problema.|
+| **Contexto** |**O que?** <br> > Solicitar [suporte](../lexicos/#l35-suporte);  <br><br> **Onde?** <br> > Na aba Ajustes, ao clicar em “Dúvidas"; <br> > **Quando?** Quando o [usuário] tem alguma dúvida ou problema ao usar o aplicativo; <br><br> **Por quê?** <br> > Porque o [usuário] quer ajuda pra resolver seu problema.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Conta no Guiabolso; <br> > Internet. |
 | **Restrição** | > [Usuário] ter conta no aplicativo;  |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falha no [suporte](../lexicos/l35-suporte) da empresa; <br> > Ausência do celular do [usuário]. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falha no [suporte](../lexicos/#l35-suporte) da empresa; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] acessa o aba Ajustes e clica em "Dúvidas"; <br> > [Usuário] clica no ícone de mensagens no canto superior direito; <br> > [Usuário] descreve qual ajuda precisa ou uma dúvida;  <br> > O robô do Guiabolso ou um funcionário responde. |
 
 ### C12 - Ir para [extrato]
@@ -277,7 +277,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Recursos** | > Guiabolso; <br> > Internet. |
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> Usuario ter conta ou cartão bancário cadastrado no aplicativo. |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-[banco]); <br> > [Usuário] sente necessidade de atualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo d    o [banco] corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] sente necessidade de atualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo do [banco] corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
 
 ### C22 - Contratar empréstimo 
 
@@ -286,13 +286,13 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Versão** | Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Realizar um empréstimo |
 | **Contexto** |**O que?** <br> > Empréstimo; <br><br> **Onde?** <br>> Na aba de “Empréstimo” do aplicativo; <br><br> **Quando?** <br> > Após fazer a [simulação de empréstimo]; <br><br> **Por quê?** <br> > Porque o [usuário] tem alguma necessidade financeira;|
-|Ator(es) | > [Usuário]; <br> > Guiabolso; <br> > Instituições Financeiras|
+| **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Instituições Financeiras|
 | **Recursos** | > Guiabolso; <br> > Internet.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Ter CPF; <br> > Não ter o [nome sujo]; <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito). |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na [conta bancária](../lexicos/l33-conta-bancaria) do [usuário]; <br> > Falha na comunicação com a [Instituição Financeira].|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-[banco]); <br> > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua [conta bancária](../lexicos/133-conta-bancaria). |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na [conta bancária](../lexicos/#l33-conta-bancaria) do [usuário]; <br> > Falha na comunicação com a [Instituição Financeira].|
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-[banco]); <br> > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua [conta bancária](../lexicos/#l33-conta-bancaria). |
 
-### C23 - Adicionar na [Agenda](../lexicos/l36-agenda) 
+### C23 - Adicionar na [Agenda](../lexicos/#l36-agenda) 
 
 | **C23** | **Adicionar na Agenda** |
 |--|--|
@@ -303,7 +303,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Recursos** | > Guiabolso; <br> > Internet.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário].|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] acessa a aba Finanças; <br> > [Usuário] clica no ícone de "+" e seleciona "Adicionar na [Agenda](../lexicos/l36-agenda)"; <br> > [Usuário] escolhe uma categoria de conta; <br> > [Usuário] coloca o valor do pagamento; <br> > [Usuário] seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado. |
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] acessa a aba Finanças; <br> > [Usuário] clica no ícone de "+" e seleciona "Adicionar na [Agenda](../lexicos/#l36-agenda)"; <br> > [Usuário] escolhe uma categoria de conta; <br> > [Usuário] coloca o valor do pagamento; <br> > [Usuário] seleciona a frequência de pagamento dessa conta e o dia que quer ser notificado. |
 
 ### C24 - Adicionar [conta manual]
 
@@ -404,7 +404,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 
 [conta manual]: ../lexicos/#l11-conta-manual
 
-[score]: ../lexicos/#l4-[score]-do-serasa
+[score]: ../lexicos/#l4-score-do-serasa
 
 [crédito pré-aprovado]: ../lexicos/#l6-credito-pre-aprovado
 
