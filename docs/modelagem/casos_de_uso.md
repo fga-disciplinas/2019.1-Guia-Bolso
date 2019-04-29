@@ -212,6 +212,38 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
 
+
+### UC19 - Simular um empréstimo
+
+[ ![UC19](./../img/casos_de_uso/UC19.png)](./../img/casos_de_uso/UC19.png)
+
+| **UC19** | **Simular um empréstimo**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode simular um empréstimo |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições finaceiras; <br> > Boa Vista (SCPC) |
+| **Pré condições** | > Usuário possuir CPF; <br> > Usuário liberar acesso aos seus dados de CPF; <br> > SCPC liberar dados financeiros |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Empréstimo"; <br> > Caso esteja disponível, usuário seleciona opção de editar empréstimo, <br> > Usuário seleciona valor da simulação de empréstimo <br> > Usuário seleciona número de parcelas <br> > Usuário seleciona motivo do empréstimo, <br> > Usuário seleciona data de pagamento da parcela, <br> > Usuário simula empréstimo |
+| **Fluxos de exceção** | **FE1 - Conexão com o SCPC:** <br> > Nenhuma instituição financeira irá fornecer um empréstimo caso não tenha acesso aos dados financeiros do usuário |
+| **Pós condições** | Não há |
+| **Rastreabilidade** | Cenário [C8](../cenarios/#c8-simular-um-emprestimo) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
+
+### UC20 - Contratar um empréstimo
+
+[ ![UC20](./../img/casos_de_uso/UC20.png)](./../img/casos_de_uso/UC20.png)
+
+| **UC20** | **Contratar um empréstimo**|
+|--|--|
+| **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+| **Descrição** | Fluxo(s) de como o usuário pode contratar um empréstimo |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições finaceiras; <br> > Boa Vista (SCPC) |
+| **Pré condições** | > Usuário possuir CPF; <br> > Usuário liberar acesso aos seus dados de CPF; <br> > SCPC liberar dados financeiros; <br> > Instituições financeiras liberarem empréstimos para o usuário |
+| **Fluxo principal** |  > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Emprestimo"; <br> > Usuário visualiza empréstimo, caso lhe seja oferecido <br> > Usuário contrata empréstimo <br> > Usuário solicita aprovação <br> > Usuário preenche seus dados pessoais <br> Usuário conclui solicitação do empréstimo |
+| **Fluxos de exceção** | **FE1 - Conexão com o SCPC:** <br> > Nenhuma instituição financeira irá fornecer um empréstimo caso não tenha acesso aos dados financeiros do usuário <br><br> **FE2 - Dados errados** <br> > Caso o usuário forneça seus dados pessoais de forma errônea, seu empréstimo não será concluido |
+| **Pós condições** | > O saldo do empréstimo irá cair na conta selecionada pelo usuário |
+| **Rastreabilidade** | Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|
+
+
 ### UC21 - Adicionar código de segurança
 
 [ ![UC21](./../img/casos_de_uso/UC21.png)](./../img/casos_de_uso/UC21.png)
