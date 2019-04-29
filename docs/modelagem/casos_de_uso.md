@@ -4,6 +4,23 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ## Casos de uso & especificação
 
+### UC1 - Fazer Login
+
+[ ![UC1](./../img/casos_de_uso/UC1.png)](./../img/casos_de_uso/UC1.png)
+
+| **UC1** | **Fazer Login**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+| **Descrição** | Fazer login no Guiabolso |
+|**Ator(es)** | > Usuário; <br> > Guiabolso |
+| **Pré condições** | > Usuário estar deslogado no aplicativo Guiabolso;|
+| **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário clica na opção "Já sou cadastrado"; <br> > Usuário insere os dados de e-mail e senha e clica no botão "Partiu".  <br> > Os dados de login são autentificados. |
+| **Fluxos alternativos** | **FA1 - Cadastro:** <br> > Usuário acessa o Guiabolso; <br> > Usuário seleciona "Cadastre-se agora" ou em "Já sou cadastrado" em seguida "Cadastre-se"; <br> > Usuário segue os passos para realizar o cadastro[fix colocar link]; <br> > Usuário é logado automaticamente ao criar cadastro.|
+| **Fluxos de exceção** | **FE1 - Dados de login inválido:** <br> > Sistema apresenta mensagem de erro pedindo para o usuário conferir se o e-mail ou senha estão errados, e preencher novamente; <br><br> **FE2 - Usuário esqueceu a senha:** <br> > Usuário seleciona "Recuperar senha"; <br> > Usuário inseri e-mail de recuperação de senha; <br> > E-mail é validado; <br> > É enviado e-mail de escolha de nova senha, e o usuário cadastra nova senha;|
+| **Pós condições** | Usuário fica logado no Guiabolso, e fica na aba finanças|
+| **Rastreabilidade** | -- |
+
+
 ### UC6 - Adicionar transação manual
 
 [ ![UC6](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC6.png)
