@@ -164,11 +164,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | > O planejamento de gastos é adicionando; <br> > O planejamento de rendas é adicionado; |
 | **Rastreabilidade** | Cenário [C24](../cenarios/#c3-criar-planejamento) &  Richpictures [RP00](../../pre-rastreabilidade/richpicture/#rp00-macros) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
-### UC16 - Categorizar um gasto
+### UC11 - Categorizar um gasto
 
-[ ![UC10](./../img/casos_de_uso/UC16.png)](./../img/casos_de_uso/UC16.png)
+[ ![UC11](./../img/casos_de_uso/UC16.png)](./../img/casos_de_uso/UC16.png)
 
-| **UC16** | **Categorizar um gasto**|
+| **UC11** | **Categorizar um gasto**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar uma categoria em um gasto |
@@ -181,11 +181,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao) &  Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
 
-### UC17 - Solicitar suporte
+### UC12 - Solicitar suporte
 
-[ ![UC17](./../img/casos_de_uso/UC17.png)](./../img/casos_de_uso/UC17.png)
+[ ![UC12](./../img/casos_de_uso/UC17.png)](./../img/casos_de_uso/UC17.png)
 
-| **UC17** | **Solicitar suporte**|
+| **UC12** | **Solicitar suporte**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode solicitar suporte |
@@ -196,11 +196,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c11-solicitar-suporte) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|
 
-### UC18 - Visualizar status do nome (Limpo ou sujo)
+### UC13 - Visualizar status do nome (Limpo ou sujo)
 
-[ ![UC18](./../img/casos_de_uso/UC18.png)](./../img/casos_de_uso/UC18.png)
+[ ![UC13](./../img/casos_de_uso/UC18.png)](./../img/casos_de_uso/UC18.png)
 
-| **UC18** | **Visualizar status do nome (Limpo ou sujo)**|
+| **UC13** | **Visualizar status do nome (Limpo ou sujo)**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode visualizar o status do nome (Limpo ou sujo) |
@@ -213,11 +213,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) e [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
 
 
-### UC19 - Simular um empréstimo
+### UC14 - Simular um empréstimo
 
-[ ![UC19](./../img/casos_de_uso/UC19.png)](./../img/casos_de_uso/UC19.png)
+[ ![UC14](./../img/casos_de_uso/UC19.png)](./../img/casos_de_uso/UC19.png)
 
-| **UC19** | **Simular um empréstimo**|
+| **UC15** | **Simular um empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode simular um empréstimo |
@@ -228,11 +228,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C8](../cenarios/#c8-simular-um-emprestimo) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
-### UC20 - Contratar um empréstimo
+### UC16 - Contratar um empréstimo
 
-[ ![UC20](./../img/casos_de_uso/UC20.png)](./../img/casos_de_uso/UC20.png)
+[ ![UC16](./../img/casos_de_uso/UC20.png)](./../img/casos_de_uso/UC20.png)
 
-| **UC20** | **Contratar um empréstimo**|
+| **UC16** | **Contratar um empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode contratar um empréstimo |
@@ -244,11 +244,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Rastreabilidade** | Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|
 
 
-### UC21 - Adicionar código de segurança
+### UC17 - Adicionar código de segurança
 
-[ ![UC21](./../img/casos_de_uso/UC21.png)](./../img/casos_de_uso/UC21.png)
+[ ![UC17](./../img/casos_de_uso/UC21.png)](./../img/casos_de_uso/UC21.png)
 
-| **UC21** | **Adicionar código de segurança**|
+| **UC17** | **Adicionar código de segurança**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode colocar um codigo de segurança para usar o aplicativo GuiaBolso |
@@ -259,11 +259,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C16](../cenarios/#c16-consultar-cpf) &  Richpictures [RP08](../../pre-rastreabilidade/richpicture/#rp08-usabilidade) |
 
-### UC22 - Ignorar transação 
+### UC18 - Ignorar transação 
 
-[ ![UC22](./../img/casos_de_uso/UC22.png)](./../img/casos_de_uso/UC22.png)
+[ ![UC18](./../img/casos_de_uso/UC22.png)](./../img/casos_de_uso/UC22.png)
 
-| **UC22** | ** Ignorar transação**|
+| **UC18** | ** Ignorar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode escolher ignorar uma transação |
@@ -275,11 +275,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | > Não há |
 | **Rastreabilidade** | Cenário [C07](../cenarios/#c7-criar-planejamento) |
 
-### UC23 - Comentar transação 
+### UC19 - Comentar transação 
 
-[ ![UC23](./../img/casos_de_uso/UC23.png)](./../img/casos_de_uso/UC23.png)
+[ ![UC19](./../img/casos_de_uso/UC23.png)](./../img/casos_de_uso/UC23.png)
 
-| **UC23** | ** Comentar transação**|
+| **UC19** | ** Comentar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode escolher ignorar uma transação |
@@ -291,11 +291,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | > Não há |
 | **Rastreabilidade** | Cenário [C17](../cenarios/#c17-criar-planejamento) |
 
-### UC24 - Adicionar na agenda 
+### UC20 - Adicionar na agenda 
 
-[ ![UC24](./../img/casos_de_uso/UC24.png)](./../img/casos_de_uso/UC24.png)
+[ ![UC20](./../img/casos_de_uso/UC24.png)](./../img/casos_de_uso/UC24.png)
 
-| **UC24** | ** Adicionar na agenda**|
+| **UC20** | ** Adicionar na agenda**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar na agenda |
@@ -308,11 +308,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Rastreabilidade** | (Função adicionada recentemente, não elicitada ainda) |
 
 
-### UC25 -Visualizar dicas externas
+### UC21 -Visualizar dicas externas
 
-[ ![UC25](./../img/casos_de_uso/UC25.png)](./../img/casos_de_uso/UC25.png)
+[ ![UC21](./../img/casos_de_uso/UC25.png)](./../img/casos_de_uso/UC25.png)
 
-| **UC25** | ** Adicionar na agenda**|
+| **UC21** | ** Adicionar na agenda**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar na agenda |
@@ -324,11 +324,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** |  Não há |
 | **Rastreabilidade** | Cenário [C14](../cenarios/#c3-criar-planejamento) &  Richpictures [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) e [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
-### UC26- Avaliar dicas
+### UC22- Avaliar dicas
 
-[ ![UC26](./../img/casos_de_uso/UC26.png)](./../img/casos_de_uso/UC26.png)
+[ ![UC22](./../img/casos_de_uso/UC26.png)](./../img/casos_de_uso/UC26.png)
 
-| **UC26** | **Avaliar dicas**|
+| **UC22** | **Avaliar dicas**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
 | **Descrição** | Avaliar dicas |
@@ -340,11 +340,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | A dica é avaliada positiva ou negativamente, enviando este feedback para o Guiabolso analisar estes dados. |
 | **Rastreabilidade** | Cenário [C15](../cenarios/#c15-avaliar-dicas) & Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
-### UC27 - Visualizar avaliação de crédito
+### UC23 - Visualizar avaliação de crédito
 
-[ ![UC27](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC27.png)
+[ ![UC23](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC27.png)
 
-| **UC27** | **Visualizar avaliação de crédito**|
+| **UC23** | **Visualizar avaliação de crédito**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
 | **Descrição** | Visualizar qual é a avaliação de crédito do usuário.|
@@ -356,11 +356,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | A transação é inserida no extrato do usuário |
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) & Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
-### UC28 - Visualizar comparação de gastos
+### UC24 - Visualizar comparação de gastos
 
-[ ![UC28](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC28.png)
+[ ![UC24](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC28.png)
 
-| **UC28** |**Visualizar comparação de gastos**|
+| **UC24** |**Visualizar comparação de gastos**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
 | **Descrição** | Visualizar comparação de gastos.|
@@ -372,11 +372,11 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** |RP Os gráficos de comparação são dispostos na tela de Finanças. |
 | **Rastreabilidade** | Richpicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) e RichPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|
 
-### UC29 - Realizar abertura do Cadastro Positivo
+### UC25 - Realizar abertura do Cadastro Positivo
 
-[ ![UC29](./../img/casos_de_uso/UC29.png)](./../img/casos_de_uso/UC29.png)
+[ ![UC25](./../img/casos_de_uso/UC29.png)](./../img/casos_de_uso/UC29.png)
 
-| **UC29** |**Realizar abertura do Cadastro Positivo**|
+| **UC25** |**Realizar abertura do Cadastro Positivo**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
 | **Descrição** | Realizar abertura do Cadastro Positivo.|
