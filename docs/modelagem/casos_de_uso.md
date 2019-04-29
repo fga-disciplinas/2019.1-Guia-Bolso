@@ -342,7 +342,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC27 - Visualizar avaliação de crédito
 
-[ ![UC27](./../img/casos_de_uso/UC27.png)](./../img/casos_de_uso/UC27.png)
+[ ![UC27](./../img/casos_de_uso/UC27.jpg)](./../img/casos_de_uso/UC27.png)
 
 | **UC27** | **Visualizar avaliação de crédito**|
 |--|--|
@@ -374,7 +374,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC29 - Realizar abertura do Cadastro Positivo
 
-[ ![UC29](./../img/casos_de_uso/UC29.png)](./../img/casos_de_uso/UC29.png)
+[ ![UC29](./../img/casos_de_uso/UC29.jpg)](./../img/casos_de_uso/UC29.png)
 
 | **UC29** |**Realizar abertura do Cadastro Positivo**|
 |--|--|
