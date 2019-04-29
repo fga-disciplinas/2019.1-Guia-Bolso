@@ -367,6 +367,26 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Impacto** | > No Guiabolso, a agenda pode ser usada para se lembrarquais dias de pagamentos das contas; <br> > A agenda ajuda o usuário a não esquecer das contas e fica endividade; <br> > A agenda ajuda o usuário a se planejar financeiramente. |
 | **Rastro**| [Cenário 23](../cenarios/#c23-adicionar-na-agenda) | 
 
+### L37 - Lançamentos futuros
+
+| **L37** | **Lançamentos futuros**  |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Noção** | > Quando está previsto que uma pessoa irá receber alguma [renda](#l28-renda); <br> > [renda](#l28-renda) de entrada ou saída agendada com data futura;<br> > Pagamentos já realizados pela empresa ou pessoa específica que ainda não consta no seu [extrato](#l21-extrato); <br> > Quando o usuário deseja saber o andamento de alguma [renda](#l28-renda). | 
+|**Sinônimos**| <br> > [Renda](#l28-renda) que irá ser retirada ou adicionada da conta do usuário no futuro.
+| **Impacto** | > O [usuário](#l13-usuario) acessa o [extrato](#l21-extrato) para visualizar os lançamentos futuros. <br> > A visualização dos lançamentos futuros permite organização e transparência para o [usuário](#l13-usuario).|
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
+### L38 - Renda
+
+| **L38** | **Renda**  |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Noção** | > Quando há a necessidade ou vontade de adquirir algo usa esta forma; <br> > Quando o [usuário](#l13-usuario) trabalha ou realiza alguma movimentação comercial, ele recebe uma gratificação; <br> > Quando o usuário faz compras no [cartão de crédito](#l28-cartao-de-credito), deve pagar com dinheiro no final das contas. | 
+|**Sinônimos**| <br> > Ferramenta comercial para movimentar mercado financeiro; <br> > Dinheiro; <br> > Moeda; <br> > Cheque, etc.
+| **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum serviço comercial; <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar planejamento. [usuário](#l13-usuario).|
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso)
+
 ## Versões anteriores
 
 ### L1 - Nome Sujo
@@ -488,27 +508,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.0 |
 | **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeira; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
-| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br>> A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
-
-### L27 - Lançamentos futuros
-
-| **L27** | **Lançamentos futuros**  |
-|--|--|
-| **Versão**| Atual: 1.0 <br> Anterior: - | 
-| **Noção** | > Quando está previsto que uma pessoa irá receber alguma [renda](#l28-renda); <br> > [renda](#l28-renda) de entrada ou saída agendada com data futura;<br> > Pagamentos já realizados pela empresa ou pessoa específica que ainda não consta no seu [extrato](#l21-extrato); <br> > Quando o usuário deseja saber o andamento de alguma [renda](#l28-renda). | 
-|**Sinônimos**| <br> > [Renda](#l28-renda) que irá ser retirada ou adicionada da conta do usuário no futuro.
-| **Impacto** | > O [usuário](#l13-usuario) acessa o [extrato](#l21-extrato) para visualizar os lançamentos futuros. <br> > A visualização dos lançamentos futuros permite organização e transparência para o [usuário](#l13-usuario).|
-| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
-
-### L28 - Renda
-
-| **L28** | **Renda**  |
-|--|--|
-| **Versão**| Atual: 1.0 <br> Anterior: - | 
-| **Noção** | > Quando há a necessidade ou vontade de adquirir algo usa esta forma; <br> > Quando o [usuário](#l13-usuario) trabalha ou realiza alguma movimentação comercial, ele recebe uma gratificação; <br> > Quando o usuário faz compras no [cartão de crédito](#l28-cartao-de-credito), deve pagar com dinheiro no final das contas. | 
-|**Sinônimos**| <br> > Ferramenta comercial para movimentar mercado financeiro; <br> > Dinheiro; <br> > Moeda; <br> > Cheque, etc.
-| **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum serviço comercial; <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar planejamento. [usuário](#l13-usuario).|
-| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) 
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br>> A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. |  
 
 [usuário]: ../lexicos/#l13-usuario
 [usuários]: ../lexicos/#l13-usuario
