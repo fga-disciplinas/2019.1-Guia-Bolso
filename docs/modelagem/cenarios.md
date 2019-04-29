@@ -129,12 +129,12 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Conseguir [crédito](../lexicos/#l25-credito) rapidamente, sem burocracia |
-| **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> Caixa eletrônico, aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
+| **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> [Caixa eletrônico](../cenarios/#l34-caixa-eletronico), aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
 |**Ator(es)** | > Indivíduo; <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
 | **Recursos** | > Internet; |
 | **Restrição** | > Ter CPF; <br> > Não ter o [nome sujo](../lexicos/#l1-nome-sujo); <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito).|
 | **Exceção** | > [Score] do [usuário] ser baixo; <br> > Internet indisponível; <br> > Falha no aplicativo no meio que está sendo utilizado; <br> > Falha na comunicação com a [Instituição financeira]; |
-| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por caixa eletrônico, aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
+| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por [caixa eletrônico](../cenarios/#l34-caixa-eletronico), aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
 
 ### C11 - Solicitar suporte
 
