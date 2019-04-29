@@ -128,3 +128,55 @@ O aplicativo deve suportar dispositivos móveis com sistemas Android 4.1 e vers�
 
 A aplicação deve suportar acesso por meio de navegadores web e diferentes plataformas mobiles, com a permanência de dados e de preferências de uso do mesmo usuário.
 <br> Rastro: Não possui
+
+## Restrição de Design
+
+Este tópico define todas as restrições de design voltadas para as plataformas em que o aplicativo atua.
+
+## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
+
+Este tópico define os sistemas referentes à ajuda online ao usuário disponibilizadas pelo aplicativo.
+
+### RP01: Sessão de Ajuda
+
+O aplicatovo possui uma sessão, na Aba de "Ajustes", chamada de "Dúvidas". Cada sessão possui um conjunto FAQ - Frequently Asked Questions -, ou seja, um conjunto de perguntas frequentes com suas soluções.
+
+## Componentes Comprados
+
+### RP01: Bibliotecas
+
+O aplicativo se utilizou de diversas bibliotecas que auxiliaram na produção e desenvolvimento do aplicativo.
+
+### RP02: Servidor
+
+O aplicativo necessita de ser hospedado em um servidor. A aquisição ou aluguel de um deve ser presente.
+
+### RP03: Infra-estrutura de desenvolvimento
+
+Os desenvolvedores do aplicativo necessitam de máquinas para a implementação dos códigos e suas configurações.
+
+## Interfaces
+
+Este tópico define as interfaces que o aplicativo possui.
+
+### RP01: Interfaces de Usuário
+
+O usuário utilizará as versões do aplicativo disponíveis nas lojas mobile para visualizar e utilizar sua interface.
+
+### RP02: Interface de Hardware
+
+O hardware deve ser capaz de utilizar conexão com a internet para atender as necessidades de requisições de dados.
+
+### RP03: Interface de Software
+
+A interface do aplicativo é desenvolvida voltada para aplicativos Mobile: iOS e Android.
+
+## Requisitos de Licenciamento
+
+### RP01: Termos de Uso
+
+O aplicativo apresenta seus termos de uso para que o usuário concorde em utilizar o aplicativo e suas informações dentro dos limites apresentados.
+
+## Observações Legais, de Direitos Autorais etc
+
+Os usuários estão sujeitos às leis de direitos autorais. Estas leis são apresentadas em conjunto com os termos de uso.
