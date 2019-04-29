@@ -41,7 +41,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Recursos** | > Transações financeiras; <br> > Guiabolso.|
 | **Restrição** | > Ter uma [meta]  <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] registra sua renda mensal; <br> > [Usuário] adiciona [planejamento de gastos](#c3-criar-planejamento) visível na aba de Finanças; <br> > [Usuário] adiciona gastos previstos por meio das categorias do aplicativo, ou ([cria uma nova categoria](#c9-criar-categoria)); <br> > Gráficos de relação entre gastos e rendas do mês são dispostos no Resumo, juntamente com os gastos por categoria. |
+| **Episódios** | > [Usuário] registra sua [renda](../lexicos/#l28-renda) mensal; <br> > [Usuário] adiciona [planejamento de gastos](#c3-criar-planejamento) visível na aba de Finanças; <br> > [Usuário] adiciona gastos previstos por meio das categorias do aplicativo, ou ([cria uma nova categoria](#c9-criar-categoria)); <br> > Gráficos de relação entre gastos e [rendas](../lexicos/#l28-renda) do mês são dispostos no Resumo, juntamente com os gastos por categoria. |
 
 
 ### C4 - Realizar abertura do [Cadastro Positivo]
@@ -129,12 +129,12 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Conseguir [crédito](../lexicos/#l25-credito) rapidamente, sem burocracia |
-| **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> [Caixa eletrônico](../cenarios/#l34-caixa-eletronico), aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
+| **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> Caixa eletrônico, aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
 |**Ator(es)** | > Indivíduo; <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
 | **Recursos** | > Internet; |
 | **Restrição** | > Ter CPF; <br> > Não ter o [nome sujo](../lexicos/#l1-nome-sujo); <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito).|
 | **Exceção** | > [Score] do [usuário] ser baixo; <br> > Internet indisponível; <br> > Falha no aplicativo no meio que está sendo utilizado; <br> > Falha na comunicação com a [Instituição financeira]; |
-| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por [caixa eletrônico](../cenarios/#l34-caixa-eletronico), aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
+| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por caixa eletrônico, aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
 
 ### C11 - Solicitar suporte
 
@@ -155,7 +155,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Descrever como ir para o [extrato] |
-| **Contexto** |**O que?** <br> > Ir nos [extratos] para ver os gastos e rendas; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma transação; <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de transações; <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
+| **Contexto** |**O que?** <br> > Ir nos [extratos] para ver os gastos e [rendas](../lexicos/#l28-renda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma transação; <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de transações; <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Transações financeiras; <br> > Guiabolso.|
 | **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
@@ -318,6 +318,17 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] deseja criar uma conta, porém seu [banco] não está entre os listados pelo Guiabolso, lhe resta adicionar esta conta de forma manual; <br> > [Usuário] deseja criar uma conta para controlar o dinheiro da sua carteira e segue o fluxo de adicionar uma [conta manual]; <br> > [Usuário] insere um nome para conta, além de um tipo e o saldo desta conta, que pode ser positivo, ou negativo; <br> > [Usuário] compra um lanche na lanchonete e registra quanto gastou no Guiabolso em sua conta de carteira <br> > Todos os gastos e receitas que foram adicionados pelo [usuário] serão agrupados em suas contas manuais.|
 
+### C25 - Categorizar transações com perfil de contas residenciais
+
+| **C25** | **Categorizar transações com perfil de contas residenciais**  |
+|--|--|
+| **Versão**| 1.1 <br> Anterior: [1.0](#c1-categorizar-gasto-como-contas-residenciais) (16/04)|
+| **Metas/Objetivos** | > Categorizar gasto de transação. |
+| **Contexto** | **O que?** <br> > Categorizar uma transação; <br> **Onde?** <br> > Na aba Finanças, ao editar ou selecionar uma transação. <br> **Quando** <br> > A qualquer momento que o [usuário](../lexicos/#l13-usuario) sentir necessidade, desde que haja movimentação de transações. <br> **Por quê?** <br> > Para melhorar a organização do planejamento do [usuário](../lexicos/#l13-usuario) e para o [usuário](../lexicos/#l13-usuario) filtrar melhor seus gastos visualmente.|
+| **Ator(es)** | > [Usuário](../lexicos/#l13-usuario) do aplicativo; <br> > Guiabolso.|
+| **Recursos** | > Transação financeira.|
+| **Exceção** | > Internet indisponível; <br> > Falha na comunicação com o aplicativo; <br> > Ausência do celular do [usuário](../lexicos/#l13-usuario). |
+| **Episódios** | > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua sessão do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu [extrato]. *Restrições*: Esta só é possível se o [usuário] estiver movimentando uma [conta automática]. Se o [usuário] tem uma [conta manual], ele terá que [adicionar a transação manualmente](#c2-adicionar-transacao-com-conta-manual) para ela constar no [extrato]. <br> > [Usuário](../lexicos/#l13-usuario) seleciona a transação que deseja categorizar; <br> > [Usuário](../lexicos/#l13-usuario) pode editar categoria da transação; <br> > Transação categorizada com o perfil de Contas residenciais é visualizada no [extrato](../lexicos/#l21-extrato).| 
 
 ## Versões anteriores
 
