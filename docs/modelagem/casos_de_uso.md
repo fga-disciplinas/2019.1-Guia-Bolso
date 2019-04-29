@@ -52,6 +52,22 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C12](../cenarios/#c12-ir-para-extrato) & Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
+### UC4 - Visualizar contas bancárias e cartões
+
+[ ![UC4](./../img/casos_de_uso/UC4.png)](./../img/casos_de_uso/UC4.png)
+
+| **UC4** | **Visualizar contas bancárias e cartões**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+| **Descrição** | Visualizar contas bancárias cadastradas no Guiabolso |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
+| **Pré condições** | Usuário possuir uma conta bancária cadastrada no aplicativo e/ou Conta manual; |
+| **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões".|
+| **Fluxos alternativos** | **FA1 - Aba ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões".|
+| **Fluxos de exceção** | Não há |
+| **Pós condições** | Não há |
+| **Rastreabilidade** | Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+
 ### UC6 - Adicionar transação manual
 
 [ ![UC6](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC6.png)
