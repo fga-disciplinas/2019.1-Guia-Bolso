@@ -109,22 +109,22 @@ Para o aplicativo desempenhar cada vez melhor o oferecimento de dicas da aba Gui
 
 Este tópico descreve o quão portável deve ser o Guiabolso e em quais plataformas ele oferece suporte.
 
-### RP01: Internet
+### RS01: Internet
 
 O Guiabolso tem suporte apenas em dispositivos que podem ter acesso à internet.
 <br> Rastro: Não possui
 
-### RP02: Dispositivos Apple 
+### RS02: Dispositivos Apple 
 
 O aplicativo deve suportar dispositivos móveis com sistema iOS 9.0 ou posterior e ser compatível com iPhone, iPad e iPod touch.
 <br> Rastro: [Guiabolso na Apple Store](https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8)
 
-### RP03: Dispositivos Android 
+### RS03: Dispositivos Android 
 
 O aplicativo deve suportar dispositivos móveis com sistemas Android 4.1 e versões superiores.
 <br> Rastro: [Guiabolso na Play Store](https://play.google.com/store/apps/details?id=br.com.guiabolso&hl=pt_BR)
 
-### RP04: Permanência de dados 
+### RS04: Permanência de dados 
 
 A aplicação deve suportar acesso por meio de navegadores web e diferentes plataformas mobiles, com a permanência de dados e de preferências de uso do mesmo usuário.
 <br> Rastro: Não possui
@@ -137,45 +137,53 @@ Este tópico define todas as restrições de design voltadas para as plataformas
 
 Este tópico define os sistemas referentes à ajuda online ao usuário disponibilizadas pelo aplicativo.
 
-### RP01: Sessão de Ajuda
+### RA01: Sessão de Ajuda
 
 O aplicatovo possui uma sessão, na Aba de "Ajustes", chamada de "Dúvidas". Cada sessão possui um conjunto FAQ - Frequently Asked Questions -, ou seja, um conjunto de perguntas frequentes com suas soluções.
+<br> Rastro: [Cenário 1](../cenarios/#c11-solicitar-suporte)
 
 ## Componentes Comprados
 
-### RP01: Bibliotecas
+### RCC01: Bibliotecas
 
 O aplicativo se utilizou de diversas bibliotecas que auxiliaram na produção e desenvolvimento do aplicativo.
+<br> Rastro: Não possui
 
-### RP02: Servidor
+### RCC02: Servidor
 
 O aplicativo necessita de ser hospedado em um servidor. A aquisição ou aluguel de um deve ser presente.
+<br> Rastro: Não possui
 
-### RP03: Infra-estrutura de desenvolvimento
+### RCC03: Infra-estrutura de desenvolvimento
 
 Os desenvolvedores do aplicativo necessitam de máquinas para a implementação dos códigos e suas configurações.
+<br> Rastro: Não possui
 
 ## Interfaces
 
 Este tópico define as interfaces que o aplicativo possui.
 
-### RP01: Interfaces de Usuário
+### RI01: Interfaces de Usuário
 
 O usuário utilizará as versões do aplicativo disponíveis nas lojas mobile para visualizar e utilizar sua interface.
+<br> Rastro: [Guiabolso na Play Store](https://play.google.com/store/apps/details?id=br.com.guiabolso&hl=pt_BR) e [Guiabolso na Apple Store](https://itunes.apple.com/br/app/guiabolso-controle-financeiro/id891087489?mt=8) 
 
-### RP02: Interface de Hardware
+### RI02: Interface de Hardware
 
 O hardware deve ser capaz de utilizar conexão com a internet para atender as necessidades de requisições de dados.
+<br> Rastro: Não possui
 
-### RP03: Interface de Software
+### RI03: Interface de Software
 
 A interface do aplicativo é desenvolvida voltada para aplicativos Mobile: iOS e Android.
+<br> Rastro: Não possui
 
 ## Requisitos de Licenciamento
 
-### RP01: Termos de Uso
+### RL01: Termos de Uso
 
 O aplicativo apresenta seus termos de uso para que o usuário concorde em utilizar o aplicativo e suas informações dentro dos limites apresentados.
+<br> Rastro: Não possui 
 
 ## Observações Legais, de Direitos Autorais etc
 
