@@ -6,7 +6,7 @@
 <p align="justify">Esta argumentação simula uma conversa entre usuários cujo assunto é a privacidade do dados usados pelo aplicativo.
 
 Versão 1.0
-[ ![ARG01](./../img/argumentacao_privacidade.png) ](./../img/argumentacao_privacidade.png)
+[ ![ARG01](./../img/argumentacao/argumentacao_privacidade.png) ](./../img/argumentacao/argumentacao/argumentacao_privacidade.png)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -16,7 +16,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula uma conversa entre usuários cujo assunto são as funcionalidade da página de Extrato.
 
 Versão 1.0
-[ ![ARG02](./../img/argumentacao_extrato.png)](./../img/argumentacao_extrato.png)
+[ ![ARG02](./../img/argumentacao/argumentacao_extrato.png)](./../img/argumentacao/argumentacao_extrato.png)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -27,7 +27,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula as preocupações do aplicativo com as leis e normas de instituições reguladoras.
 
 Versão 1.0
-[ ![ARG03](./../img/argumentacao_instituicoes.png)](./../img/argumentacao_instituicoes.jpeg)
+[ ![ARG03](./../img/argumentacao/argumentacao_instituicoes.png)](./../img/argumentacao/argumentacao_instituicoes.jpeg)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -37,7 +37,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula o fluxo de dinheiro do aplicativo.
 
 Versão 1.0
-[ ![ARG04](./../img/argumentacao_fluxo_dinheiro.png)](./../img/argumentacao_fluxo_de_dinheiro.jpeg)
+[ ![ARG04](./../img/argumentacao/argumentacao_fluxo_dinheiro.png)](./../img/argumentacao/argumentacao_fluxo_de_dinheiro.jpeg)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -47,7 +47,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula o uma discução do usuário e o Guiabolso.
 
 Versão 1.0
-[ ![ARG05](./../img/argumentacao_dicas.png)](./../img/argumentacao_dicas.png)
+[ ![ARG05](./../img/argumentacao/argumentacao_dicas.png)](./../img/argumentacao/argumentacao_dicas.png)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -57,7 +57,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula uma conversa entre os desenvolvedores sobre anúncios no aplicativo.
 
 Versão 1.0
-[ ![ARG06](./../img/argumentacao_anuncios.png)](./../img/argumentacao_anuncios.png)
+[ ![ARG06](./../img/argumentacao/argumentacao_anuncios.png)](./../img/argumentacao/argumentacao_anuncios.png)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -67,7 +67,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula uma solicitação de emprestimo pessoal por parte de um usuário da plataforma Guiabolso.
 
 Versão 1.0
-[ ![ARG07](./../img/argumentacao_emprestimo.jpg)](./../img/argumentacao_emprestimo.jpg)
+[ ![ARG07](./../img/argumentacao/argumentacao_emprestimo.jpg)](./../img/argumentacao/argumentacao_emprestimo.jpg)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
@@ -77,7 +77,7 @@ Versão 1.0
 <p align="justify">Esta argumentação simula uma conversa entre um usuário com o agente Serasa.
 
 Versão 1.0
-[ ![ARG08](./../img/argumentacao_serasa.png)](./../img/argumentacao_serasa.png)
+[ ![ARG08](./../img/argumentacao/argumentacao_serasa.png)](./../img/argumentacao/argumentacao_serasa.png)
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|

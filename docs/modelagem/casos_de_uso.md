@@ -6,7 +6,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC6 - Adicionar transação manual
 
-[ ![UC6](./../img/UC6.png)](./../img/UC6.png)
+[ ![UC6](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC6.png)
 
 | **UC6** | **Adicionar transação manual**|
 |--|--|
@@ -22,7 +22,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC7 - Criar categoria
 
-[ ![UC7](./../img/UC7.png)](./../img/UC7.png)
+[ ![UC7](./../img/casos_de_uso/UC7.png)](./../img/casos_de_uso/UC7.png)
 
 | **UC7** | **Criar categoria**|
 |--|--|
@@ -38,7 +38,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC8 - Editar transação
 
-[ ![UC8](./../img/UC8.png)](./../img/UC8.png)
+[ ![UC8](./../img/casos_de_uso/UC8.png)](./../img/casos_de_uso/UC8.png)
 
 | **UC8** | **Editar transação**|
 |--|--|
@@ -54,7 +54,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC9 - Adicionar conta (bancária e manual)
 
-[ ![UC9](./../img/UC9.png)](./../img/UC9.png)
+[ ![UC9](./../img/casos_de_uso/UC9.png)](./../img/casos_de_uso/UC9.png)
 
 | **UC9** | **Adicionar conta (bancária e manual)**|
 |--|--|
@@ -70,7 +70,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC10 - Adicionar planejamento
 
-[ ![UC10](./../img/UC10.png)](./../img/UC10.png)
+[ ![UC10](./../img/casos_de_uso/UC10.png)](./../img/casos_de_uso/UC10.png)
 
 | **UC10** | **Adicionar planejamento**|
 |--|--|
