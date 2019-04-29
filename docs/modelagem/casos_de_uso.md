@@ -342,7 +342,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC27 - Visualizar avaliação de crédito
 
-[ ![UC27](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC27.png)
+[ ![UC27](./../img/casos_de_uso/UC27.png)](./../img/casos_de_uso/UC27.png)
 
 | **UC27** | **Visualizar avaliação de crédito**|
 |--|--|
@@ -358,7 +358,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC28 - Visualizar comparação de gastos
 
-[ ![UC28](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC28.png)
+[ ![UC28](./../img/casos_de_uso/UC28.png)](./../img/casos_de_uso/UC28.png)
 
 | **UC28** |**Visualizar comparação de gastos**|
 |--|--|
