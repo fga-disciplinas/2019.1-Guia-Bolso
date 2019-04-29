@@ -243,8 +243,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l26-chave-de-seguranca_1) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Token, senha |
-| **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
-| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
+| **Noção** | > É uma senha ou conjunto de senhas para realizar [transações](../lexicos/#l30-transacao-bancaria) pelas plataformas online, [caixas](../lexicos/#l34-caixa-eletronico) de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma [movimentação bancária](../lexicos/l30-transacao-bancaria); <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 | **Rastro** | [Cenário 21](../cenarios/#c21-atualizar-contas-e-cartoes) |
 
 ### L27 - Cartão de débito 
