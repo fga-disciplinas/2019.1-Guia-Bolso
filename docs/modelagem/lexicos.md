@@ -243,8 +243,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l26-chave-de-seguranca_1) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Token, senha |
-| **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
-| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
+| **Noção** | > É uma senha ou conjunto de senhas para realizar [transações](../lexicos/#l30-transacao-bancaria) pelas plataformas online, [caixas](../lexicos/#l34-caixa-eletronico) de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
+| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma [movimentação bancária](../lexicos/l30-transacao-bancaria); <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 | **Rastro** | [Cenário 21](../cenarios/#c21-atualizar-contas-e-cartoes) |
 
 ### L27 - Cartão de débito 
@@ -323,6 +323,39 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Cadastro de um banco que foi conectado ao Guiabolso pelo [usuário]; <br> > Contém informações da conta bancária. |
 | **Impacto** | > Conta bancária é atualizada pelo Guiabolso com o banco do cartão; <br> > Conta bancária fornece ao [usuário] feedback de seu [extrato](../lexicos/#l21-extrato) e situação no banco.|
 | **Rastro**| [Rich picture Aba de finanças](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+
+### L34 - Caixa Eletrônico
+
+| **L34** | **Caixa Eletrônico** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | Caixa automático, terminal bancário |
+| **Noção** | > Equipamento de automação bancária; <br> > Oferece serviços bancários de forma automática. |
+| **Impacto** | > O caixa eletrônico não precisa de um funcionário do banco para ser usado; <br> > As pessoas podem sacar ou depositar dinheiro no caixa eletrônico, além de visualizar suas [contas bancárias](../lexicos/#l33-conta-bancaria) |
+| **Rastro**| [Cenário 10](../cenarios/#c10-solicitar-credito-pre-aprovado) | 
+
+### L35 - Suporte 
+
+| **L35** | **Suporte** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | atendimento, assistência |
+| **Noção** | > Serviço de auxrílio ao usuário; <br> > Assistência ao usuário quando este estiver com dififuldades ou dúvida. |
+| **Impacto** | > O usuário precisa do suporte quando encontra alguma dificuldade no uso do sistem; <br> > O usuário precisa de suporte quando encotra uma falha no sistema; <br> > O suporte é essencial para a comunicação entre empresa e cliente; <br> > O suporte deve está sempre disponível para o usuário. |
+| **Rastro**| [Cenário 11](../cenarios/#c11-solicitar-suporte) | 
+
+### L36 - Agenda 
+
+| **L36** | **Agenda** |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Classificação** | Objeto |
+| **Sinônimos** | programação, planejamento de pagamentos |
+| **Noção** | > Planejamento de dias x pagamentos; <br> > Organização de tarefas; <br> > Organização de contas a pagar; |
+| **Impacto** | > No Guiabolso, a agenda pode ser usada para se lembrarquais dias de pagamentos das contas; <br> > A agenda ajuda o usuário a não esquecer das contas e fica endividade; <br> > A agenda ajuda o usuário a se planejar financeiramente. |
+| **Rastro**| [Cenário 23](../cenarios/#c23-adicionar-na-agenda) | 
 
 ## Versões anteriores
 
