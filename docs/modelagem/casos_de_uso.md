@@ -36,6 +36,22 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **Pós condições** | Usuário fica logado no Guiabolso, e é direcionado para aba finanças |
 | **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) & Introspecção [IS06](../../elicitacao-de-requisitos/introspeccao/#persona-2-joao) |
 
+### UC3 - Visualizar extrato
+
+[ ![UC3](./../img/casos_de_uso/UC3.png)](./../img/casos_de_uso/UC3.png)
+
+| **UC3** | **Visualizar extrato**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+| **Descrição** | Visualisar o extrato das transações |
+|**Ator(es)** | > Usuário; <br> > Guiabolso; |
+| **Pré condições** | Usuário possuir pelo menos uma transação; |
+| **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Finanças"; <br> > Usuário seleciona card de últimas transações. |
+| **Fluxos alternativos** | **FA1 - Aba Guia:** <br> > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Guia"; <br> > Usuário seleciona algum card com comparação de gastos. <br> <br> **FA2 - Aba Ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões".|
+| **Fluxos de exceção** | Nenhum |
+| **Pós condições** | Não há |
+| **Rastreabilidade** | Cenário [C12](../cenarios/#c12-ir-para-extrato) & Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
+
 ### UC6 - Adicionar transação manual
 
 [ ![UC6](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC6.png)
