@@ -516,9 +516,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L27** | **Dados bancários**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
-|**Sinônimos**|Informações de uma conta no banco|
-| **Noção** | >	Quando uma pessoa cria uma conta em um banco <br> >	Informações que irão identificar uma conta bancária <br> >	Associa uma pessoa a uma conta bancária que seja dela|
-| **Impacto** | > Um indivíduo que possui dados bancários, possue uma conta em um banco <br> > Dados bancários são utilizados para transações entre contas de indivíduos|
+|**Sinônimos**|Informações de uma [conta] no banco|
+| **Noção** | >	Quando uma pessoa cria uma [conta] em um banco <br> >	Informações que irão identificar uma [conta] bancária <br> >	Associa uma pessoa a uma [conta] bancária que seja dela|
+| **Impacto** | > Um indivíduo que possui dados bancários, possue uma [conta] em um banco <br> > Dados bancários são utilizados para transações entre contas de indivíduos|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
@@ -529,7 +529,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| Atual: 1.0 |
 |**Sinônimos**|Operação, ato, processo, transferência, Troca|
 | **Noção** | > Produto de uma movimentação de dinheiro <br> > Ato de compra, venda, empréstimo <br> > Troca de bem ou serviço por alguma quantidade de dinheiro|
-| **Impacto** | <br> >	Usuário realiza uma compra no supermercado <br> > Usuário realiza um depósito em outra conta <br> > Usuário recebe dinheiro de volta após uma compra|
+| **Impacto** | <br> >	[Usuário] realiza uma compra no supermercado <br> > [Usuário] realiza um depósito em outra [conta] <br> > [Usuário] recebe dinheiro de volta após uma compra|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
@@ -539,3 +539,4 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 [usuários]: ../lexicos/#l13-usuario
 [Usuários]: ../lexicos/#l13-usuario
 [Usuário]: ../lexicos/#l13-usuario
+[conta]: ./#l33-conta-bancaria
