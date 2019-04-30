@@ -385,7 +385,29 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Quando há a necessidade ou vontade de adquirir algo usa esta forma; <br> > Quando o [usuário](#l13-usuario) trabalha ou realiza alguma movimentação comercial, ele recebe uma gratificação; <br> > Quando o usuário faz compras no [cartão de crédito](#l28-cartao-de-credito), deve pagar com dinheiro no final das contas. | 
 |**Sinônimos**| <br> > Ferramenta comercial para movimentar mercado financeiro; <br> > Dinheiro; <br> > Moeda; <br> > Cheque, etc.
 | **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum serviço comercial; <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar planejamento. [usuário](#l13-usuario).|
-| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso)
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso)|
+
+### L39 - Indivíduo
+
+| **L39** | **Indivíduo**  |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Classificação** | Objeto |
+| **Sinônimos** | Pessoa |
+| **Noção** | > Pessoa qualquer, usuária ou não do Guiabolso; <br> > Pessoa alheia ou não ao universo da aplicação; | 
+| **Impacto** | > O Indivíduo pode se tornar um [usuário](#l13-usuario) do Guiabolso; <br> > Um indivíduo pode ser alheio ao aplicativo, sem nem ao menos conhecer  Guiabolso; |
+| **Rastro** |  Não há |
+
+### L40 - Planejamento financeiro
+
+| **L40** | **Planejamento financeiro**  |
+|--|--|
+| **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Classificação** | Objeto |
+| **Sinônimos** | Administrar, gerenciar |
+| **Noção** | > Gerenciar o dinheiro de forma que todos os gastos e rendas já sejam conhecidos; | 
+| **Impacto** | > Um bom planejamento financeiro permite que um [indivíduo](#individuo); <br> > Um indivíduo pode ser alheio ao aplicativo, sem nem ao menos conhecer  Guiabolso; |
+| **Rastro** |  Não há |
 
 ## Versões anteriores
 
