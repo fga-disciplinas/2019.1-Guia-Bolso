@@ -66,7 +66,7 @@ Os servidores do  aplicativo devem mantê-lo disponível o maior tempo possível
 Os dados exibidos na aplicação devem ser condizentes com o que está no banco de dados e devem sempre estar atualizados, mesmo após uma falha.
 <br> Rastro: Não possui
 
-### RC03: Privacide dos Dados
+### RC03: Privacidade dos Dados
 
 Em caso de ataques ou vazamento de informações, o aplicativo deve passar a confiança para o usuário de que seus dados não serão usados ou acessadospor terceiros que não forma citados na Política de Privacidade.
 <br> Rastro: [Argumentação 1](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)
