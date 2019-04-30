@@ -387,6 +387,28 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum serviço comercial; <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar planejamento. [usuário](#l13-usuario).|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso)
 
+
+### L39 - Dados bancários
+
+| **L39** | **Dados bancários**  |
+|--|--|
+| **Versão**| Atual: 1.0 |
+|**Sinônimos**|Informações de uma [conta] no banco|
+| **Noção** | >	Quando uma pessoa cria uma [conta] em um banco <br> >	Informações que irão identificar uma [conta] bancária <br> >	Associa uma pessoa a uma [conta] bancária que seja dela|
+| **Impacto** | > Um indivíduo que possui dados bancários, possue uma [conta] em um banco <br> > Dados bancários são utilizados para transações entre contas de indivíduos|
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
+
+### L40 - Transação
+
+| **L40** | **Transação**  |
+|--|--|
+| **Versão**| Atual: 1.0 |
+|**Sinônimos**|Operação, ato, processo, transferência, Troca|
+| **Noção** | > Produto de uma movimentação de dinheiro <br> > Ato de compra, venda, empréstimo <br> > Troca de bem ou serviço por alguma quantidade de dinheiro|
+| **Impacto** | <br> >	[Usuário] realiza uma compra no supermercado <br> > [Usuário] realiza um depósito em outra [conta] <br> > [Usuário] recebe dinheiro de volta após uma compra|
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
 ## Versões anteriores
 
 ### L1 - Nome Sujo
@@ -509,29 +531,6 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| Atual: 1.0 |
 | **Noção** | > É uma senha ou conjunto de senhas para realizar transações pelas plataformas online, caixas de atendimento eletrônico, ou pelos aplicativos da instituição financeira; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
 | **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma movimentação bancária; <br>> A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. |  
-
-
-### L27 - Dados bancários
-
-| **L27** | **Dados bancários**  |
-|--|--|
-| **Versão**| Atual: 1.0 |
-|**Sinônimos**|Informações de uma [conta] no banco|
-| **Noção** | >	Quando uma pessoa cria uma [conta] em um banco <br> >	Informações que irão identificar uma [conta] bancária <br> >	Associa uma pessoa a uma [conta] bancária que seja dela|
-| **Impacto** | > Um indivíduo que possui dados bancários, possue uma [conta] em um banco <br> > Dados bancários são utilizados para transações entre contas de indivíduos|
-| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
-
-
-### L28 - Transação
-
-| **L27** | **Transação**  |
-|--|--|
-| **Versão**| Atual: 1.0 |
-|**Sinônimos**|Operação, ato, processo, transferência, Troca|
-| **Noção** | > Produto de uma movimentação de dinheiro <br> > Ato de compra, venda, empréstimo <br> > Troca de bem ou serviço por alguma quantidade de dinheiro|
-| **Impacto** | <br> >	[Usuário] realiza uma compra no supermercado <br> > [Usuário] realiza um depósito em outra [conta] <br> > [Usuário] recebe dinheiro de volta após uma compra|
-| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
-
 
 
 
