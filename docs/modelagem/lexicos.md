@@ -522,9 +522,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
-### L28 - Dados bancários
+### L28 - Transação
 
-| **L27** | **Dados bancários**  |
+| **L27** | **Transação**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
 |**Sinônimos**|Operação, ato, processo, transferência, Troca|
