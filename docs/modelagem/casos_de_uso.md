@@ -166,7 +166,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC11 - Categorizar um gasto
 
-[ ![UC11](./../img/casos_de_uso/UC16.png)](./../img/casos_de_uso/UC16.png)
+[ ![UC11](./../img/casos_de_uso/UC11.png)](./../img/casos_de_uso/UC11.png)
 
 | **UC11** | **Categorizar um gasto**|
 |--|--|
@@ -183,7 +183,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC12 - Solicitar suporte
 
-[ ![UC12](./../img/casos_de_uso/UC17.png)](./../img/casos_de_uso/UC17.png)
+[ ![UC12](./../img/casos_de_uso/UC12.png)](./../img/casos_de_uso/UC12.png)
 
 | **UC12** | **Solicitar suporte**|
 |--|--|
@@ -198,7 +198,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC13 - Visualizar status do nome (Limpo ou sujo)
 
-[ ![UC13](./../img/casos_de_uso/UC18.png)](./../img/casos_de_uso/UC18.png)
+[ ![UC13](./../img/casos_de_uso/UC13.png)](./../img/casos_de_uso/UC13.png)
 
 | **UC13** | **Visualizar status do nome (Limpo ou sujo)**|
 |--|--|
@@ -215,7 +215,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC14 - Simular um empréstimo
 
-[ ![UC14](./../img/casos_de_uso/UC19.png)](./../img/casos_de_uso/UC19.png)
+[ ![UC14](./../img/casos_de_uso/UC14.png)](./../img/casos_de_uso/UC14.png)
 
 | **UC15** | **Simular um empréstimo**|
 |--|--|
@@ -230,7 +230,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC15 - Contratar um empréstimo
 
-[ ![UC15](./../img/casos_de_uso/UC20.png)](./../img/casos_de_uso/UC20.png)
+[ ![UC15](./../img/casos_de_uso/UC15.png)](./../img/casos_de_uso/UC15.png)
 
 | **UC15** | **Contratar um empréstimo**|
 |--|--|
@@ -246,7 +246,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC16 - Adicionar código de segurança
 
-[ ![UC16](./../img/casos_de_uso/UC21.png)](./../img/casos_de_uso/UC21.png)
+[ ![UC16](./../img/casos_de_uso/UC16.png)](./../img/casos_de_uso/UC16.png)
 
 | **UC16** | **Adicionar código de segurança**|
 |--|--|
@@ -261,7 +261,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC17 - Ignorar transação 
 
-[ ![UC17](./../img/casos_de_uso/UC22.png)](./../img/casos_de_uso/UC22.png)
+[ ![UC17](./../img/casos_de_uso/UC17.png)](./../img/casos_de_uso/UC17.png)
 
 | **UC17** | ** Ignorar transação**|
 |--|--|
@@ -277,7 +277,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC18 - Comentar transação 
 
-[ ![UC18](./../img/casos_de_uso/UC23.png)](./../img/casos_de_uso/UC23.png)
+[ ![UC18](./../img/casos_de_uso/UC18.png)](./../img/casos_de_uso/UC18.png)
 
 | **UC18** | ** Comentar transação**|
 |--|--|
@@ -293,7 +293,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC19 - Adicionar na agenda 
 
-[ ![UC19](./../img/casos_de_uso/UC24.png)](./../img/casos_de_uso/UC24.png)
+[ ![UC19](./../img/casos_de_uso/UC19.png)](./../img/casos_de_uso/UC19.png)
 
 | **UC19** | ** Adicionar na agenda**|
 |--|--|
@@ -310,7 +310,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC20 -Visualizar dicas externas
 
-[ ![UC20](./../img/casos_de_uso/UC25.png)](./../img/casos_de_uso/UC25.png)
+[ ![UC20](./../img/casos_de_uso/UC20.png)](./../img/casos_de_uso/UC20.png)
 
 | **UC20** | ** Adicionar na agenda**|
 |--|--|
@@ -326,7 +326,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC21- Avaliar dicas
 
-[ ![UC21](./../img/casos_de_uso/UC26.png)](./../img/casos_de_uso/UC26.png)
+[ ![UC21](./../img/casos_de_uso/UC21.png)](./../img/casos_de_uso/UC21.png)
 
 | **UC21** | **Avaliar dicas**|
 |--|--|
@@ -342,7 +342,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC22 - Visualizar avaliação de crédito
 
-[ ![UC22](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC27.png)
+[ ![UC22](./../img/casos_de_uso/UC22.jpg)](./../img/casos_de_uso/UC22.jpg)
 
 | **UC22** | **Visualizar avaliação de crédito**|
 |--|--|
@@ -358,7 +358,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC23 - Visualizar comparação de gastos
 
-[ ![UC23](./../img/casos_de_uso/UC6.png)](./../img/casos_de_uso/UC28.png)
+[ ![UC23](./../img/casos_de_uso/UC23.png)](./../img/casos_de_uso/UC23.png)
 
 | **UC23** |**Visualizar comparação de gastos**|
 |--|--|
@@ -374,7 +374,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 
 ### UC24 - Realizar abertura do Cadastro Positivo
 
-[ ![UC24](./../img/casos_de_uso/UC29.jpg)](./../img/casos_de_uso/UC29.jpg)
+[ ![UC24](./../img/casos_de_uso/UC24.jpg)](./../img/casos_de_uso/UC24.jpg)
 
 | **UC24** |**Realizar abertura do Cadastro Positivo**|
 |--|--|
