@@ -57,7 +57,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US43 Ignorar uma transação](#us43-ignorar-uma-transacao) |
 | T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US44 Adicionar comentários e tags em uma transação](#us44-adicionar-comentarios-e-tags-em-uma-transacao) |
 | T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US45 Editar dados da transação](#us45-editar-dados-da-transacao) |
-| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US46 Elaborar um tutorial para usar a agenda](#us46-elaborar-tutorial-para-usar-a-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US46 Elaborar um tutorial para usar a agenda](#us46-elaborar-um-tutorial-para-usar-a-agenda) |
 | T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US47 Adicionar transação na agenda](#us47-adicionar-transacao-na-agenda) |
 | T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US48 Visualizar contas registradas na agenda](#us48-visualizar-contas-registradas-na-agenda) |
 | T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US49 Editar contas registradas na agenda](#us49-editar-contas-registradas-na-agenda) |
@@ -66,7 +66,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US52 Planejar renda](#us52-planejar-renda) |
 | T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US53 Categorizar gasto](#us53-categorizar-gasto) |
 | T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US54 Categorizar renda](#us54-categorizar-renda) |
-| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US55 Meses Futuros](#us55-meses-futuras) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US55 Meses Futuros](#us55-meses-futuros) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
