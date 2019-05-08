@@ -294,7 +294,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | Para que eu possa | Ter conhecimento claro do quanto foi gasto em um determinado período | 
 | Pontos | 5 |
 | Prioridade | Must |
-| Critérios de aceitação | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > A transação deverá como padrão, ser nomeada com o nome do estabelecimento; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá ser possível filtrar as transações entre Gastos e Rendas; <br> Deverá ser possível visualizar extrato de meses passados. |
+| Critérios de aceitação | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > A transação deverá como padrão, ser nomeada com o nome do estabelecimento; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá ser possível filtrar as transações entre Gastos e Rendas; <br> > Deverá ser possível visualizar extrato de meses passados. |
 | Rastreabilidade | RichPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario), Cenário [C12](../cenarios/#c12-ir-para-extrato) &  Caso de uso [UC3](../casos_de_uso/#uc3-visualizar-extrato)|
 
 #### US# - Visualizar detalhes de uma transação
@@ -307,7 +307,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | Para que eu possa | Conferir dados da transação | 
 | Pontos | 2 |
 | Prioridade | Must |
-| Critérios de aceitação | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > Deverá conter o nome da transação; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá conter a categoria que a transação pertence; <br> Deverá conter o banco em que a transação pertence.|
+| Critérios de aceitação | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > Deverá conter o nome da transação; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá conter a categoria que a transação pertence; <br> > Deverá conter o banco em que a transação pertence.|
 | Rastreabilidade | Léxico [L40](../lexicos/#l40-transacao), Cenário [C12](../cenarios/#c12-ir-para-extrato) &  Caso de uso [UC3](../casos_de_uso/#uc3-visualizar-extrato)|
 
 #### US# - Ignorar uma transação
@@ -362,7 +362,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | Para que | O usuário tenha conhecimento de como começar a usar a agenda | 
 | Pontos | 3 |
 | Prioridade | Should |
-| Critérios de aceitação | > O tutorial deve ser visualizado por escolha do usuário; <br> Deverá ter informações curtas e claras de como o usuário poderá proceder. |
+| Critérios de aceitação | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
 | Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
 #### US# - Adicionar transação na agenda
@@ -375,7 +375,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | Para que eu | Não perca prazos ou compromissos financeiros | 
 | Pontos | 5 |
 | Prioridade | Should |
-| Critérios de aceitação | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
+| Critérios de aceitação | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> > Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
 | Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
 
 #### US# - Visualizar contas registradas na agenda
@@ -414,7 +414,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | Para que eu | Possa retirar uma conta da agenda que não é mais útil ou viável | 
 | Pontos | 2 |
 | Prioridade | Should |
-| Critérios de aceitação | > A operação não deve mais constar no "calendário"; <br> Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
+| Critérios de aceitação | > A operação não deve mais constar no "calendário"; <br> > Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
 | Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) |
 
 
