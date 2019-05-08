@@ -17,8 +17,26 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ## Épicos
 
-### Índice de US's
+### Backlog do Produto
 
+| Sprints | [EP01](#ep01-documentos) | [EP02](#ep02-suporte)  | [EP03](#ep03-cadastro)  | [EP04](#ep04-login-logout)  | [EP05](#ep05-codigo-de-seguranca)  |[EP06](#ep06-perfil-do-usuario)  |[EP07](#ep07-contas-e-cartoes)  |[EP08](#ep08-troca-dados-app-e-bancos)  |[EP09](#ep09-extrato)  |[EP10](#ep10-agenda) | [EP11](#ep11-planejamento)|[EP12](#ep12-estatisticas)|[EP13](#ep13-dicas)|[EP14](#ep14-serasa)|[EP15](#ep15-propagandas)|[EP16](#ep16-emprestimos)|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| Sprint 01 | |  | US11  | US16, US17 | ||||||||||||
+| Sprint 02 | |  | US12, US14 |  | |US22|||||||||||
+| Sprint 03 |  |  | US13 |  | |||US26, US27, US28|||||||||
+| Sprint 04 | |  |  |  | |||US27, US29, US30|||||||||
+| Sprint 05 |  |  |  | ||||||||||||
+| Sprint 06 |  |  |  |  | ||||||||||||
+| Sprint 07 |  |  |  |  |  ||||||||||||
+| Sprint 08 |  |  |  |  |  || ||||||||||
+| Sprint 09 |  |  |  |  | ||||||||||||
+| Sprint 10 |  |  |  |  | ||||||||||||
+| Sprint 11 |  |  |  |  | ||||||||||||
+| Sprint 12 |  |  |  |  | ||||||||||||
+| Sprint 13 |  |  |  |  | ||||||||||||
+| Sprint 14 |  |  |  |  | ||||||||||||
+
+### Índice de US's
 
 | Tema | Épico | ID & Nome |
 |--|--|--|
