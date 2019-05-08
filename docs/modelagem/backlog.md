@@ -418,66 +418,66 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | US31 | Cadastrar uma nova conta ou cartão |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | Cadastrar uma nova conta ou cartão |
-| Para que eu possa | Visualizar os dados desta nova conta ou cartão. |
-| Pontos | 4 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Cadastrar uma nova conta ou cartão |
+| **Para que eu possa** | Visualizar os dados desta nova conta ou cartão. |
+| **Pontos** | 4 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US32 - Visualizar contas e cartões cadastrados
 
 | US32 | Visualizar contas e cartões cadastrados |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | Visualizar minhas contas e cartões cadastrados |
-| Para que eu possa | Saber quais contas e cartões possuo cadastrados |
-| Pontos | 2 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar minhas contas e cartões cadastrados |
+| **Para que eu possa** | Saber quais contas e cartões possuo cadastrados |
+| **Pontos** | 2 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US33 - Remover conta ou cartão
 
 | US33 | Remover conta ou cartão |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | Remover uma conta ou cartão cadastrado |
-| Para que eu possa | Retirar informações a respeito desta conta ou cartão. | 
-| Pontos | 4 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Remover uma conta ou cartão cadastrado |
+| **Para que eu possa** | Retirar informações a respeito desta conta ou cartão. | 
+| **Pontos** | 4 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US34 - Sincronizar informações
 
 | US34 | Sincronizar informações |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | sincronizar/atualizar as informações de uma conta ou cartão |
-| Para que eu possa | visualizar informações mais atualizadas | 
-| Pontos | 4 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | sincronizar/atualizar as informações de uma conta ou cartão |
+| **Para que eu possa** | visualizar informações mais atualizadas | 
+| **Pontos** | 4 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US35 - Visualizar os status de sincronização
 
 | US35 | Visualizar os status de sincronização |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | visualizar os status das atualizações das minhas contas e cartões cadastrados |
-| Para que eu possa | saber quais contas ou cartões foram atualizados. | 
-| Pontos | 2 |
-| Prioridade | Should |
-| Critérios de aceitação | > O app deve permitir visualizar o status a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar a situação de sincronização/atualização das contas e cartões cadastrados a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | visualizar os status das atualizações das minhas contas e cartões cadastrados |
+| **Para que eu possa** | saber quais contas ou cartões foram atualizados. | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O app deve permitir visualizar o status a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar a situação de sincronização/atualização das contas e cartões cadastrados a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 ### EP08 -  Troca de dados
 
@@ -485,66 +485,66 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | US36 | Veracidade de dados |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Verificar a veracidade de dados cadastrados |
-| Para que eu possa | Garantir que os dados cadastrados sejam seguros e reais. | 
-| Pontos | 8 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve verificar se os dados de contas e cartões informados são reais; <br> > O app deve confirmar a veracidade dos dados com os bancos e instituições financeiras referentes aos dados informados; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Verificar a veracidade de dados cadastrados |
+| **Para que eu possa** | Garantir que os dados cadastrados sejam seguros e reais. | 
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve verificar se os dados de contas e cartões informados são reais; <br> > O app deve confirmar a veracidade dos dados com os bancos e instituições financeiras referentes aos dados informados; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 #### US37 - Privacidade de Dados
 
 | US37 | Privacidade de dados |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor|
-|Desejo | Garanti a privacidade dos dados cadastrados |
-| Para que eu possa | Garantir a segurança dos dados e informações que transitam pelo aplicativo. | 
-| Pontos | 8 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve garantir que os dados de contas e cartões informados trafegam em redes seguras; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor|
+|**Desejo** | Garanti a privacidade dos dados cadastrados |
+| **Para que eu possa** | Garantir a segurança dos dados e informações que transitam pelo aplicativo. | 
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve garantir que os dados de contas e cartões informados trafegam em redes seguras; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 #### US38 - Estatisticas de Usuarios
 
 | US38 | Estatísticas de usuários |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Instituição Financeira |
-|Desejo | Receber dados estatísticos de usuários |
-| Para que eu possa | Descobrir perfis de consumos. | 
-| Pontos | 2 |
-| Prioridade | Should |
-| Critérios de aceitação | > O app deve enviar dados a respeito dos gastos para as instituições financeiras;<br> > O app deve garantir que a rede em que os dados trafegam seja segura. |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Instituição Financeira |
+|**Desejo** | Receber dados estatísticos de usuários |
+| **Para que eu possa** | Descobrir perfis de consumos. | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O app deve enviar dados a respeito dos gastos para as instituições financeiras;<br> > O app deve garantir que a rede em que os dados trafegam seja segura. |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 #### US39 - FeedBack de Cards
 
 | US39 | FeedBack de Cards|
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Receber o feedback dos cards da aba guia |
-| Para que eu possa | Ter mais um meio de categorizar os usuários. | 
-| Pontos | 2 |
-| Prioridade | Could |
-| Critérios de aceitação | > O app deve disponibilizar uma área para feedbacks de Cards;|
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Receber o feedback dos cards da aba guia |
+| **Para que eu possa** | Ter mais um meio de categorizar os usuários. | 
+| **Pontos** | 2 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O app deve disponibilizar uma área para feedbacks de Cards;|
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
 #### US40 - Segurança de Rede
 
 | US40 | Segurança de Rede |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Garantir a segurança na rede de troca de dados bancários |
-| Para que eu possa | Dar garantias ao usuário a respeito de sua privacidade. | 
-| Pontos | 8 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve garantir a segurança na rede tráfego de dados bancários; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Garantir a segurança na rede de troca de dados bancários |
+| **Para que eu possa** | Dar garantias ao usuário a respeito de sua privacidade. | 
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve garantir a segurança na rede tráfego de dados bancários; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 ### EP09 -  Extrato
 
