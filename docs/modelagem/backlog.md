@@ -25,12 +25,13 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US01 Elaborar testes de usabilidade](#us01-elaborar-testes-de-usabilidade) | 
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US02 Documentar e agrupar dúvidas dos usuários](#us02-documentar-e-agrupar-duvidas-dos-usuarios) | 
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US03 Visualizar dúvidas frequentes](#us03-visualizar-duvidas-frequentes) | 
-| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US04 Medir eficiência da resposta para um tópico/pergunta](#us04-medir-eficiencia-da-resposta-para-um-topico/pergunta) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US04 Medir eficiência da resposta para uma pergunta](#us04-medir-eficiencia-da-resposta-para-uma-pergunta) | 
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US05 Medir índice de utilização de funções da aplicação](#us05-medir-indice-de-utilizacao-de-funcoes-da-aplicacao) | 
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US06 Elaborar um chat](#us06-elaborar-um-chat)| 
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US07 Disponibilizar quaisquer meio de contato para o usuário](#us07-disponibilizar-quaisquer-meio-de-contato-para-o-usuario) | 
-| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US08 Criar um bot com inteligência artificial](#us08-criar-um-bot-com-inteligencia-artificial) || T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US09 Realizar enquete](#us09-realizar-enquete)  
-| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US10 Realizar enquete](#us10-dar-sugestoes-de-melhoria)  
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US08 Criar um bot com inteligência artificial](#us08-criar-um-bot-com-inteligencia-artificial) |
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US09 Realizar enquete](#us09-realizar-enquete) |
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US10 Dar sugestões de melhoria](#us10-dar-sugestoes-de-melhoria)  
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
@@ -99,13 +100,13 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** |  |
 | **Rastreabilidade** | |
 
-#### US04 Medir eficiência da resposta para um tópico/pergunta
+#### US04 Medir eficiência da resposta para uma pergunta
 
-| **US04** | **Medir eficiência da resposta para um tópico/pergunta**|
+| **US04** | **Medir eficiência da resposta para uma pergunta**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
-|**Desejo** | Medir eficiência da resposta para um tópico/pergunta |
+|**Desejo** | Medir eficiência da resposta para uma pergunta |
 | **Para que eu possa** | Decidir se há necessidade de aprimoração de explicações sobre um item |
 | **Pontos** | 3 |
 | **Prioridade** | Must |
@@ -126,6 +127,71 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Rastreabilidade** | |
 
 ### EP02 -  Suporte
+
+#### US06 Elaborar um chat
+
+| **US06** | **Elaborar um chat**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um chat |
+| **Para que eu possa** | Auxiliar e solucionar problemas com usuário, também ser reportado de problemas com o software |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve haver um chat; <br> > Deve haver contato com usuário; <br> > Deve haver facilidade de contato; <br> > Deve mostrar aos desenvolvedores problemas referentes ao aplicativo. |
+| **Rastreabilidade** | |
+
+#### US07 Disponibilizar quaisquer meio de contato para o usuário
+
+| **US07** | **Disponibilizar quaisquer meio de contato para o usuário**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Disponibilizar quaisquer meio de contato para o usuário |
+| **Para que eu possa** | Ter diferentes formas de atender ao usuário e manter comunicação |
+| **Pontos** | 2 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O aplicativo deve disponibilizar formas de contato; <br> > Deve haver e-mail; <br> > Deve haver telefone; <br> > Deve haver endereço; <br> > Deve haver chat de suporte; <br> > Deve haver contato em redes sociais. |
+| **Rastreabilidade** | |
+
+#### US08 Criar um bot com inteligência artificial
+
+| **US08** | **Criar um bot com inteligência artificial**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Criar um bot com inteligência artificial |
+| **Para que eu possa** | Dar respostas com maior amplitude e de forma rápida |
+| **Pontos** | 13 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O aplicativo pode ter um bot; <br> > Poderia realizar contato com cliente para diminuir demanda de problemas; <br> > Poderia dar sugestões de solução; <br> > Poderia ser um agente coletor de dados sobre o problema; <br> > Poderia filtrar os problemas por tags. |
+| **Rastreabilidade** | |
+
+#### US09 Realizar enquete
+
+| **US09** | **Realizar enquete**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Realizar enquete |
+| **Para que eu possa** | Coletar dados para realizar melhorias com equipe de desenvolvimento e no aplicativo |
+| **Pontos** | 3 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve realizar enquete; <br> > Deve coletar dados da enquete para alguma finalidade; <br> > Deve haver melhorias; <br> Deve haver exclusão; <br> > Deve haver tomada de decisão com base em enquete. |
+| **Rastreabilidade** | |
+
+#### US10 Dar sugestões de melhoria
+
+| **US10** | **Dar sugestões de melhoria**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Dar sugestões de melhoria |
+| **Para que eu possa** | Ter a oportunidade de contribuir com a aplicação |
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O usuário pode expressar sua opinião referente ao aplicativo; <br> > O usuário pode supor melhorias; <br> > O usuário pode contatar a equipe de desenvolvimento. |
+| **Rastreabilidade** | |
 
 ### EP03 -  Cadastro
 
