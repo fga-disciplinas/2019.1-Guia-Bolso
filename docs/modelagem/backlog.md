@@ -219,7 +219,140 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP09 -  Extrato
 
+#### US# - Visualizar transações no extrato
+
+| US# | Visualizar transações |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Visualizar minhas transações |
+| Para que eu possa | Ter conhecimento claro do quanto foi gasto em um determinado período | 
+| Pontos | 5 |
+| Prioridade | Must |
+| Critérios de aceitação | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > A transação deverá como padrão, ser nomeada com o nome do estabelecimento; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá ser possível filtrar as transações entre Gastos e Rendas; <br> Deverá ser possível visualizar extrato de meses passados. |
+| Rastreabilidade | RichPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario), Cenário [C12](../cenarios/#c12-ir-para-extrato) &  Caso de uso [UC3](../casos_de_uso/#uc3-visualizar-extrato)|
+
+#### US# - Visualizar detalhes de uma transação
+
+| US# | Visualizar detalhes de uma transação |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Visualizar detalhes de uma transação |
+| Para que eu possa | Conferir dados da transação | 
+| Pontos | 2 |
+| Prioridade | Must |
+| Critérios de aceitação | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > Deverá conter o nome da transação; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá conter a categoria que a transação pertence; <br> Deverá conter o banco em que a transação pertence.|
+| Rastreabilidade | Léxico [L40](../lexicos/#l40-transacao), Cenário [C12](../cenarios/#c12-ir-para-extrato) &  Caso de uso [UC3](../casos_de_uso/#uc3-visualizar-extrato)|
+
+#### US# - Ignorar uma transação
+
+| US# | Ignorar uma transação |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Ignorar uma transação |
+| Para que eu possa | Retirá-la de um planejamento e/ou não quantificá-la nos meus gastos | 
+| Pontos | 3 |
+| Prioridade | Should |
+| Critérios de aceitação | > Deverá ter uma opção para ignorar a transação, bem como a ação de reverter este status. |
+| Rastreabilidade | Léxico [L14](../lexicos/#l14-transacoes-ignoradas), Cenário [C07](../cenarios/#c07-ignorar-transacao) & Caso de uso [UC17](../casos_de_uso/#uc17-ignorar-transacao)|
+
+#### US# - Adicionar comentários e tags em uma transação
+
+| US# | Adicionar comentários e tags em uma transação |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Realizar comentários e tags sobre uma transação |
+| Para que eu possa | Categorizá-la de uma forma mais pessoal com mais palavras descritivas | 
+| Pontos | 3 |
+| Prioridade | Could |
+| Critérios de aceitação | > Deverá ter um campo opcional para inserir um comentário ou uma tag; <br> > Deverá constar o comentário apenas nos detalhes da transação.|
+| Rastreabilidade | Cenário [C17](../cenarios/#c07-adicionar-comentario-numa-transacao) & Caso de uso [UC18](../casos_de_uso/#uc18-comentar-transacao) e [UC8](../casos_de_uso/#uc8-editar-transacao) |
+
+#### US# - Editar dados da transação
+
+| US# | Editar dados da transação |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Editar os detalhes de alguma transação |
+| Para que eu possa | Tornar a descrição da transação mais intuitiva ao visualizar a transação no extrato | 
+| Pontos | 3 |
+| Prioridade | Could |
+| Critérios de aceitação | > Deverá ser possível editar o nome da transação; <br> > Deverá ser possível editar a categoria da transação; <br> > Deverá ser possível dividir a transação em mais de uma categoria; <br> > Deverá ser possível editar comentário. |
+| Rastreabilidade | Caso de Uso [UC8](../casos_de_uso/#uc8-editar-transacao) & Cenário [C18](../cenarios/#c18-editar-transacao) e [C01](../cenarios/#c01-categorizar-transacao) |
+
+
 ### EP10 -  Agenda
+
+#### US# - Elaborar um tutorial para usar a agenda
+
+| US# | Elaborar um tutorial para usar a agenda |
+|--|--|
+| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
+| Eu, como | Desenvolvedor |
+|Desejo | Elaborar um tutorial interativo para novos usuários da agenda |
+| Para que | O usuário tenha conhecimento de como começar a usar a agenda | 
+| Pontos | 3 |
+| Prioridade | Should |
+| Critérios de aceitação | > O tutorial deve ser visualizado por escolha do usuário; <br> Deverá ter informações curtas e claras de como o usuário poderá proceder. |
+| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
+
+#### US# - Adicionar transação na agenda
+
+| US# | Adicionar transação na agenda |
+|--|--|
+| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
+| Eu, como | Usuário |
+| Desejo | Adicionar uma conta a pagar ou receber na agenda |
+| Para que eu | Não perca prazos ou compromissos financeiros | 
+| Pontos | 5 |
+| Prioridade | Should |
+| Critérios de aceitação | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
+| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
+
+#### US# - Visualizar contas registradas na agenda
+
+| US# | Visualizar contas registradas na agenda |
+|--|--|
+| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
+| Eu, como | Usuário |
+| Desejo | Visualizar contas registradas na agenda |
+| Para que eu | Possa me planejar antes do prazo ou editar uma transação | 
+| Pontos | 3 |
+| Prioridade | Should |
+| Critérios de aceitação | > Deverá conter o nome da operação; <br> > Deverá ter uma label da categoria "a pagar" ou "a receber", "pago" e "recebido" com as cores específicas de cada uma; <br> > Deverá conter o preço da operação; <br> > Deverá conter a data prazo da conta; <br> > Deverá ter a opção de adicionar nova operação; <br> > Deverá ter um quadro para visualizar o total de renda a receber ou a pagar; <br> > Deverá ser possível visualizar agenda de meses passados. |
+| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) e [L18](../lexicos/#l18-meses-futuros) |
+
+#### US# - Editar contas registradas na agenda
+
+| US# | Editar contas registradas na agenda |
+|--|--|
+| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
+| Eu, como | Usuário |
+| Desejo | Editar agendamento registrado na agenda |
+| Para que eu | Possa corrigir ou alterar alguma informação da conta já existente | 
+| Pontos | 3 |
+| Prioridade | Should |
+| Critérios de aceitação | > Deverá ser possível editar o nome da operação; <br> > Deverá ser possível editar o preço da operação; <br> > Deverá mostrar a label do tipo da operação; <br> > Deverá ter a opção de ativar ou desativar a notificação no prazo; <br> > Deverá ter a opção de marcar a conta como "recebida" ou "paga". |
+| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
+
+#### US# - Excluir contas registradas na agenda
+
+| US# | Excluir contas registradas na agenda |
+|--|--|
+| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
+| Eu, como | Usuário |
+| Desejo | Excluir agendamento registrado na agenda |
+| Para que eu | Possa retirar uma conta da agenda que não é mais útil ou viável | 
+| Pontos | 2 |
+| Prioridade | Should |
+| Critérios de aceitação | > A operação não deve mais constar no "calendário"; <br> Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
+| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) |
+
+
 
 ### EP11 -  Planejamento
 
