@@ -67,6 +67,11 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US53 Categorizar gasto](#us53-categorizar-gasto) |
 | T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US54 Categorizar renda](#us54-categorizar-renda) |
 | T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US55 Meses Futuros](#us55-meses-futuras) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US56 Gastos do usuario](#us56-gastos-do-usuario) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US57 Gastos dos últimos meses](#us57-gastos-dos-ultimos-meses-por-categoria) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US58 Gastos e rendas dos últimos meses](#us58-gastos-e-rendas-dos-ultimos-meses) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US59 Renda dos últimos meses](#us59-rendas-dos-ultimos-por-categoria) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US60 Estatísticas para parceiros](#us60-estatisticas-para-os-parceiros) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
@@ -695,7 +700,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 2 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O novo planejamento deverá aparecer como ponto máximo no gráfico de "Gasto Planejado"; <br> > Deverá ter um alerta ao usuário quando o teto for atingido. |
-| **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-fincanceiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
+| **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
 #### US52 - Planejar renda 
 
@@ -708,7 +713,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 2 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O novo planejamento deverá aparecer como ponto máximo no gráfico de "Renda Planejada"; <br> > Deverá ter um alerta ao usuário quando ele conseguir a renda planejada. |
-| **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-fincanceiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
+| **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
 #### US53 - Categorizar gasto 
 
@@ -721,7 +726,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Should |
 | **Critérios de aceitação** | > O usuário tem que ver o quanto falta pra ele atingir o limite de gastos numa categoria; <br> > Além das categorias existentes no aplicativo, o usuário poderá criar novas para fazer o planejamento de gastos. |
-| **Rastreabilidade** | [Questionário] (../../elicitacao-de-requisitos/questionario) |
+| **Rastreabilidade** | [Questionário](../../elicitacao-de-requisitos/questionario/) |
 
 #### US54 - Categorizar renda 
 
@@ -734,7 +739,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Should |
 | **Critérios de aceitação** | > O usuário tem que ver o quanto falta pra ele atingir a meta de renda numa categoria; <br> > Além das categorias existentes no aplicativo, o usuário poderá criar novas para fazer o planejamento de renda. |
-| **Rastreabilidade** | [Questionário] (../../elicitacao-de-requisitos/questionario/) |
+| **Rastreabilidade** | [Questionário](../../elicitacao-de-requisitos/questionario/) |
 
 #### US55 - Meses Futuros 
 
