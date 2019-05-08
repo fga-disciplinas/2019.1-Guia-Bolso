@@ -139,7 +139,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve haver um chat; <br> > Deve haver contato com usuário; <br> > Deve haver facilidade de contato; <br> > Deve mostrar aos desenvolvedores problemas referentes ao aplicativo. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Léxico [L35](../lexicos/#l35-suporte) & RichPicture [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US07 Disponibilizar quaisquer meio de contato para o usuário
 
@@ -152,7 +152,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 2 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O aplicativo deve disponibilizar formas de contato; <br> > Deve haver e-mail; <br> > Deve haver telefone; <br> > Deve haver endereço; <br> > Deve haver chat de suporte; <br> > Deve haver contato em redes sociais. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Cenário [C11](../cenarios/#c11-solicitar-suporte) & Caso de uso [UC12](../casos_de_uso/#uc12-solicitar-suporte) |
 
 #### US08 Criar um bot com inteligência artificial
 
@@ -165,7 +165,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 13 |
 | **Prioridade** | Could |
 | **Critérios de aceitação** | > O aplicativo pode ter um bot; <br> > Poderia realizar contato com cliente para diminuir demanda de problemas; <br> > Poderia dar sugestões de solução; <br> > Poderia ser um agente coletor de dados sobre o problema; <br> > Poderia filtrar os problemas por tags. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Léxico [L35](../lexicos/#l35-suporte) |
 
 #### US09 Realizar enquete
 
@@ -178,7 +178,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve realizar enquete; <br> > Deve coletar dados da enquete para alguma finalidade; <br> > Deve haver melhorias; <br> Deve haver exclusão; <br> > Deve haver tomada de decisão com base em enquete. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Léxico [L35](../lexicos/#l35-suporte) |
 
 #### US10 Dar sugestões de melhoria
 
@@ -191,7 +191,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Should |
 | **Critérios de aceitação** | > O usuário pode expressar sua opinião referente ao aplicativo; <br> > O usuário pode supor melhorias; <br> > O usuário pode contatar a equipe de desenvolvimento. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Não há |
 
 ### EP03 -  Cadastro
 
