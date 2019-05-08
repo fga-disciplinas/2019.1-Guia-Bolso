@@ -32,6 +32,10 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US08 Criar um bot com inteligência artificial](#us08-criar-um-bot-com-inteligencia-artificial) |
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US09 Realizar enquete](#us09-realizar-enquete) |
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US10 Dar sugestões de melhoria](#us10-dar-sugestoes-de-melhoria)  
+| T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US11 Elaborar formulário](#us11-elaborar-formulario) |
+| T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US12 Validação dados de cadastro](#us12-validacao-dados-de-cadastro) |
+| T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US13 Validação dos dados bancários](#us13-validacao-dos-dados-bancarios) |
+| T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US14 Validação cadastro duplicado](#us14-validacao-cadastro-duplicado) |
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
@@ -195,9 +199,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP03 -  Cadastro
 
-#### US1 Elaborar formulário
+#### US11 Elaborar formulário
 
-| **US1** | **Elaborar formulário**|
+| **US11** | **Elaborar formulário**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -206,6 +210,45 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 8 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Implementar um formulário possuir todos os dados esperados; <br> > Ser capaz de criptografar os dados antes de colocar no banco; <br> > O usuário ser capaz de acessar seus dados a partir do seus dados cadastrais; <br> > Integrar opção de click dos botões com envio pro sistema de validação;|
+| **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
+
+#### US12 Validação dados de cadastro
+
+| **US12** | **Validação dados de cadastro**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um processo de validação dos dados do usuário |
+| **Para que eu possa** | Garantir a veracidade dos dados |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** |  > Implementar um sistema capaz de verificar a existência do CPF do usuário|Criar um captcha para validar os dados|Comparar o CPF inserido com o nome inserido no banco; |
+| **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
+
+#### US13 Validação dos dados bancários
+
+| **US13** | **Validação dos dados bancários**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um processo de validação dos dados bancários do usuário |
+| **Para que eu possa** | Validar os dados bancários |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** |  > Implementar um sistema capaz de verificar os dados bancários inseridos pelo usuário; <br> > Implementar um sistema que seja consiga interagir com as plataformas dos bancos parceiros; |
+| **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
+
+#### US14 Validação cadastro duplicado
+
+| **US14** | **Validação cadastro duplicado**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Conferir a existência de um usuário com os mesmos dados no banco de dados |
+| **Para que eu possa** | Garantir a veracidade dos dados e diminuir a redundância |
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** |  > Implementar uma consulta eficiente no banco de dados para conferir a existência prévia de um usuário com dados similares; <br> > Retornar uma informação ao usuário caso ele já possua cadastro no site e sugerir a troca de senha; |
 | **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
 
 ### EP04 -  Login & logout
