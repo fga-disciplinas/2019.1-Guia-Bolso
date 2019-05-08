@@ -39,6 +39,10 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T2 - Cadastro & Autenticação | [EP4 - Login & logout](#ep04-login-logout) | [US15 Validação dados de login](#us15-validacao-dados-de-login) |
 | T2 - Cadastro & Autenticação | [EP4 - Login & logout](#ep04-login-logout) | [US16 Fazer login](#us16-fazer-login) |
 | T2 - Cadastro & Autenticação | [EP4 - Login & logout](#ep04-login-logout) | [US17 Fazer logout](#us17-fazer-logout) |
+| T2 - Cadastro & Autenticação | [EP5 -  Código de segurança](#ep05-codigo-de-seguranca) | [US18 Ativar código de segurança](#us18-ativar-codigo-de-seguranca) |
+| T2 - Cadastro & Autenticação | [EP5 -  Código de segurança](#ep05-codigo-de-seguranca) | [US19 Trocar código de segurança](#us19-trocar-codigo-de-seguranca) |
+| T2 - Cadastro & Autenticação | [EP5 -  Código de segurança](#ep05-codigo-de-seguranca) | [US20 Remover código de segurança](#us20-remover-codigo-de-seguranca) |
+| T2 - Cadastro & Autenticação | [EP5 -  Código de segurança](#ep05-codigo-de-seguranca) | [US21 Recuperar código de segurança](#us21-recuperar-codigo-de-seguranca) |
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
@@ -296,6 +300,58 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Rastreabilidade** | Caso de uso [UC1](../casos_de_uso/#uc1-fazer-login)|
 
 ### EP05 -  Código de segurança
+
+#### US18 Ativar código de segurança
+
+| **US18** | **Ativar código de segurança**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Ativar o código de segurança para entrar no aplicativo GuiaBolso |
+| **Para que eu possa** | Ter os dados bancários  mais seguros |
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** |  > Implementar um sistema com base em um código de segurança para o acesso ao app; <br> > Fazer com que o sistema só possa ser acessado a partir do código de segurança; |
+| **Rastreabilidade** | Cenário [C16](../cenarios/#c16-adicionar-codigo-de-seguranca) & Caso de uso [UC16](../casos_de_uso/#uc16-adicionar-codigo-de-seguranca)|
+
+#### US19 Trocar código de segurança
+
+| **US19** | **Trocar código de segurança**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Trocar o código de segurança |
+| **Para que eu possa** | Ter os dados bancários  mais seguros |
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** |  > Implementar um sistema de troca do código de segurança sempre que o usuário desejar; <br> > Automatizar a troca do codigo de segurança no banco de dados; |
+| **Rastreabilidade** | Cenário [C16](../cenarios/#c16-adicionar-codigo-de-seguranca) & Caso de uso [UC16](../casos_de_uso/#uc16-adicionar-codigo-de-seguranca)|
+
+#### US20 Remover código de segurança
+
+| **US20** | **Remover código de segurança**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Remover o código de segurança |
+| **Para que eu possa** | Acessar mais rapidamente e facilmente o aplicativo |
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** |  > Possibilitar remover o código de segurança; <br> > Verificar se o usuário é de fato o dono dessa conta ; |
+| **Rastreabilidade** | Cenário [C16](../cenarios/#c16-adicionar-codigo-de-seguranca) & Caso de uso [UC16](../casos_de_uso/#uc16-adicionar-codigo-de-seguranca)|
+
+#### US21 Recuperar código de segurança
+
+| **US21** | **Recuperar código de segurança**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Recuperar o código de segurança |
+| **Para que eu possa** | Conseguir acessar o app |
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** |  > Implementar um mecanismo para  a recuperação do codigo de segurança; <br> > Validar os dados da usuário antes de permitir acesso ao dados no app; <br> > Implementar um sistema de verificação com o e-mail cadastrado; |
+| **Rastreabilidade** | Cenário [C16](../cenarios/#c16-adicionar-codigo-de-seguranca) & Caso de uso [UC16](../casos_de_uso/#uc16-adicionar-codigo-de-seguranca)|
 
 ### EP06 -  Perfil do usuário
 
