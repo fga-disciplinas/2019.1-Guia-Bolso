@@ -26,25 +26,28 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US02 Documentar e agrupar dúvidas dos usuários](#us02-documentar-e-agrupar-duvidas-dos-usuarios) | 
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US03 Visualizar dúvidas frequentes](#us03-visualizar-duvidas-frequentes) | 
 | T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US04 Medir eficiência da resposta para um tópico/pergunta](#us04-medir-eficiencia-da-resposta-para-um-topico/pergunta) | 
-| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US05 Elaborar um chat](#us05-elaborar-um-chat)| 
-| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US06 Disponibilizar quaisquer meio de contato para o usuário](#us06-disponibilizar-quaisquer-meio-de-contato-para-o-usuario) | 
-| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US07 Realizar enquete](#us07-realizar-enquete) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US05 Medir índice de utilização de funções da aplicação](#us05-medir-indice-de-utilizacao-de-funcoes-da-aplicacao) | 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US06 Elaborar um chat](#us06-elaborar-um-chat)| 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US07 Disponibilizar quaisquer meio de contato para o usuário](#us07-disponibilizar-quaisquer-meio-de-contato-para-o-usuario) | 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US08 Criar um bot com inteligência artificial](#us08-criar-um-bot-com-inteligencia-artificial) || T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US09 Realizar enquete](#us09-realizar-enquete)  
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US10 Realizar enquete](#us10-dar-sugestoes-de-melhoria)  
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) |
 | T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US36 Veracidade de Dados](#us36-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US37 - Privacidade de Dados](#us37-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US38 - Estatísticas de Usuários](#us38-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US39 - Feedback de Cards](#us39-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US40 - Segurança de Rede](#us40-seguranca-de-rede) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Coletar informações de fluxo crédito](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Analisar informações de fluxo crédito](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis ou não](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar status de avaliação de crédito](#us76-visualizar-status-de-avaliacao) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Elaborar testes de usabilidade](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Realizar integração com terceiros](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar empresas que consultaram meu CPF](#us76-simular-um-emprestimo) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Permitir participar, através do Guiabolso, do cadastro positivo](#us76-simular-um-emprestimo) || T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Coletar informações de fluxo crédito](#us#-coletar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Analisar informações de fluxo crédito](#us#-analisar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us#-visualizar-dicas-de-controle-financeiro)|
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us#-buscar-dados-de-fontes-externas) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis](#us#-indicar-se-as-dicas-foram-realmente-uteis)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar status de avaliação de crédito](#us#-visualizar-status-de-avaliacao-de-credito)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Elaborar testes de usabilidade](#us#-elaborar-testes-de-usabilidade) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Realizar integração com terceiros](#us#-realizar-integracao-com-terceiros) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar empresas que consultaram meu CPF](#us#-visualizar-empresas-que-consultaram-meu-cpf) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Permitir participar do cadastro positivo](#us#-permitir-participar-do-cadastro-positivo) |
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US72 Visualizar cupons de desconto](#us72-visualizar-cupons-de-desconto) | 
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US73 Exibir blogs de parceiros](#us73-exibir-blogs-de-parceiros) | 
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US74 Exibir anúncios direcionados](#us74-exibir-anuncios-direcionados) | 
@@ -59,6 +62,68 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 #### US01 Elaborar testes de usabilidade
 
+| **US01** | **Elaborar testes de usabilidade**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar testes de usabilidade com os usuários |
+| **Para que eu possa** | Para avaliar maiores dúvidas de usabilidade |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve disponibilizar Documentação; <br> > Deve mostrar dúvidas frequentes; <br> > Deve informar usuário de como funciona o aplicativo; <br> > Deve informar dados sobre a empresa do Guiabolso; <br> > Deve informar parcerias com o Guiabolso.|
+| **Rastreabilidade** | |
+
+#### US02 Documentar e agrupar dúvidas dos usuários
+
+| **US02** | **Documentar e agrupar dúvidas dos usuários**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Documentar e agrupar dúvidas dos usuários |
+| **Para que eu possa** | Disponibilizar respostas de forma simples e objetiva |
+| **Pontos** | 3 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve disponibilizar ao usuário dúvidas básicas; <br> > Aplicativo deve explicar quaisquer funcionalidade; <br> > Deve usar informações intuitivas; <br> > Deve atualizar com frequência as dúvidas conforme atualizações do aplicativo. |
+| **Rastreabilidade** | |
+
+#### US03 Visualizar dúvidas frequentes
+
+| **US03** | **Visualizar dúvidas frequentes**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar dúvidas frequentes |
+| **Para que eu possa** | Analisar se sua dúvida já possui alguma resposta |
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** |  |
+| **Rastreabilidade** | |
+
+#### US04 Medir eficiência da resposta para um tópico/pergunta
+
+| **US04** | **Medir eficiência da resposta para um tópico/pergunta**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Medir eficiência da resposta para um tópico/pergunta |
+| **Para que eu possa** | Decidir se há necessidade de aprimoração de explicações sobre um item |
+| **Pontos** | 3 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve estabelecer um tempo médio para as funcionalidades; <br> > Deve mostrar funcionalidades da melhor forma e rapidez; <br> > Deve tratar perdas de eficiência; <br> > Deve tratar dados que sejam necessários; <br> > Deve haver exceções para quantidade e qualidade. |
+| **Rastreabilidade** | |
+
+#### US05 Medir índice de utilização de funções da aplicação
+
+| **US05** | **Medir índice de utilização de funções da aplicação**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Medir índice de utilização de funções da aplicação |
+| **Para que eu possa** | Documentar partes que merecem mais ou menos atenção ao desenvolvimento |
+| **Pontos** | 5 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > Poderia acompanhar funções mais acessadas; <br> > Poderia fazer melhorias conforme a coleta feita pelo acompanhamento; <br> > Poderia melhorar funcionalidades que são menos utilizadas. |
+| **Rastreabilidade** | |
 
 ### EP02 -  Suporte
 
