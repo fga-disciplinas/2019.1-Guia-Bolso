@@ -45,16 +45,16 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) |
 | T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US36 Veracidade de Dados](#us36-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US37 - Privacidade de Dados](#us37-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US38 - Estatísticas de Usuários](#us38-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US39 - Feedback de Cards](#us39-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US40 - Segurança de Rede](#us40-seguranca-de-rede) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Coletar informações de fluxo crédito](#us#-coletar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Analisar informações de fluxo crédito](#us#-analisar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us#-visualizar-dicas-de-controle-financeiro)|
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us#-buscar-dados-de-fontes-externas) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis](#us#-indicar-se-as-dicas-foram-realmente-uteis)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar status de avaliação de crédito](#us#-visualizar-status-de-avaliacao-de-credito)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Elaborar testes de usabilidade](#us#-elaborar-testes-de-usabilidade) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Realizar integração com terceiros](#us#-realizar-integracao-com-terceiros) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar empresas que consultaram meu CPF](#us#-visualizar-empresas-que-consultaram-meu-cpf) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Permitir participar do cadastro positivo](#us#-permitir-participar-do-cadastro-positivo) |
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US64 Buscar dados de fontes externas](#us64-buscar-dados-de-fontes-externas) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US65 Indicar se as dicas foram realmente úteis](#us65-indicar-se-as-dicas-foram-realmente-uteis)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US66 Visualizar status de avaliação de crédito](#us66-visualizar-status-de-avaliacao-de-credito)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US67 Informar score](#us67-informar-score) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US68 Realizar integração com terceiros](#us68-realizar-integracao-com-terceiros) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US69 Visualizar empresas que consultaram meu CPF](#us69-visualizar-empresas-que-consultaram-meu-cpf) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US70 Permitir participar do cadastro positivo](#us70-permitir-participar-do-cadastro-positivo) |
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US72 Visualizar cupons de desconto](#us72-visualizar-cupons-de-desconto) | 
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US73 Exibir blogs de parceiros](#us73-exibir-blogs-de-parceiros) | 
@@ -146,7 +146,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve haver um chat; <br> > Deve haver contato com usuário; <br> > Deve haver facilidade de contato; <br> > Deve mostrar aos desenvolvedores problemas referentes ao aplicativo. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Léxico [L35](../lexicos/#l35-suporte) & RichPicture [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US07 Disponibilizar quaisquer meio de contato para o usuário
 
@@ -159,7 +159,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 2 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O aplicativo deve disponibilizar formas de contato; <br> > Deve haver e-mail; <br> > Deve haver telefone; <br> > Deve haver endereço; <br> > Deve haver chat de suporte; <br> > Deve haver contato em redes sociais. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Cenário [C11](../cenarios/#c11-solicitar-suporte) & Caso de uso [UC12](../casos_de_uso/#uc12-solicitar-suporte) |
 
 #### US08 Criar um bot com inteligência artificial
 
@@ -172,7 +172,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 13 |
 | **Prioridade** | Could |
 | **Critérios de aceitação** | > O aplicativo pode ter um bot; <br> > Poderia realizar contato com cliente para diminuir demanda de problemas; <br> > Poderia dar sugestões de solução; <br> > Poderia ser um agente coletor de dados sobre o problema; <br> > Poderia filtrar os problemas por tags. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Léxico [L35](../lexicos/#l35-suporte) |
 
 #### US09 Realizar enquete
 
@@ -185,7 +185,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve realizar enquete; <br> > Deve coletar dados da enquete para alguma finalidade; <br> > Deve haver melhorias; <br> Deve haver exclusão; <br> > Deve haver tomada de decisão com base em enquete. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Léxico [L35](../lexicos/#l35-suporte) |
 
 #### US10 Dar sugestões de melhoria
 
@@ -198,7 +198,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Should |
 | **Critérios de aceitação** | > O usuário pode expressar sua opinião referente ao aplicativo; <br> > O usuário pode supor melhorias; <br> > O usuário pode contatar a equipe de desenvolvimento. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Não há |
 
 ### EP03 -  Cadastro
 
@@ -576,7 +576,138 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP13 -  Dicas
 
+#### US61 Coletar informações de fluxo crédito
+
+| **US61** | **Coletar informações de fluxo crédito**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Coletar informações de fluxo crédito |
+| **Para que eu possa** | Armazenar informações para análise |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve ser capaz de coletar dados do usuário; <br> > Deve armazenar coleta em um banco; <br> > Deve ter capacidade de utilizar os dados do usuário. |
+| **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
+
+#### US62 Analisar informações de fluxo crédito
+
+| **US62** | **Analisar informações de fluxo crédito**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Analisar informações de fluxo crédito |
+| **Para que eu possa** | Oferecer informações relacionadas aos gastos financeiros ao decorrer do tempo |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Funcionalidades capazes de tratar possíveis situações financeiras; <br> > Deve existir o pior caso; <br> > Deve existir um caso comum; <br> > Deve existir o melhor caso; <br> > Deve Informar ao usuário da situação e como tratar-la. |
+| **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
+
+#### US63 Visualizar dicas de controle financeiro
+
+| **US63** | **Visualizar dicas de controle financeiro**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar dicas de controle financeiro |
+| **Para que eu possa** | Aprender a organizar seus gastos |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário. |
+| **Rastreabilidade** | Cenário [C14](../cenarios/#c14-verificar-dicas) & Caso de Uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) & Léxico [L32](../lexicos/#l32-guia) |
+
+#### US64 Buscar dados de fontes externas
+
+| **US64** | **Buscar dados de fontes externas**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Buscar dados de fontes externas |
+| **Para que eu possa** | Apresentar descontos e ofertas |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve existir informações de terceiros; <br> > O aplicativo buscar informações em fontes reconhecidas; <br> > Atualizar frequentemente as fontes; <br> > Trazer novas fontes. |
+| **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
+
+#### US65 Indicar se as dicas foram realmente úteis
+
+| **US65** | **Indicar se as dicas foram realmente úteis**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Indicar se as dicas foram realmente úteis |
+| **Para que eu possa** | Visualizar apenas dicas que sejam relevantes |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve realizar enquete com usuários; <br> > Analisar coleta de enquete; <br> > Conforme a coleta, atualizar fontes de dicas. |
+| **Rastreabilidade** | Cenário [C15](../cenarios/#c14-avaliar-dicas) && Caso de Uso [UC21](../casos_de_uso/#uc21-avaliar-dicas) & Léxico [L32](../lexicos/#l32-guia) |
+
 ### EP14 -  Serasa
+
+#### US66 Visualizar status de avaliação de crédito
+
+| **US66** | **Visualizar dúvidas frequentes**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar status de avaliação de crédito |
+| **Para que eu possa** | Realizar empréstimos |
+| **Pontos** | 3 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve coletar dados do serasa; <br> > Deve informar ao usuário seu status; <br> > Deve impactar ao usuário sobre a condição. |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
+
+#### US67 Informar score
+
+| **US67** | **Visualizar dúvidas frequentes**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Informar score |
+| **Para que eu possa** | Para retornar informações condizentes ao status do usuário |
+| **Pontos** | 3 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > Pode informar score do usuário; <br> > Deve está relacionada ao status informado; <br> > Pode haver parâmetro de embasamento. |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
+
+#### US68 Realizar integração com terceiros
+
+| **US68** | **Realizar integração com terceiros**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Realizar integração com terceiros |
+| **Para que eu possa** | Informar ao usuário dados verídicos e precisos sobre seu status |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve atualizar dados frequentemente; <br> > Deve comparar com situação anterior; <br> > Deve alterar status do usuário. |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
+
+#### US69 Visualizar empresas que consultaram meu CPF
+
+| **US69** | **Visualizar empresas que consultaram meu CPF**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar empresas que consultaram meu CPF |
+| **Para que eu possa** | Ter rastreabilidade de qual/quais instituições financeiras alteraram o status no Serasa |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve informar instituições financeiras; <br> > Deve informar consultas feitas instituições financeiras; <br> > Deve informar quais instituições sujaram o nome do usuário. |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
+
+#### US70 Permitir participar do cadastro positivo
+
+| **US70** | **Permitir participar do cadastro positivo**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Permitir participar do cadastro positivo |
+| **Para que eu possa** | Integrar para poder gerar históricos para alterar o status no serasa |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve haver integração com cadastro positivo; <br> > Deve haver integração com Serasa; <br> > Deve conter dados ativos do usuário; <br> > Usuário pode permitir participar do cadastro positivo. |
+| **Rastreabilidade** | Cenário [C4](../cenarios/#c4-cadastro-positivo) & Léxico [L2](../lexicos/#l2-cadastro-positivo) & Caso de Uso [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo) |
+
 
 ### EP15 -  Propagandas
 
