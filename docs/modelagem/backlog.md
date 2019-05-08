@@ -630,7 +630,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 |**Desejo** | Elaborar um tutorial interativo para novos usuários da agenda |
 | **Para que** | O usuário tenha conhecimento de como começar a usar a agenda | 
 | **Pontos** | 3 |
-| **Prioridade** | Should |
+| **Prioridade** | Must |
 | **Critérios de aceitação** | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
 | **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
