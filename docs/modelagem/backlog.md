@@ -1,6 +1,8 @@
 ## Introdução
 
-;;;
+Em termos gerais, o Product BackLog é uma listagem de todos os afazeres pendentes no projeto.  Ele substitui o modelo tradicional de especificação de artefatos. 
+Cada elemento da listagem é elicitado por meio de interação da equipe de desenvolvimento com o Cliente - podendo ser apenas um representante, o que torna os elementos levantados muito arbitrários; ou podendo ser uma equipe representante do Cliente, representando as diversas áreas que utilizarão o produto.
+
 
 ## Temas
 
@@ -14,6 +16,13 @@
 | T6 - Lucros | Parte relacionada aos lucros obtidos pelo app | > [Propagandas](#ep15-propagandas);<br><br> > [Empréstimos](#ep16-emprestimos); |
 
 ## Épicos
+
+### Índice de US's
+
+| Tema | Épico | ID & Nome |
+|--|--|--|
+| T6 - Lucros | [Propagandas](#ep15-propagandas) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
+| T6 - Lucros | [Propagandas](#ep15-propagandas) | [US77 Contratar empréstimo ](#us77-contratar-emprestimo) | 
 
 ### EP01 -  Documentos
 
@@ -57,6 +66,19 @@
 | **Para que eu possa** | Saber se ele atende minhas necessidades |
 | **Pontos** | 8 |
 | **Prioridade** | Must |
-| **Critérios de aceitação** | > O app deve exibir prazos, valores e juros de forma clara e objetiva; <br> > Deve ser possível simular um empréstimo a qualquer momento <br> > A simulação não pode, de forma alguma, resultar num empréstimo imediato (uma simulação não pode ser um empréstimo real) |
+| **Critérios de aceitação** | > O app deve exibir prazos, valores e juros de forma clara e objetiva; <br> > Deve ser possível simular um empréstimo a qualquer momento; <br> > A simulação não pode, de forma alguma, resultar num empréstimo imediato (uma simulação não pode ser um empréstimo real); <br> > A simulação deve me  dar a opção de contratar aquele empréstimo; <br> > O cliente deve poder escolher o melhor dia de pagamento e prazos; |
 | **Rastreabilidade** | Cenário [C8](../cenarios/#c8-simular-um-emprestimo) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
+
+#### US77 Contratar empréstimo
+
+| **US77** | **Contratar empréstimo**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Contratar um empréstimo dentro do Guiabolso |
+| **Para que eu possa** | Obter crédito de forma fácil e prática |
+| **Pontos** | 13 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > A transação deve ser feita num ambiente seguro; <br> > Todas as inforações devem ser criptografadas; <br> > Deve haver uma opção de cancelar a contratação antes dela ser finalizada; <br> > Todos os dados do usuário devem ser validados juntamente às instituições financeiras; <br> > O dinheiro deve ser depositado na conta selecionada pelo usuário; |
+| **Rastreabilidade** | Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
