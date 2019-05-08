@@ -36,6 +36,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US12 Validação dados de cadastro](#us12-validacao-dados-de-cadastro) |
 | T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US13 Validação dos dados bancários](#us13-validacao-dos-dados-bancarios) |
 | T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US14 Validação cadastro duplicado](#us14-validacao-cadastro-duplicado) |
+| T2 - Cadastro & Autenticação | [EP4 - Login & logout](#ep04-login-logout) | [US15 Validação dados de login](#us15-validacao-dados-de-login) |
+| T2 - Cadastro & Autenticação | [EP4 - Login & logout](#ep04-login-logout) | [US16 Fazer login](#us16-fazer-login) |
+| T2 - Cadastro & Autenticação | [EP4 - Login & logout](#ep04-login-logout) | [US17 Fazer logout](#us17-fazer-logout) |
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
@@ -252,6 +255,45 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
 
 ### EP04 -  Login & logout
+
+#### US15 Validação dados de login
+
+| **US15** | **Validação dados de login**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar sistema de validação dos dados de login do usuário |
+| **Para que eu possa** | Ser possível o acesso do usuário à sua conta |
+| **Pontos** | 3 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** |  > Deve ser enviado os dados de login do usuário para o sistema do Guiabolso verificar com o que está cadastrado; <br> > Retornar informação de que os dados estão válidos, e o usuário entrar na conta do Guiabolso; |
+| **Rastreabilidade** | Caso de uso [UC1](../casos_de_uso/#uc1-fazer-login)|
+
+#### US16 Fazer login
+
+| **US16** | **Fazer login**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Fazer o login |
+| **Para que eu possa** | Entrar na conta e possa interagir com a aplicação |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** |  > Implementar caixas de texto para inserir e-mail e senha; <br> > Opção de recuperar senha; <br> > Opção que redireciona para parte de criar cadastro; <br> > Ter opção de visualizar senha inserida; |
+| **Rastreabilidade** | Caso de uso [UC1](../casos_de_uso/#uc1-fazer-login)|
+
+#### US17 Fazer logout
+
+| **US17** | **Fazer logout**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Fazer logout |
+| **Para que eu possa** | Fazer login com outra conta |
+| **Pontos** | 2 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** |  > Botão na parte de ajustes que ao apertar, usuário desloga; |
+| **Rastreabilidade** | Caso de uso [UC1](../casos_de_uso/#uc1-fazer-login)|
 
 ### EP05 -  Código de segurança
 
