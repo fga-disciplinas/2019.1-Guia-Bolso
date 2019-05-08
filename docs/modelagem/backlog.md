@@ -688,7 +688,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Desejo** | Fazer um planejamento de gastos no mês |
 | **Para que eu** | Possa ter um teto e mais controle dos meus gastos | 
 | **Pontos** | 2 |
-| **Prioridade** | Should |
+| **Prioridade** | Must |
 | **Critérios de aceitação** | > O novo planejamento deverá aparecer como ponto máximo no gráfico de "Gasto Planejado"; <br> > Deverá ter um alerta ao usuário quando o teto for atingido. |
 | **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-fincanceiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
@@ -701,7 +701,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Desejo** | Fazer um planejamento de renda do mês |
 | **Para que eu** | Possa ter uma meta de quanto vou ter de receita no mês | 
 | **Pontos** | 2 |
-| **Prioridade** | Should |
+| **Prioridade** | Must |
 | **Critérios de aceitação** | > O novo planejamento deverá aparecer como ponto máximo no gráfico de "Renda Planejada"; <br> > Deverá ter um alerta ao usuário quando ele conseguir a renda planejada. |
 | **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-fincanceiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
@@ -713,11 +713,36 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Eu, como** | Usuário |
 | **Desejo** | Ter um limite de gastos por categoria de consumo |
 | **Para que eu** | Não gaste mais do que gostaria numa categoria | 
-| **Pontos** | 2 |
+| **Pontos** | 3 |
 | **Prioridade** | Should |
 | **Critérios de aceitação** | > O usuário tem que ver o quanto falta pra ele atingir o limite de gastos numa categoria; <br> > Além das categorias existentes no aplicativo, o usuário poderá criar novas para fazer o planejamento de gastos. |
+| **Rastreabilidade** | [Questionário] (../../elicitacao-de-requisitos/questionario) |
+
+#### US54 - Categorizar renda 
+
+| **US54** | Categorizar renda |
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Ter um planejamento por categoria de rendimento |
+| **Para que eu** | Saiba claramente o quanto estou ganhando com cada tipo de rendimento | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O usuário tem que ver o quanto falta pra ele atingir a meta de renda numa categoria; <br> > Além das categorias existentes no aplicativo, o usuário poderá criar novas para fazer o planejamento de renda. |
 | **Rastreabilidade** | [Questionário] (../../elicitacao-de-requisitos/questionario/) |
 
+#### US55 - Meses Futuros 
+
+| **US55** | Meses futuros |
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Visualizar meu planejamento de gastos e de renda para os meses futuros |
+| **Para que eu** | Possa me planejar a longo prazo | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá ter uma aba para visualização do planejamento dos meses que faltam para acabar o ano corrente e do próximo ano, baseado no planejamento do mês atual; <br> > Deverá ser possível que o usuário edite o planejamento de meses futuros. |
+| **Rastreabilidade** | Léxico [L18](../lexicos/#l18-meses-futuros) |
 
 ### EP12 -  Estatísticas
 
