@@ -46,52 +46,52 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T2 - Cadastro & Autenticação | [EP06 - Perfil do usuário](#ep06-perfil-do-usuario) | [US22 Trocar senha](#us22-trocar-senha) |
 | T2 - Cadastro & Autenticação | [EP06 - Perfil do usuário](#ep06-perfil-do-usuario) | [US23 Sistema de troca de senha](#us23-sistema-de-troca-de-senha) |
 | T2 - Cadastro & Autenticação | [EP06 - Perfil do usuário](#ep06-perfil-do-usuario) | [US24 Visualizar email](#us24-visualizar-email) |
-| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
-| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
-| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
-| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
-| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) |
-| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US36 Veracidade de Dados](#us36-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US37 - Privacidade de Dados](#us37-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US38 - Estatísticas de Usuários](#us38-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US39 - Feedback de Cards](#us39-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US40 - Segurança de Rede](#us40-seguranca-de-rede) | 
-| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US41 Visualizar transações no extrato](#us41-visualizar-transacoes-no-extrato) |
-| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US42 Visualizar detalhes de uma transação](#us42-visualizar-detalhes-de-uma-transacao) |
-| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US43 Ignorar uma transação](#us43-ignorar-uma-transacao) |
-| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US44 Adicionar comentários e tags em uma transação](#us44-adicionar-comentarios-e-tags-em-uma-transacao) |
-| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US45 Editar dados da transação](#us45-editar-dados-da-transacao) |
-| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US46 Elaborar um tutorial para usar a agenda](#us46-elaborar-tutorial-para-usar-a-agenda) |
-| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US47 Adicionar transação na agenda](#us47-adicionar-transacao-na-agenda) |
-| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US48 Visualizar contas registradas na agenda](#us48-visualizar-contas-registradas-na-agenda) |
-| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US49 Editar contas registradas na agenda](#us49-editar-contas-registradas-na-agenda) |
-| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US50 Excluir contas registradas na agenda](#us50-excluir-contas-registradas-na-agenda) |
-| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US51 Planejar gastos](#us51-planejar-gastos) |
-| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US52 Planejar renda](#us52-planejar-renda) |
-| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US53 Categorizar gasto](#us53-categorizar-gasto) |
-| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US54 Categorizar renda](#us54-categorizar-renda) |
-| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US55 Meses Futuros](#us55-meses-futuras) |
-| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US56 Gastos do usuario](#us56-gastos-do-usuario) |
-| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US57 Gastos dos últimos meses](#us57-gastos-dos-ultimos-meses-por-categoria) |
-| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US58 Gastos e rendas dos últimos meses](#us58-gastos-e-rendas-dos-ultimos-meses) |
-| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US59 Renda dos últimos meses](#us59-rendas-dos-ultimos-por-categoria) |
-| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US60 Estatísticas para parceiros](#us60-estatisticas-para-os-parceiros) |
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US64 Buscar dados de fontes externas](#us64-buscar-dados-de-fontes-externas) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US65 Indicar se as dicas foram realmente úteis](#us65-indicar-se-as-dicas-foram-realmente-uteis)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US66 Visualizar status de avaliação de crédito](#us66-visualizar-status-de-avaliacao-de-credito)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US67 Informar score](#us67-informar-score) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US68 Realizar integração com terceiros](#us68-realizar-integracao-com-terceiros) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US69 Visualizar empresas que consultaram meu CPF](#us69-visualizar-empresas-que-consultaram-meu-cpf) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US70 Permitir participar do cadastro positivo](#us70-permitir-participar-do-cadastro-positivo) |
-| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
-| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US72 Visualizar cupons de desconto](#us72-visualizar-cupons-de-desconto) | 
-| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US73 Exibir blogs de parceiros](#us73-exibir-blogs-de-parceiros) | 
-| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US74 Exibir anúncios direcionados](#us74-exibir-anuncios-direcionados) | 
-| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US75 Disponibilizar cartões de bancos](#us75-disponibilizar-cartoes-de-bancos) | 
-| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
-| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US77 Contratar empréstimo ](#us77-contratar-emprestimo) | 
-| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US78 Disponibilizar ofertas de empréstimos ](#us78-disponibilizar-ofertas-de-emprestimos) | 
-| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US79 Garantir um ambiente seguro para os empréstimos ](#us79-garantir-um-ambiente-seguro-para-os-emprestimos) | 
-| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US80 Percentual de lucro ](#us80-percentual-de-lucro) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US25 Cadastrar uma nova conta ou cartão ](#us25-cadastrar-uma-nova-conta-ou-cartao) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US26 Visualizar contas e cartões cadastrados ](#us26-visualizar-contas-e-cartoes-cadastrados) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US27 Remover conta ou cartão ](#us27-remover-conta-ou-cartao) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US28 Sincronizar informações ](#us28-sincronizar-informacoes) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US29 Visualizar os status de sincronização](#us29-visualizar-os-status-de-sincronizacao) |
+| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US30 Veracidade de Dados](#us30-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US31 - Privacidade de Dados](#us31-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US32 - Estatísticas de Usuários](#us32-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US33 - Feedback de Cards](#us33-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US34 - Segurança de Rede](#us34-seguranca-de-rede) | 
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US35 Visualizar transações no extrato](#us35-visualizar-transacoes-no-extrato) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US36 Visualizar detalhes de uma transação](#us36-visualizar-detalhes-de-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US37 Ignorar uma transação](#us37-ignorar-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US38 Adicionar comentários e tags em uma transação](#us38-adicionar-comentarios-e-tags-em-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US39 Editar dados da transação](#us39-editar-dados-da-transacao) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US40 Elaborar um tutorial para usar a agenda](#us40-elaborar-tutorial-para-usar-a-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US41 Adicionar transação na agenda](#us41-adicionar-transacao-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US42 Visualizar contas registradas na agenda](#us42-visualizar-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US43 Editar contas registradas na agenda](#us43-editar-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US44 Excluir contas registradas na agenda](#us44-excluir-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US45 Planejar gastos](#us45-planejar-gastos) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US46 Planejar renda](#us46-planejar-renda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US47 Categorizar gasto](#us47-categorizar-gasto) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US48 Categorizar renda](#us48-categorizar-renda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US49 Meses Futuros](#us49-meses-futuras) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US50 Gastos do usuario](#us50-gastos-do-usuario) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US51 Gastos dos últimos meses](#us51-gastos-dos-ultimos-meses-por-categoria) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US52 Gastos e rendas dos últimos meses](#us52-gastos-e-rendas-dos-ultimos-meses) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US53 Renda dos últimos meses](#us53-rendas-dos-ultimos-por-categoria) |
+| T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US54 Estatísticas para parceiros](#us54-estatisticas-para-os-parceiros) |
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US55 Coletar informações de fluxo crédito](#us55-coletar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US56 Analisar informações de fluxo crédito](#us56-analisar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US57 Visualizar dicas de controle financeiro](#us57-visualizar-dicas-de-controle-financeiro)|
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US58 Buscar dados de fontes externas](#us58-buscar-dados-de-fontes-externas) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US59 Indicar se as dicas foram realmente úteis](#us59-indicar-se-as-dicas-foram-realmente-uteis)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US60 Visualizar status de avaliação de crédito](#us60-visualizar-status-de-avaliacao-de-credito)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US61 Informar score](#us61-informar-score) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US62 Realizar integração com terceiros](#us62-realizar-integracao-com-terceiros) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US63 Visualizar empresas que consultaram meu CPF](#us63-visualizar-empresas-que-consultaram-meu-cpf) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US64 Permitir participar do cadastro positivo](#us64-permitir-participar-do-cadastro-positivo) |
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US65 Visualizar ofertas de crédito](#us65-visualizar-ofertas-de-credito) |
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US66 Visualizar cupons de desconto](#us66-visualizar-cupons-de-desconto) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US67 Exibir blogs de parceiros](#us67-exibir-blogs-de-parceiros) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US68 Exibir anúncios direcionados](#us68-exibir-anuncios-direcionados) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US69 Disponibilizar cartões de bancos](#us69-disponibilizar-cartoes-de-bancos) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US70 Simular um empréstimo](#us70-simular-um-emprestimo) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US71 Contratar empréstimo ](#us71-contratar-emprestimo) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US72 Disponibilizar ofertas de empréstimos ](#us72-disponibilizar-ofertas-de-emprestimos) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US73 Garantir um ambiente seguro para os empréstimos ](#us73-garantir-um-ambiente-seguro-para-os-emprestimos) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US74 Percentual de lucro ](#us74-percentual-de-lucro) | 
 
 ### EP01 -  Documentos
 
@@ -419,9 +419,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP07 -  Contas e cartões
 
-#### US31 - Cadastrar uma nova conta ou cartão
+#### US25 - Cadastrar uma nova conta ou cartão
 
-| US31 | Cadastrar uma nova conta ou cartão |
+| US25 | Cadastrar uma nova conta ou cartão |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -432,9 +432,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
-#### US32 - Visualizar contas e cartões cadastrados
+#### US26 - Visualizar contas e cartões cadastrados
 
-| US32 | Visualizar contas e cartões cadastrados |
+| US26 | Visualizar contas e cartões cadastrados |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -445,9 +445,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
-#### US33 - Remover conta ou cartão
+#### US27 - Remover conta ou cartão
 
-| US33 | Remover conta ou cartão |
+| US27 | Remover conta ou cartão |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -458,9 +458,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
-#### US34 - Sincronizar informações
+#### US28 - Sincronizar informações
 
-| US34 | Sincronizar informações |
+| US28 | Sincronizar informações |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -471,9 +471,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
-#### US35 - Visualizar os status de sincronização
+#### US29 - Visualizar os status de sincronização
 
-| US35 | Visualizar os status de sincronização |
+| US29 | Visualizar os status de sincronização |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -486,9 +486,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP08 -  Troca de dados
 
-#### US36 - Veracidade de Dados
+#### US30 - Veracidade de Dados
 
-| US36 | Veracidade de dados |
+| US30 | Veracidade de dados |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -499,9 +499,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve verificar se os dados de contas e cartões informados são reais; <br> > O app deve confirmar a veracidade dos dados com os bancos e instituições financeiras referentes aos dados informados; |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
-#### US37 - Privacidade de Dados
+#### US31 - Privacidade de Dados
 
-| US37 | Privacidade de dados |
+| US31 | Privacidade de dados |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor|
@@ -512,9 +512,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve garantir que os dados de contas e cartões informados trafegam em redes seguras; |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
-#### US38 - Estatisticas de Usuarios
+#### US32 - Estatisticas de Usuarios
 
-| US38 | Estatísticas de usuários |
+| US32 | Estatísticas de usuários |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Instituição Financeira |
@@ -525,9 +525,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve enviar dados a respeito dos gastos para as instituições financeiras;<br> > O app deve garantir que a rede em que os dados trafegam seja segura. |
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
-#### US39 - FeedBack de Cards
+#### US33 - FeedBack de Cards
 
-| US39 | FeedBack de Cards|
+| US33 | FeedBack de Cards|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -538,9 +538,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve disponibilizar uma área para feedbacks de Cards;|
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
-#### US40 - Segurança de Rede
+#### US34 - Segurança de Rede
 
-| US40 | Segurança de Rede |
+| US34 | Segurança de Rede |
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -553,9 +553,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP09 -  Extrato
 
-#### US41 - Visualizar transações no extrato
+#### US35 - Visualizar transações no extrato
 
-| **US41** | Visualizar transações |
+| **US35** | Visualizar transações |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -566,9 +566,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > A transação deverá como padrão, ser nomeada com o nome do estabelecimento; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá ser possível filtrar as transações entre Gastos e Rendas; <br> > Deverá ser possível visualizar extrato de meses passados. |
 | **Rastreabilidade** | RichPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario), Cenário [C12](../cenarios/#c12-ir-para-extrato) &  Caso de uso [UC3](../casos_de_uso/#uc3-visualizar-extrato)|
 
-#### US42 - Visualizar detalhes de uma transação
+#### US36 - Visualizar detalhes de uma transação
 
-| **US42** | Visualizar detalhes de uma transação |
+| **US36** | Visualizar detalhes de uma transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -579,9 +579,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > Deverá conter o nome da transação; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá conter a categoria que a transação pertence; <br> > Deverá conter o banco em que a transação pertence.|
 | **Rastreabilidade** | Léxico [L40](../lexicos/#l40-transacao), Cenário [C12](../cenarios/#c12-ir-para-extrato) &  Caso de uso [UC3](../casos_de_uso/#uc3-visualizar-extrato)|
 
-#### US43 - Ignorar uma transação
+#### US37 - Ignorar uma transação
 
-| **US43** | Ignorar uma transação |
+| **US37** | Ignorar uma transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -592,9 +592,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá ter uma opção para ignorar a transação, bem como a ação de reverter este status. |
 | **Rastreabilidade** | Léxico [L14](../lexicos/#l14-transacoes-ignoradas), Cenário [C07](../cenarios/#c07-ignorar-transacao) & Caso de uso [UC17](../casos_de_uso/#uc17-ignorar-transacao)|
 
-#### US44 - Adicionar comentários e tags em uma transação
+#### US38 - Adicionar comentários e tags em uma transação
 
-| **US44** | Adicionar comentários e tags em uma transação |
+| **US38** | Adicionar comentários e tags em uma transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -605,9 +605,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá ter um campo opcional para inserir um comentário ou uma tag; <br> > Deverá constar o comentário apenas nos detalhes da transação.|
 | **Rastreabilidade** | Cenário [C17](../cenarios/#c07-adicionar-comentario-numa-transacao) & Caso de uso [UC18](../casos_de_uso/#uc18-comentar-transacao) e [UC8](../casos_de_uso/#uc8-editar-transacao) |
 
-#### US45 - Editar dados da transação
+#### US39 - Editar dados da transação
 
-| **US45** | Editar dados da transação |
+| **US39** | Editar dados da transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -621,9 +621,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP10 -  Agenda
 
-#### US46 - Elaborar um tutorial para usar a agenda
+#### US40 - Elaborar um tutorial para usar a agenda
 
-| US46 | Elaborar um tutorial para usar a agenda |
+| US40 | Elaborar um tutorial para usar a agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -634,9 +634,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
 | **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
-#### US47 - Adicionar transação na agenda
+#### US41 - Adicionar transação na agenda
 
-| US47 | Adicionar transação na agenda |
+| US41 | Adicionar transação na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -647,9 +647,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> > Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
 | **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
 
-#### US48 - Visualizar contas registradas na agenda
+#### US42 - Visualizar contas registradas na agenda
 
-| US48 | Visualizar contas registradas na agenda |
+| US42 | Visualizar contas registradas na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -660,9 +660,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá conter o nome da operação; <br> > Deverá ter uma label da categoria "a pagar" ou "a receber", "pago" e "recebido" com as cores específicas de cada uma; <br> > Deverá conter o preço da operação; <br> > Deverá conter a data prazo da conta; <br> > Deverá ter a opção de adicionar nova operação; <br> > Deverá ter um quadro para visualizar o total de renda a receber ou a pagar; <br> > Deverá ser possível visualizar agenda de meses passados. |
 | **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda) e [L18](../lexicos/#l18-meses-futuros) |
 
-#### US49 - Editar contas registradas na agenda
+#### US43 - Editar contas registradas na agenda
 
-| US49 | Editar contas registradas na agenda |
+| US43 | Editar contas registradas na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -673,9 +673,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deverá ser possível editar o nome da operação; <br> > Deverá ser possível editar o preço da operação; <br> > Deverá mostrar a label do tipo da operação; <br> > Deverá ter a opção de ativar ou desativar a notificação no prazo; <br> > Deverá ter a opção de marcar a conta como "recebida" ou "paga". |
 | **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
-#### US50 - Excluir contas registradas na agenda
+#### US44 - Excluir contas registradas na agenda
 
-| US50 | Excluir contas registradas na agenda |
+| US44 | Excluir contas registradas na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -689,9 +689,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP11 -  Planejamento
 
-#### US51 - Planejar gastos 
+#### US45 - Planejar gastos 
 
-| **US51** | Planejar gastos |
+| **US45** | Planejar gastos |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -702,9 +702,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O novo planejamento deverá aparecer como ponto máximo no gráfico de "Gasto Planejado"; <br> > Deverá ter um alerta ao usuário quando o teto for atingido. |
 | **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
-#### US52 - Planejar renda 
+#### US46 - Planejar renda 
 
-| **US52** | Planejar renda |
+| **US46** | Planejar renda |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -715,9 +715,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O novo planejamento deverá aparecer como ponto máximo no gráfico de "Renda Planejada"; <br> > Deverá ter um alerta ao usuário quando ele conseguir a renda planejada. |
 | **Rastreabilidade** | RichPicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) & RichiPicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
-#### US53 - Categorizar gasto 
+#### US47 - Categorizar gasto 
 
-| **US53** | Categorizar gasto |
+| **US47** | Categorizar gasto |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -728,9 +728,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O usuário tem que ver o quanto falta pra ele atingir o limite de gastos numa categoria; <br> > Além das categorias existentes no aplicativo, o usuário poderá criar novas para fazer o planejamento de gastos. |
 | **Rastreabilidade** | [Questionário](../../elicitacao-de-requisitos/questionario/) |
 
-#### US54 - Categorizar renda 
+#### US48 - Categorizar renda 
 
-| **US54** | Categorizar renda |
+| **US48** | Categorizar renda |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -741,9 +741,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O usuário tem que ver o quanto falta pra ele atingir a meta de renda numa categoria; <br> > Além das categorias existentes no aplicativo, o usuário poderá criar novas para fazer o planejamento de renda. |
 | **Rastreabilidade** | [Questionário](../../elicitacao-de-requisitos/questionario/) |
 
-#### US55 - Meses Futuros 
+#### US49 - Meses Futuros 
 
-| **US55** | Meses futuros |
+| **US49** | Meses futuros |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -756,9 +756,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP12 -  Estatísticas
 
-#### US56 - Gastos do usuário 
+#### US50 - Gastos do usuário 
 
-| **US56** | Gastos do usuário |
+| **US50** | Gastos do usuário |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -769,9 +769,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O usuário deve saber que o desenvolvedor tem acesso a esse tipo de estatíscas.|
 | **Rastreabilidade** | Argumentação [ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privaciade-do-usuario) |
 
-#### US57 - Gastos dos últimos meses por categoria 
+#### US51 - Gastos dos últimos meses por categoria 
 
-| **US57** | Gastos dos últimos meses por categoria|
+| **US51** | Gastos dos últimos meses por categoria|
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -782,9 +782,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Essas estatísticas deverão ser mostradas graficamente; <br> > O usuário poderá escolher os meses para comparação. |
 | **Rastreabilidade** | Não possui |
 
-#### US58 - Gastos e rendas dos últimos meses 
+#### US52 - Gastos e rendas dos últimos meses 
 
-| **US58** | Gastos rendas dos últimos meses |
+| **US52** | Gastos rendas dos últimos meses |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -795,9 +795,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Essas estatísticas deverão ser mostradas graficamente; <br> > O usuário poderá escolher os meses para comparação. |
 | **Rastreabilidade** | Não possui |
 
-#### US59 - Rendas dos últimos por categoria 
+#### US53 - Rendas dos últimos por categoria 
 
-| **US59** | Rendas dos últimos meses por categoria|
+| **US53** | Rendas dos últimos meses por categoria|
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -808,9 +808,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Essas estatísticas deverão ser mostradas graficamente; <br> > O usuário poderá escolher os meses para comparação. |
 | **Rastreabilidade** | Não possui |
 
-#### US60 - Estatísticas para os parceiros 
+#### US54 - Estatísticas para os parceiros 
 
-| **US56** | Gastos do usuário |
+| **US50** | Gastos do usuário |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
 | **Eu, como** | Parceiro |
@@ -824,9 +824,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP13 -  Dicas
 
-#### US61 Coletar informações de fluxo crédito
+#### US55 Coletar informações de fluxo crédito
 
-| **US61** | **Coletar informações de fluxo crédito**|
+| **US55** | **Coletar informações de fluxo crédito**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -837,9 +837,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deve ser capaz de coletar dados do usuário; <br> > Deve armazenar coleta em um banco; <br> > Deve ter capacidade de utilizar os dados do usuário. |
 | **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
-#### US62 Analisar informações de fluxo crédito
+#### US56 Analisar informações de fluxo crédito
 
-| **US62** | **Analisar informações de fluxo crédito**|
+| **US56** | **Analisar informações de fluxo crédito**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -850,9 +850,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Funcionalidades capazes de tratar possíveis situações financeiras; <br> > Deve existir o pior caso; <br> > Deve existir um caso comum; <br> > Deve existir o melhor caso; <br> > Deve Informar ao usuário da situação e como tratar-la. |
 | **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
-#### US63 Visualizar dicas de controle financeiro
+#### US57 Visualizar dicas de controle financeiro
 
-| **US63** | **Visualizar dicas de controle financeiro**|
+| **US57** | **Visualizar dicas de controle financeiro**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -863,9 +863,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário. |
 | **Rastreabilidade** | Cenário [C14](../cenarios/#c14-verificar-dicas) & Caso de Uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) & Léxico [L32](../lexicos/#l32-guia) |
 
-#### US64 Buscar dados de fontes externas
+#### US58 Buscar dados de fontes externas
 
-| **US64** | **Buscar dados de fontes externas**|
+| **US58** | **Buscar dados de fontes externas**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -876,9 +876,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deve existir informações de terceiros; <br> > O aplicativo buscar informações em fontes reconhecidas; <br> > Atualizar frequentemente as fontes; <br> > Trazer novas fontes. |
 | **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
-#### US65 Indicar se as dicas foram realmente úteis
+#### US59 Indicar se as dicas foram realmente úteis
 
-| **US65** | **Indicar se as dicas foram realmente úteis**|
+| **US59** | **Indicar se as dicas foram realmente úteis**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -891,9 +891,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP14 -  Serasa
 
-#### US66 Visualizar status de avaliação de crédito
+#### US60 Visualizar status de avaliação de crédito
 
-| **US66** | **Visualizar dúvidas frequentes**|
+| **US60** | **Visualizar dúvidas frequentes**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -904,9 +904,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deve coletar dados do serasa; <br> > Deve informar ao usuário seu status; <br> > Deve impactar ao usuário sobre a condição. |
 | **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
-#### US67 Informar score
+#### US61 Informar score
 
-| **US67** | **Visualizar dúvidas frequentes**|
+| **US61** | **Visualizar dúvidas frequentes**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -917,9 +917,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Pode informar score do usuário; <br> > Deve está relacionada ao status informado; <br> > Pode haver parâmetro de embasamento. |
 | **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
-#### US68 Realizar integração com terceiros
+#### US62 Realizar integração com terceiros
 
-| **US68** | **Realizar integração com terceiros**|
+| **US62** | **Realizar integração com terceiros**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -930,9 +930,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deve atualizar dados frequentemente; <br> > Deve comparar com situação anterior; <br> > Deve alterar status do usuário. |
 | **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
-#### US69 Visualizar empresas que consultaram meu CPF
+#### US63 Visualizar empresas que consultaram meu CPF
 
-| **US69** | **Visualizar empresas que consultaram meu CPF**|
+| **US63** | **Visualizar empresas que consultaram meu CPF**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -943,9 +943,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Deve informar instituições financeiras; <br> > Deve informar consultas feitas instituições financeiras; <br> > Deve informar quais instituições sujaram o nome do usuário. |
 | **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
-#### US70 Permitir participar do cadastro positivo
+#### US64 Permitir participar do cadastro positivo
 
-| **US70** | **Permitir participar do cadastro positivo**|
+| **US64** | **Permitir participar do cadastro positivo**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -959,9 +959,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP15 -  Propagandas
 
-#### US71 Visualizar ofertas de crédito
+#### US65 Visualizar ofertas de crédito
 
-| **US71** | **Visualizar ofertas de crédito**|
+| **US65** | **Visualizar ofertas de crédito**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -972,9 +972,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve deixar claro que se trata de um anuncio; <br> > A instituição financeira deve estar de acordo com as regras de privacidade e termos de uso do Guiabolso; <br> > Deve ser exibido de forma discreta; |
 | **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
 
-#### US72 Visualizar cupons de desconto
+#### US66 Visualizar cupons de desconto
 
-| **US72** | **Visualizar cupons de desconto**|
+| **US66** | **Visualizar cupons de desconto**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -985,9 +985,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O cupom deve ser validado pela equipe do Guiabolso; <br> > Os cupons exibidos devem ser de interesse do usuário (direcionados); <br> > Os cupons não devem ser exibidos se expirados |
 | **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
 
-#### US73 Exibir blogs de parceiros
+#### US67 Exibir blogs de parceiros
 
-| **US73** | **Exibir blogs de parceiros**|
+| **US67** | **Exibir blogs de parceiros**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -998,9 +998,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O blog deve ser um parceiro do Guiabolso; <br> > A postagem do blog no guiabolso deve ser discreta, exibida dentro de um card como se fosse apenas mais uma informação; <br> > A postagem completa deve ser exibida dentro do Guiabolso, e se, e somente se, o usuário clicar no respectivo card |
 | **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
 
-#### US74 Exibir anuncios direcionados
+#### US68 Exibir anuncios direcionados
 
-| **US74** | **Exibir anuncios direcionados**|
+| **US68** | **Exibir anuncios direcionados**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -1011,9 +1011,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve deixar claro que se trata de um anuncio; <br> > O anuncio não pode ferir a privacidade do usuário; <br> > O anuncio deve ser discreto, exibido dentro de um card como se fosse apenas mais uma informação; <br> > A anuncio completo deve ser exibido somente se o usuário clicar no card |
 | **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
 
-#### US75 Disponibilizar cartões de bancos
+#### US69 Disponibilizar cartões de bancos
 
-| **US75** | **Disponibilizar cartões de bancos**|
+| **US69** | **Disponibilizar cartões de bancos**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Anunciante |
@@ -1026,9 +1026,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP16 -  Empréstimos
 
-#### US76 Simular um empréstimo
+#### US70 Simular um empréstimo
 
-| **US76** | **Simular um empréstimo**|
+| **US70** | **Simular um empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -1039,9 +1039,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > O app deve exibir prazos, valores e juros de forma clara e objetiva; <br> > Deve ser possível simular um empréstimo a qualquer momento; <br> > A simulação não pode, de forma alguma, resultar num empréstimo imediato (uma simulação não pode ser um empréstimo real); <br> > A simulação deve me  dar a opção de contratar aquele empréstimo; <br> > O cliente deve poder escolher o melhor dia de pagamento e prazos; |
 | **Rastreabilidade** | Cenário [C8](../cenarios/#c8-simular-um-emprestimo) &  Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
-#### US77 Contratar empréstimo
+#### US71 Contratar empréstimo
 
-| **US77** | **Contratar empréstimo**|
+| **US71** | **Contratar empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Usuário |
@@ -1053,9 +1053,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Rastreabilidade** | Richpictures [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
 
-#### US78 Disponibilizar ofertas de empréstimos
+#### US72 Disponibilizar ofertas de empréstimos
 
-| **US78** | **Disponibilizar ofertas de empréstimos**|
+| **US72** | **Disponibilizar ofertas de empréstimos**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Parceiro |
@@ -1066,9 +1066,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Critérios de aceitação** | > Estar de acordo com os termos de uso do Guiabolso; <br> > Garantir a segurança dos dados dos usuários do Guiabolso; <br> > Ser um parceiro do Guiabolso; <br>  |
 | **Rastreabilidade** | Richpictures [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
-#### US79 Garantir um ambiente seguro para os empréstimos
+#### US73 Garantir um ambiente seguro para os empréstimos
 
-| **US79** | **Garantir um ambiente seguro para os empréstimos**|
+| **US73** | **Garantir um ambiente seguro para os empréstimos**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Desenvolvedor |
@@ -1080,10 +1080,10 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Rastreabilidade** | Richpictures [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo) e [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
 
-#### US80 Percentual de lucro
+#### US74 Percentual de lucro
 
 
-| **US80** | **Percentual de lucro**|
+| **US74** | **Percentual de lucro**|
 |--|--|
 | **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
 | **Eu, como** | Investidor |
