@@ -37,6 +37,7 @@ pages:
     - Léxicos: 'modelagem/lexicos.md'
     - Especificação Suplementar: 'modelagem/especificacao.md'
     - Casos de uso: 'modelagem/casos_de_uso.md'
+    - Backlog do produto: 'modelagem/backlog.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
   
