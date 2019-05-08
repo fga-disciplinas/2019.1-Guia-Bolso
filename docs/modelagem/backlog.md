@@ -72,7 +72,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve disponibilizar Documentação; <br> > Deve mostrar dúvidas frequentes; <br> > Deve informar usuário de como funciona o aplicativo; <br> > Deve informar dados sobre a empresa do Guiabolso; <br> > Deve informar parcerias com o Guiabolso.|
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Não há |
 
 #### US02 Documentar e agrupar dúvidas dos usuários
 
@@ -85,7 +85,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve disponibilizar ao usuário dúvidas básicas; <br> > Aplicativo deve explicar quaisquer funcionalidade; <br> > Deve usar informações intuitivas; <br> > Deve atualizar com frequência as dúvidas conforme atualizações do aplicativo. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Nã0 há |
 
 #### US03 Visualizar dúvidas frequentes
 
@@ -97,8 +97,8 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Para que eu possa** | Analisar se sua dúvida já possui alguma resposta |
 | **Pontos** | 5 |
 | **Prioridade** | Should |
-| **Critérios de aceitação** |  |
-| **Rastreabilidade** | |
+| **Critérios de aceitação** | > Deve agrudar dúvidas com mais acessos; <br> > Criar uma lista de acesso rápido para estas dúvidas <br> Criar mecanismo de busca para estas dúvidas |
+| **Rastreabilidade** | Não há |
 
 #### US04 Medir eficiência da resposta para uma pergunta
 
@@ -111,7 +111,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve estabelecer um tempo médio para as funcionalidades; <br> > Deve mostrar funcionalidades da melhor forma e rapidez; <br> > Deve tratar perdas de eficiência; <br> > Deve tratar dados que sejam necessários; <br> > Deve haver exceções para quantidade e qualidade. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Nã0 há |
 
 #### US05 Medir índice de utilização de funções da aplicação
 
@@ -124,7 +124,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Could |
 | **Critérios de aceitação** | > Poderia acompanhar funções mais acessadas; <br> > Poderia fazer melhorias conforme a coleta feita pelo acompanhamento; <br> > Poderia melhorar funcionalidades que são menos utilizadas. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Não há |
 
 ### EP02 -  Suporte
 
