@@ -52,6 +52,16 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) |
 | T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US36 Veracidade de Dados](#us36-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US37 - Privacidade de Dados](#us37-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US38 - Estatísticas de Usuários](#us38-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US39 - Feedback de Cards](#us39-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US40 - Segurança de Rede](#us40-seguranca-de-rede) | 
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US41 Visualizar transações no extrato](#us41-visualizar-transacoes-no-extrato) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US42 Visualizar detalhes de uma transação](#us42-visualizar-detalhes-de-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US43 Ignorar uma transação](#us43-ignorar-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US44 Adicionar comentários e tags em uma transação](#us44-adicionar-comentarios-e-tags-em-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US45 Editar dados da transação](#us45-editar-dados-da-transacao) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US46 Elaborar um tutorial para usar a agenda](#us46-elaborar-tutorial-para-usar-a-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US47 Adicionar transação na agenda](#us47-adicionar-transacao-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US48 Visualizar contas registradas na agenda](#us48-visualizar-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US49 Editar contas registradas na agenda](#us49-editar-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US50 Excluir contas registradas na agenda](#us50-excluir-contas-registradas-na-agenda) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
