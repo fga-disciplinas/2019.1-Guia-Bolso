@@ -58,13 +58,14 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | Tema | Épico | ID & Nome |
 |--|--|--|
+| T2 - Cadastro & Autenticação | [EP03 - Cadastro](#ep03-cadastro) | [US1 Elaborar formulário](#us1-elaborar-formulario) |
+| T6 - Lucros | [Propagandas](#ep15-propagandas) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
+| T6 - Lucros | [Propagandas](#ep15-propagandas) | [US77 Contratar empréstimo ](#us77-contratar-emprestimo) | 
 | T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
 | T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US77 Contratar empréstimo ](#us77-contratar-emprestimo) | 
 | T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US78 Disponibilizar ofertas de empréstimos ](#us78-disponibilizar-ofertas-de-emprestimos) | 
 | T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US79 Garantir um ambiente seguro para os empréstimos ](#us79-garantir-um-ambiente-seguro-para-os-emprestimos) | 
 | T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US80 Percentual de lucro ](#us80-percentual-de-lucro) | 
-
-
 
 ### EP01 -  Documentos
 
@@ -74,6 +75,19 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 ### EP02 -  Suporte
 
 ### EP03 -  Cadastro
+
+#### US1 Elaborar formulário
+
+| **US1** | **Elaborar formulário**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um formulário com os dados cadastrais do usuário |
+| **Para que eu possa** | Efetuar o cadastro no aplicativo |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Implementar um formulário possuir todos os dados esperados; <br> > Ser capaz de criptografar os dados antes de colocar no banco; <br> > O usuário ser capaz de acessar seus dados a partir do seus dados cadastrais; <br> > Integrar opção de click dos botões com envio pro sistema de validação;|
+| **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
 
 ### EP04 -  Login & logout
 
