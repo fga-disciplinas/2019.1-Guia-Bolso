@@ -19,14 +19,31 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### Índice de US's
 
+
 | Tema | Épico | ID & Nome |
 |--|--|--|
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US01 Elaborar testes de usabilidade](#us01-elaborar-testes-de-usabilidade) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US02 Documentar e agrupar dúvidas dos usuários](#us02-documentar-e-agrupar-duvidas-dos-usuarios) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US03 Visualizar dúvidas frequentes](#us03-visualizar-duvidas-frequentes) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US04 Medir eficiência da resposta para um tópico/pergunta](#us04-medir-eficiencia-da-resposta-para-um-topico/pergunta) | 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US05 Elaborar um chat](#us05-elaborar-um-chat)| 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US06 Disponibilizar quaisquer meio de contato para o usuário](#us06-disponibilizar-quaisquer-meio-de-contato-para-o-usuario) | 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US07 Realizar enquete](#us07-realizar-enquete) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) | 
-| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Coletar informações de fluxo crédito](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Analisar informações de fluxo crédito](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis ou não](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar status de avaliação de crédito](#us76-visualizar-status-de-avaliacao) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Elaborar testes de usabilidade](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Realizar integração com terceiros](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar empresas que consultaram meu CPF](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Permitir participar, através do Guiabolso, do cadastro positivo](#us76-simular-um-emprestimo) || T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US72 Visualizar cupons de desconto](#us72-visualizar-cupons-de-desconto) | 
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US73 Exibir blogs de parceiros](#us73-exibir-blogs-de-parceiros) | 
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US74 Exibir anúncios direcionados](#us74-exibir-anuncios-direcionados) | 
@@ -37,13 +54,27 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US79 Garantir um ambiente seguro para os empréstimos ](#us79-garantir-um-ambiente-seguro-para-os-emprestimos) | 
 | T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US80 Percentual de lucro ](#us80-percentual-de-lucro) | 
 
-
-
 ### EP01 -  Documentos
+
+#### US01 Elaborar testes de usabilidade
+
 
 ### EP02 -  Suporte
 
 ### EP03 -  Cadastro
+
+#### US1 Elaborar formulário
+
+| **US1** | **Elaborar formulário**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um formulário com os dados cadastrais do usuário |
+| **Para que eu possa** | Efetuar o cadastro no aplicativo |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Implementar um formulário possuir todos os dados esperados; <br> > Ser capaz de criptografar os dados antes de colocar no banco; <br> > O usuário ser capaz de acessar seus dados a partir do seus dados cadastrais; <br> > Integrar opção de click dos botões com envio pro sistema de validação;|
+| **Rastreabilidade** | Cenário [C13](../cenarios/#c13-criar-uma-conta) &  Caso de uso [UC2](../casos_de_uso/#uc2-cadastrar-usuario)|
 
 ### EP04 -  Login & logout
 
