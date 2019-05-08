@@ -43,11 +43,11 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us#-visualizar-dicas-de-controle-financeiro)|
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us#-buscar-dados-de-fontes-externas) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis](#us#-indicar-se-as-dicas-foram-realmente-uteis)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar status de avaliação de crédito](#us#-visualizar-status-de-avaliacao-de-credito)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Elaborar testes de usabilidade](#us#-elaborar-testes-de-usabilidade) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Realizar integração com terceiros](#us#-realizar-integracao-com-terceiros) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar empresas que consultaram meu CPF](#us#-visualizar-empresas-que-consultaram-meu-cpf) | 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Permitir participar do cadastro positivo](#us#-permitir-participar-do-cadastro-positivo) |
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US66 Visualizar status de avaliação de crédito](#us66-visualizar-status-de-avaliacao-de-credito)| 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US67 Informar score](#us67-informar-score) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US68 Realizar integração com terceiros](#us68-realizar-integracao-com-terceiros) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US69 Visualizar empresas que consultaram meu CPF](#us69-visualizar-empresas-que-consultaram-meu-cpf) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US70 Permitir participar do cadastro positivo](#us70-permitir-participar-do-cadastro-positivo) |
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US72 Visualizar cupons de desconto](#us72-visualizar-cupons-de-desconto) | 
 | T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US73 Exibir blogs de parceiros](#us73-exibir-blogs-de-parceiros) | 
@@ -492,6 +492,72 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 ### EP13 -  Dicas
 
 ### EP14 -  Serasa
+
+#### US66 Visualizar status de avaliação de crédito
+
+| **US66** | **Visualizar dúvidas frequentes**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar status de avaliação de crédito |
+| **Para que eu possa** | Realizar empréstimos |
+| **Pontos** | 3 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve coletar dados do serasa; <br> > Deve informar ao usuário seu status; <br> > Deve impactar ao usuário sobre a condição. |
+| **Rastreabilidade** | |
+
+#### US67 Informar score
+
+| **US67** | **Visualizar dúvidas frequentes**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Informar score |
+| **Para que eu possa** | Para retornar informações condizentes ao status do usuário |
+| **Pontos** | 3 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > Pode informar score do usuário; <br> > Deve está relacionada ao status informado; <br> > Pode haver parâmetro de embasamento. |
+| **Rastreabilidade** | |
+
+#### US68 Realizar integração com terceiros
+
+| **US68** | **Realizar integração com terceiros**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Realizar integração com terceiros |
+| **Para que eu possa** | Informar ao usuário dados verídicos e precisos sobre seu status |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve atualizar dados frequentemente; <br> > Deve comparar com situação anterior; <br> > Deve alterar status do usuário. |
+| **Rastreabilidade** | |
+
+#### US69 Visualizar empresas que consultaram meu CPF
+
+| **US69** | **Visualizar empresas que consultaram meu CPF**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar empresas que consultaram meu CPF |
+| **Para que eu possa** | Ter rastreabilidade de qual/quais instituições financeiras alteraram o status no Serasa |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve informar instituições financeiras; <br> > Deve informar consultas feitas instituições financeiras; <br> > Deve informar quais instituições sujaram o nome do usuário. |
+| **Rastreabilidade** | |
+
+#### US70 Permitir participar do cadastro positivo
+
+| **US70** | **Permitir participar do cadastro positivo**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Permitir participar do cadastro positivo |
+| **Para que eu possa** | Integrar para poder gerar históricos para alterar o status no serasa |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve haver integração com cadastro positivo; <br> > Deve haver integração com Serasa; <br> > Deve conter dados ativos do usuário; <br> > Usuário pode permitir participar do cadastro positivo. |
+| **Rastreabilidade** | |
+
 
 ### EP15 -  Propagandas
 
