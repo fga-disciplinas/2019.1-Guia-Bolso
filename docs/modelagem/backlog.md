@@ -736,6 +736,72 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP12 -  Estatísticas
 
+#### US56 - Gastos do usuário 
+
+| **US56** | Gastos do usuário |
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+| **Desejo** | Saber com que o usuário está gastando sua renda |
+| **Para que eu** | Para que eu possa dar dicas de gastos mais direcionadas ao perfil de consumo do usuário | 
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O usuário deve saber que o desenvolvedor tem acesso a esse tipo de estatíscas.|
+| **Rastreabilidade** | Argumentação [ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privaciade-do-usuario) |
+
+#### US57 - Gastos dos últimos meses por categoria 
+
+| **US57** | Gastos dos últimos meses por categoria|
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Visualizar estatísticas dos meus gastos por categoria nos últimos meses |
+| **Para que eu** | Para que eu possa acompanhar minha evolução e fazer comparação entre os meses | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Essas estatísticas deverão ser mostradas graficamente; <br> > O usuário poderá escolher os meses para comparação. |
+| **Rastreabilidade** | Não possui |
+
+#### US58 - Gastos e rendas dos últimos meses 
+
+| **US58** | Gastos rendas dos últimos meses |
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Visualizar o total de gastos e de renda dos últimos 2 meses |
+| **Para que eu** | Para que eu possa acompanhar minha evolução | 
+| **Pontos** | 2 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > Essas estatísticas deverão ser mostradas graficamente; <br> > O usuário poderá escolher os meses para comparação. |
+| **Rastreabilidade** | Não possui |
+
+#### US59 - Rendas dos últimos por categoria 
+
+| **US59** | Rendas dos últimos meses por categoria|
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Visualizar estatísticas dos meus rendimentos por categoria nos últimos meses |
+| **Para que eu** | Para que eu possa acompanhar minha evolução e fazer comparação entre os meses | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Essas estatísticas deverão ser mostradas graficamente; <br> > O usuário poderá escolher os meses para comparação. |
+| **Rastreabilidade** | Não possui |
+
+#### US60 - Estatísticas para os parceiros 
+
+| **US56** | Gastos do usuário |
+|--|--|
+| **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Parceiro |
+| **Desejo** | Saber como o usuário está gastando sua renda |
+| **Para que eu** | Para que eu possa oferecer vantagens e promoções mais direcionadas ao perfil do usuário | 
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O usuário deve saber que os parceiros tem acesso a esse tipo de estatíscas; <br> > O parceiro não pode ter acesso aos daos bancários do usuário. |
+| **Rastreabilidade** | Argumentação [ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privaciade-do-usuario) |
+
+
 ### EP13 -  Dicas
 
 #### US61 Coletar informações de fluxo crédito
