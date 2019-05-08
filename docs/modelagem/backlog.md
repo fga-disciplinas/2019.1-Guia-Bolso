@@ -38,11 +38,11 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) |
 | T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US36 Veracidade de Dados](#us36-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US37 - Privacidade de Dados](#us37-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US38 - Estatísticas de Usuários](#us38-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US39 - Feedback de Cards](#us39-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US40 - Segurança de Rede](#us40-seguranca-de-rede) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Coletar informações de fluxo crédito](#us#-coletar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Analisar informações de fluxo crédito](#us#-analisar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us#-visualizar-dicas-de-controle-financeiro)|
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us#-buscar-dados-de-fontes-externas) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis](#us#-indicar-se-as-dicas-foram-realmente-uteis)| 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US64 Buscar dados de fontes externas](#us64-buscar-dados-de-fontes-externas) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US65 Indicar se as dicas foram realmente úteis](#us65-indicar-se-as-dicas-foram-realmente-uteis)| 
 | T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US66 Visualizar status de avaliação de crédito](#us66-visualizar-status-de-avaliacao-de-credito)| 
 | T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US67 Informar score](#us67-informar-score) | 
 | T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US68 Realizar integração com terceiros](#us68-realizar-integracao-com-terceiros) | 
@@ -490,6 +490,71 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 ### EP12 -  Estatísticas
 
 ### EP13 -  Dicas
+
+#### US61 Coletar informações de fluxo crédito
+
+| **US61** | **Coletar informações de fluxo crédito**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Coletar informações de fluxo crédito |
+| **Para que eu possa** | Armazenar informações para análise |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve ser capaz de coletar dados do usuário; <br> > Deve armazenar coleta em um banco; <br> > Deve ter capacidade de utilizar os dados do usuário. |
+| **Rastreabilidade** | |
+
+#### US62 Analisar informações de fluxo crédito
+
+| **US62** | **Analisar informações de fluxo crédito**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Analisar informações de fluxo crédito |
+| **Para que eu possa** | Oferecer informações relacionadas aos gastos financeiros ao decorrer do tempo |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Funcionalidades capazes de tratar possíveis situações financeiras; <br> > Deve existir o pior caso; <br> Deve existir um caso comum; <br> > Deve existir o melhor caso; <br> > Deve Informar ao usuário da situação e como tratar-la. |
+| **Rastreabilidade** | |
+
+#### US63 Visualizar dicas de controle financeiro
+
+| **US63** | **Visualizar dicas de controle financeiro**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar dicas de controle financeiro |
+| **Para que eu possa** | Aprender a organizar seus gastos |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário. |
+| **Rastreabilidade** | |
+
+#### US64 Buscar dados de fontes externas
+
+| **US64** | **Buscar dados de fontes externas**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Buscar dados de fontes externas |
+| **Para que eu possa** | Apresentar descontos e ofertas |
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve existir informações de terceiros; <br> > O aplicativo buscar informações em fontes reconhecidas; <br> > Atualizar frequentemente as fontes; <br> > Trazer novas fontes. |
+| **Rastreabilidade** | |
+
+#### US65 Indicar se as dicas foram realmente úteis
+
+| **US65** | **Indicar se as dicas foram realmente úteis**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Indicar se as dicas foram realmente úteis |
+| **Para que eu possa** | Visualizar apenas dicas que sejam relevantes |
+| **Pontos** | 5 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > Deve realizar enquete com usuários; <br> > Analisar coleta de enquete; <br> > Conforme a coleta, atualizar fontes de dicas. |
+| **Rastreabilidade** | |
 
 ### EP14 -  Serasa
 
