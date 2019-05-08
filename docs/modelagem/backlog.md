@@ -528,7 +528,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário. |
-| **Rastreabilidade** | Cenário [C14](../cenarios/#c14-verificar-dicas) & Caso de Uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) |
+| **Rastreabilidade** | Cenário [C14](../cenarios/#c14-verificar-dicas) & Caso de Uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) & Léxico [L32](../lexicos/#l32-guia) |
 
 #### US64 Buscar dados de fontes externas
 
@@ -554,7 +554,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve realizar enquete com usuários; <br> > Analisar coleta de enquete; <br> > Conforme a coleta, atualizar fontes de dicas. |
-| **Rastreabilidade** | Cenário [C15](../cenarios/#c14-avaliar-dicas) && Caso de Uso [UC21](../casos_de_uso/#uc21-avaliar-dicas) |
+| **Rastreabilidade** | Cenário [C15](../cenarios/#c14-avaliar-dicas) && Caso de Uso [UC21](../casos_de_uso/#uc21-avaliar-dicas) & Léxico [L32](../lexicos/#l32-guia) |
 
 ### EP14 -  Serasa
 
@@ -569,7 +569,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve coletar dados do serasa; <br> > Deve informar ao usuário seu status; <br> > Deve impactar ao usuário sobre a condição. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
 #### US67 Informar score
 
@@ -582,7 +582,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Could |
 | **Critérios de aceitação** | > Pode informar score do usuário; <br> > Deve está relacionada ao status informado; <br> > Pode haver parâmetro de embasamento. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
 #### US68 Realizar integração com terceiros
 
@@ -595,7 +595,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 8 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve atualizar dados frequentemente; <br> > Deve comparar com situação anterior; <br> > Deve alterar status do usuário. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
 #### US69 Visualizar empresas que consultaram meu CPF
 
@@ -608,7 +608,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve informar instituições financeiras; <br> > Deve informar consultas feitas instituições financeiras; <br> > Deve informar quais instituições sujaram o nome do usuário. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Caso de Uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) & RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) & Cenário [C5](../cenarios/#c5-nome-sujo) & Cenário [C6](../cenarios/#c6-consultar-cpf) & Léxico [L1](../lexicos/#l1-nome-sujo) & Léxico [L3](../lexicos/#l3-consultar-cpf) & Léxico [L4](../lexicos/#l4-score-do-serasa) & Léxico [L20](../lexicos/#l20-radar-cpf) & Léxico [L24](../lexicos/#l24-nome-limpo) |
 
 #### US70 Permitir participar do cadastro positivo
 
@@ -621,7 +621,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve haver integração com cadastro positivo; <br> > Deve haver integração com Serasa; <br> > Deve conter dados ativos do usuário; <br> > Usuário pode permitir participar do cadastro positivo. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Cenário [C4](../cenarios/#c4-cadastro-positivo) & Léxico [L2](../lexicos/#l2-cadastro-positivo) & Caso de Uso [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo) |
 
 
 ### EP15 -  Propagandas
