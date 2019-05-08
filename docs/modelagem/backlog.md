@@ -62,6 +62,11 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US48 Visualizar contas registradas na agenda](#us48-visualizar-contas-registradas-na-agenda) |
 | T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US49 Editar contas registradas na agenda](#us49-editar-contas-registradas-na-agenda) |
 | T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US50 Excluir contas registradas na agenda](#us50-excluir-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US51 Planejar gastos](#us51-planejar-gastos) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US52 Planejar renda](#us52-planejar-renda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US53 Categorizar gasto](#us53-categorizar-gasto) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US54 Categorizar renda](#us54-categorizar-renda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US55 Meses Futuros](#us55-meses-futuras) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
@@ -548,9 +553,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US41** | Visualizar transações |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
+| **Eu, como** | Usuário |
 | **Desejo** | Visualizar minhas transações |
-| Para que eu possa | Ter conhecimento claro do quanto foi gasto em um determinado período | 
+| **Para que eu possa** | Ter conhecimento claro do quanto foi gasto em um determinado período | 
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > A transação deverá como padrão, ser nomeada com o nome do estabelecimento; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá ser possível filtrar as transações entre Gastos e Rendas; <br> > Deverá ser possível visualizar extrato de meses passados. |
@@ -615,66 +620,66 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | US46 | Elaborar um tutorial para usar a agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Elaborar um tutorial interativo para novos usuários da agenda |
-| Para que | O usuário tenha conhecimento de como começar a usar a agenda | 
-| Pontos | 3 |
-| Prioridade | Should |
-| Critérios de aceitação | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um tutorial interativo para novos usuários da agenda |
+| **Para que** | O usuário tenha conhecimento de como começar a usar a agenda | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
 #### US47 - Adicionar transação na agenda
 
 | US47 | Adicionar transação na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Adicionar uma conta a pagar ou receber na agenda |
-| Para que eu | Não perca prazos ou compromissos financeiros | 
-| Pontos | 5 |
-| Prioridade | Should |
-| Critérios de aceitação | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> > Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Adicionar uma conta a pagar ou receber na agenda |
+| **Para que eu** | Não perca prazos ou compromissos financeiros | 
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> > Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
 
 #### US48 - Visualizar contas registradas na agenda
 
 | US48 | Visualizar contas registradas na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Visualizar contas registradas na agenda |
-| Para que eu | Possa me planejar antes do prazo ou editar uma transação | 
-| Pontos | 3 |
-| Prioridade | Should |
-| Critérios de aceitação | > Deverá conter o nome da operação; <br> > Deverá ter uma label da categoria "a pagar" ou "a receber", "pago" e "recebido" com as cores específicas de cada uma; <br> > Deverá conter o preço da operação; <br> > Deverá conter a data prazo da conta; <br> > Deverá ter a opção de adicionar nova operação; <br> > Deverá ter um quadro para visualizar o total de renda a receber ou a pagar; <br> > Deverá ser possível visualizar agenda de meses passados. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) e [L18](../lexicos/#l18-meses-futuros) |
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Visualizar contas registradas na agenda |
+| **Para que eu** | Possa me planejar antes do prazo ou editar uma transação | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá conter o nome da operação; <br> > Deverá ter uma label da categoria "a pagar" ou "a receber", "pago" e "recebido" com as cores específicas de cada uma; <br> > Deverá conter o preço da operação; <br> > Deverá conter a data prazo da conta; <br> > Deverá ter a opção de adicionar nova operação; <br> > Deverá ter um quadro para visualizar o total de renda a receber ou a pagar; <br> > Deverá ser possível visualizar agenda de meses passados. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda) e [L18](../lexicos/#l18-meses-futuros) |
 
 #### US49 - Editar contas registradas na agenda
 
 | US49 | Editar contas registradas na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Editar agendamento registrado na agenda |
-| Para que eu | Possa corrigir ou alterar alguma informação da conta já existente | 
-| Pontos | 3 |
-| Prioridade | Should |
-| Critérios de aceitação | > Deverá ser possível editar o nome da operação; <br> > Deverá ser possível editar o preço da operação; <br> > Deverá mostrar a label do tipo da operação; <br> > Deverá ter a opção de ativar ou desativar a notificação no prazo; <br> > Deverá ter a opção de marcar a conta como "recebida" ou "paga". |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Editar agendamento registrado na agenda |
+| **Para que eu** | Possa corrigir ou alterar alguma informação da conta já existente | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá ser possível editar o nome da operação; <br> > Deverá ser possível editar o preço da operação; <br> > Deverá mostrar a label do tipo da operação; <br> > Deverá ter a opção de ativar ou desativar a notificação no prazo; <br> > Deverá ter a opção de marcar a conta como "recebida" ou "paga". |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
 #### US50 - Excluir contas registradas na agenda
 
 | US50 | Excluir contas registradas na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Excluir agendamento registrado na agenda |
-| Para que eu | Possa retirar uma conta da agenda que não é mais útil ou viável | 
-| Pontos | 2 |
-| Prioridade | Should |
-| Critérios de aceitação | > A operação não deve mais constar no "calendário"; <br> > Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) |
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Excluir agendamento registrado na agenda |
+| **Para que eu** | Possa retirar uma conta da agenda que não é mais útil ou viável | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > A operação não deve mais constar no "calendário"; <br> > Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda) |
 
 
 ### EP11 -  Planejamento
