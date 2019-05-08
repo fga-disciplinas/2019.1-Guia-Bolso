@@ -21,11 +21,21 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | Tema | Épico | ID & Nome |
 |--|--|--|
-| T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
-| T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US77 Contratar empréstimo ](#us77-contratar-emprestimo) | 
-| T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US78 Disponibilizar ofertas de empréstimos ](#us78-disponibilizar-ofertas-de-emprestimos) | 
-| T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US79 Garantir um ambiente seguro para os empréstimos ](#us79-garantir-um-ambiente-seguro-para-os-emprestimos) | 
-| T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US80 Percentual de lucro ](#us80-percentual-de-lucro) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US31 Cadastrar uma nova conta ou cartão ](#us31-cadastrar-uma-nova-conta-ou-cartao) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US32 Visualizar contas e cartões cadastrados ](#us32-visualizar-contas-e-cartoes-cadastrados) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US33 Remover conta ou cartão ](#us33-remover-conta-ou-cartao) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
+| T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US71 Visualizar ofertas de crédito](#us71-visualizar-ofertas-de-credito) |
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US72 Visualizar cupons de desconto](#us72-visualizar-cupons-de-desconto) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US73 Exibir blogs de parceiros](#us73-exibir-blogs-de-parceiros) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US74 Exibir anúncios direcionados](#us74-exibir-anuncios-direcionados) | 
+| T6 - Lucros | [EP15 - Propagandas](#ep15-propagandas) | [US75 Disponibilizar cartões de bancos](#us75-disponibilizar-cartoes-de-bancos) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US77 Contratar empréstimo ](#us77-contratar-emprestimo) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US78 Disponibilizar ofertas de empréstimos ](#us78-disponibilizar-ofertas-de-emprestimos) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US79 Garantir um ambiente seguro para os empréstimos ](#us79-garantir-um-ambiente-seguro-para-os-emprestimos) | 
+| T6 - Lucros | [EP16 - Empréstimos](#ep16-emprestimos) | [US80 Percentual de lucro ](#us80-percentual-de-lucro) | 
 
 
 
@@ -43,6 +53,71 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### EP07 -  Contas e cartões
 
+#### US31 - Cadastrar uma nova conta ou cartão
+
+| US31 | Cadastrar uma nova conta ou cartão |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Cadastrar uma nova conta ou cartão |
+| Para que eu possa | Visualizar os dados desta nova conta ou cartão. |
+| Pontos | 8 |
+| Prioridade | Must |
+| Critérios de aceitação | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
+| Rastreabilidade |  |
+
+#### US32 - Visualizar contas e cartões cadastrados
+
+| US32 | Visualizar contas e cartões cadastrados |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Visualizar minhas contas e cartões cadastrados |
+| Para que eu possa | Saber quais contas e cartões possuo cadastrados |
+| Pontos | 8 |
+| Prioridade | Must |
+| Critérios de aceitação | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
+| Rastreabilidade |  |
+
+#### US33 - Remover conta ou cartão
+
+| US33 | Remover conta ou cartão |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | Remover uma conta ou cartão cadastrado |
+| Para que eu possa | Retirar informações a respeito desta conta ou cartão. | 
+| Pontos | 8 |
+| Prioridade | Must |
+| Critérios de aceitação | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
+| Rastreabilidade | |
+
+#### US34 - Sincronizar informações
+
+| US34 | Sincronizar informações |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | sincronizar/atualizar as informações de uma conta ou cartão |
+| Para que eu possa | visualizar informações mais atualizadas | 
+| Pontos | 8 |
+| Prioridade | Must |
+| Critérios de aceitação | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
+| Rastreabilidade | |
+
+#### US35 - Visualizar os status de sincronização
+
+| US35 | Visualizar os status de sincronização |
+|--|--|
+| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
+| Eu, como | Usuário |
+|Desejo | visualizar os status das atualizações das minhas contas e cartões cadastrados |
+| Para que eu possa | saber quais contas ou cartões foram atualizados. | 
+| Pontos | 8 |
+| Prioridade | Must |
+| Critérios de aceitação | > O app deve permitir visualizar o status a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar a situação de sincronização/atualização das contas e cartões cadastrados a qualquer momento; |
+| Rastreabilidade | |
+
 ### EP08 -  Troca de dados (app e bancos)
 
 ### EP09 -  Extrato
@@ -58,6 +133,71 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 ### EP14 -  Serasa
 
 ### EP15 -  Propagandas
+
+#### US71 Visualizar ofertas de crédito
+
+| **US71** | **Visualizar ofertas de crédito**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar ofertas de créditos e bancos  |
+| **Para que eu possa** | Verificar a situação do mercado e quais as melhores ofertas de crédito disponíveis |
+| **Pontos** | 5 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O app deve deixar claro que se trata de um anuncio; <br> > A instituição financeira deve estar de acordo com as regras de privacidade e termos de uso do Guiabolso; <br> > Deve ser exibido de forma discreta; |
+| **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
+
+#### US72 Visualizar cupons de desconto
+
+| **US72** | **Visualizar cupons de desconto**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar cupons de desconto  |
+| **Para que eu possa** | Obter descontos em diversos produtos e serviços, sendo incentivado a continuar usando o Guiabolso |
+| **Pontos** | 3 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O cupom deve ser validado pela equipe do Guiabolso; <br> > Os cupons exibidos devem ser de interesse do usuário (direcionados); <br> > Os cupons não devem ser exibidos se expirados |
+| **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
+
+#### US73 Exibir blogs de parceiros
+
+| **US73** | **Exibir blogs de parceiros**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Exibir postagens de blogs parceiros |
+| **Para que eu possa** | Obter dar maior visibilidade aos parceiros e atrair mais investimentos à aplicação |
+| **Pontos** | 1 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O blog deve ser um parceiro do Guiabolso; <br> > A postagem do blog no guiabolso deve ser discreta, exibida dentro de um card como se fosse apenas mais uma informação; <br> > A postagem completa deve ser exibida dentro do Guiabolso, e se, e somente se, o usuário clicar no respectivo card |
+| **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
+
+#### US74 Exibir anuncios direcionados
+
+| **US74** | **Exibir anuncios direcionados**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Exibir anuncios direcionados para os usuários |
+| **Para que eu possa** | Obter lucros de anunciantes com base em anuncios direcionados |
+| **Pontos** | 1 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O app deve deixar claro que se trata de um anuncio; <br> > O anuncio não pode ferir a privacidade do usuário; <br> > O anuncio deve ser discreto, exibido dentro de um card como se fosse apenas mais uma informação; <br> > A anuncio completo deve ser exibido somente se o usuário clicar no card |
+| **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
+
+#### US75 Disponibilizar cartões de bancos
+
+| **US75** | **Disponibilizar cartões de bancos**|
+|--|--|
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Anunciante |
+|**Desejo** | Ofertar meu cartão de crédito dentro do Guiabolso |
+| **Para que eu possa** | Aumentar a visibilidade e alcance do meu produto num público direcionado |
+| **Pontos** | 1 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O app deve deixar claro que se trata de um anuncio; <br> > O banco deve estar de acordo com as regras de privacidade e termos de uso do Guiabolso; <br> > Deve ser disponibilizado um link que redireciona o usuário para o página de contratação do cartão; |
+| **Rastreabilidade** | Richpictures [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) |
 
 ### EP16 -  Empréstimos
 
