@@ -51,7 +51,11 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US27 Remover conta ou cartão ](#us27-remover-conta-ou-cartao) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US28 Sincronizar informações ](#us28-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US29 Visualizar os status de sincronização](#us29-visualizar-os-status-de-sincronizacao) |
-| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US30 Veracidade de Dados](#us30-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US31 - Privacidade de Dados](#us31-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US32 - Estatísticas de Usuários](#us32-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US33 - Feedback de Cards](#us33-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US34 - Segurança de Rede](#us34-seguranca-de-rede) | 
+| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US30 Veracidade de Dados](#us30-veracidade-de-dados) |
+| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US31 - Privacidade de Dados](#us31-privacidade-de-dados) |
+| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US32 - Estatísticas de Usuários](#us32-estatisticas-de-usuarios) |
+| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US33 - Feedback de Cards](#us33-feedback-de-cards) |
+| T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US34 - Segurança de Rede](#us34-seguranca-de-rede) | 
 | T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US35 Visualizar transações no extrato](#us35-visualizar-transacoes-no-extrato) |
 | T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US36 Visualizar detalhes de uma transação](#us36-visualizar-detalhes-de-uma-transacao) |
 | T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US37 Ignorar uma transação](#us37-ignorar-uma-transacao) |
