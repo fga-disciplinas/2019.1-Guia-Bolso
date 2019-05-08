@@ -19,6 +19,43 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### Índice de US's
 
+
+| Tema | Épico | ID & Nome |
+|--|--|--|
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US01 Elaborar testes de usabilidade](#us01-elaborar-testes-de-usabilidade) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US02 Documentar e agrupar dúvidas dos usuários](#us02-documentar-e-agrupar-duvidas-dos-usuarios) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US03 Visualizar dúvidas frequentes](#us03-visualizar-duvidas-frequentes) | 
+| T1 - Informações | [EP01 - Documentos](#ep01-documentos) | [US04 Medir eficiência da resposta para um tópico/pergunta](#us04-medir-eficiencia-da-resposta-para-um-topico/pergunta) | 
+
+---
+
+| Tema | Épico | ID & Nome |
+|--|--|--|
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US05 Elaborar um chat](#us05-elaborar-um-chat)| 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US06 Disponibilizar quaisquer meio de contato para o usuário](#us06-disponibilizar-quaisquer-meio-de-contato-para-o-usuario) | 
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US07 Realizar enquete](#us07-realizar-enquete) | 
+---
+
+| Tema | Épico | ID & Nome |
+|--|--|--|
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Coletar informações de fluxo crédito](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Analisar informações de fluxo crédito](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Visualizar dicas de controle financeiro](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Buscar dados de fontes externas](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US# Indicar se as dicas foram realmente úteis ou não](#us76-simular-um-emprestimo) | 
+
+---
+
+| Tema | Épico | ID & Nome |
+|--|--|--|
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar status de avaliação de crédito](#us76-visualizar-status-de-avaliacao) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Elaborar testes de usabilidade](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Realizar integração com terceiros](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Visualizar empresas que consultaram meu CPF](#us76-simular-um-emprestimo) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US# Permitir participar, através do Guiabolso, do cadastro positivo](#us76-simular-um-emprestimo) | 
+
+---
+
 | Tema | Épico | ID & Nome |
 |--|--|--|
 | T6 - Lucros | [EP16 - Propagandas](#ep16-emprestimos) | [US76 Simular um empréstimo](#us76-simular-um-emprestimo) | 
@@ -30,6 +67,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 
 ### EP01 -  Documentos
+
+#### US01 Elaborar testes de usabilidade
+
 
 ### EP02 -  Suporte
 
