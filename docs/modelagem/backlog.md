@@ -502,7 +502,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 8 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve ser capaz de coletar dados do usuário; <br> > Deve armazenar coleta em um banco; <br> > Deve ter capacidade de utilizar os dados do usuário. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
 #### US62 Analisar informações de fluxo crédito
 
@@ -514,8 +514,8 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Para que eu possa** | Oferecer informações relacionadas aos gastos financeiros ao decorrer do tempo |
 | **Pontos** | 8 |
 | **Prioridade** | Must |
-| **Critérios de aceitação** | > Funcionalidades capazes de tratar possíveis situações financeiras; <br> > Deve existir o pior caso; <br> Deve existir um caso comum; <br> > Deve existir o melhor caso; <br> > Deve Informar ao usuário da situação e como tratar-la. |
-| **Rastreabilidade** | |
+| **Critérios de aceitação** | > Funcionalidades capazes de tratar possíveis situações financeiras; <br> > Deve existir o pior caso; <br> > Deve existir um caso comum; <br> > Deve existir o melhor caso; <br> > Deve Informar ao usuário da situação e como tratar-la. |
+| **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
 #### US63 Visualizar dicas de controle financeiro
 
@@ -528,7 +528,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Cenário [C14](../cenarios/#c14-verificar-dicas) & Caso de Uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) |
 
 #### US64 Buscar dados de fontes externas
 
@@ -541,7 +541,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 8 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve existir informações de terceiros; <br> > O aplicativo buscar informações em fontes reconhecidas; <br> > Atualizar frequentemente as fontes; <br> > Trazer novas fontes. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
 #### US65 Indicar se as dicas foram realmente úteis
 
@@ -554,7 +554,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve realizar enquete com usuários; <br> > Analisar coleta de enquete; <br> > Conforme a coleta, atualizar fontes de dicas. |
-| **Rastreabilidade** | |
+| **Rastreabilidade** | Cenário [C15](../cenarios/#c14-avaliar-dicas) && Caso de Uso [UC21](../casos_de_uso/#uc21-avaliar-dicas) |
 
 ### EP14 -  Serasa
 
