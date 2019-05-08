@@ -92,7 +92,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve disponibilizar ao usuário dúvidas básicas; <br> > Aplicativo deve explicar quaisquer funcionalidade; <br> > Deve usar informações intuitivas; <br> > Deve atualizar com frequência as dúvidas conforme atualizações do aplicativo. |
-| **Rastreabilidade** | Nã0 há |
+| **Rastreabilidade** | Não há |
 
 #### US03 Visualizar dúvidas frequentes
 
@@ -118,7 +118,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 3 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deve estabelecer um tempo médio para as funcionalidades; <br> > Deve mostrar funcionalidades da melhor forma e rapidez; <br> > Deve tratar perdas de eficiência; <br> > Deve tratar dados que sejam necessários; <br> > Deve haver exceções para quantidade e qualidade. |
-| **Rastreabilidade** | Nã0 há |
+| **Rastreabilidade** | Não há |
 
 #### US05 Medir índice de utilização de funções da aplicação
 
