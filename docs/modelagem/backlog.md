@@ -52,6 +52,21 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US34 Sincronizar informações ](#us34-sincronizar-informacoes) | 
 | T3 - Comunicação | [EP07 - Contas e cartões](#ep07-contas-e-cartoes) | [US35 Visualizar os status de sincronização](#us35-visualizar-os-status-de-sincronizacao) |
 | T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US36 Veracidade de Dados](#us36-veracidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US37 - Privacidade de Dados](#us37-privacidade-de-dados) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US38 - Estatísticas de Usuários](#us38-estatisticas-de-usuarios) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US39 - Feedback de Cards](#us39-feedback-de-cards) || T3 - Comunicação | [EP08 - Troca de Dados](#ep08-troca-de-dados) | [US40 - Segurança de Rede](#us40-seguranca-de-rede) | 
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US41 Visualizar transações no extrato](#us41-visualizar-transacoes-no-extrato) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US42 Visualizar detalhes de uma transação](#us42-visualizar-detalhes-de-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US43 Ignorar uma transação](#us43-ignorar-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US44 Adicionar comentários e tags em uma transação](#us44-adicionar-comentarios-e-tags-em-uma-transacao) |
+| T4 - Controle Financeiro | [EP09 - Extrato](#ep09-extrato) | [US45 Editar dados da transação](#us45-editar-dados-da-transacao) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US46 Elaborar um tutorial para usar a agenda](#us46-elaborar-tutorial-para-usar-a-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US47 Adicionar transação na agenda](#us47-adicionar-transacao-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US48 Visualizar contas registradas na agenda](#us48-visualizar-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US49 Editar contas registradas na agenda](#us49-editar-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP10 - Agenda](#ep10-agenda) | [US50 Excluir contas registradas na agenda](#us50-excluir-contas-registradas-na-agenda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US51 Planejar gastos](#us51-planejar-gastos) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US52 Planejar renda](#us52-planejar-renda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US53 Categorizar gasto](#us53-categorizar-gasto) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US54 Categorizar renda](#us54-categorizar-renda) |
+| T4 - Controle Financeiro | [EP11 - Planejamento](#ep11-planejamento) | [US55 Meses Futuros](#us55-meses-futuras) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US61 Coletar informações de fluxo crédito](#us61-coletar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US62 Analisar informações de fluxo crédito](#us62-analisar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US63 Visualizar dicas de controle financeiro](#us63-visualizar-dicas-de-controle-financeiro)|
@@ -403,66 +418,66 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | US31 | Cadastrar uma nova conta ou cartão |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | Cadastrar uma nova conta ou cartão |
-| Para que eu possa | Visualizar os dados desta nova conta ou cartão. |
-| Pontos | 4 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Cadastrar uma nova conta ou cartão |
+| **Para que eu possa** | Visualizar os dados desta nova conta ou cartão. |
+| **Pontos** | 4 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US32 - Visualizar contas e cartões cadastrados
 
 | US32 | Visualizar contas e cartões cadastrados |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | Visualizar minhas contas e cartões cadastrados |
-| Para que eu possa | Saber quais contas e cartões possuo cadastrados |
-| Pontos | 2 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | Visualizar minhas contas e cartões cadastrados |
+| **Para que eu possa** | Saber quais contas e cartões possuo cadastrados |
+| **Pontos** | 2 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US33 - Remover conta ou cartão
 
 | US33 | Remover conta ou cartão |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | Remover uma conta ou cartão cadastrado |
-| Para que eu possa | Retirar informações a respeito desta conta ou cartão. | 
-| Pontos | 4 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Remover uma conta ou cartão cadastrado |
+| **Para que eu possa** | Retirar informações a respeito desta conta ou cartão. | 
+| **Pontos** | 4 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US34 - Sincronizar informações
 
 | US34 | Sincronizar informações |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | sincronizar/atualizar as informações de uma conta ou cartão |
-| Para que eu possa | visualizar informações mais atualizadas | 
-| Pontos | 4 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | sincronizar/atualizar as informações de uma conta ou cartão |
+| **Para que eu possa** | visualizar informações mais atualizadas | 
+| **Pontos** | 4 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 #### US35 - Visualizar os status de sincronização
 
 | US35 | Visualizar os status de sincronização |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
-|Desejo | visualizar os status das atualizações das minhas contas e cartões cadastrados |
-| Para que eu possa | saber quais contas ou cartões foram atualizados. | 
-| Pontos | 2 |
-| Prioridade | Should |
-| Critérios de aceitação | > O app deve permitir visualizar o status a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar a situação de sincronização/atualização das contas e cartões cadastrados a qualquer momento; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+|**Desejo** | visualizar os status das atualizações das minhas contas e cartões cadastrados |
+| **Para que eu possa** | saber quais contas ou cartões foram atualizados. | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O app deve permitir visualizar o status a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar a situação de sincronização/atualização das contas e cartões cadastrados a qualquer momento; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
 
 ### EP08 -  Troca de dados
 
@@ -470,66 +485,66 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | US36 | Veracidade de dados |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Verificar a veracidade de dados cadastrados |
-| Para que eu possa | Garantir que os dados cadastrados sejam seguros e reais. | 
-| Pontos | 8 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve verificar se os dados de contas e cartões informados são reais; <br> > O app deve confirmar a veracidade dos dados com os bancos e instituições financeiras referentes aos dados informados; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Verificar a veracidade de dados cadastrados |
+| **Para que eu possa** | Garantir que os dados cadastrados sejam seguros e reais. | 
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve verificar se os dados de contas e cartões informados são reais; <br> > O app deve confirmar a veracidade dos dados com os bancos e instituições financeiras referentes aos dados informados; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 #### US37 - Privacidade de Dados
 
 | US37 | Privacidade de dados |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor|
-|Desejo | Garanti a privacidade dos dados cadastrados |
-| Para que eu possa | Garantir a segurança dos dados e informações que transitam pelo aplicativo. | 
-| Pontos | 8 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve garantir que os dados de contas e cartões informados trafegam em redes seguras; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor|
+|**Desejo** | Garanti a privacidade dos dados cadastrados |
+| **Para que eu possa** | Garantir a segurança dos dados e informações que transitam pelo aplicativo. | 
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve garantir que os dados de contas e cartões informados trafegam em redes seguras; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 #### US38 - Estatisticas de Usuarios
 
 | US38 | Estatísticas de usuários |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Instituição Financeira |
-|Desejo | Receber dados estatísticos de usuários |
-| Para que eu possa | Descobrir perfis de consumos. | 
-| Pontos | 2 |
-| Prioridade | Should |
-| Critérios de aceitação | > O app deve enviar dados a respeito dos gastos para as instituições financeiras;<br> > O app deve garantir que a rede em que os dados trafegam seja segura. |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Instituição Financeira |
+|**Desejo** | Receber dados estatísticos de usuários |
+| **Para que eu possa** | Descobrir perfis de consumos. | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O app deve enviar dados a respeito dos gastos para as instituições financeiras;<br> > O app deve garantir que a rede em que os dados trafegam seja segura. |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 #### US39 - FeedBack de Cards
 
 | US39 | FeedBack de Cards|
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Receber o feedback dos cards da aba guia |
-| Para que eu possa | Ter mais um meio de categorizar os usuários. | 
-| Pontos | 2 |
-| Prioridade | Could |
-| Critérios de aceitação | > O app deve disponibilizar uma área para feedbacks de Cards;|
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Receber o feedback dos cards da aba guia |
+| **Para que eu possa** | Ter mais um meio de categorizar os usuários. | 
+| **Pontos** | 2 |
+| **Prioridade** | Could |
+| **Critérios de aceitação** | > O app deve disponibilizar uma área para feedbacks de Cards;|
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
 
 #### US40 - Segurança de Rede
 
 | US40 | Segurança de Rede |
 |--|--|
-| Versão| Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Garantir a segurança na rede de troca de dados bancários |
-| Para que eu possa | Dar garantias ao usuário a respeito de sua privacidade. | 
-| Pontos | 8 |
-| Prioridade | Must |
-| Critérios de aceitação | > O app deve garantir a segurança na rede tráfego de dados bancários; |
-| Rastreabilidade | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
+| **Versão**| Atual: 1.0 (07/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Garantir a segurança na rede de troca de dados bancários |
+| **Para que eu possa** | Dar garantias ao usuário a respeito de sua privacidade. | 
+| **Pontos** | 8 |
+| **Prioridade** | Must |
+| **Critérios de aceitação** | > O app deve garantir a segurança na rede tráfego de dados bancários; |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
 ### EP09 -  Extrato
 
@@ -538,9 +553,9 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US41** | Visualizar transações |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
-| Eu, como | Usuário |
+| **Eu, como** | Usuário |
 | **Desejo** | Visualizar minhas transações |
-| Para que eu possa | Ter conhecimento claro do quanto foi gasto em um determinado período | 
+| **Para que eu possa** | Ter conhecimento claro do quanto foi gasto em um determinado período | 
 | **Pontos** | 5 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > Deverá conter o dia e o mês em que a transação ocorreu; <br> > A transação deverá como padrão, ser nomeada com o nome do estabelecimento; <br> > Deverá constar o preço da transação e o tipo de operação (entrada ou saída); <br> > Deverá ser possível filtrar as transações entre Gastos e Rendas; <br> > Deverá ser possível visualizar extrato de meses passados. |
@@ -605,66 +620,66 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 | US46 | Elaborar um tutorial para usar a agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Desenvolvedor |
-|Desejo | Elaborar um tutorial interativo para novos usuários da agenda |
-| Para que | O usuário tenha conhecimento de como começar a usar a agenda | 
-| Pontos | 3 |
-| Prioridade | Should |
-| Critérios de aceitação | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Desenvolvedor |
+|**Desejo** | Elaborar um tutorial interativo para novos usuários da agenda |
+| **Para que** | O usuário tenha conhecimento de como começar a usar a agenda | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > O tutorial deve ser visualizado por escolha do usuário; <br> > Deverá ter informações curtas e claras de como o usuário poderá proceder. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L37](../lexicos/#l37-lancamentos-futuros), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
 #### US47 - Adicionar transação na agenda
 
 | US47 | Adicionar transação na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Adicionar uma conta a pagar ou receber na agenda |
-| Para que eu | Não perca prazos ou compromissos financeiros | 
-| Pontos | 5 |
-| Prioridade | Should |
-| Critérios de aceitação | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> > Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Adicionar uma conta a pagar ou receber na agenda |
+| **Para que eu** | Não perca prazos ou compromissos financeiros | 
+| **Pontos** | 5 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá ter um campo obrigatório para adicionar o nome da operação; <br> > Deverá ter a opção para categorizar a operação como "receber" ou "pagar"; <br> > Deverá mudar a cor de acordo com a opção de "receber" ou "pagar" <br> > Deverá ter um campo obrigatório para adicionar o preço da operação; <br> > Deverá ter um campo obrigatório para delimitar a periodicidade da operação; <br> > Deverá ter um campo obrigatório para a data de vencimento ou de recebimento; <br> > Deverá ter a opção para o usuário optar por receber notificação refente à operação. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), [L40](../lexicos/#l40-transacao) e [L30](../lexicos/#l30-transacao-bancaria) |
 
 #### US48 - Visualizar contas registradas na agenda
 
 | US48 | Visualizar contas registradas na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Visualizar contas registradas na agenda |
-| Para que eu | Possa me planejar antes do prazo ou editar uma transação | 
-| Pontos | 3 |
-| Prioridade | Should |
-| Critérios de aceitação | > Deverá conter o nome da operação; <br> > Deverá ter uma label da categoria "a pagar" ou "a receber", "pago" e "recebido" com as cores específicas de cada uma; <br> > Deverá conter o preço da operação; <br> > Deverá conter a data prazo da conta; <br> > Deverá ter a opção de adicionar nova operação; <br> > Deverá ter um quadro para visualizar o total de renda a receber ou a pagar; <br> > Deverá ser possível visualizar agenda de meses passados. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) e [L18](../lexicos/#l18-meses-futuros) |
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Visualizar contas registradas na agenda |
+| **Para que eu** | Possa me planejar antes do prazo ou editar uma transação | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá conter o nome da operação; <br> > Deverá ter uma label da categoria "a pagar" ou "a receber", "pago" e "recebido" com as cores específicas de cada uma; <br> > Deverá conter o preço da operação; <br> > Deverá conter a data prazo da conta; <br> > Deverá ter a opção de adicionar nova operação; <br> > Deverá ter um quadro para visualizar o total de renda a receber ou a pagar; <br> > Deverá ser possível visualizar agenda de meses passados. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda) e [L18](../lexicos/#l18-meses-futuros) |
 
 #### US49 - Editar contas registradas na agenda
 
 | US49 | Editar contas registradas na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Editar agendamento registrado na agenda |
-| Para que eu | Possa corrigir ou alterar alguma informação da conta já existente | 
-| Pontos | 3 |
-| Prioridade | Should |
-| Critérios de aceitação | > Deverá ser possível editar o nome da operação; <br> > Deverá ser possível editar o preço da operação; <br> > Deverá mostrar a label do tipo da operação; <br> > Deverá ter a opção de ativar ou desativar a notificação no prazo; <br> > Deverá ter a opção de marcar a conta como "recebida" ou "paga". |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Editar agendamento registrado na agenda |
+| **Para que eu** | Possa corrigir ou alterar alguma informação da conta já existente | 
+| **Pontos** | 3 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > Deverá ser possível editar o nome da operação; <br> > Deverá ser possível editar o preço da operação; <br> > Deverá mostrar a label do tipo da operação; <br> > Deverá ter a opção de ativar ou desativar a notificação no prazo; <br> > Deverá ter a opção de marcar a conta como "recebida" ou "paga". |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), Caso de Uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda) & Cenário [C23](../cenarios/#c23-adicionar-na-agenda)|
 
 #### US50 - Excluir contas registradas na agenda
 
 | US50 | Excluir contas registradas na agenda |
 |--|--|
-| Versão| Atual: 1.0 (08/05) <br> Anterior: --|
-| Eu, como | Usuário |
-| Desejo | Excluir agendamento registrado na agenda |
-| Para que eu | Possa retirar uma conta da agenda que não é mais útil ou viável | 
-| Pontos | 2 |
-| Prioridade | Should |
-| Critérios de aceitação | > A operação não deve mais constar no "calendário"; <br> > Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
-| Rastreabilidade | Léxico [L36](../lexicos/#l36-agenda) |
+| **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Eu, como** | Usuário |
+| **Desejo** | Excluir agendamento registrado na agenda |
+| **Para que eu** | Possa retirar uma conta da agenda que não é mais útil ou viável | 
+| **Pontos** | 2 |
+| **Prioridade** | Should |
+| **Critérios de aceitação** | > A operação não deve mais constar no "calendário"; <br> > Deverá ter um aviso de confirmação antes de excluir definitivamente o agendamento da agenda. |
+| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda) |
 
 
 ### EP11 -  Planejamento
