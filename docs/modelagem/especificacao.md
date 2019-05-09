@@ -133,6 +133,31 @@ A aplicação deve suportar acesso por meio de navegadores web e diferentes plat
 
 Este tópico define todas as restrições de design voltadas para as plataformas em que o aplicativo atua.
 
+### RTD01: Suporte a idioma
+
+Por ser um aplicativo nacional, da suporte apenas a língua portuguesa, nativa do Brasil. Ainda que faça alterações no aparelho móvel não e possivel fazer alteração do idioma.
+<br> Rastro: Não possui
+
+### RTD02: Navegação
+
+O aplicativo possui abas com as principais funcionalidades do sistema. Estas abas permanecem visíveis em todas as telas disponibilizadas pelo aplicativo. 
+<br> Rastro: Não possui
+
+### RTD03: Conteúdo
+
+O aplicativo deve disponibilizar ao usuário sua principal funcionalidade assim que acessar o aplicativo, no caso, visualizar suas finanças.
+<br> Rastro: Não possui
+
+### RTD04: Cadastro
+
+O aplicativo deve fornecer páginas para que o usuário possa se cadastrar ou fazer login, sendo esta funcionalidade, a primeira disponibilizada pelo aplicativo, obrigatóriamente.
+<br> Rastro: Não possui
+
+### RTD05: Suporte ao usuário
+
+O aplicativo deve fornecer assistencia técnica ao usuário, afim de melhorar o funcionamento do sistema. Além, de fornecer apoio para que o usuário possa compreender como que funciona o aplicativo e seus benefícios.
+<br> Rastro: Não possui
+
 ## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line
 
 Este tópico define os sistemas referentes à ajuda online ao usuário disponibilizadas pelo aplicativo.
@@ -158,6 +183,12 @@ O aplicativo necessita de ser hospedado em um servidor. A aquisição ou aluguel
 
 Os desenvolvedores do aplicativo necessitam de máquinas para a implementação dos códigos e suas configurações.
 <br> Rastro: Não possui
+
+## Padrões aplicáveis
+
+O Guiabolso está adequado as normas ISO/TC-211, ISO 9000, ISO 9001-3, ISO 12207 e ISO 12202.
+<br> Rastro: [Backlog](../backlog/)
+
 
 ## Interfaces
 
