@@ -19,22 +19,186 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 
 ### Backlog do Produto
 
-| Sprints | [EP01](#ep01-documentos) | [EP02](#ep02-suporte)  | [EP03](#ep03-cadastro)  | [EP04](#ep04-login-logout)  | [EP05](#ep05-codigo-de-seguranca)  |[EP06](#ep06-perfil-do-usuario)  |[EP07](#ep07-contas-e-cartoes)  |[EP08](#ep08-troca-dados-app-e-bancos)  |[EP09](#ep09-extrato)  |[EP10](#ep10-agenda) | [EP11](#ep11-planejamento)|[EP12](#ep12-estatisticas)|[EP13](#ep13-dicas)|[EP14](#ep14-serasa)|[EP15](#ep15-propagandas)|[EP16](#ep16-emprestimos)|
-|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-| Sprint 01 | |  | US11  | US16, US17 | ||||||||||||
-| Sprint 02 | |  | US12, US14 |  | |US22|||||||||||
-| Sprint 03 |  |  | US13 |  | |||US26, US27, US28|||||||||
-| Sprint 04 | |  |  |  | |||US27, US29, US30|||||||||
-| Sprint 05 |  |  |  | ||||||||||||
-| Sprint 06 |  |  |  |  | ||||||||||||
-| Sprint 07 |  |  |  |  |  ||||||||||||
-| Sprint 08 |  |  |  |  |  || ||||||||||
-| Sprint 09 |  |  |  |  | ||||||||||||
-| Sprint 10 |  |  |  |  | ||||||||||||
-| Sprint 11 |  |  |  |  | ||||||||||||
-| Sprint 12 |  |  |  |  | ||||||||||||
-| Sprint 13 |  |  |  |  | ||||||||||||
-| Sprint 14 |  |  |  |  | ||||||||||||
+**São 15 sprints no total, totalizando 325 pontos**
+
+#### Sprint 1
+| **Sprint 1** | |
+|--|--|
+| **Descrição** | Cadastro e login |
+| **Pontuação total** | 26 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US11](#us11-elaborar-formulario)| T2, [EP03](#ep03-cadastro) |
+|[US12](#us12-validacao-dados-de-cadastro)| T2, [EP03](#ep03-cadastro) |
+|[US15](#us15-validacao-dados-de-login)| T2, [EP04](#ep04-login-logout) |
+|[US16](#us16-fazer-login)| T2, [EP04](#ep04-login-logout) |
+|[US17](#us17-fazer-logout)| T2, [EP04](#ep04-login-logout) |
+
+#### Sprint 2
+| **Sprint 2** | |
+|--|--|
+| **Descrição** | Alteração em cadastro |
+| **Pontuação total** | 23 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US13](#us13-validacao-dos-dados-bancarios)| T2, [EP03](#ep03-cadastro) |
+|[US14](#us14-validacao-cadastro-duplicado)| T2, [EP03](#ep03-cadastro) |
+|[US22](#us22-trocar-senha)| T2, [EP06](#ep06-perfil-do-usuario) |
+|[US23](#us23-sistema-de-troca-de-senha)| T2, [EP06](#ep06-perfil-do-usuario) |
+|[US24](#us24-visualizar-email)| T2, [EP06](#ep06-perfil-do-usuario) |
+
+#### Sprint 3
+| **Sprint 3** | |
+|--|--|
+| **Descrição** | Contas e cartões |
+| **Pontuação total** | 16 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US25](#us25-cadastrar-uma-nova-conta-ou-cartao)| T3, [EP07](#ep07-contas-e-cartoes) |
+|[US26](#us26-visualizar-contas-e-cartoes-cadastrados)| T3, [EP07](#ep07-contas-e-cartoes) |
+|[US27](#us27-remover-conta-ou-cartao)| T3, [EP07](#ep07-contas-e-cartoes) |
+|[US28](#us28-sincronizar-informacoes)| T3, [EP07](#ep07-contas-e-cartoes) |
+|[US29](#us29-visualizar-os-status-de-sincronizacao)| T3, [EP07](#ep07-contas-e-cartoes) |
+
+#### Sprint 4
+| **Sprint 4** | |
+|--|--|
+| **Descrição** | Segurança e privacidade |
+| **Pontuação total** | 26 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US30](#us30-veracidade-de-dados)| T3, [EP08](#ep08-troca-dados-app-e-bancos) |
+|[US31](#us31-privacidade-de-dados)| T3, [EP08](#ep08-troca-dados-app-e-bancos) |
+|[US32](#us32-estatisticas-de-usuarios)| T3, [EP08](#ep08-troca-dados-app-e-bancos) |
+|[US34](#us34-seguranca-de-rede)| T3, [EP08](#ep08-troca-dados-app-e-bancos) |
+
+#### Sprint 5
+| **Sprint 5** | |
+|--|--|
+| **Descrição** | Código de seguranca |
+| **Pontuação total** | 18 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US18](#us18-ativar-codigo-de-seguranca)| T2, [EP05](#ep05-codigo-de-seguranca) |
+|[US19](#us19-trocar-codigo-de-seguranca)| T2, [EP05](#ep05-codigo-de-seguranca) |
+|[US20](#us20-remover-codigo-de-seguranca)| T2, [EP05](#ep05-codigo-de-seguranca) |
+|[US21](#us21-recuperar-codigo-de-seguranca)| T2, [EP05](#ep05-codigo-de-seguranca) |
+
+#### Sprint 6
+| **Sprint 6** | |
+|--|--|
+| **Descrição** | Transações |
+| **Pontuação total** | 21 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US41](#us41-adicionar-transacao-na-agenda)| T4, [EP10](#ep10-agenda) |
+|[US39](#us39-editar-dados-da-transacao)| T4, [EP09](#ep09-extrato) |
+|[US35](#us35-visualizar-transacoes-no-extrato)| T4, [EP09](#ep09-extrato) |
+|[US36](#us36-visualizar-detalhes-de-uma-transacao)| T4, [EP09](#ep09-extrato) |
+|[US37](#us37-ignorar-uma-transacao)| T4, [EP09](#ep09-extrato) |
+|[US38](#us38-adicionar-comentarios-e-tags-em-uma-transacao)| T4, [EP09](#ep09-extrato) |
+
+#### Sprint 7
+| **Sprint 7** | |
+|--|--|
+| **Descrição** | Contas |
+| **Pontuação total** | 11 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US40](#us40-elaborar-um-tutorial-para-usar-a-agenda)| T4, [EP10](#ep10-agenda) |
+|[US42](#us42-visualizar-contas-registradas-na-agenda)| T4, [EP10](#ep10-agenda) |
+|[US43](#us43-editar-contas-registradas-na-agenda)| T4, [EP10](#ep10-agenda) |
+|[US44](#us44-excluir-contas-registradas-na-agenda)| T4, [EP10](#ep10-agenda) |
+
+#### Sprint 8
+| **Sprint 8** | |
+|--|--|
+| **Descrição** | Gastos e rendas do usuário |
+| **Pontuação total** | 11 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US50](#us50-gastos-do-usuario)| T4, [EP12](#ep12-estatisticas) |
+|[US51](#us51-gastos-dos-ultimos-meses-por-categoria)| T4, [EP12](#ep12-estatisticas) |
+|[US52](#us52-gastos-e-rendas-dos-ultimos-meses)| T4, [EP12](#ep12-estatisticas) |
+|[US53](#us53-rendas-dos-ultimos-por-categoria)| T4, [EP12](#ep12-estatisticas) |
+
+#### Sprint 9
+| **Sprint 9** | |
+|--|--|
+| **Descrição** | planejamentos |
+| **Pontuação total** | 12 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US45](#us45-planejar-gastos)| T4, [EP11](#ep11-planejamento) |
+|[US46](#us46-planejar-renda)| T4, [EP11](#ep11-planejamento) |
+|[US47](#us47-categorizar-gasto)| T4, [EP11](#ep11-planejamento) |
+|[US48](#us48-categorizar-renda)| T4, [EP11](#ep11-planejamento) |
+|[US49](#us49-meses-futuros)| T4, [EP11](#ep11-planejamento) |
+
+#### Sprint 10
+| **Sprint 10** | |
+|--|--|
+| **Descrição** | Estatísticas |
+| **Pontuação total** | 34 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US54](#us54-estatisticas-para-os-parceiros)| T4, [EP12](#ep12-estatisticas) |
+|[US55](#us55-coletar-informacoes-de-fluxo-credito)| T5, [EP13](#ep13-dicas) |
+|[US56](#us56-analisar-informacoes-de-fluxo-credito)| T5, [EP13](#ep13-dicas) |
+|[US57](#us57-visualizar-dicas-de-controle-financeiro)| T5, [EP13](#ep13-dicas) |
+|[US58](#us58-buscar-dados-de-fontes-externas)| T5, [EP13](#ep13-dicas) |
+
+#### Sprint 11
+| **Sprint 11** | |
+|--|--|
+| **Descrição** | Informações para usuário |
+| **Pontuação total** | 24 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US59](#us59-indicar-se-as-dicas-foram-realmente-uteis)| T5, [EP13](#ep13-dicas) |
+|[US60](#us60-visualizar-status-de-avaliacao-de-credito)| T5, [EP14](#ep14-serasa) |
+|[US61](#us61-informar-score)| T5, [EP14](#ep14-serasa) |
+|[US62](#us62-realizar-integracao-com-terceiros)| T5, [EP14](#ep14-serasa) |
+|[US63](#us63-visualizar-empresas-que-consultaram-meu-cpf)| T5, [EP14](#ep14-serasa) |
+
+#### Sprint 12
+| **Sprint 12** | |
+|--|--|
+| **Descrição** | Descontos e créditos |
+| **Pontuação total** | 16 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US64](#us64-permitir-participar-do-cadastro-positivo)| T5, [EP14](#ep14-serasa) |
+|[US65](#us65-visualizar-ofertas-de-credito)| T6, [EP15](#ep15-propagandas) |
+|[US66](#us66-visualizar-cupons-de-desconto)| T6, [EP15](#ep15-propagandas) |
+|[US67](#us67-exibir-blogs-de-parceiros)| T6, [EP15](#ep15-propagandas) |
+|[US68](#us68-exibir-anuncios-direcionados)| T6, [EP15](#ep15-propagandas) |
+|[US69](#us69-disponibilizar-cartoes-de-bancos)| T6, [EP15](#ep15-propagandas) |
+
+#### Sprint 13
+| **Sprint 13** | |
+|--|--|
+| **Descrição** | Testes, documentação e medição |
+| **Pontuação total** | 21 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US01](#us01-elaborar-testes-de-usabilidade)| T1, [EP01](#ep01-documentos) |
+|[US02](#us02-documentar-e-agrupar-duvidas-dos-usuarios)| T1, [EP01](#ep01-documentos) |
+|[US03](#us03-visualizar-duvidas-frequentes)| T1, [EP01](#ep01-documentos) |
+|[US04](#us04-medir-eficiencia-da-resposta-para-uma-pergunta)| T1, [EP01](#ep01-documentos) |
+|[US05](#us05-medir-indice-de-utilizacao-de-funcoes-da-aplicacao)| T1, [EP01](#ep01-documentos) |
+
+#### Sprint 14
+| **Sprint 14** | |
+|--|--|
+| **Descrição** | Interação e comunicação com usuário |
+| **Pontuação total** | 26 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US06](#us06-elaborar-um-chat)| T1, [EP02](#ep02-suporte) |
+|[US07](#us07-disponibilizar-quaisquer-meio-de-contato-para-o-usuario)| T1, [EP02](#ep02-suporte) |
+|[US08](#us08-criar-um-bot-com-inteligencia-artificial)| T1, [EP02](#ep02-suporte) |
+|[US09](#us09-realizar-enquete)| T1, [EP02](#ep02-suporte) |
+|[US10](#us10-dar-sugestoes-de-melhoria)| T1, [EP02](#ep02-suporte) |
+
+#### Sprint 15
+| **Sprint 15** | |
+|--|--|
+| **Descrição** | Empréstimos |
+| **Pontuação total** | 40 |
+| **US's envolvidas**| **Tema e Épico** |
+|[US70](#us70-simular-um-emprestimo)| T6, [EP16](#ep16-emprestimos) |
+|[US71](#us71-contratar-emprestimo)| T6, [EP16](#ep16-emprestimos) |
+|[US72](#us72-disponibilizar-ofertas-de-emprestimos)| T6, [EP16](#ep16-emprestimos) |
+|[US73](#us73-garantir-um-ambiente-seguro-para-os-emprestimos)| T6, [EP16](#ep16-emprestimos) |
+|[US74](#us74-percentual-de-lucro)| T6, [EP16](#ep16-emprestimos) |
+
 
 ### Índice de US's
 
@@ -49,7 +213,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US07 Disponibilizar quaisquer meio de contato para o usuário](#us07-disponibilizar-quaisquer-meio-de-contato-para-o-usuario) | 
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US08 Criar um bot com inteligência artificial](#us08-criar-um-bot-com-inteligencia-artificial) |
 | T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US09 Realizar enquete](#us09-realizar-enquete) |
-| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US10 Dar sugestões de melhoria](#us10-dar-sugestoes-de-melhoria)  
+| T1 - Informações | [EP02 - Suporte](#ep02-suporte) | [US10 Dar sugestões de melhoria](#us10-dar-sugestoes-de-melhoria) |
 | T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US11 Elaborar formulário](#us11-elaborar-formulario) |
 | T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US12 Validação dados de cadastro](#us12-validacao-dados-de-cadastro) |
 | T2 - Cadastro & Autenticação | [EP3 - Cadastro](#ep03-cadastro) | [US13 Validação dos dados bancários](#us13-validacao-dos-dados-bancarios) |
@@ -96,10 +260,10 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | T4 - Controle Financeiro | [EP12 - Estatísticas](#ep12-estatisticas) | [US54 Estatísticas para parceiros](#us54-estatisticas-para-os-parceiros) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US55 Coletar informações de fluxo crédito](#us55-coletar-informacoes-de-fluxo-credito) | 
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US56 Analisar informações de fluxo crédito](#us56-analisar-informacoes-de-fluxo-credito) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US57 Visualizar dicas de controle financeiro](#us57-visualizar-dicas-de-controle-financeiro)|
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US57 Visualizar dicas de controle financeiro](#us57-visualizar-dicas-de-controle-financeiro) |
 | T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US58 Buscar dados de fontes externas](#us58-buscar-dados-de-fontes-externas) | 
-| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US59 Indicar se as dicas foram realmente úteis](#us59-indicar-se-as-dicas-foram-realmente-uteis)| 
-| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US60 Visualizar status de avaliação de crédito](#us60-visualizar-status-de-avaliacao-de-credito)| 
+| T5 - Informações externas | [EP13 - Dicas](#ep13-Dicas) | [US59 Indicar se as dicas foram realmente úteis](#us59-indicar-se-as-dicas-foram-realmente-uteis) | 
+| T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US60 Visualizar status de avaliação de crédito](#us60-visualizar-status-de-avaliacao-de-credito) | 
 | T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US61 Informar score](#us61-informar-score) | 
 | T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US62 Realizar integração com terceiros](#us62-realizar-integracao-com-terceiros) | 
 | T5 - Informações externas | [EP14 - Serasa](#ep14-Serasa) | [US63 Visualizar empresas que consultaram meu CPF](#us63-visualizar-empresas-que-consultaram-meu-cpf) | 
