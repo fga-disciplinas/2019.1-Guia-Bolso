@@ -38,6 +38,7 @@ pages:
     - Especificação Suplementar: 'modelagem/especificacao.md'
     - Casos de uso: 'modelagem/casos_de_uso.md'
     - Backlog do produto: 'modelagem/backlog.md'
+    - Istar: 'modelagem/istar.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
   
