@@ -50,21 +50,56 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS04** | **Adicionar compromisso na agenda**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
-| **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), Casos de uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda), Histórias de usuário [US41](../backlog/#us41-adicionar-transacao-na-agenda), [US42](../backlog/#us42-visualizar-contas-registradas-na-agenda) e [US43](../backlog/#us43-editar-contas-registradas0-na-agenda). |
+| **Rastreabilidade** | Cenário [C23](../cenarios/#c23-adicionar-na-agenda), Léxico [L36](../lexicos/#l36-agenda), Casos de uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda), Histórias de usuário [US41](../backlog/#us41-adicionar-transacao-na-agenda), [US42](../backlog/#us42-visualizar-contas-registradas-na-agenda) e [US43](../backlog/#us43-editar-contas-registradas0-na-agenda). |
 
 
 ## IS05 - Consultar situação do CPF
 
 ### Strategic Dependency Model (SD)
-[ ![IS05](./../img/istar/consultarcpfSD-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+[ ![IS05-SD](./../img/istar/consultarcpfSD-v1.png)](./../img/istar/consultarcpfSD-v1.png)
 
 ### Strategic Rationale Model (SR)
-[ ![IS05](./../img/istar/consultarcpfSR-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+[ ![IS05-SR](./../img/istar/consultarcpfSR-v1.png)](./../img/istar/consultarcpfSD-v1.png)
 
 | **IS05** | **Consultar situação do CPF**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) , [C4](../cenarios/#c4-realizar-abertura-do-cadastro-positivo), Léxico [L3](../lexicos/#l3-consultar-cpf), [L20](../lexicos/#l20-radar-cpf), RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e Casos de uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo).|
+
+
+## IS06 - Planejamento de rendas e gastos
+
+### Strategic Dependency Model (SD)
+[ ![IS06-SD](./../img/istar/planejamentoSD-v1.png)](./../img/istar/planejamentoSD-v1.png)
+
+### Strategic Rationale Model (SR)
+[ ![IS06-SR](./../img/istar/planejamentoSR-v1.png)](./../img/istar/planejamentoSR-v1.png)
+
+| **IS06** | **Planejamento de rendas e gatos**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | Léxico [L40](../lexicos/#l40-planejamento-financeiro), Caso de uso [UC10](../casos_de_uso/#uc10-adicionar-planejamento), User stories [US45](../backlog/#us45-planejar-gastos) e [US46](../backlog/#us46-planejar-renda).|
+
+
+## IS07 - Dicas financeiras 
+
+### Strategic Rationale Model (SR)
+[ ![IS07-SR](./../img/istar/dicasSR-v1.png)](./../img/istar/dicasSR-v1.png)
+
+| **IS07** | **Dicas financeiras**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | Cenários [C14](../cenarios/#c14-verificar-dicas) e [C15](../cenarios/#c15-avaliar-dicas), RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia), Caso de uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) e User story[US20](../backlog/#uc20-visualizar-dicas-externas). |
+
+## IS08 - Transações 
+
+### Strategic Dependency Model (SD)
+[ ![IS08-SD](./../img/istar/transacoesSD-v1.png)](./../img/istar/transacoesSD-v1.png)
+
+| **IS08** | **Transações**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao), Lexicos [L40](../lexicos/#l40-transacao), Casos de uso [UC6](../casos_de_uso/#uc6-adicionar-transacao-manual) e [UC8](../casos_de_uso/#uc8-editar-transacao).|
 
 
 ## Referências 
