@@ -17,10 +17,9 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
 | **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
 
-## Strategic Rationale Model (SR)
+## IS02 - Adicionar contas e cartões
 
-### IS02 - Adicionar contas e cartões
-
+### Strategic Rationale Model (SR)
 [ ![IS02](./../img/istar/adicionar_conta_cartao.png)](./../img/istar/adicionar_conta_cartao.png)
 
 
@@ -29,40 +28,40 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
 | **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
 
-### IS03 - Simular empréstimo
+## IS03 - Simular empréstimo
 
+### Strategic Rationale Model (SR)
 [ ![IS03](./../img/istar/simular_emprestimo.png)](./../img/istar/simular_emprestimo.png)
-
 
 | **IS03** | **Simular empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
 | **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
 
-## IS02 - Adicionar compromisso na agenda
+
+## IS04 - Adicionar compromisso na agenda
 
 ### Strategic Dependency Model (SD)
-[ ![IS02A](./../img/istar/agendaSD-v1.png)](./../img/istar/agendaSD-v1.png)
+[ ![IS04A](./../img/istar/agendaSD-v1.png)](./../img/istar/agendaSD-v1.png)
 
 ### Strategic Rationale Model (SR)
-[ ![IS02B](./../img/istar/agendaSR-v1.png)](./../img/istar/agendaSR-v1.png)
+[ ![IS04B](./../img/istar/agendaSR-v1.png)](./../img/istar/agendaSR-v1.png)
 
-| **IS02** | **Adicionar compromisso na agenda**|
+| **IS04** | **Adicionar compromisso na agenda**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Léxico [L36](../lexicos/#l36-agenda), Casos de uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda), Histórias de usuário [US41](../backlog/#us41-adicionar-transacao-na-agenda), [US42](../backlog/#us42-visualizar-contas-registradas-na-agenda) e [US43](../backlog/#us43-editar-contas-registradas0-na-agenda). |
 
 
-## IS03 - Consultar situação do CPF
+## IS05 - Consultar situação do CPF
 
 ### Strategic Dependency Model (SD)
-[ ![IS03](./../img/istar/consultarcpfSD-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+[ ![IS05](./../img/istar/consultarcpfSD-v1.png)](./../img/istar/consultarcpfSD-v1.png)
 
 ### Strategic Rationale Model (SR)
-[ ![IS03](./../img/istar/consultarcpfSR-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+[ ![IS05](./../img/istar/consultarcpfSR-v1.png)](./../img/istar/consultarcpfSD-v1.png)
 
-
-| **IS03** | **Consultar situação do CPF**|
+| **IS05** | **Consultar situação do CPF**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) , [C4](../cenarios/#c4-realizar-abertura-do-cadastro-positivo), Léxico [L3](../lexicos/#l3-consultar-cpf), [L20](../lexicos/#l20-radar-cpf), RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e Casos de uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo).|
