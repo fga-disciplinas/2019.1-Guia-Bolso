@@ -13,7 +13,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-## NFR02 - Desenpenho
+## NFR02 - Desempenho
 
 [ ![IS01](./../img/nfr/nfr_desenpenho.png)](./../img/istar/geral.png)
 
@@ -23,4 +23,11 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-## NFR03 - 
+## NFR03 - Design
+
+[ ![IS03](./../img/nfr/nfr_design.png)](./../img/nfr/nfr_design.png)
+
+| **NFR03** | **Atores**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
