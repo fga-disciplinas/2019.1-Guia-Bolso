@@ -48,7 +48,8 @@ Membros participantes:
 - Elias Bernardo;
 - Alan Lima;
 - Rafael Makaha;
-- Marcelo Araújo
+- Marcelo Araújo;
+- Lucas Machado;
 
 
 **Léo Santos:** O aplicativo facilita a gerência de múltiplas contas  bancárias, juntando todas num só lugar. Além disso ele já pré configura uma série de "burocracias" automaticamente, já entregando tudo pronto e usável ao usuário.

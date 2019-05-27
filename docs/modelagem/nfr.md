@@ -13,4 +13,14 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-## IS02 - Adicionar contas e cartões
+## NFR02 - Desenpenho
+
+[ ![IS01](./../img/nfr/nfr_desenpenho.png)](./../img/istar/geral.png)
+
+
+| **NFR01** | **Atores**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
+## NFR03 - 
