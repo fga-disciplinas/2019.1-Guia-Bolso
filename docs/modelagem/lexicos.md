@@ -33,6 +33,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 | 
 | **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC; <br> > Verificar se o [usuário](#l13-usuario) está com o [nome sujo](#l1-nome-sujo) ou o [nome limpo](#l24-nome-limpo). |
+|**Classificação**| Objeto |
 |**Sinônimos**|<br> > Verificar CPF; <br> > Verificar se o nome está sujo ou não.
 | **Impacto** | > Ao consultar o cpf, um indivíduo com o nome sujo pode saber quais são suas dívidas; <br> > Ao consultar o cpf, um indivíduo pode saber se está no cadastro positivo; <br> > Ao consultar o cpf, um indivíduo passar a saber seu score do Serasa.|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
@@ -101,6 +102,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Categoria pertencente ao grupo de gastos essenciais do [usuário](/#l13-usuario) do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o [usuário](/#l13-usuario) que deseja categorizar seus gastos para planejá-los nos meses seguintes | 
+|**Classificação**| Objeto |
 |**Sinônimos**|<br> > Contas de casa; <br> Gasto de água, luz e internet.
 | **Impacto** | > [usuário](/#l13-usuario) registra uma conta residencial e a categoriza, de modo que ele possa visualizar seus gráficos de gastos de forma mais organizada e assim, facilitar seu planejamento <br> > A categoria de Contas Residenciais consta no planejamento de [renda](/#l28-renda) <br> > Gastos com estabelecimento que tenham nomes intuitivos podem ser relacionados à categoria de Contas Residenciais automaticamente, por exemplo: Companhia Energética de Brasília |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
@@ -111,6 +113,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente |
+|**Classificação**| Verbo |
 | **Impacto** | > Ao pausar um cartão, o [usuário](/#l13-usuario) não terá mais uma gerência de gastos dele |
 
 ### L11 - Conta manual
@@ -119,6 +122,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| 1.0 |
 | **Noção** | > Opção de escolha com o intuito de como a conta do [usuário](/#l13-usuario) será registrada <br> > Tipo de conta em que o [usuário](/#l13-usuario) não insere seus dados bancários no aplicativo <br> > Tipo de conta em que o [usuário](/#l13-usuario) deseja adicionar transações manualmente <br> > Alternativa à Conta Automática |
+|**Classificação**| Objeto |
 |**Sinônimos**| <br> > Conta em que o próprio usuário adiciona gastos; <br> > Semelhante ao costume de bloco de notas ou agenda.
 | **Impacto** | > A conta manual não sofre sincronização automática <br> > O [usuário](/#l13-usuario) adiciona manualmente as transações de sua escolha |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
@@ -186,24 +190,28 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L18** | **Meses futuros**  |
 |--|--|
-| **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l18-meses-futuros_1) |
+| **Versão**| Atual:1.2 (28/05) <br>Anterior: 1.1 (21/04)  |
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
+|**Classificação**| Estado |
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](#l13-usuario) <br> > Auxilia o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
 ### L19 - Saúde financeira
 
 | **L19** | **Saúde financeira**  |
 |--|--|
-| **Versão**| 1.0 |
-| **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](#l13-usuario) está conseguindo controlar suas finanças como planejado.|
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
+| **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](#l13-usuario) está conseguindo controlar suas finanças como planejado.||
+|**Classificação**| Estado |
 | **Impacto** | > A saúde financeira permite ao [usuário](#l13-usuario) visualizar e tomar decisões financeiras com mais segurança das consequências.<br> > A saúde financeira é atualizada conforme a movimentação das contas do [usuário](#l13-usuario).|
 
 ### L20 - Radar CPF
 
 | **L20** | **Radar CPF**  |
 |--|--|
-| **Versão**| 1.0 |
-| **Noção** | > Funcionalidade presente na barra inferior do Guiabolso com fácil acesso <br> > Busca informações de um determinado local e retorna um feedback para o [usuário](#l13-usuario)|
+| **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
+| **Noção** |> Funcionalidade presente na barra inferior do Guiabolso com fácil acesso; <br>> Busca informações de um determinado local e retorna um feedback para o [usuário](#l13-usuario)|
+|**Classificação**| Objeto |
+|**Sinonimos**| Pesquisar CPF |
 | **Impacto** | > Responsável por mostrar ao [usuário](#l13-usuario) informações relacionadas ao seu estado no Serasa <br> > Diz de forma simples e objetiva se o [usuário](#l13-usuario) possui pendências financeiras ou não|
 
 ### L21 - Extrato
@@ -212,15 +220,20 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l21-extrato_1) |
 | **Noção** | > Aba contida nas finanças do Guiabolso.<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
+|**Classificação**| Objeto |
+|**Sinonimos**| -- |
 | **Impacto** | > O [usuário](#l13-usuario) recebe o feedback do fluxo de dinheiro de suas contas já registradas no GuiaBolso. <br> > Extrato é atualizado pelo Guiabolso com dados do banco ou do [usuário](#l13-usuario). <br> > Os meses futuros do extrato podem ser alterados pelo [usuário](#l13-usuario) <br> > Através do extrato, auxilía o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros|
 
 ### L22 - Avaliação de Crédito
 
 | **L22** | **Avaliação de Crédito**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l22-avaliacao-credito_1) |
+| **Versão**| Atual: 1.2 <br> Anterior: [1.1](#l22-avaliacao-credito_1) |
 | **Noção** | > Funcionalidade que mostra a pontuação do [usuário](#l13-usuario). <br> > Informando se o [usuário](#l13-usuario) tem pontuação boa ou ruim. <br> > Informação disponibilizada por instituições financeiras externas. |
+|**Classificação**| Objeto |
+|**Sinonimos**| Score |
 | **Impacto** | > Através da avaliação de crédito, o [usuário](#l13-usuario) Guiabolso disponibiliza recomendações de empréstimo de acordo com a avaliação disponibilizada.<br> > A avaliação de crédito depende de agentes externos para realizar avaliação do [usuário](#l13-usuario). |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L23 - Meta
 
@@ -318,7 +331,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
 | **Classificação** | Objeto |
-| **Sinônimos** | Aba guia |
+| **Sinônimos** | Aba guia , Dicas |
 | **Noção** | > Onde é mostrado conselhos financeiros, anúncios de patrocinadores e publicações de sites de patrocinadores; <br> > Tem informações sobre a situação financeira do [usuário], como por exemplo, comparação do gasto do mês atual com o anterior. |
 | **Impacto** | > Aba guia informa o [usuário] sobre comparações e informações de suas finanças; <br> > Guiabolso recebe dinheiro por publicar na aba guia anúncios de patrocinadores.|
 | **Rastro**| [Rich picture guia](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |
