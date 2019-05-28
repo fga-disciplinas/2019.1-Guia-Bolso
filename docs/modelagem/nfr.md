@@ -5,7 +5,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ## NFR01 - Suportabilidade
 
-[ ![IS01](./../img/nfr/nfr_suportabilidade.png)](./../img/istar/geral.png)
+[ ![IS01](./../img/nfr/nfr_suportabilidade_v1.png)](./../img/nfr/nfr_suportabilidade_v1.png)
 
 
 | **NFR01** | **Atores**|
@@ -13,9 +13,19 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
+[ ![IS01](./../img/nfr/nfr_suportabilidade_v2.png)](./../img/nfr/nfr_suportabilidade_v2.png)
+
+[ ![IS01](./../img/nfr/nfr_suportabilidade_v2_fb.png)](./../img/nfr/nfr_suportabilidade_v2_fb.png)
+
+| **NFR01** | **Atores**|
+|--|--|
+| **Versão**| Atual: 2.0 (28/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
+
 ## NFR02 - Desempenho
 
-[ ![IS01](./../img/nfr/nfr_desenpenho.png)](./../img/istar/geral.png)
+[ ![NFR02](./../img/nfr/nfr_desenpenho.png)](./../img/nfr/nfr_desenpenho.png)
 
 
 | **NFR01** | **Atores**|
@@ -25,7 +35,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ## NFR03 - Design
 
-[ ![IS03](./../img/nfr/nfr_design.png)](./../img/nfr/nfr_design.png)
+[ ![NFR03](./../img/nfr/nfr_design.png)](./../img/nfr/nfr_design.png)
 
 | **NFR03** | **Atores**|
 |--|--|
