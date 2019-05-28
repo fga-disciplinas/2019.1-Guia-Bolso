@@ -35,7 +35,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 
 | **IS03** | **Simular empréstimo**|
 |--|--|
-| **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
+| **Versão**| Atual: 1.1 (26/05) <br> Anterior: [1.0](#is03-simular-emprestimo_1) (26/05)|
 | **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
 
 
@@ -130,7 +130,20 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) , [C4](../cenarios/#c4-realizar-abertura-do-cadastro-positivo), Léxico [L3](../lexicos/#l3-consultar-cpf), [L20](../lexicos/#l20-radar-cpf), RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e Casos de uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo).|
 
+## Versões anteriores
+
+### IS03 - Simular empréstimo
+
+#### Strategic Rationale Model (SR)
+[ ![IS03](./../img/istar/simular_emprestimo1.png)](./../img/istar/simular_emprestimo1.png)
+
+| **IS03** | **Simular empréstimo**|
+|--|--|
+| **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
+| **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
+
+
 ## Referências 
 
- - [http://www.cs.toronto.edu/km/istar/#Overview](http://www.cs.toronto.edu/km/istar/#Overview)
- - [https://www.cin.ufpe.br/~jhcp/pistar/](https://www.cin.ufpe.br/~jhcp/pistar/)
+ - [ i* an agent- and goal-oriented modelling framework ](http://www.cs.toronto.edu/km/istar/#Overview)
+ - [ Pimentel, João and Castro, Jaelson. piStar Tool – A Pluggable Online Tool for Goal Modeling. 2018 IEEE 26th International Requirements Engineering Conference, pp. 498-499. ](https://www.cin.ufpe.br/~jhcp/pistar/)
