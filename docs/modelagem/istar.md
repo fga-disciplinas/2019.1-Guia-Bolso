@@ -42,28 +42,28 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 ## IS04 - Adicionar compromisso na agenda
 
 ### Strategic Dependency Model (SD)
-[ ![IS04A](./../img/istar/agendaSD-v1.png)](./../img/istar/agendaSD-v1.png)
+[ ![IS04A](./../img/istar/agendaSD-v2.png)](./../img/istar/agendaSD-v2.png)
 
 ### Strategic Rationale Model (SR)
-[ ![IS04B](./../img/istar/agendaSR-v1.png)](./../img/istar/agendaSR-v1.png)
+[ ![IS04B](./../img/istar/agendaSR-v2.png)](./../img/istar/agendaSR-v2.png)
 
 | **IS04** | **Adicionar compromisso na agenda**|
 |--|--|
-| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Versão**| Atual: 1.1 (27/05) <br> Anterior: [1.0](./../img/istar/agendaSD-v1.png)|
 | **Rastreabilidade** | Cenário [C23](../cenarios/#c23-adicionar-na-agenda), Léxico [L36](../lexicos/#l36-agenda), Casos de uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda), Histórias de usuário [US41](../backlog/#us41-adicionar-transacao-na-agenda), [US42](../backlog/#us42-visualizar-contas-registradas-na-agenda) e [US43](../backlog/#us43-editar-contas-registradas0-na-agenda). |
 
 
 ## IS05 - Consultar situação do CPF
 
 ### Strategic Dependency Model (SD)
-[ ![IS05-SD](./../img/istar/consultarcpfSD-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+[ ![IS05-SD](./../img/istar/consultarcpfSD-v2.png)](./../img/istar/consultarcpfSD-v2.png)
 
 ### Strategic Rationale Model (SR)
-[ ![IS05-SR](./../img/istar/consultarcpfSR-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+[ ![IS05-SR](./../img/istar/consultarcpfSR-v2.png)](./../img/istar/consultarcpfSD-v2.png)
 
 | **IS05** | **Consultar situação do CPF**|
 |--|--|
-| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Versão**| Atual: 1.1 (28/05) <br> Anterior: [1.0](./../img/istar/consultarcpfSD-v1.png)|
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) , [C4](../cenarios/#c4-realizar-abertura-do-cadastro-positivo), Léxico [L3](../lexicos/#l3-consultar-cpf), [L20](../lexicos/#l20-radar-cpf), RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e Casos de uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo).|
 
 
@@ -89,7 +89,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS07** | **Dicas financeiras**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
-| **Rastreabilidade** | Cenários [C14](../cenarios/#c14-verificar-dicas) e [C15](../cenarios/#c15-avaliar-dicas), RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia), Caso de uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) e User story[US20](../backlog/#uc20-visualizar-dicas-externas). |
+| **Rastreabilidade** | Cenários [C14](../cenarios/#c14-verificar-dicas) e [C15](../cenarios/#c15-avaliar-dicas), RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia), Caso de uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) e User story [US20](../backlog/#uc20-visualizar-dicas-externas). |
 
 ## IS08 - Transações 
 
@@ -101,6 +101,34 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao), Lexicos [L40](../lexicos/#l40-transacao), Casos de uso [UC6](../casos_de_uso/#uc6-adicionar-transacao-manual) e [UC8](../casos_de_uso/#uc8-editar-transacao).|
 
+## Versões anteriores
+
+## IS04 - Adicionar compromisso na agenda
+
+### Strategic Dependency Model (SD)
+[ ![IS04A](./../img/istar/agendaSD-v1.png)](./../img/istar/agendaSD-v1.png)
+
+### Strategic Rationale Model (SR)
+[ ![IS04B](./../img/istar/agendaSR-v1.png)](./../img/istar/agendaSR-v1.png)
+
+| **IS04** | **Adicionar compromisso na agenda**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | Cenário [C23](../cenarios/#c23-adicionar-na-agenda), Léxico [L36](../lexicos/#l36-agenda), Casos de uso [UC19](../casos_de_uso/#uc19-adicionar-na-agenda), Histórias de usuário [US41](../backlog/#us41-adicionar-transacao-na-agenda), [US42](../backlog/#us42-visualizar-contas-registradas-na-agenda) e [US43](../backlog/#us43-editar-contas-registradas0-na-agenda). |
+
+
+## IS05 - Consultar situação do CPF
+
+### Strategic Dependency Model (SD)
+[ ![IS05-SD](./../img/istar/consultarcpfSD-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+
+### Strategic Rationale Model (SR)
+[ ![IS05-SR](./../img/istar/consultarcpfSR-v1.png)](./../img/istar/consultarcpfSD-v1.png)
+
+| **IS05** | **Consultar situação do CPF**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) , [C4](../cenarios/#c4-realizar-abertura-do-cadastro-positivo), Léxico [L3](../lexicos/#l3-consultar-cpf), [L20](../lexicos/#l20-radar-cpf), RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e Casos de uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo).|
 
 ## Referências 
 
