@@ -20,12 +20,12 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 ## IS02 - Adicionar contas e cartões
 
 ### Strategic Rationale Model (SR)
-[ ![IS02](./../img/istar/adicionar_conta_cartao.png)](./../img/istar/adicionar_conta_cartao.png)
+[ ![IS02](./../img/istar/adicionar_conta_cartao_1.png)](./../img/istar/adicionar_conta_cartao_1.png)
 
 
 | **IS02** | **Adicionar contas e cartões**|
 |--|--|
-| **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
+| **Versão**| Atual: 1.1 (28/05) <br> Anterior: [1.0](#is02-adicionar-contas-e-cartoes_1) (26/05)|
 | **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [Casos de uso](../casos_de_uso), Cenário [C19](../cenarios/#c19-cadastrar-banco) |
 
 ## IS03 - Simular empréstimo
@@ -126,6 +126,27 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 
 ## Versões anteriores
 
+## IS02 - Adicionar contas e cartões
+
+### Strategic Rationale Model (SR)
+[ ![IS02](./../img/istar/adicionar_conta_cartao.png)](./../img/istar/adicionar_conta_cartao.png)
+
+
+| **IS02** | **Adicionar contas e cartões**|
+|--|--|
+| **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [Casos de uso](../casos_de_uso), Cenário [C19](../cenarios/#c19-cadastrar-banco) |
+
+### IS03 - Simular empréstimo
+
+#### Strategic Rationale Model (SR)
+[ ![IS03](./../img/istar/simular_emprestimo1.png)](./../img/istar/simular_emprestimo1.png)
+
+| **IS03** | **Simular empréstimo**|
+|--|--|
+| **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
+| **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
+
 ## IS04 - Adicionar compromisso na agenda
 
 ### Strategic Dependency Model (SD)
@@ -152,16 +173,6 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Cenário [C6](../cenarios/#c6-consultar-cpf) , [C4](../cenarios/#c4-realizar-abertura-do-cadastro-positivo), Léxico [L3](../lexicos/#l3-consultar-cpf), [L20](../lexicos/#l20-radar-cpf), RichPicture [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e Casos de uso [UC13](../casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [UC24](../casos_de_uso/#uc24-realizar-abertura-do-cadastro-positivo).|
-
-### IS03 - Simular empréstimo
-
-#### Strategic Rationale Model (SR)
-[ ![IS03](./../img/istar/simular_emprestimo1.png)](./../img/istar/simular_emprestimo1.png)
-
-| **IS03** | **Simular empréstimo**|
-|--|--|
-| **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
-| **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
 
 ## IS06 - Planejamento de rendas e gastos
 
