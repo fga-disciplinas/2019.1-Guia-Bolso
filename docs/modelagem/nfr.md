@@ -15,7 +15,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 [ ![NFR01](./../img/nfr/nfr_suportabilidade_v2.png)](./../img/nfr/nfr_suportabilidade_v2.png)
 
-### Análize do NFR de suportabilidade
+### Análise do NFR de suportabilidade
 
 [ ![NFR01](./../img/nfr/nfr_suportabilidade_v2_fb.png)](./../img/nfr/nfr_suportabilidade_v2_fb.png)
 
@@ -33,7 +33,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| 1.0 (29/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-### Análize do NFR de portabilidade
+### Análise do NFR de portabilidade
 [ ![NFR02](./../img/nfr/nfr_portabilidade_analise.png)](./../img/nfr/nfr_portabilidade_analise.png)
 
 | **NFR02** | **Atores**|
@@ -54,7 +54,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 [ ![NFR03](./../img/nfr/nfr_desempenho_v2.png)](./../img/nfr/nfr_desenpenho_v2.png)
 
-### Análize do NFR de desempenho
+### Análise do NFR de desempenho
 
 [ ![NFR03](./../img/nfr/nfr_desempenho_v2_fb.png)](./../img/nfr/nfr_desenpenho_v2_fb.png)
 
@@ -73,7 +73,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| 1.0 (27/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-### Análize do NFR de Design
+### Análise do NFR de Design
 
 [ ![NFR04](./../img/nfr/nfr_design_v2.png)](./../img/nfr/nfr_design_v2.png)
 
@@ -83,22 +83,30 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 
-## NFR05 - Confiabilidade
+## NFR05 - confiabilidade
+
+[ ![NFR05](./../img/nfr/nfr_confiabilidade_v1.jpg)](./../img/nfr/nfr_confiabilidade_v1.jpg)
+
+| **NFR04** | **Atores**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 [ ![NFR05](./../img/nfr/nfr_confiabilidade.png)](./../img/nfr/nfr_confiabilidade.png)
 
 | **NFR05** | **Atores**|
 |--|--|
-| **Versão**| 1.0 (27/05) <br> Anterior: --|
+| **Versão**| 1.1 (27/05) <br> Anterior: 1.0|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-### Análize do NFR de confiabilidade
+### Análise do NFR de confiabilidade
 [ ![NFR05](./../img/nfr/nfr_confiabilidade_analise.png)](./../img/nfr/nfr_confiabilidade_analise.png)
 
 | **NFR05** | **Atores**|
 |--|--|
-| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
+| **Versão**| Atual: 1.1 (27/05) <br> Anterior: |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
 
 ## NFR06 - Usabilidade
 
@@ -109,7 +117,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| 1.0 (27/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-### Análize do NFR de usabilidade
+### Análise do NFR de usabilidade
 [ ![NFR06](./../img/nfr/nrf_usabilidade_analise.png)](./../img/nfr/nrf_usabilidade_analise.png)
 
 | **NFR06** | **Atores**|
@@ -126,7 +134,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **Versão**| 1.0 (29/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-### Análize do NFR de seguranca
+### Análise do NFR de seguranca
 [ ![NFR07](./../img/nfr/nfr_seguranca_analise.png)](./../img/nfr/nfr_seguranca_analise.png)
 
 | **NFR07** | **Atores**|
