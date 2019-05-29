@@ -15,31 +15,35 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 [ ![NFR01](./../img/nfr/nfr_suportabilidade_v2.png)](./../img/nfr/nfr_suportabilidade_v2.png)
 
+### Análize do NFR de suportabilidade
+
 [ ![NFR01](./../img/nfr/nfr_suportabilidade_v2_fb.png)](./../img/nfr/nfr_suportabilidade_v2_fb.png)
 
 | **NFR01** | **Atores**|
 |--|--|
-| **Versão**| Atual: 2.0 (28/05) <br> Anterior: --|
+| **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 
 ## NFR02 - Desempenho
 
-[ ![NFR02](./../img/nfr/nfr_desenpenho_v1.png)](./../img/nfr/nfr_desenpenho_v1.png)
+[ ![NFR02](./../img/nfr/nfr_desempenho_v1.png)](./../img/nfr/nfr_desenpenho_v1.png)
 
 
 | **NFR02** | **Atores**|
 |--|--|
-| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
+| **Versão**| Atual: 1.0 (27/05) <br> Anterior: 1.0|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
-[ ![NFR02](./../img/nfr/nfr_desenpenho_v2.png)](./../img/nfr/nfr_desenpenho_v2.png)
+[ ![NFR02](./../img/nfr/nfr_desempenho_v2.png)](./../img/nfr/nfr_desenpenho_v2.png)
 
-[ ![NFR02](./../img/nfr/nfr_desenpenho_v2_fb.png)](./../img/nfr/nfr_desenpenho_v2_fb.png)
+### Análize do NFR de desempenho
+
+[ ![NFR02](./../img/nfr/nfr_desempenho_v2_fb.png)](./../img/nfr/nfr_desenpenho_v2_fb.png)
 
 | **NFR02** | **Atores**|
 |--|--|
-| **Versão**| Atual: 2.0 (28/05) <br> Anterior: --|
+| **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 
