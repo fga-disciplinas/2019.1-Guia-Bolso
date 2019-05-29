@@ -104,9 +104,22 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 ## IS09 - Faturamento 
 
 ### Strategic Dependency Model (SD)
-[ ![IS09](./../img/istar/faturamentoSD.png)](./../img/istar/faturamentoSD.png)
+[ ![IS09SD](./../img/istar/faturamentoSD.png)](./../img/istar/faturamentoSD.png)
+
+### Strategic Rationale Model (SR)
+[ ![IS09SR](./../img/istar/faturamentoSR.png)](./../img/istar/faturamentoSR.png)
 
 | **IS09** | **Faturamento**|
+|--|--|
+| **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao), Lexicos [L40](../lexicos/#l40-transacao), Casos de uso [UC6](../casos_de_uso/#uc6-adicionar-transacao-manual) e [UC8](../casos_de_uso/#uc8-editar-transacao).|
+
+## IS10 - Visualizar extrato 
+
+### Strategic Rationale Model (SR)
+[ ![IS10](./../img/istar/extrato.png)](./../img/istar/extrato.png)
+
+| **IS10 * | **Visualizar extrato**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao), Lexicos [L40](../lexicos/#l40-transacao), Casos de uso [UC6](../casos_de_uso/#uc6-adicionar-transacao-manual) e [UC8](../casos_de_uso/#uc8-editar-transacao).|
