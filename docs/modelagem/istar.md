@@ -15,7 +15,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS01** | **Atores**|
 |--|--|
 | **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
-| **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
+| **Rastreabilidade** | [Casos de uso](../casos_de_uso), RichPicture [RP00](../../pre-rastreabilidade/richpicture/#rp00-macros), RichPicture [RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores) |
 
 ## IS02 - Adicionar contas e cartões
 
@@ -26,7 +26,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS02** | **Adicionar contas e cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (26/05) <br> Anterior: --|
-| **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [Casos de uso](../casos_de_uso), Cenário [C19](../cenarios/#c19-cadastrar-banco) |
 
 ## IS03 - Simular empréstimo
 
@@ -36,7 +36,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS03** | **Simular empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.1 (26/05) <br> Anterior: [1.0](#is03-simular-emprestimo_1) (26/05)|
-| **Rastreabilidade** | [Casos de uso](../casos_de_uso) |
+| **Rastreabilidade** | [Casos de uso](../casos_de_uso), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [L3](../../modelagem/lexicos/#l3-consultar-cpf) |
 
 
 ## IS04 - Adicionar compromisso na agenda
@@ -112,7 +112,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS09** | **Faturamento**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
-| **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao), Lexicos [L40](../lexicos/#l40-transacao), Casos de uso [UC6](../casos_de_uso/#uc6-adicionar-transacao-manual) e [UC8](../casos_de_uso/#uc8-editar-transacao).|
+| **Rastreabilidade** | [Casos de uso](../casos_de_uso), RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), Léxico [L3](../../modelagem/lexicos/#l3-consultar-cpf), Léxico [L13] (../../modelagem/lexicos/#l13-usuario)|
 
 ## IS10 - Visualizar extrato 
 
@@ -122,7 +122,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS10 * | **Visualizar extrato**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
-| **Rastreabilidade** | Cenário [C18](../cenarios/#c18-editar-transacao), Lexicos [L40](../lexicos/#l40-transacao), Casos de uso [UC6](../casos_de_uso/#uc6-adicionar-transacao-manual) e [UC8](../casos_de_uso/#uc8-editar-transacao).|
+| **Rastreabilidade** | [Casos de uso](../casos_de_uso), RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), Léxico [L3](../../modelagem/lexicos/#l3-consultar-cpf), Léxico [L13] (../../modelagem/lexicos/#l13-usuario)|
 
 ## Versões anteriores
 
