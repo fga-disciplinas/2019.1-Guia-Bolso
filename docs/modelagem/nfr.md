@@ -2,6 +2,16 @@
 
 O NFR Framework trata-se de um framework conceitual orientado a requisitos não funcionais, ele decompõe os requisitos facilitando assim a compreensão e a priorização destes requisitos alem de possíveis comflitos, por consequência pode vir a ter um grande impacto no sistema.
 
+## NFR 00 - Geral 
+
+[ ![NFR01](./../img/nfr/nfr_geral.png)](./../img/nfr/nfr_geral.png)
+
+
+| **NFR01** | **Atores**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
 
 ## NFR01 - Suportabilidade
 
@@ -39,7 +49,8 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR02** | **Atores**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/05) <br> Anterior: --|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) <br> [NFR01 - Análise](#analize-do-nfr-de-suportabilidade) |
+| **Rastreabilidade** | [Especificaçã
+o Suplementar](../especificacao) <br> [NFR01 - Análise](#analize-do-nfr-de-suportabilidade) |
 
 
 ## NFR03 - Desempenho
