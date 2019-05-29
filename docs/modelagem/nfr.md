@@ -45,9 +45,17 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ## NFR03 - Design
 
-[ ![NFR03](./../img/nfr/nfr_design.png)](./../img/nfr/nfr_design.png)
+[ ![NFR03](./../img/nfr/nfr_design_v1.png)](./../img/nfr/nfr_design_v1.png)
 
 | **NFR03** | **Atores**|
 |--|--|
-| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
+| **Versão**| 1.0 (27/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
+
+[ ![NFR03](./../img/nfr/nfr_design_v2.png)](./../img/nfr/nfr_design_v2.png)
+
+| **NFR03** | **Atores**|
+|--|--|
+| **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
