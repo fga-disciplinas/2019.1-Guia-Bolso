@@ -10,4 +10,24 @@ A classificação de qualidade de um cenário será baseada na porcentagem de re
 
 |Ruim|Regular|Bom|
 |--|--|--|
-|sucessos < 50%| 50% => sucessos < 75%|sucessos => 75%|
+|:heavy_check_mark: **< 50%**| **50% >=** :heavy_check_mark: **< 75%**| :heavy_check_mark: **>= 75%**|
+
+A seguir está o checklist e a classificação dos léxicos.
+
+|Número|Critério de sucesso|[L1](../../modelagem/lexicos/#l1-nome-sujo)|[L2](../../modelagem/lexicos/#l2-cadastro-positivo)|[L3](../../modelagem/lexicos/#l3-consultar-cpf)|[L4](../../modelagem/lexicos/#l4-score-do-serasa)|
+|------|----------------------|--|--|--|--|
+|1| Possui rastreabilidade?||
+|2| Possui versionamento?||
+|3| Possui o nome do léxico?||
+|4| Usa linguagem compreensível?||
+|5| Possui classificação?||
+|6| Possui sinônimos?||
+|7| Possui mais de um sinônimo?||
+|8| Possui noção?||
+|9| Possui mais de uma noção?||
+|10| Possui impacto?||
+|11| Possui mais de um impacto?||
+|12| As informações são suficientes para entendimento do léxico?||
+|-| Quantidade de sucessos | 60% | 80% | 30% |
+|-| Classificação | **Regular**  | **Bom** | **Ruim** | |
+|-| Melhorias | | | | |
