@@ -40,6 +40,10 @@ pages:
     - Backlog do produto: 'modelagem/backlog.md'
     - Istar: 'modelagem/istar.md'
     - NFR: 'modelagem/nfr.md'
+  - Análise e Validação:
+    - RichPicture: 'analise/rich.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
-  
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
