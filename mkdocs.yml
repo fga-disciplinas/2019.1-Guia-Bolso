@@ -42,6 +42,7 @@ pages:
     - NFR: 'modelagem/nfr.md'
   - Análise e Validação:
     - RichPicture: 'analise/rich.md'
+    - Análise : 'analise/analise_casos_de_uso.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
