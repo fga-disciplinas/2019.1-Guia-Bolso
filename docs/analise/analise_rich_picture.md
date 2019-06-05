@@ -13,7 +13,7 @@ A classificação de qualidade de um cenário será baseada na porcentagem de re
 
 |Ruim|Regular|Bom|
 |--|--|--|
-|sucessos < 50%| 50% => sucessos < 75%|sucessos => 75%|
+|sucessos < 50%| 50% <= sucessos < 75%| sucessos >= 75%|
 
 A seguir está o checklist e a classificação dos cenários.
 
