@@ -43,6 +43,7 @@ pages:
   - Análise e Validação:
     - RichPicture: 'analise/analise_rich_picture.md'
     - Cenários: 'analise/analise_cenarios.md'
+    - Léxicos: 'analise/lexicos.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
