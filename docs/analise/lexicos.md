@@ -10,24 +10,28 @@ A classificação de qualidade de um cenário será baseada na porcentagem de re
 
 |Ruim|Regular|Bom|
 |--|--|--|
-|:heavy_check_mark: **< 50%**| **50% >=** :heavy_check_mark: **< 75%**| :heavy_check_mark: **>= 75%**|
+|sucessos **< 50%**| **50% >=** sucessos **< 75%**| sucessos **>= 75%**|
 
 A seguir está o checklist e a classificação dos léxicos.
 
-|Número|Critério de sucesso|[L1](../../modelagem/lexicos/#l1-nome-sujo)|[L2](../../modelagem/lexicos/#l2-cadastro-positivo)|[L3](../../modelagem/lexicos/#l3-consultar-cpf)|[L4](../../modelagem/lexicos/#l4-score-do-serasa)|
-|------|----------------------|--|--|--|--|
-|1| Possui rastreabilidade?||
-|2| Possui versionamento?||
-|3| Possui o nome do léxico?||
-|4| Usa linguagem compreensível?||
-|5| Possui classificação?||
-|6| Possui sinônimos?||
-|7| Possui mais de um sinônimo?||
-|8| Possui noção?||
-|9| Possui mais de uma noção?||
-|10| Possui impacto?||
-|11| Possui mais de um impacto?||
-|12| As informações são suficientes para entendimento do léxico?||
-|-| Quantidade de sucessos | 60% | 80% | 30% |
-|-| Classificação | **Regular**  | **Bom** | **Ruim** | |
-|-| Melhorias | | | | |
+|Critério de sucesso|[L1](../../modelagem/lexicos/#l1-nome-sujo)|[L2](../../modelagem/lexicos/#l2-cadastro-positivo)|[L3](../../modelagem/lexicos/#l3-consultar-cpf)|[L4](../../modelagem/lexicos/#l4-score-do-serasa)|
+|--|--|--|--|--|
+| Possui linkagens?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui versionamento?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui versão anterior?| :heavy_check_mark: | :x: | :x: | :heavy_check_mark: |
+| Possui o nome do léxico?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Usa linguagem compreensível?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui classificação? | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui classificação correta?| :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui sinônimos? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:|
+| Possui sinônimos corretos?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui noções? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui noções correta?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui impacto? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Possui impacto correto?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| As informações são suficientes para entendimento do léxico?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Segue a ordem de dados estabelecida? (Versão/Classificação/Sinônimos/Noção/Impacto/Rastro)| :heavy_check_mark: |:heavy_check_mark: | :x: | :heavy_check_mark: |
+| Possui rastro? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| *Quantidade de sucessos* | 100% | 81,25% | 93,75% | 100% |
+| *Classificação* | **Bom**  | **Bom** | **Bom** | **Bom** |
+| *Melhorias* | | Adicionar classificação | Ajustar ordem dos dados | | | 
