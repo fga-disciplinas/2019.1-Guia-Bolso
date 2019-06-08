@@ -44,6 +44,7 @@ pages:
     - RichPicture: 'analise/analise_rich_picture.md'
     - Cenários: 'analise/analise_cenarios.md'
     - Léxicos: 'analise/lexicos.md'
+    - Storytelling: 'analise/analise_storytelling.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
