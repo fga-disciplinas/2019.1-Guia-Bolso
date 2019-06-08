@@ -2,9 +2,14 @@
 
 ## Introdução
 
-A verificação dos Rich Pictures tem como objetivo principal a detecção de defeitos antes de encaminhar o produto à produção final. Para esse fim, um checklist mostrou-se mais prático e eficaz para a verificação. O checklist tem questões comuns para os modelos a serem documentados e avaliados e busca capturar as questões relevantes.
+A verificação do backlog tem como objetivo principal a detecção de defeitos antes de encaminhar o produto à produção final. Para esse fim, um checklist mostrou-se mais prático e eficaz para a verificação. O checklist foi elaborado com base no artigo Implantação de scrum em uma empresa de desenvolvimento de Software - Rômulo Henrique Leidemer.
 
-## Checklist 
-Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso.
+## Metodologia 
 
-A seguir está o checklist e a classificação dos cenários.
+Como o Backlog é um artefato consideravelmente grande, o grupo optou por fazer dois checklists: Um macro, avaliando o Backlog como um todo, e um micro, avaliando individualmente as US's. Dessa forma a avaliação final, de acordo com a classificação padronizada pelo grupo ficará mais fiel e avaliará o backlog de forma mais precisa.
+
+## Inspeção
+
+## Referências 
+
+[LEIDEMER, Rodigo. Implantação de scrum em uma empresa de desenvolvimento de Software - UNIVATES ](https://www.univates.br/bdu/bitstream/10737/361/1/RomuloLeidemer.pdf)

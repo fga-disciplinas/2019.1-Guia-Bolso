@@ -32,3 +32,7 @@ A classificação de qualidade de um cenário será baseada na porcentagem de re
 |sucessos < 50%| 50% <= sucessos < 75%| sucessos >= 75%|
 
 Dessa forma será possível pontuar e classificar a qualidade de um artefato por meio de critérios objetivos, definidos a partir de artigos e reutilização de domínio.
+
+## Referências
+
+[SPÍNDOLA, Rodrigo Oliveira, KALINOWSKI, Marcos. Inspeções de Requisitos de Software em Desenvolvimento Incremental: Uma experiência prática](http://www-di.inf.puc-rio.br/~kalinowski//publications/KalinowskiSNBT07.pdf)

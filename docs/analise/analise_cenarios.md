@@ -8,7 +8,7 @@ A verificação dos cenários tem como objetivo principal a detecção de defeit
 
 Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso.
 
-A seguir está o checklist e a classificação dos cenários.
+## Inspeção
 
 |Número|Critério de sucesso|[C5](../../modelagem/cenarios/#c5-limpar-o-nome)|[C7](../../modelagem/cenarios/#c7-ignorar-transacao)|[C11](../../modelagem/cenarios/#c11-solicitar-suporte)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta)|[C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao)|[C19](../../modelagem/cenarios/#c19-cadastrar-banco)|[C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes)|
 ----|----------------------|--|--|--|--|--|--|--|
