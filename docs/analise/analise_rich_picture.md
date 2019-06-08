@@ -22,15 +22,17 @@ A seguir está o checklist e a classificação dos cenários.
 |1| A simbologia está coerente?| :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 |2| Existe equilíbrio entre palavras e desenhos?| :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 |3| Os atores estão bem definidos?|
-|4| O fluxo e as operações fazem sentido?|
-|5| Possui operações suficientes para atender a proposta?|
-|6| Usa linguagem compreensível?| 	
-|7| Possui rastreabilidade?|
-|8| Possui versionamento?|
-|9| Os ícones correspondem à identidade visual proposta?|
-|10| Há relação clara sobre o relacionamento entre atores e objetos?
-|11| O modelo é compreendido por pessoas externas?| 
-|12| O modelo possui algum dado ou funcionalidade faltante?|
+|4| O centro do modelo está claro e bem definido?|
+|5| O foco do modelo condiz com o título definido?|
+|6| O fluxo e as operações fazem sentido?|
+|7| Possui operações suficientes para atender a proposta?|
+|8| Usa linguagem compreensível?| 	
+|9| Possui coerência com os artefatos relacionados?|
+|10| Possui versionamento?|
+|11| Os ícones correspondem à identidade visual proposta?|
+|12| Há relação clara sobre o relacionamento entre atores e objetos?
+|13| O modelo é compreendido por pessoas externas?| 
+|14| O modelo possui algum dado ou funcionalidade faltante?|
 |-| Quantidade de sucessos | 60% | 80% | 30% |
 |-| Classificação | **Regular**  | **Bom** | **Ruim** | |
 |-| Melhorias | Usar ícones do aplicativo | Simplificar mais | | |
