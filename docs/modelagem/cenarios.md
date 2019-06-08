@@ -63,7 +63,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c5-nome-sujo) (16/04) |
 | **Metas/Objetivos** | Retirar o status de [nome sujo](../lexicos/#l1-nome-sujo) do [usuário] |
-| **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do [usuário]; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Qu	1.0ando?**  <br>> No momento mais viável para o [usuário] consumidor;<br> <br> **Por quê?** <br> > [Usuário] está com pendências no SPC/SCPC/Serasa; <br> > [Usuário] está limitado à diversas transações financeiras.|
+| **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do [usuário]; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Quando?**  <br>> No momento mais viável para o [usuário] consumidor;<br> <br> **Por quê?** <br> > [Usuário] está com pendências no SPC/SCPC/Serasa; <br> > [Usuário] está limitado à diversas transações financeiras.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições bancárias. <br> > Serviços de proteção ao crédito|
 | **Recursos** | > Pendências em faturas; <br> > Centrais de atendimento das instituições de pagamento.|
 | **Restrição** | > Estar com o [nome sujo](../lexicos/#l1-nome-sujo); |
@@ -142,7 +142,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Metas/Objetivos** | Solucionar algum problema com o Guiabolso |
-| **Contexto** |**O que?** <br> > Solicitar [suporte](../lexicos/#l35-suporte);  <br><br> **Onde?** <br> > Na aba Ajustes, ao clicar em “Dúvidas"; <br> > **Quando?** Quando o [usuário] tem alguma dúvida ou problema ao usar o aplicativo; <br><br> **Por quê?** <br> > Porque o [usuário] quer ajuda pra resolver seu problema.|
+| **Contexto** |**O que?** <br> > Solicitar [suporte](../lexicos/#l35-suporte);  <br><br> **Onde?** <br> > Na aba Ajustes, ao clicar em “Dúvidas"; <br> <br> **Quando?** <br> Quando o [usuário] tem alguma dúvida ou problema ao usar o aplicativo; <br><br> **Por quê?** <br> Porque o [usuário] quer ajuda pra resolver seu problema.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
 | **Recursos** | > Conta no Guiabolso; <br> > Internet. |
 | **Restrição** | > [Usuário] ter conta no aplicativo;  |
@@ -225,7 +225,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Transação |
 | **Restrição** | > Não existir uma transação; |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro na transação |
-| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na guia "Finanças"; <br> > O [usuário] escolhe uma transação; <br> O [usuário] adiciona um comentário na transação escolhida ou na transação inserida manualmente |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na guia "Finanças"; <br> > O [usuário] escolhe uma transação; <br> O [usuário] adiciona um comentário na transação escolhida ou na transação inserida manualmente. |
 
 ### C18 - Editar transação
 
@@ -248,7 +248,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Metas/Objetivos** | Descrever como cadastrar um [banco] no Guiabolso. |
 | **Contexto** |**O que?** <br> > Cadastrar novo [banco] <br><br> **Onde?** <br> > No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> **Quando?** <br> > A qualquer momento após se cadastrar no Guiabolso. <br><br> **Por quê?** <br> > O [usuário] pode ter mais de uma conta bancaria. <br> > O [usuário] pode ingressar em um novo [banco]. |
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso, Instituições bancarias. |
-| **Recursos** | > Guiabolso. <br> > dados bancarios do [usuário]. <br> > Internet |
+| **Recursos** | > Guiabolso. <br> > Dados bancários do [usuário]. <br> > Internet |
 | **Restrição** | > [Usuário] não ter conta no aplicativo Guiabolso; <br> > A instituição bancaria não estar cadastrada no Guiabolso. |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Falta da [chave de segurança] do [banco](se necessário) <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > **Através da aba de finanças:** O [usuário] acessa o aplicativo Guiabolso e em "Finanças" aciona o botão "+" em seguida seleciona a opção de "Adicionar conta". <br> > O [usuário] seleciona o [banco] desejado e em seguida preenche os dados que são necessários para realizar a sincronização entre conta bancária e o Guiabolso. <br> > **Caso o [usuário] deseje realizar pelos ajustes:** O [usuário] acessa a aba de "Ajustes" e seleciona a opção "Contas e Cartões" em seguida aciona o botão "+" e segue com os passos seguintes sendo semelhantes aos feitos atraves da aba de "Finanças". <br> > O Guiabolso irá disponibilizar em tempo real todas as operações feitas nas contas bancarias **caso sejam contas automatica**, **se for [conta manual]** não é realizada sincronização automática dos dados, logo o [usuário] terá de fazer sincronia manualmente. |
