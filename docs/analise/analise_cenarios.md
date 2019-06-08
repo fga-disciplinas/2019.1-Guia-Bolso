@@ -4,17 +4,9 @@
 
 A verificação dos cenários tem como objetivo principal a detecção de defeitos antes de encaminhar o produto à produção final. Para os cenários, o itens mais relevante a se analisar é a notação dos modelos. Para esse fim, um checklist mostrou-se mais prático e eficaz para a verificação.
 
-## Checklist
+## Metodologia
 
 Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso.
-
-### Classificação de Qualidade
-
-A classificação de qualidade de um cenário será baseada na porcentagem de respostas positivas(sucessos) às perguntas:
-
-|Ruim|Regular|Bom|
-|--|--|--|
-|sucessos < 50%| 50% <= sucessos < 75%| sucessos >= 75%|
 
 A seguir está o checklist e a classificação dos cenários.
 
