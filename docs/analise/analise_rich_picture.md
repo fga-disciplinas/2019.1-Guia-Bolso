@@ -4,18 +4,11 @@
 
 A verificação dos Rich Pictures tem como objetivo principal a detecção de defeitos antes de encaminhar o produto à produção final. Para esse fim, um checklist mostrou-se mais prático e eficaz para a verificação. O checklist tem questões comuns para os modelos a serem documentados e avaliados e busca capturar as questões relevantes.
 
-## Checklist 
+## Metodologia 
+
 Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso.
 
-### Classificação de Qualidade
-
-A classificação de qualidade de um cenário será baseada na porcentagem de respostas positivas(sucessos) às perguntas:
-
-|Ruim|Regular|Bom|
-|--|--|--|
-|sucessos < 50%| 50% <= sucessos < 75%| sucessos >= 75%|
-
-A seguir está o checklist e a classificação dos cenários.
+## Inspeção
 
 |Número|Critério de sucesso|[RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
 |------|----------------------|--|--|--|--|
