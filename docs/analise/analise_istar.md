@@ -32,6 +32,31 @@ para se avaliar cada modelo individualmente. Será, também, anotado algum obser
 
 8 - Existem relações de Make e Break e estão representadas corretamente?
 
+| Questões Avaliativas / Diagrama avaliado | SD1 | Observações | Melhorias |
+|--|--|--|--|
+| Os Principais atores estão representados? | Sim |  | - |
+| As dependências estão no sentido correto? | Sim |  | - |
+| As estruturas estão montadas corretamente? | - |   | - |
+| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
+| Os Softgoals representam Critérios de Qualidade? | - |  | - |
+| Existem relações de Help e Hurt? | - |  | - |
+| Existe um ator central? | Não |  |  |
+| Existem relações de Make e Break e estão representadas 
+corretamente? | Sim |  | - |
 ## Inspeção
 
-### 
+### [IS01](../../modelagem/istar/#is01-atores)
+
+#### SD
+
+| Questões Avaliativas / Diagrama avaliado | SD1 | Observações | Melhorias |
+|--|--|--|--|
+| Os Principais atores estão representados? | Sim |  | - |
+| As dependências estão no sentido correto? | Sim |  | - |
+| As estruturas estão montadas corretamente? | - |   | - |
+| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
+| Os Softgoals representam Critérios de Qualidade? | - |  | - |
+| Existem relações de Help e Hurt? | - |  | - |
+| Existe um ator central? | Não |  |  |
+| Existem relações de Make e Break e estão representadas 
+corretamente? | Sim |  | - |
