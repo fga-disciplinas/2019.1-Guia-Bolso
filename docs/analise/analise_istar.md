@@ -47,16 +47,17 @@ corretamente? | Sim |  | - |
 
 ### [IS01](../../modelagem/istar/#is01-atores)
 
-#### SD
+#### [SD](../../modelagem/istar/#strategic-dependency-model-sd)
 
-| Questões Avaliativas / Diagrama avaliado | SD1 | Observações | Melhorias |
+| Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim |  | - |
+| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso, Patriocinadores, Serasa, Instituições financeiras, 
+Instituições Reguladoras | - |
 | As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | - |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | - |  | - |
-| Existem relações de Help e Hurt? | - |  | - |
-| Existe um ator central? | Não |  |  |
-| Existem relações de Make e Break e estão representadas 
-corretamente? | Sim |  | - |
+| As estruturas estão montadas corretamente? | Sim |   | - |
+| Existem relacionamentos de atores além de suas fronteiras? | Sim | Porém, as fronteiras não estão representadas | - |
+| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
+| Existem relações de Help e Hurt? | Não |  | - |
+| Existe um ator central? | Sim | O GuiaBolso |  |
+| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+
