@@ -76,3 +76,17 @@ Instituições Reguladoras | - |
 | Existe um ator central? | Não | Não visualmente, mas o Usuário é o foco principal |  |
 | Existem relações de Make e Break e estão representadas corretamente? | Sim |  | - |
 
+### [IS03](../../modelagem/istar/#is03-simular-emprestimo)
+
+#### [SR](../../modelagem/istar/#strategic-rationale-model-sr_1)
+
+| Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
+|--|--|--|--|
+| Os Principais atores estão representados? | Sim | Estão representados: Usuário, Serasa, GuiaBolso | - |
+| As dependências estão no sentido correto? | Sim |  | - |
+| As estruturas estão montadas corretamente? | Sim |   | - |
+| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
+| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
+| Existem relações de Help e Hurt? | Sim | Apenas Help | - |
+| Existe um ator central? | Não | Não visualmente, mas a interação entre o Usuário e o GuiaBolso é o foco principal |  |
+| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
