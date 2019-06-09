@@ -40,11 +40,14 @@ pages:
     - Backlog do produto: 'modelagem/backlog.md'
     - Istar: 'modelagem/istar.md'
     - NFR: 'modelagem/nfr.md'
-  - Análise e Validação:
+  - Análise e Validação: 
+    - Introdução: 'analise/padroes.md'
     - RichPicture: 'analise/analise_rich_picture.md'
     - Cenários: 'analise/analise_cenarios.md'
     - Léxicos: 'analise/lexicos.md'
     - Storytelling: 'analise/analise_storytelling.md'
+    - Caso de uso: 'analise/analise_casos_de_uso.md'
+    - Backlog: 'analise/analise_backlog.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
