@@ -6,6 +6,9 @@ p {
     text-align: justify;
 }
 
+th > a:visited {
+    color: #fff;
+}
 .md-nav__item {
     color:#4ec2eb;
 }
@@ -16,7 +19,7 @@ p {
     font-weight: bold;
 }
 thead:first-child {
-    background-color: #250048;
+    background-color: #ccc;
 }
 
 /* config css para classes */
