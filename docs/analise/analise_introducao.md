@@ -22,8 +22,21 @@ Cada dupla elaborou um checklist de perguntas baseadas em artigos (referenciados
 | Sara Silva & Shayane Alcântara | [Cenários](../analise_cenarios) & [Richpictures](../analise_rich_picture) |
 | Lucas Machado & Marcelo Araújo | Anáĺise de protocolo &  Storytelling |
 
+## Padronizações
 
-## Classificação de Qualidade
+Após a divisão das tarefas e planejamento dos checklists, o grupo reuniu-se via Hangouts no dia 08/06 às 22:00 para que fosse realizado uma Visão geral. Todas as questões dos checklists foram revisadas e algumas alteradas. Para facilirar o entendimento e as inspeções, o grupo optou por padronizar alguns itens. Após a reunião todos as analises que não estavam de acordo com as padronizações foram corrigidas.
+
+### Checklist
+
+- As questões deve ser booleanas (a resposta de ser "sim" ou "não").
+
+- As questões não podem ser dúbias.
+
+- As questões devem ser compreensíveis para qualquer pessoa que conheça o artefato.
+
+- As questões sobre rastreabilidade se referem ao fato de o modelo possuir ou não algum rastro, seja ele qual for.
+
+### Classificação de Qualidade
 
 A classificação de qualidade de um cenário será baseada na porcentagem de respostas positivas (sucessos) às perguntas:
 
@@ -32,6 +45,7 @@ A classificação de qualidade de um cenário será baseada na porcentagem de re
 |sucessos < 50%| 50% <= sucessos < 75%| sucessos >= 75%|
 
 Dessa forma será possível pontuar e classificar a qualidade de um artefato por meio de critérios objetivos, definidos a partir de artigos e reutilização de domínio.
+
 
 ## Referências
 
