@@ -47,6 +47,7 @@ pages:
     - Léxicos: 'analise/lexicos.md'
     - Caso de uso: 'analise/analise_casos_de_uso.md'
     - Backlog: 'analise/analise_backlog.md'
+    - NFR: 'analise/analise_nfr.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
