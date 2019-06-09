@@ -10,24 +10,23 @@ Para analisar os modelos dos Cenários, foram levantadas questões a respeito de
 
 ## Inspeção
 
-|Número|Critério de sucesso|[C5](../../modelagem/cenarios/#c5-limpar-o-nome)|[C7](../../modelagem/cenarios/#c7-ignorar-transacao)|[C11](../../modelagem/cenarios/#c11-solicitar-suporte)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta)|[C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao)|[C19](../../modelagem/cenarios/#c19-cadastrar-banco)|[C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes)|
-----|----------------------|--|--|--|--|--|--|--|
-|1| Possui título?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | :x:
-|2| Possui metas/objetivos?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|3| Os atores estão bem definidos?| :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|4| Possui contexto?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|5| Há descrição dos recursos?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|6| Responde o 5W2H?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | 
-|7| Descreve exceções?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|8| Descreve as restrições?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
-|9| Possui ligações suficientes com léxicos e/ou cenários por meio de links?| :x: | :x: |:heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | 
-|10| Caso haja subcenários, há a ligação deles com os episódios?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | |	
-|11| Possui rastreabilidade?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
-|12| Possui versionamento?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+|Critério de sucesso|[C5](../../modelagem/cenarios/#c5-limpar-o-nome)|[C7](../../modelagem/cenarios/#c7-ignorar-transacao)|[C11](../../modelagem/cenarios/#c11-solicitar-suporte)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta)|[C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao)|[C19](../../modelagem/cenarios/#c19-cadastrar-banco)|[C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes)|
+|----------------------|--|--|--|--|--|--|--|
+|1 - Possui título?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | :x:
+|2 - Possui metas/objetivos?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+|3 - Os atores estão bem definidos?| :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+|4 - Possui contexto?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+|5 - Há descrição dos recursos?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+|6 - Responde o 5W2H?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | 
+|7 - Descreve exceções?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
+|8 - Descreve as restrições?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
+|9 - Possui ligações suficientes com léxicos e/ou cenários por meio de links?| :x: | :x: |:heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | 
+|10 - Caso haja subcenários, há a ligação deles com os episódios?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | |	
+|11 - Possui rastreabilidade?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
+|12 - Possui versionamento?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 |-| Quantidade de sucessos | 91.6%| 91.6%| 100%| 100%| 91.6%| 83.3%| 100% |
 |-| Classificação | **Bom**  | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** |
 |-| Melhorias | Linkar léxicos em alguns termos|Linkar léxicos em alguns termos| Linkar léxicos em alguns termos| Linkar léxicos em alguns termos| Linkar léxicos em alguns termos|Linkar léxicos, cenários e subcenários| - |
-
 
 ## Referências
 

@@ -41,7 +41,7 @@ pages:
     - Istar: 'modelagem/istar.md'
     - NFR: 'modelagem/nfr.md'
   - Análise e Validação: 
-    - Introdução: 'analise/padroes.md'
+    - Introdução: 'analise/analise_introducao.md'
     - RichPicture: 'analise/analise_rich_picture.md'
     - Cenários: 'analise/analise_cenarios.md'
     - Léxicos: 'analise/lexicos.md'
