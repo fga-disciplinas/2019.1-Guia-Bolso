@@ -173,7 +173,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Indíviduo |
 | **Restrição** | > O indíviduo não possuir um dispositivo capaz de acessar  Guiabolso; |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro ao importar os dados bancários |
-| **Episódios** | > indivíduo deseja utilizar o Guiabolso; <br> > indivíduo instala o Guiabolso <br> > O indivíduo preenche todos os dados necessários para o cadastro; <br> >O indivíduo se torna um [Usuário] da aplicação |
+| **Episódios** | > indivíduo deseja utilizar o Guiabolso; <br> > indivíduo instala o Guiabolso <br> > O indivíduo preenche todos os dados necessários para o cadastro; <br> >O indivíduo se torna um [Usuário] da aplicação. |
 
 ### C14 - Verificar dicas
 
@@ -224,8 +224,8 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 |**Ator(es)** | > [Usuário]; <br> > Transação <br> > Guiabolso.|
 | **Recursos** | > Celular e/ou computador; <br> > Guiabolso; <br> > Transação |
 | **Restrição** | > Não existir uma transação; |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro na transação |
-| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na guia "Finanças"; <br> > O [usuário] escolhe uma transação; <br> O [usuário] adiciona um comentário na transação escolhida ou na transação inserida manualmente. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Erro na transação. |
+| **Episódios** | > O [usuário] entra no aplicativo; <br> > O [usuário] entra na guia "Finanças"; <br> > O [usuário] escolhe uma transação; <br> > O [usuário] adiciona um comentário na transação escolhida ou na transação inserida manualmente. |
 
 ### C18 - Editar transação
 

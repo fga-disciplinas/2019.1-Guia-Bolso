@@ -19,16 +19,18 @@ Para analisar os modelos dos Cenários, foram levantadas questões a respeito de
 |5| Há descrição dos recursos?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
 |6| Responde o 5W2H?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | 
 |7| Descreve exceções?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|8| Detalha episódios com respectivas exceções?|
-|9| Possui ligação suficiente com léxicos e outros cenários por meio de links?|
-|10| Caso haja subcenários, há a ligação deles com os episódios?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | 	
-|11| Possui coerência com os artefatos relacionados?|
+|8| Descreve as restrições?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
+|9| Possui ligações suficientes com léxicos e/ou cenários por meio de links?| :x: | :x: |:heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | 
+|10| Caso haja subcenários, há a ligação deles com os episódios?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | |	
+|11| Possui rastreabilidade?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | |
 |12| Possui versionamento?| :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|-| Quantidade de sucessos | 60% | 80% | 30% |
-|-| Classificação | **Regular**  | **Bom** | **Ruim** | |
-|-| Melhorias | | | | |
+|-| Quantidade de sucessos | 91.6%| 91.6%| 100%| 100%| 91.6%| 83.3%| 100% |
+|-| Classificação | **Bom**  | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** |
+|-| Melhorias | Linkar léxicos em alguns termos|Linkar léxicos em alguns termos| Linkar léxicos em alguns termos| Linkar léxicos em alguns termos| Linkar léxicos em alguns termos|Linkar léxicos, cenários e subcenários| - |
 
 
 ## Referências
 
-SERRANO, Milene. Simules Jogo de Cartas e Tabuleiro - Especificação em Cenários.
+SERRANO, M. et al. SimulES Jogo de Cartas e Tabuleiro - Especificação em Cenários.
+
+DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline with scenarios. Requirements Engineering, v. 2, n. 4, p. 184-198, 1997.
