@@ -4,24 +4,52 @@ Este documento tem como objetivo inspecionar os diagramas de casos de uso, estes
 
 ## Metodologia
 
-Para inspecionar os casos de uso será feito um checklist levando em consideração os topicos que foram considerados relevantes para a qualidade de um casos de uso. Esses topícos serão avaliados seguindo uma escala que será explicitada no topíco de escala de avaliação. E com isso é possível analisar os dados presentes no checklist e por fim chegar a uma conclusão, se o caso de uso esta bem feito, atende ao modelo de caso de uso, segue a metodologia para o mesmo dentre outras conclusões.
+Para inspecionar os casos de uso foi feito um checklist levando em consideração os topicos relevantes para a qualidade de um casos de uso. Esses topícos foram inspecionados e apartir desta inspeção o checklist foi preenchido. E com isso é possível analisar os dados presentes no checklist e por fim chegar a uma conclusão, se o caso de uso esta bem feito, atende ao modelo de caso de uso, segue a metodologia para o mesmo dentre outras conclusões.
 
 ## Inspeção
 
-|idquestão|Questão|UC1|UC2|UC3|UC4|UC5|UC6|UC7|UC8|UC9|UC10|UC11|UC11|UC12|UC13|UC14|UC15|UC16|UC17|UC18|UC19|UC20|UC21|UC22|UC23|UC24|
-----|----------------------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-|Q01 | A descrição de caso de uso está consistente com a representação no diagrama?| :x: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: |
-|Q02 | O caso de uso mostra o fluxo principal? |
-|Q03 | O caso de uso possui fluxos alternativos? |
-|Q04 | A descrição do caso de uso possui fluxos de exceção? |
-|Q05 | As frases representam um diálogo entre ator e sistema, evideciando a ação do ator? |
-|Q06 | As frases utilizam o tempo presente? |
-|Q07 | As frases procuram ser objetivas, evitando redundâncias ou informações desnecessárias?|
-|Q08 | O caso de uso segue a formatação padrão no modelo proposto?|
-|Q9 | O caso de uso possui a data nas suas versões?|
-|Q10 | Os icones presentes no diagrama seguem a padronização das cores? |
-|Q11 | São utilizados termos que representam a quantificação precisa? |
-|Q12 | O caso de uso possui alguma rastreabilidade?|
+|ID|Questão|
+|--|--|
+|1 | A descrição de caso de uso está consistente com a representação no diagrama?|
+|2 | O caso de uso mostra o fluxo principal? |
+|3 | O caso de uso possui fluxos alternativos? |
+|4 | A descrição do caso de uso possui fluxos de exceção? |
+|5 | As frases representam um diálogo entre ator e sistema, evideciando a ação do ator? |
+|6 | As frases utilizam o tempo presente? |
+|7 | As frases procuram ser objetivas, evitando redundâncias ou informações desnecessárias?|
+|8 | O caso de uso segue a formatação padrão no modelo proposto?|
+|9 | O caso de uso possui a data nas suas versões?|
+|10 | Os icones presentes no diagrama seguem a padronização das cores? |
+|11 | O caso de uso possui alguma rastreabilidade?|
+
+
+|UC|1|2|3|4|5|6|7|8|9|10|11|Qualidade|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|UC1|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|Bom|
+|UC2|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|Bom|
+|UC3|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bom|
+|UC4|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bom|
+|UC5|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bom|
+|UC6|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bom|
+|UC7|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bom|
+|UC8|||||||||||||
+|UC9|||||||||||||
+|UC10|||||||||||||
+|UC11|||||||||||||
+|UC11|||||||||||||
+|UC12|||||||||||||
+|UC13|||||||||||||
+|UC14|||||||||||||
+|UC15|||||||||||||
+|UC16|||||||||||||
+|UC17|||||||||||||
+|UC18|||||||||||||
+|UC19|||||||||||||
+|UC20|||||||||||||
+|UC21|||||||||||||
+|UC22|||||||||||||
+|UC23|||||||||||||
+|UC24|||||||||||||
 
 ## Referências
 
