@@ -14,6 +14,24 @@ envolvidos concordam com os pontos levantados para avaliar os modelos em questã
 Em seguida, o CheckList será aplicado a cada um dos modelos iEstrela gerados 
 para se avaliar cada modelo individualmente. Será, também, anotado algum observação referente ao ponto questionado e alguma melhoria, caso existam.
 
+## Perguntas
+
+1 - Os Principais atores estão representados?
+
+2 - As dependências estão no sentido correto?
+
+3 - As estruturas estão montadas corretamente?
+
+4 - Existem relacionamentos de atores além de suas fronteiras?
+
+5 - Os Softgoals representam Critérios de Qualidade?
+
+6 - Existem relações de Help e Hurt?
+
+7 - Existe um ator central?
+
+8 - Existem relações de Make e Break e estão representadas corretamente?
+
 ## Inspeção
 
 ### 
