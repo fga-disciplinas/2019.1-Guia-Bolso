@@ -36,15 +36,15 @@ para se avaliar cada modelo individualmente. Será, também, anotado algum obser
 
 | Questões Avaliativas / Diagrama avaliado | SD1 | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim |  | - |
-| As dependências estão no sentido correto? | Sim |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:|  | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
 | As estruturas estão montadas corretamente? | - |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
 | Os Softgoals representam Critérios de Qualidade? | - |  | - |
 | Existem relações de Help e Hurt? | - |  | - |
-| Existe um ator central? | Não |  |  |
+| Existe um ator central? |:x:|  |  |
 | Existem relações de Make e Break e estão representadas 
-corretamente? | Sim |  | - |
+corretamente? |:heavy_check_mark:|  | - |
 ## Inspeção
 
 ### [IS01](../../modelagem/istar/#is01-atores)
@@ -53,15 +53,15 @@ corretamente? | Sim |  | - |
 
 | Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso, Patriocinadores, Serasa, Instituições financeiras, 
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso, Patriocinadores, Serasa, Instituições financeiras, 
 Instituições Reguladoras | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
 | Existem relacionamentos de atores além de suas fronteiras? | - |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Sim | O GuiaBolso |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:heavy_check_mark:| O GuiaBolso |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes)
 
@@ -69,14 +69,14 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, Serasa/BoaVista, Instituições financeiras | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim |  | - |
-| Existe um ator central? | Não | Não visualmente, mas o Usuário é o foco principal |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Sim |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, Serasa/BoaVista, Instituições financeiras | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:|  | - |
+| Existe um ator central? |:x:| Não visualmente, mas o Usuário é o foco principal |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:heavy_check_mark:|  | - |
 
 ### [IS03](../../modelagem/istar/#is03-simular-emprestimo)
 
@@ -84,14 +84,14 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, Serasa, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim | Apenas Help | - |
-| Existe um ator central? | Não | Não visualmente, mas a interação entre o Usuário e o GuiaBolso é o foco principal |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, Serasa, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:| Apenas Help | - |
+| Existe um ator central? |:x:|Não visualmente, mas a interação entre o Usuário e o GuiaBolso é o foco principal |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS04](../../modelagem/istar/#is04-adicionar-compromisso-na-agenda)
 
@@ -99,27 +99,27 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
 | Existem relacionamentos de atores além de suas fronteiras? | - |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Não |  |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:x:|  |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 #### [SR](../../modelagem/istar/#strategic-rationale-model-sr_2)
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim | Existe interação além da fronteira do Usuário | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim | Apenas um help | - |
-| Existe um ator central? | Sim | O Usuário |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:| Existe interação além da fronteira do Usuário | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:| Apenas um help | - |
+| Existe um ator central? |:heavy_check_mark:| O Usuário |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf)
 
@@ -127,27 +127,27 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
 | Existem relacionamentos de atores além de suas fronteiras? | - |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Não |  |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:x:|  |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 #### [SR](../../modelagem/istar/#strategic-rationale-model-sr_3)
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Sim | O Usuário |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:heavy_check_mark:| O Usuário |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)
 
@@ -155,27 +155,27 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
 | Existem relacionamentos de atores além de suas fronteiras? | - |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Não |  |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:x:|  |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 #### [SR](../../modelagem/istar/#strategic-rationale-model-sr_4)
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim |  | - |
-| Existe um ator central? | Sim | O Usuário |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:|  | - |
+| Existe um ator central? |:heavy_check_mark:| O Usuário |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS07](../../modelagem/istar/#is07-dicas-financeiras)
 
@@ -183,14 +183,14 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim |  | - |
-| Existe um ator central? | Sim | O Usuário |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:|  | - |
+| Existe um ator central? |:heavy_check_mark:| O Usuário |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS08](../../modelagem/istar/#is08-transacoes)
 
@@ -198,14 +198,14 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
 | Existem relacionamentos de atores além de suas fronteiras? | - |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Não |  |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:x:|  |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS09](../../modelagem/istar/#is09-faturamento)
 
@@ -213,27 +213,27 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SD | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
 | Existem relacionamentos de atores além de suas fronteiras? | - |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Não |  | - |
-| Existe um ator central? | Não |  |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:x:|  | - |
+| Existe um ator central? |:x:|  |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 #### [SR](../../modelagem/istar/#strategic-rationale-model-sr_6)
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim |  | - |
-| Existe um ator central? | Sim | O Usuário |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Não |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:|  | - |
+| Existe um ator central? |:heavy_check_mark:| O Usuário |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:x:|  | - |
 
 ### [IS10](../../modelagem/istar/#is10-visualizar-extrato)
 
@@ -241,14 +241,14 @@ Instituições Reguladoras | - |
 
 | Questões Avaliativas / Diagrama avaliado | SR | Observações | Melhorias |
 |--|--|--|--|
-| Os Principais atores estão representados? | Sim | Estão representados: Usuário, GuiaBolso | - |
-| As dependências estão no sentido correto? | Sim |  | - |
-| As estruturas estão montadas corretamente? | Sim |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? | Sim |  | - |
-| Os Softgoals representam Critérios de Qualidade? | Sim |  | - |
-| Existem relações de Help e Hurt? | Sim |  | - |
-| Existe um ator central? | Sim | O Usuário |  |
-| Existem relações de Make e Break e estão representadas corretamente? | Sim |  | - |
+| Os Principais atores estão representados? |:heavy_check_mark:| Estão representados: Usuário, GuiaBolso | - |
+| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
+| As estruturas estão montadas corretamente? |:heavy_check_mark:|   | - |
+| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
+| Os Softgoals representam Critérios de Qualidade? |:heavy_check_mark:|  | - |
+| Existem relações de Help e Hurt? |:heavy_check_mark:|  | - |
+| Existe um ator central? |:heavy_check_mark:| O Usuário |  |
+| Existem relações de Make e Break e estão representadas corretamente? |:heavy_check_mark:|  | - |
 
 ## Conclusão
 
