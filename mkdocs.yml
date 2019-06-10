@@ -49,6 +49,7 @@ pages:
     - Caso de uso: 'analise/analise_casos_de_uso.md'
     - Backlog: 'analise/analise_backlog.md'
     - NFR: 'analise/analise_nfr.md'
+    - Istar: 'analise/analise_istar.md'
     - Validação: 'analise/validacao.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
