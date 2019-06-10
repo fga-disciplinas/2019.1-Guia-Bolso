@@ -44,7 +44,7 @@ pages:
     - Introdução: 'analise/analise_introducao.md'
     - RichPicture: 'analise/analise_rich_picture.md'
     - Cenários: 'analise/analise_cenarios.md'
-    - Léxicos: 'analise/lexicos.md'
+    - Léxicos: 'analise/analise_lexicos.md'
     - Caso de uso: 'analise/analise_casos_de_uso.md'
     - Backlog: 'analise/analise_backlog.md'
   - Histórico:
