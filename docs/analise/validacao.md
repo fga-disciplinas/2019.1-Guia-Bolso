@@ -9,6 +9,10 @@ O grupo optou por validar o protótipo com alguém que não usa o aplicativo, ma
 Foi pedido para ele avaliar a clareza de informações e de fluxos e o quanto as funcionalidades são intuitivas.
 
 ## Validação
+Abaixo está o feedback do Guiabolso.
+
+[ ![](./../img/validacao_gb.png) ](./../img/validacao_gb.png)
+
 Abaixo estão as anotações do Renan sobre as telas.
 
 ### [Notificações](../../elicitacao-de-requisitos/prototipacao/#notificacoes)
