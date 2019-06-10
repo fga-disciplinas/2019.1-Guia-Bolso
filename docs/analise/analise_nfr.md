@@ -29,14 +29,15 @@ Para analisar os modelos dos NFR's, foram levantadas questões a respeito de asp
 | 9 - Existe ao menos um operador que tenha dependencias (AND/OR) para atender o softgoal?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 10 - Softgoals escritos como nome? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 11 - Operadores escritos como verbos? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 12 - Existência de prioridade no NFR, seja operador ou softgoal?| :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: |
+| 12 - Existência de prioridade no NFR, seja operador ou softgoal?| :heavy_check_mark: | - | :heavy_check_mark: | :heavy_check_mark: | - | - | - | - |
 | 13 - Os critérios são completamente satisfatórios?| :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: | :x: | :x: | :heavy_check_mark: |
-| 14 - Os critérios são parcialmente satisfatórios?| :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |
-| 15 - Existência de critérios que não são satisfatórios?| :x: | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: |
-| 16 - Possui rastreabilidade? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 17 - Possui versionamento?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 18 - NFR condiz com requisitos já apresentados?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: |
-| 19 - NFR possuem linkagens?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 14 - Os critérios são parcialmente satisfatórios?| - | :heavy_check_mark: | - | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| 15 - Os critérios não são satisfatórios?| - | - | - | - | - | - | - | - |
+| 16 - Existência de softgoals ou operadores que não são satisfatórios?| - | - | - | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - | :heavy_check_mark: |
+| 17 - Possui rastreabilidade? | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 18 - Possui versionamento?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 19 - NFR condiz com requisitos já apresentados?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: |
+| 20 - NFR possuem linkagens?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | *Quantidade de sucessos* | 100% | 77.5% | 95% | 95% | 85% | 85% |  65% | 90% |
 | *Classificação* | **Bom**  | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** | **regular** | **Bom** |
 | *Melhorias* | - | Detalhar impactos | - | - | - | - | Detalhar impactos, aprofundar mais no tema e sua importância | - |
