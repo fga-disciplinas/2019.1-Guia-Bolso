@@ -22,12 +22,14 @@ Para analisar os modelos dos RichPicture, foram levantadas questões a respeito 
 |8 - Possui versionamento?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |
 |9 - Os ícones correspondem à identidade visual proposta?|:x:|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: |:x:|:x:|:heavy_check_mark: | :x: |
 |10 - Há relação clara entre atores e objetos?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:x:|
-|11 - É compreendido por pessoas externas?|:x:|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:x:
-|12 - Está com as funcionalidades atualizadas?|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: | :heavy_check_mark: |:x:|:heavy_check_mark: |  :heavy_check_mark:|:heavy_check_mark:|
-| Quantidade de sucessos|75%|100%|92%|58%|92%|75%|67% | 92% |58% |
-| Classificação |**Bom**| **Bom**|**Bom**|**Regular**|**Bom**|**Bom**| **Regular**|**Bom** | **Regular**  |
+|11 - Está com as funcionalidades atualizadas?|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: | :heavy_check_mark: |:x:|:heavy_check_mark: |  :heavy_check_mark:|:heavy_check_mark:|
+| Quantidade de sucessos|82%|100%|91%|64%|91%|73%|64%|91%|64% |
+| Classificação |**Bom**| **Bom**|**Bom**|**Regular**|**Bom**|**Regular**| **Regular**|**Bom** | **Regular**  |
 | Melhorias |Usar ícones do aplicativo; Usar mais verbos| |Adicionar "Agenda". |Usar ícones do aplicativo;<br> Clarear mais os fluxos|Diminuir a escala; Deixar o centro mais evidente.|Usar ícones do aplicativo;<br> Adicionar "Agenda".|Usar ícones do aplicativo;<br> Clarear mais os fluxos | Rever ações dos atores |Usar ícones do aplicativo; <br> Clarear mais os fluxos.|
 
+## Conclusão
+
+O RichPicture pode ser avaliado como Bom de acordo com os critérios de qualidade estabelecidos pelo grupo. Contudo alguns Rich específicos estão regulares, sendo necessários refatorá-los.
 
 ## Referências
 HORAN, Pat.Using Rich Pictures in Information System Teaching. Disponível em: http://ceur-ws.org/Vol-72/039%20Horan%20SSM.pdf. Acesso em: 04/06/2019.
