@@ -249,3 +249,7 @@ Instituições Reguladoras | - |
 | Existem relações de Help e Hurt? | Sim |  | - |
 | Existe um ator central? | Sim | O Usuário |  |
 | Existem relações de Make e Break e estão representadas corretamente? | Sim |  | - |
+
+## Conclusão
+
+Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo para o GuiaBolso ficaram bons. O que mais esteve ausente nos modelos foram as relações de Make e Break. Porém, como as análises foram, em geral, feitas em um escopo pequeno, estas relações serem ausentes é justificável.
