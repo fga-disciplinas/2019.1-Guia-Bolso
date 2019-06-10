@@ -16,12 +16,12 @@ Obs.: Como os itens macros se referem ao backlog como um todo, todos serão just
 
 | Questão |Resposta | Justificativa |
 |--|--|--|
-| **InsBL1** - Os itens que representam maior valor para o negócio estão sendo priorizados? |:heavy_check_mark:| Sim. As sprints foram elaboradas de forma que o "core" do aplicativo seja feito o mais rápido possível, de forma que esteja usável, mesmo que não completamente finalizado. |
-| **InsBL2** - As sprints estão bem divididas e com pontuação bem distribuida?| :x: | Apesar de as sprints estarem bem dividas a pontuação delas está desbanlaceada, indicando possíveis sprints de sobrecarga de trabalho ou sprints com pouco trabalho. |
-| **InsBL3** - O backlog possui épicos e temas bem definidos e descritos? | :heavy_check_mark: | Os temas estão bem descritos, e se subdividem em épicos que abragem as US's.  |
-| **InsBL4** - A pontuação de cada sprint foi definida seguindo algum tipo de padronização?| :heavy_check_mark: | Como as US's foram divididas em pontos que vão de 1 a 13 seguindo a sequência de fibonnaci, as sprints seguem a mesma ideia. |
-| **InsBL5** - O backlog abrange o desenvolvimento do produto, documentação e requisitos informais?| :heavy_check_mark: | Sim, as US envolvem os mais diversos atores (de desenvolvedores a usuários e patrocinadores) abrangendo os interesseres de cada um, consequentemente todos os aspectos da questão são abordados. |
-| **InsBL6** - As US's foram elaboradas seguindo um modelo e/ou um padrão?| :heavy_check_mark: | Sim. O grupo padronizou a elaboração de US's através se cards com "temas" predefinidos, pontuação seguindo a sequência de fibonacci (no range de 1 a 13) e a priorização MoSCoW.|
+| **1** - Os itens que representam maior valor para o negócio estão sendo priorizados? |:heavy_check_mark:| Sim. As sprints foram elaboradas de forma que o "core" do aplicativo seja feito o mais rápido possível, de forma que esteja usável, mesmo que não completamente finalizado. |
+| **2** - As sprints estão bem divididas e com pontuação bem distribuida?| :x: | Apesar de as sprints estarem bem dividas a pontuação delas está desbanlaceada, indicando possíveis sprints de sobrecarga de trabalho ou sprints com pouco trabalho. |
+| **3** - O backlog possui épicos e temas bem definidos e descritos? | :heavy_check_mark: | Os temas estão bem descritos, e se subdividem em épicos que abragem as US's.  |
+| **4** - A pontuação de cada sprint foi definida seguindo algum tipo de padronização?| :heavy_check_mark: | Como as US's foram divididas em pontos que vão de 1 a 13 seguindo a sequência de fibonnaci, as sprints seguem a mesma ideia. |
+| **5** - O backlog abrange o desenvolvimento do produto, documentação e requisitos informais?| :heavy_check_mark: | Sim, as US envolvem os mais diversos atores (de desenvolvedores a usuários e patrocinadores) abrangendo os interesseres de cada um, consequentemente todos os aspectos da questão são abordados. |
+| **6** - As US's foram elaboradas seguindo um modelo e/ou um padrão?| :heavy_check_mark: | Sim. O grupo padronizou a elaboração de US's através se cards com "temas" predefinidos, pontuação seguindo a sequência de fibonacci (no range de 1 a 13) e a priorização MoSCoW.|
 
 ### Micro 
 
@@ -29,11 +29,11 @@ Para a avaliação individual das US's foram elaboradas 5 perguntas. Elas serão
 
 | ID | Questão | 
 |--|--|
-| **InsBL7** | A história identifica corretamente a parte interessada? |
-| **InsBL8** | A história especifica ao menos dois critérios de aceitação? |
-| **InsBL9** | Os criterios de aceitação estão bem descritos e coerentes com a US? |
-| **InsBL10** | A pontuação da história está de acordo ou percentualmente próxima da pontuação dos artefatos elicitados no seu rastro? |
-| **InsBL11** | Os desejos e intenções descrevem e estão de acordo com a US e seu épico? |
+| **7** | A história identifica corretamente a parte interessada? |
+| **8** | A história especifica ao menos dois critérios de aceitação? |
+| **9** | Os criterios de aceitação estão bem descritos e coerentes com a US? |
+| **10** | A pontuação da história está de acordo ou percentualmente próxima da pontuação dos artefatos elicitados no seu rastro? |
+| **11** | Os desejos e intenções descrevem e estão de acordo com a US e seu épico? |
 
 | US | 7 | 8 | 9 | 10 | 11 | Qualidade |
 |--|--|--|--|--|--|--|
