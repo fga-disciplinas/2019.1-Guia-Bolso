@@ -6,7 +6,7 @@ A verificação dos cenários tem como objetivo principal a detecção de defeit
 
 ## Metodologia
 
-Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso.
+Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso. Em específico nas questões de linkagem de léxicos e cenários, se o cenário em questão conter somente 1 link faltante, será aribuida símbolo positivo.
 
 ## Inspeção
 
@@ -27,6 +27,10 @@ Para analisar os modelos dos Cenários, foram levantadas questões a respeito de
 |-| Quantidade de sucessos | 91.6%| 91.6%| 100%| 100%| 91.6%| 83.3%| 100% |
 |-| Classificação | **Bom**  | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** |
 |-| Melhorias | Linkar léxicos em alguns termos|Linkar léxicos em alguns termos| Linkar léxicos em alguns termos| Linkar léxicos em alguns termos| Linkar léxicos em alguns termos|Linkar léxicos, cenários e subcenários| - |
+
+## Conclusão
+
+Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo para o GuiaBolso ficaram bons. O que mais esteve ausente nos modelos foram alguns links para outros léxicos, cenários e subcenários. As causas prováveis são questões de tempo, atenção ou alinhamento com os outros membros.
 
 ## Referências
 
