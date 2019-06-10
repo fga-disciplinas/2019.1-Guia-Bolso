@@ -5,6 +5,8 @@
 Este documento tem por objetivo, produzir uma verificação a respeito dos modelos
 iStar produzidos para este projeto GuiaBolso, utilizando-se da técnica de inspeção - responsável pelo verificação de requisitos.
 
+Os passos retirados para a avaliação dos modelos iEstrela presentes neste documento foram baseados nas técnicas apresentadas na produção "IStar Tool - Uma proposta de ferramenta para modelagem de i*" da autora Bárbara Siqueira Santos em sua dissertação de mestrado.
+
 ## Metodologia
 
 Para a inspeção do iStar, o grupo optou por gerar um CheckList voltado para 
