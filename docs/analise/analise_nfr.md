@@ -39,4 +39,4 @@ Para analisar os modelos dos NFR's, foram levantadas questões a respeito de asp
 | 19 - NFR possuem linkagens?| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | *Quantidade de sucessos* | 100% | 77.5% | 95% | 95% | 85% | 85% |  65% | 90% |
 | *Classificação* | **Bom**  | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** | **regular** | **Bom** |
-| *Melhorias* | - | Detalhar impactos | - | - | - | - | - | Detalhar impactos, aprofundar mais no tema e sua importância | - |
+| *Melhorias* | - | Detalhar impactos | - | - | - | - | Detalhar impactos, aprofundar mais no tema e sua importância | - |
