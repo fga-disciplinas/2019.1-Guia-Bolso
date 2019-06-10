@@ -1,6 +1,6 @@
 ![Screenshot](img/logo.png)
 
-Repositório da disciplina de Requisitos de Software 2019.1 realizado sobre o aplicativo GuiaBolso.
+Repositório da disciplina de Requisitos de Software 2019.1 realizado sobre o aplicativo Guiabolso.
 
 ## Equipe
 

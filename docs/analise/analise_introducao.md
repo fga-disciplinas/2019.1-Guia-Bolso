@@ -18,9 +18,9 @@ Cada dupla elaborou um checklist de perguntas baseadas em artigos (referenciados
 | Dupla | Modelos a serem analisados |
 | --- | --- |
 | Elias Bernardo & Rafael Makaha | [Backlog](../analise_backlog) & [I*](../analise_istar) |
-| Leo Santos & Alan Lima | [Léxicos](../lexicos) & [Nfr](../analise_nfr) |
+| Leo Santos & Alan Lima | [Léxicos](../analise_lexicos) & [Nfr](../analise_nfr) |
 | Sara Silva & Shayane Alcântara | [Cenários](../analise_cenarios) & [Richpictures](../analise_rich_picture) |
-| Lucas Machado & Marcelo Araújo | Anáĺise de protocolo &  Storytelling |
+| Lucas Machado & Marcelo Araújo | Anáĺise de protocolo &  [Storytelling](../analise_storytelling) |
 
 ## Padronizações
 

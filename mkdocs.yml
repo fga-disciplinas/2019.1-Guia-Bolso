@@ -1,6 +1,6 @@
 
 
-site_name: Guia Bolso
+site_name: Guiabolso
 site_description: Repositório da disciplina de Requisitos 2019.1
 repo_url: https://github.com/rafaelmakaha/2019.1-Guia-Bolso
 site_dir: site
@@ -44,10 +44,12 @@ pages:
     - Introdução: 'analise/analise_introducao.md'
     - RichPicture: 'analise/analise_rich_picture.md'
     - Cenários: 'analise/analise_cenarios.md'
-    - Léxicos: 'analise/lexicos.md'
+    - Léxicos: 'analise/analise_lexicos.md'
+    - Storytelling: 'analise/analise_storytelling.md'
     - Caso de uso: 'analise/analise_casos_de_uso.md'
     - Backlog: 'analise/analise_backlog.md'
     - NFR: 'analise/analise_nfr.md'
+    - Validação: 'analise/validacao.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
