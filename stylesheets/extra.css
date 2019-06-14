@@ -14,11 +14,6 @@ th > a:visited {
     color:#4ec2eb;
 }
 
-td:first-child {
-    width: 150%;
-}
-
-
 .md-typeset h1 {
     color: rgba(0, 0, 0, 0.73);
     font-weight: bold;
