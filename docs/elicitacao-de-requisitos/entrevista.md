@@ -56,10 +56,10 @@ MoSCOW
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
 | ENT1 |O app deve dar possibilidade de alterar as contas manualmente|should|
-|ENT2|O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas|should|
-|ENT3|O deve padronizar a utilizalção nos dispositivos android e no IOS|must|
-|ENT4|O app deve ser mais intuitivo|must|
-|ENT5|O app pode diminuir as propagandas na aba guia|could|
+| ENT2 |O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas|should|
+| ENT3 |O deve padronizar a utilizalção nos dispositivos android e no IOS|must|
+| ENT4 |O app deve ser mais intuitivo|must|
+| ENT5 |O app pode diminuir as propagandas na aba guia|could|
 
 ### First Things First
 
