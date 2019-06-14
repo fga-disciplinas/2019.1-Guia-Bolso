@@ -32,6 +32,7 @@ pages:
     - Instrospecção: 'elicitacao-de-requisitos/introspeccao.md'
     - Entrevista: 'elicitacao-de-requisitos/entrevista.md'
     - Storytelling: 'elicitacao-de-requisitos/storytelling.md'
+    - Requisitos elicitados: 'elicitacao-de-requisitos/requisitos.md'
   - Modelagem:
     - Cenários: 'modelagem/cenarios.md'
     - Léxicos: 'modelagem/lexicos.md'

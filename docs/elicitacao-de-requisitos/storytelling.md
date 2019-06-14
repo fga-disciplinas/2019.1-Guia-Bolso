@@ -1,6 +1,6 @@
 ## Introdução
 
-<p align="justify"> Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecimento por meio de histórias sejam elas contadas por um grupo de pessoas ou até mesmo uma organização. A equipe realizou alguns storytellings sendo um com um pai de um dos membros da equipe que recentemente começou a utilizar o app Guiabolso e os outros com membros da equipe. Todos abordam experiências de utilização do app. Abaixo esta um relatório das narrativas.</p>
+Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecimento por meio de histórias sejam elas contadas por um grupo de pessoas ou até mesmo uma organização. A equipe realizou alguns storytellings sendo um com um pai de um dos membros da equipe que recentemente começou a utilizar o app Guiabolso e os outros com membros da equipe. Todos abordam experiências de utilização do app. Abaixo esta um relatório das narrativas.
 
 ## Storytelling 1 - Interesse do usuario
 
@@ -21,8 +21,8 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 
 ## Requisitos Elicitados
 
-| Código | Descrição | Prioridade |
-| -- | -- | -- |
+| ID | Descrição | Prioridade |
+|--|--|--|
 | ST01 | O app na parte de guia deve exibir os cards pela ordem de relevância  | could have |
 | ST02 | O app sugerir formas para melhor gerir o seu dinheiro | must have |
 | ST03 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | could have |
@@ -44,14 +44,14 @@ Esse storytelling foi feito para saber a experiência de um usuário com a aba g
 
 ## Resumo da Narração
 
-<p aling= "justify"> O usuário achou interessante a ideia que lhe foi passada do app, depois de utilizar um tempo foi em busca de novas funcionalidade dentre elas acabou encontrando na aba guia uma que lhe pareceu interessante, a parte onde encontrava sugestões de bares e restaurantes que pelo próprio app era possível adquirir descontos, porém ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes. Ele descobriu um local onde podia colocar a cidade de onde iria receber sugestões e lá também não existia a sua cidade como opção.</p>
+O usuário achou interessante a ideia que lhe foi passada do app, depois de utilizar um tempo foi em busca de novas funcionalidade dentre elas acabou encontrando na aba guia uma que lhe pareceu interessante, a parte onde encontrava sugestões de bares e restaurantes que pelo próprio app era possível adquirir descontos, porém ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes. Ele descobriu um local onde podia colocar a cidade de onde iria receber sugestões e lá também não existia a sua cidade como opção.
 
 O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/mp3/wpXGMcP7da/guia_bolso_storytelling_02.html).
 
 ## Requisitos Elicitados
 
-| Código | Descrição | Prioridade |
-| -- | -- | -- |
+| ID | Descrição | Prioridade |
+|--|----|--|
 | ST04 | O app deve oferecer cupons baseado na geolocalização do usuario | could have |
 | ST05 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | could have |
 | ST06 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | could have |
@@ -74,18 +74,18 @@ Esse storytelling foi feito para saber mais sobre o controle das finanças manua
 
 ## Resumo da Narração
 
-<p aling= "justify"> O usuário optou por, além de usar seu cartão com o app, também fazer o uso
+O usuário optou por, além de usar seu cartão com o app, também fazer o uso
 da opção de conta manual, pois faz compras com dinheiro regularmente. Depois de usar o app por algum tempo, observou que ao adicionar uma transação manual e salvar,
 ao tentar depois editar o valor da transação de positivo para negativo, não havia como, e também
 tentou alterar a data da transação e não conseguiu.
-Outra dificuldade foi ao escolher a categoria, pois tendo feito uma compra de um alimento, procurou a categoria comida e não acho, e acabou categorizando como Mercado.</p>
+Outra dificuldade foi ao escolher a categoria, pois tendo feito uma compra de um alimento, procurou a categoria comida e não acho, e acabou categorizando como Mercado.
 
 O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/music/aov68X6Wda/guia_bolso_storytelling_03.html).
 
 ## Requisitos Elicitados
 
-| Código | Descrição | Prioridade |
-| -- | -- | -- |
+| ID | Descrição | Prioridade |
+|--|--|--|
 | ST07 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | should  have |
 | ST08 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | could have |
 
