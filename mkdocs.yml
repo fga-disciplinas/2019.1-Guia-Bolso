@@ -17,6 +17,11 @@ extra:
       link: 'https://github.com/fga-disciplinas/2019.1-Guia-Bolso'
 extra_css:
   - 'stylesheets/extra.css'
+  - 'stylesheets/datatables.css'
+extra_javascript:
+  - 'javascripts/jquery.min.js'
+  - 'javascripts/extra.js'
+  - 'javascripts/datatables.js'
 plugins:
   - search
 pages:

@@ -6,6 +6,7 @@ Com o objetivo de facilitar futuras consultas, os requisitos elicitados serão c
 
 ### Índice geral
 
+<div class="datatable"></div>
 | ID | Descrição | Moscow |
 |--|--|--|
 | AP1 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|Must|
