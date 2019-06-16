@@ -85,7 +85,7 @@ Com o objetivo de facilitar futuras consultas, os requisitos elicitados serão c
 
 ### Requisitos funcionais e não funcionais
 
-Segudndo descrevem Machado (2013) e Bezerra (2007), os requisitos funcionais definem as funcionalidades e o comportamento do sistema, mediante a cada entrada, ou seja, é aquilo que descreve o que o sistema tem que fazer a cada ação de um usuário ou outro sistema. Já os requisitos não funcionais dizem respeito às características e padrões de qualidade que o sistema deve oferecer, como por exemplo, desempenho, confiabilidade, segurança, robustez, portabilidade, usabilidade, entre outras.
+Segundo descrevem Machado (2013) e Bezerra (2007), os requisitos funcionais definem as funcionalidades e o comportamento do sistema, mediante a cada entrada, ou seja, é aquilo que descreve o que o sistema tem que fazer a cada ação de um usuário ou outro sistema. Já os requisitos não funcionais dizem respeito às características e padrões de qualidade que o sistema deve oferecer, como por exemplo, desempenho, confiabilidade, segurança, robustez, portabilidade, usabilidade, entre outras.
 
 #### Tabela de requisitos funcionais
 
