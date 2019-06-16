@@ -63,7 +63,8 @@ MoSCOW
 
 ### First Things First
 
-| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Priorida    de |
+<div class="datatable"></div>
+| ID | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Priorida    de |
 |--|--|--|--|--|--|--|--|--|--|
 | ENT4 | 5 | 5 | 10 | 34.4.5% | 5 | 4.1% | 5 | 23.8% | 1.065 |
 | ENT1 | 3 | 2 | 5 | 17.2% | 4 | 16.6% | 2 | 9.5% | 0.403 |

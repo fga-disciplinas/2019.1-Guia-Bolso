@@ -110,7 +110,8 @@ Membros participantes:
 
 #### First Things First
 
-| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
+<div class="datatable"></div>
+| ID | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
 |--|--|--|--|--|--|--|--|--|--|
 | AD01 | 8 | 3 | 19 | 15.4% | 8 | 16.6% | 3 | 10% | 0.403 |
 | AD02 | 1 | 1 | 3 | 2.4% | 2 | 4.1% | 1 | 3.3% | 0.243 |

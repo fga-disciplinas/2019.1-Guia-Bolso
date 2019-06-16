@@ -69,8 +69,11 @@ Houve uma intervenção por parte da equipe ouvinte em uma das ações de explor
 |AP18|O Guiabolso deve permitir adicionar renda na "Carteira".|Could|
 |AP19|O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.|Would|
 
+
 ### First Things First
-| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor %| Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
+
+<div class="datatable"></div>
+| ID | Benefício relativo | Penalidade Relativa | Valor total | Valor %| Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | AP03 | 8 | 7 | 23 | 7.9% | 3 | 2.9% | 1 | 1.7% | 1.602 |
 | AP09 | 7 | 8 | 22 | 7.6% | 3 | 2.9% | 1 | 1.7% | 1.541 |

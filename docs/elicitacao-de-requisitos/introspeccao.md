@@ -89,7 +89,8 @@ __O que ela acha que poderia mudar:__ Paula gostaria que o app exibisse o score 
 
 Pelo fato de os requisitos terem sido elaborados com base em personas, sua não implementação não seria tão prejudicial ao Guiabolso, visto que as personas já usam (em teoria) o aplicativo. Já o contrário, a implementação deles, tornaria o aplicativo muito mais interessante, tendo assim um benefício relativo superior à penalidade relativa. Dessa forma, para o FTF, o **benefício relativo** terá peso 2, enquanto a **penalidade relativa** peso 1.
 
-| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor  | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
+<div class="datatable"></div>
+| ID | Benefício relativo | Penalidade Relativa | Valor total | Valor  | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
 |--|--|--|--|--|--|--|--|--|--|
 | IS01 | 3 | 2 | 8 | 9.4 | 1 | 5 | 1 | 4.3 | 0.773 |
 | IS02 | 3 | 1 | 7 | 8.2 | 1 | 5 | 1 | 4.3 | 0.674 |
