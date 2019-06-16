@@ -616,7 +616,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 4 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O app deve permitir o cadastro de uma nova conta ou cartão; <br> > Deve ser possível cadastrar uma nova conta ou cartão a qualquer momento; <br> >O app não deve permitir cadastrar uma conta ou cartão já cadastrado |
-| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
 #### US26 - Visualizar contas e cartões cadastrados
 
@@ -629,7 +629,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 2 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O app deve permitir a visualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar as contas e cartões a qualquer momento; |
-| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
 #### US27 - Remover conta ou cartão
 
@@ -642,7 +642,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 4 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O app deve permitir a remoção de contas e cartões cadastrados; <br> > Deve ser possível remover as contas e cartões cadastrados a qualquer momento; |
-| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
 #### US28 - Sincronizar informações
 
@@ -655,7 +655,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 4 |
 | **Prioridade** | Must |
 | **Critérios de aceitação** | > O app deve permitir a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível sincronizar/ atualizar as contas e cartões cadastrados a qualquer momento; |
-| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
 #### US29 - Visualizar os status de sincronização
 
@@ -668,7 +668,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Pontos** | 2 |
 | **Prioridade** | Should |
 | **Critérios de aceitação** | > O app deve permitir visualizar o status a sincronização/atualização de contas e cartões cadastrados; <br> > Deve ser possível visualizar a situação de sincronização/atualização das contas e cartões cadastrados a qualquer momento; |
-| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) |
+| **Rastreabilidade** | RichPicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
 ### EP08 -  Troca de dados
 

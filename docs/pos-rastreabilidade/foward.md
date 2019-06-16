@@ -26,8 +26,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | ID | Descrição |
 |--|--|
 | [RF01](#rf01) | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|
-| RF02 | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|
-| RF03 | O aplicativo deve permitir a adição de mais de uma conta bancária.| 
+| [RF02](#rf02) | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|
+| [RF03](#rf03) | O aplicativo deve permitir a adição de mais de uma conta bancária. | 
 | RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| 
 | RF05 | O app deve dar possibilidade de alterar as contas manualmente| 
 | RF06 | Permitir a criação de novas contas a partir das redes sociais do usuário | 
@@ -78,20 +78,50 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 #### Detalhes
 
+
 ##### RF01 
 
-
-
-| **RF01** | **Adicionar um "tutorial de primeiro uso**|
+| **RF01** | ** Adicionar um "tutorial de primeiro uso" **|
 |--|--|
-| **Imagem** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf1.jpg)](./../img/pos_rastreabilidade/foward_nf1.jpg)|
-|**US** | -- |
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf1.jpg)](./../img/pos_rastreabilidade/foward_nf1.jpg)|
+|**US** | [US02](../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios) |
 | **Caso de uso** | -- |
 | **Léxico** |  -- |
-| **Especificação** | -- |
+| **Especificação** | [RTD05](../../modelagem/especificacao/#rtd05-suporte-ao-usuario) |
 | **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **I\*** | --|
+| **NRF** | [NRF07](../../modelagem/nfr/#analise-do-nfr-de-usabilidade)|
+| **Obs.:** | O tutorial de uso completo está disponível apenas no [site](https://www.guiabolso.com.br/como-funciona). O app, seja de android ou IOS disponibiliza algumas dicas que só aparecem no primeiro uso, conforme a imagem. Dessa forma pode-se dizer que o requisito foi **parcialmente** implementado. |
+
+##### RF02 
+
+| **RF02** | ** Adicionar conta listada previamente ou manual **|
+|--|--|
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf2.gif)](./../img/pos_rastreabilidade/foward_nf2.gif)|
+|**US** | [US25](../../modelagem/backlog/#us25-cadastrar-uma-nova-conta-ou-cartao) |
+| **Caso de uso** | [UC09](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual) |
+| **Léxico** | [L11](../../modelagem/lexicos/#l11-conta-manual) & [L12](../../modelagem/lexicos/#l12-conta-automatica) |
+| **Especificação** | -- |
+| **Cenários** |[C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco)  |
+| **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
+| **NRF** | -- |
+| **Obs.:** | Requisito **totalmente** implementado. |
+
+##### RF03
+
+| **RF03** | ** O aplicativo deve permitir a adição de mais de uma conta bancária. **|
+|--|--|
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf3.gif)](./../img/pos_rastreabilidade/foward_nf3.gif)|
+|**US** | [US25](../../modelagem/backlog/#us25-cadastrar-uma-nova-conta-ou-cartao) & [US26](../../modelagem/backlog/#us26-visualizar-contas-e-cartoes-cadastrados) |
+| **Caso de uso** | [UC09](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual) |
+| **Léxico** |  [L11](../../modelagem/lexicos/#l11-conta-manual) & [L12](../../modelagem/lexicos/#l12-conta-automatica) |
+| **Especificação** | -- |
+| **Cenários** |  [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco) |
+| **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
+| **NRF** | -- |
+| **Obs.:** | Requisito **totalmente** implementado. É perfeitamente possível combinar contas bancárias, cartões e contas manuais. |
+
+##### RF16
 
 | **RF16** | **Adicionar transações manuais**|
 |--|--|
@@ -104,6 +134,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF17
 
 | **RF17** | **O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
 |--|--|
@@ -116,6 +147,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF18
+
 | **RF18** | **Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
 |--|--|
 | **Imagem** | |
@@ -126,6 +159,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Cenários** |-- |
 | **I*** | > Não há |
 | **Obs.:** | |
+
+##### RF19
 
 | **RF19** | **O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
 |--|--|
@@ -138,6 +173,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF20
+
 | **RF20** | **Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
 |--|--|
 | **Imagem** | |
@@ -148,6 +185,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Cenários** |-- |
 | **I*** | > Não há |
 | **Obs.:** | |
+
+##### RF21
 
 | **RF21** | **Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
 |--|--|
@@ -160,6 +199,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF22
+
 | **RF22** | **O Guiabolso deve permitir adicionar renda na "Carteira**|
 |--|--|
 | **Imagem** | |
@@ -170,6 +211,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Cenários** |-- |
 | **I*** | > Não há |
 | **Obs.:** | |
+
+##### RF23
 
 | **RF23** | **Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
 |--|--|
@@ -182,6 +225,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF24
+
 | **RF24** | **Categorizar as opções dentro das configurações do Guiabolso**|
 |--|--|
 | **Imagem** | |
@@ -192,6 +237,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Cenários** |-- |
 | **I*** | > Não há |
 | **Obs.:** | |
+
+##### RF25
 
 | **RF25** | **O app sugerir formas para melhor gerir o seu dinheiro**|
 |--|--|
@@ -204,6 +251,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF26
+
 | **RF26** | **Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário**|
 |--|--|
 | **Imagem** | |
@@ -214,6 +263,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Cenários** |-- |
 | **I*** | > Não há |
 | **Obs.:** | |
+
+##### RF27
 
 | **RF27** | **Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)**|
 |--|--|
@@ -226,6 +277,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF28
+
 | **RF28** | **Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"**|
 |--|--|
 | **Imagem** | |
@@ -234,8 +287,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Léxico** |  -- |
 | **Especificação** | -- |
 | **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **I\*** | --|
+| **NRF** | -- |
+| **Obs.:** | -- |
+
+##### RF29
 
 | **RF29** | **O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
 |--|--|
@@ -248,6 +304,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF30
+
 | **RF30** | **O app pode diminuir as propagandas na aba guia**|
 |--|--|
 | **Imagem** | |
@@ -258,6 +316,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Cenários** |-- |
 | **I*** | > Não há |
 | **Obs.:** | |
+
+##### RF31
 
 | **RF31** | **Possibilidade de remover os cards da aba _Guia_**|
 |--|--|
@@ -270,6 +330,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I*** | > Não há |
 | **Obs.:** | |
 
+##### RF32
+
 | **RF32** | **Adição de guias de categorização na aba _Guia_**|
 |--|--|
 | **Imagem** | |
@@ -278,8 +340,23 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Léxico** |  -- |
 | **Especificação** | -- |
 | **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **I\*** | --|
+| **NRF** | -- |
+| **Obs.:** | -- |
+
+##### RF
+
+| **RF** | ** O aplicativo deve permitir a adição de mais de uma conta bancária. **|
+|--|--|
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf.gif)](./../img/pos_rastreabilidade/foward_nf.gif)|
+|**US** |-- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I\*** | --|
+| **NRF** | -- |
+| **Obs.:** | -- |
 
 ### Requisitos Não funcionais
 
