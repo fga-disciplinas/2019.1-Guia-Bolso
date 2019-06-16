@@ -26,7 +26,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 <div class="datatable"></div>
 | ID | Descrição | Fonte | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
-| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|--|--|--|--|
+| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação| [Como funciona](https://www.guiabolso.com.br/como-funciona)|--|--|--|
 | RF02 | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|--|--|--|--|
 | RF03 | O aplicativo deve permitir a adição de mais de uma conta bancária.| --|--|--|--|
 | RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| --|--|--|--|
