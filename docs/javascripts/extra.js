@@ -1,5 +1,5 @@
  window.addEventListener("load", function(){
-    document.querySelector('.datatable ~ .md-typeset__scrollwrap .md-typeset__table table').setAttribute("class", "datatable");
+    $('.datatable ~ .md-typeset__scrollwrap .md-typeset__table table').addClass("datatable");
     
     $('table.datatable').DataTable( {
         "pageLength": 25,

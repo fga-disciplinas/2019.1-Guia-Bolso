@@ -76,7 +76,8 @@ Além disso, pode-se concluir também que algumas funcionalidades devem ser mant
 
 ### First Things First
 
-| Funcionalidades | Benefício relativo(peso 2) | Penalidade Relativa(peso 1) | Valor total | Valor % | Custo relativo(peso 1) | Custo | Risco relativo(peso 0.5) | Risco % | Priorida    de |
+<div class="datatable"></div>
+| ID | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Priorida de |
 |--|--|--|--|--|--|--|--|--|--|
 | Q01 | 9 | 8 | 26 | 10.5% | 3 | 3.5% | 2 | 2.7% | 2.16 |
 | Q02 | 9 | 5 | 23 | 9.3% | 9 | 10.6%% | 8 | 10.7% | 0.58 |
@@ -92,5 +93,6 @@ Além disso, pode-se concluir também que algumas funcionalidades devem ser mant
 | Q19 | 9 | 8 | 26 | 10.5% | 5 | 5.9% | 5 | 6.7% | 1.14 |
 | Totais | 93 | 61 | 247 | 100 | 85 | 100 | 75 | 100 |  
 
+Obs: Benefício relativo tem peso **2**, Penalidade Relativa e Custo relativo peso **1** e Risco relativo peso **0,5**
 ## Referências
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.

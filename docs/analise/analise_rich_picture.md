@@ -10,6 +10,7 @@ Para analisar os modelos dos RichPicture, foram levantadas questões a respeito 
 
 ## Inspeção
 
+<div class="datatable"></div>
 |Critério de sucesso|[RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores)|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)|[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |[RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
 |-------------------------|--|--|--|--|--|--|--|--|--|
 |1 - A simbologia está coerente?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | 

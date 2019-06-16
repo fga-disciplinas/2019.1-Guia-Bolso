@@ -94,8 +94,8 @@ Foi montado um storyboard sobre conta manual com base no storytelling 3
 
 ## First Things First
 
-
-| Funcionalidades | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
+<div class="datatable"></div>
+| ID | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
 |--|--|--|--|--|--|--|--|--|--|
 | ST01 | 6 | 1 | 13 | 15.5 | 1 | 8.3 | 1 | 5.9 | 1,001 |
 | ST02 | 6 | 2 | 14 | 16.7 | 3 | 25.1 | 3 | 17.6 | 1,003 |
