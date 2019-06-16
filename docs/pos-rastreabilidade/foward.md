@@ -1,5 +1,7 @@
 ## Introdução
 
+Este artefato busca ligar cada funcionalidade do guiaBolso, mostradas aqui por meio de print screens do aplicativo, ligadas aos seus respectivos requisitos.  
+
 ## Tabelas
 
 ### Legendas
@@ -80,10 +82,197 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 
 
-<div class="no-datatable"></div>
-| **RF01** | ** Adicionar um "tutorial de primeiro uso" **|
+| **RF01** | **Adicionar um "tutorial de primeiro uso**|
 |--|--|
-| Imagem | [ ![nf1](./../img/pos_rastreabilidade/foward_nf1.jpg)](./../img/pos_rastreabilidade/foward_nf1.jpg)|
+| **Imagem** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf1.jpg)](./../img/pos_rastreabilidade/foward_nf1.jpg)|
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF16** | **Adicionar transações manuais**|
+|--|--|
+| **Imagem** | |
+|**US** | US41 |
+| **Caso de uso** | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06) | ja foi feito ate casos de uso
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+
+| **RF17** | **O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
+|--|--|
+| **Imagem** | |
+|**US** | US49, US51 |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF18** | **Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
+|--|--|
+| **Imagem** | |
+|**US** | US45, US46 |
+| **Caso de uso** | [UC10](../../pos-rastreabilidade/casos_de_uso/#UC10-Adicionar-planejamento) |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF19** | **O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | UC7|
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF20** | **Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF21** | **Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF22** | **O Guiabolso deve permitir adicionar renda na "Carteira**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | UC9 |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF23** | **Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
+|--|--|
+| **Imagem** | |
+|**US** | US71, US70 |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF24** | **Categorizar as opções dentro das configurações do Guiabolso**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF25** | **O app sugerir formas para melhor gerir o seu dinheiro**|
+|--|--|
+| **Imagem** | |
+|**US** | US57,  |
+| **Caso de uso** | UC12, UC20|
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF26** | **Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF27** | **Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF28** | **Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF29** | **O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF30** | **O app pode diminuir as propagandas na aba guia**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF31** | **Possibilidade de remover os cards da aba _Guia_**|
+|--|--|
+| **Imagem** | |
+|**US** | -- |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
+| **Especificação** | -- |
+| **Cenários** |-- |
+| **I*** | > Não há |
+| **Obs.:** | |
+
+| **RF32** | **Adição de guias de categorização na aba _Guia_**|
+|--|--|
+| **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  -- |
