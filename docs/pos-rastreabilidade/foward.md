@@ -28,53 +28,53 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | [RF01](#rf01) | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|
 | [RF02](#rf02) | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|
 | [RF03](#rf03) | O aplicativo deve permitir a adição de mais de uma conta bancária. | 
-| [RF04](#rf04) | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| 
-| [RF05](#rf05) | O app deve dar possibilidade de alterar as contas manualmente | 
-| [RF06](#rf06) | Permitir a criação de novas contas a partir das redes sociais do usuário | 
-| [RF07](#rf07) | O Guiabolso deve permitir adicionar a renda do mês.| 
-| [RF08](#rf08) | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.| 
-| [RF09](#rf09) | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.| 
-| [RF10](#rf10) | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | 
-| [RF11](#rf11) | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| 
-| [RF12](#rf12) | O aplicativo deve disponibilizar o score numérico do Serasa (e não somente em classificação de __A__ a __E__) |
-| [RF13](#rf13) | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | 
-| [RF14](#rf14) | Mostrar quais empresas consultaram o CPF do usuário | 
-| [RF15](#rf15) | Permitir adição manual de transações | 
-| [RF16](#rf16) | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| 
-| [RF17](#rf17) | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| 
-| [RF18](#rf18) | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|
-| [RF19](#rf19) | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| 
-| [RF20](#rf20) | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | 
-| [RF21](#rf21) | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | 
-| [RF22](#rf22) | O Guiabolso deve permitir adicionar renda na "Carteira".| 
-| [RF23](#rf23) | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | 
-| [RF24](#rf24) | Categorizar as opções dentro das configurações do Guiabolso |
-| [RF25](#rf25) | O app sugerir formas para melhor gerir o seu dinheiro | 
-| [RF26](#rf26) | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |
-| [RF27](#rf27) | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | 
-| [RF28](#rf28) | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |
-| [RF29](#rf29) | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| 
-| [RF30](#rf30) | O app pode diminuir as propagandas na aba guia| 
-| [RF31](#rf31) | Possibilidade de remover os cards da aba _Guia_. | 
-| [RF32](#rf32) | Adição de guias de categorização na aba _Guia_. |
-| [RF33](#rf33) | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | 
-| [RF34](#rf34) | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |
-| [RF35](#rf35) | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |
-| [RF36](#rf36) | Permitir ao usuário escoher quais abas ele quer ver | 
-| [RF37](#rf37) | Oferecer uma consultoria financeira através de dicas e avisos | 
-| [RF38](#rf38) | Ter uma aba para simulação e contratação de empréstimos |
-| [RF39](#rf39) | Visualização gráfica de gastos por categoria |
-| [RF40](#rf40) | Exibir diferença entre renda e gastos | 
-| [RF41](#rf41) | Ter alertas importantes, como negativação, protesto ou crédito concedido| 
-| [RF42](#rf42) | Ter alcance de metas, como carro, casa, roupa, celular |
-| [RF43](#rf43) | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | 
-| [RF44](#rf44) | Inserir limites de gastos por categoria | 
-| [RF45](#rf45) | Notificar quando o gasto for excedido |
-| [RF46](#rf46) | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | 
-| [RF47](#rf47) | O app deve oferecer cupons baseado na geolocalização do usuario | 
-| [RF48](#rf48) | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | 
-| [RF49](#rf49) | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | 
-| [RF50](#rf50) | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |
+| RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| 
+| RF05 | O app deve dar possibilidade de alterar as contas manualmente| 
+| RF06 | Permitir a criação de novas contas a partir das redes sociais do usuário | 
+| RF07 | O Guiabolso deve permitir adicionar a renda do mês.| 
+| RF08 | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.| 
+| RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.| 
+| RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | 
+| RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| 
+| RF12 | O aplicativo deve disponibilizar o score numérico do Serasa (e não somente em classificação de __A__ a __E__) |
+| RF13 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | 
+| RF14 | Mostrar quais empresas consultaram o CPF do usuário | 
+| RF15 | Permitir adição manual de transações | 
+| RF16 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| 
+| RF17 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| 
+| RF18 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|
+| RF19 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| 
+| RF20 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | 
+| RF21 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | 
+| RF22 | O Guiabolso deve permitir adicionar renda na "Carteira".| 
+| RF23 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | 
+| RF24 | Categorizar as opções dentro das configurações do Guiabolso |
+| RF25 | O app sugerir formas para melhor gerir o seu dinheiro | 
+| RF26 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |
+| RF27 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | 
+| RF28 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |
+| RF29 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| 
+| RF30 | O app pode diminuir as propagandas na aba guia| 
+| RF31 | Possibilidade de remover os cards da aba _Guia_. | 
+| RF32 | Adição de guias de categorização na aba _Guia_. |
+| RF33 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | 
+| RF34 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |
+| RF35 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |
+| RF36 | Permitir ao usuário escoher quais abas ele quer ver | 
+| RF37 | Oferecer uma consultoria financeira através de dicas e avisos | 
+| RF38 | Ter uma aba para simulação e contratação de empréstimos |
+| RF39 | Visualização gráfica de gastos por categoria |
+| RF40 | Exibir diferença entre renda e gastos | 
+| RF41 | Ter alertas importantes, como negativação, protesto ou crédito concedido| 
+| RF42 | Ter alcance de metas, como carro, casa, roupa, celular |
+| RF43 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | 
+| RF44 | Inserir limites de gastos por categoria | 
+| RF45 | Notificar quando o gasto for excedido |
+| RF46 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | 
+| RF47 | O app deve oferecer cupons baseado na geolocalização do usuario | 
+| RF48 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | 
+| RF49 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | 
+| RF50 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |
 
 #### Detalhes
 
@@ -85,7 +85,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf1.jpg)](./../img/pos_rastreabilidade/foward_nf1.jpg)|
 |**US** | [US02](../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios) |
+| **Caso de uso** | -- |
+| **Léxico** |  -- |
 | **Especificação** | [RTD05](../../modelagem/especificacao/#rtd05-suporte-ao-usuario) |
+| **Cenários** |-- |
+| **I\*** | --|
 | **NRF** | [NRF07](../../modelagem/nfr/#analise-do-nfr-de-usabilidade)|
 | **Obs.:** | O tutorial de uso completo está disponível apenas no [site](https://www.guiabolso.com.br/como-funciona). O app, seja de android ou IOS disponibiliza algumas dicas que só aparecem no primeiro uso, conforme a imagem. Dessa forma pode-se dizer que o requisito foi **parcialmente** implementado. |
 
@@ -97,8 +101,10 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**US** | [US25](../../modelagem/backlog/#us25-cadastrar-uma-nova-conta-ou-cartao) |
 | **Caso de uso** | [UC09](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual) |
 | **Léxico** | [L11](../../modelagem/lexicos/#l11-conta-manual) & [L12](../../modelagem/lexicos/#l12-conta-automatica) |
+| **Especificação** | -- |
 | **Cenários** |[C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco)  |
 | **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
+| **NRF** | -- |
 | **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF03
@@ -109,8 +115,10 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**US** | [US25](../../modelagem/backlog/#us25-cadastrar-uma-nova-conta-ou-cartao) & [US26](../../modelagem/backlog/#us26-visualizar-contas-e-cartoes-cadastrados) |
 | **Caso de uso** | [UC09](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual) |
 | **Léxico** |  [L11](../../modelagem/lexicos/#l11-conta-manual) & [L12](../../modelagem/lexicos/#l12-conta-automatica) |
+| **Especificação** | -- |
 | **Cenários** |  [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco) |
 | **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
+| **NRF** | -- |
 | **Obs.:** | Requisito **totalmente** implementado. É perfeitamente possível combinar contas bancárias, cartões e contas manuais. |
 
 ##### RF04
@@ -257,38 +265,38 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 | **Imagem** | |
 |**US** | US41 |
-| **Caso de uso** | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06) | ja foi feito ate casos de uso
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Caso de uso** | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06) |
+| **Léxico** |  L30 & L40 & |
+| **Especificação** | RU05 |
+| **Cenários** | C2 |
+| **I\*** | IS08 |
+| **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF17
 
 | **RF17** | **O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
 |--|--|
 | **Imagem** | |
-|**US** | US49, US51 |
+|**US** | US49 & US51 |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
+| **Léxico** |  L18 |
 | **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Cenários** | C3 |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF18
 
 | **RF18** | **Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
 |--|--|
 | **Imagem** | |
-|**US** | US45, US46 |
+|**US** | US45 & US46 |
 | **Caso de uso** | [UC10](../../pos-rastreabilidade/casos_de_uso/#UC10-Adicionar-planejamento) |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Léxico** |  L13 |
+| **Especificação** | RU05 |
+| **Cenários** | -- |
+| **I\*** | IS06 |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF19
 
@@ -297,11 +305,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | UC7|
-| **Léxico** |  -- |
+| **Léxico** |  L13 |
 | **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Cenários** | C9 |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF20
 
@@ -310,11 +318,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
+| **Léxico** |  L13 |
 | **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Cenários** | C9 |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF21
 
@@ -323,11 +331,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Léxico** |  L13 |
+| **Especificação** | RU05 |
+| **Cenários** | -- |
+| **I\*** | IS06 |
+| **Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF22
 
@@ -336,24 +344,24 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | UC9 |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Léxico** | -- |
+| **Especificação** | RU05 |
+| **Cenários** | C24 |
+| **I\*** | IS06 |
+| **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF23
 
 | **RF23** | **Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
 |--|--|
 | **Imagem** | |
-|**US** | US71, US70 |
+|**US** | US71 & US70 |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
+| **Léxico** |  L32 & L13 |
 | **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Cenários** | C14 |
+| **I\*** | IS07 & IS03 |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF24
 
@@ -363,23 +371,23 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Especificação** | RCC03 |
+| **Cenários** | -- |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF25
 
 | **RF25** | **O app sugerir formas para melhor gerir o seu dinheiro**|
 |--|--|
 | **Imagem** | |
-|**US** | US57,  |
-| **Caso de uso** | UC12, UC20|
+|**US** | US57  |
+| **Caso de uso** | UC12 & UC20|
 | **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Especificação** | RU05 |
+| **Cenários** | C14 |
+| **I\*** | IS07 |
+| **Obs.:** | Requisito **parcialmente** implementado. |
 
 ##### RF26
 
@@ -388,11 +396,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Léxico** |  L32 & L13 |
+| **Especificação** | RU02 |
+| **Cenários** | C14 |
+| **I\*** | IS07 |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF27
 
@@ -403,9 +411,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Caso de uso** | -- |
 | **Léxico** |  -- |
 | **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Cenários** | -- |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF28
 
@@ -414,12 +422,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I\*** | --|
-| **NRF** | -- |
-| **Obs.:** | -- |
+| **Léxico** |  L32 |
+| **Especificação** | RU05 |
+| **Cenários** | C15 |
+| **I\*** | > Não há|
+| **Obs.:** | Requisito **parcialmente** implementado. |
 
 ##### RF29
 
@@ -429,10 +436,10 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  -- |
-| **Especificação** | -- |
+| **Especificação** | RU01|
 | **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF30
 
@@ -441,11 +448,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
+| **Léxico** |  L32 |
 | **Especificação** | -- |
 | **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF31
 
@@ -454,11 +461,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
+| **Léxico** |  L32 |
 | **Especificação** | -- |
-| **Cenários** |-- |
-| **I*** | > Não há |
-| **Obs.:** | |
+| **Cenários** | -- |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF32
 
@@ -467,12 +474,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Imagem** | |
 |**US** | -- |
 | **Caso de uso** | -- |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I\*** | --|
-| **NRF** | -- |
-| **Obs.:** | -- |
+| **Léxico** |  L32 |
+| **Especificação** | RU05 |
+| **Cenários** | -- |
+| **I\*** | > Não há |
+| **Obs.:** | Requisito **parcialmente** implementado. |
 
 ##### RF
 
