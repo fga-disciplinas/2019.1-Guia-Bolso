@@ -28,10 +28,10 @@ __O que ele acha que poderia mudar:__ FGAnderson gostaria de poder organizar mel
 
 | Código | Descrição | Prioridade |
 |--|--|--|
-| IS01 |  Mais opções de visualização nos gráficos de rendas e gastos | Could have |
-| IS02 |  Possibilidade de remover os cards da aba _Guia_. | Should have |
-| IS03 |  Adição de guias de categorização na aba _Guia_. | Should have |
-| IS04 |  Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | Should have |
+| INS01 |  Mais opções de visualização nos gráficos de rendas e gastos | Could have |
+| INS02 |  Possibilidade de remover os cards da aba _Guia_. | Should have |
+| INS03 |  Adição de guias de categorização na aba _Guia_. | Should have |
+| INS04 |  Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | Should have |
 
 ___
 
@@ -55,8 +55,8 @@ __O que ele acha que poderia mudar:__ João gostaria de poder se cadastrar usand
 
 | Código | Descrição | Prioridade |
 |--|--|--|
-| IS05 |  Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos | Would have |
-| IS06 |  Permitir a criação de novas contas a partir das redes sociais do usuário | Could have |
+| INS05 |  Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos | Would have |
+| INS06 |  Permitir a criação de novas contas a partir das redes sociais do usuário | Could have |
 
 ___
 
@@ -80,10 +80,10 @@ __O que ela acha que poderia mudar:__ Paula gostaria que o app exibisse o score 
 
 | Código | Descrição | Prioridade |
 |--|--|--|
-| IS07 |  Disponibilização do score numérico do Serasa na aba _Radar CPF_ | Could have |
-| IS08 |  Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro | Could have |
-| IS09 |  Permitir ao usuário escoher quais abas ele quer ver | Would have |
-| IS10 |  Disponibilização de dicas e/ou plataformas de investimento | Must have |
+| INS07 |  Disponibilização do score numérico do Serasa na aba _Radar CPF_ | Could have |
+| INS08 |  Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro | Could have |
+| INS09 |  Permitir ao usuário escoher quais abas ele quer ver | Would have |
+| INS00 |  Disponibilização de dicas e/ou plataformas de investimento | Must have |
 
 ## First Things First
 
@@ -92,16 +92,16 @@ Pelo fato de os requisitos terem sido elaborados com base em personas, sua não 
 <div class="datatable"></div>
 | ID | Benefício relativo | Penalidade Relativa | Valor total | Valor  | Custo relativo | Custo | Risco relativo | Risco % | Prioridade |
 |--|--|--|--|--|--|--|--|--|--|
-| IS01 | 3 | 2 | 8 | 9.4 | 1 | 5 | 1 | 4.3 | 0.773 |
-| IS02 | 3 | 1 | 7 | 8.2 | 1 | 5 | 1 | 4.3 | 0.674 |
-| IS03 | 4 | 1 | 9 | 10.5 | 1 | 5 | 1 | 4.3 | 0.864 |
-| IS04 | 1 | 1 | 3 | 3.5 | 1 | 5 | 1 | 4.3 | 0.288 |
-| IS05 | 1 | 1 | 3 | 3.5 | 1 | 5 | 4 | 17.3 | 0.187 |
-| IS06 | 4 | 2 | 10 | 11.7 | 2 | 10 | 2 | 8.6 | 0.481 |
-| IS07 | 3 | 1 | 7 | 8.2 | 4 | 20 | 4 | 17.3 | 0.168 |
-| IS08 | 6 | 2 | 14 | 16.4 | 1 | 5 | 3 | 13 | 0.993 |
-| IS09 | 2 | 1 | 5 | 5.8 | 1 | 5 | 1 | 4.3 | 0.477 |
-| IS10 | 9 | 1 | 19 | 22.3 | 8 | 40 | 5 | 21.7 | 0.245 |
+| INS01 | 3 | 2 | 8 | 9.4 | 1 | 5 | 1 | 4.3 | 0.773 |
+| INS02 | 3 | 1 | 7 | 8.2 | 1 | 5 | 1 | 4.3 | 0.674 |
+| INS03 | 4 | 1 | 9 | 10.5 | 1 | 5 | 1 | 4.3 | 0.864 |
+| INS04 | 1 | 1 | 3 | 3.5 | 1 | 5 | 1 | 4.3 | 0.288 |
+| INS05 | 1 | 1 | 3 | 3.5 | 1 | 5 | 4 | 17.3 | 0.187 |
+| INS06 | 4 | 2 | 10 | 11.7 | 2 | 10 | 2 | 8.6 | 0.481 |
+| INS07 | 3 | 1 | 7 | 8.2 | 4 | 20 | 4 | 17.3 | 0.168 |
+| INS08 | 6 | 2 | 14 | 16.4 | 1 | 5 | 3 | 13 | 0.993 |
+| INS09 | 2 | 1 | 5 | 5.8 | 1 | 5 | 1 | 4.3 | 0.477 |
+| INS00 | 9 | 1 | 19 | 22.3 | 8 | 40 | 5 | 21.7 | 0.245 |
 | Totais | 36 | 13 | 85 | 100 | 20 | 100 | 23 | 100 |  |
 
 ## Versionamento

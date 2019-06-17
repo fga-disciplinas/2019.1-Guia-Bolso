@@ -14,7 +14,7 @@ __Backward-from__.
 |Modelagem | US | User history (backlog)|Elicitação | AP | Análise de protocolo | | | 
 |Modelagem | UC | Caso de uso |Elicitação | AD | Análise de discurso (brainstorm) |
 |Modelagem | C | Cenário |Elicitação | ENT | Entrevista |
-|Modelagem | R* | Requisito de (...)|Elicitação | IS | Instrospecção |
+|Modelagem | R* | Requisito de (...)|Elicitação | INS | Instrospecção |
 |Modelagem | IS | I star |Elicitação | Q | Questionário |
 |Modelagem | L | Léxicos |Elicitação | ST | Storytelling |
 |Modelagem | NFR | NFR Framework |--- | --- | --- |
@@ -26,7 +26,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 <div class="datatable"></div>
 | ID | Descrição | Fonte | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
-| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação| [Como funciona](https://www.guiabolso.com.br/como-funciona)| [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos) *Sara  | [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|--|
+| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação| [Como funciona](https://www.guiabolso.com.br/como-funciona)| [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)  | [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|--|
 | RF02 | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|--|--|[C19](../../modelagem/cenarios/#c19-cadastrar-banco), [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual), [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)|--|
 | RF03 | O aplicativo deve permitir a adição de mais de uma conta bancária.| --|--|[US26](../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados), [US25](../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao), [US24](../../modelagem/backlog#c24-adicionar-conta-manual), [US27](../../modelagem/backlog#us27-remover-conta-ou-cartao), [L33](../../modelagem/lexicos#l33-conta-bancaria), [L12](../../modelagem/lexicos#l12-conta-automatica), [L11](../../modelagem/lexicos#l11-conta-manual), [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes), [UC9](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual), [UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes), [IS](../../modelagem/istar/#is02-adicionar-contas-e-cartoes), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario) |--|
 | RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| --|--|--|--|
