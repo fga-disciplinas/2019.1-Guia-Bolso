@@ -13,7 +13,7 @@ Este artefato busca ligar cada funcionalidade do guiaBolso, mostradas aqui por m
 |Modelagem | US | User history (backlog)|Elicitação | AP | Análise de protocolo | | | 
 |Modelagem | UC | Caso de uso |Elicitação | AD | Análise de discurso (brainstorm) |
 |Modelagem | C | Cenário |Elicitação | ENT | Entrevista |
-|Modelagem | R* | Requisito de (...)|Elicitação | IS | Instrospecção |
+|Modelagem | R* | Requisito de (...)|Elicitação | INS | Instrospecção |
 |Modelagem | IS | I star |Elicitação | Q | Questionário |
 |Modelagem | L | Léxicos |Elicitação | ST | Storytelling |
 |Modelagem | NFR | NFR Framework |--- | --- | --- |
@@ -90,7 +90,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Especificação** | [RTD05](../../modelagem/especificacao/#rtd05-suporte-ao-usuario) |
 | **Cenários** |-- |
 | **I\*** | --|
-| **NRF** | [NRF07](../../modelagem/nfr/#analise-do-nfr-de-usabilidade)|
+| **NFR** | [NRF07](../../modelagem/nfr/#analise-do-nfr-de-usabilidade)|
 | **Obs.:** | O tutorial de uso completo está disponível apenas no [site](https://www.guiabolso.com.br/como-funciona). O app, seja de android ou IOS disponibiliza algumas dicas que só aparecem no primeiro uso, conforme a imagem. Dessa forma pode-se dizer que o requisito foi **parcialmente** implementado. |
 
 ##### RF02 
@@ -104,7 +104,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Especificação** | -- |
 | **Cenários** |[C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco)  |
 | **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
-| **NRF** | -- |
+| **NFR** | -- |
 | **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF03
@@ -118,7 +118,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Especificação** | -- |
 | **Cenários** |  [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco) |
 | **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
-| **NRF** | -- |
+| **NFR** | -- |
 | **Obs.:** | Requisito **totalmente** implementado. É perfeitamente possível combinar contas bancárias, cartões e contas manuais. |
 
 ##### RF04
@@ -132,7 +132,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Especificação** | [RS04](../../modelagem/especificacao/#rs04-permanencia-de-dados)|
 | **Cenários** |  [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual) & [C19](../../modelagem/cenarios/#c19-cadastrar-banco) |
 | **I\*** | [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |
-| **NRF** | [NFR02](../../modelagem/nfr/#nfr02-portabilidade) |
+| **NFR** | [NFR02](../../modelagem/nfr/#nfr02-portabilidade) |
 | **Obs.:** | Requisito **não** implementado. Conforme vê-se pela imagem, não é possível adicionar uma conta pelo site do Guiabolso. |
 
 ##### RF05
@@ -491,7 +491,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Especificação** | -- |
 | **Cenários** |-- |
 | **I\*** | --|
-| **NRF** | -- |
+| **NFR** | -- |
 | **Obs.:** | -- |
 
 ### Requisitos Não funcionais
