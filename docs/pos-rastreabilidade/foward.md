@@ -263,7 +263,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF16** | **Adicionar transações manuais**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | [ ![rf16](./../img/pos_rastreabilidade/foward_rf16.png)](./../img/pos_rastreabilidade/foward_rf16.png) |
 |**US** | US41 |
 | **Caso de uso** | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06) |
 | **Léxico** |  L30 & L40 & |
@@ -276,7 +276,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF17** | **O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | [ ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg)](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**US** | US49 & US51 |
 | **Caso de uso** | -- |
 | **Léxico** |  L18 |
@@ -289,7 +289,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF18** | **Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**US** | US45 & US46 |
 | **Caso de uso** | [UC10](../../pos-rastreabilidade/casos_de_uso/#UC10-Adicionar-planejamento) |
 | **Léxico** |  L13 |
@@ -302,9 +302,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF19** | **O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | ![rf19](./../img/pos_rastreabilidade/foward_rf19.jpeg) |
 |**US** | -- |
-| **Caso de uso** | UC7|
+| **Caso de uso** | UC7 |
 | **Léxico** |  L13 |
 | **Especificação** | -- |
 | **Cenários** | C9 |
@@ -315,7 +315,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF20** | **Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | -- |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  L13 |
@@ -328,7 +328,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF21** | **Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg)|
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  L13 |
@@ -341,7 +341,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF22** | **O Guiabolso deve permitir adicionar renda na "Carteira**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | ![rf22](./../img/pos_rastreabilidade/foward_rf22.jpeg) |
 |**US** | -- |
 | **Caso de uso** | UC9 |
 | **Léxico** | -- |
@@ -374,13 +374,13 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Especificação** | RCC03 |
 | **Cenários** | -- |
 | **I\*** | > Não há |
-| **Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF25
 
 | **RF25** | **O app sugerir formas para melhor gerir o seu dinheiro**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | ![rf25](./../img/pos_rastreabilidade/foward_rf25.jpeg) |
 |**US** | US57  |
 | **Caso de uso** | UC12 & UC20|
 | **Léxico** |  -- |
@@ -419,7 +419,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF28** | **Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | -- |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  L32 |
@@ -432,7 +432,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF29** | **O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | -- |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  -- |
@@ -445,7 +445,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF30** | **O app pode diminuir as propagandas na aba guia**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | -- |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  L32 |
@@ -458,7 +458,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF31** | **Possibilidade de remover os cards da aba _Guia_**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | -- |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  L32 |
@@ -471,14 +471,14 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF32** | **Adição de guias de categorização na aba _Guia_**|
 |--|--|
-| **Imagem** | |
+| **Imagem** | -- |
 |**US** | -- |
 | **Caso de uso** | -- |
 | **Léxico** |  L32 |
 | **Especificação** | RU05 |
 | **Cenários** | -- |
 | **I\*** | > Não há |
-| **Obs.:** | Requisito **parcialmente** implementado. |
+| **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF
 
