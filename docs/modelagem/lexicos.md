@@ -21,7 +21,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L2** | **Cadastro Positivo**  |
 |--|--|
-| **Versão**| 1.0 | 
+| **Versão**| Atual: 1.1 (17/06/19) <br> Anterior: [1.0](#l2-cadastro-positivo_1) | 
+|**Classificação**| Objeto |
 | **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas instituições; <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por empresas. | 
 |**Sinônimos**| <br> > Empresas verem o usuário de forma positiva; <br> > Boa reputação no mercado.
 | **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
@@ -32,8 +33,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L3** | **Consultar CPF**  |
 |--|--|
 | **Versão**| 1.0 | 
-| **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC; <br> > Verificar se o [usuário](#l13-usuario) está com o [nome sujo](#l1-nome-sujo) ou o [nome limpo](#l24-nome-limpo). |
 |**Classificação**| Objeto |
+| **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC; <br> > Verificar se o [usuário](#l13-usuario) está com o [nome sujo](#l1-nome-sujo) ou o [nome limpo](#l24-nome-limpo). |
 |**Sinônimos**|<br> > Verificar CPF; <br> > Verificar se o nome está sujo ou não.
 | **Impacto** | > Ao consultar o cpf, um indivíduo com o nome sujo pode saber quais são suas dívidas; <br> > Ao consultar o cpf, um indivíduo pode saber se está no cadastro positivo; <br> > Ao consultar o cpf, um indivíduo passar a saber seu score do Serasa.|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
@@ -111,10 +112,12 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L10** | **Pausar cartão**  |
 |--|--|
-| **Versão**| 1.0 |
-| **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente |
+| **Versão**| Atual: 1.1 (17/06/19) <br> Anterior: [1.0](#l10-pausar-cartao_1) |
 |**Classificação**| Verbo |
+|**Sinônimos**| > Interromper informações do cartão <br> > Sessar dados |
+| **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente |
 | **Impacto** | > Ao pausar um cartão, o [usuário](/#l13-usuario) não terá mais uma gerência de gastos dele |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L11 - Conta manual
 
@@ -454,6 +457,16 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Quando uma pessoa possui nome sujo no serasa <br> > O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> > Status da pessoa que não honra com suas dívidas | 
 | **Impacto** | > O [usuário](#l13-usuario) com o nome sujo não faz empréstimos <br> > O [usuário](#l13-usuario) com o nome sujo não consegue contratar alguns serviços <br> > Operadoras de cobrança ligam constantemente para o [usuário](#l13-usuario) com o nome sujo |
 
+### L2 - Cadastro positivo
+
+| **L2** | **Cadastro Positivo**  |
+|--|--|
+| **Versão**| 1.0 | 
+| **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas instituições; <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por empresas. | 
+|**Sinônimos**| <br> > Empresas verem o usuário de forma positiva; <br> > Boa reputação no mercado.
+| **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
 ### L4 - Score do Serasa
 
 | **L4** | **Score do Serasa**  |
@@ -493,6 +506,15 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Versão**| 1.0 | 
 | **Noção** | > Fazer um empréstimo fantasioso <br> > Fingir fazer um empréstimo para saber as condições e consequências |
 | **Impacto** | > Um indivíduo faz uma simulação, conhecendo valores e prazos de um empréstimo <br> > Após fazer a simulação  indivíduo pode optar por contratar ou não o seu crédito pré-aprovado <br> > Fazendo um empréstimo após uma simulação, um indivíduo passar a ter parte da sua renda comprometida |
+
+### L10 - Pausar cartão
+
+| **L10** | **Pausar cartão**  |
+|--|--|
+| **Versão**| 1.0 |
+| **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente |
+|**Classificação**| Verbo |
+| **Impacto** | > Ao pausar um cartão, o [usuário](/#l13-usuario) não terá mais uma gerência de gastos dele |
 
 ### L14 - Transações ignoradas
 
