@@ -257,105 +257,81 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF16** | **O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP11 |
+|**US**| US49 & US51 & US53 |
 | **Imagem** | [ ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg)](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
-|**US** | US49 & US51 |
-| **Caso de uso** | -- |
-| **Léxico** |  L18 |
-| **Especificação** | -- |
-| **Cenários** | C3 |
-| **I\*** | > Não há |
 | **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF17
 
 | **RF17** | **Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP11 |
+|**US**| US45 & US46 |
 | **Imagem** | ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
-|**US** | US45 & US46 |
-| **Caso de uso** | [UC10](../../pos-rastreabilidade/casos_de_uso/#UC10-Adicionar-planejamento) |
-| **Léxico** |  L13 |
-| **Especificação** | RU05 |
-| **Cenários** | -- |
-| **I\*** | IS06 |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF18
 
 | **RF18** | **O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP11 |
+|**US**| US47 & US48 & US53 |
 | **Imagem** | ![rf19](./../img/pos_rastreabilidade/foward_rf19.jpeg) |
-|**US** | -- |
-| **Caso de uso** | UC7 |
-| **Léxico** |  L13 |
-| **Especificação** | -- |
-| **Cenários** | C9 |
-| **I\*** | > Não há |
 | **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF19
 
 | **RF19** | **Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP11 |
+|**US**| US47 & US48 |
 | **Imagem** | -- |
-|**US** | -- |
-| **Caso de uso** | -- |
-| **Léxico** |  L13 |
-| **Especificação** | -- |
-| **Cenários** | C9 |
-| **I\*** | > Não há |
 | **Obs.:** | Requisito **ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF20
 
 | **RF20** | **Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP11 |
+|**US**| US51 & US53 |
 | **Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg)|
-|**US** | -- |
-| **Caso de uso** | -- |
-| **Léxico** |  L13 |
-| **Especificação** | RU05 |
-| **Cenários** | -- |
-| **I\*** | IS06 |
 | **Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF21
 
 | **RF21** | **O Guiabolso deve permitir adicionar renda na "Carteira**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP10 |
+|**US**| US41 |
 | **Imagem** | ![rf22](./../img/pos_rastreabilidade/foward_rf22.jpeg) |
-|**US** | -- |
-| **Caso de uso** | UC9 |
-| **Léxico** | -- |
-| **Especificação** | RU05 |
-| **Cenários** | C24 |
-| **I\*** | IS06 |
 | **Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF22
 
 | **RF22** | **Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP16 |
+|**US**| US72 |
 | **Imagem** | |
-|**US** | US71 & US70 |
-| **Caso de uso** | -- |
-| **Léxico** |  L32 & L13 |
-| **Especificação** | -- |
-| **Cenários** | C14 |
-| **I\*** | IS07 & IS03 |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF23
 
 | **RF23** | **Categorizar as opções dentro das configurações do Guiabolso**|
 |--|--|
-| **Imagem** | |
-|**US** | -- |
-| **Caso de uso** | -- |
-| **Léxico** |  -- |
-| **Especificação** | RCC03 |
-| **Cenários** | -- |
-| **I\*** | > Não há |
-| **Obs.:** | Requisito **ainda não** implementado. |
+|**Tema**| T4 |
+|**Épico**| -- |
+|**US**| -- |
+| **Imagem** | -- |
+| **Obs.:** | Requisito **ainda não** implementado e não planejado no backlog do produto. |
 
 ##### RF24
 
