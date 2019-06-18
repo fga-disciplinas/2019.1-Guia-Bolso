@@ -160,76 +160,80 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF08** | ** O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos. **|
 |--|--|
-| **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf8.gif)](./../img/pos_rastreabilidade/foward_nf8.gif) |
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
 |**US** | [US45](../../modelagem/backlog/#us45-planejar-gastos) |
-| **Caso de uso** | [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento) |
-| **Cenários** | [C3](../../modelagem/cenarios/#c3-criar-planejamento) |
-| **I\*** | [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos) |
-| **Obs.:** | Requisito **totalmente** implementado. Contudo algumas modelagens extras poderiam ter sido feitas, como léxico por exemplo. |
+| **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf8.gif)](./../img/pos_rastreabilidade/foward_nf8.gif) |
 
 ##### RF09
 
 | **RF09** | ** O Guiabolso deve permitir a consulta da situação do CPF do usuário.  **|
 |--|--|
-| **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf9.gif)](./../img/pos_rastreabilidade/foward_nf9.gif) |
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP14](../../modelagem/backlog/#ep14-Serasa) |
+|**Sprint** | [Sprint 11](../../modelagem/backlog/#sprint-11) |
 |**US** | [US60](../../modelagem/backlog/#us60-visualizar-status-de-avaliacao-de-credito) & [US63](../../modelagem/backlog/#us63-visualizar-empresas-que-consultaram-meu-cpf) |
-| **Caso de uso** | [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) |
-| **Léxico** | [L3](../../modelagem/lexicos/#l3-consultar-cpf) & [L20](../../modelagem/lexicos/#l20-radar-cpf) |
-| **Cenários** | [C6](../../modelagem/cenarios/#c6-consultar-cpf) |
-| **I\*** | [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf) |
 | **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf9.gif)](./../img/pos_rastreabilidade/foward_nf9.gif) |
+
 
 ##### RF10
 
 | **RF10** | ** Disponibilização do score numérico do Serasa na aba _Radar CPF_  **|
 |--|--|
-| **Funcionalidade** |   [ ![nf1](./../img/prototipo/prototipo_radar_cpf.png)](./../img/prototipo/prototipo_radar_cpf.png) |
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP14](../../modelagem/backlog/#ep14-Serasa) |
+|**Sprint** | [Sprint 11](../../modelagem/backlog/#sprint-11) |
 |**US** | [US61](../../modelagem/backlog/#us61-informar-score) |
-| **Caso de uso** | [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) |
-| **Léxico** | [L4](../../modelagem/lexicos/#l4-score-do-serasa) |
-| **Cenários** | [C6](../../modelagem/cenarios/#c6-consultar-cpf) |
-| **I\*** | [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf) |
 | **Obs.:** | Requisito **não** implementado. Apesar de o Guiabolso exibir o score do serasa, ele não exibe o valor numérico. A imagem é referente ao [protótipo](../../elicitacao-de-requisitos/prototipacao/#radar-cpf) elaborado pelos membros do grupo. |
+| **Funcionalidade** |   [ ![nf1](./../img/prototipo/prototipo_radar_cpf.png)](./../img/prototipo/prototipo_radar_cpf.png) |
 
 ##### RF11
 
 | **RF11** | ** O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.  **|
 |--|--|
-| **Funcionalidade** |  Não há imagem, pois não foi implementado. |
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
 |**US** | [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas) |
 | **Obs.:** | Requisito **não** implementado. Além disso, percebe-se que, assim como no RF06,  houveram poucas modelagem e elicitações sobre o tema, indicando que o grupo praticamente não abordou esse tópico. |
+| **Funcionalidade** |  Não há imagem, pois não foi implementado. |
 
 
 ##### RF12
 
 | **RF12** | ** A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba" **|
 |--|--|
-| **Funcionalidade** | [ ![nf1](./../img/prototipo/prototipo_radar_cpf.png)](./../img/prototipo/prototipo_radar_cpf.png) |
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
 |**US** | [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) & [US62](../../modelagem/backlog/#us62-realizar-integracao-com-terceiros)|
-| **Caso de uso** |[UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) & [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) |
-| **Léxico** | [L4](../../modelagem/lexicos/#l4-score-do-serasa) & [L17](../../modelagem/lexicos/#l17-status) |
-| **Cenários** | [C6](../../modelagem/cenarios/#c6-consultar-cpf) & [C14](../../modelagem/cenarios/#c14-verificar-dicas) |
-| **I\*** | [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf) & [IS07](../../modelagem/istar/#is07-dicas-financeiras) |
-| **Obs.:** | Apesar de ambas as funções descritas estarem presentes no app, elas não estão presentes exatamente como descritas nesse requisito. Logo o requisito está **parcialmente** implementado. |
+| **Obs.:** | Apesar de ambas as funções descritas estarem presentes no app, elas não estão presentes exatamente como descritas nesse requisito. Logo o requisito está **parcialmente** implementado. A imagem é referente ao [protótipo](../../elicitacao-de-requisitos/prototipacao/#radar-cpf) elaborado pelos membros do grupo. |
+| **Funcionalidade** | [ ![nf1](./../img/prototipo/prototipo_radar_cpf.png)](./../img/prototipo/prototipo_radar_cpf.png) |
 
 ##### RF13
 
 | **RF13** | ** Mostrar quais empresas consultaram o CPF do usuário **|
 |--|--|
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP14](../../modelagem/backlog/#ep14-Serasa) |
+|**Sprint** | [Sprint 11](../../modelagem/backlog/#sprint-11) |
+|**US** | [US62](../../modelagem/backlog/#us62-realizar-integracao-com-terceiros)|
+| **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf14.gif)](./../img/pos_rastreabilidade/foward_nf14.gif)  |
-|**US** | [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) & [US62](../../modelagem/backlog/#us62-realizar-integracao-com-terceiros)|
-| **Caso de uso** |[UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) & [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) |
-| **Léxico** | [L4](../../modelagem/lexicos/#l4-score-do-serasa) & [L17](../../modelagem/lexicos/#l17-status) |
-| **Cenários** | [C6](../../modelagem/cenarios/#c6-consultar-cpf) & [C14](../../modelagem/cenarios/#c14-verificar-dicas) |
-| **I\*** | [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf) & [IS07](../../modelagem/istar/#is07-dicas-financeiras) |
-| **Obs.:** | Apesar de ambas as funções descritas estarem presentes no app, elas não estão presentes exatamente como descritas nesse requisito. Logo o requisito está **parcialmente** implementado. |
 
 ##### RF14
 
 | **RF14** | ** Permitir adição manual de transações **|
 |--|--|
-| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf15.gif)](./../img/pos_rastreabilidade/foward_nf15.gif)  |
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP09](../../modelagem/backlog/#ep09-extrato) |
+|**Sprint** | [Sprint 6](../../modelagem/backlog/#sprint-6) |
 |**US** | [US39](../../modelagem/backlog/#us39-editar-dados-da-transacao) |
+
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf15.gif)](./../img/pos_rastreabilidade/foward_nf15.gif)  |
 | **Caso de uso** |[UC6](../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual) |
 | **Léxico** | [L40](../../modelagem/lexicos/#l40-transacao) |
 | **Cenários** | [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual) |

@@ -103,45 +103,44 @@ Segundo descrevem Machado (2013) e Bezerra (2007), os requisitos funcionais defi
 | RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.| AP6, Q03 |Must|
 | RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | IS07| Could |
 | RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| AP19 |Would|
-| RF12 | O aplicativo deve disponibilizar o score numérico do Serasa (e não somente em classificação de __A__ a __E__) | AD02 | Could |
-| RF13 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | AD03 | Would |
-| RF14 | Mostrar quais empresas consultaram o CPF do usuário | Q12| Could |
-| RF15 | Permitir adição manual de transações | Q01 | Should |
-| RF16 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| AP9, AP5|Must|
-| RF17 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| AP13|Should|
-| RF18 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.| AP14|Should|
-| RF19 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| AP17|Could|
-| RF20 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | ST08 | could |
-| RF21 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | Q15 | Would |
-| RF22 | O Guiabolso deve permitir adicionar renda na "Carteira".| AP18|Could|
-| RF23 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | AD04 | Cold |
-| RF24 | Categorizar as opções dentro das configurações do Guiabolso | AD05| Would |
-| RF25 | O app sugerir formas para melhor gerir o seu dinheiro | ST02 | must |
-| RF26 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário | AD07, Q11, IS10| Could |
-| RF27 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | AD09| Should have |
-| RF28 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ | AD11| Should |
-| RF29 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| ENT2|Should|
-| RF30 | O app pode diminuir as propagandas na aba guia| ENT2 |could|
-| RF31 | Possibilidade de remover os cards da aba _Guia_. | IS02| Should |
-| RF32 | Adição de guias de categorização na aba _Guia_. | IS03| Should |
-| RF33 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | IS04| Should |
-| RF34 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos | IS05| Would |
-| RF35 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro | IS08| Could |
-| RF36 | Permitir ao usuário escoher quais abas ele quer ver | IS09| Would |
-| RF37 | Oferecer uma consultoria financeira através de dicas e avisos | Q02| Should|
-| RF38 | Ter uma aba para simulação e contratação de empréstimos | Q04, Q09 | Would |
-| RF39 | Visualização gráfica de gastos por categoria | Q07 | Should |
-| RF40 | Exibir diferença entre renda e gastos | Q10| Must |
-| RF41 | Ter alertas importantes, como negativação, protesto ou crédito concedido| Q13| Should |
-| RF42 | Ter alcance de metas, como carro, casa, roupa, celular | Q14| Would |
-| RF43 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | Q16| Could |
-| RF44 | Inserir limites de gastos por categoria | Q17| Could |
-| RF45 | Notificar quando o gasto for excedido | Q18| Should |
-| RF46 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | ST03 | could |
-| RF47 | O app deve oferecer cupons baseado na geolocalização do usuario | ST04 | could |
-| RF48 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | ST05| could |
-| RF49 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | ST06 | could |
-| RF50 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | ST07 | should  |
+| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | AD03 | Would |
+| RF13 | Mostrar quais empresas consultaram o CPF do usuário | Q12| Could |
+| RF14 | Permitir adição manual de transações | Q01 | Should |
+| RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| AP9, AP5|Must|
+| RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| AP13|Should|
+| RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.| AP14|Should|
+| RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| AP17|Could|
+| RF19 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | ST08 | could |
+| RF20 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | Q15 | Would |
+| RF21 | O Guiabolso deve permitir adicionar renda na "Carteira".| AP18|Could|
+| RF22 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | AD04 | Cold |
+| RF23 | Categorizar as opções dentro das configurações do Guiabolso | AD05| Would |
+| RF24 | O app sugerir formas para melhor gerir o seu dinheiro | ST02 | must |
+| RF25 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário | AD07, Q11, IS10| Could |
+| RF26 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | AD09| Should have |
+| RF27 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ | AD11| Should |
+| RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| ENT2|Should|
+| RF29 | O app pode diminuir as propagandas na aba guia| ENT2 |could|
+| RF30 | Possibilidade de remover os cards da aba _Guia_. | IS02| Should |
+| RF31 | Adição de guias de categorização na aba _Guia_. | IS03| Should |
+| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | IS04| Should |
+| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos | IS05| Would |
+| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro | IS08| Could |
+| RF35 | Permitir ao usuário escoher quais abas ele quer ver | IS09| Would |
+| RF36 | Oferecer uma consultoria financeira através de dicas e avisos | Q02| Should|
+| RF37 | Ter uma aba para simulação e contratação de empréstimos | Q04, Q09 | Would |
+| RF38 | Visualização gráfica de gastos por categoria | Q07 | Should |
+| RF39 | Exibir diferença entre renda e gastos | Q10| Must |
+| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| Q13| Should |
+| RF41 | Ter alcance de metas, como carro, casa, roupa, celular | Q14| Would |
+| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | Q16| Could |
+| RF43 | Inserir limites de gastos por categoria | Q17| Could |
+| RF44 | Notificar quando o gasto for excedido | Q18| Should |
+| RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | ST03 | could |
+| RF46 | O app deve oferecer cupons baseado na geolocalização do usuario | ST04 | could |
+| RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | ST05| could |
+| RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | ST06 | could |
+| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | ST07 | should  |
 
 #### Tabela de requisitos Não funcionais
 
