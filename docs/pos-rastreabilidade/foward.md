@@ -56,7 +56,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | RF29 | O app pode diminuir as propagandas na aba guia| 
 | RF30 | Possibilidade de remover os cards da aba _Guia_. | 
 | RF31 | Adição de guias de categorização na aba _Guia_. |
-| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | 
+| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. |
 | RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |
 | RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |
 | RF35 | Permitir ao usuário escoher quais abas ele quer ver | 
@@ -64,7 +64,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | RF37 | Ter uma aba para simulação e contratação de empréstimos |
 | RF38 | Visualização gráfica de gastos por categoria |
 | RF39 | Exibir diferença entre renda e gastos | 
-| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| 
+| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido | 
 | RF41 | Ter alcance de metas, como carro, casa, roupa, celular |
 | RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | 
 | RF43 | Inserir limites de gastos por categoria | 
@@ -461,19 +461,194 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **I\*** | > Não há |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF
+##### RF32
 
-| **RF** | ** O aplicativo deve permitir a adição de mais de uma conta bancária. **|
+| **RF32** | ** Permitir a alteração da ordem de exibição dos cards na aba _Guia_. **|
 |--|--|
-| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf.gif)](./../img/pos_rastreabilidade/foward_nf.gif)|
-|**US** |-- |
-| **Caso de uso** | -- |
-| **Léxico** |  -- |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I\*** | --|
-| **NFR** | -- |
-| **Obs.:** | -- |
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
+|**US** | [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro)|
+| **Obs.:** | Requisito **não** implementado. Porém ele foi [prototipado](../../elicitacao-de-requisitos/prototipacao/#guias), conforme imagem abaixo. |
+| **Funcionalidade** | [ ![nf1](./../img/prototipo/prototipo_guia.png)](./../img/prototipo/prototipo_guia.png)  |
+
+##### RF33
+
+| **RF33** | ** Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos. **|
+|--|--|
+|**Tema** | [T2](../../modelagem/backlog/#temas) |
+|**Épico** | [EP4](../../modelagem/backlog/#ep04-login-logout) |
+|**Sprint** | [Sprint 1](../../modelagem/backlog/#sprint-1) |
+|**US** | [US16 ](../../modelagem/backlog/#us16-fazer-login)|
+| **Obs.:** | Requisito **não** implementado. |
+| **Funcionalidade** | Não há imagem.  |
+
+##### RF34
+
+| **RF34** | ** Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro. **|
+|--|--|
+|**Tema** | -- |
+|**Épico** | -- |
+|**Sprint** | -- |
+|**US** | -- |
+| **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
+| **Funcionalidade** | Não há imagem.  |
+
+
+##### RF35
+
+| **RF35** | ** Permitir ao usuário escoher quais abas ele quer ver. **|
+|--|--|
+|**Tema** | -- |
+|**Épico** | -- |
+|**Sprint** | -- |
+|**US** | -- |
+| **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
+| **Funcionalidade** | Não há imagem.  |
+
+##### RF36
+
+| **RF36** | ** Oferecer uma consultoria financeira através de dicas e avisos.   **|
+|--|--|
+|**Tema** | [T5](../../modelagem/backlog/#temas) |
+|**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
+|**US** | [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro)|
+| **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf36.gif)](./../img/pos_rastreabilidade/foward_nf36.gif)  |
+
+##### RF37
+
+| **RF37** | ** Ter uma aba para simulação e contratação de empréstimos. **|
+|--|--|
+|**Tema** | [T6](../../modelagem/backlog/#temas) |
+|**Épico** | [EP16](../../modelagem/backlog/#ep16-emprestimos) |
+|**Sprint** | [Sprint 15](../../modelagem/backlog/#sprint-15) |
+|**US** | [US70](../../modelagem/backlog/#us70-simular-um-emprestimo), [US71](../../modelagem/backlog/#us71-contratar-emprestimo) & [US72](../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos) |
+| **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf37.gif)](./../img/pos_rastreabilidade/foward_nf37.gif)  |
+
+##### RF38
+
+| **RF38** | ** Visualização gráfica de gastos por categoria. **|
+|--|--|
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP12](../../modelagem/backlog/#ep12-estatisticas) |
+|**Sprint** | [Sprint 8](../../modelagem/backlog/#sprint-8) |
+|**US** | [US50](../../modelagem/backlog/#us50-gastos-do-usuario) |
+| **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf38.gif)](./../img/pos_rastreabilidade/foward_nf38.gif)  |
+
+##### RF39
+
+| **RF39** | ** Exibir diferença entre renda e gastos. **|
+|--|--|
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP12](../../modelagem/backlog/#ep12-estatisticas) |
+|**Sprint** | [Sprint 8](../../modelagem/backlog/#sprint-8) |
+|**US** | [US52](../../modelagem/backlog/#us52-gastos-e-rendas-dos-ultimos-meses) |
+| **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf39.gif)](./../img/pos_rastreabilidade/foward_nf39.gif)  |
+
+##### RF40
+
+| **RF40** | ** Ter alertas importantes, como negativação, protesto ou crédito concedido. **|
+|--|--|
+|**Tema** | -- |
+|**Épico** | -- |
+|**Sprint** | -- |
+|**US** | -- |
+| **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. Porém o grupo [prototipou](../../elicitacao-de-requisitos/prototipacao/#notificacoes) a funcionalidade, conforme imagem abaixo. |
+| **Funcionalidade** |  [ ![nf1](./../img/prototipo/prototipo_notificacao.png)](./../img/prototipo/prototipo_notificacao.png)  |
+
+##### RF41
+
+| **RF41** | ** Ter alcance de metas, como carro, casa, roupa, celular. **|
+|--|--|
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
+|**US** | [US45](../../modelagem/backlog/#us45-planejar-gastos) & [US46](../../modelagem/backlog/#us46-planejar-renda) |
+| **Obs.:** | Requisito **parcialmente** implementado. É possivel estabelecer metas, mas não individuais por tema. |
+| **Funcionalidade** |  Não há como descrita no requisito.  |
+
+##### RF42
+
+| **RF42** | ** Ter perfis de usuário, por exemplo, bom administrador, bom investidor. **|
+|--|--|
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP12](../../modelagem/backlog/#ep12-estatisticas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
+|**US** | [US54](../../modelagem/backlog/#us54-estatisticas-para-os-parceiros) |
+| **Obs.:** | Requisito **não** implementado. |
+| **Funcionalidade** | Não há imagem.  |
+
+##### RF43
+
+| **RF43** | ** Inserir limites de gastos por categoria. **|
+|--|--|
+|**Tema** | [T4](../../modelagem/backlog/#temas) |
+|**Épico** | [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
+|**US** | [US45](../../modelagem/backlog/#us45-planejar-gastos) |
+| **Obs.:** | Requisito **totalmente** implementado. |
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf43.gif)](./../img/pos_rastreabilidade/foward_nf43.gif)   |
+
+##### RF44
+
+| **RF44** | ** Notificar quando o gasto for excedido **|
+|--|--|
+|**Tema** | -- |
+|**Épico** | -- |
+|**Sprint** | -- |
+|**US** | -- |
+| **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
+| **Funcionalidade** | Não há imagem.  |
+
+##### RF45
+
+| **RF45** | ** O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario **|
+|--|--|
+|**Tema** | -- |
+|**Épico** | -- |
+|**Sprint** | -- |
+|**US** | -- |
+| **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
+| **Funcionalidade** | Não há imagem.  |
+
+##### RF46
+
+| **RF46** | ** O app deve oferecer cupons baseado na geolocalização do usuario. **|
+|--|--|
+|**Tema** | [T6](../../modelagem/backlog/#temas) |
+|**Épico** | [EP15](../../modelagem/backlog/#ep15-propagandas) |
+|**Sprint** | [Sprint 12](../../modelagem/backlog/#sprint-12) |
+|**US** | [US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto) |
+| **Obs.:** | Requisito **parcialmente** implementado. O app disponiliza links para sites de cupons, mas não os cupons em si. |
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf46.gif)](./../img/pos_rastreabilidade/foward_nf46.gif)   |
+
+##### RF47
+
+| **RF47** | ** Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados. **|
+|--|--|
+|**Tema** | [T6](../../modelagem/backlog/#temas) |
+|**Épico** | [EP15](../../modelagem/backlog/#ep15-propagandas) |
+|**Sprint** | [Sprint 12](../../modelagem/backlog/#sprint-12) |
+|**US** | [US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto) |
+| **Obs.:** | Requisito **não** implementado.  |
+| **Funcionalidade** | Não há   |
+
+##### RF48
+
+| **RF48** | ** Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online. **|
+|--|--|
+|**Tema** | [T6](../../modelagem/backlog/#temas) |
+|**Épico** | [EP15](../../modelagem/backlog/#ep15-propagandas) |
+|**Sprint** | [Sprint 12](../../modelagem/backlog/#sprint-12) |
+|**US** | [US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto) |
+| **Obs.:** | Requisito **totalmente** implementado, visto que o app só disponibiliza cupons online. |
+| **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf46.gif)](./../img/pos_rastreabilidade/foward_nf46.gif)   |
+
 
 ### Requisitos Não funcionais
 

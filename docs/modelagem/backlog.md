@@ -1046,7 +1046,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **Para que eu possa** | Aprender a organizar seus gastos |
 | **Pontos** | 5 |
 | **Prioridade** | Must |
-| **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário. |
+| **Critérios de aceitação** | > Deve existir dicas de melhoria; <br> > Dicas são dadas conforme o perfil do usuário; <br> > Deve existir correspondência com a situação financeira; <br> > Deve analisar a melhor forma de beneficiar o usuário; <br> > Deve permitir a ordenação dos cards.|
 | **Rastreabilidade** | Cenário [C14](../cenarios/#c14-verificar-dicas) & Caso de Uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) & Léxico [L32](../lexicos/#l32-guia) |
 
 #### US58 Buscar dados de fontes externas
