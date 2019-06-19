@@ -238,7 +238,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Léxico** | [L40](../../modelagem/lexicos/#l40-transacao) |
 |**Cenários** | [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual) |
 |**I\*** | [IS08](../../modelagem/istar/#is08-transacoes)|
-|**Obs.:** | Requisito**totalmente** implementado. |
+|**Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF15
 
@@ -251,7 +251,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Especificação** | RU05 |
 |**Cenários** | C2 |
 |**I\*** | IS08 |
-|**Obs.:** | Requisito**totalmente** implementado. |
+|**Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF16
 
@@ -261,7 +261,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| EP11 |
 |**US**| US49 & US51 & US53 |
 |**Imagem** | [ ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg)](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
-|**Obs.:** | Requisito**totalmente** implementado. |
+|**Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF17
 
@@ -271,7 +271,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| EP11 |
 |**US**| US45 & US46 |
 |**Imagem** | ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
-|**Obs.:** | Requisito**ainda não** implementado. |
+|**Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF18
 
@@ -281,7 +281,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| EP11 |
 |**US**| US47 & US48 & US53 |
 |**Imagem** | ![rf19](./../img/pos_rastreabilidade/foward_rf19.jpeg) |
-|**Obs.:** | Requisito**totalmente** implementado. |
+|**Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF19
 
@@ -291,7 +291,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| EP11 |
 |**US**| US47 & US48 |
 |**Imagem** | -- |
-|**Obs.:** | Requisito**ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
+|**Obs.:** | Requisito **ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF20
 
@@ -301,7 +301,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| EP11 |
 |**US**| US51 & US53 |
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg)|
-|**Obs.:** | Requisito**totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
+|**Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
 ##### RF21
 
@@ -310,8 +310,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Tema**| T4 |
 |**Épico**| EP10 |
 |**US**| US41 |
-|**Imagem** | ![rf22](./../img/pos_rastreabilidade/foward_rf22.jpeg) |
-|**Obs.:** | Requisito**totalmente** implementado. |
+|**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg) |
+|**Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF22
 
@@ -321,7 +321,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| EP16 |
 |**US**| US72 |
 |**Imagem** | |
-|**Obs.:** | Requisito**ainda não** implementado. |
+|**Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF23
 
@@ -331,110 +331,88 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico**| -- |
 |**US**| -- |
 |**Imagem** | -- |
-|**Obs.:** | Requisito**ainda não** implementado e não planejado no backlog do produto. |
+|**Obs.:** | Requisito **ainda não** implementado e não planejado no backlog do produto. |
 
 ##### RF24
 
 |**RF24** |**O app sugerir formas para melhor gerir o seu dinheiro**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP13 |
+|**US**| US57 & US58 & US59 |
+|**Imagem** | -- |
 |**Imagem** | ![rf25](./../img/pos_rastreabilidade/foward_rf25.jpeg) |
-|**US** | US57  |
-|**Caso de uso** | UC12 & UC20|
-|**Léxico** |  -- |
-|**Especificação** | RU05 |
-|**Cenários** | C14 |
-|**I\*** | IS07 |
-|**Obs.:** | Requisito**parcialmente** implementado. |
+|**Obs.:** | Requisito **parcialmente** implementado. |
 
 ##### RF25
 
 |**RF25** |**Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário**|
 |--|--|
+|**Tema**| -- |
+|**Épico**| -- |
+|**US**| -- |
+|**Imagem** | -- |
 |**Imagem** | |
-|**US** | -- |
-|**Caso de uso** | -- |
-|**Léxico** |  L32 & L13 |
-|**Especificação** | RU02 |
-|**Cenários** | C14 |
-|**I\*** | IS07 |
-|**Obs.:** | Requisito**ainda não** implementado. |
+|**Obs.:** | Requisito **ainda não** implementado. E não representado no backlog. |
 
 ##### RF26
 
 |**RF26** |**Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)**|
 |--|--|
-|**Imagem** | |
-|**US** | -- |
-|**Caso de uso** | -- |
-|**Léxico** |  -- |
-|**Especificação** | -- |
-|**Cenários** | -- |
-|**I\*** | > Não há |
+|**Tema**| T4 |
+|**Épico**| EP12 |
+|**US**| US54 |
+|**Imagem** | -- |
 |**Obs.:** | Requisito**ainda não** implementado. |
 
 ##### RF27
 
-|**RF27** |**Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"**|
+|**RF27** |**Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção "essa informação foi útil?"**|
 |--|--|
+|**Tema**| -- |
+|**Épico**| -- |
+|**US**| -- |
 |**Imagem** | -- |
-|**US** | -- |
-|**Caso de uso** | -- |
-|**Léxico** |  L32 |
-|**Especificação** | RU05 |
-|**Cenários** | C15 |
-|**I\*** | > Não há|
 |**Obs.:** | Requisito**parcialmente** implementado. |
 
 ##### RF28
 
 |**RF28** |**O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
 |--|--|
+|**Tema**| T4 |
+|**Épico**| EP08 |
+|**US**| US32 |
 |**Imagem** | -- |
-|**US** | -- |
-|**Caso de uso** | -- |
-|**Léxico** |  -- |
-|**Especificação** | RU01|
-|**Cenários** |-- |
-|**I\*** | > Não há |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF29
 
 | **RF29** | **O app pode diminuir as propagandas na aba guia**|
 |--|--|
-| **Imagem** | -- |
-|**US** | -- |
-| **Caso de uso** | -- |
-| **Léxico** |  L32 |
-| **Especificação** | -- |
-| **Cenários** |-- |
-| **I\*** | > Não há |
+|**Tema**| T4 |
+|**Épico**| EP13 |
+|**US**| -- |
+|**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF30
 
 | **RF30** | **Possibilidade de remover os cards da aba _Guia_**|
 |--|--|
-| **Imagem** | -- |
-|**US** | -- |
-| **Caso de uso** | -- |
-| **Léxico** |  L32 |
-| **Especificação** | -- |
-| **Cenários** | -- |
-| **I\*** | > Não há |
+|**Tema**| T5 |
+|**Épico**| -- |
+|**US**| -- |
+|**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF31
 
 | **RF31** | **Adição de guias de categorização na aba _Guia_**|
 |--|--|
-| **Imagem** | -- |
-|**US** | -- |
-| **Caso de uso** | -- |
-| **Léxico** |  L32 |
-| **Especificação** | RU05 |
-| **Cenários** | -- |
-| **I\*** | > Não há |
+|**Tema**| T5 |
+|**Épico**| -- |
+|**US**| -- |
+|**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
 ##### RF32
