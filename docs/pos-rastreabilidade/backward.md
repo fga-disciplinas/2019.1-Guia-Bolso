@@ -145,10 +145,12 @@ Agregação : [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-ma
 #### EF06
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
 
-Representação: --
-Alocação: [US11](../../modelagem/backlog/#us11-elaborar-formulario) está alocado em [US11](../../modelagem/backlog/#us11-elaborar-formulario)
+Representação: -- <br>
+Alocação: [US11](../../modelagem/backlog/#us11-elaborar-formulario) está alocado em [US11](../../modelagem/backlog/#us11-elaborar-formulario) <br>
 Agregação: --
 
 ---
@@ -156,7 +158,10 @@ Agregação: --
 #### EF07
 **Categoria**:
 
+
 **Elos**:
+
+
 
 ---
 
