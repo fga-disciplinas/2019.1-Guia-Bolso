@@ -100,7 +100,7 @@ __Backward-from__.
 **Categoria**:
 
 **Elos**:
-
+---
 
 #### EF02
 **Categoria**:
@@ -110,7 +110,14 @@ Desenvolvimento
 
 Satisfação: [C19](../../modelagem/cenarios/#c19-cadastrar-banco) satisfaz [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual)<br>
 Representação: [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) representa [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)<br>Agregação: [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario) agrega [C19](../../modelagem/cenarios/#c19-cadastrar-banco).
+---
 
+#### EF03
+**Categoria**:
+
+**Elos**:
+
+---
 
 #### EF04
 **Categoria**:
@@ -120,3 +127,312 @@ Desenvolvimento
 
 Representação: [UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-login) representa [US11](../../modelagem/backlog#us11-elaborar-formulario)<br>
 Recurso: [RTD04](../../modelagem/especificacao/#rtd04-cadastro) demanda [US11](../../modelagem/backlog#us11-elaborar-formulario)<br>Recurso: [US16](../../modelagem/backlog#us16-fazer-login) demanda [US11](../../modelagem/backlog#us11-elaborar-formulario)<br> Agregação: [US11](../../modelagem/backlog#us11-elaborar-formulario) agrega [US12](../../modelagem/backlog#us12-validacao-dados-de-cadastro)<br>Agregação: [US11](../../modelagem/backlog#us11-elaborar-formulario) agrega [US14](../../modelagem/backlog#us14-validacao-cadastro-duplicado).
+---
+
+#### EF05
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF06
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF07
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF08
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF09
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF10
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF11
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF12
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF13
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF14
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF15
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF16
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF17
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF18
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF19
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF20
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF22
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF23
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF24
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF25
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF26
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF27
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF28
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF29
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF30
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF31
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF32
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF33
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF34
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF35
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF36
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF37
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF38
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF39
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF40
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF41
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF42
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF43
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF44
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF45
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF46
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF47
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF48
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF49
+**Categoria**:
+
+**Elos**:
+
+---
