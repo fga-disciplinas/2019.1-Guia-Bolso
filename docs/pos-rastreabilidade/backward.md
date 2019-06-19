@@ -101,3 +101,337 @@ __Backward-from__.
 
 **Elos**:
 
+---
+
+#### EF02
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF03
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF04
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF05
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF06
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF07
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF08
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF09
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF10
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF11
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF12
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF13
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF14
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF15
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF16
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF17
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF18
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF19
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF20
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF22
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF23
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF24
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF25
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF26
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF27
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF28
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF29
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF30
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF31
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF32
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF33
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF34
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF35
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF36
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF37
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF38
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF39
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF40
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF41
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF42
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF43
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF44
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF45
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF46
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF47
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF48
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### EF49
+**Categoria**:
+
+**Elos**:
+
+---
+
+
+
+
