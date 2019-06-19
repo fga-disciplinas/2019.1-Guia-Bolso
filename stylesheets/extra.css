@@ -28,6 +28,10 @@ thead:first-child {
     color: white;
 }
 
+.md-typeset img {
+    max-height: 500px;
+}
+
 .md-nav__link:active, 
 .md-nav__link:hover, 
 .md-nav__link--active {
