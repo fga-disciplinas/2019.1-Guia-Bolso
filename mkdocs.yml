@@ -59,7 +59,7 @@ pages:
     - Validação: 'analise/validacao.md'
   - Pós rastreabilidade:
     - Backward-From: 'pos-rastreabilidade/backward.md'
-    - Foward-From: 'pos-rastreabilidade/foward.md'
+    - Forward-From: 'pos-rastreabilidade/forward.md'
   - Histórico:
     - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:

@@ -23,12 +23,11 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 ### Requisitos funcionais
 
-<div class="datatable"></div>
-| ID | Descrição | Fonte | Elicitação | Modelagem | Elo |
-|--|--|--|--|--|--|
-| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação| [Como funciona](https://www.guiabolso.com.br/como-funciona)| [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)  | [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|--|
-| RF02 | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|--|--|[C19](../../modelagem/cenarios/#c19-cadastrar-banco), [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual), [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)|--|
-| RF03 | O aplicativo deve permitir a adição de mais de uma conta bancária.| --|--|[US26](../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados), [US25](../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao), [US24](../../modelagem/backlog#c24-adicionar-conta-manual), [US27](../../modelagem/backlog#us27-remover-conta-ou-cartao), [L33](../../modelagem/lexicos#l33-conta-bancaria), [L12](../../modelagem/lexicos#l12-conta-automatica), [L11](../../modelagem/lexicos#l11-conta-manual), [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes), [UC9](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual), [UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes), [IS](../../modelagem/istar/#is02-adicionar-contas-e-cartoes), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario) |--|
+| ID | Descrição | Fonte | Pré-Rastreab. | Elicitação | Modelagem | Elo |
+|--|--|--|--|--|--|--|
+| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação| [Como funciona](https://www.guiabolso.com.br/como-funciona)|--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)| [US02](../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios), [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|--|
+| RF02 | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|--|--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|[C19](../../modelagem/cenarios/#c19-cadastrar-banco), [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual), [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)|
+| RF03 | O aplicativo deve permitir a adição de mais de uma conta bancária.| --|--|[US26](../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados), [US25](../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao), [US24](../../modelagem/backlog#c24-adicionar-conta-manual), [US27](../../modelagem/backlog#us27-remover-conta-ou-cartao), [L33](../../modelagem/lexicos#l33-conta-bancaria), [L12](../../modelagem/lexicos#l12-conta-automatica), [L11](../../modelagem/lexicos#l11-conta-manual), [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes), [UC9](../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual), [UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes), [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario) |--|
 | RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| --|--|--|--|
 | RF05 | O app deve dar possibilidade de alterar as contas manualmente| --|--|--|--|
 | RF06 | Permitir a criação de novas contas a partir das redes sociais do usuário | --|--|--|--|
@@ -37,45 +36,44 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.| --|--|--|--|
 | RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | --|--|--|--|
 | RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| --|--|--|--|
-| RF12 | O aplicativo deve disponibilizar o score numérico do Serasa (e não somente em classificação de __A__ a __E__) |--|--|--|--|
-| RF13 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | --|--|--|--|
-| RF14 | Mostrar quais empresas consultaram o CPF do usuário | --|--|--|--|
-| RF15 | Permitir adição manual de transações | --|--|--|--|
-| RF16 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| --|--|--|--|
-| RF17 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| --|--|--|--|
-| RF18 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|--|--|--|--|
-| RF19 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| --|--|--|--|
-| RF20 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | --|--|--|--|
-| RF21 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | --|--|--|--|
-| RF22 | O Guiabolso deve permitir adicionar renda na "Carteira".| --|--|--|--|
-| RF23 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | --|--|--|--|
-| RF24 | Categorizar as opções dentro das configurações do Guiabolso |--|--|--|--|
-| RF25 | O app sugerir formas para melhor gerir o seu dinheiro | --|--|--|--|
-| RF26 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |--|--|--|--|
-| RF27 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | --|--|--|--|
-| RF28 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |--|--|--|--|
-| RF29 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| --|--|--|--|
-| RF30 | O app pode diminuir as propagandas na aba guia| --|--|--|--|
-| RF31 | Possibilidade de remover os cards da aba _Guia_. | --|--|--|--|
-| RF32 | Adição de guias de categorização na aba _Guia_. |--|--|--|--|
-| RF33 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | --|--|--|--|
-| RF34 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--|--|--|--|
-| RF35 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
-| RF36 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
-| RF37 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
-| RF38 | Ter uma aba para simulação e contratação de empréstimos |--|--|--|--|
-| RF39 | Visualização gráfica de gastos por categoria |--|--|--|--|
-| RF40 | Exibir diferença entre renda e gastos | --|--|--|--|
-| RF41 | Ter alertas importantes, como negativação, protesto ou crédito concedido| --|--|--|--|
-| RF42 | Ter alcance de metas, como carro, casa, roupa, celular |--|--|--|--|
-| RF43 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | --|--|--|--|
-| RF44 | Inserir limites de gastos por categoria | --|--|--|--|
-| RF45 | Notificar quando o gasto for excedido |--|--|--|--|
-| RF46 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|--|--|--|
-| RF47 | O app deve oferecer cupons baseado na geolocalização do usuario | --|--|--|--|
-| RF48 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | --|--|--|--|
-| RF49 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | --|--|--|--|
-| RF50 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |--|--|--|--|
+| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | --|--|--|--|
+| RF13 | Mostrar quais empresas consultaram o CPF do usuário | --|--|--|--|
+| RF14 | Permitir adição manual de transações | --|--|--|--|
+| RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| --|--|--|--|
+| RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| --|--|--|--|
+| RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|--|--|--|--|
+| RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| --|--|--|--|
+| RF19 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | --|--|--|--|
+| RF20 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | --|--|--|--|
+| RF21 | O Guiabolso deve permitir adicionar renda na "Carteira".| --|--|--|--|
+| RF22 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | --|--|--|--|
+| RF23 | Categorizar as opções dentro das configurações do Guiabolso |--|--|--|--|
+| RF24 | O app sugerir formas para melhor gerir o seu dinheiro | --|--|--|--|
+| RF25 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |--|--|--|--|
+| RF26 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | --|--|--|--|
+| RF27 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |--|--|--|--|
+| RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| --|--|--|--|
+| RF29 | O app pode diminuir as propagandas na aba guia| --|--|--|--|
+| RF30 | Possibilidade de remover os cards da aba _Guia_. | --|--|--|--|
+| RF31 | Adição de guias de categorização na aba _Guia_. |--|--|--|--|
+| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | --|--|--|--|
+| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--|--|--|--|
+| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
+| RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
+| RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
+| RF37 | Ter uma aba para simulação e contratação de empréstimos |--|--|--|--|
+| RF38 | Visualização gráfica de gastos por categoria |--|--|--|--|
+| RF39 | Exibir diferença entre renda e gastos | --|--|--|--|
+| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| --|--|--|--|
+| RF41 | Ter alcance de metas, como carro, casa, roupa, celular |--|--|--|--|
+| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | --|--|--|--|
+| RF43 | Inserir limites de gastos por categoria | --|--|--|--|
+| RF44 | Notificar quando o gasto for excedido |--|--|--|--|
+| RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|--|--|--|
+| RF46 | O app deve oferecer cupons baseado na geolocalização do usuario | --|--|--|--|
+| RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | --|--|--|--|
+| RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | --|--|--|--|
+| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |--|--|--|--|
 
 ### Requisitos Não funcionais
 
