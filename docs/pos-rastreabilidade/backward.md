@@ -161,15 +161,14 @@ Alocação: [US11](../../modelagem/backlog/#us11-elaborar-formulario) está aloc
 ---
 
 #### EF07
-**Categoria**:
-
+**Categoria**: Desenvolvimento
 
 **Elos**:
 
-
+Representação: [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento) representa [US46](../../modelagem/backlog/#us46-planejar-renda), [L38](../../modelagem/lexicos/#l38-renda) e [IS6](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)<br>
+Alocação:  [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento) está alocado em [US46](../../modelagem/backlog/#us46-planejar-renda)
 
 ---
-
 
 #### EF08
 **Categoria**: Desenvolvimento
