@@ -15,7 +15,9 @@ __Backward-from__.
 |Modelagem | R* | Requisito de (...)|Elicitação | INS | Instrospecção |
 |Modelagem | IS | I star |Elicitação | Q | Questionário |
 |Modelagem | L | Léxicos |Elicitação | ST | Storytelling |
-|Modelagem | NFR | NFR Framework |--- | --- | --- |
+|Modelagem | NFR | NFR Framework | Elicitação | I | Introspecção |
+|Pré rastreabilidade | RP | Richpicture |--- | --- | --- |
+|Pré rastreabilidade | AR | Argumentação |--- | --- | --- |
 
 Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na especificação suplementar.
 
@@ -59,7 +61,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
 | RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
 | RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
-| RF37 | Ter uma aba para simulação e contratação de empréstimos |--|--|--|--|
+| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |--|
 | RF38 | Visualização gráfica de gastos por categoria |--|--|--|--|
 | RF39 | Exibir diferença entre renda e gastos | --|--|--|--|
 | RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| --|--|--|--|
