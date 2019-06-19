@@ -244,22 +244,19 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF15** |**Adicionar transações manuais**|
 |--|--|
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**| [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**US**|[US41](../../modelagem/backlog/#us41-Adicionar-transação-na-agenda)|
 |**Imagem** | [ ![rf16](./../img/pos_rastreabilidade/foward_rf16.png)](./../img/pos_rastreabilidade/foward_rf16.png) |
-|**US** | US41 |
-|**Caso de uso** | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06) |
-|**Léxico** |  L30 & L40 & |
-|**Especificação** | RU05 |
-|**Cenários** | C2 |
-|**I\*** | IS08 |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
 ##### RF16
 
 |**RF16** |**O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP11 |
-|**US**| US49 & US51 & US53 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**| [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**US**| [US49](../../modelagem/backlog/#us49-meses-futuros) & [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) & [US53](../../modelagem/backlog/#us53-rendas-dos-ultimos-meses-por-categoria |
 |**Imagem** | [ ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg)](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
@@ -267,9 +264,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF17** |**Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP11 |
-|**US**| US45 & US46 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**US**| [US45](../../modelagem/backlog/#us45-planejar-gastos) & [US46](../../modelagem/backlog/#us46-planejar-renda) |
 |**Imagem** | ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
@@ -277,9 +274,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF18** |**O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP11 |
-|**US**| US47 & US48 & US53 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**US**| [US47](../../modelagem/backlog/#us47-categorizar-gastos) & [US48](../../modelagem/backlog/#us48-categorizar-renda) & [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria) |
 |**Imagem** | ![rf19](./../img/pos_rastreabilidade/foward_rf19.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
@@ -287,9 +284,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF19** |**Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP11 |
-|**US**| US47 & US48 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**US**| [US47](../../modelagem/backlog/#us47-categorizar-gastos) & [US48](../../modelagem/backlog/#us48-categorizar-renda) |
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
@@ -297,9 +294,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF20** |**Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP11 |
-|**US**| US51 & US53 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**US**| [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) & [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria) |
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg)|
 |**Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
@@ -307,9 +304,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF21** |**O Guiabolso deve permitir adicionar renda na "Carteira**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP10 |
-|**US**| US41 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**| [EP10](../../modelagem/backlog/#ep10-agenda) |
+|**US**| [US41](../../modelagem/backlog/#us41-Adicionar-transação-na-agenda) |
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
@@ -317,9 +314,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF22** |**Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP16 |
-|**US**| US72 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**| [EP16](../../modelagem/backlog/#ep16-empretimos) |
+|**US**| [US72](../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos |
 |**Imagem** | |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
@@ -327,7 +324,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF23** |**Categorizar as opções dentro das configurações do Guiabolso**|
 |--|--|
-|**Tema**| T4 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| -- |
 |**US**| -- |
 |**Imagem** | -- |
@@ -337,9 +334,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF24** |**O app sugerir formas para melhor gerir o seu dinheiro**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP13 |
-|**US**| US57 & US58 & US59 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**| [EP13](../../modelagem/backlog/#ep13-dicas) |
+|**US**|  [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) &  [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas) &  [US59](../../modelagem/backlog/#us59-indircar-dicas-que-foram-realmente-uteis) |
 |**Imagem** | -- |
 |**Imagem** | ![rf25](./../img/pos_rastreabilidade/foward_rf25.jpeg) |
 |**Obs.:** | Requisito **parcialmente** implementado. |
@@ -359,9 +356,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF26** |**Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP12 |
-|**US**| US54 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**|[EP12](../../modelagem/backlog/#ep12-estatisticas) |
+|**US**|  [US54](../../modelagem/backlog/#us54-estatisticas-para-os-parceiros) |
 |**Imagem** | -- |
 |**Obs.:** | Requisito**ainda não** implementado. |
 
@@ -379,9 +376,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 |**RF28** |**O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP08 |
-|**US**| US32 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**| [EP08](../../modelagem/backlog/#ep08-troca-de-dados) |
+|**US**|  [US32](../../modelagem/backlog/#us32-estatisticas-de-usuarios) |
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
@@ -389,8 +386,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF29** | **O app pode diminuir as propagandas na aba guia**|
 |--|--|
-|**Tema**| T4 |
-|**Épico**| EP13 |
+|**Tema**|[T4](../../modelagem/backlog/#temas)|
+|**Épico**|[EP13](../../modelagem/backlog/#ep13-dicas) |
 |**US**| -- |
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
@@ -399,7 +396,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF30** | **Possibilidade de remover os cards da aba _Guia_**|
 |--|--|
-|**Tema**| T5 |
+|**Tema**| [T5](../../modelagem/backlog/#temas) |
 |**Épico**| -- |
 |**US**| -- |
 |**Imagem** | -- |
@@ -409,7 +406,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | **RF31** | **Adição de guias de categorização na aba _Guia_**|
 |--|--|
-|**Tema**| T5 |
+|**Tema**| [T5](../../modelagem/backlog/#temas) |
 |**Épico**| -- |
 |**US**| -- |
 |**Imagem** | -- |
