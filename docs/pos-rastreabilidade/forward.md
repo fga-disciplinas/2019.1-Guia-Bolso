@@ -232,13 +232,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Épico** | [EP09](../../modelagem/backlog/#ep09-extrato) |
 |**Sprint** | [Sprint 6](../../modelagem/backlog/#sprint-6) |
 |**US** | [US39](../../modelagem/backlog/#us39-editar-dados-da-transacao) |
-
-|**Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf15.gif)](./../img/pos_rastreabilidade/foward_nf15.gif)  |
-|**Caso de uso** |[UC6](../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual) |
-|**Léxico** | [L40](../../modelagem/lexicos/#l40-transacao) |
-|**Cenários** | [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual) |
-|**I\*** | [IS08](../../modelagem/istar/#is08-transacoes)|
-|**Obs.:** | Requisito **totalmente** implementado. |
+|**Imagem** | [![nf1](./../img/pos_rastreabilidade/foward_nf15.gif)](./../img/pos_rastreabilidade/foward_nf15.gif)|
 
 ##### RF15
 
@@ -246,6 +240,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
 |**US**|[US41](../../modelagem/backlog/#us41-Adicionar-transação-na-agenda)|
 |**Imagem** | [ ![rf16](./../img/pos_rastreabilidade/foward_rf16.png)](./../img/pos_rastreabilidade/foward_rf16.png) |
 |**Obs.:** | Requisito **totalmente** implementado. |
@@ -256,6 +251,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
 |**US**| [US49](../../modelagem/backlog/#us49-meses-futuros) & [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) & [US53](../../modelagem/backlog/#us53-rendas-dos-ultimos-meses-por-categoria |
 |**Imagem** | [ ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg)](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
@@ -266,6 +262,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
 |**US**| [US45](../../modelagem/backlog/#us45-planejar-gastos) & [US46](../../modelagem/backlog/#us46-planejar-renda) |
 |**Imagem** | ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**Obs.:** | Requisito **ainda não** implementado. |
@@ -276,6 +273,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
 |**US**| [US47](../../modelagem/backlog/#us47-categorizar-gastos) & [US48](../../modelagem/backlog/#us48-categorizar-renda) & [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria) |
 |**Imagem** | ![rf19](./../img/pos_rastreabilidade/foward_rf19.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
@@ -286,6 +284,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 9](../../modelagem/backlog/#sprint-9) |
 |**US**| [US47](../../modelagem/backlog/#us47-categorizar-gastos) & [US48](../../modelagem/backlog/#us48-categorizar-renda) |
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
@@ -296,6 +295,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
+|**Sprint** | [Sprint 8](../../modelagem/backlog/#sprint-8) |
 |**US**| [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) & [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria) |
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg)|
 |**Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
@@ -306,7 +306,8 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP10](../../modelagem/backlog/#ep10-agenda) |
-|**US**| [US41](../../modelagem/backlog/#us41-Adicionar-transação-na-agenda) |
+|**Sprint** | [Sprint 6](../../modelagem/backlog/#sprint-6) |
+|**US**| [US41](../../modelagem/backlog/#us41-Adicionar-transação-na-agenda)|
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
@@ -316,6 +317,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP16](../../modelagem/backlog/#ep16-empretimos) |
+|**Sprint** | [Sprint 15](../../modelagem/backlog/#sprint-15) |
 |**US**| [US72](../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos |
 |**Imagem** | |
 |**Obs.:** | Requisito **ainda não** implementado. |
@@ -327,6 +329,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| -- |
 |**US**| -- |
+|**Sprint** | -- |
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado e não planejado no backlog do produto. |
 
@@ -336,6 +339,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP13](../../modelagem/backlog/#ep13-dicas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
 |**US**|  [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) &  [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas) &  [US59](../../modelagem/backlog/#us59-indircar-dicas-que-foram-realmente-uteis) |
 |**Imagem** | -- |
 |**Imagem** | ![rf25](./../img/pos_rastreabilidade/foward_rf25.jpeg) |
@@ -347,6 +351,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**| -- |
 |**Épico**| -- |
+|**Sprint** | -- |
 |**US**| -- |
 |**Imagem** | -- |
 |**Imagem** | |
@@ -358,6 +363,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP12](../../modelagem/backlog/#ep12-estatisticas) |
+|**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
 |**US**|  [US54](../../modelagem/backlog/#us54-estatisticas-para-os-parceiros) |
 |**Imagem** | -- |
 |**Obs.:** | Requisito**ainda não** implementado. |
@@ -368,6 +374,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**| -- |
 |**Épico**| -- |
+|**Sprint** | -- |
 |**US**| -- |
 |**Imagem** | -- |
 |**Obs.:** | Requisito**parcialmente** implementado. |
@@ -378,6 +385,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP08](../../modelagem/backlog/#ep08-troca-de-dados) |
+|**Sprint** | [Sprint 4](../../modelagem/backlog/#sprint-4) |
 |**US**|  [US32](../../modelagem/backlog/#us32-estatisticas-de-usuarios) |
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado. |
@@ -388,6 +396,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP13](../../modelagem/backlog/#ep13-dicas) |
+|**Sprint** | -- |
 |**US**| -- |
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
@@ -398,6 +407,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**| [T5](../../modelagem/backlog/#temas) |
 |**Épico**| -- |
+|**Sprint** | -- |
 |**US**| -- |
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
@@ -408,6 +418,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |--|--|
 |**Tema**| [T5](../../modelagem/backlog/#temas) |
 |**Épico**| -- |
+|**Sprint** | -- |
 |**US**| -- |
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
@@ -430,7 +441,7 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Tema** | [T2](../../modelagem/backlog/#temas) |
 |**Épico** | [EP4](../../modelagem/backlog/#ep04-login-logout) |
 |**Sprint** | [Sprint 1](../../modelagem/backlog/#sprint-1) |
-|**US** | [US16 ](../../modelagem/backlog/#us16-fazer-login)|
+|**US** | [US16](../../modelagem/backlog/#us16-fazer-login)|
 | **Obs.:** | Requisito **não** implementado. |
 | **Funcionalidade** | Não há imagem.  |
 
