@@ -100,14 +100,16 @@ __Backward-from__.
 **Categoria**:
 
 **Elos**:
-
 ---
 
 #### EF02
 **Categoria**:
+Desenvolvimento
 
-**Elos**:
+**Elos**
 
+Satisfação: [C19](../../modelagem/cenarios/#c19-cadastrar-banco) satisfaz [C24](../../modelagem/cenarios/#c24-adicionar-conta-manual)<br>
+Representação: [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) representa [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)<br>Agregação: [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario) agrega [C19](../../modelagem/cenarios/#c19-cadastrar-banco).
 ---
 
 #### EF03
@@ -119,9 +121,12 @@ __Backward-from__.
 
 #### EF04
 **Categoria**:
+Desenvolvimento
 
-**Elos**:
+**Elos**
 
+Representação: [UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-login) representa [US11](../../modelagem/backlog#us11-elaborar-formulario)<br>
+Recurso: [RTD04](../../modelagem/especificacao/#rtd04-cadastro) demanda [US11](../../modelagem/backlog#us11-elaborar-formulario)<br>Recurso: [US16](../../modelagem/backlog#us16-fazer-login) demanda [US11](../../modelagem/backlog#us11-elaborar-formulario)<br> Agregação: [US11](../../modelagem/backlog#us11-elaborar-formulario) agrega [US12](../../modelagem/backlog#us12-validacao-dados-de-cadastro)<br>Agregação: [US11](../../modelagem/backlog#us11-elaborar-formulario) agrega [US14](../../modelagem/backlog#us14-validacao-cadastro-duplicado).
 ---
 
 #### EF05
@@ -441,7 +446,3 @@ Agregação: --
 **Elos**:
 
 ---
-
-
-
-
