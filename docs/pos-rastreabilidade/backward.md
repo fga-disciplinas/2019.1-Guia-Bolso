@@ -7,19 +7,15 @@ __Backward-from__.
 
 ### Legendas
 
-| Tipo | Código | Significado | Tipo | Código | Significado | 
-|--|--|--|--|--|--|
-|Modelagem | US | User history (backlog)|Elicitação | AP | Análise de protocolo | | | 
-|Modelagem | UC | Caso de uso |Elicitação | AD | Análise de discurso (brainstorm) |
-|Modelagem | C | Cenário |Elicitação | ENT | Entrevista |
-|Elicitação | PR | Requisito de (...)|Elicitação | INS | Instrospecção |
-|Modelagem | IS | I star |Elicitação | Q | Questionário |
-|Modelagem | L | Léxicos |Elicitação | ST | Storytelling |
-|Modelagem | NFR | NFR Framework | Elicitação | I | Introspecção |
-|Pré rastreabilidade | RP | Richpicture |--- | --- | --- |
-|Pré rastreabilidade | AR | Argumentação |--- | --- | --- |
-
-Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na especificação suplementar.
+| Tipo | Código | Significado | Tipo | Código | Significado | Tipo | Código | Significado | 
+|--|--|--|--|--|--|--|--|--|
+|Modelagem | US | User history (backlog)|Elicitação | AP | Análise de protocolo | Pré-rastreabilidade| RP | RichPicture |
+|Modelagem | UC | Caso de uso |Elicitação | AD | Análise de discurso (brainstorm) |Pré-rastreabilidade| ARG | Argumentação |
+|Modelagem | C | Cenário |Elicitação | ENT | Entrevista |-- |-- |--|
+|Modelagem | - | - |Elicitação | INS | Instrospecção | --|-- |-- |
+|Modelagem | IS | I star |Elicitação | Q | Questionário |--|-- |-- |
+|Modelagem | L | Léxicos |Elicitação | ST | Storytelling |--|--|-- |
+|Modelagem | NFR | NFR Framework |Elicitação |PR | Protótipo |--|-- |--|
 
 ### Requisitos funcionais
 
@@ -34,12 +30,12 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | RF07 | O Guiabolso deve permitir adicionar a renda do mês.|[RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario), [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)|[US46](../../modelagem/backlog/#us46-planejar-renda), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento), [L38](../../modelagem/lexicos/#l38-renda), [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos) |--|
 | RF08 | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario)|[US45](../../modelagem/backlog/#us45-planejar-gastos), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento), [C3](../../modelagem/cenarios/#c3-criar-planejamento), [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos), [L40](../../modelagem/lexicos/#l40-planejamento-financeiro)|--|
 | RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario)|[US60](../../modelagem/backlog/#us60-visualizar-status-de-avaliacao-de-credito), [US63](../../modelagem/backlog/#us63-visualizar-empresas-que-consultaram-meu-cpf), [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [L3](../../modelagem/lexicos/#l3-consultar-cpf), [L20](../../modelagem/lexicos/#l20-radar-cpf), [C6](../../modelagem/cenarios/#c6-consultar-cpf), [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf)|--|
-| RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | --|--|--|--|
-| RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| --|--|--|--|
-| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | --|--|--|--|
-| RF13 | Mostrar quais empresas consultaram o CPF do usuário | --|--|--|--|
-| RF14 | Permitir adição manual de transações | --|--|--|--|
-| RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| --|--|--|--|
+| RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao),[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|
+| RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| --|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|--|--|
+| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)| 
+| RF13 | Mostrar quais empresas consultaram o CPF do usuário |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo), [Q](../../elicitacao-de-requisitos/questionario/)|[C6](../../modelagem/cenarios/#c6-consultar-cpf),[UC13](#uc13-visualizar-status-do-nome-limpo-ou-sujo), [US63](#us63-visualizar-empresas-que-consultaram-meu-cpf) |--|--|
+| RF14 | Permitir adição manual de transações |[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba),[ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [L](/modelagem/lexicos/#l11-conta-manual), [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual)|--|
+| RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba),[ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [L](/modelagem/lexicos/#l13-conta-manual), [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual)|--|
 | RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| --|--|--|--|
 | RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|--|--|--|--|
 | RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| --|--|--|--|
