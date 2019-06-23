@@ -16,6 +16,7 @@ __Backward-from__.
 |Modelagem | IS | I star |Elicitação | Q | Questionário |--|-- |-- |
 |Modelagem | L | Léxicos |Elicitação | ST | Storytelling |--|--|-- |
 |Modelagem | NFR | NFR Framework |Elicitação |PR | Protótipo |--|-- |--|
+|Modelagem | EP | Épicos |Modelagem | EPS | Especificação Suplementar |--|-- |--|
 
 ### Requisitos funcionais
 
@@ -75,25 +76,25 @@ __Backward-from__.
 ### Requisitos Não funcionais
 
 <div class="datatable"></div>
-| ID | Descrição | Fonte | Elicitação | Modelagem | Elo |
+| ID | Descrição | Pré-Rastreab. | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
-| NF01 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|--|--|--|--|
-| NF02 |O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.| --|--|--|--|
-| NF03 |O Guiabolso deve ter um design elegante e intuitivo. | --|--|--|--|
-| NF04 |A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro.|--|--|--|--|
-| NF05 |A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.| --|--|--|--|
-| NF06 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual |--|--|--|--|
-| NF07 | Padronizar a identidade visual do aplicativo entre as diversas plataformas | --|--|--|--|
-| NF08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) | --|--|--|--|
-| NF09 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) | --|--|--|--|
-| NF10 | O deve padronizar a utilização nos dispositivos android e no IOS| --|--|--|--|
-| NF11 | O app deve ser mais intuitivo| --|--|--|--|
-| NF12 | O app deve reduzir as propagandas na aba guia| --|--|--|--|
-| NF13 |  Mais opções de visualização nos gráficos de rendas e gastos |--|--|--|--|
-| NF14 | Ter uma versão web | --|--|--|--|
-| NF15 | Rapidez e facilidade no uso | --|--|--|--|
-| NF16 | Ter um extrato bem organizado e categorizado | --|--|--|--|
-| NF17 | O app na parte de guia deve exibir os cards pela ordem de relevância  |--|--|--|--|
+| NF01 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|--|[NF01](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta), [RTD04](../..//modelagem/especificacao/#rtd04-cadastro),<br>[UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-usuario), [UC13](../../modelagem/cenarios/#c13-criar-uma-conta),<br>[EP03](../../modelagem/backlog/#ep03-cadastro), [US11](../../modelagem/backlog/#us11-elaborar-formulario),<br> [US12](../../modelagem/backlog/#us12-validacao-dados-de-cadastro) & [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |--|
+| NF02 |O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.|[ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)|[NF02](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[L26](../../modelagem/lexicos/#l26-chave-de-seguranca),[RC03](../../modelagem/especificacao/#rc03-privacidade-dos-dados),<br>[UC16](../../modelagem/casos_de_uso/#uc16-adicionar-codigo-de-seguranca), [EP08](../../modelagem/backlog/#ep08-troca-de-dados) &<br>[NFR07](../../modelagem/nfr/#nfr07-seguranca)|--|
+| NF03 |O Guiabolso deve ter um design elegante e intuitivo. |--|[NF03](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[RTD](../../modelagem/especificacao/#restricao-de-design) & [NFR04](../../modelagem/nfr/#nfr04-design)|--|
+| NF04 |A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro.|--|[NF04](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[RC02](../../modelagem/especificacao/#rc02-integridade-dos-dados), [EP08](../../modelagem/backlog/#ep08-troca-de-dados) &<br> [NFR01](../../modelagem/nfr/#nfr01-suportabilidade)|--|
+| NF05 |A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) &<br>[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[NF05](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C12](../..//modelagem/cenarios/#c12-ir-para-extrato), [L21](../../modelagem/lexicos/#l21-extrato),<br> [RTD03](../../modelagem/especificacao/#rtd03-conteudo), [UC3](../../modelagem/casos_de_uso/#uc3-visualizar-extrato),<br> [EP09](../../modelagem/backlog/#ep09-extrato), [IS10](../../modelagem/istar/#is10-visualizar-extrato)|--|
+| NF06 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[NF06](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C19](../..//modelagem/cenarios/#c19-cadastrar-banco), [C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes),<br>[L10](../../modelagem/lexicos/#l10-pausar-cartao), [L27](../../modelagem/lexicos/#l27-cartao-de-debito),<br>[L28](../../modelagem/lexicos/#l28-cartao-de-credito), [L33](../../modelagem/lexicos/#l33-conta-bancaria),<br>[UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes), [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes),<br>[UC6](../..//modelagem/casos_de_uso/#uc6-adicionar-transacao-manual), [UC8](../../modelagem/casos_de_uso/#uc8-editar-transacao),<br> [UC17](../../modelagem/casos_de_uso/#uc17-ignorar-transacao), [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos),<br>[IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) & [IS08](../../modelagem/istar/#is08-transacoes)|--|
+| NF07 | Padronizar a identidade visual do aplicativo entre as diversas plataformas |--|[PR](../../elicitacao-de-requisitos/prototipacao/), [NF07](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[PA](../../modelagem/especificacao/#padroes-aplicaveis)|--|
+| NF08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) |--|[NF08](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C3](../../modelagem/cenarios/#c3-criar-planejamento), [L23](../../modelagem/lexicos/#l23-meta),<br>[L40](../../modelagem/lexicos/#l40-planejamento-financeiro), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento),<br>[EP11](../../modelagem/backlog/#ep11-planejamento) & [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)|--|
+| NF09 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) |--|[NF09](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF10 | O app deve padronizar a utilização nos dispositivos android e no IOS|--|[PR](../../elicitacao-de-requisitos/prototipacao/), [NF10](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF11 | O app deve ser mais intuitivo| --| [NF11](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)| -- |--|
+| NF12 | O app deve reduzir as propagandas na aba guia|--|[NF12](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF13 |  Mais opções de visualização nos gráficos de rendas e gastos |--|[NF13](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF14 | Ter uma versão web |--|[NF14](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF15 | Rapidez e facilidade no uso |--|[NF15](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF16 | Ter um extrato bem organizado e categorizado |--|[NF16](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
+| NF17 | O app na parte de guia deve exibir os cards pela ordem de relevância  |--|[NF17](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
 
 ### Elos Funcionais
 
@@ -459,3 +460,123 @@ Representação: [C3](../../modelagem/cenarios/#c3-criar-planejamento) represent
 
 **Elos**:
 
+### Elos não-Funcionais
+
+#### ENF01
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF02
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF03
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF04
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF05
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF06
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF07
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF08
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF09
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF10
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF11
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF12
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF13
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF14
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF15
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF16
+**Categoria**:
+
+**Elos**:
+
+---
+
+#### ENF17
+**Categoria**:
+
+**Elos**:
+
+---
