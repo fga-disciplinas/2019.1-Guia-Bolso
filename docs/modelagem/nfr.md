@@ -159,7 +159,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ### NFR03 - Desempenho
 
-[ ![NFR03](./../img/nfr/nfr_desempenho_v1.png)](./../img/nfr/nfr_desenpenho_v1.png)
+[ ![NFR03](./../img/nfr/nfr_desempenho_v1.png)](./../img/nfr/nfr_desempenho_v1.png)
 
 
 | **NFR03** | **Atores**|
