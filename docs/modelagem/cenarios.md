@@ -36,30 +36,30 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > **Se o [usuário] tem uma [conta automática]:** <br> > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu [extrato]; <br> > [Usuário] seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria);  <br> > Transação é agrupada na categoria selecionada ou adicionada. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]);  <br> > [Usuário] seleciona a transação de escolha e a adiciona uma categoria já preexistente ou [adiciona uma categoria](#c9-criar-categoria)); <br> > Transação é agrupada na categoria selecionada ou adicionada;|
 
-### C2 - Adicionar transação com [Conta manual]
+### C2 - Adicionar [transação](../lexicos/#l40-transacao) com [Conta manual]
 
-| **C2** | **Adicionar transação com [Conta manual]**|
+| **C2** | **Adicionar (../lexicos/#l42-transacao) com [Conta manual]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c2-conta-manual) (16/04) |
-| **Autor**| -- |
-| **Metas/Objetivos** | Descrever como adicionar transação em uma [conta manual] |
-| **Contexto** |**O que?** <br> > Adicionar transação com uma [conta manual]; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> > Ao tentar adicionar [conta automática], seu [banco] não consta na lista pré-determinada; <br> > O [usuário] não tem conhecimento de como adicionar transação na sua [conta manual].|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Metas/Objetivos** | Descrever como adicionar (../lexicos/#l42-transacao) em uma [conta manual] |
+| **Contexto** |**O que?** <br> > Adicionar [transação](../lexicos/#l42-transacao) com uma [conta manual]; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] não quer informar seus [dados bancários](../lexicos/#l39-dados-bancarios) ao aplicativo, mas quer se organizar financeiramente; <br> > Ao tentar adicionar [conta automática], seu [banco] não consta na lista pré-determinada; <br> > O [usuário] não tem conhecimento de como adicionar [transação](../lexicos/#l42-transacao) na sua [conta manual].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
-| **Recursos** | > Transações financeiras; <br> > Guiabolso.|
-| **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
+| **Recursos** | > [Transações](../lexicos/#l42-transacao) financeiras; <br> > Guiabolso.|
+| **Restrição** | > Existir uma [transação](../lexicos/#l42-transacao); <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] adiciona uma [conta manual] <br> > [Usuário] adiciona transação preenchendo um formulário e a [categoriza](#c1-categorizar-transacao); <br> >O [usuário] adiciona qual é o tipo de movimentação a ser registrada: de entrada ou saída de capital; <br> > Transação é adicionada ao [extrato].|
+| **Episódios** | > [Usuário] cria uma conta no Guiabolso; <br> > [Usuário] adiciona uma [conta manual] <br> > [Usuário] adiciona [transação](../lexicos/#l42-transacao) preenchendo um formulário e a [categoriza](#c1-categorizar-transacao); <br> > O [usuário] adiciona qual é o tipo de [movimentação](../lexicos/#l42-transacao) a ser registrada: de entrada ou saída de capital; <br> > [transação](../lexicos/#l42-transacao) é adicionada ao [extrato].|
 
-### C3 - Criar planejamento
+### C3 - Criar [planejamento](../lexicos/#l40-planejamento-financeiro)
 
-| **C3** | **Criar planejamento**|
+| **C3** | **Criar [planejamento](../lexicos/#l40-planejamento-financeiro)**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
-| **Metas/Objetivos** | Descrever como criar planejamento financeiro |
-| **Contexto** |**O que?** <br>> Planejar gastos do mês; <br> <br> **Onde?** <br> > Na aba de “Finanças” do aplicativo; <br><br> **Quando?**  <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] busca uma forma prática de registrar um planejamento de gastos; <br> > O [usuário] não tem conhecimento de como [criar planejamento](#c3-criar-planejamento) em sua conta.|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Metas/Objetivos** | Descrever como criar um [planejamento](../lexicos/#l40-planejamento-financeiro) financeiro |
+| **Contexto** |**O que?** <br>> Planejar gastos do mês; <br> <br> **Onde?** <br> > Na aba de “Finanças” do aplicativo; <br><br> **Quando?**  <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] busca uma forma prática de registrar um [planejamento](../lexicos/#l40-planejamento-financeiro) de gastos; <br> > O [usuário] não tem conhecimento de como [criar planejamento](#c3-criar-planejamento) em sua conta.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
-| **Recursos** | > Transações financeiras; <br> > Guiabolso.|
+| **Recursos** | > [Transações](../lexicos/#l42-transacao) financeiras; <br> > Guiabolso.|
 | **Restrição** | > Ter uma [meta]  <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Dados insuficientes; <br> > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
 | **Episódios** | > [Usuário] registra sua [renda](../lexicos/#l28-renda) mensal; <br> > [Usuário] adiciona [planejamento de gastos](#c3-criar-planejamento) visível na aba de Finanças; <br> > [Usuário] adiciona gastos previstos por meio das categorias do aplicativo, ou ([cria uma nova categoria](#c9-criar-categoria)); <br> > Gráficos de relação entre gastos e [rendas](../lexicos/#l28-renda) do mês são dispostos no Resumo, juntamente com os gastos por categoria. |
@@ -70,7 +70,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C4** | **Realizar abertura do [Cadastro Positivo]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-cadastro-positivo) (16/04) |
-| **Autor**| -- |
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Metas/Objetivos** | [Usuário] quer mostrar que é um bom pagador por meio de seu histórico de pagamentos |
 | **Contexto** |**O que?** <br> > Tentativa de melhorar nome no mercado financeiro; <br> <br> **Onde?** <br>> Na aba [Radar CPF](../lexicos/#l20-radar-cpf) do aplicativo; <br><br> **Quando?** <br>> A qualquer momento que o [usuário] sentir necessidade; <br><br> **Por quê?** <br> > [Usuário] quer melhorar seu [crédito no mercado](../lexicos/#l22-avaliacao-de-credito), pois quer aumentar seu limite no cartão de crédito; <br> > [Usuário] quer contratar financiamento; <br> > [Usuário] quer menores taxas de juros nas suas parcelas.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituição BoaVista SCPC.|
@@ -84,28 +84,28 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C5** | **Limpar o nome**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c5-nome-sujo) (16/04) |
-| **Autor**| -- |
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Metas/Objetivos** | Retirar o status de [nome sujo](../lexicos/#l1-nome-sujo) do [usuário] |
-| **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do [usuário]; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Quando?**  <br>> No momento mais viável para o [usuário] consumidor;<br> <br> **Por quê?** <br> > [Usuário] está com pendências no SPC/SCPC/Serasa; <br> > [Usuário] está limitado à diversas transações financeiras.|
-|**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições bancárias. <br> > Serviços de proteção ao crédito|
-| **Recursos** | > Pendências em faturas; <br> > Centrais de atendimento das instituições de pagamento.|
+| **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do [usuário]; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as [instituições](../lexicos/l31-instituicao-financeira) relacionadas às compras; <br> <br>**Quando?**  <br>> No momento mais viável para o [usuário] consumidor;<br> <br> **Por quê?** <br> > [Usuário] está com pendências no SPC/SCPC/Serasa; <br> > [Usuário] está limitado à diversas [transações](../lexicos/#l42-transacao) financeiras.|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  [Instituições](../lexicos/l31-instituicao-financeira) bancárias. <br> > Serviços de proteção ao crédito|
+| **Recursos** | > Pendências em faturas; <br> > Centrais de atendimento das [instituições](../lexicos/l31-instituicao-financeira) de pagamento.|
 | **Restrição** | > Estar com o [nome sujo](../lexicos/#l1-nome-sujo); |
 | **Exceção** | > Ausência de acordos; <br> > Internet indisponível; <br> > Falha no aplicativo. |
-| **Episódios** | > [Usuário] está com [nome sujo](../lexicos/#l1-nome-sujo); <br> > [Usuário] solicita acordos com a instituição bancária; <br> > [Usuário] aceita acordo proposto e paga suas pendências; <br> > [Usuário] encontra-se com o [nome limpo]|
+| **Episódios** | > [Usuário] está com [nome sujo](../lexicos/#l1-nome-sujo); <br> > [Usuário] solicita acordos com a [instituição](../lexicos/l31-instituicao-financeira) bancária; <br> > [Usuário] aceita acordo proposto e paga suas pendências; <br> > [Usuário] encontra-se com o [nome limpo]|
 
 ### C6 - [Consultar CPF]
 
 | **C6** | **[Consultar CPF]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br>  Anterior: [1.0](#c6-consultar-cpf) (16/04)|
-| **Autor**| -- |
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Metas/Objetivos** | Descrever como [consultar CPF] pelo Guiabolso |
 | **Contexto** |**O que?** <br> > Forma de consultar situação do CPF do [usuário]; <br><br> **Onde?** <br>> Na aba “[Radar CPF]” do aplicativo; <br> <br>**Quando?** <br>> A qualquer momento; <br><br> **Por quê?**<br> >[Usuário] não tem conhecimento sobre a atual situação do CPF no mercado financeiro, ou seja, com o [nome limpo] ou sujo.|
-|**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições BoaVista.|
+|**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  [instituição](../lexicos/l31-instituicao-financeira) BoaVista.|
 | **Recursos** | > Integração com BoaVista; <br> > Formulário com dados pessoais; <br> > Guiabolso.|
 | **Restrição** | > Ter CPF <br> > Ter conta no aplicativo|
-| **Exceção** | > Falta de dados sensíveis; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição BoaVista; <br> > Ausência do celular do [usuário].|
-| **Episódios** | > [Usuário] preenche formulário para consulta de seu CPF; <br> > [Usuário] visualiza o estado do seu nome no mercado, como ([nome limpo]) ou  [nome sujo](../lexicos/#l1-nome-sujo) e as empresas que consultaram seu CPF; <br> > [Usuário] pode visualizar quantidade de seu ([score] do Serasa) na aba Guia.|
+| **Exceção** | > Falta de dados sensíveis; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a [Instituição](../lexicos/l31-instituicao-financeira) BoaVista; <br> > Ausência do celular do [usuário].|
+| **Episódios** | > [Usuário] preenche formulário para consulta de seu CPF; <br> > [Usuário] visualiza o estado do seu nome no mercado, como ([nome limpo]) ou  [nome sujo](../lexicos/#l1-nome-sujo) e as [empresas](../lexicos/l31-instituicao-financeira) que consultaram seu CPF; <br> > [Usuário] pode visualizar quantidade de seu ([score] do Serasa) na aba Guia.|
 
 
 ### C7 - [Ignorar transação]
@@ -113,14 +113,14 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C7** | **[Ignorar transação]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
-| **Metas/Objetivos** | Ocultar transação do planejamento ou dos gráficos presentes no Resumo e [Extrato]|
-| **Contexto** |**O que?**<br> > Ignorar uma transação do interesse do [usuário]; <br><br> **Onde?** <br>> No [extrato], em detalhes da transação; <br><br> **Quando?** <br>> A qualquer momento, desde que haja o registro de uma transação; <br><br> **Por quê?** <br>> Motivos particulares do [usuário].|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Metas/Objetivos** | Ocultar [transação](../lexicos/#l42-transacao) do [planejamento](../lexicos/#l40-planejamento-financeiro) ou dos gráficos presentes no Resumo e [Extrato]|
+| **Contexto** |**O que?**<br> > Ignorar uma [transação](../lexicos/#l42-transacao) do interesse do [usuário]; <br><br> **Onde?** <br>> No [extrato], em detalhes da [transação](../lexicos/#l42-transacao); <br><br> **Quando?** <br>> A qualquer momento, desde que haja o registro de uma [transação](../lexicos/#l42-transacao); <br><br> **Por quê?** <br>> Motivos particulares do [usuário].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
-| **Recursos** | > Transação; <br> > Guiabolso.|
+| **Recursos** | > [Transação](../lexicos/#l42-transacao); <br> > Guiabolso.|
 | **Restrição** | > Ter conta no aplicativo; <br> > Ter [conta do tipo automárica](../lexicos/#l12-conta-automatica). |
-| **Exceção** | > Falta de dados sensíveis; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a Instituição BoaVista; <br> > Ausência do celular do [usuário].|
-| **Episódios** | > [Usuário] realiza uma transação; <br> > [Usuário] visualiza esta transação em seu [extrato]; <br> > [Usuário] não quer que esta transação apareça nos gráficos e/ou planejamento; <br> > [Usuário] clica na transação desejada e visualiza opção para [ignorar transação]; <br> > Transação é retirada dos gráficos e do planejamento.|
+| **Exceção** | > Falta de dados sensíveis; <br> > Internet indisponível; <br> > Falha no aplicativo; <br> > Falha na comunicação com a [Instituição](../lexicos/l31-instituicao-financeira) BoaVista; <br> > Ausência do celular do [usuário].|
+| **Episódios** | > [Usuário] realiza uma [transação](../lexicos/#l42-transacao); <br> > [Usuário] visualiza esta [transação](../lexicos/#l42-transacao) em seu [extrato]; <br> > [Usuário] não quer que esta [transação](../lexicos/#l42-transacao) apareça nos gráficos e/ou [planejamento](../lexicos/#l40-planejamento-financeiro); <br> > [Usuário] clica na [transação](../lexicos/#l42-transacao) desejada e visualiza opção para [ignorar transação]; <br> > [Transação](../lexicos/#l42-transacao) é retirada dos gráficos e do [planejamento](../lexicos/#l40-planejamento-financeiro).|
 
 
 ### C8 - Simular um empréstimo
@@ -267,14 +267,14 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C18** | **Editar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
-| **Autor**| -- |
-| **Metas/Objetivos** | Fazer alterações em uma transação|
-| **Contexto** |**O que?** <br> > Alterar dados referentes à uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em alguma transação existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Metas/Objetivos** | Fazer alterações em uma [transação](../lexicos/#l42-transacao)|
+| **Contexto** |**O que?** <br> > Alterar dados referentes à uma [transação](../lexicos/#l42-transacao); <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em alguma [transação](../lexicos/#l42-transacao) existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma [transação](../lexicos/#l42-transacao); <br><br> **Por quê?** <br> > Para melhorar a organização das [transações](../lexicos/#l42-transacao).|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
-| **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > Transação existente |
-| **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
+| **Recursos** | > Conta no Guiabolso; <br> > Internet; <br> > [Transação](../lexicos/#l42-transacao) existente |
+| **Restrição** | > Existir uma [transação](../lexicos/#l42-transacao); <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > **Se o [usuário] tem uma [conta automática]:** <br>  > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta transação no seu [extrato]; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "[Ignorar transação]"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no [extrato] com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma transação com a [conta manual]); <br> > [Usuário] pode visualizar esta transação no seu [extrato]; <br> > [Usuário] seleciona a transação de escolha; <br> > [Usuário] opta por editar "Nome da transação", "Valor" e "Categoria"; <br> > [Usuário] salva as alterações; <br> > Transação pode ser visualizada no [extrato] com as novas alterações.|
+| **Episódios** | > **Se o [usuário] tem uma [conta automática]:** <br>  > [Usuário] faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> > [Usuário] pode visualizar esta [transação](../lexicos/#l42-transacao) no seu [extrato]; <br> > [Usuário] seleciona a [transação](../lexicos/#l42-transacao) de escolha; <br> > [Usuário] opta por editar "Nome da [transação](../lexicos/#l42-transacao), "Editar categoria", "Dividir em mais categorias" e "[Ignorar transação]"; <br> > [Usuário] salva as alterações; <br> > [Transação](../lexicos/#l42-transacao) pode ser visualizada no [extrato] com as novas alterações. <br><br> > **Caso contrário, uma [conta manual]:**  <br>  > [Usuário] (adiciona uma [transação](../lexicos/#l42-transacao) com a [conta manual]); <br> > [Usuário] pode visualizar esta [transação](../lexicos/#l42-transacao) no seu [extrato]; <br> > [Usuário] seleciona a [transação](../lexicos/#l42-transacao) de escolha; <br> > [Usuário] opta por editar "Nome da [transação](../lexicos/#l42-transacao)", "Valor" e "Categoria"; <br> > [Usuário] salva as alterações; <br> > [Transação](../lexicos/#l42-transacao) pode ser visualizada no [extrato] com as novas alterações.|
 
 ### C19 - Cadastrar [Banco]
 

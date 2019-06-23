@@ -561,7 +561,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L6** | **Crédito Pré-aprovado**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
+| **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e [instituições](../lexicos/l31-instituicao-financeira) financeiras | 
 | **Impacto** | > Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> > Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e score do serasa |
 
 ### L7 - Comprometimento de renda
