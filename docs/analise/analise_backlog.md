@@ -6,8 +6,23 @@ A verificação do backlog tem como objetivo principal a detecção de defeitos 
 
 ## Metodologia 
 
-Como o Backlog é um artefato consideravelmente grande, o grupo optou por fazer dois checklists: Um macro, avaliando o Backlog como um todo, e um micro, avaliando individualmente as US's. Dessa forma a avaliação final, de acordo com a classificação padronizada pelo grupo ficará mais fiel e avaliará o backlog de forma mais precisa.
+Como o Backlog é um artefato consideravelmente grande, o grupo optou por fazer dois checklists: Um macro, avaliando o Backlog como um todo, e um micro, avaliando individualmente as US's. Dessa forma a avaliação final, de acordo com a classificação padronizada pelo grupo ficará mais fiel e avaliará o backlog de forma mais precisa. Cada questão elaborada possui uma justificativa e uma referência, conforme tabela abaixo:
 
+### Questões & justificativas
+
+| Questão |Justificativa & Referência |
+|--|--|
+| **1** - Os itens que representam maior valor para o negócio estão sendo priorizados? |O Backlog do Produto deve ser ordenado por prioridade. Conforme referência, _O Backlog do Produto de mais alta prioridade leva a atividades de desenvolvimento imediatas. Quanto mais alta sua prioridade, mais urgente ele é, mais se pensou sobre ele e há mais consenso no que diz respeito ao seu valor_ -  **GUIA DO SCRUM - pg 17**. |
+| **2** - As sprints estão bem divididas e com pontuação bem distribuida?| A divisão correta da pontuação permite a equipe de desenvolvimento mensurar previamente todo o esforço envolvido, garantindo que não haja surpresas no desenvolvimento (SUTHERLAND, 2012). Conforme dito em **Implantação de scrum em uma empresa de desenvolvimento de Software**, pg 53.  |
+| **3** - O backlog possui épicos e temas bem definidos e descritos? | Através de épicos e temas bem definidos é possível definir metas e objetivos que irão auxiliar no desenvolvimento e priorização de todas as funcionalidades de um produto. Falhar nesse aspecto significa um grave erro logo no começo do desenvolvimento. Conforme  **GUIA DO SCRUM - pg 12**.  |
+| **4** - A pontuação de cada sprint foi definida seguindo algum tipo de padronização?| A prontuação de uma sprint está baseada na pontuação de suas US. Cada US deve ter sua pontuação determinada por risco, valor e necessidade. Dessa forma a utilização de um padrão facilita a determinação desses aspectos. Conforme **GUIA DO SCRUM - pg 17**. |
+| **5** - O backlog abrange o desenvolvimento do produto, documentação e requisitos informais?| Um bom backlog deve abordar todos os aspectos do desenvolvimento, incluindo (mas não estando limitado a) novas features, documentação e bugs. Conforme dito em **Implantação de scrum em uma empresa de desenvolvimento de Software**, pg 56. |
+| **6** - As US's foram elaboradas seguindo um modelo e/ou um padrão?| Apesar de serem questões ligeiramente diferentes, a mesma resposta do item **4** se aplica aqui. |
+| **7** - A história identifica corretamente a parte interessada? | Uma US descreve uma necessidade. Dessa forma a identificação da parte interessada é extrema importância para a aelaboração da mesma. Conforme dito em **Implantação de scrum em uma empresa de desenvolvimento de Software**, pg 53.  |
+| **8** - A história especifica ao menos dois critérios de aceitação? | Critérios de aceitação são os parâmetros definidos pelo usuário que dizem quando aquela story está pronta. Isso é importante para os desenvolvedores, pois fornecem critérios objetivos para saber quando uma story está finalizada, sem margem para relativismos.Conforme **Entendendo User Stories, Rodrigo Yoshima - pg 38** |
+| **9** - Os criterios de aceitação estão bem descritos e coerentes com a US? | Os critérios de aceitação devem estar coerentes com a US para que sejam objetivos e ao mesmo tempo corretos com o desenvolvimento. |
+| **10** - A pontuação da história está de acordo ou percentualmente próxima da pontuação dos artefatos elicitados no seu rastro? | A pontuação da US estar parecida com a dos seus rastros indica coerência na cadeia de desenvolvimento. |
+| **11** - Os desejos e intenções descrevem e estão de acordo com a US e seu épico? | Os desejos e intenções de uma US devem descrevê-la e estar de acordo com seu conteúdo, do contrário não possui valor algum dentro do projeto. |
 ## Inspeção
 
 ### Macro
@@ -140,3 +155,7 @@ Tanto num contexto macro quanto num micro, o Backlog pode ser avaliado como **Bo
 ## Referências 
 
 [LEIDEMER, Rodigo. Implantação de scrum em uma empresa de desenvolvimento de Software - UNIVATES ](https://www.univates.br/bdu/bitstream/10737/361/1/RomuloLeidemer.pdf)
+
+[SCHWABER, Por Ken. GUIA DOSCRUM. 2011.](https://s3.amazonaws.com/academia.edu.documents/36798433/GUIA_DO_SCRUM.pdf?response-content-disposition=inline%3B%20filename%3DGUIA_DO_SCRUM.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190623%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190623T201520Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=53227693f4fd33535ebe2445b9d164f8e718908fcfab266568399460b7f70d08)
+
+[Entendendo User Stories, Rodrigo Yoshima](http://www.univale.com.br/unisite/mundo-j/artigos/32EntendendoUserStories.pdf)

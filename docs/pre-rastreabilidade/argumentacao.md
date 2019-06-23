@@ -19,7 +19,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG01 - Privacidade do usuário**
 
-[ ![ARG01](../../img/argumentacao/argumentacao_privacidade.png) ](../../img/argumentacao/argumentacao_privacidade.png)
+[ ![ARG01](../img/argumentacao/argumentacao_privacidade.png) ](../img/argumentacao/argumentacao_privacidade.png)
 
 | **ARG01** | **Privacidade do usuário**  |
 |--|--|
@@ -29,7 +29,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG02 - Extrato**
 
-[ ![ARG02](../../img/argumentacao/argumentacao_extrato.png)](../../img/argumentacao/argumentacao_extrato.png)
+[ ![ARG02](../img/argumentacao/argumentacao_extrato.png)](../img/argumentacao/argumentacao_extrato.png)
 
 | **ARG02** | **Extrato**  |
 |--|--|
@@ -39,7 +39,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG03 - Instituições reguladoras e Leis**
 
-[ ![ARG03](../../img/argumentacao/argumentacao_instituicoes.png)](../../img/argumentacao/argumentacao_instituicoes.png)
+[ ![ARG03](../img/argumentacao/argumentacao_instituicoes.png)](../img/argumentacao/argumentacao_instituicoes.png)
 
 | **ARG03** | **Instituições reguladoras e Leis**  |
 |--|--|
@@ -49,7 +49,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG04 - Fluxo de dinheiro do aplicativo**
 
-[ ![ARG04](../../img/argumentacao/argumentacao_fluxo_dinheiro.png)](../../img/argumentacao/argumentacao_fluxo_dinheiro.png)
+[ ![ARG04](../img/argumentacao/argumentacao_fluxo_dinheiro.png)](../img/argumentacao/argumentacao_fluxo_dinheiro.png)
 
 | **ARG04** | **Fluxo de dinheiro do aplicativo**  |
 |--|--|
@@ -59,7 +59,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG05 - Dicas para o usuário**
 
-[ ![ARG05](../../img/argumentacao/argumentacao_dicas.png)](../../img/argumentacao/argumentacao_dicas.png)
+[ ![ARG05](../img/argumentacao/argumentacao_dicas.png)](../img/argumentacao/argumentacao_dicas.png)
 
 | **ARG05** | **Dicas para o usuário**  |
 |--|--|
@@ -69,7 +69,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG06 - Anúncios no app** 
 
-[ ![ARG06](../../img/argumentacao/argumentacao_anuncios.png)](../../img/argumentacao/argumentacao_anuncios.png)
+[ ![ARG06](../img/argumentacao/argumentacao_anuncios.png)](../img/argumentacao/argumentacao_anuncios.png)
 
 | **ARG06** | **Anúncios no app**  |
 |--|--|
@@ -79,7 +79,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG07 - Empréstimo** 
 
-[ ![ARG07](../../img/argumentacao/argumentacao_emprestimo.jpg)](../../img/argumentacao/argumentacao_emprestimo.jpg)
+[ ![ARG07](../img/argumentacao/argumentacao_emprestimo.jpg)](../img/argumentacao/argumentacao_emprestimo.jpg)
 
 | **ARG07** | **Empréstimo**  |
 |--|--|
@@ -89,7 +89,7 @@ Além disso todas as argumentações devem ter a descrição na própria imagem,
 
 ## **ARG08 - Serasa** 
 
-[ ![ARG08](../../img/argumentacao/argumentacao_serasa.png)](../../img/argumentacao/argumentacao_serasa.png)
+[ ![ARG08](../img/argumentacao/argumentacao_serasa.png)](../img/argumentacao/argumentacao_serasa.png)
 
 | **ARG08** | **Serasa**  |
 |--|--|
