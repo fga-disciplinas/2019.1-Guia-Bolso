@@ -30,11 +30,11 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## RP01 - Macro - Atores
 
-[ ![RP01](./../img/rich_picture/rich_picture_macro_atores.png) ](./../img/rich_picture/rich_picture_macro_atores.png)
+[ ![RP01](./../img/rich_picture/rich_picture_macro_atores_2.png) ](./../img/rich_picture/rich_picture_macro_atores_2.png)
 
 | **RP01** | **Macro - Atores**  |
 |--|--|
-| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Versão**| Atual: 2.0 (23/06/2019) <br> Anterior: [1.0](#rp01-macro-atores_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra a interação entre os atores envolvidos em todo o universo de informações do aplicativo. |
 |**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) | 
 
@@ -80,11 +80,11 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## RP06 - Financeiro (aba)
 
-[ ![RP06](./../img/rich_picture/rich_picture_financas.png) ](./../img/rich_picture/rich_picture_financas.png)
+[ ![RP06](./../img/rich_picture/rich_picture_financas_2.png) ](./../img/rich_picture/rich_picture_financas_2.png)
 
 | **RP06** | **Financeiro (aba)**  |
 |--|--|
-| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Versão**| Atual: 2.0 (23/06/2019) <br> Anterior: [1.0](#rp06-financeiro-aba_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interações do usuário com ela. |
 |**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
 
@@ -120,6 +120,16 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## Versões anteriores
 
+### RP01 - Macro - Atores
+
+[ ![RP01](./../img/rich_picture/rich_picture_macro_atores.png) ](./../img/rich_picture/rich_picture_macro_atores.png)
+
+| **RP01** | **Macro - Atores**  |
+|--|--|
+| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Descrição** | Este RichPicture ilustra a interação entre os atores envolvidos em todo o universo de informações do aplicativo. |
+|**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) | 
+
 ### RP04 - Finanças do app
 
 [ ![RP04](./../img/rich_picture/rich_picture_financas_do_app.png) ](./../img/rich_picture/rich_picture_financas_do_app.png)
@@ -129,3 +139,13 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 | **Versão**| Atual: 1.0 (31/03/2019)  <br> Anterior: --| 
 | **Descrição** | Este RichPicture ilustra as formas com que o Guiabolso obtem lucro. |
 |**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)  e [Marcelo Araújo](https://github.com/santosm46) | 
+
+### RP06 - Financeiro (aba)
+
+[ ![RP06](./../img/rich_picture/rich_picture_financas.png) ](./../img/rich_picture/rich_picture_financas.png)
+
+| **RP06** | **Financeiro (aba)**  |
+|--|--|
+| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Descrição** | Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interações do usuário com ela. |
+|**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
