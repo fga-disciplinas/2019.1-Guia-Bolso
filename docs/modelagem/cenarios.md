@@ -2,6 +2,24 @@
 
 Esta técnica descreve os requisitos numa linguagem fácil de entender e validar para todas as pessoas relacionadas com o projecto, motivando-as a discutir e participar, obtendo assim um maior feedback sobre o que se está a fazer.
 
+## Metodologia
+
+Para a confecção dos cenários o grupo utilizou cards com o seguinte modelo base:
+
+| **CXX** | ** Nome do cenário **|
+|--|--|
+| **Versão**| Atual: 1.0 (Data) <br> Anterior: -- |
+| **Autor**| Autor(es) do cenário |
+| **Metas/Objetivos** | Descrever as metas/objetivos do cenário |
+| **Contexto** |**O que?** <br> > -- <br><br> **Onde?** <br> > -- <br><br> **Quando?** <br> > -- <br><br> **Por quê?** <br> > --|
+|**Ator(es)** |  Atores envolvidos |
+| **Recursos** | Recursos envolvidos |
+| **Restrição** | Descrição das restrições  |
+| **Exceção** | Descrição das exceções |
+| **Episódios** | Descrição detalhada dos episódios |
+
+Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além de descrever bem as metas, atores, restrições e exceções. Os episódios com subcenários possuem linkagem, e sempre que houver um léxico relacionado esse também será linkado.
+
 ## Cenários
 
 ### C1 - Categorizar transação
@@ -9,6 +27,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C1** | **Categorizar transação**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c1-contas-residenciais) (16/04)|
+| **Autor**| -- |
 | **Metas/Objetivos** | Adicionar uma categoria à uma transação nova ou já existente |
 | **Contexto** |**O que?** <br> > Categorizar uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em [Adicionar transação manual](#c2-adicionar-transacao-com-conta-manual) ou ao editar uma transação já existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -22,6 +41,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C2** | **Adicionar transação com [Conta manual]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c2-conta-manual) (16/04) |
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como adicionar transação em uma [conta manual] |
 | **Contexto** |**O que?** <br> > Adicionar transação com uma [conta manual]; <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> > Ao tentar adicionar [conta automática], seu [banco] não consta na lista pré-determinada; <br> > O [usuário] não tem conhecimento de como adicionar transação na sua [conta manual].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -35,6 +55,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C3** | **Criar planejamento**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como criar planejamento financeiro |
 | **Contexto** |**O que?** <br>> Planejar gastos do mês; <br> <br> **Onde?** <br> > Na aba de “Finanças” do aplicativo; <br><br> **Quando?**  <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] busca uma forma prática de registrar um planejamento de gastos; <br> > O [usuário] não tem conhecimento de como [criar planejamento](#c3-criar-planejamento) em sua conta.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -49,6 +70,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C4** | **Realizar abertura do [Cadastro Positivo]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c4-cadastro-positivo) (16/04) |
+| **Autor**| -- |
 | **Metas/Objetivos** | [Usuário] quer mostrar que é um bom pagador por meio de seu histórico de pagamentos |
 | **Contexto** |**O que?** <br> > Tentativa de melhorar nome no mercado financeiro; <br> <br> **Onde?** <br>> Na aba [Radar CPF](../lexicos/#l20-radar-cpf) do aplicativo; <br><br> **Quando?** <br>> A qualquer momento que o [usuário] sentir necessidade; <br><br> **Por quê?** <br> > [Usuário] quer melhorar seu [crédito no mercado](../lexicos/#l22-avaliacao-de-credito), pois quer aumentar seu limite no cartão de crédito; <br> > [Usuário] quer contratar financiamento; <br> > [Usuário] quer menores taxas de juros nas suas parcelas.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituição BoaVista SCPC.|
@@ -62,6 +84,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C5** | **Limpar o nome**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c5-nome-sujo) (16/04) |
+| **Autor**| -- |
 | **Metas/Objetivos** | Retirar o status de [nome sujo](../lexicos/#l1-nome-sujo) do [usuário] |
 | **Contexto** |**O que?** <br> > Resolver todas as pendências no nome do [usuário]; <br><br> **Onde?** <br> > Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br>**Quando?**  <br>> No momento mais viável para o [usuário] consumidor;<br> <br> **Por quê?** <br> > [Usuário] está com pendências no SPC/SCPC/Serasa; <br> > [Usuário] está limitado à diversas transações financeiras.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições bancárias. <br> > Serviços de proteção ao crédito|
@@ -75,6 +98,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C6** | **[Consultar CPF]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br>  Anterior: [1.0](#c6-consultar-cpf) (16/04)|
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como [consultar CPF] pelo Guiabolso |
 | **Contexto** |**O que?** <br> > Forma de consultar situação do CPF do [usuário]; <br><br> **Onde?** <br>> Na aba “[Radar CPF]” do aplicativo; <br> <br>**Quando?** <br>> A qualquer momento; <br><br> **Por quê?**<br> >[Usuário] não tem conhecimento sobre a atual situação do CPF no mercado financeiro, ou seja, com o [nome limpo] ou sujo.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  Instituições BoaVista.|
@@ -89,6 +113,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C7** | **[Ignorar transação]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Ocultar transação do planejamento ou dos gráficos presentes no Resumo e [Extrato]|
 | **Contexto** |**O que?**<br> > Ignorar uma transação do interesse do [usuário]; <br><br> **Onde?** <br>> No [extrato], em detalhes da transação; <br><br> **Quando?** <br>> A qualquer momento, desde que haja o registro de uma transação; <br><br> **Por quê?** <br>> Motivos particulares do [usuário].|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -103,6 +128,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C8** | **Simular um empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| Elias Bernardo |
 | **Metas/Objetivos** | Permitir ao [usuário] conhecer as condições e prazos de um empréstimo antes de ele fazer um |
 | **Contexto** |**O que?**  <br>> O [usuário] simula um empréstimo; <br><br> **Onde?** <br>> Na aba “Empréstimos” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento, desde que haja um empréstimo disponível; <br> <br>**Por quê?** <br>> Para verificar se vale a pena ou não a realização do empréstimo.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > [Instituições financeiras]; <br> Serviços de proteção ao crédito.|
@@ -116,6 +142,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C9** | **Criar categoria**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Permitir ao [usuário] adicionar novas categorias para [categorizar as suas transações](#c1-categorizar-transacao) |
 | **Contexto** |**O que?**  <br>> Criar nova categoria que não existe; <br><br> **Onde?** <br>> Ao adicionar transação, no campo "categorias"; <br><br> **Quando?** <br>> A qualquer momento dentro do aplicativo; <br> <br>**Por quê?** <br> > Para permitir que o [usuário] adicione categorias ao seu gosto e/ou preferências <br> > Para permitir que o usuário organize suas finanças de forma mais eficiente.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso;|
@@ -128,6 +155,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C10** | **Solicitar [crédito pré-aprovado]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Conseguir [crédito](../lexicos/#l25-credito) rapidamente, sem burocracia |
 | **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> [Caixa eletrônico](../lexicos/#l34-caixa-eletronico), aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
 |**Ator(es)** | > Indivíduo; <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
@@ -141,6 +169,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C11** | **Solicitar suporte**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Solucionar algum problema com o Guiabolso |
 | **Contexto** |**O que?** <br> > Solicitar [suporte](../lexicos/#l35-suporte);  <br><br> **Onde?** <br> > Na aba Ajustes, ao clicar em “Dúvidas"; <br> <br> **Quando?** <br> Quando o [usuário] tem alguma dúvida ou problema ao usar o aplicativo; <br><br> **Por quê?** <br> Porque o [usuário] quer ajuda pra resolver seu problema.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -154,6 +183,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C12** | **Ir para [extrato]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como ir para o [extrato] |
 | **Contexto** |**O que?** <br> > Ir nos [extratos] para ver os gastos e [rendas](../lexicos/#l28-renda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma transação; <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de transações; <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -167,6 +197,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C13** | **Criar uma conta**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| Elias Bernardo |
 | **Metas/Objetivos** | Descrever como o [usuário] cria uma conta no aplicativo do Guiabolso |
 | **Contexto** |**O que?** <br> > [usuário] criar uma nova conta; <br><br> **Onde?** <br>> No aplicativo Guiabolso; <br><br> **Quando?** <br>> A qualquer momento; <br><br> **Por quê?** <br> > Para o [usuário] desfrutar de todas as funcionalidades do Guiabolso; |
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -180,6 +211,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C14** | **Verificar dicas**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como o [usuário] Verifica as dicas disponibilizadas pelo Guiabolso |
 | **Contexto** |**O que?** <br> > O [usuário] Verificar uma dica; <br><br> **Onde?** <br> > Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para conferir benefícios e desvantagens em como o [usuário] pode melhorar seus rendimentos |
 |**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso <br> Informações externas - Internet.|
@@ -193,6 +225,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C15** | **Avaliar dicas**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| Elias Bernardo |
 | **Metas/Objetivos** | Descrever como o [usuário] pode avaliar uma dica da aba "Guia" do aplicativo |
 | **Contexto** |**O que?** <br> > O [usuário] avalia uma dica; <br><br> **Onde?** <br>> Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> Sempre que o [usuário] visualizar uma dica ; <br><br> **Por quê?** <br> > Para melhorar as dicas exibidas para o [usuário] e ser uma forma de feedback para o Guiabolso; |
 |**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso.|
@@ -206,6 +239,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C16** | **Adicionar código de segurança**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| Elias Bernardo |
 | **Metas/Objetivos** | Descrever como o [usuário] pode adicionar um código de segurança no aplicativo |
 | **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informações do [usuário] ; |
 |**Ator(es)** | > [Usuário];  <br> > Guiabolso.|
@@ -219,6 +253,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C17** | **Adicionar comentário numa transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como o [usuário] adiciona um comentário numa transação bancária |
 | **Contexto** |**O que?** <br> > O [usuário] adiciona um comentário numa transação; <br><br> **Onde?** <br> > Numa transação existente ou uma transação manual; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para adicionar mais informações a respeito da transação ; |
 |**Ator(es)** | > [Usuário]; <br> > Transação <br> > Guiabolso.|
@@ -232,6 +267,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C18** | **Editar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Autor**| -- |
 | **Metas/Objetivos** | Fazer alterações em uma transação|
 | **Contexto** |**O que?** <br> > Alterar dados referentes à uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em alguma transação existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -245,6 +281,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C19** | **Cadastrar [Banco]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como cadastrar um [banco] no Guiabolso. |
 | **Contexto** |**O que?** <br> > Cadastrar novo [banco] <br><br> **Onde?** <br> > No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> **Quando?** <br> > A qualquer momento após se cadastrar no Guiabolso. <br><br> **Por quê?** <br> > O [usuário] pode ter mais de uma conta bancaria. <br> > O [usuário] pode ingressar em um novo [banco]. |
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso, Instituições bancarias. |
@@ -258,6 +295,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C20** | **Alterar senha**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Autor**| -- |
 | **Metas/Objetivos** | Descrever como alterar a senha |
 | **Contexto** |**O que?** <br> > Alterar a senha; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] quer uma senha mais segura; <br> > Alguém descobriu a senha do [usuário];|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -271,6 +309,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C21** | **Atualizar Contas e Cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Manter as contas e os cartões atualizados |
 | **Contexto** |**O que?** <br> > Atualizar Contas e Cartões; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>    > A qualquer momento; <br><br> **Por quê?** <br> > Para o [extrato] ficar sempre atualizado;|
 | **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Aplicativo do [banco]; |
@@ -284,6 +323,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C22** | **Contratar empréstimo** |
 |--|--|
 | **Versão** | Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Realizar um empréstimo |
 | **Contexto** |**O que?** <br> > Empréstimo; <br><br> **Onde?** <br>> Na aba de “Empréstimo” do aplicativo; <br><br> **Quando?** <br> > Após fazer a [simulação de empréstimo]; <br><br> **Por quê?** <br> > Porque o [usuário] tem alguma necessidade financeira;|
 | **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Instituições Financeiras|
@@ -297,6 +337,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C23** | **Adicionar na [Agenda](../lexicos/#l36-agenda)** |
 |--|--|
 | **Versão** | Atual: 1.0 (21/04) <br> Anterior: -- |
+| **Autor**| -- |
 | **Metas/Objetivos** | Organizar as datas de pagamentos |
 | **Contexto** |**O que?** <br> > Adicionar na [Agenda](../lexicos/#l36-agenda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br> > A qualquer momento; <br><br> **Por quê?** <br> > Porque o [usuário] quer se programar financeiramente ;|
 | **Ator(es)** | > [Usuário]; <br> > Guiabolso. |
@@ -310,6 +351,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C24** | **Adicionar [conta manual]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Autor**| -- |
 | **Metas/Objetivos** | Adicionar uma conta de forma manual, sem sincronização automática; |
 | **Contexto** |**O que?** <br> > Criar uma [conta manual]; <br><br> **Onde?** <br> *Para IOS* <br> > Na aba ajustes, ao clicar em "Contas e cartões", seguido por um clique no botão de "+" no canto superior direito, e por final em "[Conta manual]"; <br><br> *Para Android* <br> > Na aba finanças, ao clicar no botão de "+" no canto inferior direito, seguido por um clique no botão "adicionar conta". Por fim, em "[Conta manual]"; <br><br> **Quando?** <br> > A qualquer momento, que o [usuário] desejar adicionar uma nova [conta manual]; <br><br> **Por quê?** <br> > Para organizar de forma manual seus gastos, adicionando somente os gastos e ganhos que desejar;|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -323,6 +365,7 @@ Esta técnica descreve os requisitos numa linguagem fácil de entender e validar
 | **C25** | **Categorizar transações com perfil de contas residenciais**  |
 |--|--|
 | **Versão**| 1.1 <br> Anterior: [1.0](#c1-categorizar-gasto-como-contas-residenciais) (16/04)|
+| **Autor**| -- |
 | **Metas/Objetivos** | > Categorizar gasto de transação. |
 | **Contexto** | **O que?** <br> > Categorizar uma transação; <br> **Onde?** <br> > Na aba Finanças, ao editar ou selecionar uma transação. <br> **Quando** <br> > A qualquer momento que o [usuário](../lexicos/#l13-usuario) sentir necessidade, desde que haja movimentação de transações. <br> **Por quê?** <br> > Para melhorar a organização do planejamento do [usuário](../lexicos/#l13-usuario) e para o [usuário](../lexicos/#l13-usuario) filtrar melhor seus gastos visualmente.|
 | **Ator(es)** | > [Usuário](../lexicos/#l13-usuario) do aplicativo; <br> > Guiabolso.|

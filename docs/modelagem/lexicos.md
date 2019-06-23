@@ -2,6 +2,21 @@
 
 Trata-se de uma técnica que procura descrever os símbolos de uma linguagem. O principal objetivo a ser perseguido pelos Engenheiros de Requisitos é a identificação de palavras ou frases peculiares ao meio social e da aplicação sob estudo.
 
+
+## Metodologia
+
+Para a confecção dos léxicos o grupo utilizou cards com o seguinte modelo base:
+
+| **LXX** | **Nome do léxico**  |
+|--|--|
+| **Versão**| Atual: 1.1 (Data) <br> Anterior: [1.0](#) |
+| **Autor**| Autor(es) do cenário |
+| **Classificação** | Classificação do léxico (estado, objeto ou verbo) |
+| **Sinônimos** | Sinônimos do léxico |
+| **Noção** | Noções do léxico | 
+| **Impacto** | Impactos do léxico |
+| **Rastro** | Rastro do léxico |
+
 Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstorm](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso). A partir daí, e dos próprios léxicos foram aparecendo outros termos que o grupo julgou interessante serem modelados.
 
 ## Léxicos
@@ -11,6 +26,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L1** | **Nome Sujo**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l1-nome-sujo_1) |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Estado |
 | **Sinônimos** | Devedor, caloteiro |
 | **Noção** | > Quando uma pessoa possui nome sujo no serasa <br> > O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> > Status da pessoa que não honra com suas dívidas | 
@@ -22,9 +38,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L2** | **Cadastro Positivo**  |
 |--|--|
 | **Versão**| Atual: 1.1 (17/06/19) <br> Anterior: [1.0](#l2-cadastro-positivo_1) | 
+| **Autor**| -- |
 |**Classificação**| Objeto |
-| **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas instituições; <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por empresas. | 
-|**Sinônimos**| <br> > Empresas verem o usuário de forma positiva; <br> > Boa reputação no mercado.
+|**Sinônimos**| <br> > Empresas verem o usuário de forma positiva; <br> > Boa reputação no mercado.|
+| **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas instituições; <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por empresas. |  
 | **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
@@ -33,9 +50,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L3** | **Consultar CPF**  |
 |--|--|
 | **Versão**| 1.0 | 
+| **Autor**| -- |
 |**Classificação**| Objeto |
+|**Sinônimos**|<br> > Verificar CPF; <br> > Verificar se o nome está sujo ou não.|
 | **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC; <br> > Verificar se o [usuário](#l13-usuario) está com o [nome sujo](#l1-nome-sujo) ou o [nome limpo](#l24-nome-limpo). |
-|**Sinônimos**|<br> > Verificar CPF; <br> > Verificar se o nome está sujo ou não.
 | **Impacto** | > Ao consultar o cpf, um indivíduo com o nome sujo pode saber quais são suas dívidas; <br> > Ao consultar o cpf, um indivíduo pode saber se está no cadastro positivo; <br> > Ao consultar o cpf, um indivíduo passar a saber seu score do Serasa.|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
@@ -44,6 +62,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L4** | **Score do Serasa**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l4-score-do-serasa_1) |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Objeto |
 | **Sinônimos** | Pontuação |
 | **Noção** | > Pontuação numérica que classifica economicamente uma pessoa <br> > Chance percentual de um indivíduo não pagar uma conta | 
@@ -55,6 +74,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L5** | **Dívida Ativa**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l5-divida-ativa_1) |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Objeto |
 | **Sinônimos** | Negativado, cadastro devedor |
 | **Noção** | > Inserção do nome de um indivíduo com o status de [nome sujo](#l1-nome-sujo) no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o [nome sujo](#l1-nome-sujo) | 
@@ -67,6 +87,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L6** | **Crédito Pré-aprovado**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l6-credito-pre-aprovado_1) |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Objeto |
 | **Sinônimos** | Crediário, cheque-especial, limite |
 | **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
@@ -78,6 +99,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L7** | **Comprometimento de renda**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l7-comprometimento-de-renda_1) |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Estado |
 | **Sinônimos** | Salário líquido, impedimento |
 | **Noção** | > Quando um indivíduo tem parte do seu dinheiro já destinado à algum gasto <br> > Indivíduo com uma dívida que reduz seu salário bruto | 
@@ -90,6 +112,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L8** | **Simulação**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l8-simulacao_1) |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Verbo |
 | **Sinônimos** | Fingir |
 | **Noção** | > Fazer um empréstimo fantasioso <br> > Fingir fazer um empréstimo para saber as condições e consequências |
@@ -102,9 +125,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L9** | **Contas residenciais**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Noção** | > Categoria pertencente ao grupo de gastos essenciais do [usuário](/#l13-usuario) do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o [usuário](/#l13-usuario) que deseja categorizar seus gastos para planejá-los nos meses seguintes | 
+| **Autor**| -- |
 |**Classificação**| Objeto |
-|**Sinônimos**|<br> > Contas de casa; <br> Gasto de água, luz e internet.
+|**Sinônimos**|<br> > Contas de casa; <br> Gasto de água, luz e internet.|
+| **Noção** | > Categoria pertencente ao grupo de gastos essenciais do [usuário](/#l13-usuario) do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o [usuário](/#l13-usuario) que deseja categorizar seus gastos para planejá-los nos meses seguintes | 
 | **Impacto** | > [usuário](/#l13-usuario) registra uma conta residencial e a categoriza, de modo que ele possa visualizar seus gráficos de gastos de forma mais organizada e assim, facilitar seu planejamento <br> > A categoria de Contas Residenciais consta no planejamento de [renda](/#l28-renda) <br> > Gastos com estabelecimento que tenham nomes intuitivos podem ser relacionados à categoria de Contas Residenciais automaticamente, por exemplo: Companhia Energética de Brasília |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
@@ -113,6 +137,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L10** | **Pausar cartão**  |
 |--|--|
 | **Versão**| Atual: 1.1 (17/06/19) <br> Anterior: [1.0](#l10-pausar-cartao_1) |
+| **Autor**| -- |
 |**Classificação**| Verbo |
 |**Sinônimos**| > Interromper informações do cartão <br> > Sessar dados |
 | **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente |
@@ -124,9 +149,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L11** | **Conta manual**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Noção** | > Opção de escolha com o intuito de como a conta do [usuário](/#l13-usuario) será registrada <br> > Tipo de conta em que o [usuário](/#l13-usuario) não insere seus dados bancários no aplicativo <br> > Tipo de conta em que o [usuário](/#l13-usuario) deseja adicionar transações manualmente <br> > Alternativa à Conta Automática |
+| **Autor**| -- |
 |**Classificação**| Objeto |
-|**Sinônimos**| <br> > Conta em que o próprio usuário adiciona gastos; <br> > Semelhante ao costume de bloco de notas ou agenda.
+|**Sinônimos**| <br> > Conta em que o próprio usuário adiciona gastos; <br> > Semelhante ao costume de bloco de notas ou agenda. |
+| **Noção** | > Opção de escolha com o intuito de como a conta do [usuário](/#l13-usuario) será registrada <br> > Tipo de conta em que o [usuário](/#l13-usuario) não insere seus dados bancários no aplicativo <br> > Tipo de conta em que o [usuário](/#l13-usuario) deseja adicionar transações manualmente <br> > Alternativa à Conta Automática |
 | **Impacto** | > A conta manual não sofre sincronização automática <br> > O [usuário](/#l13-usuario) adiciona manualmente as transações de sua escolha |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
@@ -135,8 +161,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L12** | **Conta automárica**  |
 |--|--|
 | **Versão**| 1.0 |
+| **Autor**| -- |
+| **Classificação**| -- |
+|**Sinônimos**| <br> > Semelhante ao extrato ou fatura do banco; <br> > Usuário não precisa inserir nada, é automático.|
 | **Noção** | > Meio de registrar transações de forma automática com a conta bancária <br> > [usuário](/#l13-usuario) insere seus dados bancários no aplicativo para importação de dados |
-|**Sinônimos**| <br> > Semelhante ao extrato ou fatura do banco; <br> > Usuário não precisa inserir nada, é automático.
 | **Impacto** | > O extrato do [usuário](/#l13-usuario) é constantemente atualizado para seu acompanhamento, tornando-o fiél <br> > Permite um acompanhamento prático das transações financeiras |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
@@ -145,6 +173,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L13** | **Usuário**  |
 |--|--|
 | **Versão**| 1.0 |
+| **Autor**| -- |
+| **Classificação**| -- |
+| **Sinônimos**| -- |
 | **Noção** | > Indivíduo que utiliza o aplicativo Guiabolso |
 | **Impacto** | > O usuário instala o Guiabolso <br> > O usuário tem maior controle financeiro <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
 
@@ -153,6 +184,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L14** | **Transações ignoradas**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l14-transacoes-ignoradas_1) |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Gastos ignorados |
 | **Noção** | > Movimentações na conta que o [usuário](#l13-usuario) deseja ignorar. |
@@ -164,6 +196,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L15** | **Crediário**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l15-crediario_1) |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Carnê |
 | **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
@@ -175,6 +208,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L16** | **Internet Banking**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l16-internet-banking_1) |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Site do Banco |
 | **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos [bancos](#l31-instituicao-financeira); <br> > Acesso ao serviços bancários pelo computador/navegador. |
@@ -186,6 +220,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L17** | **Status**  |
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l17-status_1) |
+| **Autor**| -- |
+| **Classificação**| -- |
+| **Sinônimos**| -- |
 | **Noção** | > Mostra a situação da conta do(s) cartão(ões) <br> > Informa se as informações sobre transações do cartão estão atualizadas|
 | **Impacto** | > O status permite o [usuário](#l13-usuario) saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
 
@@ -194,8 +231,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L18** | **Meses futuros**  |
 |--|--|
 | **Versão**| Atual:1.2 (28/05) <br>Anterior: 1.1 (21/04)  |
-| **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
+| **Autor**| -- |
 |**Classificação**| Estado |
+| **Sinônimos**| -- |
+| **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](#l13-usuario) <br> > Auxilia o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
 ### L19 - Saúde financeira
@@ -203,8 +242,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L19** | **Saúde financeira**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
-| **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](#l13-usuario) está conseguindo controlar suas finanças como planejado.||
+| **Autor**| -- |
 |**Classificação**| Estado |
+| **Sinônimos**| -- |
+| **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](#l13-usuario) está conseguindo controlar suas finanças como planejado.|
 | **Impacto** | > A saúde financeira permite ao [usuário](#l13-usuario) visualizar e tomar decisões financeiras com mais segurança das consequências.<br> > A saúde financeira é atualizada conforme a movimentação das contas do [usuário](#l13-usuario).|
 
 ### L20 - Radar CPF
@@ -212,9 +253,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L20** | **Radar CPF**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
-| **Noção** |> Funcionalidade presente na barra inferior do Guiabolso com fácil acesso; <br>> Busca informações de um determinado local e retorna um feedback para o [usuário](#l13-usuario)|
+| **Autor**| -- |
 |**Classificação**| Objeto |
 |**Sinonimos**| Pesquisar CPF |
+| **Noção** |> Funcionalidade presente na barra inferior do Guiabolso com fácil acesso; <br>> Busca informações de um determinado local e retorna um feedback para o [usuário](#l13-usuario)|
 | **Impacto** | > Responsável por mostrar ao [usuário](#l13-usuario) informações relacionadas ao seu estado no Serasa <br> > Diz de forma simples e objetiva se o [usuário](#l13-usuario) possui pendências financeiras ou não|
 
 ### L21 - Extrato
@@ -222,9 +264,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L21** | **Extrato**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l21-extrato_1) |
-| **Noção** | > Aba contida nas finanças do Guiabolso.<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
+| **Autor**| -- |
 |**Classificação**| Objeto |
 |**Sinonimos**| -- |
+| **Noção** | > Aba contida nas finanças do Guiabolso.<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
 | **Impacto** | > O [usuário](#l13-usuario) recebe o feedback do fluxo de dinheiro de suas contas já registradas no GuiaBolso. <br> > Extrato é atualizado pelo Guiabolso com dados do banco ou do [usuário](#l13-usuario). <br> > Os meses futuros do extrato podem ser alterados pelo [usuário](#l13-usuario) <br> > Através do extrato, auxilía o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros|
 
 ### L22 - Avaliação de Crédito
@@ -232,9 +275,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L22** | **Avaliação de Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.2 <br> Anterior: [1.1](#l22-avaliacao-credito_1) |
-| **Noção** | > Funcionalidade que mostra a pontuação do [usuário](#l13-usuario). <br> > Informando se o [usuário](#l13-usuario) tem pontuação boa ou ruim. <br> > Informação disponibilizada por instituições financeiras externas. |
+| **Autor**| -- |
 |**Classificação**| Objeto |
 |**Sinonimos**| Score |
+| **Noção** | > Funcionalidade que mostra a pontuação do [usuário](#l13-usuario). <br> > Informando se o [usuário](#l13-usuario) tem pontuação boa ou ruim. <br> > Informação disponibilizada por instituições financeiras externas. |
 | **Impacto** | > Através da avaliação de crédito, o [usuário](#l13-usuario) Guiabolso disponibiliza recomendações de empréstimo de acordo com a avaliação disponibilizada.<br> > A avaliação de crédito depende de agentes externos para realizar avaliação do [usuário](#l13-usuario). |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
@@ -243,6 +287,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L23** | **Meta**  |
 |--|--|
 | **Versão**| 1.0 |
+| **Autor**| -- |
+| **Classificação**| -- |
+| **Sinônimos**| -- |
 | **Noção** | > Um objetivo que se busca alcançar. <br> > A quantidade de dinheiro maxima que se quer economizar/gastar. |
 | **Impacto** | > Metas são estabelecidas a fim de ter um controle de gastos para planejamentos futuros. |
 
@@ -251,6 +298,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L24** | **Nome Limpo**  |
 |--|--|
 | **Versão**| 1.0 |
+| **Autor**| -- |
+| **Classificação**| -- |
+| **Sinônimos**| -- |
 | **Noção** | > O [usuário](#l13-usuario) não deve a nenhuma empresa. <br> > O [usuário](#l13-usuario) não  possui cadastro em alguma instituição de proteção ao crédito. |
 | **Impacto** | > [Usuário](#l13-usuario) com o nome limpo possui maior confiança para adquirir crédito. |
 
@@ -259,6 +309,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L25** | **Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l25-credito_1) |
+| **Autor**| -- |
+| **Classificação**| -- |
+| **Sinônimos**| -- |
 | **Noção** | > O [usuário](#l13-usuario) necessita de dinheiro. <br> > O Guiabolso diposnibiliza emprestimos com base na sua [avaliação](#l22-avaliacao-de-credito). |
 | **Impacto** | > O crédito será disponibilizado com base na [avaliação](#l22-avaliacao-de-credito) de crédito do [usuário](#l13-usuario). <br> > Crédito possui uma quantidade de juros de acordo com a quantidade que foi solicitada. <br> > Porcentagem de juros de crédito é com base na [avaliação](#l22-avaliacao-de-credito) do [usuário](#l13-usuario). |
 
@@ -267,6 +320,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L26** | **Chave de Segurança** |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l26-chave-de-seguranca_1) |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Token, senha |
 | **Noção** | > É uma senha ou conjunto de senhas para realizar [transações](../lexicos/#l30-transacao-bancaria) pelas plataformas online, [caixas](../lexicos/#l34-caixa-eletronico) de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
@@ -278,6 +332,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L27** | **Cartão de débito** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Objeto |
 | **Sinônimos** | Despesa, À vista |
 | **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito à vista usando cartão, geralmente de um banco; |
@@ -289,6 +344,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L28** | **Cartão de crédito** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Objeto |
 | **Sinônimos** | À prazo, crediário |
 | **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito usando o cartão, que terá seu valor debitado *à posteriori*; |
@@ -300,6 +356,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L29** | **Desconto** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| Elias Bernardo |
 | **Classificação** | Objeto |
 | **Sinônimos** | Corte, dedução, pechincha |
 | **Noção** | > Redução no preço de um produto ou serviço; |
@@ -311,6 +368,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L30** | **Transações bancárias** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Movimentação bancária, transferência |
 | **Noção** | > Transferência de recursos fincanceiros de uma conta bancária a outra entre pessoas físicas ou jurídicas; <br> > Troca de recursos financeiros em ambientes bancários([caixa eletônico](#l34-caixa-eletronico), [Internet Bankink](#l16-internet-banking) |
@@ -322,6 +380,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L31** | **Instituição financeira** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | banco, financeira, corretora de valores |
 | **Noção** | > Intermediária entre um indivíduo e algum tipo de serviço financeiro; <br> > Organização que otimiza a alocação de capitais financeiros; |
@@ -333,6 +392,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L#** | **Guia** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Aba guia , Dicas |
 | **Noção** | > Onde é mostrado conselhos financeiros, anúncios de patrocinadores e publicações de sites de patrocinadores; <br> > Tem informações sobre a situação financeira do [usuário], como por exemplo, comparação do gasto do mês atual com o anterior. |
@@ -344,6 +404,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L#** | **Conta bancária** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Conta de banco |
 | **Noção** | > Cadastro de um banco que foi conectado ao Guiabolso pelo [usuário]; <br> > Contém informações da conta bancária. |
@@ -355,6 +416,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L34** | **Caixa Eletrônico** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Caixa automático, terminal bancário |
 | **Noção** | > Equipamento de automação bancária; <br> > Oferece serviços bancários de forma automática. |
@@ -366,6 +428,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L35** | **Suporte** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | atendimento, assistência |
 | **Noção** | > Serviço de auxílio ao usuário; <br> > Assistência ao usuário quando este estiver com dififuldades ou dúvida. |
@@ -377,6 +440,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L36** | **Agenda** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | programação, planejamento de pagamentos |
 | **Noção** | > Planejamento de dias x pagamentos; <br> > Organização de tarefas; <br> > Organização de contas a pagar; |
@@ -388,6 +452,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L37** | **Lançamentos futuros**  |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Autor**| -- |
 | **Noção** | > Quando está previsto que uma pessoa irá receber alguma [renda](#l28-renda); <br> > [renda](#l28-renda) de entrada ou saída agendada com data futura;<br> > Pagamentos já realizados pela empresa ou pessoa específica que ainda não consta no seu [extrato](#l21-extrato); <br> > Quando o usuário deseja saber o andamento de alguma [renda](#l28-renda). | 
 |**Sinônimos**| <br> > [Renda](#l28-renda) que irá ser retirada ou adicionada da conta do usuário no futuro.
 | **Impacto** | > O [usuário](#l13-usuario) acessa o [extrato](#l21-extrato) para visualizar os lançamentos futuros. <br> > A visualização dos lançamentos futuros permite organização e transparência para o [usuário](#l13-usuario).|
@@ -398,8 +463,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L38** | **Renda**  |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Autor**| -- |
+| **Classificação**| -- |
+|**Sinônimos**| <br> > Ferramenta comercial para movimentar mercado financeiro; <br> > Dinheiro; <br> > Moeda; <br> > Cheque, etc.|
 | **Noção** | > Quando há a necessidade ou vontade de adquirir algo usa esta forma; <br> > Quando o [usuário](#l13-usuario) trabalha ou realiza alguma movimentação comercial, ele recebe uma gratificação; <br> > Quando o usuário faz compras no [cartão de crédito](#l28-cartao-de-credito), deve pagar com dinheiro no final das contas. | 
-|**Sinônimos**| <br> > Ferramenta comercial para movimentar mercado financeiro; <br> > Dinheiro; <br> > Moeda; <br> > Cheque, etc.
 | **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum serviço comercial; <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar planejamento. [usuário](#l13-usuario).|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso)|
 
@@ -408,6 +475,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L39** | **Indivíduo**  |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Pessoa |
 | **Noção** | > Pessoa qualquer, usuária ou não do Guiabolso; <br> > Pessoa alheia ou não ao universo da aplicação; | 
@@ -419,6 +487,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L40** | **Planejamento financeiro**  |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior: - | 
+| **Autor**| -- |
 | **Classificação** | Objeto |
 | **Sinônimos** | Administrar, gerenciar |
 | **Noção** | > Gerenciar o dinheiro de forma que todos os gastos e rendas já sejam conhecidos; | 
@@ -426,22 +495,26 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Rastro** |  Não há |
 
 
-### L39 - Dados bancários
+### L41 - Dados bancários
 
-| **L39** | **Dados bancários**  |
+| **L41** | **Dados bancários**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
+| **Autor**| -- |
+| **Classificação**| -- |
 |**Sinônimos**|Informações de uma [conta] no banco|
 | **Noção** | >	Quando uma pessoa cria uma [conta] em um banco <br> >	Informações que irão identificar uma [conta] bancária <br> >	Associa uma pessoa a uma [conta] bancária que seja dela|
 | **Impacto** | > Um indivíduo que possui dados bancários, possue uma [conta] em um banco <br> > Dados bancários são utilizados para transações entre contas de indivíduos|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 
-### L40 - Transação
+### L42 - Transação
 
-| **L40** | **Transação**  |
+| **L42** | **Transação**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
+| **Autor**| -- |
+| **Classificação**| -- |
 |**Sinônimos**|Operação, ato, processo, transferência, Troca|
 | **Noção** | > Produto de uma movimentação de dinheiro <br> > Ato de compra, venda, empréstimo <br> > Troca de bem ou serviço por alguma quantidade de dinheiro|
 | **Impacto** | <br> >	[Usuário] realiza uma compra no supermercado <br> > [Usuário] realiza um depósito em outra [conta] <br> > [Usuário] recebe dinheiro de volta após uma compra|
@@ -475,7 +548,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Pontuação numérica que classifica economicamente uma pessoa <br> > Chance percentual de um indivíduo não pagar uma conta | 
 | **Impacto** | > Um indivíduo com o score do serasa alto tem o cadastro positivo aceito <br> > Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o nome sujo <br> > Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um crédito pré-aprovado |
 
-### L5 - Dívida ativa
+### L5 - Dívida ativanome s
 
 | **L5** | **Dívida Ativa**  |
 |--|--|

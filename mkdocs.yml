@@ -60,8 +60,6 @@ pages:
   - Pós rastreabilidade:
     - Backward-From: 'pos-rastreabilidade/backward.md'
     - Forward-From: 'pos-rastreabilidade/forward.md'
-  - Histórico:
-    - Introspecção-v1: 'historico/introspeccao-v1.md'
 markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
