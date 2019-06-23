@@ -8,7 +8,7 @@ A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos 
 ## Brainstorm 2 - Levantamento de palvras-chave dentro do contexto do Guiabolso 
 
 
-| -- | --  |
+| BS2 | Levantamento de palvras-chave dentro do contexto do Guiabolso |
 |--|--|
 | **Data** | 15/04 às 20h | 
 | **Local** | Hangouts |
@@ -29,7 +29,7 @@ A técnica propõe que o grupo se reúna e utilize a diversidade de pensamentos 
 ## Brainstorm 1 - Elicitação de Requisitos
 
 
-| -- | --  |
+| BS1 | Elicitação de Requisitos  |
 |--|--|
 | **Data** | 05/04 às 20h | 
 | **Local** | Hangouts |
@@ -127,15 +127,15 @@ Membros participantes:
 | AD12 | 1 | 1 | 3 | 2.4% | 9 | 18.7% | 9 | 30% | 0.045 |
 | Totais | 47 | 29 | 123 | 100 | 48 | 100 | 30 | 100 |  |
 
+## Referências
+
+- _Definindo Escopo em Projetos de Software._ São Paulo: Novatec. 2015.
+
+- Análise do Discurso - Mateus Bunde < disponível em [https://www.todoestudo.com.br/portugues/analise-do-discurso](https://www.todoestudo.com.br/portugues/analise-do-discurso) >
+
 ## Versionamento
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 17/04/2019 | 2.0 | Adição do Brainstorm 2 | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
 | 06/04/2019 | 1.0 | Adição do Brainstorm 1 | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha ](https://github.com/rafaelmakaha) |
-
-## Referências
-
-- _Definindo Escopo em Projetos de Software._ São Paulo: Novatec. 2015.
-
-- Análise do Discurso - Mateus Bunde < disponível em [https://www.todoestudo.com.br/portugues/analise-do-discurso](https://www.todoestudo.com.br/portugues/analise-do-discurso) >
