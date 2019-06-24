@@ -108,4 +108,9 @@ Foi montado um storyboard sobre conta manual com base no storytelling 3
 | Totais | 36 | 12 | 84 | 100 | 12 | 100 | 17 | 100 |  |
 
 ## Referências
+
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 06/04/2019 | 1.0 | Storytelling para elicitar requisitos | [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo](https://github.com/santosm46) |

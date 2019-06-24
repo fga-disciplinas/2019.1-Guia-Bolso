@@ -592,3 +592,10 @@ Representação: [C3](../../modelagem/cenarios/#c3-criar-planejamento) represent
 **Elos**:
 
 ---
+
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 17/06/2019 | 1.0 | Construção do Backward | [Alan](https://github.com/alanrslima), [Leo](https://github.com/leossb36), [Lucas](https://github.com/lmmLucasMachado), [Sara](https://github.com/silvasara), [Shay](https://github.com/shayanealcantara)|
