@@ -20,6 +20,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR01** | **Atores**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/05) <br> Anterior: --|
+| **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 
@@ -39,6 +40,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR02** | **Atores**|
 |--|--|
 | **Versão**| 1.0 (29/05) <br> Anterior: --|
+| **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de portabilidade
@@ -58,6 +60,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR03** | **Atores**|
 |--|--|
 | **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
+| **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de desempenho
@@ -77,6 +80,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR04** | **Atores**|
 |--|--|
 | **Versão**| 1.0 (27/05) <br> Anterior: --|
+| **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de Design
@@ -97,7 +101,8 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR05** | **Atores**|
 |--|--|
 | **Versão**| 1.1 (27/05) <br> Anterior: 1.0|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
+| **Rastreabilidade** | [Especificação Suplementar EPS03](../especificacao/#eps03-confiabilidade) |
 
 ### Análise do NFR de confiabilidade
 
@@ -111,21 +116,22 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ## NFR06 - Usabilidade
 
-[ ![NFR06](./../img/nfr/nrf_usabilidade.png)](./../img/nfr/nrf_usabilidade.png)
+[ ![NFR06](./../img/nfr/nrf_usabilidade_02.png)](./../img/nfr/nrf_usabilidade_02.png)
 
 | **NFR06** | **Atores**|
 |--|--|
-| **Versão**| 1.0 (27/05) <br> Anterior: --|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Versão**| 1.1 (23/06) <br> Anterior: [1.0](#nfr06-usabilidade_1) |
+| **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
+| **Rastreabilidade** | [Especificação Suplementar EPS02](../especificacao/#eps02-usabilidade) |
 
 ### Análise do NFR de usabilidade
 
-[ ![AN-NFR06](./../img/nfr/nrf_usabilidade_analise.png)](./../img/nfr/nrf_usabilidade_analise.png)
+[ ![AN-NFR06](./../img/nfr/nrf_usabilidade_analise_02.png)](./../img/nfr/nrf_usabilidade_analise_02.png)
 
 | **AN-NFR06** | **Atores**|
 |--|--|
-| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Versão**| Atual: 1.1 (23/06) <br> Anterior: [1.0](#analise-do-nfr-de-usabilidade_1) |
+
 
 ## NFR07 - Segurança
 
@@ -134,6 +140,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR07** | **Atores**|
 |--|--|
 | **Versão**| 1.0 (29/05) <br> Anterior: --|
+| **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de seguranca
@@ -175,3 +182,20 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
+### NFR06 - Usabilidade
+
+[ ![NFR06](./../img/nfr/nrf_usabilidade_01.png)](./../img/nfr/nrf_usabilidade_01.png)
+
+| **NFR06** | **Atores**|
+|--|--|
+| **Versão**| 1.0 (27/05) <br> Anterior: --|
+| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+
+#### Análise do NFR de usabilidade
+
+[ ![AN-NFR06](./../img/nfr/nrf_usabilidade_analise_01.png)](./../img/nfr/nrf_usabilidade_analise_01.png)
+
+| **AN-NFR06** | **Atores**|
+|--|--|
+| **Versão**| Atual: 1.0 (27/05) <br> Anterior: --|
