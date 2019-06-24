@@ -2,6 +2,11 @@
 
 Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecimento por meio de histórias sejam elas contadas por um grupo de pessoas ou até mesmo uma organização. A equipe realizou alguns storytellings sendo um com um pai de um dos membros da equipe que recentemente começou a utilizar o app Guiabolso e os outros com membros da equipe. Todos abordam experiências de utilização do app. Abaixo esta um relatório das narrativas.
 
+## Metodologia
+
+Para elicitar os requisitos com o storytelling, foi chamado uma pessoa que tenha usado o Guiabolso por um tempo considerável, por pelo menos uma semana, e essa pessoa conta sua experiência com o aplicativo, e alguém do time dos desenvolvedores grava a narração e outra pessoa anota no papel pontos importantes, depois a narração é disponibilizada para o time.
+É feito então um resumo da narração, e com base nesses artefatos a pessoa que gravou elicita os requisitos e valida com o time.
+
 ## Storytelling 1 - Interesse do usuario
 
 ### Rastreabilidade
