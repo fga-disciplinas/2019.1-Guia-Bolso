@@ -671,3 +671,11 @@ versão móvel<br>
 ##### Img8
 
 [ ![nf1](./../img/pos_rastreabilidade/foward_rnf08.jpg)](./../img/pos_rastreabilidade/foward_rnf08.jpg)
+
+
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 17/06/2019 | 1.0 | Construção do Backward |  [Elias](https://github.com/leossb36), [Lucas](https://github.com/lmmLucasMachado), [Sara](https://github.com/silvasara), [Marcelo](https://github.com/santosm46) ,[Rafael](https://github.com/rafaelmakaha)|
