@@ -94,6 +94,7 @@ Além disso, pode-se concluir também que algumas funcionalidades devem ser mant
 | Totais | 93 | 61 | 247 | 100 | 85 | 100 | 75 | 100 |  
 
 Obs: Benefício relativo tem peso **2**, Penalidade Relativa e Custo relativo peso **1** e Risco relativo peso **0,5**
+
 ## Referências
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
@@ -119,7 +120,8 @@ O questionário foi divulgado em grupos da faculdade e de familiares dos integra
 
 [ ![P01](./../img/pergunta_1.png) ](./../img/pergunta_1.png)
 
-@@ -38,31 +39,67 @@ A próximas perguntas foram direcionadas aos não usuários do Guiabolso
+As próximas perguntas foram direcionadas aos não usuários do Guiabolso
+
 [ ![P24](./../img/pergunta_20_5.png) ](./../img/pergunta_20_5.png)
 [ ![P25](./../img/pergunta_20_6.png) ](./../img/pergunta_20_6.png)
 
