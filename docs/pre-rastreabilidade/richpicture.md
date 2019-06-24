@@ -110,11 +110,11 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## RP09 - Radar CPF
 
-[ ![RP09](./../img/rich_picture/rich_picture_radar_cpf.jpg) ](./../img/rich_picture/rich_picture_radar_cpf.jpg)
+[ ![RP09](./../img/rich_picture/rich_picture_radar_cpf_02.jpg) ](./../img/rich_picture/rich_picture_radar_cpf_02.jpg)
 
 | **RP08** | **Configurações**  |
 |--|--|
-| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Versão**| Atual: 2.0 (23/06/2019) <br> Anterior: [1.0](#rp09-radar-cpf_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra a aba de Radar CPF, a interações com usuário, e principalmente interações com agente Serasa, sendo fundamental para a funcionalidade desta aba. |
 |**Autor**| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima)| 
 
@@ -149,3 +149,13 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 | **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
 | **Descrição** | Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interações do usuário com ela. |
 |**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
+
+### RP09 - Radar CPF
+
+[ ![RP09](./../img/rich_picture/rich_picture_radar_cpf_01.jpg) ](./../img/rich_picture/rich_picture_radar_cpf_01.jpg)
+
+| **RP08** | **Configurações**  |
+|--|--|
+| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Descrição** | Este RichPicture ilustra a aba de Radar CPF, a interações com usuário, e principalmente interações com agente Serasa, sendo fundamental para a funcionalidade desta aba. |
+|**Autor**| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima)| 
