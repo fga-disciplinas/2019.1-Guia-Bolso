@@ -15,6 +15,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC1** | **Fazer Login**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Fazer login no Guiabolso |
 |**Ator(es)** | > Usuário; <br> > Guiabolso |
 | **Pré condições** | > Usuário estar deslogado no aplicativo Guiabolso;|
@@ -31,6 +32,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC2** | **Cadastrar usuário**|
 |--|--|
 | **Versão**| Atual: 1.0 (26/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Criar um cadastro para um usuário |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário estar deslogado no aplicativo Guiabolso; |
@@ -47,6 +49,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC3** | **Visualizar extrato**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Visualisar o extrato das transações |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | Usuário possuir pelo menos uma transação; |
@@ -63,6 +66,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC4** | **Visualizar contas bancárias e cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Visualizar contas bancárias cadastradas no Guiabolso |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário possuir uma conta bancária cadastrada no aplicativo e/ou Conta manual; |
@@ -79,6 +83,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC5** | **Atualizar contas e cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Atualizar contas e cartões para ficar sincronizado com a conta bancária |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |

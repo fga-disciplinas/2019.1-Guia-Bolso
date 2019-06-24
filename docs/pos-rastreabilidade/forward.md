@@ -2,7 +2,7 @@
 
 Este artefato busca ligar cada funcionalidade do guiaBolso, mostradas aqui por meio de print screens do aplicativo, ligadas aos seus respectivos requisitos.  
 
-## metodologia 
+## Metodologia 
 
 Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir buscamos no [backlog](../../modelagem/backlog) o tema, o epico, a sprint e a user story relacionada a cada um dos requisitos. E por fim mostramos quando encontrado a funcionalidade ja relacionado com o app guiaBolso.
 
@@ -620,23 +620,23 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 
 | ID | Descrição | NFR | Operacionalizações | Funcionalidade |
 |--|--|--|--|--|
-| NF01 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|[NFR05](../../modelagem/nfr/#nfr05-confiabilidade)|"Fazer cadastramento com e-mail e senha";|[img1](./#img1)|
-| NF02 |O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.|[NFR05](../../modelagem/nfr/#nfr05-confiabilidade)|"Acessar extrato com senha do banco do app";|[img5](./#img5)|
-| NF03 |O Guiabolso deve ter um design elegante e intuitivo. |[NFR04](../../modelagem/nfr/#nfr04-design)|"Ícones auto explicativos"; <br>"Combinação agradável de cores";|[img2](./#img2)|
+| NF01 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|[NFR05 - confiabilidade](../../modelagem/nfr/#nfr05-confiabilidade)|"Fazer cadastramento com e-mail e senha";|[img1](./#img1)|
+| NF02 |O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.|[NFR05 - confiabilidade](../../modelagem/nfr/#nfr05-confiabilidade)|"Acessar extrato com senha do banco do app";|[img5](./#img5)|
+| NF03 |O Guiabolso deve ter um design elegante e intuitivo. |[NFR04 - Design](../../modelagem/nfr/#nfr04-design)|"Ícones auto explicativos"; <br>"Combinação agradável de cores";|[img2](./#img2)|
 | NF04 |A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro.|--|--|--|
-| NF05 |A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|--|[img3](./#img3)|
-| NF06 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual |[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|"Mostrar contas e cartões";|[img6](./#img6)|
-| NF07 | Padronizar a identidade visual do aplicativo entre as diversas plataformas|[NFR04](../../modelagem/nfr/#nfr04-design)|"Correspondência com identidade visual do sistema";|[img7](./#img7)|
-| NF08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) |[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|"Mostrar rendas e gastos (aba finanças)";|[img8](./#img8)|
-| NF09 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) |[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|--|--|
-| NF10 | O app deve padronizar a utilização nos dispositivos android e no IOS|[NFR02](../../modelagem/nfr/#nfr02-portabilidade)|"Disponibilizar para o uso nas plataformas padrões e atuais";|
-| NF11 | O app deve ser mais intuitivo|[NFR04](../../modelagem/nfr/#nfr04-design)|"Cores com significados";<br>"Ícones auto explicativos"; <br>"Layouts semelhantes em diferentes plataformas mobile"|
-| NF12 | O app deve reduzir as propagandas na aba guia|[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|--|
-| NF13 | Mais opções de visualização nos gráficos de rendas e gastos |[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|--|
-| NF14 | Ter uma versão web |[NFR02](../../modelagem/nfr/#nfr02-portabilidade)|"Disponibilizar para o uso nas plataformas padrões e atuais";<br>"Sistema para computador";|[img7](./#img7)|
-| NF15 | Rapidez e facilidade no uso |[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|"Menos clicks para funções mais importantes";<br>"Abrir app na aba finanças";<br>"Comprimir dados";|
-| NF16 | Ter um extrato bem organizado e categorizado |[NFR04](../../modelagem/nfr/#nfr04-design)|--|
-| NF17 | O app na parte de guia deve exibir os cards pela ordem de relevância  |[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|--|
+| NF05 |A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|--|[img3](./#img3)|
+| NF06 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual |[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|"Mostrar contas e cartões";|[img6](./#img6)|
+| NF07 | Padronizar a identidade visual do aplicativo entre as diversas plataformas|[NFR04 - Design](../../modelagem/nfr/#nfr04-design)|"Correspondência com identidade visual do sistema";|[img7](./#img7)|
+| NF08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) |[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|"Mostrar rendas e gastos (aba finanças)";|[img8](./#img8)|
+| NF09 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) |[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|--|--|
+| NF10 | O app deve padronizar a utilização nos dispositivos android e no IOS|[NFR02 - Portabilidade](../../modelagem/nfr/#nfr02-portabilidade)|"Disponibilizar para o uso nas plataformas padrões e atuais";|
+| NF11 | O app deve ser mais intuitivo|[NFR04 - Design](../../modelagem/nfr/#nfr04-design)|"Cores com significados";<br>"Ícones auto explicativos"; <br>"Layouts semelhantes em diferentes plataformas mobile"|
+| NF12 | O app deve reduzir as propagandas na aba guia|[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|--|
+| NF13 | Mais opções de visualização nos gráficos de rendas e gastos |[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|--|
+| NF14 | Ter uma versão web |[NFR02 - Portabilidade](../../modelagem/nfr/#nfr02-portabilidade)|"Disponibilizar para o uso nas plataformas padrões e atuais";<br>"Sistema para computador";|[img7](./#img7)|
+| NF15 | Rapidez e facilidade no uso |[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|"Menos clicks para funções mais importantes";<br>"Abrir app na aba finanças";<br>"Comprimir dados";|
+| NF16 | Ter um extrato bem organizado e categorizado |[NFR04 - Design](../../modelagem/nfr/#nfr04-design)|--|
+| NF17 | O app na parte de guia deve exibir os cards pela ordem de relevância  |[NFR06 - Usabilidade](../../modelagem/nfr/#nfr06-usabilidade)|--|
 
 ### Imagens
 

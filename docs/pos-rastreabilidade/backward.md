@@ -3,7 +3,7 @@
 Este artefato busca ligar cada requisito levantado aos respectivos métodos de elicitação e modelagem utilizados na disciplina por meio da rastreabilidade 
 __Backward-from__.
 
-## metodologia 
+## Metodologia 
 
 Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir deles buscamos em todos os arquivos de modelagem, elicitação de requisitos e analise, e assim preenchemos as tabelas abaixo. Após a tabela preenchida com exceção da coluna de elo as outras colunas foram vistoriadas e assim foi percebemos quais elos estavam relacionados a cada linha das tabelas.
 
@@ -58,11 +58,11 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 | RF29 | O app pode diminuir as propagandas na aba guia| --|--|--|--|
 | RF30 | Possibilidade de remover os cards da aba _Guia_. | --|--|--|--|
 | RF31 | Adição de guias de categorização na aba _Guia_. |--|--|--|--|
-| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | --|--|--|--|
-| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--|--|--|--|
-| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
-| RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
-| RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
+| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|[INS](../../elicitacao-de-requisitos/introspeccao/#requisitos-elicitados-moscow)|[C14](../../modelagem/cenarios/#c14-verificar-dicas), [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro), [L32](../../modelagem/lexicos/#l32-guia)|--|
+| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--| [AP](../../elicitacao-de-requisitos/analise-de-protocolo/#verbalizacao-do-usuario), [INS](../../elicitacao-de-requisitos/introspeccao/#persona-2-joao)|[UC1](../../modelagem/casos_de_uso/#uc1-fazer-login), [US16](../../modelagem/backlog/#us16-fazer-login), [US15](../../modelagem/backlog/#us15-validacao-dados-de-login)|[EF33](#ef33)|
+| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|[Q](../../elicitacao-de-requisitos/questionario/), [INS](../../elicitacao-de-requisitos/introspeccao/#requisitos-elicitados-moscow_2)|--|[EF34](#ef34)|
+| RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|[INS](../../elicitacao-de-requisitos/introspeccao/)|--|--|
+| RF36 | Oferecer uma consultoria financeira através de dicas e avisos |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L4](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|[EF36](#ef36)| 
 | RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |--|
 | RF38 | Visualização gráfica de gastos por categoria |[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [INT](../../elicitacao-de-requisitos/introspeccao/) [ST](/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2)|[C1](../../modelagem/cenarios/#c1-categorizar-transacao), [C9](../../modelagem/cenarios/#c9-contas-residenciais), [EPS](../../modelagem/especificacao/#conhecimentos-previos), [UC11](../../modelagem/casos_de_uso/#uc11-categorizar-um-gasto) |--|
 | RF39 | Exibir diferença entre renda e gastos | [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [INT](../../elicitacao-de-requisitos/introspeccao/)|[L38](../../modelagem/lexicos/#c38-renda), [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos)|--|
@@ -431,37 +431,50 @@ Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca 
 ---
 
 #### EF32
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) representa [C14](../../modelagem/cenarios/#c14-verificar-dicas) e [L32](../../modelagem/lexicos/#l32-guia)
+
+Satisfação: [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) [C14](../../modelagem/cenarios/#c14-verificar-dicas)
 
 ---
 
 #### EF33
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Agregação: [AP](../../elicitacao-de-requisitos/analise-de-protocolo/#verbalizacao-do-usuario) agrega [INS](../../elicitacao-de-requisitos/introspeccao/#persona-2-joao)
+
+Agregação: [UC1](../../modelagem/casos_de_uso/#uc1-fazer-login) agrega [US16](../../modelagem/backlog/#us16-fazer-login)
+
+Recurso:[US16](../../modelagem/backlog/#us16-fazer-login) demanda [US15](../../modelagem/backlog/#us15-validacao-dados-de-login)
 
 ---
 
 #### EF34
-**Categoria**:
+**Categoria**: Desenvolvimento
 
-**Elos**:
+**Elos**: 
 
----
-
-#### EF35
-**Categoria**:
-
-**Elos**:
+Agregação: [Q](../../elicitacao-de-requisitos/questionario/) agregação [INS](../../elicitacao-de-requisitos/introspeccao/#requisitos-elicitados-moscow_2)
 
 ---
 
 #### EF36
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao) representa [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), 
+
+Agregação: [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos) agrega [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)e [INT](../../elicitacao-de-requisitos/introspeccao/)
+
+Agregação: [L4](/modelagem/lexicos/#l4-score-do-serasa) agrega [C6](modelagem/cenarios/#c6-consultar-cpf)
+
+Satisfação: [US61](modelagem/backlog/#us61-informar-score) satisfaz [L4](/modelagem/lexicos/#l4-score-do-serasa)
 
 ---
 
