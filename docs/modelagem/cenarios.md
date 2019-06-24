@@ -183,7 +183,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C12** | **Ir para extrato**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| - |
+| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
 | **Metas/Objetivos** | Descrever como ir para o [extrato] |
 | **Contexto** |**O que?** <br> > Ir nos [extratos] para ver os gastos e [rendas](../lexicos/#l38-renda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma [transação](../lexicos/#l42-transacao); <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de [transações](../lexicos/#l42-transacao); <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -295,7 +295,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C20** | **Alterar senha**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
-| **Autor**| -- |
+| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
 | **Metas/Objetivos** | Descrever como alterar a senha |
 | **Contexto** |**O que?** <br> > Alterar a senha; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] quer uma senha mais segura; <br> > Alguém descobriu a senha do [usuário];|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|

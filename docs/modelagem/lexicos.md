@@ -220,9 +220,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L17** | **Status**  |
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#l17-status_1) |
-| **Autor**| -- |
-| **Classificação**| -- |
-| **Sinônimos**| -- |
+| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
+| **Classificação**| Objeto |
+| **Sinônimos**| Conta atualizada |
 | **Noção** | > Mostra a situação da conta do(s) cartão(ões) <br> > Informa se as informações sobre transações do cartão estão atualizadas|
 | **Impacto** | > O status permite o [usuário](#l13-usuario) saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
 
@@ -231,9 +231,9 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L18** | **Meses futuros**  |
 |--|--|
 | **Versão**| Atual:1.2 (28/05) <br>Anterior: 1.1 (21/04)  |
-| **Autor**| -- |
-|**Classificação**| Estado |
-| **Sinônimos**| -- |
+| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
+|**Classificação**| Objeto |
+| **Sinônimos**| Economia planejada mensal |
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](#l13-usuario) <br> > Auxilia o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros |
 
@@ -389,10 +389,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 ### L32 - Guia
 
-| **L#** | **Guia** |
+| **L32** | **Guia** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Aba guia , Dicas |
 | **Noção** | > Onde é mostrado conselhos financeiros, anúncios de patrocinadores e publicações de sites de patrocinadores; <br> > Tem informações sobre a situação financeira do [usuário], como por exemplo, comparação do gasto do mês atual com o anterior. |
@@ -401,10 +401,10 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 ### L33 - Conta bancária
 
-| **L#** | **Conta bancária** |
+| **L33** | **Conta bancária** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Conta de banco |
 | **Noção** | > Cadastro de um banco que foi conectado ao Guiabolso pelo [usuário]; <br> > Contém informações da conta bancária. |
