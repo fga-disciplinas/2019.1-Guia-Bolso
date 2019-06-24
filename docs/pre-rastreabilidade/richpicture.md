@@ -90,11 +90,11 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## RP07 - Aba Guia
 
-[ ![RP07](./../img/rich_picture/rich_picture_guia.png) ](./../img/rich_picture/rich_picture_guia.png)
+[ ![RP07](./../img/rich_picture/rich_picture_guia_02.png) ](./../img/rich_picture/rich_picture_guia_02.png)
 
 | **RP07** | **Aba Guia**  |
 |--|--|
-| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Versão**| Atual: 1.1 (23/06/2019) <br> Anterior: [1.0](#rp07-aba-guia_1) | 
 | **Descrição** | Este RichPicture ilustra a aba de guia do aplicativo e interações com usuário e outros agentes externos. |
 |**Autor**| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) | 
 
@@ -149,6 +149,16 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 | **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
 | **Descrição** | Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interações do usuário com ela. |
 |**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
+
+### RP07 - Aba Guia
+
+[ ![RP07](./../img/rich_picture/rich_picture_guia_01.png) ](./../img/rich_picture/rich_picture_guia_01.png)
+
+| **RP07** | **Aba Guia**  |
+|--|--|
+| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Descrição** | Este RichPicture ilustra a aba de guia do aplicativo e interações com usuário e outros agentes externos. |
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) | 
 
 ### RP09 - Radar CPF
 
