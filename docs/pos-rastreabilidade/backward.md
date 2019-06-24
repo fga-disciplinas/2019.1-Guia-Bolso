@@ -12,11 +12,11 @@ __Backward-from__.
 |Modelagem | US | User history (backlog)|Elicitação | AP | Análise de protocolo | Pré-rastreabilidade| RP | RichPicture |
 |Modelagem | UC | Caso de uso |Elicitação | AD | Análise de discurso (brainstorm) |Pré-rastreabilidade| ARG | Argumentação |
 |Modelagem | C | Cenário |Elicitação | ENT | Entrevista |-- |-- |--|
-|Modelagem | - | - |Elicitação | INS | Instrospecção | --|-- |-- |
+|Modelagem | EPS | Especificação Suplementar |Elicitação | INS | Instrospecção | --|-- |-- |
 |Modelagem | IS | I star |Elicitação | Q | Questionário |--|-- |-- |
 |Modelagem | L | Léxicos |Elicitação | ST | Storytelling |--|--|-- |
 |Modelagem | NFR | NFR Framework |Elicitação |PR | Protótipo |--|-- |--|
-|Modelagem | EP | Épicos |Modelagem | EPS | Especificação Suplementar |--|-- |--|
+|Modelagem | EP | Épicos |--|--|--|-- |--|
 
 ### Requisitos funcionais
 
@@ -40,14 +40,14 @@ __Backward-from__.
 | RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba),[ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [L](/modelagem/lexicos/#l13-conta-manual), [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual)|[EF15](#ef15)|
 | RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| [RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores), [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) | [AD](../../elicitacao-de-requisitos/brainstorm) | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06), [L30](../../modelagem/lexicos#30-transacao-bancaria), [L40](../../modelagem/lexicos#l40-transacao), [C2](../../modelagem/cenarios#l40-adicionar-transacao-conta-manual)|[EF16](#ef16)|
 | RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|[RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores), [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)| [AD](../../elicitacao-de-requisitos/brainstorm) |[US45](../../modelagem/backlog/#us45-planejar-gastos), [US46](../../modelagem/backlog/#us46-planejar-renda), [C3](../../modelagem/cenarios#l3-vriar-planejamento), [L30](../../modelagem/lexicos#30-transacao-bancaria), [L18](../../modelagem/lexicos#l18-meses-futuros), [UC10](../../pos-rastreabilidade/casos_de_uso/#UC10adicionar-planejamento), [RU05](../../pos-rastreabilidade/especificacao-suplementar/#RU05-conhecimentos-previos)|[EF17](#ef17)|
-| RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeirodo-app)| [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos) |[US47](../../modelagem/backlog/#us47-categorizar-gastos) & [US48](../../modelagem/backlog/#us48-categorizar-renda), [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria), [L13](../../modelagem/lexicos#l13-usuario), [IS06](../../modelagem/istar/#is06-planejamentos-de-rendas-e-gastos), [UC7](../../pos-rastreabilidade/casos_de_uso/#UC7-criar-categoria)|[EF18](#ef18)|
+| RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeirodo-app)| [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm) |[US47](../../modelagem/backlog/#us47-categorizar-gastos) & [US48](../../modelagem/backlog/#us48-categorizar-renda), [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria), [L13](../../modelagem/lexicos#l13-usuario), [IS06](../../modelagem/istar/#is06-planejamentos-de-rendas-e-gastos), [UC7](../../pos-rastreabilidade/casos_de_uso/#UC7-criar-categoria)|[EF18](#ef18)|
 | RF19 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | [RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores) |[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)|[C9](../../modelagem/cenarios#l9-criar-categoria), [L13](../../modelagem/lexicos#l13-usuario), |[EF19](#ef19)|
-| RF20 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | -- |--|--|--|
-| RF21 | O Guiabolso deve permitir adicionar renda na "Carteira".| --|--|--|--|
-| RF22 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | --|--|--|--|
-| RF23 | Categorizar as opções dentro das configurações do Guiabolso |--|--|--|--|
-| RF24 | O app sugerir formas para melhor gerir o seu dinheiro | --|--|--|--|
-| RF25 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |--|--|--|--|
+| RF20 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | -- | [Q15](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|  [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) e [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria), [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)| [EF20](#ef20)|
+| RF21 | O Guiabolso deve permitir adicionar renda na "Carteira".|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [ST](/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2)| [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)| [EF21](#ef21)|
+| RF22 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | [R02](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) e [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|[AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos)|[UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [IS07](../../modelagem/istar/#is07-dicas-financeiras) e [UC72](../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos)|[EF22](#ef22)|
+| RF23 | Categorizar as opções dentro das configurações do Guiabolso |[R08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[AD](../../elicitacao-de-requisitos/requisitos/#indice-geral)|--|[EF23](#ef23)|
+| RF24 | O app sugerir formas para melhor gerir o seu dinheiro |[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|[L32](../../modelagem/lexicos/#l32-guia), [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas), [C14](../../modelagem/cenarios/#c14-verificar-dicas), [C03](../../modelagem/cenarios/#c3-criar-planejamento), [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro), [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas), [IS07](../../modelagem/istar/#is07-dicas-financeiras)|[EF24](#ef24)|
+| RF25 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |[ARG05](../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario)|[INS](../../elicitacao-de-requisitos/introspeccao/), [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral), [Q](../../elicitacao-de-requisitos/questionario/#moscow_1)|[US67](../../modelagem/backlog/#us67-exibir-blogs-de-parceiros)|[EF25](#ef25)|
 | RF26 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | --|--|--|--|
 | RF27 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |--|--|--|--|
 | RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| --|--|--|--|
@@ -59,7 +59,7 @@ __Backward-from__.
 | RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
 | RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
 | RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
-| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |--|
+| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo) |--|
 | RF38 | Visualização gráfica de gastos por categoria |--|--|--|--|
 | RF39 | Exibir diferença entre renda e gastos | --|--|--|--|
 | RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| --|--|--|--|
@@ -260,37 +260,59 @@ Representação: [C3](../../modelagem/cenarios/#c3-criar-planejamento) represent
 ---
 
 #### EF20
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Sarisfação: [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) e [US53](../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria)
+satisfazem [Q15](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)
 
 ---
 
+#### EF21
+**Categoria**: Desenvolvimento
+
+**Elos**: 
+
+Alocação: [ST](/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2) está alocado em [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)
+
+---
 #### EF22
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Satisfação: [UC72](../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos) satisfaz [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos)
 
 ---
 
 #### EF23
-**Categoria**:
+**Categoria**: Desenvolvimento
 
-**Elos**:
+**Elos**: 
+
+Responsabilidade: [R08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) responsabiliza [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral)
 
 ---
 
 #### EF24
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [L32](../../modelagem/lexicos/#l32-guia) representa [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
+Satisfação: [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) satisfaz [C03](../../modelagem/cenarios/#c3-criar-planejamento) e [C14](../../modelagem/cenarios/#c14-verificar-dicas)
+Recurso: [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) demanda [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas)
 
 ---
 
 #### EF25
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Responsabilidade: [US67](../../modelagem/backlog/#us67-exibir-blogs-de-parceiros) responsabiliza [ARG05](../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario)
+Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca [INS](../../elicitacao-de-requisitos/introspeccao/) e [Q](../../elicitacao-de-requisitos/questionario/#moscow_1)
 
 ---
 
