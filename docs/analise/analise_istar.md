@@ -34,17 +34,19 @@ para se avaliar cada modelo individualmente. Será, também, anotado algum obser
 
 8 - Existem relações de Make e Break e estão representadas corretamente?
 
-| Questões Avaliativas / Diagrama avaliado | SD1 | Observações | Melhorias |
-|--|--|--|--|
-| Os Principais atores estão representados? |:heavy_check_mark:|  | - |
-| As dependências estão no sentido correto? |:heavy_check_mark:|  | - |
-| As estruturas estão montadas corretamente? | - |   | - |
-| Existem relacionamentos de atores além de suas fronteiras? |:heavy_check_mark:|  | - |
-| Os Softgoals representam Critérios de Qualidade? | - |  | - |
-| Existem relações de Help e Hurt? | - |  | - |
-| Existe um ator central? |:x:|  |  |
-| Existem relações de Make e Break e estão representadas 
-corretamente? |:heavy_check_mark:|  | - |
+### Questões & justificativas
+
+| Questão |Justificativa & Referência |
+|--|--|
+| **1** - Os Principais atores estão representados? | Os atores devem estar representados no modelo em questão para se ter um referencial temático da faixa de atuação em que o modelo se trata. ** 3.1.1 Actors - iStar Quick Guide ** |
+| **2** - As dependências estão no sentido correto? | As dependências devem estar corretamente representadas para não haver entendimento errôneo a respeito do que o modelo tenta representar. ** 2.6 Strategic Dependencies - iStar Quick Guide ** |
+| **3** - As estruturas estão montadas corretamente? | O modelo necessita ter as estruturas corretas, seguindo cada regra do modelo iStar. ** 2.Basic i* Notation - iStar Quick Guide ** |
+| **4** - Existem relacionamentos de atores além de suas fronteiras? |  Os atores possuem fronteiras. Os elementos internos dizem respeito ao próprio ator. ** 3.2.1 Boundary / Actor Boundary - iStar Quick Guide **|
+| **5** - Os Softgoals representam Critérios de Qualidade? | Os SoftGoals devem representar critérios voltados a objetivos alcançáveis. ** 3.1.3.4 Softgoal Dependency - iStar Quick Guide ** |
+| **6** - Existem relações de Help e Hurt? | O modelo deve representar relacionamentos de Help e Hurt. ** 3.2.5 Contribution Links - iStar Quick Guide ** |
+| **7** - Existe um ator central? | A apresentação de um ator central facilita na temática do modelo em questão. |
+| **8** - Existem relações de Make e Break e estão representadas corretamente? | O modelo pode representar relacionamentos de Make e Break. ** 3.2.5 Contribution Links - iStar Quick Guide ** |
+
 ## Inspeção
 
 ### [IS01](../../modelagem/istar/#is01-atores)
