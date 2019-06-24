@@ -123,9 +123,8 @@ Requisitos Uber. Verificação - Inspeção RichPicture e Cenários e Léxicos. 
 
 HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
 
-|Análise| RichPicture |
-|--|--|
-| **Versão**| Atual: 1.0 (10/06/19) <br> Anterior: - | 
-| **Descrição** | Adicionando inspeção | 
-|**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 10/06/2019 | 1.0 | Adicionando inspeção | [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
+
 

@@ -50,4 +50,4 @@ Os léxicos avaliados ate o momento correpondem a 25% do total. Esta parcela pod
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 09/04/2019 | 1.0 | Adição da inspesão | [Alan Lima][@alanrslima](https://github.com/alanrslima) |
+| 09/04/2019 | 1.0 | Adição da inspesão | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
