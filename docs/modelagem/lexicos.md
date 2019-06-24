@@ -26,7 +26,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L1** | **Nome Sujo**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l1-nome-sujo_1) |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Estado |
 | **Sinônimos** | Devedor, caloteiro |
 | **Noção** | > Quando uma pessoa possui nome sujo no serasa <br> > O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> > Status da pessoa que não honra com suas dívidas | 
@@ -62,7 +62,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L4** | **Score do Serasa**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l4-score-do-serasa_1) |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Pontuação |
 | **Noção** | > Pontuação numérica que classifica economicamente uma pessoa <br> > Chance percentual de um indivíduo não pagar uma conta | 
@@ -74,7 +74,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L5** | **Dívida Ativa**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l5-divida-ativa_1) |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Negativado, cadastro devedor |
 | **Noção** | > Inserção do nome de um indivíduo com o status de [nome sujo](#l1-nome-sujo) no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o [nome sujo](#l1-nome-sujo) | 
@@ -87,7 +87,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L6** | **Crédito Pré-aprovado**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l6-credito-pre-aprovado_1) |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Crediário, cheque-especial, limite |
 | **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
@@ -99,7 +99,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L7** | **Comprometimento de renda**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l7-comprometimento-de-renda_1) |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Estado |
 | **Sinônimos** | Salário líquido, impedimento |
 | **Noção** | > Quando um indivíduo tem parte do seu dinheiro já destinado à algum gasto <br> > Indivíduo com uma dívida que reduz seu salário bruto | 
@@ -112,7 +112,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L8** | **Simulação**  |
 |--|--|
 | **Versão**| Atual: 1.1 (23/04) <br> Anterior: [1.0](#l8-simulacao_1) |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Verbo |
 | **Sinônimos** | Fingir |
 | **Noção** | > Fazer um empréstimo fantasioso <br> > Fingir fazer um empréstimo para saber as condições e consequências |
@@ -137,7 +137,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L10** | **Pausar cartão**  |
 |--|--|
 | **Versão**| Atual: 1.1 (17/06/19) <br> Anterior: [1.0](#l10-pausar-cartao_1) |
-| **Autor**| -- |
+| **Autor**| [Rafael Makaha](https://github.com/rafaelmakaha) |
 |**Classificação**| Verbo |
 |**Sinônimos**| > Interromper informações do cartão <br> > Sessar dados |
 | **Noção** | > Impedir que o aplicativo atualize os dados (gastos e/ou pagamentos) de determinado cartão <br> > Fazer com que um cartão não seja atualizado dentro do Guiabolso, temporariamente |
@@ -173,11 +173,12 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L13** | **Usuário**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Autor**| -- |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Classificação**| -- |
 | **Sinônimos**| -- |
 | **Noção** | > Indivíduo que utiliza o aplicativo Guiabolso |
 | **Impacto** | > O usuário instala o Guiabolso <br> > O usuário tem maior controle financeiro <br> > O usuário tem acesso à simulação de empréstimos, pode consultar seu cpf dentre outros |
+| **Rastro** | [Rich picture preocupações do usuário](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) |
 
 ### L14 - Transações ignoradas
 
@@ -225,6 +226,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Sinônimos**| Conta atualizada |
 | **Noção** | > Mostra a situação da conta do(s) cartão(ões) <br> > Informa se as informações sobre transações do cartão estão atualizadas|
 | **Impacto** | > O status permite o [usuário](#l13-usuario) saber se os cartões estão atualizados ou não <br> > O status é atualizado pelo Guiabolso com as informações do banco do cartão |
+| **Rastro** | Não possui |
 
 ### L18 - Meses futuros
 
@@ -236,46 +238,50 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Sinônimos**| Economia planejada mensal |
 | **Noção** | > O que está planejado de rendas e gastos totais mensalmente para o futuro|
 | **Impacto** | > Informações dos meses futuros é atualizado pelo Guiabolso com informações cedidas pelo banco dos cartões <br> > Meses futuros podem ser alterados pelo [usuário](#l13-usuario) <br> > Auxilia o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros |
+| **Rastro** | [Cenário 10](../cenarios/#c10-solicitar-credito-pre-aprovado), [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L19 - Saúde financeira
 
 | **L19** | **Saúde financeira**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
-| **Autor**| -- |
+| **Autor**| [Alan Lima](https://github.com/alanrslima) |
 |**Classificação**| Estado |
 | **Sinônimos**| -- |
 | **Noção** | > Espécie de acompanhamento que informa o estado em que o [usuário](#l13-usuario) se encontra, financeiramente. <br> > Informa se o [usuário](#l13-usuario) está conseguindo controlar suas finanças como planejado.|
 | **Impacto** | > A saúde financeira permite ao [usuário](#l13-usuario) visualizar e tomar decisões financeiras com mais segurança das consequências.<br> > A saúde financeira é atualizada conforme a movimentação das contas do [usuário](#l13-usuario).|
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L20 - Radar CPF
 
 | **L20** | **Radar CPF**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
-| **Autor**| -- |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 |**Classificação**| Objeto |
 |**Sinonimos**| Pesquisar CPF |
 | **Noção** |> Funcionalidade presente na barra inferior do Guiabolso com fácil acesso; <br>> Busca informações de um determinado local e retorna um feedback para o [usuário](#l13-usuario)|
 | **Impacto** | > Responsável por mostrar ao [usuário](#l13-usuario) informações relacionadas ao seu estado no Serasa <br> > Diz de forma simples e objetiva se o [usuário](#l13-usuario) possui pendências financeiras ou não|
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso), [Rich picture Radar CPF](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) |
 
 ### L21 - Extrato
 
 | **L21** | **Extrato**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l21-extrato_1) |
-| **Autor**| -- |
+| **Autor**| [Rafael Makaha](https://github.com/rafaelmakaha) |
 |**Classificação**| Objeto |
 |**Sinonimos**| -- |
 | **Noção** | > Aba contida nas finanças do Guiabolso.<br> > Lista de rendas e gastos do mês atual, ou outro mês escolhido pelo [usuário](#l13-usuario). <br> > Inclui gráficos sobre os gastos e rendas.|
 | **Impacto** | > O [usuário](#l13-usuario) recebe o feedback do fluxo de dinheiro de suas contas já registradas no GuiaBolso. <br> > Extrato é atualizado pelo Guiabolso com dados do banco ou do [usuário](#l13-usuario). <br> > Os meses futuros do extrato podem ser alterados pelo [usuário](#l13-usuario) <br> > Através do extrato, auxilía o [usuário](#l13-usuario) a planejar-se financeiramente para os meses futuros|
+| **Rastro** | [ARG02 Extrato](../../pre-rastreabilidade/argumentacao/#arg02-extrato), [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L22 - Avaliação de Crédito
 
 | **L22** | **Avaliação de Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.2 <br> Anterior: [1.1](#l22-avaliacao-credito_1) |
-| **Autor**| -- |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 |**Classificação**| Objeto |
 |**Sinonimos**| Score |
 | **Noção** | > Funcionalidade que mostra a pontuação do [usuário](#l13-usuario). <br> > Informando se o [usuário](#l13-usuario) tem pontuação boa ou ruim. <br> > Informação disponibilizada por instituições financeiras externas. |
@@ -287,33 +293,36 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L23** | **Meta**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Autor**| -- |
-| **Classificação**| -- |
-| **Sinônimos**| -- |
+| **Autor**| [Leo Santos](https://github.com/leossb36) |
+| **Classificação**| Objeto |
+| **Sinônimos**| > Intuito <br> > Alvo <br> > Desígnio <br> > Escopo > <br> Objetivo <br> > Propósito. |
 | **Noção** | > Um objetivo que se busca alcançar. <br> > A quantidade de dinheiro maxima que se quer economizar/gastar. |
 | **Impacto** | > Metas são estabelecidas a fim de ter um controle de gastos para planejamentos futuros. |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L24 - Nome Limpo
 
 | **L24** | **Nome Limpo**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Autor**| -- |
-| **Classificação**| -- |
+| **Autor**| [Alan Lima](https://github.com/alanrslima) |
+| **Classificação**| Objeto |
 | **Sinônimos**| -- |
 | **Noção** | > O [usuário](#l13-usuario) não deve a nenhuma empresa. <br> > O [usuário](#l13-usuario) não  possui cadastro em alguma instituição de proteção ao crédito. |
 | **Impacto** | > [Usuário](#l13-usuario) com o nome limpo possui maior confiança para adquirir crédito. |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L25 - Crédito
 
 | **L25** | **Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l25-credito_1) |
-| **Autor**| -- |
-| **Classificação**| -- |
-| **Sinônimos**| -- |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
+| **Classificação**| Objeto |
+| **Sinônimos**| > Inadimplemente |
 | **Noção** | > O [usuário](#l13-usuario) necessita de dinheiro. <br> > O Guiabolso diposnibiliza emprestimos com base na sua [avaliação](#l22-avaliacao-de-credito). |
 | **Impacto** | > O crédito será disponibilizado com base na [avaliação](#l22-avaliacao-de-credito) de crédito do [usuário](#l13-usuario). <br> > Crédito possui uma quantidade de juros de acordo com a quantidade que foi solicitada. <br> > Porcentagem de juros de crédito é com base na [avaliação](#l22-avaliacao-de-credito) do [usuário](#l13-usuario). |
+| **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L26 - Chave de Segurança
 
@@ -332,7 +341,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L27** | **Cartão de débito** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Despesa, À vista |
 | **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito à vista usando cartão, geralmente de um banco; |
@@ -344,7 +353,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L28** | **Cartão de crédito** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Objeto |
 | **Sinônimos** | À prazo, crediário |
 | **Noção** | > Modo de pagamento usando cartão; <br> > Pagamento feito usando o cartão, que terá seu valor debitado *à posteriori*; |
@@ -356,7 +365,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L29** | **Desconto** |
 |--|--|
 | **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Corte, dedução, pechincha |
 | **Noção** | > Redução no preço de um produto ou serviço; |
@@ -500,8 +509,8 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L41** | **Dados bancários**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
-| **Autor**| -- |
-| **Classificação**| -- |
+| **Autor**| [Leo Santos](https://github.com/leossb36) |
+| **Classificação**| Objeto |
 |**Sinônimos**|Informações de uma [conta] no banco|
 | **Noção** | >	Quando uma pessoa cria uma [conta] em um banco <br> >	Informações que irão identificar uma [conta] bancária <br> >	Associa uma pessoa a uma [conta] bancária que seja dela|
 | **Impacto** | > Um indivíduo que possui dados bancários, possue uma [conta] em um banco <br> > Dados bancários são utilizados para transações entre contas de indivíduos|
@@ -513,12 +522,24 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L42** | **Transação**  |
 |--|--|
 | **Versão**| Atual: 1.0 |
-| **Autor**| -- |
-| **Classificação**| -- |
+| **Autor**| [Alan Lima](https://github.com/alanrslima) |
+| **Classificação**| Objeto |
 |**Sinônimos**|Operação, ato, processo, transferência, Troca|
 | **Noção** | > Produto de uma movimentação de dinheiro <br> > Ato de compra, venda, empréstimo <br> > Troca de bem ou serviço por alguma quantidade de dinheiro|
 | **Impacto** | <br> >	[Usuário] realiza uma compra no supermercado <br> > [Usuário] realiza um depósito em outra [conta] <br> > [Usuário] recebe dinheiro de volta após uma compra|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
+### L43 - Emprestimo
+
+| **L43** | **Emprestimo**  |
+|--|--|
+| **Versão**| Atual: 1.0 |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
+| **Classificação**| Objeto  |
+|**Sinônimos**| Crediario, prazo |
+| **Noção** | > O ​usuário​ necessita de dinheiro.  <br>> O Guiabolso disponibiliza empréstimos com base na sua ​avaliação.|
+| **Impacto** |  > O [​usuário​] recebe o empréstimo e pode fazer o que desejava antes. <br>> O [​usuário] consegue o dinheiro necessário para efetuar os seus planos 
+| **Rastro** | não possui |
 
 ## Versões anteriores
 

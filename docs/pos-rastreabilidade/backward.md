@@ -24,7 +24,7 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 
 ### Requisitos funcionais
 
--- <div class="datatable"></div>
+<div class="datatable"></div>
 | ID | Descrição | Pré-Rastreab. | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
 | RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [RA01](../../modelagem/especificacao/#ra01-sessao-de-ajuda)| [US02](../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios), [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|[EF01](#ef01)|
@@ -58,11 +58,11 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 | RF29 | O app pode diminuir as propagandas na aba guia| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo)|--|[L32](../../modelagem/lexicos/#l32-guia), [US59](../../modelagem/backlog/#us65-visualizar-ofertas-de-credito)|[EF27](#ef29)|
 | RF30 | Possibilidade de remover os cards da aba _Guia_. |[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|--|--|--|
 | RF31 | Adição de guias de categorização na aba _Guia_. |[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|--|[L32](../../modelagem/lexicos/#l32-guia)|[EF31](#ef31)|
-| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | --|--|--|--|
-| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--|--|--|--|
-| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
-| RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
-| RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
+| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|[INS](../../elicitacao-de-requisitos/introspeccao/#requisitos-elicitados-moscow)|[C14](../../modelagem/cenarios/#c14-verificar-dicas), [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro), [L32](../../modelagem/lexicos/#l32-guia)|--|
+| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--| [AP](../../elicitacao-de-requisitos/analise-de-protocolo/#verbalizacao-do-usuario), [INS](../../elicitacao-de-requisitos/introspeccao/#persona-2-joao)|[UC1](../../modelagem/casos_de_uso/#uc1-fazer-login), [US16](../../modelagem/backlog/#us16-fazer-login), [US15](../../modelagem/backlog/#us15-validacao-dados-de-login)|[EF33](#ef33)|
+| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|[Q](../../elicitacao-de-requisitos/questionario/), [INS](../../elicitacao-de-requisitos/introspeccao/#requisitos-elicitados-moscow_2)|--|[EF34](#ef34)|
+| RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|[INS](../../elicitacao-de-requisitos/introspeccao/)|--|--|
+| RF36 | Oferecer uma consultoria financeira através de dicas e avisos |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L4](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|[EF36](#ef36)| 
 | RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |[EF37](#ef37)|
 | RF38 | Visualização gráfica de gastos por categoria |[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [INT](../../elicitacao-de-requisitos/introspeccao/) [ST](/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2)|[C1](../../modelagem/cenarios/#c1-categorizar-transacao), [C9](../../modelagem/cenarios/#c9-contas-residenciais), [EPS](../../modelagem/especificacao/#conhecimentos-previos), [UC11](../../modelagem/casos_de_uso/#uc11-categorizar-um-gasto) |[EF38](#ef38)|
 | RF39 | Exibir diferença entre renda e gastos | [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [INT](../../elicitacao-de-requisitos/introspeccao/)|[L38](../../modelagem/lexicos/#c38-renda), [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos)|[EF39](#ef39)|
@@ -70,12 +70,12 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 | RF41 | Ter alcance de metas, como carro, casa, roupa, celular | -- |--|[C3](../../modelagem/cenarios/#c3-criar-planejamento)|[EF41](#ef41)|
 | RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)|--|--|[EF42](#ef42)|
 | RF43 | Inserir limites de gastos por categoria |--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|[C3](../../modelagem/cenarios/#c3-criar-planejamento), [L40](../../modelagem/lexicos/#c40-planejamento-financeiro), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento)|[EF43](#ef43)|
-| RF44 | Notificar quando o gasto for excedido |--|--|--|--|
-| RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|--|--|--|
-| RF46 | O app deve oferecer cupons baseado na geolocalização do usuário | [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|--|--|--|
-| RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | --|--|--|--|
-| RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | --|--|--|--|
-| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|--|--|
+| RF44 | Notificar quando o gasto for excedido |--|[Q](../../elicitacao-de-requisitos/questionario/#moscow), [PR](../../elicitacao-de-requisitos/prototipacao/)|--|[EF44](#ef44)|
+| RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|[Q](../../elicitacao-de-requisitos/questionario/#moscow), [PR](../../elicitacao-de-requisitos/prototipacao/)|--|[EF44](#ef45)|
+| RF46 | O app deve oferecer cupons baseado na geolocalização do usuário | [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app), [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|--|[US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto)|EF46](#ef46)|
+| RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados |[RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app), [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|--|[US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto)|EF47](#ef47)|
+| RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app), [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|--|[US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto)|EF48](#ef48)|
+| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)|[EF49](#ef49)|
 
 ### Requisitos Não funcionais
 
@@ -543,44 +543,63 @@ Satisfação: [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo) satisfaz 
 ---
 
 #### EF44
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao/) satisfaz [Q](../../elicitacao-de-requisitos/questionario/#moscow)
 
 ---
 
 #### EF45
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao/) satisfaz [Q](../../elicitacao-de-requisitos/questionario/#moscow)
 
 ---
 
 #### EF46
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Agregação: [US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto) agrega [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
 
 ---
 
 #### EF47
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Agregação: [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) agrega [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
+
+Agregação: [US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto) agrega [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
 
 ---
 
 #### EF48
-**Categoria**:
+**Categoria**: Desenvolvimento
 
-**Elos**:
+**Elos**: 
+
+Agregação: [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) agrega [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
+
+Agregação: [US66](../../modelagem/backlog/#us66-visualizar-cupons-de-desconto) agrega [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
+
 
 ---
 
 #### EF49
-**Categoria**:
+**Categoria**: Desenvolvimento
 
-**Elos**:
+**Elos**: 
+
+Alocação: [ST](/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2) está alocado em [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual)
+
+
 
 ### Elos não-Funcionais
 

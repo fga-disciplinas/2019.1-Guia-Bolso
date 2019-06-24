@@ -260,6 +260,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC16** | **Adicionar código de segurança**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)|
 | **Descrição** | Fluxo(s) de como o usuário pode colocar um codigo de segurança para usar o aplicativo GuiaBolso |
 |**Ator(es)** | > Usuário; <br> > Guiabolso;  |
 | **Pré condições** | > Usuário ter instalado o GuiaBolso |
@@ -275,6 +276,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC17** | ** Ignorar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)|
 | **Descrição** | Fluxo(s) de como o usuário pode escolher ignorar uma transação |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Bancos e instituições financeiras;|
 | **Pré condições** | Não há |
@@ -291,6 +293,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC18** | ** Comentar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)|
 | **Descrição** | Fluxo(s) de como o usuário pode escolher ignorar uma transação |
 |**Ator(es)** | > Usuário; <br> > Guiabolso;<br> > Bancos e instituições financeiras;|
 | **Pré condições** | Não há |
@@ -307,6 +310,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC19** | ** Adicionar na agenda**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar na agenda |
 |**Ator(es)** | > Usuário; <br> > Guiabolso;|
 | **Pré condições** | Não há |
@@ -324,6 +328,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC20** | ** Adicionar na agenda**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar na agenda |
 |**Ator(es)** | > Usuário; <br> > Guiabolso;<br> > Sites sugeridos pelo app;|
 | **Pré condições** | Não há |

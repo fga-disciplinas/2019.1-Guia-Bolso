@@ -8,21 +8,22 @@ Para inspecionar os casos de uso foi feito um checklist levando em consideraçã
 
 ## Inspeção
 
-|ID|Questão|
-|--|--|
-|1 | A descrição de caso de uso está consistente com a representação no diagrama?|
-|2 | O caso de uso mostra o fluxo principal? |
-|3 | O caso de uso possui fluxos alternativos? |
-|4 | A descrição do caso de uso possui fluxos de exceção? |
-|5 | As frases representam um diálogo entre ator e sistema, evideciando a ação do ator? |
-|6 | As frases utilizam o tempo presente? |
-|7 | As frases procuram ser objetivas, evitando redundâncias ou informações desnecessárias?|
-|8 | O caso de uso segue a formatação padrão no modelo proposto?|
-|9 | O caso de uso possui a data nas suas versões?|
-|10 | Os icones presentes no diagrama seguem a padronização das cores? |
-|11 | O caso de uso possui alguma rastreabilidade?|
+|ID|Questão|Justificativa|
+|--|--|--|
+|1 | A descrição de caso de uso está consistente com a representação no diagrama?|Para se ter uma boa descrição ela deve ser condizente com a imagem que representa o caso de uso|
+|2 | O caso de uso mostra o fluxo principal? |E necessário deixar claro qual é o fluxo principal e distinguilos dos demais|
+|3 | O caso de uso possui fluxos alternativos? |O app guiaBolso possui muitos fluxos alternativos, logo caso não possua pode ser uma exceção ou um erro|
+|4 | A descrição do caso de uso possui fluxos de exceção? |pelo que foi visto o app em geral possui muitos fluxos de exceção caso não possua pode ser uma exceção ou um erro|
+|5 | As frases representam um diálogo entre ator e sistema, evideciando a ação do ator? |E necessário para que se possa ter uma compreenção facilitada.|
+|6 | As frases utilizam o tempo presente? |por padrão os casos de uso utilizam este tempo.|
+|7 | As frases procuram ser objetivas, evitando redundâncias ou informações desnecessárias?|O caso de uso deve ser objetivo e claro no que pretende mostrar|
+|8 | O caso de uso segue a formatação padrão no modelo proposto?|Foi preparado um card de modelo, e a padronização e um ponto considerado importante|
+|9 | O caso de uso possui a data nas suas versões?|O versionamento possuindo as datas são de grande importancia em alguns casos|
+|10 | Os icones presentes no diagrama seguem a padronização das cores? |Foi decidido pelo grupo seguir o padrão de icones logo caso não esteja no padrão deve ser corrigido|
+|11 | O caso de uso possui alguma rastreabilidade?|Isto ajuda e visualizar a rastreabilidade dos casos de uso |
 
 
+## Inspersão 
 
 |UC|1|2|3|4|5|6|7|8|9|10|11|Qualidade|
 |--|--|--|--|--|--|--|--|--|--|--|--|--|
@@ -52,7 +53,15 @@ Para inspecionar os casos de uso foi feito um checklist levando em consideraçã
 |[UC24](../../modelagem/casos_de_uso/#UC24-realizar-abertura-do-cadastro-positivo)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Bom|
 |Total|19/24|24/24|21/24|18/24|24/24|24/24|24/24|24/24|24/24|22/24|22/24|Bom|
 
-### Obervações
+### Parecer
+
+
+| **Rich Picture** | **Autor** | **Parecer**|
+|--|--|--|
+|[UC3](../../modelagem/casos_de_uso/#UC3-visualizar-extrato)| [Marcelo Araújo](https://github.com/santosm46)| Não foi encontra fluxo de exceção |
+|[UC4](../../modelagem/casos_de_uso/#UC4-vizualizar-contas-bancária-e-cartões)|[Marcelo Araújo](https://github.com/santosm46) | Não foi encontra fluxo de exceção|
+|[UC21](../../modelagem/casos_de_uso/#UC21-avaliar-dicas)| [Shayane Alcântara](https://github.com/shayanealcantara)   | Faltou mostrar os fluxos de exceção |
+
 Em algumas das UC's que no checklist na questão 1 receberam o :x: foi pelo fato de possuir muitos fluxos alternativos e por isso no final a qualidade ainda foi declarada como **Bom**. 
 Desta mesma forma isso ocorre nas questões 3 pois alguns casos de usonão possuem o fluxo alternativo.
 
