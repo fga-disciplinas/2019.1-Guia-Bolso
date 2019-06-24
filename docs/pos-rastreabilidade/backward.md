@@ -32,11 +32,11 @@ __Backward-from__.
 | RF07 | O Guiabolso deve permitir adicionar a renda do mês.|[RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario), [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)|[US46](../../modelagem/backlog/#us46-planejar-renda), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento), [L38](../../modelagem/lexicos/#l38-renda), [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos) |[EF07](#ef07)|
 | RF08 | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario)|[US45](../../modelagem/backlog/#us45-planejar-gastos), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento), [C3](../../modelagem/cenarios/#c3-criar-planejamento), [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos), [L40](../../modelagem/lexicos/#l40-planejamento-financeiro)|[EF08](#ef08)|
 | RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario)|[US60](../../modelagem/backlog/#us60-visualizar-status-de-avaliacao-de-credito), [US63](../../modelagem/backlog/#us63-visualizar-empresas-que-consultaram-meu-cpf), [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo), [L3](../../modelagem/lexicos/#l3-consultar-cpf), [L20](../../modelagem/lexicos/#l20-radar-cpf), [C6](../../modelagem/cenarios/#c6-consultar-cpf), [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf)|[EF09](#ef09)|
-| RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao),[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|[EF10](#ef10)|
+| RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao),[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L4](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|[EF10](#ef10)|
 | RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| --|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|--|[EF11](#ef11)|
-| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|[EF12](#ef12)| 
+| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|[PR](../../elicitacao-de-requisitos/prototipacao), [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [INT](../../elicitacao-de-requisitos/introspeccao/)|[C6](modelagem/cenarios/#c6-consultar-cpf), [L4](/modelagem/lexicos/#l4-score-do-serasa), [US61](modelagem/backlog/#us61-informar-score)|[EF12](#ef12)| 
 | RF13 | Mostrar quais empresas consultaram o CPF do usuário |[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo), [Q](../../elicitacao-de-requisitos/questionario/)|[C6](../../modelagem/cenarios/#c6-consultar-cpf),[UC13](#uc13-visualizar-status-do-nome-limpo-ou-sujo), [US63](#us63-visualizar-empresas-que-consultaram-meu-cpf) |[EF13](#ef13)|
-| RF14 | Permitir adição manual de transações |[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba),[ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [L](/modelagem/lexicos/#l11-conta-manual), [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual)|[EF14](#ef14)|
+| RF14 | Permitir adição manual de transações |[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba),[ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [L11](/modelagem/lexicos/#l11-conta-manual), [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual)|[EF14](#ef14)|
 | RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba),[ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)|[C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [L](/modelagem/lexicos/#l13-conta-manual), [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual)|[EF15](#ef15)|
 | RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| [RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores), [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app) | [AD](../../elicitacao-de-requisitos/brainstorm) | [UC06](../../pos-rastreabilidade/casos_de_uso/#UC06), [L30](../../modelagem/lexicos#30-transacao-bancaria), [L40](../../modelagem/lexicos#l40-transacao), [C2](../../modelagem/cenarios#l40-adicionar-transacao-conta-manual)|[EF16](#ef16)|
 | RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|[RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores), [RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)| [AD](../../elicitacao-de-requisitos/brainstorm) |[US45](../../modelagem/backlog/#us45-planejar-gastos), [US46](../../modelagem/backlog/#us46-planejar-renda), [C3](../../modelagem/cenarios#l3-vriar-planejamento), [L30](../../modelagem/lexicos#30-transacao-bancaria), [L18](../../modelagem/lexicos#l18-meses-futuros), [UC10](../../pos-rastreabilidade/casos_de_uso/#UC10adicionar-planejamento), [RU05](../../pos-rastreabilidade/especificacao-suplementar/#RU05-conhecimentos-previos)|[EF17](#ef17)|
@@ -183,44 +183,81 @@ Representação: [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cart
 Representação: [C3](../../modelagem/cenarios/#c3-criar-planejamento) representa [UC9](../../modelagem/lexicos/#l40-planejamento-financeiro)
 
 #### EF09
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario) representa [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario) representa [US63](../../modelagem/backlog/#us63-visualizar-empresas-que-consultaram-meu-cpf)
+
+Representação: [IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf) representa [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo) e [L3](../../modelagem/lexicos/#l3-consultar-cpf)
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao#visao-do-usuario) representa [US60](../../modelagem/backlog/#us60-visualizar-status-de-avaliacao-de-credito)
 
 ---
 
 #### EF10
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Agregação: [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa) agrega [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao) representa [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados) e [INT](../../elicitacao-de-requisitos/introspeccao/)
+
+Agregação: [L4](/modelagem/lexicos/#l4-score-do-serasa) agrega [C6](modelagem/cenarios/#c6-consultar-cpf)
+
+Satisfação:  [US61](modelagem/backlog/#us61-informar-score) [L4](/modelagem/lexicos/#l4-score-do-serasa)
 
 ---
 
 #### EF11
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Responsabilidade: [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario) responsabiliza [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa) 
 
 ---
 
 #### EF12
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao) representa [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), 
+
+Agregação: [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos) agrega [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)e [INT](../../elicitacao-de-requisitos/introspeccao/)
+
+Agregação: [L4](/modelagem/lexicos/#l4-score-do-serasa) agrega [C6](modelagem/cenarios/#c6-consultar-cpf)
+
+Satisfação: [US61](modelagem/backlog/#us61-informar-score) satisfaz [L4](/modelagem/lexicos/#l4-score-do-serasa)
 
 ---
 
 #### EF13
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
 
+Agregação: [AP](../../elicitacao-de-requisitos/analise-de-protocolo) agregação [Q](../../elicitacao-de-requisitos/questionario/)
+
+Recurso: [US63](#us63-visualizar-empresas-que-consultaram-meu-cpf) demanda [C6](../../modelagem/cenarios/#c6-consultar-cpf)
+
+Recurso: [UC13](#uc13-visualizar-status-do-nome-limpo-ou-sujo) demanda [C6](../../modelagem/cenarios/#c6-consultar-cpf)
 ---
 
 #### EF14
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Recurso: [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual) requer [L11](/modelagem/lexicos/#l11-conta-manual) 
+
+Agregação: [ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato) agrega [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)
+
+Satisfação: [UC6](modelagem/casos_de_uso/#uc6-adicionar-transacao-manual) satisfaz [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)
 
 ---
 
@@ -301,7 +338,9 @@ Responsabilidade: [R08](../../pre-rastreabilidade/richpicture/#rp08-configuracoe
 **Elos**:
 
 Representação: [L32](../../modelagem/lexicos/#l32-guia) representa [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)
+
 Satisfação: [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) satisfaz [C03](../../modelagem/cenarios/#c3-criar-planejamento) e [C14](../../modelagem/cenarios/#c14-verificar-dicas)
+
 Recurso: [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) demanda [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas)
 
 ---
@@ -312,6 +351,7 @@ Recurso: [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) de
 **Elos**:
 
 Responsabilidade: [US67](../../modelagem/backlog/#us67-exibir-blogs-de-parceiros) responsabiliza [ARG05](../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario)
+
 Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca [INS](../../elicitacao-de-requisitos/introspeccao/) e [Q](../../elicitacao-de-requisitos/questionario/#moscow_1)
 
 ---
