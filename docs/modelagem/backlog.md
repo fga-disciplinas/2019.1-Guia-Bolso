@@ -744,6 +744,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US35** | Visualizar transações |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar minhas transações |
 | **Para que eu possa** | Ter conhecimento claro do quanto foi gasto em um determinado período | 
@@ -757,6 +758,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US36** | Visualizar detalhes de uma transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar detalhes de uma transação |
 | **Para que eu possa** | Conferir dados da transação | 
@@ -770,6 +772,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US37** | Ignorar uma transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Ignorar uma transação |
 | **Para que eu possa** | Retirá-la de um planejamento e/ou não quantificá-la nos meus gastos | 
@@ -783,6 +786,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US38** | Adicionar comentários e tags em uma transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Realizar comentários e tags sobre uma transação |
 | **Para que eu possa** | Categorizá-la de uma forma mais pessoal com mais palavras descritivas | 
@@ -796,6 +800,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US39** | Editar dados da transação |
 |--|--|
 | **Versão** | Atual: 1.0 (07/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Editar os detalhes de alguma transação |
 | **Para que eu possa** | Tornar a descrição da transação mais intuitiva ao visualizar a transação no extrato | 
@@ -812,6 +817,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | US40 | Elaborar um tutorial para usar a agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Desenvolvedor |
 |**Desejo** | Elaborar um tutorial interativo para novos usuários da agenda |
 | **Para que** | O usuário tenha conhecimento de como começar a usar a agenda | 
@@ -825,6 +831,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | US41 | Adicionar transação na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Adicionar uma conta a pagar ou receber na agenda |
 | **Para que eu** | Não perca prazos ou compromissos financeiros | 
@@ -838,6 +845,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | US42 | Visualizar contas registradas na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar contas registradas na agenda |
 | **Para que eu** | Possa me planejar antes do prazo ou editar uma transação | 
@@ -851,6 +859,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | US43 | Editar contas registradas na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Editar agendamento registrado na agenda |
 | **Para que eu** | Possa corrigir ou alterar alguma informação da conta já existente | 
@@ -864,6 +873,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | US44 | Excluir contas registradas na agenda |
 |--|--|
 | **Versão**| Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Excluir agendamento registrado na agenda |
 | **Para que eu** | Possa retirar uma conta da agenda que não é mais útil ou viável | 
@@ -880,6 +890,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US45** | Planejar gastos |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Fazer um planejamento de gastos no mês |
 | **Para que eu** | Possa ter um teto e mais controle dos meus gastos | 
@@ -893,6 +904,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US46** | Planejar renda |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Fazer um planejamento de renda do mês |
 | **Para que eu** | Possa ter uma meta de quanto vou ter de receita no mês | 
@@ -906,6 +918,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US47** | Categorizar gasto |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Ter um limite de gastos por categoria de consumo |
 | **Para que eu** | Não gaste mais do que gostaria numa categoria | 
@@ -919,6 +932,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US48** | Categorizar renda |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Ter um planejamento por categoria de rendimento |
 | **Para que eu** | Saiba claramente o quanto estou ganhando com cada tipo de rendimento | 
@@ -932,6 +946,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US49** | Meses futuros |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar meu planejamento de gastos e de renda para os meses futuros |
 | **Para que eu** | Possa me planejar a longo prazo | 
@@ -947,6 +962,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US50** | Gastos do usuário |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Desenvolvedor |
 | **Desejo** | Saber com que o usuário está gastando sua renda |
 | **Para que eu** | Para que eu possa dar dicas de gastos mais direcionadas ao perfil de consumo do usuário | 
@@ -960,6 +976,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US51** | Gastos dos últimos meses por categoria|
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar estatísticas dos meus gastos por categoria nos últimos meses |
 | **Para que eu** | Para que eu possa acompanhar minha evolução e fazer comparação entre os meses | 
@@ -973,6 +990,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US52** | Gastos rendas dos últimos meses |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar o total de gastos e de renda dos últimos 2 meses |
 | **Para que eu** | Para que eu possa acompanhar minha evolução | 
@@ -986,6 +1004,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US53** | Rendas dos últimos meses por categoria|
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Usuário |
 | **Desejo** | Visualizar estatísticas dos meus rendimentos por categoria nos últimos meses |
 | **Para que eu** | Para que eu possa acompanhar minha evolução e fazer comparação entre os meses | 
@@ -999,6 +1018,7 @@ Cada elemento da listagem é elicitado por meio de interação da equipe de dese
 | **US50** | Gastos do usuário |
 |--|--|
 | **Versão** | Atual: 1.0 (08/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Eu, como** | Parceiro |
 | **Desejo** | Saber como o usuário está gastando sua renda |
 | **Para que eu** | Para que eu possa oferecer vantagens e promoções mais direcionadas ao perfil do usuário | 
