@@ -2,6 +2,8 @@
 
 O Framework i* propõe uma abordagem orientada a agentes para engenharia de requisitos, centrando-se nas características intencionais do agente. Os agentes atribuem propriedades intencionais (como metas, crenças, habilidades, compromissos) entre si e raciocinam sobre relacionamentos estratégicos. As dependências entre os agentes geram oportunidades e vulnerabilidades. Redes de dependências são analisadas usando uma abordagem de raciocínio qualitativo. Os agentes consideram configurações alternativas de dependências para avaliar seu posicionamento estratégico em um contexto social.
 
+## Metodologia
+
 Para a confecção dos I* o grupo optou por utilizar a ferramenta [piStar Tool](https://www.cin.ufpe.br/~jhcp/pistar/)
 
 Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
