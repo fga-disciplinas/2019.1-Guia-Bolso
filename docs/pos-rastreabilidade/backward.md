@@ -24,7 +24,7 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 
 ### Requisitos funcionais
 
--- <div class="datatable"></div>
+<div class="datatable"></div>
 | ID | Descrição | Pré-Rastreab. | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
 | RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [RA01](../../modelagem/especificacao/#ra01-sessao-de-ajuda)| [US02](../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios), [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|[EF01](#ef01)|
