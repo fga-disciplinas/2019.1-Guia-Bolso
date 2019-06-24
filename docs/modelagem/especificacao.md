@@ -219,3 +219,10 @@ O aplicativo apresenta seus termos de uso para que o usuário concorde em utiliz
 ## Observações Legais, de Direitos Autorais etc
 
 Os usuários estão sujeitos às leis de direitos autorais. Estas leis são apresentadas em conjunto com os termos de uso.
+
+
+| **EPS** | **Especificação Suplementar**  |
+|--|--|
+| **Versão**| Atual: 1.0 (29/04/19) <br> Anterior: - | 
+| **Descrição** | Especificação suplementar dos requisitos não funcionais |
+|**Autor**| [Sara Silva](https://github.com/silvasara), [Leonardo Barreiros](https://github.com/leossb36) e [Rafael Makaha](https://github.com/rafaelmakaha)
