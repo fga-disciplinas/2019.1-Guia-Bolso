@@ -206,6 +206,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS06** | **Planejamento de rendas e gatos**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Rastreabilidade** | Léxico [L40](../lexicos/#l40-planejamento-financeiro), Caso de uso [UC10](../casos_de_uso/#uc10-adicionar-planejamento), User stories [US45](../backlog/#us45-planejar-gastos) e [US46](../backlog/#us46-planejar-renda).|
 
 ## IS07 - Dicas financeiras 
@@ -216,6 +217,7 @@ Obs.: Todas as imagens podem ser ampliadas ao se clicar nelas.
 | **IS07** | **Dicas financeiras**|
 |--|--|
 | **Versão**| Atual: 1.0 (25/05) <br> Anterior: --|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Rastreabilidade** | Cenários [C14](../cenarios/#c14-verificar-dicas) e [C15](../cenarios/#c15-avaliar-dicas), RichPicture [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia), Caso de uso [UC20](../casos_de_uso/#uc20-visualizar-dicas-externas) e User story [US20](../backlog/#uc20-visualizar-dicas-externas). |
 
 ## Referências 
