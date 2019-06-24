@@ -3,6 +3,10 @@
 Este artefato busca ligar cada requisito levantado aos respectivos métodos de elicitação e modelagem utilizados na disciplina por meio da rastreabilidade 
 __Backward-from__.
 
+## metodologia 
+
+Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir deles buscamos em todos os arquivos de modelagem, elicitação de requisitos e analise, e assim preenchemos as tabelas abaixo. Após a tabela preenchida com exceção da coluna de elo as outras colunas foram vistoriadas e assim foi percebemos quais elos estavam relacionados a cada linha das tabelas.
+
 ## Tabelas
 
 ### Legendas
@@ -759,3 +763,4 @@ Satisfação: [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-rea
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 17/06/2019 | 1.0 | Construção do Backward | [Alan](https://github.com/alanrslima), [Leonardo](https://github.com/leossb36), [Lucas](https://github.com/lmmLucasMachado), [Sara](https://github.com/silvasara), [Shayane](https://github.com/shayanealcantara)|
+| 24/06/2019 | 2.0 | Adicionando metodologia | [Lucas Machado](https://github.com/lmmLucasMachado) |
