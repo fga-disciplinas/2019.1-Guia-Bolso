@@ -10,8 +10,6 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 
 ### Legendas
 
-
-
 | Tipo | Código | Significado | Tipo | Código | Significado | 
 |--|--|--|--|--|--|
 |Modelagem | US | User history (backlog)|Elicitação | AP | Análise de protocolo | | | 
