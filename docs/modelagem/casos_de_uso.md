@@ -331,6 +331,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC21** | **Avaliar dicas**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Descrição** | Avaliar dicas |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Parceiros. |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |
@@ -347,6 +348,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC22** | **Visualizar avaliação de crédito**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Descrição** | Visualizar qual é a avaliação de crédito do usuário.|
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituição BoaVista |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; Usuário ter realizado a consulta da situação do seu CPF pelo formulário disposto pelo Guiabolso. |
@@ -363,6 +365,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC23** |**Visualizar comparação de gastos**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Descrição** | Visualizar comparação de gastos.|
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituição BoaVista |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; Usuário ter uma conta cadastrada. |
@@ -379,6 +382,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC24** |**Realizar abertura do Cadastro Positivo**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Descrição** | Realizar abertura do Cadastro Positivo.|
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituição BoaVista. |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito. |
