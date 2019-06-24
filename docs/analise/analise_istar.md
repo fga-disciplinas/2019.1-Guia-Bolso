@@ -252,6 +252,15 @@ Instituições Reguladoras | - |
 | Existe um ator central? |:heavy_check_mark:| O Usuário |  |
 | Existem relações de Make e Break e estão representadas corretamente? |:heavy_check_mark:|  | - |
 
+## Parecer
+
+| **SR/SD** | **Autor** | **Parecer**|
+|--|--|--|
+|[IS09](../../modelagem/istar/#is09-faturamento)| [Elias Bernardo](https://github.com/ebmm01)| Exibir relações de Help e Hurt. |
+|[IS08](../../modelagem/istar/#is08-transacoes)| [Rafael Makaha](https://github.com/rafaelmakaha)| Exibir relações de Help e Hurt. |
+|[IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)| [Rafael Makaha](https://github.com/rafaelmakaha)| Centralizar o ator principal. |
+|[IS05](../../modelagem/istar/#is05-consultar-situacao-do-cpf)| [Elias Bernardo](https://github.com/ebmm01)| Centralizar ator principal. |
+
 ## Conclusão
 
 Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo para o GuiaBolso ficaram bons. O que mais esteve ausente nos modelos foram as relações de Make e Break. Porém, como as análises foram, em geral, feitas em um escopo pequeno, estas relações serem ausentes é justificável.
