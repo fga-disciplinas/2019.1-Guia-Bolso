@@ -108,8 +108,22 @@ Para analisar os modelos dos RichPicture, foram levantadas questões a respeito 
 | Classificação |**Bom**| **Bom**|**Bom**|**Regular**|**Bom**|**Bom**| **Regular**|**Bom** | **Regular**  |
 | Melhorias |Usar ícones do aplicativo; Usar mais verbos| |Adicionar "Agenda". |Usar ícones do aplicativo;<br> Clarear mais os fluxos|Diminuir a escala; Deixar o centro mais evidente.|Usar ícones do aplicativo;<br> Adicionar "Agenda".|Usar ícones do aplicativo;<br> Clarear mais os fluxos | Rever ações dos atores |Usar ícones do aplicativo; <br> Clarear mais os fluxos.|
 
+## Conclusão
+
+O RichPicture pode ser avaliado como Bom de acordo com os critérios de qualidade estabelecidos pelo grupo. Contudo alguns Rich específicos estão regulares, sendo necessários refatorá-los.
+
+## Referências
+HORAN, Pat.Using Rich Pictures in Information System Teaching. Disponível em: http://ceur-ws.org/Vol-72/039%20Horan%20SSM.pdf. Acesso em: 04/06/2019.
+
+Leadership for change. Complexity and rich pictures. Disponível em: <http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf>. Acesso em: 04/06/2019.
+
+Requisitos Uber. Verificação - Inspeção RichPicture e Cenários e Léxicos. Disponível em: <https://github.com/victorhdcoelho/Requisitos-uber-2018.2/wiki/Inspe%C3%A7%C3%A3o-RichPicture---Cen%C3%A1rios-e-L%C3%A9xicos>. Acesso em: 04/06/2019.
+
+HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
+
 |  | **Análise Rich Pictures**  |
 |--|--|
 | **Versão**| Atual: 1.0 (09/06) <br> Anterior: -| 
 | **Descrição** | Descrição da análise dos Rich Pictures produzidos. O foco está na versão 1.0 de cada um. |
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
+

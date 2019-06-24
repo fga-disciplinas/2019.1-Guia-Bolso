@@ -45,3 +45,9 @@ Os léxicos avaliados ate o momento correpondem a 25% do total. Esta parcela pod
 [ANTUNES, I. Território das palavras: estudo do léxico em sala de aula. São Paulo: Parábola Editorial, 2012.](http://ceale.fae.ufmg.br/app/webroot/glossarioceale/referencia/antunes-i-territ-rio-das-palavras-estudo-do-l-xico-em-sala-de-aula-s-o-paulo-par-bola-editorial-2012-) <br>
 [BIDERMAN, M.T.C. Teoria linguística: teoria lexical e teoria computacional. São Paulo: Martins Fontes, 2001.](http://ceale.fae.ufmg.br/app/webroot/glossarioceale/referencia/biderman-m-t-c-teoria-lingu-stica-teoria-lexical-e-teoria-computacional-s-o-paulo-martins-fontes-2001-) <br>
 [ILARI, R. Introdução ao estudo do léxico: brincando com as palavras. São Paulo: Contexto, 2002.](http://ceale.fae.ufmg.br/app/webroot/glossarioceale/referencia/ilari-r-introdu-o-ao-estudo-do-l-xico-brincando-com-as-palavras-s-o-paulo-contexto-2002-)
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 09/04/2019 | 1.0 | Adição da inspesão | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |

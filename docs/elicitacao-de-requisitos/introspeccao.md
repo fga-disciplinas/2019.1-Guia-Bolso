@@ -165,6 +165,7 @@ As User Storys foram elaboradas através de uma persona, ou seja, a simulação 
 ## Referências 
 
 [FERREIRA, Bruna Moraes. Utilizando personas para apoiar a elicitação de requisitos. 2017. 150 f. Dissertação (Mestrado em Informática) - Universidade Federal do Amazonas, Manaus, 2017.](https://tede.ufam.edu.br/bitstream/tede/6140/5/Disserta%C3%A7%C3%A3o_Bruna_Ferreira.pdf)
+
 ## Versionamento
 
 | Data | Versão | Descrição | Autor |
