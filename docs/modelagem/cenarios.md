@@ -152,24 +152,24 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 
 ### C10 - Solicitar [crédito pré-aprovado]
 
-| **C10** | **Solicitar [crédito pré-aprovado]**|
+| **C10** | **Solicitar crédito pré-aprovado**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Metas/Objetivos** | Conseguir [crédito](../lexicos/#l25-credito) rapidamente, sem burocracia |
 | **Contexto** |**O que?**  <br>> [Crédito pré-aprovado]; <br><br> **Onde?** <br>> [Caixa eletrônico](../lexicos/#l34-caixa-eletronico), aplicativo ou [internet banking]; <br><br> **Quando?** <br>> A qualquer momento; <br> <br>**Por quê?** <br>> Porque o indivíduo tem um objetivo e para alcançá-lo precisa de [crédito](../lexicos/#l25-credito) rápido.|
-|**Ator(es)** | > Indivíduo; <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
+|**Ator(es)** | > [Indivíduo](../lexicos/#l39-individuo); <br> > [Instituições financeiras]; <br> > Serviços de proteção ao crédito.|
 | **Recursos** | > Internet; |
 | **Restrição** | > Ter CPF; <br> > Não ter o [nome sujo](../lexicos/#l1-nome-sujo); <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito).|
 | **Exceção** | > [Score] do [usuário] ser baixo; <br> > Internet indisponível; <br> > Falha no aplicativo no meio que está sendo utilizado; <br> > Falha na comunicação com a [Instituição financeira]; |
-| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do indivíduo; <br> > Se o indíviduo tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O indivíduo entra em contato com a institiuição (por [caixa eletrônico](../lexicos/#l34-caixa-eletronico), aplicativo, etc); <br> > O indivíduo solicita o [crédito pré-aprovado]; <br> > Se disponível, o crédito entrará na conta do indivíduo; |
+| **Episódios** | > A instituição faz uma [análise de crédito](../lexicos/#l22-avaliacao-de-credito) do [indivíduo](../lexicos/#l39-individuo); <br> > Se o [indivíduo](../lexicos/#l39-individuo) tiver um bom [score] de crédito, a instituição deixa disponível a ele um [crédito pré-aprovado], mesmo que não tenha sido solicitado; <br> > O [indivíduo](../lexicos/#l39-individuo) entra em contato com a institiuição (por [caixa eletrônico](../lexicos/#l34-caixa-eletronico), aplicativo, etc); <br> > O [indivíduo](../lexicos/#l39-individuo) solicita o [crédito pré-aprovado]; <br> > Se disponível, o [crédito](../lexicos/#l25-credito) entrará na conta do indivíduo; |
 
 ### C11 - Solicitar [suporte](../lexicos/#l35-suporte)
 
 | **C11** | **Solicitar suporte**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Metas/Objetivos** | Solucionar algum problema com o Guiabolso |
 | **Contexto** |**O que?** <br> > Solicitar [suporte](../lexicos/#l35-suporte);  <br><br> **Onde?** <br> > Na aba Ajustes, ao clicar em “Dúvidas"; <br> <br> **Quando?** <br> Quando o [usuário] tem alguma dúvida ou problema ao usar o aplicativo; <br><br> **Por quê?** <br> Porque o [usuário] quer ajuda pra resolver seu problema.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -180,17 +180,17 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 
 ### C12 - Ir para [extrato]
 
-| **C12** | **Ir para [extrato]**|
+| **C12** | **Ir para extrato**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| - |
 | **Metas/Objetivos** | Descrever como ir para o [extrato] |
-| **Contexto** |**O que?** <br> > Ir nos [extratos] para ver os gastos e [rendas](../lexicos/#l28-renda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma transação; <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de transações; <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
+| **Contexto** |**O que?** <br> > Ir nos [extratos] para ver os gastos e [rendas](../lexicos/#l38-renda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após ter adicionado pelo menos uma [transação](../lexicos/#l42-transacao); <br><br> **Por quê?** <br> > O [usuário] quer ver histórico de [transações](../lexicos/#l42-transacao); <br> > O [usuário] que ver o quanto gastou para se planejar financeiramente;|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
-| **Recursos** | > Transações financeiras; <br> > Guiabolso.|
-| **Restrição** | > Existir uma transação; <br> > [Usuário] ter conta no aplicativo;  |
+| **Recursos** | > [Transações financeiras](../lexicos/#l30-transacao-bancaria); <br> > Guiabolso.|
+| **Restrição** | > Existir uma [transação](../lexicos/#l42-transacao); <br> > [Usuário] ter conta no aplicativo;  |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]. |
-| **Episódios** | > [Usuário] deseja ver como está seu [extrato]; <br> > [Usuário] entra na aba finanças <br> > Na parte de Últimas transações, [usuário] seleciona Ir para [extrato]; <br> >[Usuário] visualiza [extrato] do mês corrente|
+| **Episódios** | > [Usuário] deseja ver como está seu [extrato]; <br> > [Usuário] entra na aba finanças <br> > Na parte de Últimas [transações](../lexicos/#l42-transacao), [usuário] seleciona Ir para [extrato]; <br> >[Usuário] visualiza [extrato] do mês corrente|
 
 ### C13 - Criar uma conta
 
@@ -309,37 +309,37 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C21** | **Atualizar Contas e Cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
-| **Metas/Objetivos** | Manter as contas e os cartões atualizados |
-| **Contexto** |**O que?** <br> > Atualizar Contas e Cartões; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>    > A qualquer momento; <br><br> **Por quê?** <br> > Para o [extrato] ficar sempre atualizado;|
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
+| **Metas/Objetivos** | Manter as [contas](../lexicos/#l33-conta-bancaria) e os cartões atualizados |
+| **Contexto** |**O que?** <br> > Atualizar [Contas](../lexicos/#l33-conta-bancaria) e Cartões; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>    > A qualquer momento; <br><br> **Por quê?** <br> > Para o [extrato] ficar sempre atualizado;|
 | **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Aplicativo do [banco]; |
 | **Recursos** | > Guiabolso; <br> > Internet. |
-| **Restrição** | > [Usuário] ter conta no aplicativo; <br> Usuario ter conta ou cartão bancário cadastrado no aplicativo. |
-| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na conta bancária do [usuário]|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] sente necessidade de atualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar Conta"; <br> > [Usuário] Acessa o aplicativo do [banco] corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
+| **Restrição** | > [Usuário] ter conta no aplicativo; <br>> Usuario ter [conta](../lexicos/#l33-conta-bancaria) ou cartão bancário cadastrado no aplicativo. |
+| **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na [conta bancária](../lexicos/#l33-conta-bancaria) do [usuário]|
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] sente necessidade de atualizar as contas e cartões cadastrados; <br> >     [Usuário] entra na aba Ajustes e seleciona "Contas e Cartões"; <br> > [Usuário] clica em "Atualizar [Conta](../lexicos/#l33-conta-bancaria)"; <br> > [Usuário] Acessa o aplicativo do [banco] corresponde para obter a [chave de segurança]; <br> > [Usuário] insere a [chave de segurança] no campo correspondente no Guiabolso. |
 
 ### C22 - Contratar empréstimo 
 
 | **C22** | **Contratar empréstimo** |
 |--|--|
 | **Versão** | Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Metas/Objetivos** | Realizar um empréstimo |
 | **Contexto** |**O que?** <br> > Empréstimo; <br><br> **Onde?** <br>> Na aba de “Empréstimo” do aplicativo; <br><br> **Quando?** <br> > Após fazer a [simulação de empréstimo]; <br><br> **Por quê?** <br> > Porque o [usuário] tem alguma necessidade financeira;|
-| **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > Instituições Financeiras|
+| **Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> > [Instituições Financeiras] |
 | **Recursos** | > Guiabolso; <br> > Internet.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; <br> > Ter CPF; <br> > Não ter o [nome sujo]; <br> > Ter uma boa [avaliação de crédito](../lexicos/#l22-avaliacao-de-credito). |
 | **Exceção** | > Internet indisponível; <br> > Falha no Aplicativo; <br> > Ausência do celular do [usuário]; <br> > Falha na [conta bancária](../lexicos/#l33-conta-bancaria) do [usuário]; <br> > Falha na comunicação com a [Instituição Financeira].|
-| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A instituição aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou crédito correspondente na sua [conta bancária](../lexicos/#l33-conta-bancaria). |
+| **Episódios** | > [Usuário] [cria uma conta](../cenarios/#c13-criar-uma-conta) no Guiabolso; <br> > [Usuário] [cadastra conta bancária no Guiabolso](../cenarios/#c19-cadastrar-banco); <br> > [Usuário] acessa o Guiabolso; <br> > [Usuário] faz uma [simulação de empréstimo]; <br> > [Usuário] contrata o empréstimo que mais lhe agrada; <br> > A [instituição](../lexicos/#l31-instituicao-financeira) aprova ou rejeita o empréstimo; <br> > Se aprovado, o [usuário] recebe o dinheiro ou [crédito](../lexicos/#l25-credito) correspondente na sua [conta bancária](../lexicos/#l33-conta-bancaria). |
 
 ### C23 - Adicionar na [Agenda](../lexicos/#l36-agenda) 
 
-| **C23** | **Adicionar na [Agenda](../lexicos/#l36-agenda)** |
+| **C23** | **Adicionar na Agenda** |
 |--|--|
 | **Versão** | Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Metas/Objetivos** | Organizar as datas de pagamentos |
-| **Contexto** |**O que?** <br> > Adicionar na [Agenda](../lexicos/#l36-agenda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br> > A qualquer momento; <br><br> **Por quê?** <br> > Porque o [usuário] quer se programar financeiramente ;|
+| **Contexto** |**O que?** <br> > Adicionar na [Agenda](../lexicos/#l36-agenda); <br><br> **Onde?** <br>> Na aba de “Finanças” do aplicativo; <br><br> **Quando?** <br> > A qualquer momento; <br><br> **Por quê?** <br> > Porque o [usuário] quer se [programar financeiramente](../lexicos/#l40-planejamento-financeiro) ;|
 | **Ator(es)** | > [Usuário]; <br> > Guiabolso. |
 | **Recursos** | > Guiabolso; <br> > Internet.|
 | **Restrição** | > [Usuário] ter conta no aplicativo; |

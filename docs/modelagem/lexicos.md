@@ -10,7 +10,7 @@ Para a confecção dos léxicos o grupo utilizou cards com o seguinte modelo bas
 | **LXX** | **Nome do léxico**  |
 |--|--|
 | **Versão**| Atual: 1.1 (Data) <br> Anterior: [1.0](#) |
-| **Autor**| Autor(es) do cenário |
+| **Autor**| Autor(es) do léxico |
 | **Classificação** | Classificação do léxico (estado, objeto ou verbo) |
 | **Sinônimos** | Sinônimos do léxico |
 | **Noção** | Noções do léxico | 
@@ -183,32 +183,32 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L14** | **Transações ignoradas**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l14-transacoes-ignoradas_1) |
-| **Autor**| -- |
+| **Versão**| Atual: 1.1(23/04) <br> Anterior: [1.0](../lexicos/#l14-transacoes-ignoradas_1) |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Gastos ignorados |
 | **Noção** | > Movimentações na conta que o [usuário](#l13-usuario) deseja ignorar. |
-| **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](#l13-usuario) pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu planejamento financeiro. |
+| **Impacto** | > Transações ignoradas não são rastreadas nos gastos; <br> > Com algumas transações sendo ignoradas, o [usuário](#l13-usuario) pode dar mais atenção a transações que considera mais importantes; <br> > O [usuário](#l13-usuario) pode se esquecer de que um determinado gasto está como transação ignorada e atrapalhar seu [planejamento financeiro](#l40-planejamento-financeiro). |
 | **Rastro** | [Cenário 7](../cenarios/#c7-ignorar-transacao) |
 
 ### L15 - Crediário
 
 | **L15** | **Crediário**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](../lexicos/#l15-crediario_1) |
-| **Autor**| -- |
+| **Versão**| Atual: 1.1(23/04) <br> Anterior: [1.0](../lexicos/#l15-crediario_1) |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Carnê |
 | **Noção** | > Forma de financiamento de bens e serviços; <br> > Parcelamento em carnê; | 
-| **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o indivíduo sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer [comprometimento de renda](#l7-comprometimento-de-renda) a longo prazo. |
+| **Impacto** | > As parcelas do crediário são fixas acrescidas de juros e correção monetária; <br> > Fazendo o crediário, o [indivíduo](#l39-individuo) sai do estabelecimento sabendo exatamente quanto pagará e a data de vencimento de cada parcela; <br> > O crediário permite parcelamento em até 48x, facilitando a perda de controle de boletos e o endividamento; <br> > Fazer um crediário é fazer [comprometimento de renda](#l7-comprometimento-de-renda) a longo prazo. |
 | **Rastro** | Não possui |
 
 ### L16 - Internet Banking
 
 | **L16** | **Internet Banking**  |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l16-internet-banking_1) |
-| **Autor**| -- |
+| **Versão**| Atual: 1.1(23/04) <br> Anterior: [1.0](#l16-internet-banking_1) |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Site do Banco |
 | **Noção** | > Ambiente bancário na Internet; <br> > Site com alto nível de segurança onde ficam disponíveis serviços oferecidos pelos [bancos](#l31-instituicao-financeira); <br> > Acesso ao serviços bancários pelo computador/navegador. |
@@ -319,12 +319,12 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L26** | **Chave de Segurança** |
 |--|--|
-| **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l26-chave-de-seguranca_1) |
-| **Autor**| -- |
+| **Versão**| Atual: 1.1(23/03) <br> Anterior: [1.0](#l26-chave-de-seguranca_1) |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Token, senha |
-| **Noção** | > É uma senha ou conjunto de senhas para realizar [transações](../lexicos/#l30-transacao-bancaria) pelas plataformas online, [caixas](../lexicos/#l34-caixa-eletronico) de atendimento eletrônico, ou pelos aplicativos da instituição financeirar; <br> > É gerada após o indivíduo inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
-| **Impacto** | > A chave de segurança garante a autenticidade do indíviduo que está fazendo uma [movimentação bancária](../lexicos/#l30-transacao-bancaria); <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
+| **Noção** | > É uma senha ou conjunto de senhas para realizar [transações](../lexicos/#l30-transacao-bancaria) pelas plataformas online, [caixas](../lexicos/#l34-caixa-eletronico) de atendimento eletrônico, ou pelos aplicativos da [instituição financeira](#l31-instituicao-financeira); <br> > É gerada após o [indivíduo](#l39-individuo) inserir sua senha de acesso bancário(pin); <br> > Expira em segundos. |
+| **Impacto** | > A chave de segurança garante a autenticidade do [indivíduo](#l39-individuo) que está fazendo uma [movimentação bancária](../lexicos/#l30-transacao-bancaria); <br> > A chave de segurança tem que ser usada rapidamente; <br> > A cada movimentação diferente é preciso uma chave de segurança difetente. | 
 | **Rastro** | [Cenário 21](../cenarios/#c21-atualizar-contas-e-cartoes) |
 
 ### L27 - Cartão de débito 
@@ -367,23 +367,23 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L30** | **Transações bancárias** |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0(23/04) <br> Anterior:-- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Movimentação bancária, transferência |
-| **Noção** | > Transferência de recursos fincanceiros de uma conta bancária a outra entre pessoas físicas ou jurídicas; <br> > Troca de recursos financeiros em ambientes bancários([caixa eletônico](#l34-caixa-eletronico), [Internet Bankink](#l16-internet-banking) |
-| **Impacto** | > Para realizar uma transação bancária, não é preciso movimentar dinheiro em espécie, sendo mais segura; <br> > Se a transação bancária ocorrer entre bancos distintos, há uma taxa a ser paga pela realização do procedimento; <br> > Uma transação bancária pode sair mais cara do que uma movimentação em espécie. | 
-| **Rastro**| Não possui | 
+| **Noção** | > Transferência de recursos fincanceiros de uma [conta bancária](#l33-conta-bancaria) a outra entre pessoas físicas ou jurídicas; <br> > Troca de recursos financeiros em ambientes bancários([caixa eletônico](#l34-caixa-eletronico), [Internet Banking](#l16-internet-banking) |
+| **Impacto** | > Para realizar uma transação bancária, não é preciso movimentar dinheiro em espécie, sendo mais segura; <br> > Se a transação bancária ocorrer entre [bancos](#l31-instituicao-financeira) distintos, há uma taxa a ser paga pela realização do procedimento; <br> > Uma transação bancária pode sair mais cara do que uma movimentação em espécie. | 
+| **Rastro**| [L14](#l14-transacoes-ignoradas) e [L26](#l26-chave-de-seguranca) | 
 
 ### L31 - Instituição financeira 
 
 | **L31** | **Instituição financeira** |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0(23/04) <br> Anterior:-- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | banco, financeira, corretora de valores |
-| **Noção** | > Intermediária entre um indivíduo e algum tipo de serviço financeiro; <br> > Organização que otimiza a alocação de capitais financeiros; |
+| **Noção** | > Intermediária entre um [indivíduo](#l39-individuo) e algum tipo de serviço financeiro; <br> > Organização que otimiza a alocação de capitais financeiros; |
 | **Impacto** | > Para uma instituição financeira cuidar do seu capital, é preciso deixá-lo a disposição dela; <br> > Instituição financeira pode financiar compra de bens; <br> > Para obter serviços ofericidos por uma instituição financeira é preciso pagar taxas; <br> > Instituições financeiras podem oferecer empréstimos ou [crédito](#l25-credito); <br> > Instituição financeira pode itermediar investimentos. |
 | **Rastro**| [Cenário 22](../cenarios/#c22-contratar-emprestimo) | 
 
@@ -415,36 +415,36 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L34** | **Caixa Eletrônico** |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0(23/04) <br> Anterior:-- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | Caixa automático, terminal bancário |
 | **Noção** | > Equipamento de automação bancária; <br> > Oferece serviços bancários de forma automática. |
-| **Impacto** | > O caixa eletrônico não precisa de um funcionário do banco para ser usado; <br> > As pessoas podem sacar ou depositar dinheiro no caixa eletrônico, além de visualizar suas [contas bancárias](#l33-conta-bancaria) |
+| **Impacto** | > O caixa eletrônico não precisa de um funcionário do [banco](#l31-instituicao-financeira) para ser usado; <br> > As pessoas podem sacar ou depositar dinheiro no caixa eletrônico, além de visualizar suas [contas bancárias](#l33-conta-bancaria) |
 | **Rastro**| [Cenário 10](../cenarios/#c10-solicitar-credito-pre-aprovado) | 
 
 ### L35 - Suporte 
 
 | **L35** | **Suporte** |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0(32/04) <br> Anterior:-- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | atendimento, assistência |
-| **Noção** | > Serviço de auxílio ao usuário; <br> > Assistência ao usuário quando este estiver com dififuldades ou dúvida. |
-| **Impacto** | > O usuário precisa do suporte quando encontra alguma dificuldade no uso do sistem; <br> > O usuário precisa de suporte quando encotra uma falha no sistema; <br> > O suporte é essencial para a comunicação entre empresa e cliente; <br> > O suporte deve está sempre disponível para o usuário. |
+| **Noção** | > Serviço de auxílio ao [usuário](#l13-usuario); <br> > Assistência ao [usuário](#l13-usuario) quando este estiver com dififuldades ou dúvida. |
+| **Impacto** | > O usuário precisa do suporte quando encontra alguma dificuldade no uso do sistema; <br> > O usuário precisa de suporte quando encotra uma falha no sistema; <br> > O suporte é essencial para a comunicação entre empresa e cliente; <br> > O suporte deve está sempre disponível para o [usuário](#l13-usuario). |
 | **Rastro**| [Cenário 11](../cenarios/#c11-solicitar-suporte) | 
 
 ### L36 - Agenda 
 
 | **L36** | **Agenda** |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior:-- |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0(23/04) <br> Anterior:-- |
+| **Autor**| [Sara Silva](https://github.com/silvasara) |
 | **Classificação** | Objeto |
 | **Sinônimos** | programação, planejamento de pagamentos |
 | **Noção** | > Planejamento de dias x pagamentos; <br> > Organização de tarefas; <br> > Organização de contas a pagar; |
-| **Impacto** | > No Guiabolso, a agenda pode ser usada para se lembrar quais dias de pagamentos das contas; <br> > A agenda ajuda o usuário a não esquecer das contas e fica endividade; <br> > A agenda ajuda o usuário a se planejar financeiramente. |
+| **Impacto** | > No Guiabolso, a agenda pode ser usada para se lembrar quais dias de pagamentos das contas; <br> > A agenda ajuda o usuário a não esquecer das contas e fica endividade; <br> > A agenda ajuda o usuário a se [planejar financeiramente](#l40-planejamento-financeiro). |
 | **Rastro**| [Cenário 23](../cenarios/#c23-adicionar-na-agenda) | 
 
 ### L37 - Lançamentos futuros
