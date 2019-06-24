@@ -37,24 +37,24 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L2** | **Cadastro Positivo**  |
 |--|--|
-| **Versão**| Atual: 1.1 (17/06/19) <br> Anterior: [1.0](#l2-cadastro-positivo_1) | 
-| **Autor**| -- |
+| **Versão**| Atual: 1.1 (17/04/19) <br> Anterior: [1.0](#l2-cadastro-positivo_1) | 
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 |**Classificação**| Objeto |
-|**Sinônimos**| <br> > Empresas verem o usuário de forma positiva; <br> > Boa reputação no mercado.|
-| **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas instituições; <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por empresas. |  
-| **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
+|**Sinônimos**| <br> > [Empresas](#l31-instituicoes-financeiras) verem o usuário de forma positiva; <br> > Boa reputação no mercado.|
+| **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas [instituições](#l31-instituicoes-financeiras); <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por [empresas](#l31-instituicoes-financeiras). |  
+| **Impacto** | > O [usuário](#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito (#l6-credito-pre-aprovado) <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas [operações bancárias](#l42-transacao). |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L3 - Consultar CPF
 
 | **L3** | **Consultar CPF**  |
 |--|--|
-| **Versão**| 1.0 | 
-| **Autor**| -- |
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - | 
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 |**Classificação**| Objeto |
-|**Sinônimos**|<br> > Verificar CPF; <br> > Verificar se o nome está sujo ou não.|
-| **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um indivíduo no Boa Vista SCPC; <br> > Verificar se o [usuário](#l13-usuario) está com o [nome sujo](#l1-nome-sujo) ou o [nome limpo](#l24-nome-limpo). |
-| **Impacto** | > Ao consultar o cpf, um indivíduo com o nome sujo pode saber quais são suas dívidas; <br> > Ao consultar o cpf, um indivíduo pode saber se está no cadastro positivo; <br> > Ao consultar o cpf, um indivíduo passar a saber seu score do Serasa.|
+|**Sinônimos**|<br> > Verificar CPF; <br> > Verificar se o nome está [sujo](#l1-nome-sujo) ou [limpo(#l24-nome-limpo).|
+| **Noção** | > Verificar, por intermédio do Guiabolso, o status de devedor (ou não) de um [indivíduo](#l39-individuo) no Boa Vista SCPC; <br> > Verificar se o [usuário](#l13-usuario) está com o [nome sujo](#l1-nome-sujo) ou o [nome limpo](#l24-nome-limpo). |
+| **Impacto** | > Ao consultar o cpf, um [indivíduo](#l39-indiiduo) com o [nome sujo](#l1-nome-sujo) pode saber quais são suas dívidas; <br> > Ao consultar o cpf, um [indivíduo](#l39-individuo)] pode saber se está no [cadastro positivo](#l2-cadastro-positivo); <br> > Ao consultar o cpf, um indivíduo](#l39-individuo) passar a saber seu [score do Serasa](#l4-score-do-serasa).|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L4 - Score do Serasa
@@ -124,12 +124,12 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L9** | **Contas residenciais**  |
 |--|--|
-| **Versão**| 1.0 |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - |
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 |**Classificação**| Objeto |
 |**Sinônimos**|<br> > Contas de casa; <br> Gasto de água, luz e internet.|
-| **Noção** | > Categoria pertencente ao grupo de gastos essenciais do [usuário](/#l13-usuario) do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o [usuário](/#l13-usuario) que deseja categorizar seus gastos para planejá-los nos meses seguintes | 
-| **Impacto** | > [usuário](/#l13-usuario) registra uma conta residencial e a categoriza, de modo que ele possa visualizar seus gráficos de gastos de forma mais organizada e assim, facilitar seu planejamento <br> > A categoria de Contas Residenciais consta no planejamento de [renda](/#l28-renda) <br> > Gastos com estabelecimento que tenham nomes intuitivos podem ser relacionados à categoria de Contas Residenciais automaticamente, por exemplo: Companhia Energética de Brasília |
+| **Noção** | > Categoria pertencente ao grupo de gastos essenciais do [usuário](/#l13-usuario) do Guiabolso <br> > Categoria para registros de gastos com fins residenciais, como despesas de água, luz <br> > Tipo de categoria para o [usuário](/#l13-usuario) que deseja categorizar seus gastos para incluí-los no [planejamento](#l40-planejamento-financeiro) dos [meses futuros](#l18-meses-futuros); | 
+| **Impacto** | > [Usuário](/#l13-usuario) registra uma conta residencial e a categoriza, de modo que ele possa visualizar seus gráficos de gastos de forma mais organizada e assim, facilitar seu [planejamento](#l40-planejamento-financeiro); <br> > A categoria de Contas Residenciais consta no [planejamento](#l40-planejamento-financeiro) de [renda](/#l28-renda); <br> > Gastos com estabelecimento que tenham nomes intuitivos podem ser relacionados à categoria de Contas Residenciais automaticamente, por exemplo: Companhia Energética de Brasília (CEB). |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L10 - Pausar cartão
@@ -148,24 +148,24 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L11** | **Conta manual**  |
 |--|--|
-| **Versão**| 1.0 |
-| **Autor**| -- |
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - |
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 |**Classificação**| Objeto |
-|**Sinônimos**| <br> > Conta em que o próprio usuário adiciona gastos; <br> > Semelhante ao costume de bloco de notas ou agenda. |
-| **Noção** | > Opção de escolha com o intuito de como a conta do [usuário](/#l13-usuario) será registrada <br> > Tipo de conta em que o [usuário](/#l13-usuario) não insere seus dados bancários no aplicativo <br> > Tipo de conta em que o [usuário](/#l13-usuario) deseja adicionar transações manualmente <br> > Alternativa à Conta Automática |
-| **Impacto** | > A conta manual não sofre sincronização automática <br> > O [usuário](/#l13-usuario) adiciona manualmente as transações de sua escolha |
+|**Sinônimos**| <br> > Conta em que o próprio [usuário](/#l13-usuario) adiciona gastos; <br> > Semelhante ao costume de adicionar gastos, [rendas](#l38-renda) e [metas](#l23-meta) no bloco de notas ou [agenda](#l36-agenda); <br> > Contrária à [Conta Automática](#l12-conta-automatica). |
+| **Noção** | > Opção de escolha com o intuito de como a conta do [usuário](/#l13-usuario) será registrada; <br> > Tipo de conta em que o [usuário](/#l13-usuario) não insere seus [dados bancários](#l39-dados-bancarios) no aplicativo; <br> > Tipo de conta em que o [usuário](/#l13-usuario) deseja adicionar [transações](#l42-transacao) manualmente; <br> > Alternativa à [Conta Automática](#l12-conta-automatica). |
+| **Impacto** | > A conta manual não sofre sincronização automática; <br> > O [usuário](/#l13-usuario) adiciona manualmente as [transações](#l42-transacao) de sua escolha. |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L12 - Conta automática
 
-| **L12** | **Conta automárica**  |
+| **L12** | **Conta automática**  |
 |--|--|
-| **Versão**| 1.0 |
-| **Autor**| -- |
-| **Classificação**| -- |
-|**Sinônimos**| <br> > Semelhante ao extrato ou fatura do banco; <br> > Usuário não precisa inserir nada, é automático.|
-| **Noção** | > Meio de registrar transações de forma automática com a conta bancária <br> > [usuário](/#l13-usuario) insere seus dados bancários no aplicativo para importação de dados |
-| **Impacto** | > O extrato do [usuário](/#l13-usuario) é constantemente atualizado para seu acompanhamento, tornando-o fiél <br> > Permite um acompanhamento prático das transações financeiras |
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - |
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Classificação**| Objeto |
+|**Sinônimos**| <br> > Semelhante ao [extrato](#l21-extrato) ou fatura do [banco](#l31-instituicoes-financeiros); <br> > [Usuário](#l13-usuario) não precisa inserir nada, é automático; <br> > Contrária à [Conta Manual](#l11-conta-manual).|
+| **Noção** | > Meio de registrar [transações](#l42-transacao) de forma automática com a conta bancária; <br> > [usuário](#l13-usuario) insere seus dados bancários no aplicativo para importação de dados. |
+| **Impacto** | > O extrato do [usuário](/#l13-usuario) é constantemente atualizado para seu acompanhamento ou [planejamento](#l40-planejamento-financeiro), tornando-o fiél; <br> > Permite um acompanhamento ou [planejamento](#l40-planejamento-financeiro) prático das [transações](#l42-transacao) financeiras. |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L13 - Usuário
@@ -451,23 +451,23 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L37** | **Lançamentos futuros**  |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior: - | 
-| **Autor**| -- |
-| **Noção** | > Quando está previsto que uma pessoa irá receber alguma [renda](#l28-renda); <br> > [renda](#l28-renda) de entrada ou saída agendada com data futura;<br> > Pagamentos já realizados pela empresa ou pessoa específica que ainda não consta no seu [extrato](#l21-extrato); <br> > Quando o usuário deseja saber o andamento de alguma [renda](#l28-renda). | 
-|**Sinônimos**| <br> > [Renda](#l28-renda) que irá ser retirada ou adicionada da conta do usuário no futuro.
-| **Impacto** | > O [usuário](#l13-usuario) acessa o [extrato](#l21-extrato) para visualizar os lançamentos futuros. <br> > A visualização dos lançamentos futuros permite organização e transparência para o [usuário](#l13-usuario).|
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - | 
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Noção** | > Quando está previsto que um [usuário](l13-usuário) pessoa irá receber alguma [renda](#l28-renda); <br> > [Renda](#l28-renda) de entrada ou saída agendada com data futura;<br> > Pagamentos já realizados pela [empresa](#l31-instituicoes-financeiras) ou pessoa específica que ainda não está disponível para uso ou presente no seu [extrato](#l21-extrato); <br> > Quando o [usuário](l13-usuário) deseja saber o andamento de alguma [renda](#l28-renda). | 
+|**Sinônimos**| <br> > [Renda](#l28-renda) que irá ser retirada ou adicionada da conta do [usuário](l13-usuário) no futuro.
+| **Impacto** | > O [usuário](#l13-usuario) acessa o [extrato](#l21-extrato) para visualizar os lançamentos futuros. <br> > A visualização dos lançamentos futuros permite organização ([planejamento](#l40-planejamento-financeiro)) e transparência para o [usuário](#l13-usuario).|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L38 - Renda
 
 | **L38** | **Renda**  |
 |--|--|
-| **Versão**| Atual: 1.0 <br> Anterior: - | 
-| **Autor**| -- |
-| **Classificação**| -- |
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - | 
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Classificação**| Objeto |
 |**Sinônimos**| <br> > Ferramenta comercial para movimentar mercado financeiro; <br> > Dinheiro; <br> > Moeda; <br> > Cheque, etc.|
 | **Noção** | > Quando há a necessidade ou vontade de adquirir algo usa esta forma; <br> > Quando o [usuário](#l13-usuario) trabalha ou realiza alguma movimentação comercial, ele recebe uma gratificação; <br> > Quando o usuário faz compras no [cartão de crédito](#l28-cartao-de-credito), deve pagar com dinheiro no final das contas. | 
-| **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum serviço comercial; <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar planejamento. [usuário](#l13-usuario).|
+| **Impacto** | > O [usuário](#l13-usuario) recebe renda mensal ao realizar algum [serviço comercial](#l42-transacao); <br> > A renda que o usuário deve ou ganha, aparecem no [extrato](#l21-extrato); <br> > Ao usar o Guiabolso, o [usuário](#l13-usuario) deve informar sua renda mensal para criar [planejamento](#l40-planejamento-financeiro).|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso)|
 
 ### L39 - Indivíduo
@@ -534,10 +534,11 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 
 | **L2** | **Cadastro Positivo**  |
 |--|--|
-| **Versão**| 1.0 | 
-| **Noção** | > Quando uma pessoa não possui dívidas; <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas instituições; <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome, mas pelo seus hábitos financeiros; <br> Quando uma pessoa quer que seu nome seja visto positivamente ao ser consultado por empresas. | 
+| **Versão**| Atual: 1.0 (27/04/19) <br> Anterior: - | 
+| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Noção** | > Quando uma pessoa não possui dívidas ou com o [nome limpo](#l24-nome-limpo); <br> > Pessoa no cadastro de "Bom pagador"; <br> > Pessoa que quer bem visto pelas [instituições](#l31-instituicoes-financeiras); <br> > Quando uma pessoa quer ser vista não só pelas dívidas no seu nome [limpo](#l24-nome-limpo) ou [sujo](#l1-nome-sujo), mas pelo seus hábitos financeiros; <br> > Quando uma pessoa quer que seu nome [limpo](#l24-nome-limpo) ou [sujo](#l1-nome-sujo) seja visto positivamente ao ser consultado por empresas. | 
 |**Sinônimos**| <br> > Empresas verem o usuário de forma positiva; <br> > Boa reputação no mercado.
-| **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos <br> > O indivíduo que está no cadastro positivo tem uma maior linha de crédito <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas operações bancárias |
+| **Impacto** | > O [usuário](../lexicos/#l13-usuario) que está no cadastro positivo tem maior facilidade de fazer empréstimos; <br> > O indivíduo que está no cadastro positivo tem uma maior [linha de crédito](#l22-avaliacao-de-credito); <br> > O indivíduo que está no cadastro positivo consegue juros menores em certas [operações bancárias](#l42-transacao). |
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
 
 ### L4 - Score do Serasa
