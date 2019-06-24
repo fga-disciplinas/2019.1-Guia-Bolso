@@ -3,7 +3,7 @@
 Este artefato busca ligar cada requisito levantado aos respectivos métodos de elicitação e modelagem utilizados na disciplina por meio da rastreabilidade 
 __Backward-from__.
 
-## metodologia 
+## Metodologia 
 
 Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir deles buscamos em todos os arquivos de modelagem, elicitação de requisitos e analise, e assim preenchemos as tabelas abaixo. Após a tabela preenchida com exceção da coluna de elo as outras colunas foram vistoriadas e assim foi percebemos quais elos estavam relacionados a cada linha das tabelas.
 
@@ -24,7 +24,7 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 
 ### Requisitos funcionais
 
-<div class="datatable"></div>
+-- <div class="datatable"></div>
 | ID | Descrição | Pré-Rastreab. | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
 | RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [RA01](../../modelagem/especificacao/#ra01-sessao-de-ajuda)| [US02](../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios), [US40](../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda)|[EF01](#ef01)|
@@ -53,11 +53,11 @@ Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e p
 | RF24 | O app sugerir formas para melhor gerir o seu dinheiro |[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|[L32](../../modelagem/lexicos/#l32-guia), [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas), [C14](../../modelagem/cenarios/#c14-verificar-dicas), [C03](../../modelagem/cenarios/#c3-criar-planejamento), [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro), [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas), [IS07](../../modelagem/istar/#is07-dicas-financeiras)|[EF24](#ef24)|
 | RF25 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |[ARG05](../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario)|[INS](../../elicitacao-de-requisitos/introspeccao/), [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral), [Q](../../elicitacao-de-requisitos/questionario/#moscow_1)|[US67](../../modelagem/backlog/#us67-exibir-blogs-de-parceiros)|[EF25](#ef25)|
 | RF26 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | --|--|--|--|
-| RF27 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |--|--|--|--|
-| RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| --|--|--|--|
-| RF29 | O app pode diminuir as propagandas na aba guia| --|--|--|--|
-| RF30 | Possibilidade de remover os cards da aba _Guia_. | --|--|--|--|
-| RF31 | Adição de guias de categorização na aba _Guia_. |--|--|--|--|
+| RF27 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |[ARG05](../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario), [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|[L32](../../modelagem/lexicos/#l32-guia), [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas), [UC21](../../modelagem/casos_de_uso/#uc21-avaliar-dicas), [C14](../../modelagem/cenarios/#c14-verificar-dicas), [C15](../../modelagem/cenarios/#c15-avaliar-dicas), [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro), [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis), [IS07](../../modelagem/istar/#is07-dicas-financeiras)|[EF27](#ef27)|
+| RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas|[PR](../../elicitacao-de-requisitos/prototipacao/#visao-do-usuario)|--|--|--|
+| RF29 | O app pode diminuir as propagandas na aba guia| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo)|--|[L32](../../modelagem/lexicos/#l32-guia), [US59](../../modelagem/backlog/#us65-visualizar-ofertas-de-credito)|[EF27](#ef29)|
+| RF30 | Possibilidade de remover os cards da aba _Guia_. |[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|--|--|--|
+| RF31 | Adição de guias de categorização na aba _Guia_. |[PR](../../elicitacao-de-requisitos/prototipacao/#guias)|--|[L32](../../modelagem/lexicos/#l32-guia)|[EF31](#ef31)|
 | RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. | --|--|--|--|
 | RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--|--|--|--|
 | RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
@@ -391,14 +391,21 @@ Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca 
 #### EF26
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Não há artefatos suficientes até o momento para gerar elos.
 
 ---
 
 #### EF27
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+ 
+Agregação: [PR](../../elicitacao-de-requisitos/prototipacao/#guias) agrega em [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)<br> 
+Agregação: [L32](../../modelagem/lexicos/#l32-guia) agrega em [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis) e [ARG05](../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario) <br> Representação: [C15](../../modelagem/cenarios/#c15-avaliar-dicas) representa [UC21](../../modelagem/casos_de_uso/#uc21-avaliar-dicas)
 
 ---
 
@@ -411,8 +418,12 @@ Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca 
 
 #### EF29
 **Categoria**:
+Desenvolvimento
 
 **Elos**:
+Agregação: [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo) agrega em [US59](../../modelagem/backlog/#us65-visualizar-ofertas-de-credito)<br>
+Representação: [L32](../../modelagem/lexicos/#l32-guia) representa [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo)
+
 
 ---
 
