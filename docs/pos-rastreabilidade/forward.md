@@ -2,6 +2,10 @@
 
 Este artefato busca ligar cada funcionalidade do guiaBolso, mostradas aqui por meio de print screens do aplicativo, ligadas aos seus respectivos requisitos.  
 
+## metodologia 
+
+Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir buscamos no [backlog](../../modelagem/backlog) o tema, o epico, a sprint e a user story relacionada a cada um dos requisitos. E por fim mostramos quando encontrado a funcionalidade ja relacionado com o app guiaBolso.
+
 ## Tabelas
 
 ### Legendas
@@ -679,3 +683,4 @@ versão móvel<br>
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 17/06/2019 | 1.0 | Construção do Backward |  [Elias](https://github.com/leossb36), [Lucas](https://github.com/lmmLucasMachado), [Sara](https://github.com/silvasara), [Marcelo](https://github.com/santosm46) ,[Rafael](https://github.com/rafaelmakaha)|
+| 24/06/2019 | 2.0 | Adicionando metodologia | [Lucas Machado](https://github.com/lmmLucasMachado) |

@@ -3,6 +3,10 @@
 Este artefato busca ligar cada requisito levantado aos respectivos métodos de elicitação e modelagem utilizados na disciplina por meio da rastreabilidade 
 __Backward-from__.
 
+## metodologia 
+
+Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir deles buscamos em todos os arquivos de modelagem, elicitação de requisitos e analise, e assim preenchemos as tabelas abaixo. Após a tabela preenchida com exceção da coluna de elo as outras colunas foram vistoriadas e assim foi percebemos quais elos estavam relacionados a cada linha das tabelas.
+
 ## Tabelas
 
 ### Legendas
@@ -59,13 +63,13 @@ __Backward-from__.
 | RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
 | RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
 | RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
-| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |--|
-| RF38 | Visualização gráfica de gastos por categoria |[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos), |--|--|
-| RF39 | Exibir diferença entre renda e gastos | [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|--|--|
-| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|--|--|--|
-| RF41 | Ter alcance de metas, como carro, casa, roupa, celular | -- |--|--|--|
-| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|--|--|--|
-| RF43 | Inserir limites de gastos por categoria | --|--|--|--|
+| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |--|
+| RF38 | Visualização gráfica de gastos por categoria |[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [INT](../../elicitacao-de-requisitos/introspeccao/) [ST](/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2)|[C1](../../modelagem/cenarios/#c1-categorizar-transacao), [C9](../../modelagem/cenarios/#c9-contas-residenciais), [EPS](../../modelagem/especificacao/#conhecimentos-previos), [UC11](../../modelagem/casos_de_uso/#uc11-categorizar-um-gasto) |--|
+| RF39 | Exibir diferença entre renda e gastos | [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [INT](../../elicitacao-de-requisitos/introspeccao/)|[L38](../../modelagem/lexicos/#c38-renda), [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos)|--|
+| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|--|[C4](../../modelagem/cenarios/#c4-realizar-abertura-do-cadastro-positivo), [UC13](../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo)|--|
+| RF41 | Ter alcance de metas, como carro, casa, roupa, celular | -- |--|[C3](../../modelagem/cenarios/#c3-criar-planejamento)|--|
+| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos)|--|--|--|
+| RF43 | Inserir limites de gastos por categoria |--|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|[C3](../../modelagem/cenarios/#c3-criar-planejamento), [L40](../../modelagem/lexicos/#c40-planejamento-financeiro), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento)|--|
 | RF44 | Notificar quando o gasto for excedido |--|--|--|--|
 | RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|--|--|--|
 | RF46 | O app deve oferecer cupons baseado na geolocalização do usuário | [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|--|--|--|
@@ -785,3 +789,4 @@ Satisfação: [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-rea
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 17/06/2019 | 1.0 | Construção do Backward | [Alan](https://github.com/alanrslima), [Leonardo](https://github.com/leossb36), [Lucas](https://github.com/lmmLucasMachado), [Sara](https://github.com/silvasara), [Shayane](https://github.com/shayanealcantara)|
+| 24/06/2019 | 2.0 | Adicionando metodologia | [Lucas Machado](https://github.com/lmmLucasMachado) |

@@ -75,6 +75,7 @@ DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline wit
 | **Descrição** | Adicionando parecer | 
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)|
 
+## Versões anteriores
 
 # Cenários
 
@@ -141,7 +142,6 @@ DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline wit
 | **Descrição** | Adicionando justificativa às perguntas | 
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)|
 
-## Versionamento
 
 # Cenários
 
