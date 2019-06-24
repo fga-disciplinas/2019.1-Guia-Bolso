@@ -2,7 +2,7 @@
 
 Este artefato busca ligar cada funcionalidade do guiaBolso, mostradas aqui por meio de print screens do aplicativo, ligadas aos seus respectivos requisitos.  
 
-## metodologia 
+## Metodologia 
 
 Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir buscamos no [backlog](../../modelagem/backlog) o tema, o epico, a sprint e a user story relacionada a cada um dos requisitos. E por fim mostramos quando encontrado a funcionalidade ja relacionado com o app guiaBolso.
 
