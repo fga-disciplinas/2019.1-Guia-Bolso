@@ -255,3 +255,9 @@ Instituições Reguladoras | - |
 ## Conclusão
 
 Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo para o GuiaBolso ficaram bons. O que mais esteve ausente nos modelos foram as relações de Make e Break. Porém, como as análises foram, em geral, feitas em um escopo pequeno, estas relações serem ausentes é justificável.
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 09/04/2019 | 1.0 | Adição da inspesão | [Elias Bernardo](https://github.com/leossb36) e [Rafael Makaha](https://github.com/rafaelmakaha)|

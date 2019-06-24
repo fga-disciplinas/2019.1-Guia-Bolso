@@ -53,3 +53,8 @@ SERRANO, Maurício. Desenvolvimento Intencional de Software Transparente Baseado
 Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf.
 
 COUTO, Anselmo; MARTINS, Luiz Eduardo. (2009). Um Processo de Validação de Requisitos Não-Funcionais Baseado no NFR-Framework. Disponível em: https://www.researchgate.net/publication/221235239_Um_Processo_de_Validacao_de_Requisitos_Nao-Funcionais_Baseado_no_NFR-Framework 
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 10/06/2019 | 1.0 | Adicionando inspeção | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
+
