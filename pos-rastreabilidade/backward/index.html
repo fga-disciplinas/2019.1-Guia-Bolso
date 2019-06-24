@@ -1967,58 +1967,414 @@
 </tbody>
 </table>
 <h3 id="requisitos-funcionais">Requisitos funcionais</h3>
-<p>-- <div class="datatable"></div>
-| ID | Descrição | Pré-Rastreab. | Elicitação | Modelagem | Elo |
-|--|--|--|--|--|--|
-| RF01 | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|--|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../modelagem/especificacao/#ra01-sessao-de-ajuda">RA01</a>| <a href="../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios">US02</a>, <a href="../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda">US40</a>|<a href="#ef01">EF01</a>|
-| RF02 | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|<a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>, <a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">RP08</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>|<a href="../../modelagem/cenarios/#c19-cadastrar-banco">C19</a>, <a href="../../modelagem/cenarios/#c24-adicionar-conta-manual">C24</a>, <a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>|<a href="#ef02">EF02</a>|
-| RF03 | O aplicativo deve permitir a adição de mais de uma conta bancária.|<a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>, <a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">RP08</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>|<a href="../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados">US26</a>, <a href="../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao">US25</a>, <a href="../../modelagem/backlog#c24-adicionar-conta-manual">US24</a>, <a href="../../modelagem/backlog#us27-remover-conta-ou-cartao">US27</a>, <a href="../../modelagem/lexicos#l33-conta-bancaria">L33</a>, <a href="../../modelagem/lexicos#l12-conta-automatica">L12</a>, <a href="../../modelagem/lexicos#l11-conta-manual">L11</a>, <a href="../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes">UC5</a>, <a href="../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual">UC9</a>, <a href="../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes">UC4</a>, <a href="../../modelagem/istar/#is02-adicionar-contas-e-cartoes">IS02</a>, <a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a> |<a href="#ef03">EF03</a>|
-| RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.|<a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">RP08</a>|--|<a href="../../modelagem/backlog#us11-elaborar-formulario">US11</a>, <a href="../../modelagem/backlog#us12-validacao-dados-de-cadastro">US12</a>, <a href="../../modelagem/backlog#us14-validacao-cadastro-duplicado">US14</a>, <a href="../../modelagem/backlog#us16-fazer-login">US16</a>, <a href="../../modelagem/backlog#us17-fazer-logout">US17</a>, <a href="../../modelagem/especificacao/#eps06-restricao-de-design">EPS06</a>, <a href="../../modelagem/casos_de_uso/#uc1-fazer-login">UC1</a>, <a href="../../modelagem/casos_de_uso/#uc2-cadastrar-login">UC2</a> |<a href="#ef04">EF04</a>|
-| RF05 | O app deve dar possibilidade de alterar as contas manualmente|--|--|<a href="../../modelagem/lexicos#l11-conta-manual">L11</a>, <a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>, <a href="../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual">UC9</a>, <a href="../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao">US25</a>, <a href="../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados">US26</a>, <a href="../../modelagem/istar/#is02-adicionar-contas-e-cartoes">IS02</a> |<a href="#ef05">EF05</a>|
-| RF06 | Permitir a criação de novas contas a partir das redes sociais do usuário |--|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>|<a href="../../modelagem/backlog/#us11-elaborar-formulario">US11</a>|<a href="#ef06">EF06</a>|
-| RF07 | O Guiabolso deve permitir adicionar a renda do mês.|<a href="../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario">RP03</a>, <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>|<a href="../../modelagem/backlog/#us46-planejar-renda">US46</a>, <a href="../../modelagem/casos_de_uso/#uc10-adicionar-planejamento">UC10</a>, <a href="../../modelagem/lexicos/#l38-renda">L38</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a> |<a href="#ef07">EF07</a>|
-| RF08 | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.|<a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/prototipacao#visao-do-usuario">PR</a>|<a href="../../modelagem/backlog/#us45-planejar-gastos">US45</a>, <a href="../../modelagem/casos_de_uso/#uc10-adicionar-planejamento">UC10</a>, <a href="../../modelagem/cenarios/#c3-criar-planejamento">C3</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a>, <a href="../../modelagem/lexicos/#l40-planejamento-financeiro">L40</a>|<a href="#ef08">EF08</a>|
-| RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.|<a href="../../pre-rastreabilidade/richpicture/#rp02-usabilidade">RP02</a>, <a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/prototipacao#visao-do-usuario">PR</a>|<a href="../../modelagem/backlog/#us60-visualizar-status-de-avaliacao-de-credito">US60</a>, <a href="../../modelagem/backlog/#us63-visualizar-empresas-que-consultaram-meu-cpf">US63</a>, <a href="../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo">UC13</a>, <a href="../../modelagem/lexicos/#l3-consultar-cpf">L3</a>, <a href="../../modelagem/lexicos/#l20-radar-cpf">L20</a>, <a href="../../modelagem/cenarios/#c6-consultar-cpf">C6</a>, <a href="../../modelagem/istar/#is05-consultar-situacao-do-cpf">IS05</a>|<a href="#ef09">EF09</a>|
-| RF10 | Disponibilização do score numérico do Serasa na aba <em>Radar CPF</em> | <a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a> <a href="../../pre-rastreabilidade/argumentacao/#arg08-serasa">ARG08</a>|<a href="../../elicitacao-de-requisitos/prototipacao">PR</a>,<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a>|<a href="modelagem/cenarios/#c6-consultar-cpf">C6</a>, <a href="/modelagem/lexicos/#l4-score-do-serasa">L4</a>, <a href="modelagem/backlog/#us61-informar-score">US61</a>|<a href="#ef10">EF10</a>|
-| RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| --|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>|--|<a href="#ef11">EF11</a>|
-| RF12 | A aba <em>Radar CPF</em> deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba |<a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a> <a href="../../pre-rastreabilidade/argumentacao/#arg08-serasa">ARG08</a>|<a href="../../elicitacao-de-requisitos/prototipacao">PR</a>, <a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a>|<a href="modelagem/cenarios/#c6-consultar-cpf">C6</a>, <a href="/modelagem/lexicos/#l4-score-do-serasa">L4</a>, <a href="modelagem/backlog/#us61-informar-score">US61</a>|<a href="#ef12">EF12</a>| 
-| RF13 | Mostrar quais empresas consultaram o CPF do usuário |<a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo">AP</a>, <a href="../../elicitacao-de-requisitos/questionario/">Q</a>|<a href="../../modelagem/cenarios/#c6-consultar-cpf">C6</a>,<a href="#uc13-visualizar-status-do-nome-limpo-ou-sujo">UC13</a>, <a href="#us63-visualizar-empresas-que-consultaram-meu-cpf">US63</a> |<a href="#ef13">EF13</a>|
-| RF14 | Permitir adição manual de transações |<a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>,<a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>|<a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>, <a href="/modelagem/lexicos/#l11-conta-manual">L11</a>, <a href="../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual">UC6</a>|<a href="#ef14">EF14</a>|
-| RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.|<a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>,<a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>|<a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>, <a href="../../modelagem/lexicos/#l13-conta-manual">L15</a>, <a href="../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual">UC6</a>|<a href="#ef15">EF15</a>|
-| RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>, <a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a> | <a href="../../elicitacao-de-requisitos/brainstorm">AD</a> |<a href="../../modelagem/backlog/#us49-meses-futuros">US49</a>, <a href="../../modelagem/lexicos/#l18-meses-futuros">L18</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a>|<a href="#ef16">EF16</a>|
-| RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|<a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a>, <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>| <a href="../../elicitacao-de-requisitos/brainstorm">AD</a> |<a href="../../modelagem/cenarios#l3-criar-planejamento">C3</a>,  <a href="../../modelagem/pos-rastreabilidade/casos_de_uso/#uc10-adicionar-planejamento">UC10</a>|<a href="#ef17">EF17</a>|
-| RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| <a href="../../pre-rastreabilidade/richpicture/#rp06-financeirodo-app">RP06</a>| <a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm">AD</a> |<a href="../../modelagem/backlog/#us47-categorizar-gastos">US47</a>, <a href="../../modelagem/backlog/#us48-categorizar-renda">US48</a>, <a href="../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria">US53</a>, <a href="../../modelagem/istar/#is06-planejamentos-de-rendas-e-gastos">IS06</a>, <a href="../../modelagem/pos-rastreabilidade/casos_de_uso/#uc7-criar-categoria">UC7</a>|<a href="#ef18">EF18</a>|
-| RF19 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a> |<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>|<a href="../../modelagem/cenarios/#l9-criar-categoria">C9</a>, <a href="../../modelagem/lexicos/#l13-usuario">L13</a>, |<a href="#ef19">EF19</a>|
-| RF20 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | -- | <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q15</a>|  <a href="../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria">US51</a> e <a href="../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria">US53</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a>| <a href="#ef20">EF20</a>|
-| RF21 | O Guiabolso deve permitir adicionar renda na "Carteira".|<a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2">ST</a>| <a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>| <a href="#ef21">EF21</a>|
-| RF22 | Colocar dicas na aba <em>Empréstimos</em> no caso de não haver empréstimos disponíveis para o usuário | <a href="../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario">R02</a> e <a href="../../pre-rastreabilidade/richpicture/#rp05-emprestimo">RP05</a>|<a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>|<a href="../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo">UC15</a>, <a href="../../modelagem/istar/#is07-dicas-financeiras">IS07</a> e <a href="../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos">UC72</a>|<a href="#ef22">EF22</a>|
-| RF23 | Categorizar as opções dentro das configurações do Guiabolso |<a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">R08</a>|<a href="../../elicitacao-de-requisitos/requisitos/#indice-geral">AD</a>|--|<a href="#ef23">EF23</a>|
-| RF24 | O app sugerir formas para melhor gerir o seu dinheiro |<a href="../../pre-rastreabilidade/richpicture/#rp07-aba-guia">RP07</a>|<a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a>|<a href="../../modelagem/lexicos/#l32-guia">L32</a>, <a href="../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas">UC20</a>, <a href="../../modelagem/cenarios/#c14-verificar-dicas">C14</a>, <a href="../../modelagem/cenarios/#c3-criar-planejamento">C03</a>, <a href="../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro">US57</a>, <a href="../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas">US58</a>, <a href="../../modelagem/istar/#is07-dicas-financeiras">IS07</a>|<a href="#ef24">EF24</a>|
-| RF25 | Criação de uma aba <em>Investimentos</em> com dicas, informações, e disponibilização de investimentos para o usuário |<a href="../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario">ARG05</a>|<a href="../../elicitacao-de-requisitos/introspeccao/">INS</a>, <a href="../../elicitacao-de-requisitos/requisitos/#indice-geral">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#moscow_1">Q</a>|<a href="../../modelagem/backlog/#us67-exibir-blogs-de-parceiros">US67</a>|<a href="#ef25">EF25</a>|
-| RF26 | Adicionar uma opção <em>"Arredondar gastos para cima"</em> para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | --|--|--|--|
-| RF27 | Categorizar os artigos da aba <em>Guia</em> e aplicar maior ênfase na opção <em>"essa informação foi útil?"</em> |<a href="../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario">ARG05</a>, <a href="../../pre-rastreabilidade/richpicture/#rp07-aba-guia">RP07</a>|<a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a>|<a href="../../modelagem/lexicos/#l32-guia">L32</a>, <a href="../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas">UC20</a>, <a href="../../modelagem/casos_de_uso/#uc21-avaliar-dicas">UC21</a>, <a href="../../modelagem/cenarios/#c14-verificar-dicas">C14</a>, <a href="../../modelagem/cenarios/#c15-avaliar-dicas">C15</a>, <a href="../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro">US57</a>, <a href="../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis">US59</a>, <a href="../../modelagem/istar/#is07-dicas-financeiras">IS07</a>|<a href="#ef27">EF27</a>|
-| RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas|<a href="../../elicitacao-de-requisitos/prototipacao/#visao-do-usuario">PR</a>|--|--|--|
-| RF29 | O app pode diminuir as propagandas na aba guia| <a href="../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo">AR</a>|--|<a href="../../modelagem/lexicos/#l32-guia">L32</a>, <a href="../../modelagem/backlog/#us65-visualizar-ofertas-de-credito">US59</a>|<a href="#ef29">EF27</a>|
-| RF30 | Possibilidade de remover os cards da aba <em>Guia</em>. |<a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a>|--|--|--|
-| RF31 | Adição de guias de categorização na aba <em>Guia</em>. |<a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a>|--|<a href="../../modelagem/lexicos/#l32-guia">L32</a>|<a href="#ef31">EF31</a>|
-| RF32 | Permitir a alteração da ordem de exibição dos cards na aba <em>Guia</em>. | --|--|--|--|
-| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |--|--|--|--|
-| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
-| RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
-| RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
-| RF37 | Ter uma aba para simulação e contratação de empréstimos |<a href="../../pre-rastreabilidade/richpicture/#rp05-emprestimo">RP05</a>, <a href="../../pre-rastreabilidade/richpicture/#rp02-usabilidade">RP02</a>| <a href="../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo">AR</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD04</a>, <a href="../../elicitacao-de-requisitos/introspeccao#persona-3-paula">I3</a> | <a href="../../modelagem/cenarios/#c8-simular-um-emprestimo">C8</a>, <a href="../../modelagem/cenarios/#c22-contratar-emprestimo">C22</a>, <a href="../../modelagem/lexicos/#c8-simular">L8</a>, <a href="../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo">UC14</a>, <a href="../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo">UC15</a>, <a href="../../modelagem/backlog/#ep16-emprestimos">EP16</a>, <a href="../../modelagem/instar/#is03-simular-um-emprestimo">IS03</a>, |<a href="#ef37">EF37</a>|
-| RF38 | Visualização gráfica de gastos por categoria |<a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a> <a href="/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2">ST</a>|<a href="../../modelagem/cenarios/#c1-categorizar-transacao">C1</a>, <a href="../../modelagem/cenarios/#c9-contas-residenciais">C9</a>, <a href="../../modelagem/especificacao/#conhecimentos-previos">EPS</a>, <a href="../../modelagem/casos_de_uso/#uc11-categorizar-um-gasto">UC11</a> |<a href="#ef38">EF38</a>|
-| RF39 | Exibir diferença entre renda e gastos | <a href="../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario">RP03</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a>|<a href="../../modelagem/lexicos/#c38-renda">L38</a>, <a href="../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos">UC23</a>|<a href="#ef39">EF39</a>|
-| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| <a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a>, <a href="../../pre-rastreabilidade/argumentacao/#arg08-serasa">ARG08</a>|--|<a href="../../modelagem/cenarios/#c4-realizar-abertura-do-cadastro-positivo">C4</a>, <a href="../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo">UC13</a>|<a href="#ef40">EF40</a>|
-| RF41 | Ter alcance de metas, como carro, casa, roupa, celular | -- |--|<a href="../../modelagem/cenarios/#c3-criar-planejamento">C3</a>|<a href="#ef41">EF41</a>|
-| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | <a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a>, <a href="../../pre-rastreabilidade/richpicture/#rp05-emprestimo">RP05</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD</a>|--|--|<a href="#ef42">EF42</a>|
-| RF43 | Inserir limites de gastos por categoria |--|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>|<a href="../../modelagem/cenarios/#c3-criar-planejamento">C3</a>, <a href="../../modelagem/lexicos/#c40-planejamento-financeiro">L40</a>, <a href="../../modelagem/casos_de_uso/#uc10-adicionar-planejamento">UC10</a>|<a href="#ef43">EF43</a>|
-| RF44 | Notificar quando o gasto for excedido |--|--|--|--|
-| RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|--|--|--|
-| RF46 | O app deve oferecer cupons baseado na geolocalização do usuário | <a href="../../pre-rastreabilidade/richpicture/#rp07-aba-guia">RP07</a>|--|--|--|
-| RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | --|--|--|--|
-| RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | --|--|--|--|
-| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>|<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>|--|--|</p>
+<div class="datatable"></div>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+<th>Pré-Rastreab.</th>
+<th>Elicitação</th>
+<th>Modelagem</th>
+<th>Elo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF01</td>
+<td>Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação</td>
+<td>--</td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../modelagem/especificacao/#ra01-sessao-de-ajuda">RA01</a></td>
+<td><a href="../../modelagem/backlog/#us02-documentar-e-agrupar-duvidas-dos-usuarios">US02</a>, <a href="../../modelagem/backlog#us40-elaborar-um-tutorial-para-usar-a-agenda">US40</a></td>
+<td><a href="#ef01">EF01</a></td>
+</tr>
+<tr>
+<td>RF02</td>
+<td>O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>, <a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">RP08</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td><a href="../../modelagem/cenarios/#c19-cadastrar-banco">C19</a>, <a href="../../modelagem/cenarios/#c24-adicionar-conta-manual">C24</a>, <a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a></td>
+<td><a href="#ef02">EF02</a></td>
+</tr>
+<tr>
+<td>RF03</td>
+<td>O aplicativo deve permitir a adição de mais de uma conta bancária.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>, <a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">RP08</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td><a href="../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados">US26</a>, <a href="../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao">US25</a>, <a href="../../modelagem/backlog#c24-adicionar-conta-manual">US24</a>, <a href="../../modelagem/backlog#us27-remover-conta-ou-cartao">US27</a>, <a href="../../modelagem/lexicos#l33-conta-bancaria">L33</a>, <a href="../../modelagem/lexicos#l12-conta-automatica">L12</a>, <a href="../../modelagem/lexicos#l11-conta-manual">L11</a>, <a href="../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes">UC5</a>, <a href="../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual">UC9</a>, <a href="../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes">UC4</a>, <a href="../../modelagem/istar/#is02-adicionar-contas-e-cartoes">IS02</a>, <a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td><a href="#ef03">EF03</a></td>
+</tr>
+<tr>
+<td>RF04</td>
+<td>O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">RP08</a></td>
+<td>--</td>
+<td><a href="../../modelagem/backlog#us11-elaborar-formulario">US11</a>, <a href="../../modelagem/backlog#us12-validacao-dados-de-cadastro">US12</a>, <a href="../../modelagem/backlog#us14-validacao-cadastro-duplicado">US14</a>, <a href="../../modelagem/backlog#us16-fazer-login">US16</a>, <a href="../../modelagem/backlog#us17-fazer-logout">US17</a>, <a href="../../modelagem/especificacao/#eps06-restricao-de-design">EPS06</a>, <a href="../../modelagem/casos_de_uso/#uc1-fazer-login">UC1</a>, <a href="../../modelagem/casos_de_uso/#uc2-cadastrar-login">UC2</a></td>
+<td><a href="#ef04">EF04</a></td>
+</tr>
+<tr>
+<td>RF05</td>
+<td>O app deve dar possibilidade de alterar as contas manualmente</td>
+<td>--</td>
+<td>--</td>
+<td><a href="../../modelagem/lexicos#l11-conta-manual">L11</a>, <a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>, <a href="../../modelagem/casos_de_uso/#uc9-adicionar-conta-bancaria-e-manual">UC9</a>, <a href="../../modelagem/backlog#us25-cadastrar-uma-nova-conta-ou-cartao">US25</a>, <a href="../../modelagem/backlog#us26-visualizar-contas-e-cartoes-cadastrados">US26</a>, <a href="../../modelagem/istar/#is02-adicionar-contas-e-cartoes">IS02</a></td>
+<td><a href="#ef05">EF05</a></td>
+</tr>
+<tr>
+<td>RF06</td>
+<td>Permitir a criação de novas contas a partir das redes sociais do usuário</td>
+<td>--</td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td><a href="../../modelagem/backlog/#us11-elaborar-formulario">US11</a></td>
+<td><a href="#ef06">EF06</a></td>
+</tr>
+<tr>
+<td>RF07</td>
+<td>O Guiabolso deve permitir adicionar a renda do mês.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario">RP03</a>, <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a></td>
+<td><a href="../../modelagem/backlog/#us46-planejar-renda">US46</a>, <a href="../../modelagem/casos_de_uso/#uc10-adicionar-planejamento">UC10</a>, <a href="../../modelagem/lexicos/#l38-renda">L38</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a></td>
+<td><a href="#ef07">EF07</a></td>
+</tr>
+<tr>
+<td>RF08</td>
+<td>O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/prototipacao#visao-do-usuario">PR</a></td>
+<td><a href="../../modelagem/backlog/#us45-planejar-gastos">US45</a>, <a href="../../modelagem/casos_de_uso/#uc10-adicionar-planejamento">UC10</a>, <a href="../../modelagem/cenarios/#c3-criar-planejamento">C3</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a>, <a href="../../modelagem/lexicos/#l40-planejamento-financeiro">L40</a></td>
+<td><a href="#ef08">EF08</a></td>
+</tr>
+<tr>
+<td>RF09</td>
+<td>O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp02-usabilidade">RP02</a>, <a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/prototipacao#visao-do-usuario">PR</a></td>
+<td><a href="../../modelagem/backlog/#us60-visualizar-status-de-avaliacao-de-credito">US60</a>, <a href="../../modelagem/backlog/#us63-visualizar-empresas-que-consultaram-meu-cpf">US63</a>, <a href="../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo">UC13</a>, <a href="../../modelagem/lexicos/#l3-consultar-cpf">L3</a>, <a href="../../modelagem/lexicos/#l20-radar-cpf">L20</a>, <a href="../../modelagem/cenarios/#c6-consultar-cpf">C6</a>, <a href="../../modelagem/istar/#is05-consultar-situacao-do-cpf">IS05</a></td>
+<td><a href="#ef09">EF09</a></td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>Disponibilização do score numérico do Serasa na aba <em>Radar CPF</em></td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a> <a href="../../pre-rastreabilidade/argumentacao/#arg08-serasa">ARG08</a></td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao">PR</a>,<a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a></td>
+<td><a href="modelagem/cenarios/#c6-consultar-cpf">C6</a>, <a href="/modelagem/lexicos/#l4-score-do-serasa">L4</a>, <a href="modelagem/backlog/#us61-informar-score">US61</a></td>
+<td><a href="#ef10">EF10</a></td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.</td>
+<td>--</td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td>--</td>
+<td><a href="#ef11">EF11</a></td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>A aba <em>Radar CPF</em> deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a> <a href="../../pre-rastreabilidade/argumentacao/#arg08-serasa">ARG08</a></td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao">PR</a>, <a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a></td>
+<td><a href="modelagem/cenarios/#c6-consultar-cpf">C6</a>, <a href="/modelagem/lexicos/#l4-score-do-serasa">L4</a>, <a href="modelagem/backlog/#us61-informar-score">US61</a></td>
+<td><a href="#ef12">EF12</a></td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>Mostrar quais empresas consultaram o CPF do usuário</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo">AP</a>, <a href="../../elicitacao-de-requisitos/questionario/">Q</a></td>
+<td><a href="../../modelagem/cenarios/#c6-consultar-cpf">C6</a>,<a href="#uc13-visualizar-status-do-nome-limpo-ou-sujo">UC13</a>, <a href="#us63-visualizar-empresas-que-consultaram-meu-cpf">US63</a></td>
+<td><a href="#ef13">EF13</a></td>
+</tr>
+<tr>
+<td>RF14</td>
+<td>Permitir adição manual de transações</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>,<a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a></td>
+<td><a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>, <a href="/modelagem/lexicos/#l11-conta-manual">L11</a>, <a href="../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual">UC6</a></td>
+<td><a href="#ef14">EF14</a></td>
+</tr>
+<tr>
+<td>RF15</td>
+<td>Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>,<a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a></td>
+<td><a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a>, <a href="../../modelagem/lexicos/#l13-conta-manual">L15</a>, <a href="../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual">UC6</a></td>
+<td><a href="#ef15">EF15</a></td>
+</tr>
+<tr>
+<td>RF16</td>
+<td>O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a>, <a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a></td>
+<td><a href="../../elicitacao-de-requisitos/brainstorm">AD</a></td>
+<td><a href="../../modelagem/backlog/#us49-meses-futuros">US49</a>, <a href="../../modelagem/lexicos/#l18-meses-futuros">L18</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a></td>
+<td><a href="#ef16">EF16</a></td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.</td>
+<td><a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a>, <a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/brainstorm">AD</a></td>
+<td><a href="../../modelagem/cenarios#l3-criar-planejamento">C3</a>,  <a href="../../modelagem/pos-rastreabilidade/casos_de_uso/#uc10-adicionar-planejamento">UC10</a></td>
+<td><a href="#ef17">EF17</a></td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeirodo-app">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm">AD</a></td>
+<td><a href="../../modelagem/backlog/#us47-categorizar-gastos">US47</a>, <a href="../../modelagem/backlog/#us48-categorizar-renda">US48</a>, <a href="../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria">US53</a>, <a href="../../modelagem/istar/#is06-planejamentos-de-rendas-e-gastos">IS06</a>, <a href="../../modelagem/pos-rastreabilidade/casos_de_uso/#uc7-criar-categoria">UC7</a></td>
+<td><a href="#ef18">EF18</a></td>
+</tr>
+<tr>
+<td>RF19</td>
+<td>Ao escolher a categoria que não existe, ser mostrado categorias parecidas</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a></td>
+<td><a href="../../modelagem/cenarios/#l9-criar-categoria">C9</a>, <a href="../../modelagem/lexicos/#l13-usuario">L13</a>,</td>
+<td><a href="#ef19">EF19</a></td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário</td>
+<td>--</td>
+<td><a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q15</a></td>
+<td><a href="../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria">US51</a> e <a href="../../modelagem/backlog/#us53-renda-dos-ultimos-meses-por-categoria">US53</a>, <a href="../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos">IS06</a></td>
+<td><a href="#ef20">EF20</a></td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>O Guiabolso deve permitir adicionar renda na "Carteira".</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2">ST</a></td>
+<td><a href="../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual">C2</a></td>
+<td><a href="#ef21">EF21</a></td>
+</tr>
+<tr>
+<td>RF22</td>
+<td>Colocar dicas na aba <em>Empréstimos</em> no caso de não haver empréstimos disponíveis para o usuário</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario">R02</a> e <a href="../../pre-rastreabilidade/richpicture/#rp05-emprestimo">RP05</a></td>
+<td><a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos">AD</a></td>
+<td><a href="../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo">UC15</a>, <a href="../../modelagem/istar/#is07-dicas-financeiras">IS07</a> e <a href="../../modelagem/backlog/#us72-disponibilizar-ofertas-de-emprestimos">UC72</a></td>
+<td><a href="#ef22">EF22</a></td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>Categorizar as opções dentro das configurações do Guiabolso</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp08-configuracoes">R08</a></td>
+<td><a href="../../elicitacao-de-requisitos/requisitos/#indice-geral">AD</a></td>
+<td>--</td>
+<td><a href="#ef23">EF23</a></td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>O app sugerir formas para melhor gerir o seu dinheiro</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp07-aba-guia">RP07</a></td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a></td>
+<td><a href="../../modelagem/lexicos/#l32-guia">L32</a>, <a href="../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas">UC20</a>, <a href="../../modelagem/cenarios/#c14-verificar-dicas">C14</a>, <a href="../../modelagem/cenarios/#c3-criar-planejamento">C03</a>, <a href="../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro">US57</a>, <a href="../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas">US58</a>, <a href="../../modelagem/istar/#is07-dicas-financeiras">IS07</a></td>
+<td><a href="#ef24">EF24</a></td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>Criação de uma aba <em>Investimentos</em> com dicas, informações, e disponibilização de investimentos para o usuário</td>
+<td><a href="../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario">ARG05</a></td>
+<td><a href="../../elicitacao-de-requisitos/introspeccao/">INS</a>, <a href="../../elicitacao-de-requisitos/requisitos/#indice-geral">AD</a>, <a href="../../elicitacao-de-requisitos/questionario/#moscow_1">Q</a></td>
+<td><a href="../../modelagem/backlog/#us67-exibir-blogs-de-parceiros">US67</a></td>
+<td><a href="#ef25">EF25</a></td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>Adicionar uma opção <em>"Arredondar gastos para cima"</em> para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>Categorizar os artigos da aba <em>Guia</em> e aplicar maior ênfase na opção <em>"essa informação foi útil?"</em></td>
+<td><a href="../../pre-rastreabilidade/argumentacao/#arg05-dicas-para-o-usuario">ARG05</a>, <a href="../../pre-rastreabilidade/richpicture/#rp07-aba-guia">RP07</a></td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a></td>
+<td><a href="../../modelagem/lexicos/#l32-guia">L32</a>, <a href="../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas">UC20</a>, <a href="../../modelagem/casos_de_uso/#uc21-avaliar-dicas">UC21</a>, <a href="../../modelagem/cenarios/#c14-verificar-dicas">C14</a>, <a href="../../modelagem/cenarios/#c15-avaliar-dicas">C15</a>, <a href="../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro">US57</a>, <a href="../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis">US59</a>, <a href="../../modelagem/istar/#is07-dicas-financeiras">IS07</a></td>
+<td><a href="#ef27">EF27</a></td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas</td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao/#visao-do-usuario">PR</a></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF29</td>
+<td>O app pode diminuir as propagandas na aba guia</td>
+<td><a href="../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo">AR</a></td>
+<td>--</td>
+<td><a href="../../modelagem/lexicos/#l32-guia">L32</a>, <a href="../../modelagem/backlog/#us65-visualizar-ofertas-de-credito">US59</a></td>
+<td><a href="#ef29">EF27</a></td>
+</tr>
+<tr>
+<td>RF30</td>
+<td>Possibilidade de remover os cards da aba <em>Guia</em>.</td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF31</td>
+<td>Adição de guias de categorização na aba <em>Guia</em>.</td>
+<td><a href="../../elicitacao-de-requisitos/prototipacao/#guias">PR</a></td>
+<td>--</td>
+<td><a href="../../modelagem/lexicos/#l32-guia">L32</a></td>
+<td><a href="#ef31">EF31</a></td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>Permitir a alteração da ordem de exibição dos cards na aba <em>Guia</em>.</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF33</td>
+<td>Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>Permitir ao usuário escoher quais abas ele quer ver</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF36</td>
+<td>Oferecer uma consultoria financeira através de dicas e avisos</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF37</td>
+<td>Ter uma aba para simulação e contratação de empréstimos</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp05-emprestimo">RP05</a>, <a href="../../pre-rastreabilidade/richpicture/#rp02-usabilidade">RP02</a></td>
+<td><a href="../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo">AR</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD04</a>, <a href="../../elicitacao-de-requisitos/introspeccao#persona-3-paula">I3</a></td>
+<td><a href="../../modelagem/cenarios/#c8-simular-um-emprestimo">C8</a>, <a href="../../modelagem/cenarios/#c22-contratar-emprestimo">C22</a>, <a href="../../modelagem/lexicos/#c8-simular">L8</a>, <a href="../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo">UC14</a>, <a href="../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo">UC15</a>, <a href="../../modelagem/backlog/#ep16-emprestimos">EP16</a>, <a href="../../modelagem/instar/#is03-simular-um-emprestimo">IS03</a>,</td>
+<td><a href="#ef37">EF37</a></td>
+</tr>
+<tr>
+<td>RF38</td>
+<td>Visualização gráfica de gastos por categoria</td>
+<td><a href="../../pre-rastreabilidade/argumentacao/#arg02-extrato">ARG02</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/questionario/#requisitos-elicitados">Q</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a> <a href="/elicitacao-de-requisitos/storytelling/#requisitos-elicitados_2">ST</a></td>
+<td><a href="../../modelagem/cenarios/#c1-categorizar-transacao">C1</a>, <a href="../../modelagem/cenarios/#c9-contas-residenciais">C9</a>, <a href="../../modelagem/especificacao/#conhecimentos-previos">EPS</a>, <a href="../../modelagem/casos_de_uso/#uc11-categorizar-um-gasto">UC11</a></td>
+<td><a href="#ef38">EF38</a></td>
+</tr>
+<tr>
+<td>RF39</td>
+<td>Exibir diferença entre renda e gastos</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario">RP03</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD</a>, <a href="../../elicitacao-de-requisitos/introspeccao/">INT</a></td>
+<td><a href="../../modelagem/lexicos/#c38-renda">L38</a>, <a href="../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos">UC23</a></td>
+<td><a href="#ef39">EF39</a></td>
+</tr>
+<tr>
+<td>RF40</td>
+<td>Ter alertas importantes, como negativação, protesto ou crédito concedido</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a>, <a href="../../pre-rastreabilidade/argumentacao/#arg08-serasa">ARG08</a></td>
+<td>--</td>
+<td><a href="../../modelagem/cenarios/#c4-realizar-abertura-do-cadastro-positivo">C4</a>, <a href="../../modelagem/casos_de_uso/#uc13-visualizar-status-do-nome-limpo-ou-sujo">UC13</a></td>
+<td><a href="#ef40">EF40</a></td>
+</tr>
+<tr>
+<td>RF41</td>
+<td>Ter alcance de metas, como carro, casa, roupa, celular</td>
+<td>--</td>
+<td>--</td>
+<td><a href="../../modelagem/cenarios/#c3-criar-planejamento">C3</a></td>
+<td><a href="#ef41">EF41</a></td>
+</tr>
+<tr>
+<td>RF42</td>
+<td>Ter perfis de usuário, por exemplo, bom administrador, bom investidor</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp09-radar-cpf">RP09</a>, <a href="../../pre-rastreabilidade/richpicture/#rp05-emprestimo">RP05</a>, <a href="../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos">AD</a></td>
+<td>--</td>
+<td>--</td>
+<td><a href="#ef42">EF42</a></td>
+</tr>
+<tr>
+<td>RF43</td>
+<td>Inserir limites de gastos por categoria</td>
+<td>--</td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td><a href="../../modelagem/cenarios/#c3-criar-planejamento">C3</a>, <a href="../../modelagem/lexicos/#c40-planejamento-financeiro">L40</a>, <a href="../../modelagem/casos_de_uso/#uc10-adicionar-planejamento">UC10</a></td>
+<td><a href="#ef43">EF43</a></td>
+</tr>
+<tr>
+<td>RF44</td>
+<td>Notificar quando o gasto for excedido</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF45</td>
+<td>O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF46</td>
+<td>O app deve oferecer cupons baseado na geolocalização do usuário</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp07-aba-guia">RP07</a></td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF47</td>
+<td>Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF48</td>
+<td>Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+<td>--</td>
+</tr>
+<tr>
+<td>RF49</td>
+<td>O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual</td>
+<td><a href="../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba">RP06</a></td>
+<td><a href="../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario">AP</a></td>
+<td>--</td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
 <h3 id="requisitos-nao-funcionais">Requisitos Não funcionais</h3>
 <div class="datatable"></div>
 
