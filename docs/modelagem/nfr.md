@@ -20,6 +20,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR01** | **Atores**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/05) <br> Anterior: --|
+| **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 
@@ -39,6 +40,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR02** | **Atores**|
 |--|--|
 | **Versão**| 1.0 (29/05) <br> Anterior: --|
+| **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de portabilidade
@@ -58,6 +60,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR03** | **Atores**|
 |--|--|
 | **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
+| **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de desempenho
@@ -77,6 +80,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR04** | **Atores**|
 |--|--|
 | **Versão**| 1.0 (27/05) <br> Anterior: --|
+| **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de Design
@@ -136,6 +140,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 | **NFR07** | **Atores**|
 |--|--|
 | **Versão**| 1.0 (29/05) <br> Anterior: --|
+| **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
 | **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
 
 ### Análise do NFR de seguranca
