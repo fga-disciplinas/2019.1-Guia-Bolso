@@ -78,23 +78,23 @@ __Backward-from__.
 <div class="datatable"></div>
 | ID | Descrição | Pré-Rastreab. | Elicitação | Modelagem | Elo |
 |--|--|--|--|--|--|
-| NF01 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|--|[NF01](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta), [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design),<br>[UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-usuario), [UC13](../../modelagem/cenarios/#c13-criar-uma-conta),<br>[EP03](../../modelagem/backlog/#ep03-cadastro), [US11](../../modelagem/backlog/#us11-elaborar-formulario),<br> [US12](../../modelagem/backlog/#us12-validacao-dados-de-cadastro) & [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) |--|
-| NF02 |O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.|[ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)|[NF02](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[L26](../../modelagem/lexicos/#l26-chave-de-seguranca),[EPS03](../../modelagem/especificacao/#eps03-confiabilidade),<br>[UC16](../../modelagem/casos_de_uso/#uc16-adicionar-codigo-de-seguranca), [EP08](../../modelagem/backlog/#ep08-troca-de-dados) &<br>[NFR07](../../modelagem/nfr/#nfr07-seguranca)|--|
-| NF03 |O Guiabolso deve ter um design elegante e intuitivo. |--|[NF03](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS06](../../modelagem/especificacao/#eps06-restricao-de-design) & [NFR04](../../modelagem/nfr/#nfr04-design)|--|
-| NF04 |A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro.|--|[NF04](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS03](../../modelagem/especificacao/#eps03-confiabilidade), [EP08](../../modelagem/backlog/#ep08-troca-de-dados) &<br> [NFR01](../../modelagem/nfr/#nfr01-suportabilidade)|--|
-| NF05 |A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) &<br>[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[NF05](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C12](../..//modelagem/cenarios/#c12-ir-para-extrato), [L21](../../modelagem/lexicos/#l21-extrato),<br> [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design), [UC3](../../modelagem/casos_de_uso/#uc3-visualizar-extrato),<br> [EP09](../../modelagem/backlog/#ep09-extrato), [IS10](../../modelagem/istar/#is10-visualizar-extrato)|--|
-| NF06 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[NF06](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C19](../..//modelagem/cenarios/#c19-cadastrar-banco), [C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes),<br>[L10](../../modelagem/lexicos/#l10-pausar-cartao), [L27](../../modelagem/lexicos/#l27-cartao-de-debito),<br>[L28](../../modelagem/lexicos/#l28-cartao-de-credito), [L33](../../modelagem/lexicos/#l33-conta-bancaria),<br>[UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes), [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes),<br>[UC6](../..//modelagem/casos_de_uso/#uc6-adicionar-transacao-manual), [UC8](../../modelagem/casos_de_uso/#uc8-editar-transacao),<br> [UC17](../../modelagem/casos_de_uso/#uc17-ignorar-transacao), [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos),<br>[IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) & [IS08](../../modelagem/istar/#is08-transacoes)|--|
-| NF07 | Padronizar a identidade visual do aplicativo entre as diversas plataformas |--|[PR](../../elicitacao-de-requisitos/prototipacao/), [NF07](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[PA](../../modelagem/especificacao/#padroes-aplicaveis)|--|
-| NF08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) |--|[NF08](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C3](../../modelagem/cenarios/#c3-criar-planejamento), [L23](../../modelagem/lexicos/#l23-meta),<br>[L40](../../modelagem/lexicos/#l40-planejamento-financeiro), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento),<br>[EP11](../../modelagem/backlog/#ep11-planejamento) & [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)|--|
-| NF09 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) |--|[NF09](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
-| NF10 | O app deve padronizar a utilização nos dispositivos android e no IOS|--|[PR](../../elicitacao-de-requisitos/prototipacao/), [NF10](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
-| NF11 | O app deve ser mais intuitivo| [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) | [PR](../../elicitacao-de-requisitos/prototipacao/) & [NF11](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)| [EPS02](../../modelagem/especificacao/#eps02-usabilidade), [US01](../../modelagem/backlog/#us01-elaborar-testes-de-usabilidade) &<br>[NFR06](../../modelagem/nfr/#nfr06-usabilidade) |--|
-| NF12 | O app deve reduzir as propagandas na aba guia|[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) & [ARG06](../../pre-rastreabilidade/argumentacao/#arg06-anuncios-no-app)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias) & [NF12](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C14](../../modelagem/cenarios/#c14-verificar-dicas), [C15](../../modelagem/cenarios/#c15-avaliar-dicas),<br>[L32](../../modelagem/lexicos/#l32-guia), [EPS04](../../modelagem/especificacao/#localizacao),<br>[US20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas), [US21](../../modelagem/casos_de_uso/#uc21-avaliar-dicas),<br>[EP15](../../modelagem/backlog/#ep15-propagandas) & [IS07](../../modelagem/istar/#is07-dicas-financeiras)|--|
-| NF13 |  Mais opções de visualização nos gráficos de rendas e gastos |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF13](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C9](../../modelagem/cenarios/#c9-criar-categoria), [EPS02](../../modelagem/especificacao/#eps02-usabilidade),<br>[UC07](../../modelagem/casos_de_uso/#uc7-criar-categoria), [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) &<br>[US53](../../modelagem/backlog/#us53-rendas-dos-ultimos-por-categoria)|--|
-| NF14 | Ter uma versão web |--|[NF14](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|--|
-| NF15 | Rapidez e facilidade no uso |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF15](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS02](../../modelagem/especificacao/#eps02-usabilidade), [EPS04](../../modelagem/especificacao/#eps04-desempenho),<br>[NFR03](../../modelagem/nfr/#nfr03-desempenho) & [NFR06](../../modelagem/nfr/#nfr06-usabilidade) |--|
-| NF16 | Ter um extrato bem organizado e categorizado |--|[NF16](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS02](../../modelagem/especificacao/#eps02-usabilidade), [US01](../../modelagem/backlog/#us01-elaborar-testes-de-usabilidade)&<br>[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|--|
-| NF17 | O app na parte de guia deve exibir os cards pela ordem de relevância  |--|[NF17](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias), [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis)|--|
+| NF01 |O Guiabolso deve permitir o cadastro de usuários com poucos dados, como e-mail, telefone e senha.|--|[NF01](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta), [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design),<br>[UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-usuario), [EP03](../../modelagem/backlog/#ep03-cadastro),<br>[US11](../../modelagem/backlog/#us11-elaborar-formulario) & [US12](../../modelagem/backlog/#us12-validacao-dados-de-cadastro)| [ENF01](#enf01)|
+| NF02 |O Guiabolso deve oferecer confiabilidade para o usuário ao inserir dados sensíveis na plataforma.|[ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)|[NF02](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[L26](../../modelagem/lexicos/#l26-chave-de-seguranca), [C16](../../modelagem/cenarios/#c16-adicionar-codigo-de-seguranca),<br>[EPS03](../../modelagem/especificacao/#eps03-confiabilidade), [UC16](../../modelagem/casos_de_uso/#uc16-adicionar-codigo-de-seguranca),<br>[EP08](../../modelagem/backlog/#ep08-troca-de-dados) & [NFR07](../../modelagem/nfr/#nfr07-seguranca)|[ENF02](#enf02)|
+| NF03 |O Guiabolso deve ter um design elegante e intuitivo. |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF03](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS06](../../modelagem/especificacao/#eps06-restricao-de-design) & [NFR04](../../modelagem/nfr/#nfr04-design)|[ENF03](#enf03)|
+| NF04 |A lista de bancos deve ser constantemente atualizada para cobrir o máximo de bancos disponíveis no mercado financeiro.|--|[NF04](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS03](../../modelagem/especificacao/#eps03-confiabilidade), [EP08](../../modelagem/backlog/#ep08-troca-de-dados) &<br> [NFR01](../../modelagem/nfr/#nfr01-suportabilidade)|[ENF04](#enf04)|
+| NF05 |A visualização do extrato das movimentações do usuário poderá ser por meio de gráficos intuitivos.|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade), [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) &<br>[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[NF05](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C12](../../modelagem/cenarios/#c12-ir-para-extrato), [L21](../../modelagem/lexicos/#l21-extrato),<br> [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design), [UC3](../../modelagem/casos_de_uso/#uc3-visualizar-extrato),<br> [EP09](../../modelagem/backlog/#ep09-extrato), [IS10](../../modelagem/istar/#is10-visualizar-extrato)|[ENF05](#enf05)|
+| NF06 | O aplicativo deve permitir a gerência financeira das contas/cartões de forma individual |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) & [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[NF06](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)| [C1](../../modelagem/cenarios/#c1-categorizar-transacao), [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual),<br>[C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao), [C18](../../modelagem/cenarios/#c18-editar-transacao), [C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes),<br>[L10](../../modelagem/lexicos/#l10-pausar-cartao), [L27](../../modelagem/lexicos/#l27-cartao-de-debito),<br>[L28](../../modelagem/lexicos/#l28-cartao-de-credito), [L33](../../modelagem/lexicos/#l33-conta-bancaria),<br>[UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes), [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes),<br>[UC6](../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual), [UC8](../../modelagem/casos_de_uso/#uc8-editar-transacao),<br> [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos), [EP07](../../modelagem/backlog/#ep07-contas-e-cartoes),<br>[IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) & [IS08](../../modelagem/istar/#is08-transacoes)|[ENF06](#enf06)|
+| NF07 | Padronizar a identidade visual do aplicativo entre as diversas plataformas |--|[PR](../../elicitacao-de-requisitos/prototipacao/), [NF07](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS06](../../modelagem/especificacao/#eps06-restricao-de-design), [EPS09](../../modelagem/especificacao/#eps09-padroes-aplicaveis) & [EPS10](../../modelagem/especificacao/#eps10-interfaces)|[ENF07](#enf07)|
+| NF08 | Disponibilizar de forma mais eficiente as informações comparativas entre o mês atual e meses anteriores (gastos e rendas) |--|[NF08](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C3](../../modelagem/cenarios/#c3-criar-planejamento), [L23](../../modelagem/lexicos/#l23-meta),<br>[L40](../../modelagem/lexicos/#l40-planejamento-financeiro), [UC10](../../modelagem/casos_de_uso/#uc10-adicionar-planejamento),<br>[EP11](../../modelagem/backlog/#ep11-planejamento) & [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos)|[ENF08](#enf08)|
+| NF09 | O app deve automatizar a conexão com o banco e não depender da chave de segurança (Bradesco) |--|[NF09](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|[ENF09](#enf09)|
+| NF10 | O app deve padronizar a utilização nos dispositivos android e no IOS|--|[PR](../../elicitacao-de-requisitos/prototipacao/), [NF10](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|[ENF10](#enf10)|
+| NF11 | O app deve ser mais intuitivo| [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) | [PR](../../elicitacao-de-requisitos/prototipacao/) & [NF11](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)| [EPS02](../../modelagem/especificacao/#eps02-usabilidade), [US01](../../modelagem/backlog/#us01-elaborar-testes-de-usabilidade) &<br>[NFR06](../../modelagem/nfr/#nfr06-usabilidade) |[ENF11](#enf11)|
+| NF12 | O app deve reduzir as propagandas na aba guia|[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) & [ARG06](../../pre-rastreabilidade/argumentacao/#arg06-anuncios-no-app)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias) & [NF12](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C14](../../modelagem/cenarios/#c14-verificar-dicas), [C15](../../modelagem/cenarios/#c15-avaliar-dicas),<br>[L32](../../modelagem/lexicos/#l32-guia), [EPS04](../../modelagem/especificacao/#localizacao),<br>[US20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas), [US21](../../modelagem/casos_de_uso/#uc21-avaliar-dicas),<br>[EP15](../../modelagem/backlog/#ep15-propagandas) & [IS07](../../modelagem/istar/#is07-dicas-financeiras)|[ENF12](#enf12)|
+| NF13 |  Mais opções de visualização nos gráficos de rendas e gastos |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF13](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[C9](../../modelagem/cenarios/#c9-criar-categoria), [EPS02](../../modelagem/especificacao/#eps02-usabilidade),<br>[UC07](../../modelagem/casos_de_uso/#uc7-criar-categoria), [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria), <br>[US53](../../modelagem/backlog/#us53-rendas-dos-ultimos-por-categoria) & [EP12](../../modelagem/backlog/#ep12-estatisticas)|[ENF13](#enf13)|
+| NF14 | Ter uma versão web |--|[NF14](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|--|[ENF14](#enf14)|
+| NF15 | Rapidez e facilidade no uso |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF15](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS02](../../modelagem/especificacao/#eps02-usabilidade), [EPS04](../../modelagem/especificacao/#eps04-desempenho),<br>[NFR03](../../modelagem/nfr/#nfr03-desempenho) & [NFR06](../../modelagem/nfr/#nfr06-usabilidade) |[ENF15](#enf15)|
+| NF16 | Ter um extrato bem organizado e categorizado |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF16](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[EPS02](../../modelagem/especificacao/#eps02-usabilidade), [US01](../../modelagem/backlog/#us01-elaborar-testes-de-usabilidade)&<br>[NFR06](../../modelagem/nfr/#nfr06-usabilidade)|[ENF16](#enf16)|
+| NF17 | O app na parte de guia deve exibir os cards pela ordem de relevância  |[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[NF17](../../elicitacao-de-requisitos/requisitos/#tabela-de-requisitos-nao-funcionais)|[PR](../../elicitacao-de-requisitos/prototipacao/#guias), [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis)|[ENF17](#enf17)|
 
 ### Elos Funcionais
 
@@ -135,6 +135,7 @@ Desenvolvimento
 
 Representação: [UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-login) representa [US11](../../modelagem/backlog#us11-elaborar-formulario)<br>
 Recurso: [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design) demanda [US11](../../modelagem/backlog#us11-elaborar-formulario)<br>Recurso: [US16](../../modelagem/backlog#us16-fazer-login) demanda [US11](../../modelagem/backlog#us11-elaborar-formulario)<br> Agregação: [US11](../../modelagem/backlog#us11-elaborar-formulario) agrega [US12](../../modelagem/backlog#us12-validacao-dados-de-cadastro)<br>Agregação: [US11](../../modelagem/backlog#us11-elaborar-formulario) agrega [US14](../../modelagem/backlog#us14-validacao-cadastro-duplicado).
+
 ---
 
 #### EF05
@@ -246,6 +247,7 @@ Agregação: [AP](../../elicitacao-de-requisitos/analise-de-protocolo) agregaç�
 Recurso: [US63](#us63-visualizar-empresas-que-consultaram-meu-cpf) demanda [C6](../../modelagem/cenarios/#c6-consultar-cpf)
 
 Recurso: [UC13](#uc13-visualizar-status-do-nome-limpo-ou-sujo) demanda [C6](../../modelagem/cenarios/#c6-consultar-cpf)
+
 ---
 
 #### EF14
@@ -253,7 +255,7 @@ Recurso: [UC13](#uc13-visualizar-status-do-nome-limpo-ou-sujo) demanda [C6](../.
 
 **Elos**:
 
-Recurso: [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual) requer [L11](/modelagem/lexicos/#l11-conta-manual) 
+Recurso: [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual) requer [L11](/modelagem/lexicos/#l11-conta-manual)
 
 Agregação: [ARG02](pre-rastreabilidade/argumentacao/#arg02-extrato) agrega [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)
 
@@ -527,119 +529,227 @@ Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca 
 #### ENF01
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [UC02](../../modelagem/casos_de_uso/#uc2-cadastrar-usuario) satisfaz [C13](../../modelagem/cenarios/#c13-criar-uma-conta)<br>
+Satisfação: [C13](../../modelagem/cenarios/#c13-criar-uma-conta) satisfaz [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design)<br>
+Satisfação: [EP03](../../modelagem/backlog/#ep03-cadastro) satisfaz [C13](../../modelagem/cenarios/#c13-criar-uma-conta)<br>
+Representação: [UC2](../../modelagem/casos_de_uso/#uc2-cadastrar-usuario) representa [C13](../../modelagem/cenarios/#c13-criar-uma-conta)<br>
+Alocado: [US11](../../modelagem/casos_de_uso/#uc2-cadastrar-usuario) & [US12](../../modelagem/backlog/#us12-validacao-dados-de-cadastro) estão alocadas em [EP03](../../modelagem/backlog/#ep03-cadastro) do Backlog do produto [Sprint 1](../../modelagem/backlog/#sprint-1)
 
 ---
 
 #### ENF02
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [EPS03](../../modelagem/especificacao/#eps03-confiabilidade) satisfaz [ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)<br>
+Satisfação: [UC16](../../modelagem/casos_de_uso/#uc16-adicionar-codigo-de-seguranca) satisfaz [ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)<br>
+Satisfação: [NFR07](../../modelagem/nfr/#nfr07-seguranca) satisfaz [ARG01](../../pre-rastreabilidade/argumentacao/#arg01-privacidade-do-usuario)<br>
+Satisfação: [EP08](../../modelagem/backlog/#ep08-troca-de-dados) satisfaz [C16](../../modelagem/cenarios/#c16-adicionar-codigo-de-seguranca)<br>
+Representação: [UC16](../../casos_de_uso/#uc16-adicionar-codigo-de-seguranca) representa [C16](../../modelagem/cenarios/#c16-adicionar-codigo-de-seguranca)
 
 ---
 
 #### ENF03
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) satisfaz [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design)<br>
+Satisfaz: [NFR04](../../modelagem/especificacao/#eps06-restricao-de-design) satisfaz [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)
 
 ---
 
 #### ENF04
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [NFR01](../../modelagem/nfr/#nfr01-suportabilidade) satisfaz [EPS03](../../modelagem/especificacao/#eps03-confiabilidade)<br>
+Satisfação: [EP08](../../modelagem/backlog/#ep08-troca-de-dados) satisfaz [EPS03](../../modelagem/especificacao/#eps03-confiabilidade)
 
 ---
 
 #### ENF05
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato) satisfaz [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Satisfação: [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design) satisfaz [C12](../../modelagem/cenarios/#c12-ir-para-extrato)<br>
+Satisfação: [C12](../../modelagem/cenarios/#c12-ir-para-extrato) satisfaz [ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)<br>
+Representação: [UC3](../../modelagem/casos_de_uso/#uc3-visualizar-extrato) representa [C12](../../modelagem/cenarios/#c12-ir-para-extrato)<br>
+Representação: [IS10](../../modelagem/istar/#is10-visualizar-extrato) representa [UC3](../../modelagem/casos_de_uso/#uc3-visualizar-extrato)<br>
+Alocado: [EP09](../../modelagem/backlog/#ep09-extrato) está alocado em [UC3](../../modelagem/casos_de_uso/#uc3-visualizar-extrato) do Backlog do produto [sprint 6](../../modelagem/backlog/#sprint-6)<br>
+Agregação: Tomando como base o richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) pode ser composto de um richpicture, tem-se que o richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) é composto pelo richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) que realiza em específico as operações de extrato.<br>
 
 ---
 
 #### ENF06
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes) & [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes) satisfazem [C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes)<br>
+Satisfação: [UC6](../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual), [UC08](../../modelagem/casos_de_uso/#uc8-editar-transacao) & [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos) satisfazem [C1](../../modelagem/cenarios/#c1-categorizar-transacao), [C2](../../modelagem/cenarios/#c2-adicionar-transacao-com-conta-manual), [C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao) & [C18](../../modelagem/cenarios/#c18-editar-transacao)<br>
+Alocado: [EP07](../../modelagem/backlog/#ep07-contas-e-cartoes) está alocado em [UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes) & [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes) do Backlog do produto [sprint 3](../../modelagem/backlog/#sprint-3)<br>
+Alocado: [EP09](../../modelagem/backlog/#ep09-extrato) está alocado em [UC06](../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual), [UC08](../../modelagem/casos_de_uso/#uc8-editar-transacao) & [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos) do Backlog do produto [sprint 6](../../modelagem/backlog/#sprint-6)<br>
+Agregação: Tomando como base o richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) pode ser composto de um richpicture, tem-se que o richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) é composto pelo richpicture [RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes) que realiza em específico as operações da aba de configurações.<br>
+Representação: [IS02](../../modelagem/istar/#is02-adicionar-contas-e-cartoes) representa [UC4](../../modelagem/casos_de_uso/#uc4-visualizar-contas-bancarias-e-cartoes) & [UC5](../../modelagem/casos_de_uso/#uc5-atualizar-contas-e-cartoes)<br>
+Representação: [IS08](../../modelagem/istar/#is08-transacoes) representa [UC6](../../modelagem/casos_de_uso/#uc6-adicionar-transacao-manual), [UC08](../../modelagem/casos_de_uso/#uc8-editar-transacao) & [UC23](../../modelagem/casos_de_uso/#uc23-visualizar-comparacao-de-gastos)
 
 ---
 
 #### ENF07
 **Categoria**:
 
+Ambiental & desenvolvimento
+
 **Elos**:
+
+Satisfação: [PR](../../elicitacao-de-requisitos/prototipacao/) satisfaz [EPS06](../../modelagem/especificacao/#eps06-restricao-de-design), [EPS09](../../modelagem/especificacao/#eps09-padroes-aplicaveis) & [EPS10](../../modelagem/especificacao/#eps10-interfaces)
 
 ---
 
 #### ENF08
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Representação: [UC10](../../casos_de_uso/#uc10-adicionar-planejamento) representa [C3](../../modelagem/cenarios/#c3-criar-planejamento)<br>
+Representação: [IS06](../../modelagem/istar/#is06-planejamento-de-rendas-e-gastos) representa [UC10](../../casos_de_uso/#uc10-adicionar-planejamento)<br>
+Satisfação: [EP11](../../modelagem/backlog/#ep11-planejamento) satisfaz [C3](../../modelagem/cenarios/#c3-criar-planejamento)<br>
+Alocado: [EP11](../../modelagem/backlog/#ep11-planejamento) esta alocado em [UC10](../../casos_de_uso/#uc10-adicionar-planejamento) do Backlog do produto [Sprint 9](../../modelagem/backlog/#sprint-9)
 
 ---
 
 #### ENF09
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+N/A
 
 ---
 
 #### ENF10
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+N/A
 
 ---
 
 #### ENF11
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [EPS02](../../modelagem/especificacao/#eps02-usabilidade) satisfaz [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Representação: [NFR06](../../modelagem/nfr/#nfr06-usabilidade) representa [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Satisfação: [EP01](../../modelagem/backlog/#ep01-documentos) satisfaz [EPS02](../../modelagem/especificacao/#eps02-usabilidade)
 
 ---
 
 #### ENF12
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Representação: [ARG06](../../pre-rastreabilidade/argumentacao/#arg06-anuncios-no-app) representa [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)<br>
+Representação: [C14](../../modelagem/cenarios/#c14-verificar-dicas) & [C15](../../modelagem/cenarios/#c15-avaliar-dicas) representam [ARG06](../../pre-rastreabilidade/argumentacao/#arg06-anuncios-no-app)<br>
+Satisfação: [EPS04](../../modelagem/especificacao/#localizacao) satisfaz [C14](../../modelagem/cenarios/#c14-verificar-dicas) & [C15](../../modelagem/cenarios/#c15-avaliar-dicas)<br>
+Representação: [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) representa [C14](../../modelagem/cenarios/#c14-verificar-dicas)<br>
+Representação: [UC21](../../modelagem/casos_de_uso/#uc21-avaliar-dicas) representa [C15](../../modelagem/cenarios/#c15-avaliar-dicas)<br>
+Alocado: [EP15](../../modelagem/backlog/#ep15-propagandas) esta alocado em [UC20](../../modelagem/casos_de_uso/#uc20-visualizar-dicas-externas) & [UC21](../../modelagem/casos_de_uso/#uc21-avaliar-dicas) do Backlog do produto [Sprint 12](../../modelagem/backlog/#sprint-12)<br>
+Satisfação: [IS07](../../modelagem/istar/#is07-dicas-financeiras) satisfaz [EP15](../../modelagem/backlog/#ep15-propagandas)
 
 ---
 
 #### ENF13
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Representação: [C9](../../modelagem/cenarios/#c9-criar-categoria) representa [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Satisfação: [EPS02](../../modelagem/especificacao/#eps02-usabilidade) satifaz [C9](../../modelagem/cenarios/#c9-criar-categoria)<br>
+Satisfação: [UC7](../../modelagem/casos_de_uso/#uc7-criar-categoria) satifaz [C9](../../modelagem/cenarios/#c9-criar-categoria)<br>
+Alocado: [US51](../../modelagem/backlog/#us51-gastos-dos-ultimos-meses-por-categoria) & [US53](../../modelagem/backlog/#us53-rendas-dos-ultimos-por-categoria) estão alocados em [EP12](../../modelagem/backlog/#ep12-estatisticas) do Backlog do produto [Sprint 8](../../modelagem/backlog/#sprint-8)
 
 ---
 
 #### ENF14
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+N/A
 
 ---
 
 #### ENF15
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [EPS02](../../modelagem/especificacao/#eps02-usabilidade) & [EPS04](../../modelagem/especificacao/#eps04-desempenho) satisfazem [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Representação: [NFR03](../../modelagem/nfr/#nfr03-desempenho) & [NFR06](../../modelagem/nfr/#nfr06-usabilidade) representam [EPS02](../../modelagem/especificacao/#eps02-usabilidade) & [EPS04](../../modelagem/especificacao/#eps04-desempenho)
 
 ---
 
 #### ENF16
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [EPS02](../../modelagem/especificacao/#eps02-usabilidade) Satisfaz [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Satisfação: [US01](../../modelagem/backlog/#us01-elaborar-testes-de-usabilidade) Satisfaz [EPS02](../../modelagem/especificacao/#eps02-usabilidade)<br>
+Satisfação: [NFR06](../../modelagem/nfr/#nfr06-usabilidade) satisfaz [US01](../../modelagem/backlog/#us01-elaborar-testes-de-usabilidade)
 
 ---
 
 #### ENF17
 **Categoria**:
 
+Desenvolvimento
+
 **Elos**:
+
+Satisfação: [PR](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis) satisfaz [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
+Satisfação: [US59](../../modelagem/backlog/#us59-indicar-se-as-dicas-foram-realmente-uteis) satisfaz [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)<br>
 
 ---
 
