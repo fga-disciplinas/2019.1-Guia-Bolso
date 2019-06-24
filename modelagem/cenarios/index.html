@@ -471,6 +471,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cenarios" title="Cenários" class="md-nav__link">
     Cenários
   </a>
@@ -993,42 +1000,6 @@
   </li>
 
     
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
-    
-    <label class="md-nav__link" for="nav-7">
-      Histórico
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-7">
-        Histórico
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../historico/introspeccao-v1/" title="Introspecção-v1" class="md-nav__link">
-      Introspecção-v1
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
   </ul>
 </nav>
                   </div>
@@ -1050,6 +1021,13 @@
         <li class="md-nav__item">
   <a href="#introducao" title="Introdução" class="md-nav__link">
     Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
   </a>
   
 </li>
@@ -1320,6 +1298,55 @@
                 
                 <h2 id="introducao">Introdução</h2>
 <p>Esta técnica descreve os requisitos numa linguagem fácil de entender e validar para todas as pessoas relacionadas com o projecto, motivando-as a discutir e participar, obtendo assim um maior feedback sobre o que se está a fazer.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a confecção dos cenários o grupo utilizou cards com o seguinte modelo base:</p>
+<table>
+<thead>
+<tr>
+<th><strong>CXX</strong></th>
+<th><strong> Nome do cenário </strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.0 (Data) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>Autor(es) do cenário</td>
+</tr>
+<tr>
+<td><strong>Metas/Objetivos</strong></td>
+<td>Descrever as metas/objetivos do cenário</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+<td><strong>O que?</strong> <br> &gt; -- <br><br> <strong>Onde?</strong> <br> &gt; -- <br><br> <strong>Quando?</strong> <br> &gt; -- <br><br> <strong>Por quê?</strong> <br> &gt; --</td>
+</tr>
+<tr>
+<td><strong>Ator(es)</strong></td>
+<td>Atores envolvidos</td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+<td>Recursos envolvidos</td>
+</tr>
+<tr>
+<td><strong>Restrição</strong></td>
+<td>Descrição das restrições</td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+<td>Descrição das exceções</td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+<td>Descrição detalhada dos episódios</td>
+</tr>
+</tbody>
+</table>
+<p>Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além de descrever bem as metas, atores, restrições e exceções. Os episódios com subcenários possuem linkagem, e sempre que houver um léxico relacionado esse também será linkado.</p>
 <h2 id="cenarios">Cenários</h2>
 <h3 id="c1-categorizar-transacao">C1 - Categorizar transação</h3>
 <table>
@@ -1333,6 +1360,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.1 (21/04) <br> Anterior: <a href="#c1-contas-residenciais">1.0</a> (16/04)</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1364,12 +1395,12 @@
 </tr>
 </tbody>
 </table>
-<h3 id="c2-adicionar-transacao-com-conta-manual">C2 - Adicionar transação com <a href="../lexicos/#l11-conta-manual">Conta manual</a></h3>
+<h3 id="c2-adicionar-transacao-com-conta-manual">C2 - Adicionar <a href="../lexicos/#l40-transacao">transação</a> com <a href="../lexicos/#l11-conta-manual">Conta manual</a></h3>
 <table>
 <thead>
 <tr>
 <th><strong>C2</strong></th>
-<th><strong>Adicionar transação com <a href="../lexicos/#l11-conta-manual">Conta manual</a></strong></th>
+<th><strong>Adicionar (../lexicos/#l42-transacao) com <a href="../lexicos/#l11-conta-manual">Conta manual</a></strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1378,12 +1409,16 @@
 <td>Atual: 1.1 (21/04) <br> Anterior: <a href="#c2-conta-manual">1.0</a> (16/04)</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Descrever como adicionar transação em uma <a href="../lexicos/#l11-conta-manual">conta manual</a></td>
+<td>Descrever como adicionar (../lexicos/#l42-transacao) em uma <a href="../lexicos/#l11-conta-manual">conta manual</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Adicionar transação com uma <a href="../lexicos/#l11-conta-manual">conta manual</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não quer informar seus dados bancários ao aplicativo, mas quer se organizar financeiramente; <br> &gt; Ao tentar adicionar <a href="../lexicos/#l12-conta-automatica">conta automática</a>, seu <a href="../lexicos/#l31-instituicao-financeira">banco</a> não consta na lista pré-determinada; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não tem conhecimento de como adicionar transação na sua <a href="../lexicos/#l11-conta-manual">conta manual</a>.</td>
+<td><strong>O que?</strong> <br> &gt; Adicionar <a href="../lexicos/#l42-transacao">transação</a> com uma <a href="../lexicos/#l11-conta-manual">conta manual</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não quer informar seus <a href="../lexicos/#l39-dados-bancarios">dados bancários</a> ao aplicativo, mas quer se organizar financeiramente; <br> &gt; Ao tentar adicionar <a href="../lexicos/#l12-conta-automatica">conta automática</a>, seu <a href="../lexicos/#l31-instituicao-financeira">banco</a> não consta na lista pré-determinada; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não tem conhecimento de como adicionar <a href="../lexicos/#l42-transacao">transação</a> na sua <a href="../lexicos/#l11-conta-manual">conta manual</a>.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -1391,11 +1426,11 @@
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
-<td>&gt; Transações financeiras; <br> &gt; Guiabolso.</td>
+<td>&gt; <a href="../lexicos/#l42-transacao">Transações</a> financeiras; <br> &gt; Guiabolso.</td>
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
-<td>&gt; Existir uma transação; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo;</td>
+<td>&gt; Existir uma <a href="../lexicos/#l42-transacao">transação</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo;</td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -1403,16 +1438,16 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> cria uma conta no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> adiciona uma <a href="../lexicos/#l11-conta-manual">conta manual</a> <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> adiciona transação preenchendo um formulário e a <a href="#c1-categorizar-transacao">categoriza</a>; <br> &gt;O <a href="../lexicos/#l13-usuario">usuário</a> adiciona qual é o tipo de movimentação a ser registrada: de entrada ou saída de capital; <br> &gt; Transação é adicionada ao <a href="../lexicos/#l21-extrato">extrato</a>.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> cria uma conta no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> adiciona uma <a href="../lexicos/#l11-conta-manual">conta manual</a> <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> adiciona <a href="../lexicos/#l42-transacao">transação</a> preenchendo um formulário e a <a href="#c1-categorizar-transacao">categoriza</a>; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> adiciona qual é o tipo de <a href="../lexicos/#l42-transacao">movimentação</a> a ser registrada: de entrada ou saída de capital; <br> &gt; <a href="../lexicos/#l42-transacao">transação</a> é adicionada ao <a href="../lexicos/#l21-extrato">extrato</a>.</td>
 </tr>
 </tbody>
 </table>
-<h3 id="c3-criar-planejamento">C3 - Criar planejamento</h3>
+<h3 id="c3-criar-planejamento">C3 - Criar <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a></h3>
 <table>
 <thead>
 <tr>
 <th><strong>C3</strong></th>
-<th><strong>Criar planejamento</strong></th>
+<th><strong>Criar <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a></strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1421,12 +1456,16 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Descrever como criar planejamento financeiro</td>
+<td>Descrever como criar um <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a> financeiro</td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br>&gt; Planejar gastos do mês; <br> <br> <strong>Onde?</strong> <br> &gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong>  <br>&gt; A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> busca uma forma prática de registrar um planejamento de gastos; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não tem conhecimento de como <a href="#c3-criar-planejamento">criar planejamento</a> em sua conta.</td>
+<td><strong>O que?</strong> <br>&gt; Planejar gastos do mês; <br> <br> <strong>Onde?</strong> <br> &gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong>  <br>&gt; A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> busca uma forma prática de registrar um <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a> de gastos; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> não tem conhecimento de como <a href="#c3-criar-planejamento">criar planejamento</a> em sua conta.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -1434,7 +1473,7 @@
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
-<td>&gt; Transações financeiras; <br> &gt; Guiabolso.</td>
+<td>&gt; <a href="../lexicos/#l42-transacao">Transações</a> financeiras; <br> &gt; Guiabolso.</td>
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
@@ -1462,6 +1501,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.1 (21/04) <br> Anterior: <a href="#c4-cadastro-positivo">1.0</a> (16/04)</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1507,20 +1550,24 @@
 <td>Atual: 1.1 (21/04) <br> Anterior: <a href="#c5-nome-sujo">1.0</a> (16/04)</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Retirar o status de <a href="../lexicos/#l1-nome-sujo">nome sujo</a> do <a href="../lexicos/#l13-usuario">usuário</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Resolver todas as pendências no nome do <a href="../lexicos/#l13-usuario">usuário</a>; <br><br> <strong>Onde?</strong> <br> &gt; Presencialmente ou à distância por meio do contato com as instituições relacionadas às compras; <br> <br><strong>Quando?</strong>  <br>&gt; No momento mais viável para o <a href="../lexicos/#l13-usuario">usuário</a> consumidor;<br> <br> <strong>Por quê?</strong> <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> está com pendências no SPC/SCPC/Serasa; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> está limitado à diversas transações financeiras.</td>
+<td><strong>O que?</strong> <br> &gt; Resolver todas as pendências no nome do <a href="../lexicos/#l13-usuario">usuário</a>; <br><br> <strong>Onde?</strong> <br> &gt; Presencialmente ou à distância por meio do contato com as <a href="../lexicos/l31-instituicao-financeira">instituições</a> relacionadas às compras; <br> <br><strong>Quando?</strong>  <br>&gt; No momento mais viável para o <a href="../lexicos/#l13-usuario">usuário</a> consumidor;<br> <br> <strong>Por quê?</strong> <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> está com pendências no SPC/SCPC/Serasa; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> está limitado à diversas <a href="../lexicos/#l42-transacao">transações</a> financeiras.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt;  Instituições bancárias. <br> &gt; Serviços de proteção ao crédito</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt;  <a href="../lexicos/l31-instituicao-financeira">Instituições</a> bancárias. <br> &gt; Serviços de proteção ao crédito</td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
-<td>&gt; Pendências em faturas; <br> &gt; Centrais de atendimento das instituições de pagamento.</td>
+<td>&gt; Pendências em faturas; <br> &gt; Centrais de atendimento das <a href="../lexicos/l31-instituicao-financeira">instituições</a> de pagamento.</td>
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
@@ -1532,7 +1579,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> está com <a href="../lexicos/#l1-nome-sujo">nome sujo</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> solicita acordos com a instituição bancária; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> aceita acordo proposto e paga suas pendências; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> encontra-se com o <a href="../lexicos/#l24-nome-limpo">nome limpo</a></td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> está com <a href="../lexicos/#l1-nome-sujo">nome sujo</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> solicita acordos com a <a href="../lexicos/l31-instituicao-financeira">instituição</a> bancária; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> aceita acordo proposto e paga suas pendências; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> encontra-se com o <a href="../lexicos/#l24-nome-limpo">nome limpo</a></td>
 </tr>
 </tbody>
 </table>
@@ -1550,6 +1597,10 @@
 <td>Atual: 1.1 (21/04) <br>  Anterior: <a href="#c6-consultar-cpf">1.0</a> (16/04)</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Descrever como <a href="../lexicos/#l3-consultar-cpf">consultar CPF</a> pelo Guiabolso</td>
 </tr>
@@ -1559,7 +1610,7 @@
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt;  Instituições BoaVista.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt;  <a href="../lexicos/l31-instituicao-financeira">instituição</a> BoaVista.</td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
@@ -1571,11 +1622,11 @@
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; Falta de dados sensíveis; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a Instituição BoaVista; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+<td>&gt; Falta de dados sensíveis; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a <a href="../lexicos/l31-instituicao-financeira">Instituição</a> BoaVista; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> preenche formulário para consulta de seu CPF; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> visualiza o estado do seu nome no mercado, como (<a href="../lexicos/#l24-nome-limpo">nome limpo</a>) ou  <a href="../lexicos/#l1-nome-sujo">nome sujo</a> e as empresas que consultaram seu CPF; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar quantidade de seu (<a href="../lexicos/#l4-score-do-serasa">score</a> do Serasa) na aba Guia.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> preenche formulário para consulta de seu CPF; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> visualiza o estado do seu nome no mercado, como (<a href="../lexicos/#l24-nome-limpo">nome limpo</a>) ou  <a href="../lexicos/#l1-nome-sujo">nome sujo</a> e as <a href="../lexicos/l31-instituicao-financeira">empresas</a> que consultaram seu CPF; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar quantidade de seu (<a href="../lexicos/#l4-score-do-serasa">score</a> do Serasa) na aba Guia.</td>
 </tr>
 </tbody>
 </table>
@@ -1593,12 +1644,16 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Ocultar transação do planejamento ou dos gráficos presentes no Resumo e <a href="../lexicos/#l21-extrato">Extrato</a></td>
+<td>Ocultar <a href="../lexicos/#l42-transacao">transação</a> do <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a> ou dos gráficos presentes no Resumo e <a href="../lexicos/#l21-extrato">Extrato</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong><br> &gt; Ignorar uma transação do interesse do <a href="../lexicos/#l13-usuario">usuário</a>; <br><br> <strong>Onde?</strong> <br>&gt; No <a href="../lexicos/#l21-extrato">extrato</a>, em detalhes da transação; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento, desde que haja o registro de uma transação; <br><br> <strong>Por quê?</strong> <br>&gt; Motivos particulares do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+<td><strong>O que?</strong><br> &gt; Ignorar uma <a href="../lexicos/#l42-transacao">transação</a> do interesse do <a href="../lexicos/#l13-usuario">usuário</a>; <br><br> <strong>Onde?</strong> <br>&gt; No <a href="../lexicos/#l21-extrato">extrato</a>, em detalhes da <a href="../lexicos/#l42-transacao">transação</a>; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento, desde que haja o registro de uma <a href="../lexicos/#l42-transacao">transação</a>; <br><br> <strong>Por quê?</strong> <br>&gt; Motivos particulares do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -1606,7 +1661,7 @@
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
-<td>&gt; Transação; <br> &gt; Guiabolso.</td>
+<td>&gt; <a href="../lexicos/#l42-transacao">Transação</a>; <br> &gt; Guiabolso.</td>
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
@@ -1614,11 +1669,11 @@
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; Falta de dados sensíveis; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a Instituição BoaVista; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
+<td>&gt; Falta de dados sensíveis; <br> &gt; Internet indisponível; <br> &gt; Falha no aplicativo; <br> &gt; Falha na comunicação com a <a href="../lexicos/l31-instituicao-financeira">Instituição</a> BoaVista; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>.</td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> realiza uma transação; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> visualiza esta transação em seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> não quer que esta transação apareça nos gráficos e/ou planejamento; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica na transação desejada e visualiza opção para <a href="../lexicos/#l14-transacoes-ignoradas">ignorar transação</a>; <br> &gt; Transação é retirada dos gráficos e do planejamento.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> realiza uma <a href="../lexicos/#l42-transacao">transação</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> visualiza esta <a href="../lexicos/#l42-transacao">transação</a> em seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> não quer que esta <a href="../lexicos/#l42-transacao">transação</a> apareça nos gráficos e/ou <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica na <a href="../lexicos/#l42-transacao">transação</a> desejada e visualiza opção para <a href="../lexicos/#l14-transacoes-ignoradas">ignorar transação</a>; <br> &gt; <a href="../lexicos/#l42-transacao">Transação</a> é retirada dos gráficos e do <a href="../lexicos/#l40-planejamento-financeiro">planejamento</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -1634,6 +1689,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>Elias Bernardo</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1679,6 +1738,10 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Permitir ao <a href="../lexicos/#l13-usuario">usuário</a> adicionar novas categorias para <a href="#c1-categorizar-transacao">categorizar as suas transações</a></td>
 </tr>
@@ -1709,13 +1772,17 @@
 <thead>
 <tr>
 <th><strong>C10</strong></th>
-<th><strong>Solicitar <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a></strong></th>
+<th><strong>Solicitar crédito pré-aprovado</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/silvasara">Sara Silva</a></td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1727,7 +1794,7 @@
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; Indivíduo; <br> &gt; <a href="../lexicos/#l31-instituicao-financeira">Instituições financeiras</a>; <br> &gt; Serviços de proteção ao crédito.</td>
+<td>&gt; <a href="../lexicos/#l39-individuo">Indivíduo</a>; <br> &gt; <a href="../lexicos/#l31-instituicao-financeira">Instituições financeiras</a>; <br> &gt; Serviços de proteção ao crédito.</td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
@@ -1743,7 +1810,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; A instituição faz uma <a href="../lexicos/#l22-avaliacao-de-credito">análise de crédito</a> do indivíduo; <br> &gt; Se o indíviduo tiver um bom <a href="../lexicos/#l4-score-do-serasa">score</a> de crédito, a instituição deixa disponível a ele um <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>, mesmo que não tenha sido solicitado; <br> &gt; O indivíduo entra em contato com a institiuição (por <a href="../lexicos/#l34-caixa-eletronico">caixa eletrônico</a>, aplicativo, etc); <br> &gt; O indivíduo solicita o <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>; <br> &gt; Se disponível, o crédito entrará na conta do indivíduo;</td>
+<td>&gt; A instituição faz uma <a href="../lexicos/#l22-avaliacao-de-credito">análise de crédito</a> do <a href="../lexicos/#l39-individuo">indivíduo</a>; <br> &gt; Se o <a href="../lexicos/#l39-individuo">indivíduo</a> tiver um bom <a href="../lexicos/#l4-score-do-serasa">score</a> de crédito, a instituição deixa disponível a ele um <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>, mesmo que não tenha sido solicitado; <br> &gt; O <a href="../lexicos/#l39-individuo">indivíduo</a> entra em contato com a institiuição (por <a href="../lexicos/#l34-caixa-eletronico">caixa eletrônico</a>, aplicativo, etc); <br> &gt; O <a href="../lexicos/#l39-individuo">indivíduo</a> solicita o <a href="../lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a>; <br> &gt; Se disponível, o <a href="../lexicos/#l25-credito">crédito</a> entrará na conta do indivíduo;</td>
 </tr>
 </tbody>
 </table>
@@ -1759,6 +1826,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/silvasara">Sara Silva</a></td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1795,7 +1866,7 @@
 <thead>
 <tr>
 <th><strong>C12</strong></th>
-<th><strong>Ir para <a href="../lexicos/#l21-extrato">extrato</a></strong></th>
+<th><strong>Ir para extrato</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1804,12 +1875,16 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td>-</td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Descrever como ir para o <a href="../lexicos/#l21-extrato">extrato</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Ir nos [extratos] para ver os gastos e <a href="../lexicos/#l28-renda">rendas</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento após ter adicionado pelo menos uma transação; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> quer ver histórico de transações; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> que ver o quanto gastou para se planejar financeiramente;</td>
+<td><strong>O que?</strong> <br> &gt; Ir nos [extratos] para ver os gastos e <a href="../lexicos/#l38-renda">rendas</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br>&gt; A qualquer momento após ter adicionado pelo menos uma <a href="../lexicos/#l42-transacao">transação</a>; <br><br> <strong>Por quê?</strong> <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> quer ver histórico de <a href="../lexicos/#l42-transacao">transações</a>; <br> &gt; O <a href="../lexicos/#l13-usuario">usuário</a> que ver o quanto gastou para se planejar financeiramente;</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -1817,11 +1892,11 @@
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
-<td>&gt; Transações financeiras; <br> &gt; Guiabolso.</td>
+<td>&gt; <a href="../lexicos/#l30-transacao-bancaria">Transações financeiras</a>; <br> &gt; Guiabolso.</td>
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
-<td>&gt; Existir uma transação; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo;</td>
+<td>&gt; Existir uma <a href="../lexicos/#l42-transacao">transação</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo;</td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -1829,7 +1904,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> deseja ver como está seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> entra na aba finanças <br> &gt; Na parte de Últimas transações, <a href="../lexicos/#l13-usuario">usuário</a> seleciona Ir para <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt;<a href="../lexicos/#l13-usuario">Usuário</a> visualiza <a href="../lexicos/#l21-extrato">extrato</a> do mês corrente</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> deseja ver como está seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> entra na aba finanças <br> &gt; Na parte de Últimas <a href="../lexicos/#l42-transacao">transações</a>, <a href="../lexicos/#l13-usuario">usuário</a> seleciona Ir para <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt;<a href="../lexicos/#l13-usuario">Usuário</a> visualiza <a href="../lexicos/#l21-extrato">extrato</a> do mês corrente</td>
 </tr>
 </tbody>
 </table>
@@ -1845,6 +1920,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>Elias Bernardo</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1890,6 +1969,10 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Descrever como o <a href="../lexicos/#l13-usuario">usuário</a> Verifica as dicas disponibilizadas pelo Guiabolso</td>
 </tr>
@@ -1931,6 +2014,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>Elias Bernardo</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -1976,6 +2063,10 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td>Elias Bernardo</td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Descrever como o <a href="../lexicos/#l13-usuario">usuário</a> pode adicionar um código de segurança no aplicativo</td>
 </tr>
@@ -2017,6 +2108,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -2062,12 +2157,16 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/shayanealcantara">Shayane Alcântara</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Fazer alterações em uma transação</td>
+<td>Fazer alterações em uma <a href="../lexicos/#l42-transacao">transação</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Alterar dados referentes à uma transação; <br><br> <strong>Onde?</strong> <br> &gt; Na aba Finanças, ao clicar em alguma transação existente; <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento, desde que envolva uma transação; <br><br> <strong>Por quê?</strong> <br> &gt; Para melhorar a organização das transações.</td>
+<td><strong>O que?</strong> <br> &gt; Alterar dados referentes à uma <a href="../lexicos/#l42-transacao">transação</a>; <br><br> <strong>Onde?</strong> <br> &gt; Na aba Finanças, ao clicar em alguma <a href="../lexicos/#l42-transacao">transação</a> existente; <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento, desde que envolva uma <a href="../lexicos/#l42-transacao">transação</a>; <br><br> <strong>Por quê?</strong> <br> &gt; Para melhorar a organização das <a href="../lexicos/#l42-transacao">transações</a>.</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -2075,11 +2174,11 @@
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
-<td>&gt; Conta no Guiabolso; <br> &gt; Internet; <br> &gt; Transação existente</td>
+<td>&gt; Conta no Guiabolso; <br> &gt; Internet; <br> &gt; <a href="../lexicos/#l42-transacao">Transação</a> existente</td>
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
-<td>&gt; Existir uma transação; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo;</td>
+<td>&gt; Existir uma <a href="../lexicos/#l42-transacao">transação</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo;</td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -2087,7 +2186,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <strong>Se o <a href="../lexicos/#l13-usuario">usuário</a> tem uma <a href="../lexicos/#l12-conta-automatica">conta automática</a>:</strong> <br>  &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma compra no cartão de crédito ou débito e atualiza sua conta do Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar esta transação no seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a transação de escolha; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> opta por editar "Nome da transação, "Editar categoria", "Dividir em mais categorias" e "<a href="../lexicos/#l14-transacoes-ignoradas">Ignorar transação</a>"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> salva as alterações; <br> &gt; Transação pode ser visualizada no <a href="../lexicos/#l21-extrato">extrato</a> com as novas alterações. <br><br> &gt; <strong>Caso contrário, uma <a href="../lexicos/#l11-conta-manual">conta manual</a>:</strong>  <br>  &gt; <a href="../lexicos/#l13-usuario">Usuário</a> (adiciona uma transação com a <a href="../lexicos/#l11-conta-manual">conta manual</a>); <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar esta transação no seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a transação de escolha; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> opta por editar "Nome da transação", "Valor" e "Categoria"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> salva as alterações; <br> &gt; Transação pode ser visualizada no <a href="../lexicos/#l21-extrato">extrato</a> com as novas alterações.</td>
+<td>&gt; <strong>Se o <a href="../lexicos/#l13-usuario">usuário</a> tem uma <a href="../lexicos/#l12-conta-automatica">conta automática</a>:</strong> <br>  &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma compra no cartão de <a href="../lexicos/#l28-cartao-de-credito">crédito</a> ou <a href="../lexicos/#l27-cartao-de-debito">débito</a> e atualiza sua conta do Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar esta <a href="../lexicos/#l42-transacao">transação</a> no seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a <a href="../lexicos/#l42-transacao">transação</a> de escolha; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> opta por editar "Nome da <a href="../lexicos/#l42-transacao">transação</a>, "Editar categoria", "Dividir em mais categorias" e "<a href="../lexicos/#l14-transacoes-ignoradas">Ignorar transação</a>"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> salva as alterações; <br> &gt; <a href="../lexicos/#l42-transacao">Transação</a> pode ser visualizada no <a href="../lexicos/#l21-extrato">extrato</a> com as novas alterações. <br><br> &gt; <strong>Caso contrário, uma <a href="../lexicos/#l11-conta-manual">conta manual</a>:</strong>  <br>  &gt; <a href="../lexicos/#l13-usuario">Usuário</a> (adiciona uma <a href="../lexicos/#l42-transacao">transação</a> com a <a href="../lexicos/#l11-conta-manual">conta manual</a>); <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> pode visualizar esta <a href="../lexicos/#l42-transacao">transação</a> no seu <a href="../lexicos/#l21-extrato">extrato</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> seleciona a <a href="../lexicos/#l42-transacao">transação</a> de escolha; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> opta por editar "Nome da <a href="../lexicos/#l42-transacao">transação</a>", "Valor" e "Categoria"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> salva as alterações; <br> &gt; <a href="../lexicos/#l42-transacao">Transação</a> pode ser visualizada no <a href="../lexicos/#l21-extrato">extrato</a> com as novas alterações.</td>
 </tr>
 </tbody>
 </table>
@@ -2103,6 +2202,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -2148,6 +2251,10 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Descrever como alterar a senha</td>
 </tr>
@@ -2191,12 +2298,16 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/silvasara">Sara Silva</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
-<td>Manter as contas e os cartões atualizados</td>
+<td>Manter as <a href="../lexicos/#l33-conta-bancaria">contas</a> e os cartões atualizados</td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Atualizar Contas e Cartões; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Ajustes” do aplicativo; <br><br> <strong>Quando?</strong> <br>    &gt; A qualquer momento; <br><br> <strong>Por quê?</strong> <br> &gt; Para o <a href="../lexicos/#l21-extrato">extrato</a> ficar sempre atualizado;</td>
+<td><strong>O que?</strong> <br> &gt; Atualizar <a href="../lexicos/#l33-conta-bancaria">Contas</a> e Cartões; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Ajustes” do aplicativo; <br><br> <strong>Quando?</strong> <br>    &gt; A qualquer momento; <br><br> <strong>Por quê?</strong> <br> &gt; Para o <a href="../lexicos/#l21-extrato">extrato</a> ficar sempre atualizado;</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -2208,15 +2319,15 @@
 </tr>
 <tr>
 <td><strong>Restrição</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo; <br> Usuario ter conta ou cartão bancário cadastrado no aplicativo.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> ter conta no aplicativo; <br>&gt; Usuario ter <a href="../lexicos/#l33-conta-bancaria">conta</a> ou cartão bancário cadastrado no aplicativo.</td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
-<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>; <br> &gt; Falha na conta bancária do <a href="../lexicos/#l13-usuario">usuário</a></td>
+<td>&gt; Internet indisponível; <br> &gt; Falha no Aplicativo; <br> &gt; Ausência do celular do <a href="../lexicos/#l13-usuario">usuário</a>; <br> &gt; Falha na <a href="../lexicos/#l33-conta-bancaria">conta bancária</a> do <a href="../lexicos/#l13-usuario">usuário</a></td>
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-banco">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> sente necessidade de atualizar as contas e cartões cadastrados; <br> &gt;     <a href="../lexicos/#l13-usuario">Usuário</a> entra na aba Ajustes e seleciona "Contas e Cartões"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica em "Atualizar Conta"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> Acessa o aplicativo do <a href="../lexicos/#l31-instituicao-financeira">banco</a> corresponde para obter a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> insere a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a> no campo correspondente no Guiabolso.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-banco">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> sente necessidade de atualizar as contas e cartões cadastrados; <br> &gt;     <a href="../lexicos/#l13-usuario">Usuário</a> entra na aba Ajustes e seleciona "Contas e Cartões"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> clica em "Atualizar <a href="../lexicos/#l33-conta-bancaria">Conta</a>"; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> Acessa o aplicativo do <a href="../lexicos/#l31-instituicao-financeira">banco</a> corresponde para obter a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> insere a <a href="../lexicos/#l26-chave-de-seguranca">chave de segurança</a> no campo correspondente no Guiabolso.</td>
 </tr>
 </tbody>
 </table>
@@ -2234,6 +2345,10 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/silvasara">Sara Silva</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Realizar um empréstimo</td>
 </tr>
@@ -2243,7 +2358,7 @@
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt; Instituições Financeiras</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a>; <br> &gt; Guiabolso; <br> &gt; <a href="../lexicos/#l31-instituicao-financeira">Instituições Financeiras</a></td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
@@ -2259,7 +2374,7 @@
 </tr>
 <tr>
 <td><strong>Episódios</strong></td>
-<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-banco">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa o Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma <a href="../cenarios/#c8-simular-um-emprestimo">simulação de empréstimo</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> contrata o empréstimo que mais lhe agrada; <br> &gt; A instituição aprova ou rejeita o empréstimo; <br> &gt; Se aprovado, o <a href="../lexicos/#l13-usuario">usuário</a> recebe o dinheiro ou crédito correspondente na sua <a href="../lexicos/#l33-conta-bancaria">conta bancária</a>.</td>
+<td>&gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c13-criar-uma-conta">cria uma conta</a> no Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> <a href="../cenarios/#c19-cadastrar-banco">cadastra conta bancária no Guiabolso</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> acessa o Guiabolso; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> faz uma <a href="../cenarios/#c8-simular-um-emprestimo">simulação de empréstimo</a>; <br> &gt; <a href="../lexicos/#l13-usuario">Usuário</a> contrata o empréstimo que mais lhe agrada; <br> &gt; A <a href="../lexicos/#l31-instituicao-financeira">instituição</a> aprova ou rejeita o empréstimo; <br> &gt; Se aprovado, o <a href="../lexicos/#l13-usuario">usuário</a> recebe o dinheiro ou <a href="../lexicos/#l25-credito">crédito</a> correspondente na sua <a href="../lexicos/#l33-conta-bancaria">conta bancária</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -2268,7 +2383,7 @@
 <thead>
 <tr>
 <th><strong>C23</strong></th>
-<th><strong>Adicionar na <a href="../lexicos/#l36-agenda">Agenda</a></strong></th>
+<th><strong>Adicionar na Agenda</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -2277,12 +2392,16 @@
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
 </tr>
 <tr>
+<td><strong>Autor</strong></td>
+<td><a href="https://github.com/silvasara">Sara Silva</a></td>
+</tr>
+<tr>
 <td><strong>Metas/Objetivos</strong></td>
 <td>Organizar as datas de pagamentos</td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
-<td><strong>O que?</strong> <br> &gt; Adicionar na <a href="../lexicos/#l36-agenda">Agenda</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento; <br><br> <strong>Por quê?</strong> <br> &gt; Porque o <a href="../lexicos/#l13-usuario">usuário</a> quer se programar financeiramente ;</td>
+<td><strong>O que?</strong> <br> &gt; Adicionar na <a href="../lexicos/#l36-agenda">Agenda</a>; <br><br> <strong>Onde?</strong> <br>&gt; Na aba de “Finanças” do aplicativo; <br><br> <strong>Quando?</strong> <br> &gt; A qualquer momento; <br><br> <strong>Por quê?</strong> <br> &gt; Porque o <a href="../lexicos/#l13-usuario">usuário</a> quer se <a href="../lexicos/#l40-planejamento-financeiro">programar financeiramente</a> ;</td>
 </tr>
 <tr>
 <td><strong>Ator(es)</strong></td>
@@ -2318,6 +2437,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>Atual: 1.0 (21/04) <br> Anterior: --</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
@@ -2361,6 +2484,10 @@
 <tr>
 <td><strong>Versão</strong></td>
 <td>1.1 <br> Anterior: <a href="#c1-categorizar-gasto-como-contas-residenciais">1.0</a> (16/04)</td>
+</tr>
+<tr>
+<td><strong>Autor</strong></td>
+<td>--</td>
 </tr>
 <tr>
 <td><strong>Metas/Objetivos</strong></td>
