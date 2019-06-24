@@ -50,3 +50,9 @@ Dessa forma será possível pontuar e classificar a qualidade de um artefato por
 ## Referências
 
 [SPÍNDOLA, Rodrigo Oliveira, KALINOWSKI, Marcos. Inspeções de Requisitos de Software em Desenvolvimento Incremental: Uma experiência prática](http://www-di.inf.puc-rio.br/~kalinowski//publications/KalinowskiSNBT07.pdf)
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 08/04/2019 | 1.0 | Adição da inspesão | [Elias Bernardo](https://github.com/leossb36) |

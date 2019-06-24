@@ -41,21 +41,21 @@ Para analisar os modelos dos RichPicture, foram levantadas questões a respeito 
 |11 - Está com as funcionalidades atualizadas?|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: | :heavy_check_mark: |:x:|:heavy_check_mark: |  :heavy_check_mark:|:heavy_check_mark:|
 | Quantidade de sucessos|82%|100%|91%|64%|91%|73%|64%|91%|64% |
 | Classificação |**Bom**| **Bom**|**Bom**|**Regular**|**Bom**|**Regular**| **Regular**|**Bom** | **Regular**  |
-| Melhorias |Usar ícones do aplicativo; Usar mais verbos| |Adicionar "Agenda". |Usar ícones do aplicativo;<br> Clarear mais os fluxos|Diminuir a escala; Deixar o centro mais evidente.|Usar ícones do aplicativo;<br> Adicionar "Agenda".|Usar ícones do aplicativo;<br> Clarear mais os fluxos | Rever ações dos atores |Usar ícones do aplicativo; <br> Clarear mais os fluxos.|
+
 
 ## Parecer
 
-| **Rich Picture** | **Parecer**|
-|--|--|
-|[RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores)| ---|
-|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| ---|
-|[RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)| ---|
-|[RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)|---|
-|[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|---|
-|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|---|
-[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |---|
-[RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|---|
-[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|---|
+| **Rich Picture** | **Autor** | **Parecer**|
+|--|--|--|
+|[RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores)| [Elias Bernardo](https://github.com/ebmm01) e [Rafael Makaha](https://github.com/rafaelmakaha) | Usar ícones do aplicativo; Usar mais verbos |
+|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima)| ---|
+|[RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)| Adicionar "Agenda"|
+|[RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)|[Lucas Machado](https://github.com/lmmLucasMachado)  e [Marcelo Araújo](https://github.com/santosm46)| Usar ícones do aplicativo;<br> Clarear mais os fluxos|
+|[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|[Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)|Diminuir a escala; Deixar o centro mais evidente.|
+|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[Elias Bernardo](https://github.com/ebmm01) e [Rafael Makaha](https://github.com/rafaelmakaha)| Usar ícones do aplicativo;<br> Adicionar "Agenda".|
+[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |[Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado)| Usar ícones do aplicativo;<br> Clarear mais os fluxos |
+[RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima)| Rever ações dos atores|
+[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|[Leonardo dos Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima)| Usar ícones do aplicativo; <br> Clarear mais os fluxos|
 
 ## Conclusão
 
@@ -123,9 +123,8 @@ Requisitos Uber. Verificação - Inspeção RichPicture e Cenários e Léxicos. 
 
 HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work Context." Interactions.
 
-|Análise| RichPicture |
-|--|--|
-| **Versão**| Atual: 1.0 (10/06/19) <br> Anterior: - | 
-| **Descrição** | Adicionando inspeção | 
-|**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 10/06/2019 | 1.0 | Adicionando inspeção | [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
+
 
