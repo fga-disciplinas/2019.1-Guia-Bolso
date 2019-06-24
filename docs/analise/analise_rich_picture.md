@@ -73,12 +73,16 @@ HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work C
 
 |  | **Análise Rich Pictures**  |
 |--|--|
-| **Versão**| Atual: 1.1 (24/07/2019) <br> Anterior: [1.0](#rp07-aba-guia_1) | 
+| **Versão**| Atual: 1.1 (24/07/2019) <br> Anterior: [1.0](#versao-10) | 
 | **Descrição** | Descrição da análise dos Rich Pictures produzidos. O foco está na versão 1.0 de cada um. |
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 
 
-# Versões anteriores
+## Versões anteriores
+
+# RichPicture
+
+## Versão 1.0
 
 ## Introdução
 

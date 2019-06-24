@@ -1,9 +1,11 @@
-## Introdução
-Análise de Protocolo é uma técnica para elicitar requisitos, em que há a verbalização de ações e pensamentos enquanto o usuário executa a tarefa, possibilitando uma maior quantidade de detalhes.
-
 ## Análise de Protocolo
 
+### Introdução
+
+Análise de Protocolo é uma técnica para elicitar requisitos, em que há a verbalização de ações e pensamentos enquanto o usuário executa a tarefa, possibilitando uma maior quantidade de detalhes.
+
 ### Metodologia
+
 Para aplicar a técnica, foi escolhida uma pessoa que nunca havia acessado o aplicativo Guiabolso, com o objetivo de obter detalhes das operações realizadas e assim, poder documentar os requisitos das abas Finanças e Radar CPF.
 
 O encontro presencial foi realizado na residência da usuária, domingo à tarde e buscou-se realizar esta abordagem neste dia principalmente por ser um dia que a pessoa estaria com mais tempo disponível e sem muitas interrupções. 
@@ -13,6 +15,7 @@ A princípio foi introduzida a proposta para a usuária por meio de uma breve ex
 A observadora da análise tentou ao máximo não intervir na tomada de ações referentes ao uso do aplicativo. Como registro, a participante permitiu ser gravada por áudio a todo momento que estivesse explicando o aplicativo. Toda a dinâmica durou cerca de 50 minutos.
 
 ### Verbalização do usuário
+
 |Operação|Observação|
 |--------|----------------------------|
 |Cadastro|Cadastro agradável, pois é simples.|
@@ -40,12 +43,14 @@ A observadora da análise tentou ao máximo não intervir na tomada de ações r
 |Adicionar conta|Ao escolher a opção Banco do Brasil, foi pedido uma senha do internet banking, porém ela não fez/não lembra de ter feito uma senha para este fim. Por não ter essa senha, foi impossível prosseguir com a operação.|
 
 ### Análise das observações
+
 Por meio da Análise de protocolo, foi possível observar que o aplicativo tem um nível de dificuldade mediano, visto que não há um tutorial para novos usuários. Consequentemente, pode-se notar um tempo gasto na aba Finanças consideravelmente alto, com registro de aproximadamente 30 minutos. 
 Entretanto, deve-se considerar que a usuária teve que adicionar as transações manualmente, influenciando no tempo total. Sua verbalização foi clara a ponto de poder notar que o processo de inserção de dados manualmente era um processo cansativo.
 Houve uma intervenção por parte da equipe ouvinte em uma das ações de exploração ao aplicativo: Adicionar uma transação manual, pois a usuária não estava conseguindo manter o fluxo que esperava por questões de usabilidade, questão esta abordada nas observações, gerando o requisito AP11.
 
-## Requisitos elicitados
-### MoSCoW
+### Requisitos elicitados
+
+#### MoSCoW
 
 |Código|Descrição do Requisito|Prioridade|
 |:------:|----------------------|:----------:|
@@ -70,7 +75,7 @@ Houve uma intervenção por parte da equipe ouvinte em uma das ações de explor
 |AP19|O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.|Would|
 
 
-### First Things First
+#### First Things First
 
 <div class="datatable"></div>
 | ID | Benefício relativo | Penalidade Relativa | Valor total | Valor %| Custo relativo | Custo % | Risco relativo | Risco % | Prioridade |
@@ -105,7 +110,7 @@ Para definir a prioridade oficial, deve-se discutir com o cliente a fim de reali
 O resultado do experimento foi satisfatório, pois para um usuário iniciante do aplicativo Guiabolso, foi possível absorver uma variedade de requisitos importantes do aplicativo.
 
 
-## Referências Bibliográficas
+### Referências Bibliográficas
 Demoiselle Process. Diretriz: Orientações para a Elicitação de Requisitos. Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>. Acesso em: 06 de abril de 2019.
 
 Frederico Aranha - Site Campus. Técnica MoSCoW na Priorização dos Requisitos. Disponível em: <https://sitecampus.com.br/tecnica-moscow-na-priorizacao-dos-requisitos/>. Acesso em 07 de abril de 2019.
@@ -120,7 +125,8 @@ SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slide
 
 
 
-# Versões anteriores
+##   Versões anteriores
+## Versão 1.0
 ## Introdução
 Análise de Protocolo é uma técnica para elicitar requisitos, em que há a verbalização de ações e pensamentos enquanto o usuário executa a tarefa, possibilitando uma maior quantidade de detalhes.
 

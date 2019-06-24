@@ -55,7 +55,7 @@ Para analisar os modelos dos Cenários, foram levantadas questões a respeito de
 |[C11](../../modelagem/cenarios/#c11-solicitar-suporte)| [Sara Silva](https://github.com/silvasara) | Linkar léxicos em alguns termos |
 |[C13](../../modelagem/cenarios/#c13-criar-uma-conta)|[Elias Bernardo](https://github.com/ebmm01)| Linkar léxicos em alguns termos |
 |[C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao)| - | Linkar léxicos em alguns termos|
-|[C19](../../modelagem/cenarios/#c19-cadastrar-banco)| - | Linkar léxicos em alguns termos|
+|[C19](../../modelagem/cenarios/#c19-cadastrar-banco)| [Leonardo Barreiros](https://github.com/leossb36)| Linkar léxicos em alguns termos|
 |[C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes)|[Sara Silva](https://github.com/silvasara)| Linkar léxicos, cenários e subcenários|
 
 
