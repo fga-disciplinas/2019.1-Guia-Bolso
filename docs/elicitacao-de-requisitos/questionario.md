@@ -2,7 +2,7 @@
 
 Questionário é uma técnica inflexível de elicitação de requisitos, pois impossibilita análises subjetivas, mas é bastante útil porque é capaz de ser aplicada a várias pessoas. Neste trabalho, um questionário foi desenvolvido a fim de elicitar e priorizar requisitos do aplictivo Guiabolso.
 
-## Questionário
+## Metodologia
 
 O questionário faz a classificação de dois grupos: participantes que não são usuários do Guiabolso e participantes que são usuários. Para o primeiro grupo, que é o maior entre os dois, as perguntas foram feitas com o objetivo de identificar os hábitos financeiros dos participantes para avaliar se o Guiabolso atende esses hábitos. Para o segundo grupo as perguntas foram feitas com objetivo de avaliar a utilidade das funcionalidades do aplicativo e também sua eficiência.
 O questionário foi divulgado em grupos da faculdade e de familiares dos integrantes do grupo e até o momento, 51 pessoas responderam.

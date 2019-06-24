@@ -30,52 +30,52 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | [RF01](#rf01) | Adicionar um "tutorial de primeiro uso", ensinando a usar a aplicação|
 | [RF02](#rf02) | O Guiabolso deve ter a opção de adicionar tanto o banco de escolha do usuário localizado na lista, quanto o de optar por adicionar conta manualmente.|
 | [RF03](#rf03) | O aplicativo deve permitir a adição de mais de uma conta bancária. | 
-| RF04 | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| 
-| RF05 | O app deve dar possibilidade de alterar as contas manualmente| 
-| RF06 | Permitir a criação de novas contas a partir das redes sociais do usuário | 
-| RF07 | O Guiabolso deve permitir adicionar a renda do mês.| 
-| RF08 | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.| 
-| RF09 | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.| 
-| RF10 | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | 
-| RF11 | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| 
-| RF12 | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | 
-| RF13 | Mostrar quais empresas consultaram o CPF do usuário | 
-| RF14 | Permitir adição manual de transações | 
-| RF15 | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| 
-| RF16 | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| 
-| RF17 | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|
-| RF18 | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| 
-| RF19 | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | 
-| RF20 | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | 
-| RF21 | O Guiabolso deve permitir adicionar renda na "Carteira".| 
-| RF22 | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | 
-| RF23 | Categorizar as opções dentro das configurações do Guiabolso |
-| RF24 | O app sugerir formas para melhor gerir o seu dinheiro | 
-| RF25 | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |
-| RF26 | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | 
-| RF27 | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |
-| RF28 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| 
-| RF29 | O app pode diminuir as propagandas na aba guia| 
-| RF30 | Possibilidade de remover os cards da aba _Guia_. | 
-| RF31 | Adição de guias de categorização na aba _Guia_. |
-| RF32 | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. |
-| RF33 | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |
-| RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |
-| RF35 | Permitir ao usuário escoher quais abas ele quer ver | 
-| RF36 | Oferecer uma consultoria financeira através de dicas e avisos | 
-| RF37 | Ter uma aba para simulação e contratação de empréstimos |
-| RF38 | Visualização gráfica de gastos por categoria |
-| RF39 | Exibir diferença entre renda e gastos | 
-| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido | 
-| RF41 | Ter alcance de metas, como carro, casa, roupa, celular |
-| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | 
-| RF43 | Inserir limites de gastos por categoria | 
-| RF44 | Notificar quando o gasto for excedido |
-| RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | 
-| RF46 | O app deve oferecer cupons baseado na geolocalização do usuario | 
-| RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | 
-| RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | 
-| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |
+| [RF04](#rf04) | O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos, como nome, cpf, agência, conta e senha do banco para transações na internet.| 
+| [RF05](#rf05) | O app deve dar possibilidade de alterar as contas manualmente| 
+| [RF06](#rf06) | Permitir a criação de novas contas a partir das redes sociais do usuário | 
+| [RF07](#rf07) | O Guiabolso deve permitir adicionar a renda do mês.| 
+| [RF08](#rf08) | O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.| 
+| [RF09](#rf09) | O Guiabolso deve permitir a consulta da situação do CPF do usuário, mediante um cadastro com dados comprobatórios, como CPF, nome, nome da mãe e data de nascimento.| 
+| [RF10](#rf10) | Disponibilização do score numérico do Serasa na aba _Radar CPF_ | 
+| [RF11](#rf11) | O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.| 
+| [RF12](#rf12) | A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba | 
+| [RF13](#rf13) | Mostrar quais empresas consultaram o CPF do usuário | 
+| [RF14](#rf14) | Permitir adição manual de transações | 
+| [RF15](#rf15) | Ao adicionar transações manuais, deve haver uma forma explícita do tipo de transação que possa indicar se é de entrada ou saída.| 
+| [RF16](#rf16) | O Guiabolso deve permitir a visualização dos meses anteriores e futuros para eventuais simulações de economia.| 
+| [[RF17](#rf17)](#rf17) | Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.|
+| [RF18](#rf18) | O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.| 
+| [RF19](#rf19) | Ao escolher a categoria que não existe, ser mostrado categorias parecidas | 
+| [RF20](#rf20) | Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário | 
+| [RF21](#rf21) | O Guiabolso deve permitir adicionar renda na "Carteira".| 
+| [RF22](#rf22) | Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário | 
+| [RF23](#rf23) | Categorizar as opções dentro das configurações do Guiabolso |
+| [RF24](#rf24) | O app sugerir formas para melhor gerir o seu dinheiro | 
+| [RF25](#rf25) | Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário |
+| [RF26](#rf26) | Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão) | 
+| [RF27](#rf27) | Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção _"essa informação foi útil?"_ |
+| [RF28](#rf28) | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| 
+| [RF29](#rf29) | O app pode diminuir as propagandas na aba guia| 
+| [RF30](#rf30) | Possibilidade de remover os cards da aba _Guia_. | 
+| [RF31](#rf31) | Adição de guias de categorização na aba _Guia_. |
+| [RF32](#rf32) | Permitir a alteração da ordem de exibição dos cards na aba _Guia_. |
+| [RF33](#rf33) | Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos |
+| [RF34](#rf34) | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |
+| [RF35](#rf35) | Permitir ao usuário escoher quais abas ele quer ver | 
+| [RF36](#rf36) | Oferecer uma consultoria financeira através de dicas e avisos | 
+| [RF37](#rf37) | Ter uma aba para simulação e contratação de empréstimos |
+| [RF38](#rf38) | Visualização gráfica de gastos por categoria |
+| [RF39](#rf39) | Exibir diferença entre renda e gastos | 
+| [RF40](#rf40) | Ter alertas importantes, como negativação, protesto ou crédito concedido | 
+| [RF41](#rf41) | Ter alcance de metas, como carro, casa, roupa, celular |
+| [RF42](#rf42) | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | 
+| [RF43](#rf43) | Inserir limites de gastos por categoria | 
+| [RF44](#rf44) | Notificar quando o gasto for excedido |
+| [RF45](#rf45) | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | 
+| [RF46](#rf46) | O app deve oferecer cupons baseado na geolocalização do usuario | 
+| [RF47](#rf47) | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | 
+| [RF48](#rf48) | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | 
+| [RF49](#rf49) | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |
 
 #### Detalhes
 
@@ -114,9 +114,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. É perfeitamente possível combinar contas bancárias, cartões e contas manuais. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf3.gif)](./../img/pos_rastreabilidade/foward_nf3.gif)|
 
-##### RF04
+##### [RF04](#rf04)
 
-| **RF04** |**O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos pelo site.**|
+| **[RF04](#rf04)** |**O Guiabolso deve permitir adicionar uma conta mediante a inserção de dados válidos pelo site.**|
 |--|--|
 |**Tema** | [T3](../../modelagem/backlog/#temas) |
 |**Épico** | [EP07](../../modelagem/backlog/#ep07-contas-e-cartoes) |
@@ -125,9 +125,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Conforme vê-se pela imagem, não é possível adicionar uma conta pelo site do Guiabolso. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf4.png)](./../img/pos_rastreabilidade/foward_nf4.png)|
 
-##### RF05
+##### [RF05](#rf05)
 
-| **RF05** |**O app deve dar possibilidade de alterar as contas manualmente**|
+| **[RF05](#rf05)** |**O app deve dar possibilidade de alterar as contas manualmente**|
 |--|--|
 |**Tema** | [T3](../../modelagem/backlog/#temas) |
 |**Épico** | [EP07](../../modelagem/backlog/#ep07-contas-e-cartoes) |
@@ -136,9 +136,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **parcialmente** implementado. Conforme vê-se pelo gif, é possível alterar uma conta, mas somente quando há algum problema nela. Caso o usuário queria editar os dados de uma conta que está funcionando corretamente, a única saída é removê-la e adicionar novamente com os novos dados. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf5.gif)](./../img/pos_rastreabilidade/foward_nf5.gif)|
 
-##### RF06
+##### [RF06](#rf06)
 
-| **RF06** |**Permitir a criação de novas contas a partir das redes sociais do usuário**|
+| **[RF06](#rf06)** |**Permitir a criação de novas contas a partir das redes sociais do usuário**|
 |--|--|
 |**Tema** | [T2](../../modelagem/backlog/#temas) |
 |**Épico** | [EP03](../../modelagem/backlog/#ep03-cadastro) |
@@ -147,9 +147,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Além disso, percebe-se que houveram poucas modelagem e elicitações sobre o tema, indicando que o grupo praticamente não abordou esse tópico. |
 | **Funcionalidade** | Não há imagem, pois não foi implementado.|
 
-##### RF07
+##### [RF07](#rf07)
 
-| **RF07** |**O Guiabolso deve permitir adicionar a renda do mês.**|
+| **[RF07](#rf07)** |**O Guiabolso deve permitir adicionar a renda do mês.**|
 |--|--|
 |**Tema** | [T2](../../modelagem/backlog/#temas) |
 |**Épico** | [EP03](../../modelagem/backlog/#ep03-cadastro) |
@@ -158,9 +158,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf7.gif)](./../img/pos_rastreabilidade/foward_nf7.gif) |
 
-##### RF08
+##### [RF08](#rf08)
 
-| **RF08** |**O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.**|
+| **[RF08](#rf08)** |**O Guiabolso deve disponibilizar um planejamento de escolha do usuário para seus gastos.**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -169,9 +169,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf8.gif)](./../img/pos_rastreabilidade/foward_nf8.gif) |
 
-##### RF09
+##### [RF09](#rf09)
 
-| **RF09** |**O Guiabolso deve permitir a consulta da situação do CPF do usuário.**|
+| **[RF09](#rf09)** |**O Guiabolso deve permitir a consulta da situação do CPF do usuário.**|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP14](../../modelagem/backlog/#ep14-Serasa) |
@@ -181,9 +181,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Funcionalidade** |   [ ![nf1](./../img/pos_rastreabilidade/foward_nf9.gif)](./../img/pos_rastreabilidade/foward_nf9.gif) |
 
 
-##### RF10
+##### [RF10](#rf10)
 
-| **RF10** |**Disponibilização do score numérico do Serasa na aba _Radar CPF_  **|
+| **[RF10](#rf10)** |**Disponibilização do score numérico do Serasa na aba _Radar CPF_  **|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP14](../../modelagem/backlog/#ep14-Serasa) |
@@ -192,21 +192,21 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Apesar de o Guiabolso exibir o score do serasa, ele não exibe o valor numérico. A imagem é referente ao [protótipo](../../elicitacao-de-requisitos/prototipacao/#radar-cpf) elaborado pelos membros do grupo. |
 | **Funcionalidade** |   [ ![nf1](./../img/prototipo/prototipo_radar_cpf.png)](./../img/prototipo/prototipo_radar_cpf.png) |
 
-##### RF11
+##### [RF11](#rf11)
 
-| **RF11** |**O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.**|
+| **[RF11](#rf11)** |**O Guiabolso pode permitir a integração com o sistema "Nota Legal" para o usuário visualizar saldo em conta e prazos.**|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
 |**Sprint** | [Sprint 10](../../modelagem/backlog/#sprint-10) |
 |**US** | [US58](../../modelagem/backlog/#us58-buscar-dados-de-fontes-externas) |
-| **Obs.:** | Requisito **não** implementado. Além disso, percebe-se que, assim como no RF06,  houveram poucas modelagem e elicitações sobre o tema, indicando que o grupo praticamente não abordou esse tópico. |
+| **Obs.:** | Requisito **não** implementado. Além disso, percebe-se que, assim como no [RF06](#rf06),  houveram poucas modelagem e elicitações sobre o tema, indicando que o grupo praticamente não abordou esse tópico. |
 | **Funcionalidade** |  Não há imagem, pois não foi implementado. |
 
 
-##### RF12
+##### [RF12](#rf12)
 
-| **RF12** |**A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba"**|
+| **[RF12](#rf12)** |**A aba _Radar CPF_ deve exibir o score e as dicas referentes ao serasa, complementando as informações já disponíveis na aba"**|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
@@ -215,9 +215,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Apesar de ambas as funções descritas estarem presentes no app, elas não estão presentes exatamente como descritas nesse requisito. Logo o requisito está **parcialmente** implementado. A imagem é referente ao [protótipo](../../elicitacao-de-requisitos/prototipacao/#radar-cpf) elaborado pelos membros do grupo. |
 | **Funcionalidade** | [ ![nf1](./../img/prototipo/prototipo_radar_cpf.png)](./../img/prototipo/prototipo_radar_cpf.png) |
 
-##### RF13
+##### [RF13](#rf13)
 
-| **RF13** |**Mostrar quais empresas consultaram o CPF do usuário**|
+| **[RF13](#rf13)** |**Mostrar quais empresas consultaram o CPF do usuário**|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP14](../../modelagem/backlog/#ep14-Serasa) |
@@ -226,9 +226,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf14.gif)](./../img/pos_rastreabilidade/foward_nf14.gif)  |
 
-##### RF14
+##### [RF14](#rf14)
 
-| **RF14** |**Permitir adição manual de transações**|
+| **[RF14](#rf14)** |**Permitir adição manual de transações**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP09](../../modelagem/backlog/#ep09-extrato) |
@@ -236,9 +236,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**US** | [US39](../../modelagem/backlog/#us39-editar-dados-da-transacao) |
 |**Imagem** | [![nf1](./../img/pos_rastreabilidade/foward_nf15.gif)](./../img/pos_rastreabilidade/foward_nf15.gif)|
 
-##### RF15
+##### [RF15](#rf15)
 
-|**RF15** |**Adicionar transações manuais**|
+|**[RF15](#rf15)** |**Adicionar transações manuais**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -247,9 +247,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | [ ![rf16](./../img/pos_rastreabilidade/foward_rf16.png)](./../img/pos_rastreabilidade/foward_rf16.png) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
-##### RF16
+##### [RF16](#rf16)
 
-|**RF16** |**O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
+|**[RF16](#rf16)** |**O Guiabolso deve permitir a visualização dos meses anteriores e futuros**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -258,9 +258,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | [ ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg)](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
-##### RF17
+##### [RF17](#rf17)
 
-|**RF17** |**Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
+|**[RF17](#rf17)** |**Ao adicionar planejamento de gastos, o usuário poderá categorizá-los por meio de categorias pré-estabelecidas.**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -269,9 +269,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | ![rf17](./../img/pos_rastreabilidade/foward_rf17.jpeg) |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF18
+##### [RF18](#rf18)
 
-|**RF18** |**O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
+|**[RF18](#rf18)** |**O Guiabolso deve permitir que caso o usuário sinta necessidade, possa criar novas categorias.**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -280,9 +280,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | ![rf19](./../img/pos_rastreabilidade/foward_rf19.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
-##### RF19
+##### [RF19](#rf19)
 
-|**RF19** |**Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
+|**[RF19](#rf19)** |**Ao escolher a categoria que não existe, ser mostrado categorias parecidas**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -291,9 +291,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
-##### RF20
+##### [RF20](#rf20)
 
-|**RF20** |**Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
+|**[RF20](#rf20)** |**Ter uma sugestão de gastos para o dia por categorias criadas previamente pelo usuário**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -302,9 +302,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg)|
 |**Obs.:** | Requisito **totalmente** implementado, ainda assim foi visto que não aparece em algumas modelagens. |
 
-##### RF21
+##### [RF21](#rf21)
 
-|**RF21** |**O Guiabolso deve permitir adicionar renda na "Carteira**|
+|**[RF21](#rf21)** |**O Guiabolso deve permitir adicionar renda na "Carteira**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP10](../../modelagem/backlog/#ep10-agenda) |
@@ -313,9 +313,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | ![rf21](./../img/pos_rastreabilidade/foward_rf21.jpeg) |
 |**Obs.:** | Requisito **totalmente** implementado. |
 
-##### RF22
+##### [RF22](#rf22)
 
-|**RF22** |**Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
+|**[RF22](#rf22)** |**Colocar dicas na aba _Empréstimos_ no caso de não haver empréstimos disponíveis para o usuário**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP16](../../modelagem/backlog/#ep16-empretimos) |
@@ -324,9 +324,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF23
+##### [RF23](#rf23)
 
-|**RF23** |**Categorizar as opções dentro das configurações do Guiabolso**|
+|**[RF23](#rf23)** |**Categorizar as opções dentro das configurações do Guiabolso**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| -- |
@@ -335,9 +335,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado e não planejado no backlog do produto. |
 
-##### RF24
+##### [RF24](#rf24)
 
-|**RF24** |**O app sugerir formas para melhor gerir o seu dinheiro**|
+|**[RF24](#rf24)** |**O app sugerir formas para melhor gerir o seu dinheiro**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP13](../../modelagem/backlog/#ep13-dicas) |
@@ -347,9 +347,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | ![rf25](./../img/pos_rastreabilidade/foward_rf25.jpeg) |
 |**Obs.:** | Requisito **parcialmente** implementado. |
 
-##### RF25
+##### [RF25](#rf25)
 
-|**RF25** |**Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário**|
+|**[RF25](#rf25)** |**Criação de uma aba _Investimentos_ com dicas, informações, e disponibilização de investimentos para o usuário**|
 |--|--|
 |**Tema**| -- |
 |**Épico**| -- |
@@ -359,9 +359,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | |
 |**Obs.:** | Requisito **ainda não** implementado. E não representado no backlog. |
 
-##### RF26
+##### [RF26](#rf26)
 
-|**RF26** |**Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)**|
+|**[RF26](#rf26)** |**Adicionar uma opção _"Arredondar gastos para cima"_ para dar a falsa impressão de que os gastos são superiores à realidade (desativada por padrão)**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP12](../../modelagem/backlog/#ep12-estatisticas) |
@@ -370,9 +370,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 |**Obs.:** | Requisito**ainda não** implementado. |
 
-##### RF27
+##### [RF27](#rf27)
 
-|**RF27** |**Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção "essa informação foi útil?"**|
+|**[RF27](#rf27)** |**Categorizar os artigos da aba _Guia_ e aplicar maior ênfase na opção "essa informação foi útil?"**|
 |--|--|
 |**Tema**| -- |
 |**Épico**| -- |
@@ -381,9 +381,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 |**Obs.:** | Requisito**parcialmente** implementado. |
 
-##### RF28
+##### [RF28](#rf28)
 
-|**RF28** |**O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
+|**[RF28](#rf28)** |**O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**| [EP08](../../modelagem/backlog/#ep08-troca-de-dados) |
@@ -392,9 +392,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 |**Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF29
+##### [RF29](#rf29)
 
-| **RF29** | **O app pode diminuir as propagandas na aba guia**|
+| **[RF29](#rf29)** | **O app pode diminuir as propagandas na aba guia**|
 |--|--|
 |**Tema**|[T4](../../modelagem/backlog/#temas)|
 |**Épico**|[EP13](../../modelagem/backlog/#ep13-dicas) |
@@ -403,9 +403,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF30
+##### [RF30](#rf30)
 
-| **RF30** | **Possibilidade de remover os cards da aba _Guia_**|
+| **[RF30](#rf30)** | **Possibilidade de remover os cards da aba _Guia_**|
 |--|--|
 |**Tema**| [T5](../../modelagem/backlog/#temas) |
 |**Épico**| -- |
@@ -414,9 +414,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF31
+##### [RF31](#rf31)
 
-| **RF31** | **Adição de guias de categorização na aba _Guia_**|
+| **[RF31](#rf31)** | **Adição de guias de categorização na aba _Guia_**|
 |--|--|
 |**Tema**| [T5](../../modelagem/backlog/#temas) |
 |**Épico**| -- |
@@ -425,9 +425,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 |**Imagem** | -- |
 | **Obs.:** | Requisito **ainda não** implementado. |
 
-##### RF32
+##### [RF32](#rf32)
 
-| **RF32** | **Permitir a alteração da ordem de exibição dos cards na aba _Guia_.**|
+| **[RF32](#rf32)** | **Permitir a alteração da ordem de exibição dos cards na aba _Guia_.**|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
@@ -436,9 +436,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Porém ele foi [prototipado](../../elicitacao-de-requisitos/prototipacao/#guias), conforme imagem abaixo. |
 | **Funcionalidade** | [ ![nf1](./../img/prototipo/prototipo_guia.png)](./../img/prototipo/prototipo_guia.png)  |
 
-##### RF33
+##### [RF33](#rf33)
 
-| **RF33** | **Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos.**|
+| **[RF33](#rf33)** | **Sistema de login que funcione com o leitor de digitais dos mais diversos dispositivos.**|
 |--|--|
 |**Tema** | [T2](../../modelagem/backlog/#temas) |
 |**Épico** | [EP4](../../modelagem/backlog/#ep04-login-logout) |
@@ -447,9 +447,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. |
 | **Funcionalidade** | Não há imagem.  |
 
-##### RF34
+##### [RF34](#rf34)
 
-| **RF34** |**Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro.**|
+| **[RF34](#rf34)** |**Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro.**|
 |--|--|
 |**Tema** | -- |
 |**Épico** | -- |
@@ -459,9 +459,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Funcionalidade** | Não há imagem.  |
 
 
-##### RF35
+##### [RF35](#rf35)
 
-| **RF35** |**Permitir ao usuário escoher quais abas ele quer ver. **|
+| **[RF35](#rf35)** |**Permitir ao usuário escoher quais abas ele quer ver. **|
 |--|--|
 |**Tema** | -- |
 |**Épico** | -- |
@@ -470,9 +470,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
 | **Funcionalidade** | Não há imagem.  |
 
-##### RF36
+##### [RF36](#rf36)
 
-| **RF36** |**Oferecer uma consultoria financeira através de dicas e avisos.**|
+| **[RF36](#rf36)** |**Oferecer uma consultoria financeira através de dicas e avisos.**|
 |--|--|
 |**Tema** | [T5](../../modelagem/backlog/#temas) |
 |**Épico** | [EP13](../../modelagem/backlog/#ep13-Dicas) |
@@ -481,9 +481,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf36.gif)](./../img/pos_rastreabilidade/foward_nf36.gif)  |
 
-##### RF37
+##### [RF37](#rf37)
 
-| **RF37** |**Ter uma aba para simulação e contratação de empréstimos**|
+| **[RF37](#rf37)** |**Ter uma aba para simulação e contratação de empréstimos**|
 |--|--|
 |**Tema** | [T6](../../modelagem/backlog/#temas) |
 |**Épico** | [EP16](../../modelagem/backlog/#ep16-emprestimos) |
@@ -492,9 +492,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf37.gif)](./../img/pos_rastreabilidade/foward_nf37.gif)  |
 
-##### RF38
+##### [RF38](#rf38)
 
-| **RF38** |**Visualização gráfica de gastos por categoria.**|
+| **[RF38](#rf38)** |**Visualização gráfica de gastos por categoria.**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP12](../../modelagem/backlog/#ep12-estatisticas) |
@@ -503,9 +503,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf38.gif)](./../img/pos_rastreabilidade/foward_nf38.gif)  |
 
-##### RF39
+##### [RF39](#rf39)
 
-| **RF39** |**Exibir diferença entre renda e gastos.**|
+| **[RF39](#rf39)** |**Exibir diferença entre renda e gastos.**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP12](../../modelagem/backlog/#ep12-estatisticas) |
@@ -514,9 +514,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** |  [ ![nf1](./../img/pos_rastreabilidade/foward_nf39.gif)](./../img/pos_rastreabilidade/foward_nf39.gif)  |
 
-##### RF40
+##### [RF40](#rf40)
 
-| **RF40** |**Ter alertas importantes, como negativação, protesto ou crédito concedido. **|
+| **[RF40](#rf40)** |**Ter alertas importantes, como negativação, protesto ou crédito concedido. **|
 |--|--|
 |**Tema** | -- |
 |**Épico** | -- |
@@ -525,9 +525,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. Porém o grupo [prototipou](../../elicitacao-de-requisitos/prototipacao/#notificacoes) a funcionalidade, conforme imagem abaixo. |
 | **Funcionalidade** |  [ ![nf1](./../img/prototipo/prototipo_notificacao.png)](./../img/prototipo/prototipo_notificacao.png)  |
 
-##### RF41
+##### [RF41](#rf41)
 
-| **RF41** |**Ter alcance de metas, como carro, casa, roupa, celular.**|
+| **[RF41](#rf41)** |**Ter alcance de metas, como carro, casa, roupa, celular.**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -536,9 +536,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **parcialmente** implementado. É possivel estabelecer metas, mas não individuais por tema. |
 | **Funcionalidade** |  Não há como descrita no requisito.  |
 
-##### RF42
+##### [RF42](#rf42)
 
-| **RF42** |**Ter perfis de usuário, por exemplo, bom administrador, bom investidor.**|
+| **[RF42](#rf42)** |**Ter perfis de usuário, por exemplo, bom administrador, bom investidor.**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP12](../../modelagem/backlog/#ep12-estatisticas) |
@@ -547,9 +547,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. |
 | **Funcionalidade** | Não há imagem.  |
 
-##### RF43
+##### [RF43](#rf43)
 
-| **RF43** |**Inserir limites de gastos por categoria.**|
+| **[RF43](#rf43)** |**Inserir limites de gastos por categoria.**|
 |--|--|
 |**Tema** | [T4](../../modelagem/backlog/#temas) |
 |**Épico** | [EP11](../../modelagem/backlog/#ep11-planejamento) |
@@ -558,9 +558,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **totalmente** implementado. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf43.gif)](./../img/pos_rastreabilidade/foward_nf43.gif)   |
 
-##### RF44
+##### [RF44](#rf44)
 
-| **RF44** |**Notificar quando o gasto for excedido**|
+| **[RF44](#rf44)** |**Notificar quando o gasto for excedido**|
 |--|--|
 |**Tema** | -- |
 |**Épico** | -- |
@@ -569,9 +569,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
 | **Funcionalidade** | Não há imagem.  |
 
-##### RF45
+##### [RF45](#rf45)
 
-| **RF45** |**O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario**|
+| **[RF45](#rf45)** |**O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario**|
 |--|--|
 |**Tema** | -- |
 |**Épico** | -- |
@@ -580,9 +580,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado. Além disso não foi feito uma US para o requisito dentro do backlog, o que indica uma falha. |
 | **Funcionalidade** | Não há imagem.  |
 
-##### RF46
+##### [RF46](#rf46)
 
-| **RF46** |**O app deve oferecer cupons baseado na geolocalização do usuario.**|
+| **[RF46](#rf46)** |**O app deve oferecer cupons baseado na geolocalização do usuario.**|
 |--|--|
 |**Tema** | [T6](../../modelagem/backlog/#temas) |
 |**Épico** | [EP15](../../modelagem/backlog/#ep15-propagandas) |
@@ -591,9 +591,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **parcialmente** implementado. O app disponiliza links para sites de cupons, mas não os cupons em si. |
 | **Funcionalidade** | [ ![nf1](./../img/pos_rastreabilidade/foward_nf46.gif)](./../img/pos_rastreabilidade/foward_nf46.gif)   |
 
-##### RF47
+##### [RF47](#rf47)
 
-| **RF47** |**Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados.**|
+| **[RF47](#rf47)** |**Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados.**|
 |--|--|
 |**Tema** | [T6](../../modelagem/backlog/#temas) |
 |**Épico** | [EP15](../../modelagem/backlog/#ep15-propagandas) |
@@ -602,9 +602,9 @@ Obs.: No caso dos R*, o requisito varia de acordo com o que está definido na es
 | **Obs.:** | Requisito **não** implementado.  |
 | **Funcionalidade** | Não há   |
 
-##### RF48
+##### [RF48](#rf48)
 
-| **RF48** |**Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online.**|
+| **[RF48](#rf48)** |**Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online.**|
 |--|--|
 |**Tema** | [T6](../../modelagem/backlog/#temas) |
 |**Épico** | [EP15](../../modelagem/backlog/#ep15-propagandas) |
