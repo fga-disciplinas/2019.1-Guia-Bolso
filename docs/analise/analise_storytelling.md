@@ -38,3 +38,9 @@ O storytelling 1 ficou bem atrás dos outros dois, e nenhum possui versionamento
 ## Referências
 
 Storytelling Techniques for Capturing Effective Requirements! Disponível em: <https://babottomline.com/2012/11/27/storytelling-techniques-for-capturing-effective-requirements/>. Acesso em: 08/06/2019.
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 10/06/2019 | 1.0 | Adicionando inspeção |  [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |

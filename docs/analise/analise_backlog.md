@@ -159,3 +159,9 @@ Tanto num contexto macro quanto num micro, o Backlog pode ser avaliado como **Bo
 [SCHWABER, Por Ken. GUIA DOSCRUM. 2011.](https://s3.amazonaws.com/academia.edu.documents/36798433/GUIA_DO_SCRUM.pdf?response-content-disposition=inline%3B%20filename%3DGUIA_DO_SCRUM.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20190623%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190623T201520Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=53227693f4fd33535ebe2445b9d164f8e718908fcfab266568399460b7f70d08)
 
 [Entendendo User Stories, Rodrigo Yoshima](http://www.univale.com.br/unisite/mundo-j/artigos/32EntendendoUserStories.pdf)
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 09/04/2019 | 1.0 | Adição da inspesão | [Elias Bernardo](https://github.com/leossb36) |

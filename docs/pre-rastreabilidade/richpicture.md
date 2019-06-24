@@ -36,7 +36,7 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 |--|--|
 | **Versão**| Atual: 2.0 (23/06/2019) <br> Anterior: [1.0](#rp01-macro-atores_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra a interação entre os atores envolvidos em todo o universo de informações do aplicativo. |
-|**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) | 
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01) e [Rafael Makaha](https://github.com/rafaelmakaha) | 
 
 ## RP02 - Usabilidade
 
@@ -50,21 +50,21 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## RP03 - Preocupações do usuário
 
-[ ![RP03](./../img/rich_picture/rich_picture_preocupacoes.png) ](./../img/rich_picture/rich_picture_preocupacoes.png)  
+[ ![RP03](./../img/rich_picture/rich_picture_preocupacoes-v2.png) ](./../img/rich_picture/rich_picture_preocupacoes-v2.png)  
 
 | **RP03** | **Preocupações do usuário**  |
 |--|--|
-| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Versão**| Atual: 1.1 (24/06/2019) <br> Anterior: [1.0](#rp03-preocupacoes-do-usuario_1) | 
 | **Descrição** | Este RichPicture ilustra as principais preocupações do úsuario do Guiabolso, ou seja, os motivos pelos quais faz o uso do aplicativo. |
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)| 
 
 ## RP04 - Finanças do app
 
-[ ![RP04](./../img/rich_picture/rich_picture_financas_do_app_2.png) ](./../img/rich_picture/rich_picture_financas_do_app.png)
+[ ![RP04](./../img/rich_picture/rich_picture_financas_do_app_3.png) ](./../img/rich_picture/rich_picture_financas_do_app.png)
 
 | **RP04** | **Finanças do app**  |
 |--|--|
-| **Versão**| Atual: 2.0 (16/04/2019) <br> Anterior: [1.0](#rp04-financas-do-app_1) (31/03/2019) | 
+| **Versão**| Atual: 3.0 (16/04/2019) <br> Anterior: [1.0](#rp04-financas-do-app_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra as formas com que o Guiabolso obtem lucro. |
 |**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)  e [Marcelo Araújo](https://github.com/santosm46) | 
 
@@ -86,7 +86,7 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 |--|--|
 | **Versão**| Atual: 2.0 (23/06/2019) <br> Anterior: [1.0](#rp06-financeiro-aba_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interações do usuário com ela. |
-|**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
 
 ## RP07 - Aba Guia
 
@@ -128,7 +128,17 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 |--|--|
 | **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
 | **Descrição** | Este RichPicture ilustra a interação entre os atores envolvidos em todo o universo de informações do aplicativo. |
-|**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha) | 
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01) e [Rafael Makaha](https://github.com/rafaelmakaha) | 
+
+## RP03 - Preocupações do usuário
+
+[ ![RP03](./../img/rich_picture/rich_picture_preocupacoes-v1.png) ](./../img/rich_picture/rich_picture_preocupacoes-v1.png)  
+
+| **RP03** | **Preocupações do usuário**  |
+|--|--|
+| **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
+| **Descrição** | Este RichPicture ilustra as principais preocupações do úsuario do Guiabolso, ou seja, os motivos pelos quais faz o uso do aplicativo. |
+|**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)|
 
 ### RP04 - Finanças do app
 
@@ -148,7 +158,7 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 |--|--|
 | **Versão**| Atual: 1.0 (31/03/2019) <br> Anterior: - | 
 | **Descrição** | Este RichPicture ilustra a aba de finanças do aplicativo e possíveis interações do usuário com ela. |
-|**Autor**| [Elias Bernardo](https://github.com/silvasara) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01) e [Rafael Makaha](https://github.com/rafaelmakaha)| 
 
 ### RP07 - Aba Guia
 

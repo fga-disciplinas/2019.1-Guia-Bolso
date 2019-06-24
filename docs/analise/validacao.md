@@ -56,3 +56,9 @@ Considerando que a maioria dos comentários feitos pelo monitor foram positivos,
 Carlos, Introdução a prototipação e apresentação do Axure RP 6.5. Material [open acess] disponivel em: [Devmedia](https://www.devmedia.com.br/in    troducao-a-prototipacao-e-apresentacao-do-axure-rp-6-5/27978), 2013.
 
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 023. 1º/2019. 53 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 11/06/2019 | 1.0 | Adicionando inspeção | [Sara Silva](https://github.com/silvasara) e [Elias Bernard](https://github.com/ebmm01) |

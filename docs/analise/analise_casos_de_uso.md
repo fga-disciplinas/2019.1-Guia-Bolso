@@ -63,3 +63,10 @@ O caso de uso pode ser avaliado como **Bom** de acordo com os critérios de qual
 ## Referências
 
 SERRANO, Milene. Simules Jogo de Cartas e Tabuleiro - Especificação em Cenários.
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 10/06/2019 | 1.0 | Adicionando inspeção |  [Lucas Machado](https://github.com/lmmLucasMachado) e [Marcelo Araújo](https://github.com/santosm46) |
+
