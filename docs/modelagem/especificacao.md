@@ -220,7 +220,6 @@ O aplicativo apresenta seus termos de uso para que o usuário concorde em utiliz
 
 Os usuários estão sujeitos às leis de direitos autorais. Estas leis são apresentadas em conjunto com os termos de uso.
 
-
 | **EPS** | **Especificação Suplementar**  |
 |--|--|
 | **Versão**| Atual: 1.0 (29/04/19) <br> Anterior: - | 

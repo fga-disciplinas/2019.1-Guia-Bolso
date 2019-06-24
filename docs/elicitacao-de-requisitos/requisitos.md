@@ -170,3 +170,7 @@ Segundo descrevem Machado (2013) e Bezerra (2007), os requisitos funcionais defi
 BEZERRA, Eduardo. **Princípios de análise e projeto de sistema com UML.** Rio de Janeiro: Elsevier, 2007. 6ª reimpressão.
 
 MACHADO, Felipe Nery Rodrigues. **Análise e gestão de requisitos de software: onde nascem os sistemas.** 1ª. ed. São Paulo: Érica, 2011.
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 16/04/2019 | 1.0 | Junção dos requisitos elicitados apartir de diferentes tecnicas | [Elias Bernardo](https://github.com/leossb36) |

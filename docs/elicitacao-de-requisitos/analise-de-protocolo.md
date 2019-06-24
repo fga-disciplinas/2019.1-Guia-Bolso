@@ -183,8 +183,7 @@ Demoiselle Process - Diretriz: Orientações para a Elicitação de Requisitos.
 Disponível em: <http://demoiselle.sourceforge.net/process/ds/1.2.3-BETA1/ProcessoDemoisellePlugin/guidances/guidelines/orientacoesElicitacaoRequisitos_3AF37DEB.html>
 Acesso em: 06 de abril de 2019.
 
-| **AP** | **Análise de protocolo**  |
-|--|--|
-| **Versão**| Atual: 1.0 (08/04/19) <br> Anterior: - | 
-| **Descrição** | Análise de protocolo para elicitar requisitos do Guiabolso| 
-|**Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) | 
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 08/04/2019 | 1.0 | Análise de protocolo para elicitar requisitos do Guiabolso | [Shayane Alcântara](https://github.com/shayanealcantara) |

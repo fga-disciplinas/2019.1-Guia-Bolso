@@ -2,10 +2,10 @@
 
 A entrevista é uma técnica tradicional e simples que pode produzir bons resultados no contexto de elicitação de requisitos. Esta técnica e uma boa interação com o usuário que possui um ponto de vista e experiência diferente com o aplicativo, nos possibilitando visualizar aspectos únicos de acordo com visão do usuário.
 
-|Nome|Papel|Observação|
+| Nome | Papel | Observação |
 |--|--|--|
-|Lucas Machado|Entrevistador|Membro da equipe|
-|Rafael Makaha|Estrevistado|Usuário do aplicativo|
+| Lucas Machado | Entrevistador | Membro da equipe |
+| Rafael Makaha | Estrevistado | Usuário do aplicativo |
 
 ## Metodologia
 
@@ -51,15 +51,15 @@ Não utilizo a aba **guia** do app não vejo uma utilidade dela, e as dicas que 
 
 ## Requisitos Elicitados
 
-MoSCOW
+### MoSCOW
 
 | Código | Descrição | Prioridade |
 | -- | -- | -- |
-| ENT1 |O app deve dar possibilidade de alterar as contas manualmente|should|
-| ENT2 |O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas|should|
-| ENT3 |O deve padronizar a utilizalção nos dispositivos android e no IOS|must|
-| ENT4 |O app deve ser mais intuitivo|must|
-| ENT5 |O app pode diminuir as propagandas na aba guia|could|
+| ENT1 | O app deve dar possibilidade de alterar as contas manualmente|should|
+| ENT2 | O app deve possibilitar outras formas graficas de visualizar os dados além do grafico de tabelas| should |
+| ENT3 | O deve padronizar a utilizalção nos dispositivos android e no IOS| must |
+| ENT4 | O app deve ser mais intuitivo| must |
+| ENT5 | O app pode diminuir as propagandas na aba guia| could |
 
 ### First Things First
 
@@ -74,4 +74,12 @@ MoSCOW
 | Totais | 17 | 11 | 29 | 100 | 13 | 100 | 21 | 100 |  
 
 ## Referências
+
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 08/04/2019 | 1.0 | Entrevista para elicitar requisitos | [Lucas Machado](https://github.com/lmmLucasMachado) |
+

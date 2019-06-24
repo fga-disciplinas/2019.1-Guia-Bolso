@@ -59,19 +59,19 @@ __Backward-from__.
 | RF34 | Sistema de conquistas para incentivar o usuário a usar aplicativo e poupar dinheiro |--|--|--|--|
 | RF35 | Permitir ao usuário escoher quais abas ele quer ver | --|--|--|--|
 | RF36 | Oferecer uma consultoria financeira através de dicas e avisos | --|--|--|--|
-| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo) |--|
-| RF38 | Visualização gráfica de gastos por categoria |--|--|--|--|
-| RF39 | Exibir diferença entre renda e gastos | --|--|--|--|
-| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| --|--|--|--|
-| RF41 | Ter alcance de metas, como carro, casa, roupa, celular |--|--|--|--|
-| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | --|--|--|--|
+| RF37 | Ter uma aba para simulação e contratação de empréstimos |[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo), [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)| [AR](../../pre-rastreabilidade/argumentacao#arg04-fluxo-de-dinheiro-do-aplicativo), [AD04](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), [I3](../../elicitacao-de-requisitos/introspeccao#persona-3-paula) | [C8](../../modelagem/cenarios/#c8-simular-um-emprestimo), [C22](../../modelagem/cenarios/#c22-contratar-emprestimo), [L8](../../modelagem/lexicos/#c8-simular), [UC14](../../modelagem/casos_de_uso/#uc14-simular-um-emprestimo), [UC15](../../modelagem/casos_de_uso/#uc15-contratar-um-emprestimo), [EP16](../../modelagem/backlog/#ep16-emprestimos), [IS03](../../modelagem/instar/#is03-simular-um-emprestimo), |--|
+| RF38 | Visualização gráfica de gastos por categoria |[ARG02](../../pre-rastreabilidade/argumentacao/#arg02-extrato)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados), [AD](../../elicitacao-de-requisitos/brainstorm#brainstorm-1-elicitacao-de-requisitos), |--|--|
+| RF39 | Exibir diferença entre renda e gastos | [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|--|--|
+| RF40 | Ter alertas importantes, como negativação, protesto ou crédito concedido| [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [ARG08](../../pre-rastreabilidade/argumentacao/#arg08-serasa)|--|--|--|
+| RF41 | Ter alcance de metas, como carro, casa, roupa, celular | -- |--|--|--|
+| RF42 | Ter perfis de usuário, por exemplo, bom administrador, bom investidor | [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf), [RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|--|--|--|
 | RF43 | Inserir limites de gastos por categoria | --|--|--|--|
 | RF44 | Notificar quando o gasto for excedido |--|--|--|--|
 | RF45 | O app deve mostrar notificações de quando se ultrapassa uma meta estabelecida pelo usuario | --|--|--|--|
-| RF46 | O app deve oferecer cupons baseado na geolocalização do usuario | --|--|--|--|
+| RF46 | O app deve oferecer cupons baseado na geolocalização do usuário | [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia)|--|--|--|
 | RF47 | Os cupons para bares e restaurantes com uma localização superior a x km não deveriam ser mostrados | --|--|--|--|
 | RF48 | Para as cidades que não possuem cupons de descontos esta opção não deveria ser mostrada a menos que sejam cupons online  | --|--|--|--|
-| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual |--|--|--|--|
+| RF49 | O app deve oferecer a possibilidade de alterar as informações de sinal do valor, e data da transação manual | [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario)|--|--|
 
 ### Requisitos Não funcionais
 
@@ -602,3 +602,10 @@ Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca 
 **Elos**:
 
 ---
+
+
+## Versionamento
+
+| Data | Versão | Descrição | Autor |
+|--|--|--|--|
+| 17/06/2019 | 1.0 | Construção do Backward | [Alan](https://github.com/alanrslima), [Leonardo](https://github.com/leossb36), [Lucas](https://github.com/lmmLucasMachado), [Sara](https://github.com/silvasara), [Shayane](https://github.com/shayanealcantara)|
