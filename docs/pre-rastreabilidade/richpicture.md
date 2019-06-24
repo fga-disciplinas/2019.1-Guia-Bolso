@@ -60,11 +60,11 @@ Além disso todos os richpicures devem ter seu tema principal no centro da image
 
 ## RP04 - Finanças do app
 
-[ ![RP04](./../img/rich_picture/rich_picture_financas_do_app_2.png) ](./../img/rich_picture/rich_picture_financas_do_app.png)
+[ ![RP04](./../img/rich_picture/rich_picture_financas_do_app_3.png) ](./../img/rich_picture/rich_picture_financas_do_app.png)
 
 | **RP04** | **Finanças do app**  |
 |--|--|
-| **Versão**| Atual: 2.0 (16/04/2019) <br> Anterior: [1.0](#rp04-financas-do-app_1) (31/03/2019) | 
+| **Versão**| Atual: 3.0 (16/04/2019) <br> Anterior: [1.0](#rp04-financas-do-app_1) (31/03/2019) | 
 | **Descrição** | Este RichPicture ilustra as formas com que o Guiabolso obtem lucro. |
 |**Autor**| [Lucas Machado](https://github.com/lmmLucasMachado)  e [Marcelo Araújo](https://github.com/santosm46) | 
 

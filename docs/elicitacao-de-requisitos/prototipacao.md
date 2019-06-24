@@ -10,7 +10,7 @@
 
 O processo de prototipação tem o objetivo de facilitar o entendimento dos requisitos, apresentando conceitos e funcionalidades do aplicativo. Fazendo novas proposta para então solucionar problemas na qual o usuário pode se encontrar garantindo o alinhamento entre equipe e usuário.
 
-## Informações
+## Metodologia
 
 Através de aplicações de técnicas foram levantadas requisitos que estão atuando no aplicativo, e que podem ser melhorados. Foi utilizada a técnica de prototipação e também a simulação de experiência de usuário no qual foram feitos testes com pessoas que não são usuários do Guiabolso. Portanto, com base nas análise feitas com usuários e também com equipe de desenvolvimento, foram debatidas melhorias e padronizações, no qual o sistema atualmente não apresenta.
 
