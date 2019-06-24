@@ -2,6 +2,11 @@
 
 Com o objetivo de facilitar futuras consultas, os requisitos elicitados serão compilados nessa página.
 
+## Metodologia 
+
+Inicialmente alguns requisitos funcionais e não funcionais foram elicitados por diferentes metodos, apartir deles fizemos um compilado com todos os requisitos neste documento.
+Todos os documentos que geraram requisitos foram analisados e comparados e apartir disso foi possível retirar os requisitos que apareceram em mais um metodo elicitação além de unir requisitos com muitas semelhanças.
+
 ## Requisitos elicitados
 
 ### Índice geral
@@ -171,6 +176,11 @@ BEZERRA, Eduardo. **Princípios de análise e projeto de sistema com UML.** Rio 
 
 MACHADO, Felipe Nery Rodrigues. **Análise e gestão de requisitos de software: onde nascem os sistemas.** 1ª. ed. São Paulo: Érica, 2011.
 
+## Versionamento
+
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 16/04/2019 | 1.0 | Junção dos requisitos elicitados apartir de diferentes tecnicas | [Elias Bernardo](https://github.com/leossb36) |
+| 24/06/2019 | 2.0 | Adicionando metodologia | [Lucas Machado](https://github.com/lmmLucasMachado) |
+
+
