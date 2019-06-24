@@ -2,6 +2,11 @@
 
 O NFR Framework trata-se de um framework conceitual orientado a requisitos não funcionais, ele decompõe os requisitos facilitando assim a compreensão e a priorização destes requisitos alem de possíveis comflitos, por consequência pode vir a ter um grande impacto no sistema.
 
+
+## Metodologia
+
+Foi separado os temas principais do aplicativo e apartir deles foram gerados alguns NFR's que foram feitos no Draw.io.
+
 ## NFR00 - Geral
 
 [ ![NFR00](./../img/nfr/nfr_geral.png)](./../img/nfr/nfr_geral.png)

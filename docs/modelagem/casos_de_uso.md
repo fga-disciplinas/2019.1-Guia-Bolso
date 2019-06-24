@@ -2,6 +2,10 @@
 
 Também chamados de diagramas comportamentais, na notação da UML, os casos de uso são usados para descrever um conjunto de ações (uses cases - casos de uso) que um sistema ou um conjunto de sistemas (subject - sujeito) deve desempenhar em colaboração com um ou mais indivíduos externos ao sistema (actors - atores). Cada caso de uso deverá prover algum resultado observável e de valor para os atores ou outros interessados do sistema.
 
+## Metodologia
+
+Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-de-requisitos/brainstorm) e apartir dele geramos algumas historias de usuário que foram colocadas em uma pasta no drive e depois passada para este documento.
+
 ## Casos de uso & especificação
 
 ### UC1 - Fazer Login

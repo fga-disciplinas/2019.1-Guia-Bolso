@@ -3,7 +3,7 @@
 Este artefato busca ligar cada requisito levantado aos respectivos métodos de elicitação e modelagem utilizados na disciplina por meio da rastreabilidade 
 __Backward-from__.
 
-## metodologia 
+## Metodologia 
 
 Inicialmente pegamos os requisitos funcionais e não funcionais ja separados e padronizados no [arquivo requisitos](../../elicitacao-de-requisitos/requisitos) e apartir deles buscamos em todos os arquivos de modelagem, elicitação de requisitos e analise, e assim preenchemos as tabelas abaixo. Após a tabela preenchida com exceção da coluna de elo as outras colunas foram vistoriadas e assim foi percebemos quais elos estavam relacionados a cada linha das tabelas.
 
@@ -431,37 +431,50 @@ Alocação: [AD](../../elicitacao-de-requisitos/requisitos/#indice-geral) aloca 
 ---
 
 #### EF32
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) representa [C14](../../modelagem/cenarios/#c14-verificar-dicas) e [L32](../../modelagem/lexicos/#l32-guia)
+
+Satisfação: [US57](../../modelagem/backlog/#us57-visualizar-dicas-de-controle-financeiro) [C14](../../modelagem/cenarios/#c14-verificar-dicas)
 
 ---
 
 #### EF33
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Agregação: [AP](../../elicitacao-de-requisitos/analise-de-protocolo/#verbalizacao-do-usuario) agrega [INS](../../elicitacao-de-requisitos/introspeccao/#persona-2-joao)
+
+Agregação: [UC1](../../modelagem/casos_de_uso/#uc1-fazer-login) agrega [US16](../../modelagem/backlog/#us16-fazer-login)
+
+Recurso:[US16](../../modelagem/backlog/#us16-fazer-login) demanda [US15](../../modelagem/backlog/#us15-validacao-dados-de-login)
 
 ---
 
 #### EF34
-**Categoria**:
+**Categoria**: Desenvolvimento
 
-**Elos**:
+**Elos**: 
 
----
-
-#### EF35
-**Categoria**:
-
-**Elos**:
+Agregação: [Q](../../elicitacao-de-requisitos/questionario/) agregação [INS](../../elicitacao-de-requisitos/introspeccao/#requisitos-elicitados-moscow_2)
 
 ---
 
 #### EF36
-**Categoria**:
+**Categoria**: Desenvolvimento
 
 **Elos**:
+
+Representação: [PR](../../elicitacao-de-requisitos/prototipacao) representa [RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf) e [AP](../../elicitacao-de-requisitos/analise-de-protocolo#verbalizacao-do-usuario), 
+
+Agregação: [AD](../../elicitacao-de-requisitos/brainstorm/#brainstorm-1-elicitacao-de-requisitos) agrega [Q](../../elicitacao-de-requisitos/questionario/#requisitos-elicitados)e [INT](../../elicitacao-de-requisitos/introspeccao/)
+
+Agregação: [L4](/modelagem/lexicos/#l4-score-do-serasa) agrega [C6](modelagem/cenarios/#c6-consultar-cpf)
+
+Satisfação: [US61](modelagem/backlog/#us61-informar-score) satisfaz [L4](/modelagem/lexicos/#l4-score-do-serasa)
 
 ---
 
