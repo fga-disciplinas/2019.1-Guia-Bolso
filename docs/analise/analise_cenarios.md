@@ -59,23 +59,25 @@ DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline wit
 
 |Análise| cenários|
 |--|--|
-| **Versão**| Atual: 1.1 (24/06/19) <br> Anterior: 1.0 | 
+| **Versão**| Atual: 1.1 (24/06/19) <br> Anterior: [1.0](#versao-10) | 
 | **Descrição** | Adicionando justificativa às perguntas | 
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)|
 
 ## Versionamento
 
 # Cenários
+
 ## Versão 1.0
+
 ## Introdução
 
 A verificação dos cenários tem como objetivo principal a detecção de defeitos antes de encaminhar o produto à produção final. Para os cenários, o itens mais relevante a se analisar é a notação dos modelos. Para esse fim, um checklist mostrou-se mais prático e eficaz para a verificação.
 
-## Metodologia
+### Metodologia
 
 Para analisar os modelos dos Cenários, foram levantadas questões a respeito de aspectos importantes para a modelagem de requisitos com cenários. As questões serão usadas como critérios de sucesso e só há duas respostas possíveis pra essas questões: Sim, sendo representado pelo símbolo de "check" e indicará sucesso, e não, sendo representado por um "X", que indicará insucesso. Em específico nas questões de linkagem de léxicos e cenários, se o cenário em questão conter somente 1 link faltante, será aribuida símbolo positivo.
 
-## Inspeção
+### Inspeção
 
 |Critério de sucesso|[C5](../../modelagem/cenarios/#c5-limpar-o-nome)|[C7](../../modelagem/cenarios/#c7-ignorar-transacao)|[C11](../../modelagem/cenarios/#c11-solicitar-suporte)|[C13](../../modelagem/cenarios/#c13-criar-uma-conta)|[C17](../../modelagem/cenarios/#c17-adicionar-comentario-numa-transacao)|[C19](../../modelagem/cenarios/#c19-cadastrar-banco)|[C21](../../modelagem/cenarios/#c21-atualizar-contas-e-cartoes)|
 |----------------------|--|--|--|--|--|--|--|

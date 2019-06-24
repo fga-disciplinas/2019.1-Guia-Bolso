@@ -72,7 +72,7 @@ HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work C
 
 |Análise| RichPicture |
 |--|--|
-| **Versão**| Atual: 1.1 (24/06/19) <br> Anterior: 1.0 | 
+| **Versão**| Atual: 1.1 (24/06/19) <br> Anterior: [1.0](#versao-10) | 
 | **Descrição** | Adicionando justificativa às perguntas | 
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara)|
 
@@ -80,7 +80,9 @@ HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work C
 ## Versionamento
 
 # RichPicture
+
 ## Versão 1.0
+
 ## Introdução
 
 A verificação dos RichPictures tem como objetivo principal a detecção de defeitos antes de encaminhar o produto à produção final. Para esse fim, um checklist mostrou-se mais prático e eficaz para a verificação. O checklist tem questões comuns para os modelos a serem documentados e avaliados e busca capturar as questões relevantes.
