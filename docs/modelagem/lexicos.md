@@ -173,7 +173,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L13** | **Usuário**  |
 |--|--|
 | **Versão**| 1.0 |
-| **Autor**| [Leo Santos](https://github.com/leossb36) |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Classificação**| -- |
 | **Sinônimos**| -- |
 | **Noção** | > Indivíduo que utiliza o aplicativo Guiabolso |
@@ -257,7 +257,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L20** | **Radar CPF**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0]()|
-| **Autor**| [Alan Lima](https://github.com/alanrslima) |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 |**Classificação**| Objeto |
 |**Sinonimos**| Pesquisar CPF |
 | **Noção** |> Funcionalidade presente na barra inferior do Guiabolso com fácil acesso; <br>> Busca informações de um determinado local e retorna um feedback para o [usuário](#l13-usuario)|
@@ -281,7 +281,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L22** | **Avaliação de Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.2 <br> Anterior: [1.1](#l22-avaliacao-credito_1) |
-| **Autor**| [Alan Lima](https://github.com/alanrslima) |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 |**Classificação**| Objeto |
 |**Sinonimos**| Score |
 | **Noção** | > Funcionalidade que mostra a pontuação do [usuário](#l13-usuario). <br> > Informando se o [usuário](#l13-usuario) tem pontuação boa ou ruim. <br> > Informação disponibilizada por instituições financeiras externas. |
@@ -317,7 +317,7 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **L25** | **Crédito**  |
 |--|--|
 | **Versão**| Atual: 1.1 <br> Anterior: [1.0](#l25-credito_1) |
-| **Autor**| [Leo Santos](https://github.com/leossb36) |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Classificação**| Objeto |
 | **Sinônimos**| > Inadimplemente |
 | **Noção** | > O [usuário](#l13-usuario) necessita de dinheiro. <br> > O Guiabolso diposnibiliza emprestimos com base na sua [avaliação](#l22-avaliacao-de-credito). |
@@ -528,6 +528,18 @@ Para o levantamento inicial de palavras e termos, o grupo realizou um [Brainstor
 | **Noção** | > Produto de uma movimentação de dinheiro <br> > Ato de compra, venda, empréstimo <br> > Troca de bem ou serviço por alguma quantidade de dinheiro|
 | **Impacto** | <br> >	[Usuário] realiza uma compra no supermercado <br> > [Usuário] realiza um depósito em outra [conta] <br> > [Usuário] recebe dinheiro de volta após uma compra|
 | **Rastro** | [Brainstorm BS2](../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso) |
+
+### L43 - Emprestimo
+
+| **L43** | **Emprestimo**  |
+|--|--|
+| **Versão**| Atual: 1.0 |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
+| **Classificação**| Objeto  |
+|**Sinônimos**| Crediario, prazo |
+| **Noção** | > O ​usuário​ necessita de dinheiro.  <br>> O Guiabolso disponibiliza empréstimos com base na sua ​avaliação.|
+| **Impacto** |  > O [​usuário​] recebe o empréstimo e pode fazer o que desejava antes. <br>> O [​usuário] consegue o dinheiro necessário para efetuar os seus planos 
+| **Rastro** | não possui |
 
 ## Versões anteriores
 

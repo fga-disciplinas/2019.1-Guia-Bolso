@@ -26,22 +26,22 @@ Para analisar os modelos dos RichPicture, foram levantadas questões a respeito 
 
 ## Inspeção
 
--- <div class="datatable"></div>
+<div class="datatable"></div>
 |Critério de sucesso|[RP01](../../pre-rastreabilidade/richpicture/#rp01-macro-atores)|[RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade)|[RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario)|[RP04](../../pre-rastreabilidade/richpicture/#rp04-financas-do-app)|[RP05](../../pre-rastreabilidade/richpicture/#rp05-emprestimo)|[RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba)|[RP07](../../pre-rastreabilidade/richpicture/#rp07-aba-guia) |[RP08](../../pre-rastreabilidade/richpicture/#rp08-configuracoes)|[RP09](../../pre-rastreabilidade/richpicture/#rp09-radar-cpf)|
 |-------------------------|--|--|--|--|--|--|--|--|--|
 |1 - A simbologia está coerente?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | 
 |2 - Existe equilíbrio entre palavras e desenhos?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:| :heavy_check_mark: |:heavy_check_mark: | 
 |3 - O atores estão bem definidos?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
-|4 - O centro está claro e bem definido?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :x:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-|5 - O centro está coerente com o título?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:x:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-|6 - O fluxo e as operações fazem sentido?|:x:|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark:|:x:|
-|7 - Usa linguagem compreensível?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark: | :heavy_check_mark: |	
+|4 - O centro está claro e bem definido?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+|5 - O centro está coerente com o título?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+|6 - O fluxo e as operações fazem sentido?|:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:x:|:heavy_check_mark:|:heavy_check_mark:|
+|7 - Usa linguagem compreensível?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: | :heavy_check_mark: |	
 |8 - Possui versionamento?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |
 |9 - Os ícones correspondem à identidade visual proposta?|:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: | :heavy_check_mark: |
 |10 - Há relação clara entre atores e objetos?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:|
 |11 - Está com as funcionalidades atualizadas?|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: | :heavy_check_mark: |:x:|:heavy_check_mark: |  :heavy_check_mark:|:heavy_check_mark:|
-| Quantidade de sucessos|100%|91%|91%|91%|100%|91%|100%|100%|100% |
-| Classificação |**Bom**| **Bom**|**Bom**|**Regular**|**Bom**|**Regular**| **Regular**|**Bom** | **Regular**  |
+| Quantidade de sucessos|100%|100%|100%|100%|100%|91%|91%|100%|100% |
+| Classificação |**Bom**| **Bom**|**Bom**|**Bom**|**Bom**|**Bom**| **Bom**|**Bom** | **Bom**  |
 
 
 ## Parecer
@@ -73,12 +73,16 @@ HOWARD, Andrew Monk. Steve." The Rich Picture: A Tool for Reasoning About Work C
 
 |  | **Análise Rich Pictures**  |
 |--|--|
-| **Versão**| Atual: 1.1 (24/07/2019) <br> Anterior: [1.0](#rp07-aba-guia_1) | 
+| **Versão**| Atual: 1.1 (24/07/2019) <br> Anterior: [1.0](#versao-10) | 
 | **Descrição** | Descrição da análise dos Rich Pictures produzidos. O foco está na versão 1.0 de cada um. |
 |**Autor**| [Sara Silva](https://github.com/silvasara) e [Shayane Alcântara](https://github.com/shayanealcantara) |
 
 
-# Versões anteriores
+## Versões anteriores
+
+# RichPicture
+
+## Versão 1.0
 
 ## Introdução
 

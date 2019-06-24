@@ -48,9 +48,9 @@ O aplicativo também deve oferecer uma visualização de extrato melhor que as q
 
 Além disso, pode-se concluir também que algumas funcionalidades devem ser mantidas mesmo que não sejam usadas sempre, porque são funcionalidades que despertam o interesse da maiorias pessoas que não usam o aplicativo, como a consulta ao CPF, a avaliação de crédito e aba Guia, cujas frequências de uso pode ser justificada pela baixa variabilidade dessas informações.
 
-## Requisitos Elicitados
+### Requisitos Elicitados
 
-### MoSCOW
+#### MoSCOW
 
 | Código | Descrição | Prioridade |
 |--|--|--|
@@ -74,7 +74,7 @@ Além disso, pode-se concluir também que algumas funcionalidades devem ser mant
 | Q18 | Notificar quando o gasto for excedido | Should have |
 | Q19 | Ter um tutorial de primeiro uso | Should have |
 
-### First Things First
+#### First Things First
 
 <div class="datatable"></div>
 | ID | Benefício relativo | Penalidade Relativa | Valor total | Valor % | Custo relativo | Custo | Risco relativo | Risco % | Priorida de |
@@ -96,17 +96,20 @@ Além disso, pode-se concluir também que algumas funcionalidades devem ser mant
 Obs: Benefício relativo tem peso **2**, Penalidade Relativa e Custo relativo peso **1** e Risco relativo peso **0,5**
 
 ## Referências
+
 SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
 
 | **Q** | **Questionário**  |
 |--|--|
-| **Versão**| Atual: 1.2 (10/04/19) <br> Anterior: [1.1](#versao-1-1) e [1.0](#versao-1) | 
+| **Versão**| Atual: 1.2 (10/04/19) <br> Anterior: [1.1](#versao-11) e [1.0](#versao-1) | 
 | **Descrição** | Questionário sobre os hábitos financeiros do público alvo| 
 |**Autor**| [Sara Silva](https://github.com/silvasara) 
 
 
-# Versões Anteriores
+## Versões Anteriores
+
 ## Versão 1.1
+
 ### Introdução
 
 Questionário é uma técnica inflexível de elicitação de requisitos, pois impossibilita análises subjetivas, mas é bastante útil porque é capaz de ser aplicada a várias pessoas.
@@ -118,12 +121,12 @@ O questionário faz a classificação de dois grupos: participantes que não sã
 O questionário faz a classificação de dois grupos: participantes que não são usuários do Guiabolso e participantes que são usuários. Para o primeiro grupo, que é o maior entre os dois, as perguntas foram feitas com o objetivo de identificar os hábitos financeiros dos participantes para avaliar se o Guiabolso atende esses hábitos. Para o segundo grupo as perguntas foram feitas com objetivo de avaliar a utilidade das funcionalidades do aplicativo e também sua eficiência.
 O questionário foi divulgado em grupos da faculdade e de familiares dos integrantes do grupo, até o momento, 51 pessoas responderam. 
 
-[ ![P01](./../img/pergunta_1.png) ](./../img/pergunta_1.png)
+[ ![P01](./../img/pergunta/pergunta_1.png) ](./../img/pergunta/pergunta_1.png)
 
 As próximas perguntas foram direcionadas aos não usuários do Guiabolso
 
-[ ![P24](./../img/pergunta_20_5.png) ](./../img/pergunta_20_5.png)
-[ ![P25](./../img/pergunta_20_6.png) ](./../img/pergunta_20_6.png)
+[ ![P24](./../img/pergunta/pergunta_20_5.png) ](./../img/pergunta/pergunta_20_5.png)
+[ ![P25](./../img/pergunta/pergunta_20_6.png) ](./../img/pergunta/pergunta_20_6.png)
 
 ### Análise
 
@@ -222,32 +225,38 @@ Questionário é uma técnica inflexível de elicitação de requisitos, pois im
 
 O questionário faz a classificação de dois grupos: participantes que não são usuários do Guiabolso e participantes que são usuários. Até o momento, 51 pessoas responderam o questionário.
 
-[ ![P01](./../img/pergunta_1.png) ](./../img/pergunta_1.png)
+[ ![P01](./../img/pergunta/pergunta_1.png) ](./../img/pergunta/pergunta_1.png)
 
 A próximas perguntas foram direcionadas aos usuários do Guiabolso
 
-[ ![P01](./../img/pergunta_2.png) ](./../img/pergunta_2.png)
-[ ![P01](./../img/pergunta_3.png) ](./../img/pergunta_3.png)
-[ ![P01](./../img/pergunta_4.png) ](./../img/pergunta_4.png)
-[ ![P01](./../img/pergunta_5.png) ](./../img/pergunta_5.png)
-[ ![P01](./../img/pergunta_6.png) ](./../img/pergunta_6.png)
-[ ![P01](./../img/pergunta_7.png) ](./../img/pergunta_7.png)
-[ ![P01](./../img/pergunta_8.png) ](./../img/pergunta_8.png)
-[ ![P01](./../img/pergunta_9.png) ](./../img/pergunta_9.png)
-[ ![P01](./../img/pergunta_10.png) ](./../img/pergunta_10.png)
-[ ![P01](./../img/pergunta_11.png) ](./../img/pergunta_11.png)
+[ ![P02](./../img/pergunta/pergunta_2.png) ](./../img/pergunta/pergunta_2.png)
+[ ![P03](./../img/pergunta/pergunta_3.png) ](./../img/pergunta/pergunta_3.png)
+[ ![P04](./../img/pergunta/pergunta_4.png) ](./../img/pergunta/pergunta_4.png)
+[ ![P05](./../img/pergunta/pergunta_5.png) ](./../img/pergunta/pergunta_5.png)
+[ ![P06](./../img/pergunta/pergunta_6.png) ](./../img/pergunta/pergunta_6.png)
+[ ![P07](./../img/pergunta/pergunta_7.png) ](./../img/pergunta/pergunta_7.png)
+[ ![P08](./../img/pergunta/pergunta_8.png) ](./../img/pergunta/pergunta_8.png)
+[ ![P09](./../img/pergunta/pergunta_9.png) ](./../img/pergunta/pergunta_9.png)
+[ ![P10](./../img/pergunta/pergunta_10.png) ](./../img/pergunta/pergunta_10.png)
+[ ![P11](./../img/pergunta/pergunta_11.png) ](./../img/pergunta/pergunta_11.png)
 
 A próximas perguntas foram direcionadas aos não usuários do Guiabolso
 
-[ ![P01](./../img/pergunta_12.png) ](./../img/pergunta_12.png)
-[ ![P01](./../img/pergunta_13.png) ](./../img/pergunta_13.png)
-[ ![P01](./../img/pergunta_14.png) ](./../img/pergunta_14.png)
-[ ![P01](./../img/pergunta_15.png) ](./../img/pergunta_15.png)
-[ ![P01](./../img/pergunta_16.png) ](./../img/pergunta_16.png)
-[ ![P01](./../img/pergunta_17.png) ](./../img/pergunta_17.png)
-[ ![P01](./../img/pergunta_18.png) ](./../img/pergunta_18.png)
-[ ![P01](./../img/pergunta_19.png) ](./../img/pergunta_19.png)
-[ ![P01](./../img/pergunta_20.png) ](./../img/pergunta_20.png)
+[ ![P12](./../img/pergunta/pergunta_12.png) ](./../img/pergunta/pergunta_12.png)
+[ ![P13](./../img/pergunta/pergunta_13.png) ](./../img/pergunta/pergunta_13.png)
+[ ![P14](./../img/pergunta/pergunta_14.png) ](./../img/pergunta/pergunta_14.png)
+[ ![P15](./../img/pergunta/pergunta_15.png) ](./../img/pergunta/pergunta_15.png)
+[ ![P16](./../img/pergunta/pergunta_16.png) ](./../img/pergunta/pergunta_16.png)
+[ ![P17](./../img/pergunta/pergunta_17.png) ](./../img/pergunta/pergunta_17.png)
+[ ![P18](./../img/pergunta/pergunta_18.png) ](./../img/pergunta/pergunta_18.png)
+[ ![P19](./../img/pergunta/pergunta_19.png) ](./../img/pergunta/pergunta_19.png)
+[ ![P20](./../img/pergunta/pergunta_20_1.png) ](./../img/pergunta/pergunta_20_1.png)
+[ ![P21](./../img/pergunta/pergunta_20_2.png) ](./../img/pergunta/pergunta_20_2.png)
+[ ![P22](./../img/pergunta/pergunta_20_3.png) ](./../img/pergunta/pergunta_20_3.png)
+[ ![P23](./../img/pergunta/pergunta_20_4.png) ](./../img/pergunta/pergunta_20_4.png)
+[ ![P24](./../img/pergunta/pergunta_20_5.png) ](./../img/pergunta/pergunta_20_5.png)
+[ ![P25](./../img/pergunta/pergunta_20_6.png) ](./../img/pergunta/pergunta_20_6.png)
+
 
 | **Q** | **Questionário**  |
 |--|--|
