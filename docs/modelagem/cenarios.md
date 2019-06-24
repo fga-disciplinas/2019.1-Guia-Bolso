@@ -98,7 +98,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C6** | **[Consultar CPF]**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br>  Anterior: [1.0](#c6-consultar-cpf) (16/04)|
-| **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Metas/Objetivos** | Descrever como [consultar CPF] pelo Guiabolso |
 | **Contexto** |**O que?** <br> > Forma de consultar situação do CPF do [usuário]; <br><br> **Onde?** <br>> Na aba “[Radar CPF]” do aplicativo; <br> <br>**Quando?** <br>> A qualquer momento; <br><br> **Por quê?**<br> >[Usuário] não tem conhecimento sobre a atual situação do CPF no mercado financeiro, ou seja, com o [nome limpo] ou sujo.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso; <br> >  [instituição](../lexicos/l31-instituicao-financeira) BoaVista.|
@@ -295,7 +295,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C20** | **Alterar senha**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
-| **Autor**| [Marcelo Araújo](https://github.com/santosm46) |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Metas/Objetivos** | Descrever como alterar a senha |
 | **Contexto** |**O que?** <br> > Alterar a senha; <br><br> **Onde?** <br>> Na aba de “Ajustes” do aplicativo; <br><br> **Quando?** <br>> A qualquer momento após se cadastrar para usar o Guiabolso; <br><br> **Por quê?** <br> > O [usuário] quer uma senha mais segura; <br> > Alguém descobriu a senha do [usuário];|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -351,7 +351,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C24** | **Adicionar [conta manual]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
-| **Autor**| -- |
+| **Autor**| [Lucas Machado](https://github.com/lmmLucasMachado) |
 | **Metas/Objetivos** | Adicionar uma conta de forma manual, sem sincronização automática; |
 | **Contexto** |**O que?** <br> > Criar uma [conta manual]; <br><br> **Onde?** <br> *Para IOS* <br> > Na aba ajustes, ao clicar em "Contas e cartões", seguido por um clique no botão de "+" no canto superior direito, e por final em "[Conta manual]"; <br><br> *Para Android* <br> > Na aba finanças, ao clicar no botão de "+" no canto inferior direito, seguido por um clique no botão "adicionar conta". Por fim, em "[Conta manual]"; <br><br> **Quando?** <br> > A qualquer momento, que o [usuário] desejar adicionar uma nova [conta manual]; <br><br> **Por quê?** <br> > Para organizar de forma manual seus gastos, adicionando somente os gastos e ganhos que desejar;|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
