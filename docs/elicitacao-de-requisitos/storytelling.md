@@ -6,14 +6,18 @@ Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecim
 
 ### Rastreabilidade
 
+| **ST1** | **Interesse do usuario**  |
+|--|--|
+| **Versão**| Atual: 1.0 (07/04/2019) <br> Anterior: - | 
+| **Descrição** | Esse storytelling foi feito para observar como um usuário novo interage com o app, e suas dificuldades. |
+| **Descrição do narrador** | Adailton Martins, usuário recente do Guiabolso|
+| **Link da narração** |-|
+|**Autor**|[Lucas Machado](https://github.com/lmmLucasMachado) |
+
 | Nome | papel | Observação |
 |--|--|--|
 | Adailton Martins | Narração | Usuário app |
 | Lucas Machado | Relatório | Membro da equipe |
-
-Data: 07/04/2019
-
-Esse storytelling foi feito para observar como um usuário novo interage com o app, e suas dificuldades.
 
 ## Resumo da Narração
 
@@ -32,21 +36,22 @@ O usuário começou a utilizar o app Guiabolso recentemente pelo fato de um cole
 
 ### Rastreabilidade
 
+| **ST2** | **Utilizando a aba Guia**  |
+|--|--|
+| **Versão**| Atual: 1.0 (09/04/2019) <br> Anterior: - | 
+| **Descrição** | Esse storytelling foi feito para saber a experiência de um usuário com a aba guia do aplicativo, e assim, levantar requisitos. |
+| **Descrição do narrador** | Lucas Machado, estudante, é usuário do Guiabolso há algumas semanas, e busca economizar com as compras com alimento. |
+| **Link da narração** |[audio](https://www.4shared.com/mp3/wpXGMcP7da/guia_bolso_storytelling_02.html)|
+|**Autor**|[Lucas Machado](https://github.com/lmmLucasMachado) | 
+
 | Nome | papel | Observação |
 |--|--|--|
 | Lucas Machado | Narração | Usuário app / membro |
 | Marcelo | Relatório | Membro da equipe |
 
-Data: 09/04/2019 </br>
-Descrição do participante: Lucas Machado, estudante, é usuário do Guiabolso há algumas semanas, e busca economizar com as compras com alimento.
-
-Esse storytelling foi feito para saber a experiência de um usuário com a aba guia do aplicativo, e assim, levantar requisitos.
-
 ## Resumo da Narração
 
 O usuário achou interessante a ideia que lhe foi passada do app, depois de utilizar um tempo foi em busca de novas funcionalidade dentre elas acabou encontrando na aba guia uma que lhe pareceu interessante, a parte onde encontrava sugestões de bares e restaurantes que pelo próprio app era possível adquirir descontos, porém ficou frustrado  ao perceber que os locais onde ele podia ter o desconto eram longes de mais da sua localização até em estados diferentes. Ele descobriu um local onde podia colocar a cidade de onde iria receber sugestões e lá também não existia a sua cidade como opção.
-
-O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/mp3/wpXGMcP7da/guia_bolso_storytelling_02.html).
 
 ## Requisitos Elicitados
 
@@ -61,16 +66,19 @@ O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/m
 
 ### Rastreabilidade
 
+| **ST3** | **Utilizando conta manual**  |
+|--|--|
+| **Versão**| Atual: 1.0 (10/04/2019) <br> Anterior: - | 
+| **Descrição** | Esse storytelling foi feito para saber mais sobre o controle das finanças manuais de um usuário, e assim, levantar requisitos com base nisso. |
+| **Descrição do narrador** | Marcelo, estudante, é usuário do Guiabolso há cerca de 3 semanas, e usa diariamente para registrar os gastos. |
+| **Link da narração** |[audio](https://www.4shared.com/music/aov68X6Wda/guia_bolso_storytelling_03.html)|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)| 
+
 | Nome | papel | Observação |
 |--|--|--|
 | Marcelo | Narração | Usuário app / membro |
 | Lucas Machado | Relatório | Membro da equipe |
 | Demais membros | Ouvinte | Membro da equipe |
-
-Data: 10/04/2019 </br>
-Descrição do participante: Marcelo, estudante, é usuário do Guiabolso há cerca de 3 semanas, e usa diariamente para registrar os gastos.
-
-Esse storytelling foi feito para saber mais sobre o controle das finanças manuais de um usuário, e assim, levantar requisitos com base nisso.
 
 ## Resumo da Narração
 
@@ -79,8 +87,6 @@ da opção de conta manual, pois faz compras com dinheiro regularmente. Depois d
 ao tentar depois editar o valor da transação de positivo para negativo, não havia como, e também
 tentou alterar a data da transação e não conseguiu.
 Outra dificuldade foi ao escolher a categoria, pois tendo feito uma compra de um alimento, procurou a categoria comida e não acho, e acabou categorizando como Mercado.
-
-O audio da narração pode ser encontrado [nesse link](https://www.4shared.com/music/aov68X6Wda/guia_bolso_storytelling_03.html).
 
 ## Requisitos Elicitados
 
