@@ -2,6 +2,10 @@
 
 Também chamados de diagramas comportamentais, na notação da UML, os casos de uso são usados para descrever um conjunto de ações (uses cases - casos de uso) que um sistema ou um conjunto de sistemas (subject - sujeito) deve desempenhar em colaboração com um ou mais indivíduos externos ao sistema (actors - atores). Cada caso de uso deverá prover algum resultado observável e de valor para os atores ou outros interessados do sistema.
 
+## Metodologia
+
+Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-de-requisitos/brainstorm) e apartir dele geramos algumas historias de usuário que foram colocadas em uma pasta no drive e depois passada para este documento.
+
 ## Casos de uso & especificação
 
 ### UC1 - Fazer Login
@@ -11,6 +15,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC1** | **Fazer Login**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Fazer login no Guiabolso |
 |**Ator(es)** | > Usuário; <br> > Guiabolso |
 | **Pré condições** | > Usuário estar deslogado no aplicativo Guiabolso;|
@@ -27,6 +32,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC2** | **Cadastrar usuário**|
 |--|--|
 | **Versão**| Atual: 1.0 (26/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Criar um cadastro para um usuário |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário estar deslogado no aplicativo Guiabolso; |
@@ -43,6 +49,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC3** | **Visualizar extrato**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Visualisar o extrato das transações |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | Usuário possuir pelo menos uma transação; |
@@ -59,6 +66,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC4** | **Visualizar contas bancárias e cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Visualizar contas bancárias cadastradas no Guiabolso |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário possuir uma conta bancária cadastrada no aplicativo e/ou Conta manual; |
@@ -75,6 +83,7 @@ Também chamados de diagramas comportamentais, na notação da UML, os casos de 
 | **UC5** | **Atualizar contas e cartões**|
 |--|--|
 | **Versão**| Atual: 1.0 (28/04) <br> Anterior: --|
+|**Autor**| [Marcelo Araújo](https://github.com/santosm46)|
 | **Descrição** | Atualizar contas e cartões para ficar sincronizado com a conta bancária |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |
