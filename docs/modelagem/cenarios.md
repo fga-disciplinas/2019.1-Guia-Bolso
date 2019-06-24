@@ -27,7 +27,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C1** | **Categorizar transação**|
 |--|--|
 | **Versão**| Atual: 1.1 (21/04) <br> Anterior: [1.0](#c1-contas-residenciais) (16/04)|
-| **Autor**| -- |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Metas/Objetivos** | Adicionar uma categoria à uma transação nova ou já existente |
 | **Contexto** |**O que?** <br> > Categorizar uma transação; <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em [Adicionar transação manual](#c2-adicionar-transacao-com-conta-manual) ou ao editar uma transação já existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma transação; <br><br> **Por quê?** <br> > Para melhorar a organização das transações.|
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso.|
@@ -225,7 +225,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C15** | **Avaliar dicas**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Metas/Objetivos** | Descrever como o [usuário] pode avaliar uma dica da aba "Guia" do aplicativo |
 | **Contexto** |**O que?** <br> > O [usuário] avalia uma dica; <br><br> **Onde?** <br>> Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> Sempre que o [usuário] visualizar uma dica ; <br><br> **Por quê?** <br> > Para melhorar as dicas exibidas para o [usuário] e ser uma forma de feedback para o Guiabolso; |
 |**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso.|
@@ -239,7 +239,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C16** | **Adicionar código de segurança**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| Elias Bernardo |
+| **Autor**| [Elias Bernardo](https://github.com/ebmm01) |
 | **Metas/Objetivos** | Descrever como o [usuário] pode adicionar um código de segurança no aplicativo |
 | **Contexto** |**O que?** <br> > O [usuário] adiciona um código de segurança; <br><br> **Onde?** <br>> No Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para melhorar a segurança das informações do [usuário] ; |
 |**Ator(es)** | > [Usuário];  <br> > Guiabolso.|
@@ -365,7 +365,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C25** | **Categorizar transações com perfil de contas residenciais**  |
 |--|--|
 | **Versão**| 1.1 <br> Anterior: [1.0](#c1-categorizar-gasto-como-contas-residenciais) (16/04)|
-| **Autor**| -- |
+| **Autor**| [Alan Lima](https://github.com/alanrslima) |
 | **Metas/Objetivos** | > Categorizar gasto de transação. |
 | **Contexto** | **O que?** <br> > Categorizar uma transação; <br> **Onde?** <br> > Na aba Finanças, ao editar ou selecionar uma transação. <br> **Quando** <br> > A qualquer momento que o [usuário](../lexicos/#l13-usuario) sentir necessidade, desde que haja movimentação de transações. <br> **Por quê?** <br> > Para melhorar a organização do planejamento do [usuário](../lexicos/#l13-usuario) e para o [usuário](../lexicos/#l13-usuario) filtrar melhor seus gastos visualmente.|
 | **Ator(es)** | > [Usuário](../lexicos/#l13-usuario) do aplicativo; <br> > Guiabolso.|
