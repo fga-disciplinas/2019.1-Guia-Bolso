@@ -211,7 +211,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C14** | **Verificar dicas**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| Leonardo Barreiros |
 | **Metas/Objetivos** | Descrever como o [usuário] Verifica as dicas disponibilizadas pelo Guiabolso |
 | **Contexto** |**O que?** <br> > O [usuário] Verificar uma dica; <br><br> **Onde?** <br> > Na aba "Guia" do aplicativo Guiabolso; <br><br> **Quando?** <br>> A qualquer momento ; <br><br> **Por quê?** <br> > Para conferir benefícios e desvantagens em como o [usuário] pode melhorar seus rendimentos |
 |**Ator(es)** | > [Usuário]; <br> > Dicas da aba "Guia" <br> > Guiabolso <br> Informações externas - Internet.|
@@ -266,7 +266,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 
 | **C18** | **Editar transação**|
 |--|--|
-| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- | 
+| **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
 | **Autor**| [Shayane Alcântara](https://github.com/shayanealcantara) |
 | **Metas/Objetivos** | Fazer alterações em uma [transação](../lexicos/#l42-transacao)|
 | **Contexto** |**O que?** <br> > Alterar dados referentes à uma [transação](../lexicos/#l42-transacao); <br><br> **Onde?** <br> > Na aba Finanças, ao clicar em alguma [transação](../lexicos/#l42-transacao) existente; <br><br> **Quando?** <br> > A qualquer momento, desde que envolva uma [transação](../lexicos/#l42-transacao); <br><br> **Por quê?** <br> > Para melhorar a organização das [transações](../lexicos/#l42-transacao).|
@@ -281,7 +281,7 @@ Todos os cenários devem ter explicitados os 5W2H (parciais) no contexto, além 
 | **C19** | **Cadastrar [Banco]**|
 |--|--|
 | **Versão**| Atual: 1.0 (21/04) <br> Anterior: -- |
-| **Autor**| -- |
+| **Autor**| Leonardo Barreiros |
 | **Metas/Objetivos** | Descrever como cadastrar um [banco] no Guiabolso. |
 | **Contexto** |**O que?** <br> > Cadastrar novo [banco] <br><br> **Onde?** <br> > No aplicativo Guiabolso, na aba de "Ajustes" ou em "Finanças". <br><br> **Quando?** <br> > A qualquer momento após se cadastrar no Guiabolso. <br><br> **Por quê?** <br> > O [usuário] pode ter mais de uma conta bancaria. <br> > O [usuário] pode ingressar em um novo [banco]. |
 |**Ator(es)** | > [Usuário]; <br> > Guiabolso, Instituições bancarias. |
