@@ -107,6 +107,7 @@ SERRANO, M. et al. SimulES Jogo de Cartas e Tabuleiro - Especificação em Cená
 
 DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline with scenarios. Requirements Engineering, v. 2, n. 4, p. 184-198, 1997.
 
+## Versionamento
 
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
