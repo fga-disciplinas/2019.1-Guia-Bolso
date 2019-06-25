@@ -55,7 +55,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **Pré condições** | Usuário possuir pelo menos uma transação; |
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Finanças"; <br> > Usuário seleciona card de últimas transações. |
 | **Fluxos alternativos** | **FA1 - Aba Guia:** <br> > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Guia"; <br> > Usuário seleciona algum card com comparação de gastos. <br> <br> **FA2 - Aba Ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões".|
-| **Fluxos de exceção** | Nenhum |
+| **Fluxos de exceção** | **FE1 - Falta de internet:** <br> > Sistema exibe mensagem "Não foi possível conectar com o servidor";|
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C12](../cenarios/#c12-ir-para-extrato) & Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
@@ -72,7 +72,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **Pré condições** | Usuário possuir uma conta bancária cadastrada no aplicativo e/ou Conta manual; |
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões".|
 | **Fluxos alternativos** | **FA1 - Aba ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões".|
-| **Fluxos de exceção** | Nenhum |
+| **Fluxos de exceção** |  **FE1 - Falta de internet:** <br> > Sistema exibe mensagem "Não foi possível conectar com o servidor"; |
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
@@ -89,7 +89,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão de atualizar status (em formato de uma seta circular) |
 | **Fluxos alternativos** | **FA1 - Ver status:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica em "Ver status"; <br>  > Usuário seleciona "Atualizar novamente". <br> <br> **FA2 - Aba Finanças:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões"; <br>  > Usuário atualiza status do cartão pelo botão de atualizar (em formato de uma seta circular). <br> <br> **FA3 - Status das atualizações dos cartões:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões"; <br> > Usuário seleciona "Ver status das atualizações dos cartões"; <br> > Usuário seleciona "Atualizar novamente". <br> <br> **FA4 - Aba Guia:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica em "Ver status"; <br>  > Usuário seleciona "Atualizar novamente". <br> <br> **FA5 - Aba Ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões"; <br> > Usuário atualiza status do cartão pelo botão de atualizar (em formato de uma seta circular). <br> <br> **FA6 - Status das atualizações dos cartões pela aba ajuste:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões"; <br>  > Usuário seleciona "Ver status das atualizações dos cartões"; <br> > Usuário seleciona "Atualizar novamente".|
-| **Fluxos de exceção** | Nenhum |
+| **Fluxos de exceção** |  **FE1 - Falta de internet:** <br> > Sistema exibe mensagem "Não foi possível conectar com o servidor";|
 | **Pós condições** | As informações e extrato das contas bancárias no Guiabolso ficam atualizados com as das contas bancárias das instituições financeiras |
 | **Rastreabilidade** | Cenário [C21](../cenarios/#c21-atualizar-contas-e-cartoes) & Richpicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) & Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
