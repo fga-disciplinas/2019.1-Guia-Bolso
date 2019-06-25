@@ -68,6 +68,13 @@ Para analisar os modelos dos NFR's, foram levantadas questões a respeito de asp
 | *Classificação* | **Bom**  | **Bom** | **Bom** | **Bom** | **Bom** | **Bom** | **regular** | **Bom** |
 | *Melhorias* | - | Detalhar impactos | - | - | - | - | Detalhar impactos, aprofundar mais no tema e sua importância | - |
 
+## Parecer
+
+| **SR/SD** | **Autor** | **Parecer**|
+|--|--|--|
+|[NFR01](../../modelagem/nfr/#nfr01-suportabilidade)| [Leonardo Barreiros](https://github.com/leossb36)| Refinar NFR a fim de obter todas as possibilidades existentes de impactos dos requisitos não funcionais |
+|[NFR04](../../modelagem/istar/#is08-transacoes)| [Leonardo Barreiros](https://github.com/leossb36)| Refinar NFR a fim de obter todas as possibilidades existentes de impactos dos requisitos não funcionais |
+
 ## Conclusão
 
 O NFR pode ser avaliado como Bom de acordo com os critérios de qualidade estabelecidos pelo grupo. Contudo alguns NFR específicos estão regulares, sendo necessários refatorá-los.
@@ -80,7 +87,8 @@ Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007
 
 COUTO, Anselmo; MARTINS, Luiz Eduardo. (2009). Um Processo de Validação de Requisitos Não-Funcionais Baseado no NFR-Framework. Disponível em: https://www.researchgate.net/publication/221235239_Um_Processo_de_Validacao_de_Requisitos_Nao-Funcionais_Baseado_no_NFR-Framework 
 
+## Versionamento
+
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
 | 10/06/2019 | 1.0 | Adicionando inspeção | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
-
