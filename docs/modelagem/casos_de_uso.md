@@ -55,7 +55,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **Pré condições** | Usuário possuir pelo menos uma transação; |
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Finanças"; <br> > Usuário seleciona card de últimas transações. |
 | **Fluxos alternativos** | **FA1 - Aba Guia:** <br> > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Guia"; <br> > Usuário seleciona algum card com comparação de gastos. <br> <br> **FA2 - Aba Ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário acessa aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões".|
-| **Fluxos de exceção** | Nenhum |
+| **Fluxos de exceção** | **FE1 - Falta de internet:** <br> > Sistema exibe mensagem "Não foi possível conectar com o servidor";|
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Cenário [C12](../cenarios/#c12-ir-para-extrato) & Richpicture [RP02](../../pre-rastreabilidade/richpicture/#rp02-usabilidade) |
 
@@ -72,7 +72,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **Pré condições** | Usuário possuir uma conta bancária cadastrada no aplicativo e/ou Conta manual; |
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões".|
 | **Fluxos alternativos** | **FA1 - Aba ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões".|
-| **Fluxos de exceção** | Nenhum |
+| **Fluxos de exceção** |  **FE1 - Falta de internet:** <br> > Sistema exibe mensagem "Não foi possível conectar com o servidor"; |
 | **Pós condições** | Não há |
 | **Rastreabilidade** | Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
@@ -89,7 +89,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |
 | **Fluxo principal** | > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica no botão de atualizar status (em formato de uma seta circular) |
 | **Fluxos alternativos** | **FA1 - Ver status:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica em "Ver status"; <br>  > Usuário seleciona "Atualizar novamente". <br> <br> **FA2 - Aba Finanças:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões"; <br>  > Usuário atualiza status do cartão pelo botão de atualizar (em formato de uma seta circular). <br> <br> **FA3 - Status das atualizações dos cartões:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário seleciona "Contas e cartões"; <br> > Usuário seleciona "Ver status das atualizações dos cartões"; <br> > Usuário seleciona "Atualizar novamente". <br> <br> **FA4 - Aba Guia:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Finanças"; <br> > Usuário clica em "Ver status"; <br>  > Usuário seleciona "Atualizar novamente". <br> <br> **FA5 - Aba Ajustes:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões"; <br> > Usuário atualiza status do cartão pelo botão de atualizar (em formato de uma seta circular). <br> <br> **FA6 - Status das atualizações dos cartões pela aba ajuste:** <br> > Usuário acessa o Guiabolso; <br> > Usuário entra na aba "Ajustes"; <br> > Usuário seleciona "Contas e cartões"; <br>  > Usuário seleciona "Ver status das atualizações dos cartões"; <br> > Usuário seleciona "Atualizar novamente".|
-| **Fluxos de exceção** | Nenhum |
+| **Fluxos de exceção** |  **FE1 - Falta de internet:** <br> > Sistema exibe mensagem "Não foi possível conectar com o servidor";|
 | **Pós condições** | As informações e extrato das contas bancárias no Guiabolso ficam atualizados com as das contas bancárias das instituições financeiras |
 | **Rastreabilidade** | Cenário [C21](../cenarios/#c21-atualizar-contas-e-cartoes) & Richpicture [RP03](../../pre-rastreabilidade/richpicture/#rp03-preocupacoes-do-usuario) & Richpicture [RP06](../../pre-rastreabilidade/richpicture/#rp06-financeiro-aba) |
 
@@ -100,6 +100,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC6** | **Adicionar transação manual**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Leonardo Barreiros](https://github.com/leossb36)|
 | **Descrição** | Adicionar uma transação manualmente |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras |
 | **Pré condições** | Usuário possuir uma conta bancária e/ou cartão de crédito; |
@@ -116,6 +117,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC7** | **Criar categoria**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01)|
 | **Descrição** | Fluxo(s) de como o usuário pode inserir uma nova categoria para as transações |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | Não há |
@@ -132,6 +134,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC8** | **Editar transação**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01)|
 | **Descrição** | Fluxo(s) de como o usuário pode editar uma transação |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | > Existir uma transação; <br> > Usuário possuir uma conta bancária automática e/ou manual  |
@@ -148,6 +151,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC9** | **Adicionar conta (bancária e manual)**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01)|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar uma conta bancária e/ou uma conta manual (carteira, por exemplo) |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições financeiras & bancos |
 | **Pré condições** | > Usuário possuir uma conta bancária e/ou cartão de crédito; |
@@ -164,6 +168,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC10** | **Adicionar planejamento**|
 |--|--|
 | **Versão**| Atual: 1.0 (27/04) <br> Anterior: --|
+|**Autor**| [Elias Bernardo](https://github.com/ebmm01)|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar um planejamento de rendas ou gastos |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | Não há |
@@ -180,6 +185,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC11** | **Categorizar um gasto**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Leonardo Barreiros](https://github.com/leossb36)|
 | **Descrição** | Fluxo(s) de como o usuário pode adicionar uma categoria em um gasto |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; |
 | **Pré condições** | > Usuário possuir alguma transação |
@@ -197,6 +203,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC12** | **Solicitar suporte**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Alan Lima](https://github.com/alanrslima)|
 | **Descrição** | Fluxo(s) de como o usuário pode solicitar suporte |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Chatbot |
 | **Pré condições** | Não há |
@@ -212,6 +219,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC13** | **Visualizar status do nome (Limpo ou sujo)**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Alan Lima](https://github.com/alanrslima)|
 | **Descrição** | Fluxo(s) de como o usuário pode visualizar o status do nome (Limpo ou sujo) |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições finaceiras; <br> > Boa Vista (SCPC) |
 | **Pré condições** | > Usuário possuir CPF; <br> > Usuário liberar acesso aos seus dados de CPF; <br> > SCPC liberar dados financeiros |
@@ -229,6 +237,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC15** | **Simular um empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Alan Lima](https://github.com/alanrslima)|
 | **Descrição** | Fluxo(s) de como o usuário pode simular um empréstimo |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições finaceiras; <br> > Boa Vista (SCPC) |
 | **Pré condições** | > Usuário possuir CPF; <br> > Usuário liberar acesso aos seus dados de CPF; <br> > SCPC liberar dados financeiros |
@@ -244,6 +253,7 @@ Para a confecção dos casos de uso analisamos o [brainstorm](../../elicitacap-d
 | **UC15** | **Contratar um empréstimo**|
 |--|--|
 | **Versão**| Atual: 1.0 (29/04) <br> Anterior: --|
+|**Autor**| [Leonardo Barreiros](https://github.com/leossb36)|
 | **Descrição** | Fluxo(s) de como o usuário pode contratar um empréstimo |
 |**Ator(es)** | > Usuário; <br> > Guiabolso; <br> > Instituições finaceiras; <br> > Boa Vista (SCPC) |
 | **Pré condições** | > Usuário possuir CPF; <br> > Usuário liberar acesso aos seus dados de CPF; <br> > SCPC liberar dados financeiros; <br> > Instituições financeiras liberarem empréstimos para o usuário |

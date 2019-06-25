@@ -147,6 +147,15 @@ Para a avaliação individual das US's foram elaboradas 5 perguntas. Elas serão
 | [US37](../../modelagem/backlog/#us37-ignorar-uma-transacao) |Apesar de só haver 1 critério de aceitação, ele está bem descrito e coerente com a US|
 | [US50](../../modelagem/backlog/#us50-gastos-do-usuario)  |Apesar de só haver 1 critério de aceitação, ele está bem descrito e coerente com a US |
 
+## Parecer
+
+| **US** | **Autor** | **Parecer**|
+|--|--|--|
+|[US50](../../modelagem/backlog/#us50-gastos-do-usuario)| [Elias Bernardo](https://github.com/ebmm01)| Arrumar pontuação da US |
+|[US31](../../modelagem/backlog/#us31-privacidade-de-dados)| [Rafael Makaha](https://github.com/rafaelmakaha)|Arrumar pontuação da US |
+|[US17](../../modelagem/backlog/#us17-fazer-logout)| [Rafael Makaha](https://github.com/rafaelmakaha)|O critério de aceitação está muito fraco. |
+|[US34](../../modelagem/backlog/#us34-seguranca-de-rede)| [Elias Bernardo](https://github.com/ebmm01)| Evoluir critérios de aceitação. |
+
 ## Conclusão
 
 Tanto num contexto macro quanto num micro, o Backlog pode ser avaliado como **Bom** de acordo com os critérios de qualidade estabelecidos pelo grupo. Contudo algumas US's específicas estão regulares ou ruins, sendo necessários refatorá-las.

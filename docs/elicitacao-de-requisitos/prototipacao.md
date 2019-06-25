@@ -1,10 +1,10 @@
 | Data | Versão | Descrição | Autor |
 |--|--|--|--|
-| 09/04/2019 | 1.0 | Adicionado observações | Leonardo dos Santos |
-| 09/04/2019 | 1.1 | Adicionado prototipos | Alan Lima |
-| 10/04/2019 | 1.2 | Atualizado descrições dos protótipos | Alan Lima |
-| 16/04/2019 | 1.3 | Melhorando descrições de observações | Leonardo dos Santos |
-| 16/04/2019 | 1.4 | Revisão de documento | Leonardo dos Santos |
+| 09/04/2019 | 1.0 | Adicionado observações | [Leonardo Barreiros](https://github.com/leossb36) |
+| 09/04/2019 | 1.1 | Adicionado prototipos | [Alan Lima](https://github.com/alanrslima) |
+| 10/04/2019 | 1.2 | Atualizado descrições dos protótipos | [Alan Lima](https://github.com/alanrslima) |
+| 16/04/2019 | 1.3 | Melhorando descrições de observações | [Leonardo Barreiros](https://github.com/leossb36) |
+| 16/04/2019 | 1.4 | Revisão de documento | [Leonardo Barreiros](https://github.com/leossb36) |
 
 ## Introdução
 
@@ -26,6 +26,12 @@ Devido existir diferença entre o aplicativo no sistema Android e no IOS, não f
 
 Concluímos também, que adultos entre 18 e 40 anos de idade têm mais facilidade em utilizar o aplicativo. devido ao hábito de utilizar o aparelho telefônico como objeto de controle financeiro e afins, diferentemente do restante do público, que está mais habituado a resolver quaisquer problema financeiro pessoalmente em suas agências bancárias, ou propriamente, estabelecendo planejamentos manualmente, com objetos, não necessariamente, eletrônicos, como por exemplo uma agenda. Menores de 18 anos, apesar de ter facilidade em utilizar tecnologia, não são considerados um público ativo para a pesquisa, pois não possuem renda e autonomia, portanto, sendo estes dependentes.
 
+||Notificações|
+|--|--|
+|Versão| Atual: 1.0 (09/04/2019) <br> Anterior: - |
+|Descrição|Esta tela ilustra o envio de notificações do GuiaBolso|
+|Autor|[Leonardo Barreiros](https://github.com/leossb36)|
+
 #### Visão da equipe
 
 Apesar da aba do radar CPF informar de forma simples as empresas que consultaram o CPF do usuário, sentiu-se a necessidade de informar o score e também as empresas que sujaram o CPF do mesmo. Ao navegar pela aba Guia foi observado que havia a necessidade de fracionamento das informações contidas nesta aba, pois há uma grande quantidade de informações para o usuário, tornando cansativo a leitura das informações.
@@ -33,6 +39,12 @@ Apesar da aba do radar CPF informar de forma simples as empresas que consultaram
 Também foi observado que há uma grande diferença no design do aplicativo de acordo com o sistema operacional do hardware, IOS, Android e também no próprio computador existe uma grande diversidade de informações que embora seja as mesma, apresentam rotas ou posições distintas, não seguindo um padrão. Contudo tornando a experiência do usuário inconsistente, não sendo algo que siga um padrão.
 
 Apesar da grande variedade do aplicativo em questões de acompanhamento, sentiu-se a necessidade de haver um diálogo entre app e usuário, no sentido de que, deveria haver mais notificações para o usuário dos financiamentos dele. Por exemplo: Se o usuário estabelecer uma meta X para gastos com combustível, o aplicativo poder informar ele quando ele estourar aquele limite, seja no próprio aplicativo, ou por meio de terceiros, como mensagem de texto, email ou propriamente Whatsapp.
+
+||Notificações|
+|--|--|
+|Versão| Atual: 1.0 (09/04/2019) <br> Anterior: - |
+|Descrição|Esta tela ilustra o envio de notificações do GuiaBolso|
+|Autor|[Leonardo Barreiros](https://github.com/leossb36)|
 
 ## Protótipo
 
