@@ -26,7 +26,7 @@ Foi separado os temas principais do aplicativo e apartir deles foram gerados alg
 |--|--|
 | **Versão**| Atual: 1.0 (28/05) <br> Anterior: --|
 | **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Rastreabilidade** | [Especificação Suplementar EPS05](../especificacao/#eps05-suportabilidade) |
 
 
 ### Análise do NFR de suportabilidade
@@ -36,7 +36,7 @@ Foi separado os temas principais do aplicativo e apartir deles foram gerados alg
 | **AN-NFR01** | **Atores**|
 |--|--|
 | **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Rastreabilidade** | [Especificação Suplementar EPS05](../especificacao/#eps05-suportabilidade) |
 
 ## NFR02 - Portabilidade
 
@@ -66,7 +66,7 @@ Foi separado os temas principais do aplicativo e apartir deles foram gerados alg
 |--|--|
 | **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
 | **Autores** | [Marcelo Araújo](https://github.com/santosm46) e [Lucas Machado](https://github.com/lmmLucasMachado) |
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Rastreabilidade** | [Especificação Suplementar EPS04](../especificacao/#eps04-desempenho) |
 
 ### Análise do NFR de desempenho
 
@@ -75,7 +75,7 @@ Foi separado os temas principais do aplicativo e apartir deles foram gerados alg
 | **AN-NFR03** | **Atores**|
 |--|--|
 | **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Rastreabilidade** | [Especificação Suplementar EPS04](../especificacao/#eps04-desempenho) |
 
 
 ## NFR04 - Design
@@ -86,7 +86,7 @@ Foi separado os temas principais do aplicativo e apartir deles foram gerados alg
 |--|--|
 | **Versão**| 1.0 (27/05) <br> Anterior: --|
 | **Autores** | [Leo Santos](https://github.com/leossb36) e [Alan Lima](https://github.com/alanrslima) |
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Rastreabilidade** | [Especificação Suplementar EPS06](../especificacao/#eps06-restricao-de-design) |
 
 ### Análise do NFR de Design
 
@@ -95,7 +95,7 @@ Foi separado os temas principais do aplicativo e apartir deles foram gerados alg
 | **AN-NFR04** | **Atores**|
 |--|--|
 | **Versão**| Atual: 2.0 (28/05) <br> Anterior: 1.0|
-| **Rastreabilidade** | [Especificação Suplementar](../especificacao) |
+| **Rastreabilidade** | [Especificação Suplementar EPS06](../especificacao/#eps06-restricao-de-design) |
 
 
 ## NFR05 - confiabilidade
